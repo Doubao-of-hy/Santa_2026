@@ -15,6 +15,11 @@ def fetch(folder, manifest=None):
     spec = json.loads(
         (manifest or Path(__file__).with_name("references.json")).read_text()
     )
+    fetch_entries(folder, spec)
+
+
+def fetch_entries(folder, spec):
+    folder.mkdir(parents=True, exist_ok=True)
     for name, ref in spec.items():
         dest = folder / (name + ".csv")
         if dest.exists():

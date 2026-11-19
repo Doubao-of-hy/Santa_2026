@@ -2,11 +2,13 @@
 
 Kaggle [Santa 2026 – The Elf Calculator](https://www.kaggle.com/competitions/santa-2026). 每题从给定的整数出发，写一段四则运算程序，让所有目标值在执行期间至少出现一次。评估指标是 1,000 道计分题的总指令数，越少越好。
 
-**当前本地最佳成绩为 138,921 条指令，覆盖全部 1,000 道计分题。** 两套回放器逐题验证通过。纯自写路线的程序为 [standalone.csv.gz](checkpoints/standalone.csv.gz)，解压后即可回放，合计 207,257 条。
+**第二轮检查点为 138,852 条指令，覆盖全部 1,000 道计分题。** 运行 `python checkpoint_patch.py restore data/puzzles.csv out/submission.csv` 可从固定版本的公开参考和本项目的逐题修改恢复文件，输出字节会与已保存的 SHA-256 核对。
+
+第一轮本地最佳为 138,921 条指令。 两套回放器逐题验证通过。纯自写路线的程序为 [standalone.csv.gz](checkpoints/standalone.csv.gz)，解压后即可回放，合计 207,257 条。
 
 [实验记录](EXPERIMENTS.md) · [逐题成绩](progress.csv) · [文件校验与总分](checkpoint.json)
 
-## 运行入口
+## 第一轮运行入口
 
 准备好 `data/puzzles.csv` 后，在仓库根目录运行以下命令。全流程需要 Python 3.11+、NumPy、SciPy 和支持 C++17 的 g++。程序会核验下载的六份公开参考文件，并生成可提交的 `out/submission.csv`。
 
@@ -16,7 +18,7 @@ python reproduce.py data out --workers 4
 
 运行 `python reproduce.py data own-out --own-only` 可单独复现从零求解，成绩文件为 `own-out/standalone.csv`。
 
-## 本轮进度
+## 第一轮进度
 
 | 全量实验 | 总指令数 |
 |---|---:|

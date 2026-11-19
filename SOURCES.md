@@ -32,3 +32,16 @@ python run.py improve data/puzzles.csv out/graph.csv --sources "${sources[@]}" -
 python run.py improve data/puzzles.csv out/cut.csv --sources out/graph.csv "${sources[@]}" --cut-depth 3 --report out/cut.json
 python run.py verify data/puzzles.csv out/cut.csv
 ```
+
+## 第二轮参考
+
+下表列出本轮新增或更新的固定版本，以及各版本单独提交时的本地回放结果。压缩补丁按题记录恢复所用的参考文件；相同程序可能出现在多个作品中。上游的逐题归属、许可证和说明见 [原始附带文件](checkpoints/upstream-notices.zip)。[原始文件散列](references_round2.json)
+
+| 参考数据集 | 版本 | 总指令 |
+|---|---:|---:|
+| [ozertuu/santa-2026-verified-programs](https://www.kaggle.com/datasets/ozertuu/santa-2026-verified-programs/versions/8) | 8 | 141,085 |
+| [alexchilton/santa-2026-rudolph-programs](https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/2) | 2 | 138,929 |
+| [rishabhbafnaiiitd/santa-2026-optimal-programs](https://www.kaggle.com/datasets/rishabhbafnaiiitd/santa-2026-optimal-programs/versions/2) | 2 | 141,204 |
+| [hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs](https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/14) | 14 | 138,951 |
+| [thisray/santa-2026-two-step-dictionary-submission](https://www.kaggle.com/datasets/thisray/santa-2026-two-step-dictionary-submission/versions/1) | 1 | 174,827 |
+| [amanatar/santa-2026-sota-143k-programs](https://www.kaggle.com/datasets/amanatar/santa-2026-sota-143k-programs/versions/1) | 1 | 143,134 |
