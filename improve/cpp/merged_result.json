@@ -1,6 +1,6 @@
 {
-  "total": 137094,
-  "sha256": "ce6389f1028cf7a64d4c0988de8e8029fa8f8751f367d0e4e370b5251c0c7f45",
+  "total": 137072,
+  "sha256": "161ad07f3ae4d4aac6c376ed48c7534b315df1c7f3dbb5580f4fa6e2b30b6953",
   "sources": {
     "current": {
       "valid": 1000,
@@ -19,15 +19,15 @@
       "improved": 0
     },
     "matrix2": {
-      "valid": 140,
-      "improved": 4
+      "valid": 210,
+      "improved": 10
     }
   },
   "adoption": {
-    "current": 996,
+    "current": 990,
     "vsearch": 0,
     "vsearch2": 0,
     "matrix": 0,
-    "matrix2": 4
+    "matrix2": 10
   }
 }
