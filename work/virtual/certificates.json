@@ -1,0 +1,9 @@
+{
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "tested_upper_sha256": "ae30a92334796817e4ad43f69126f3965da8ca975844d84da3e8622a30b49303",
+  "certificate_csv_sha256": "8b338058412e490171fe99e339c7b0b5166837dac059052b1bf2d51ef86b2302",
+  "rows": 1000,
+  "target_count_bound": 26898,
+  "certified_instruction_bound": 33331,
+  "proved_optimal": 16
+}

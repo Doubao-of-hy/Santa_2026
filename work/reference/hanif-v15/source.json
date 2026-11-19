@@ -1,0 +1,19 @@
+{
+  "url": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/15",
+  "license": "Apache 2.0",
+  "version": 15,
+  "label": "Santa 2026 Elf Calculator Peephole Programs",
+  "description": "Verified arithmetic programs for all 1,000 Santa 2026 puzzles at 138,557 instructions. The programs were independently replayed on a laptop. Upstream attribution is in NOTICE.md.",
+  "downloaded_utc": "2026-11-19T09:20:03+00:00",
+  "last_updated_utc": "2026-11-19T09:05:47.143Z",
+  "download_sha256": "ea9dc853c82a804fcb7574d5df968eabfb879ce29efd87b9699371d366b19249",
+  "source_file": "submission.csv",
+  "source_file_sha256": "f522af81f195104bcc433bae4bbeffda69abce136eede1e59ecad8925f49fe04",
+  "normalized_file": "programs.csv",
+  "normalized_sha256": "dec67b602157a0f6182439240143234417aaaebf788d7e20f707a88eca1c864f",
+  "steps": 138557,
+  "preserved_notices": [
+    "LICENSE.txt",
+    "NOTICE.md"
+  ]
+}

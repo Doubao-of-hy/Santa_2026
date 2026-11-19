@@ -1,0 +1,15 @@
+{
+  "author": "Arsen Zakaryan",
+  "run_id": 371372130,
+  "url": "https://www.kaggle.com/kernels/scriptcontent/371372130/download",
+  "notebook_code_version": "377d3381eba66e2d6a4f04bfa4eaedae0674ea21191c47609e6a30e2a921c124",
+  "license": "Apache-2.0",
+  "sources": {
+    "LICENSE": "82f844797fbe2858a94b29dc8e7f32cd52522056c7acb1671545b54a2e8fc686",
+    "recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+    "run_solver.py": "0f40378b71ac07e138746e8186e6f78a4e39bc3562d971549a5667cf440a4b67",
+    "solver_depth4.cpp": "d08916bbd911ff5181ced943cfa27f266e017e99a1703f3c2518da228190dd0d",
+    "SOURCES.md": "5b6ea4109565c6aae7dbd648f47f0948cbbf98e55ac2c044427896e20c4b651e",
+    "recovered/solver.cpp": "72a5afc34541d8af2e7822ddb7a254d3823ba6364cf51584ce45f2da5ffebb8b"
+  }
+}

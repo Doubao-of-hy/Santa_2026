@@ -1,0 +1,1502 @@
+{
+  "puzzles": 1000,
+  "instructions": 146435,
+  "sha256": "896ec81abfb737879fd10eaa9be102d604e2a2e2ce348a083ce688e54efb7094",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "longest_program": 307,
+  "arithmetic_lower_bound": 33331,
+  "exact_puzzles": 16,
+  "exact_steps": 57,
+  "selected": {
+    "work/gen/shrink-full.csv": 90,
+    "work/virtual/palette-powers-full.csv": 77,
+    "work/gpu/matrix-expansion-independent.csv": 26,
+    "work/gen/atlas-expanded.csv": 54,
+    "work/gen/component-full.csv": 34,
+    "work/gen/arsen-delete-full.csv": 118,
+    "work/creative/shifted-ind-replay.csv": 7,
+    "work/gen/atakan-frontier-full.csv": 64,
+    "work/creative/broad-ind-replay.csv": 16,
+    "work/virtual/hyper-fresh-full.csv": 7,
+    "work/virtual/continue-paid.csv": 1,
+    "work/gen/matrix-splice.csv": 13,
+    "work/virtual/powers-full.csv": 25,
+    "work/gen/matrix-atlas.csv": 93,
+    "work/gen/trajectory-full.csv": 74,
+    "work/gen/model-cp-full.csv": 19,
+    "work/virtual/compound-raw.csv": 6,
+    "work/creative/smooth-independent-full.csv": 4,
+    "work/gpu/independent-local-conditioned.csv": 7,
+    "work/gen/atlas-third.csv": 30,
+    "work/virtual/current-priced.csv": 12,
+    "work/gen/atlas-continued.csv": 32,
+    "work/gen/late-base.csv": 16,
+    "original-172868": 16,
+    "work/virtual/matrix-mid-raw.csv": 42,
+    "work/virtual/matrix-wide-high.csv": 12,
+    "work/gen/atlas-scored-raw.csv": 4,
+    "work/gen/rudolph-fresh.csv": 6,
+    "work/gen/splice-bridges.csv": 12,
+    "work/gen/splice-updated.csv": 10,
+    "work/gpu/matrix-factor-next-independent.csv": 9,
+    "work/gen/splice-full.csv": 22,
+    "work/gpu/matrix-exchange-next-independent.csv": 13,
+    "work/gen/arsen-joint-v7-pilot.csv": 2,
+    "work/gpu/matrix-template-independent.csv": 1,
+    "work/gpu/landmark-expansion.csv": 2,
+    "work/gen/shrink-pilot.csv": 2,
+    "work/gpu/matrix-factors-independent.csv": 2,
+    "work/gen/atakan-frontier-portable-pilot.csv": 1,
+    "work/virtual/palette-powers.csv": 2,
+    "work/gpu/matrix-exchange-independent.csv": 2,
+    "work/gen/arsen-delete-pilot.csv": 4,
+    "work/gpu/fresh-remaining.csv": 1,
+    "work/creative/bridge-ind-replay.csv": 1,
+    "work/gen/model-cp-pilot.csv": 2,
+    "work/gen/post-atlas-base.csv": 1,
+    "work/virtual/scale-fresh.csv": 2,
+    "work/gen/best-generated.csv": 2,
+    "work/virtual/seed-palette.csv": 1,
+    "work/gpu/independent-foreign-conditioned.csv": 1
+  },
+  "inputs": {
+    "final-allocated.csv": {
+      "steps": 172868,
+      "sha256": "02c59e9b5668c4b5ab90b2806170c01277456c2af93718b61fe41387edd94325"
+    },
+    "final-algebra.csv": {
+      "steps": 172986,
+      "sha256": "d078a943a2cdf406215d112256e8e89ab7b4ecf623b556397e89d24258235f2a"
+    },
+    "final-native-rewrite.csv": {
+      "steps": 173023,
+      "sha256": "5a148cba3ad8ed2c882d0d1c4ecfc81281637cb55e8d22fa5e66246579b0c275"
+    },
+    "final-pre-rewrite.csv": {
+      "steps": 173376,
+      "sha256": "4534568b53cb9510fdf4694ba845cf418eeac9f92a28378e0d9d099efb2ddfd8"
+    },
+    "submission.csv": {
+      "steps": 173738,
+      "sha256": "bd16c65f81b7d503c026563775dfd3bc3f55894be0c2de2a36afa6fa47ad3991"
+    }
+  },
+  "verification": {
+    "independent_full_replay": true,
+    "median_program": 135.5,
+    "p90_program": 237,
+    "submission_bytes": 2357656,
+    "kaggle_submission_status": "local_only"
+  },
+  "benchmarks": {
+    "official_sample_steps": 1490379,
+    "official_sample_sha256": "5b9d3ba58b58c6b3c158ba2e7cc98ae66994a0f21168c95e65297214e274ab5d",
+    "official_zip_sha256": "b86f2aef7ff481cdcd1f694dfd9e920d1113ab2146d7fe6bf00094b6ea692181",
+    "official_sample_reduction_percent": 88.4011,
+    "initial_radix_steps": 287503,
+    "early_dictionary_steps": 202265,
+    "public_reference_portfolio_steps": 138904,
+    "public_leaderboard_first_steps": 130600,
+    "public_leaderboard_snapshot_beijing": "2026-11-19 21:38",
+    "public_leaderboard_url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
+    "public_reference_sources": {
+      "asterios": {
+        "instructions": 141308,
+        "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/6",
+        "license": "Apache 2.0",
+        "sha256": "5b4f8dcd7dbe9c19e7be7081a20f346427f0253b97b3eaf7bf8a089e199faf91",
+        "selected_puzzles": 513
+      },
+      "atakan": {
+        "instructions": 138905,
+        "url": "https://www.kaggle.com/code/atakanaldemir/santa-2026-joint-recipes-for-large-puzzles?scriptVersionId=371303793",
+        "license": "Apache 2.0",
+        "sha256": "c139bcb9bf6bdb8acd5a5e8c20699373c659c83c15737ef491b3cbb9c2705289",
+        "selected_puzzles": 486
+      },
+      "rudolph": {
+        "instructions": 138929,
+        "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/1",
+        "license": "CC0: Public Domain",
+        "sha256": "a401d29d1f6daa3e7e9f00c76b8037a0d09ae42c9ff1ba30ae05ca33766c87c2",
+        "selected_puzzles": 1
+      }
+    },
+    "current_reduction_from_sample_percent": 90.1746,
+    "latest_official_leaderboard": {
+      "checked_at": "2026-11-19T13:38:57.410738+00:00",
+      "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
+      "top_scores": [
+        130600,
+        130698,
+        131694,
+        131721,
+        131856,
+        132446,
+        132446,
+        132664,
+        132909,
+        133478
+      ]
+    }
+  },
+  "optimization_checkpoints": [
+    {
+      "utc": "2026-11-19T09:38:51+00:00",
+      "previous_sha256": "02c59e9b5668c4b5ab90b2806170c01277456c2af93718b61fe41387edd94325",
+      "score": 168330,
+      "sha256": "96d609dd95757442de81944365b66c176c5709f61c59273451418f43d73e5441",
+      "adopted": {
+        "work/cones/independent.csv": {
+          "rows": 481,
+          "saved": 896,
+          "snapshot_size": 1000
+        },
+        "work/lattice/pilot.csv": {
+          "rows": 3,
+          "saved": 3,
+          "snapshot_size": 1000
+        },
+        "work/planted/retained-pilot.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1000
+        },
+        "work/gen/atlas-scored-raw.csv": {
+          "rows": 193,
+          "saved": 1823,
+          "snapshot_size": 1000
+        },
+        "work/gen/arsen-fresh.csv": {
+          "rows": 70,
+          "saved": 856,
+          "snapshot_size": 125
+        },
+        "work/gen/konbu-fresh.csv": {
+          "rows": 60,
+          "saved": 718,
+          "snapshot_size": 300
+        },
+        "work/gen/juan-greedy-pilot.csv": {
+          "rows": 15,
+          "saved": 164,
+          "snapshot_size": 35
+        },
+        "work/gen/konbu-reuse-pilot.csv": {
+          "rows": 5,
+          "saved": 77,
+          "snapshot_size": 24
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T09:53:58+00:00",
+      "previous_sha256": "96d609dd95757442de81944365b66c176c5709f61c59273451418f43d73e5441",
+      "score": 164835,
+      "sha256": "35051a4e84cdc997a65eeaf46d6d34854dd9988d0c7c9161df28bcce49cf57f7",
+      "adopted": {
+        "work/virtual/fresh-full.csv": {
+          "rows": 125,
+          "saved": 1763,
+          "snapshot_size": 1000
+        },
+        "work/virtual/join-pilot.csv": {
+          "rows": 8,
+          "saved": 34,
+          "snapshot_size": 1000
+        },
+        "work/virtual/paid-pilot.csv": {
+          "rows": 10,
+          "saved": 37,
+          "snapshot_size": 1000
+        },
+        "work/gen/arsen-fresh.csv": {
+          "rows": 28,
+          "saved": 194,
+          "snapshot_size": 225
+        },
+        "work/gen/konbu-fresh.csv": {
+          "rows": 34,
+          "saved": 402,
+          "snapshot_size": 526
+        },
+        "work/gen/rudolph-fast-pilot.csv": {
+          "rows": 9,
+          "saved": 77,
+          "snapshot_size": 18
+        },
+        "work/gen/rudolph-fresh.csv": {
+          "rows": 144,
+          "saved": 988,
+          "snapshot_size": 276
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T10:06:30+00:00",
+      "previous_sha256": "35051a4e84cdc997a65eeaf46d6d34854dd9988d0c7c9161df28bcce49cf57f7",
+      "score": 162863,
+      "sha256": "49ff46092d54989513056584b2b08542f046e20788e724621362bbc5a1daf5c5",
+      "adopted": {
+        "work/cones/fresh-relations.csv": {
+          "rows": 239,
+          "saved": 463,
+          "snapshot_size": 1000
+        },
+        "work/cones/fresh-mix.csv": {
+          "rows": 2,
+          "saved": 4,
+          "snapshot_size": 1000
+        },
+        "work/virtual/paid-pilot.csv": {
+          "rows": 7,
+          "saved": 31,
+          "snapshot_size": 1000
+        },
+        "work/virtual/paid-full.csv": {
+          "rows": 32,
+          "saved": 139,
+          "snapshot_size": 1000
+        },
+        "work/gen/incumbent-plus-later.csv": {
+          "rows": 19,
+          "saved": 113,
+          "snapshot_size": 1000
+        },
+        "work/gen/rudolph-fresh.csv": {
+          "rows": 147,
+          "saved": 984,
+          "snapshot_size": 550
+        },
+        "work/gen/konbu-fresh.csv": {
+          "rows": 17,
+          "saved": 200,
+          "snapshot_size": 676
+        },
+        "work/gen/arsen-fresh.csv": {
+          "rows": 7,
+          "saved": 38,
+          "snapshot_size": 300
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T10:31:27+00:00",
+      "previous_sha256": "49ff46092d54989513056584b2b08542f046e20788e724621362bbc5a1daf5c5",
+      "score": 161363,
+      "sha256": "a9c6d92c65da431ba6441b54df5394b008140cd1044650b63e4233086cc69778",
+      "adopted": {
+        "work/gen/fresh-current.csv": {
+          "rows": 106,
+          "saved": 632,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "98fcfa2c71281084db8629bbe5610587f81ae27b60b35f963d6e4da824192464"
+        },
+        "work/virtual/paid-full.csv": {
+          "rows": 35,
+          "saved": 116,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "c9186322312752a30bb32163e2f088b44e462144d03ce58adf755b7f645dbc4a"
+        },
+        "work/virtual/priced-pilot.csv": {
+          "rows": 11,
+          "saved": 44,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "f50bf6a70ee022ae4081cc620150aba915b6943d17a0e99bbba829b29913da98"
+        },
+        "work/virtual/rollout-pilot.csv": {
+          "rows": 3,
+          "saved": 8,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "21dca4a5765b9db38873eacbe6dd433bf4557599352bba5bce5c27ca82b7212a"
+        },
+        "work/gpu/gpu-own-context.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "2b16f54a994574bbef03a3a4c31fdd5413a65d83db65f5c12cd61af72cf8c407"
+        },
+        "work/gen/rudolph-fresh.csv": {
+          "rows": 54,
+          "saved": 471,
+          "snapshot_size": 750,
+          "adopted_programs_sha256": "e58998728e9ffa7317baf43ab87a1f7f66448ced3766e6b69423b38d29908407"
+        },
+        "work/gen/konbu-fresh.csv": {
+          "rows": 16,
+          "saved": 205,
+          "snapshot_size": 826,
+          "adopted_programs_sha256": "a0ebb835d5ab77746b4f79899fc174a38adf7996b447d967fc390b86014cb578"
+        },
+        "work/gen/arsen-fresh.csv": {
+          "rows": 6,
+          "saved": 23,
+          "snapshot_size": 375,
+          "adopted_programs_sha256": "1194da7ae4cf1b3204c9c2196f98f0d67746d375272c9a8ce441718f06e38285"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T10:51:47+00:00",
+      "previous_sha256": "a9c6d92c65da431ba6441b54df5394b008140cd1044650b63e4233086cc69778",
+      "score": 158046,
+      "sha256": "4f854547bb69b33e952bd4813dbd592922c6db3d83c7e2c2bf2a38d2a1c81389",
+      "adopted": {
+        "work/gen/atlas-continued.csv": {
+          "rows": 657,
+          "saved": 1665,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "1eb373719d230d0c43f467d153ec18c99f616c87d5a18bcb7ae3b8bd85151b44"
+        },
+        "work/gen/best-generated.csv": {
+          "rows": 112,
+          "saved": 938,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "d46a57aa3c8007f5c39929937c973729192a13ee0f284d17e209a4b9f4df4950"
+        },
+        "work/virtual/current-priced.csv": {
+          "rows": 92,
+          "saved": 393,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "b72ca6b87195d5efb87a4f88f2edcabef8a5d87d1e3e04cadb416be4e27df000"
+        },
+        "work/virtual/continue-paid.csv": {
+          "rows": 41,
+          "saved": 231,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "0c20d574587e35bb5951c996223948fe4f07bcdfc8fb45003b0cc1547b8adb98"
+        },
+        "work/virtual/continue-base.csv": {
+          "rows": 20,
+          "saved": 90,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "ff2d8be91e240d18f8af0fe422f5fd90160d7bdc4402f04a95efe7338d67b83a"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T10:54:10+00:00",
+      "previous_sha256": "4f854547bb69b33e952bd4813dbd592922c6db3d83c7e2c2bf2a38d2a1c81389",
+      "score": 157746,
+      "sha256": "840aeb589104529594d7d50210ae277fa976cea8376b47080b6ca1bd5e768c08",
+      "adopted": {
+        "work/gen/rudolph-complete.csv": {
+          "rows": 22,
+          "saved": 259,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "f52d8f3fb6ad4f5168d3c11fecee256b0348cd52f4e30add5ed5f04020026672"
+        },
+        "work/gen/konbu-complete.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "38ba58a27f56cbeec506b195a7afd3018887cd2568ffec66b4d35343f46396a5"
+        },
+        "work/gen/arsen-complete.csv": {
+          "rows": 2,
+          "saved": 18,
+          "snapshot_size": 425,
+          "adopted_programs_sha256": "8a3f14211fa7d8f8a89ffe406821c85be7809d21a0b81307ada8f05947c19ea7"
+        },
+        "work/gpu/wave-wide.csv": {
+          "rows": 3,
+          "saved": 20,
+          "snapshot_size": 12,
+          "adopted_programs_sha256": "14cb5822143700b04ecd8aa7427c757899b504c94e3f882f80fcf542f7eabd81"
+        },
+        "work/creative/hcub-pilot.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 24,
+          "adopted_programs_sha256": "22eb9811f359c370d428f6b02c036a5c36973410beabdd171317ad127649b633"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T11:14:01+00:00",
+      "previous_sha256": "840aeb589104529594d7d50210ae277fa976cea8376b47080b6ca1bd5e768c08",
+      "score": 155861,
+      "sha256": "feda1c1d55232c22ee5c4c13eb9588559da340294a4a8b9cc503ba903276b50c",
+      "adopted": {
+        "work/gen/atlas-expanded.csv": {
+          "rows": 341,
+          "saved": 1416,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "03317da5e8f2cee84e61cf277cd7bad7d5cd9998931139e323afb024b12d1107"
+        },
+        "work/virtual/current-priced.csv": {
+          "rows": 81,
+          "saved": 363,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "5f46e44a8ab1e845eb92e5f606334f9cb83e238d0266c766e2032f1087589a25"
+        },
+        "work/virtual/continue-paid.csv": {
+          "rows": 10,
+          "saved": 35,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "550230c79283829a04862763ae99ed46bd6e83aa222335266694a101c1b62788"
+        },
+        "work/virtual/continue-base.csv": {
+          "rows": 12,
+          "saved": 39,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "0a9769b8a912116c8b8756736bd505a41f46241f739a6d4ac8efce6045e177fe"
+        },
+        "work/gpu/wave-independent-portfolio.csv": {
+          "rows": 3,
+          "saved": 7,
+          "snapshot_size": 24,
+          "adopted_programs_sha256": "76c14748b005428e2622f0597d114efa28de2142f054a6708ebdcd456fe40344"
+        },
+        "work/gpu/wave-neighbor.csv": {
+          "rows": 1,
+          "saved": 3,
+          "snapshot_size": 12,
+          "adopted_programs_sha256": "3c2954a9f25f1ed63143daf8a7db4a5f6257d647add30a4e1dd65db8f738756c"
+        },
+        "work/virtual/seed-palette.csv": {
+          "rows": 8,
+          "saved": 14,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "81e0c91c99bcb9ddea1c8761c96d74afefeee250fb1fd1e312ed7fc58bde5cae"
+        },
+        "work/virtual/factor-bias.csv": {
+          "rows": 3,
+          "saved": 8,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "1424a5699d7e63c52247e44bf010fe188e56c309884c349c8bb833c86fe2750b"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T11:19:31+00:00",
+      "previous_sha256": "feda1c1d55232c22ee5c4c13eb9588559da340294a4a8b9cc503ba903276b50c",
+      "score": 155612,
+      "sha256": "f892a261a044cd58e6434e5c99a7db12f91affaa0e656f88e3e435f5681ad52e",
+      "adopted": {
+        "work/gen/atlas-expanded.csv": {
+          "rows": 30,
+          "saved": 47,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "c1a11fa1630245b3577df223c05e2b928b9d1a47d9222f6fed2034258e559336"
+        },
+        "work/gen/atakan-frontier-portable-pilot.csv": {
+          "rows": 8,
+          "saved": 10,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "537fc8578d3177c2a682c28e46df3723c05cc28426139e543cb5f6f602fc77c5"
+        },
+        "work/gen/frontier-base.csv": {
+          "rows": 18,
+          "saved": 75,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "465277acbaab304dfdbfe4b8e0bf791f2a8b4f0518b888a02f7d21f13870ca98"
+        },
+        "work/gen/atakan-frontier-full.csv": {
+          "rows": 10,
+          "saved": 20,
+          "snapshot_size": 25,
+          "adopted_programs_sha256": "9ba8757bc94edb57ec8ee9991cbb1cce56a072e2f2f3ee37a4811e074964f84c"
+        },
+        "work/gen/rudolph-guided-close.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 50,
+          "adopted_programs_sha256": "dee7b127adbc57f4cbf2f133b4b5e7a0e0b68677beef87db40f6f2ba028619cf"
+        },
+        "work/virtual/current-priced.csv": {
+          "rows": 16,
+          "saved": 83,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "d35710a204f476a8c798e12edfe537291674fbb1fcd3eba5dec8c581e54bb17e"
+        },
+        "work/virtual/continue-paid.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "039c96ba4ed9f69e915ef100b10316bfd428fb668153cfc7772c73bff88ecfdd"
+        },
+        "work/virtual/continue-base.csv": {
+          "rows": 3,
+          "saved": 11,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "61a47356db726c8258f79e056f28b5b47877445252d259be7c391ccb1df3e850"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:28:07+00:00",
+      "previous_sha256": "f892a261a044cd58e6434e5c99a7db12f91affaa0e656f88e3e435f5681ad52e",
+      "score": 155222,
+      "sha256": "fb25a535ddd96d5eb7d5e23b85c443d2f4757f0006c7f17b1bafa033de8e4aab",
+      "adopted": {
+        "work/gen/atlas-third.csv": {
+          "rows": 39,
+          "saved": 96,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "f5c5dd830f24f816107c10434e9592566f58a0013de2da173b258f0ad1388cce"
+        },
+        "work/gen/atakan-frontier-full.csv": {
+          "rows": 46,
+          "saved": 76,
+          "snapshot_size": 150,
+          "adopted_programs_sha256": "eaed92596e1c6ca1b5d59fcbb0d2f8d89da9505940717b632bc44330114a79b7"
+        },
+        "work/gen/rudolph-guided-close.csv": {
+          "rows": 5,
+          "saved": 16,
+          "snapshot_size": 126,
+          "adopted_programs_sha256": "4325e69f905c5b47e23a903135a335b80e97e8a5d976b8750b50856a58e50775"
+        },
+        "work/virtual/current-priced.csv": {
+          "rows": 39,
+          "saved": 189,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "f4114eb25da107b6e590ede3e36e85a3cc5517c393985f59d576cb06e89461f8"
+        },
+        "work/virtual/continue-base.csv": {
+          "rows": 2,
+          "saved": 5,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "75465854dfaa566c3955eb7f83a9cd90b87c7ccb3b7d870185598b9882b3b79c"
+        },
+        "work/virtual/continue-paid.csv": {
+          "rows": 3,
+          "saved": 6,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "433000d925f16c6820f8bb39e8de69428a6943d89079a8d1c37623df297376d6"
+        },
+        "work/virtual/closure-fresh.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "52d47776bd0e580787ad446699c20a7a8dac3e6318b6f5c2da1366baa517d618"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:29:18+00:00",
+      "previous_sha256": "fb25a535ddd96d5eb7d5e23b85c443d2f4757f0006c7f17b1bafa033de8e4aab",
+      "score": 155195,
+      "sha256": "b6be082707a7f8d3bd0f9ae79ea78519d186a6c9ff8aef5593623a236ea6e62a",
+      "adopted": {
+        "work/gen/turn-portfolio.csv": {
+          "rows": 4,
+          "saved": 24,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "b03a29f2ccbdafdf6766c3745879c15f823679f64227b122e409a0bb91e2e47e"
+        },
+        "work/virtual/hyper-fresh.csv": {
+          "rows": 2,
+          "saved": 3,
+          "snapshot_size": 35,
+          "adopted_programs_sha256": "cc047ca549ae71b74c6767c3dda6f975ca433efd09f71f35998cc1635d630d45"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:33:38+00:00",
+      "previous_sha256": "b6be082707a7f8d3bd0f9ae79ea78519d186a6c9ff8aef5593623a236ea6e62a",
+      "score": 154204,
+      "sha256": "6ec09a02ed6e13f499e844ef6368df00688cd2d538c5861650301d537b14ca10",
+      "adopted": {
+        "work/gpu/fresh-remaining.csv": {
+          "rows": 10,
+          "saved": 44,
+          "snapshot_size": 104,
+          "adopted_programs_sha256": "c9d724f226121c461ad21e4ddc1942a50c891322f2995a4949c4d16170dd924c"
+        },
+        "work/virtual/hyper-fresh-full.csv": {
+          "rows": 95,
+          "saved": 170,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "298a7fc8ef15bcfb24777d23d0e9f95bdb53b1003a5b5d55ba955074e4aa0596"
+        },
+        "work/gen/atakan-frontier-full.csv": {
+          "rows": 184,
+          "saved": 277,
+          "snapshot_size": 625,
+          "adopted_programs_sha256": "3169c52692f577a4d0295a498a98c8e4f400c24fcc7f8de75d1de8eef2749ee3"
+        },
+        "work/gen/atlas-third.csv": {
+          "rows": 119,
+          "saved": 232,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "7a51f289e422264ff6620433380eb7fd5c72257bf4f75ce6c465f5923c9c729f"
+        },
+        "work/virtual/continue-base.csv": {
+          "rows": 8,
+          "saved": 37,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "c306b6c9da049e5ed37498b39dd8da89276d673c292f2370ae814b76e1cb657a"
+        },
+        "work/virtual/continue-paid.csv": {
+          "rows": 22,
+          "saved": 78,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "35eb93b2319c91323613264c96c33c38bd691039593d66511a7b59481fb1593c"
+        },
+        "work/virtual/current-priced.csv": {
+          "rows": 38,
+          "saved": 153,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "14d6873d921461a36da3701bc5eaebcf11ebbc1f0f281a0ee21c0badf983c2a3"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:36:53+00:00",
+      "previous_sha256": "6ec09a02ed6e13f499e844ef6368df00688cd2d538c5861650301d537b14ca10",
+      "score": 153909,
+      "sha256": "00cdfbde2169a2065d4d868e1ea397451c96e8c4c7a1c28ef0855a5a764e1b0e",
+      "adopted": {
+        "work/gen/post-atlas-base.csv": {
+          "rows": 10,
+          "saved": 28,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "74f65d0462196f96da1354743e203ad22e0ba2f90559bf7f56083de22897aef0"
+        },
+        "work/gen/atakan-frontier-full.csv": {
+          "rows": 73,
+          "saved": 127,
+          "snapshot_size": 875,
+          "adopted_programs_sha256": "ced189187c5b0866f9e8d48c8e0352a44c6be51769cbfd6c3819007d9a367043"
+        },
+        "work/gpu/fresh-remaining.csv": {
+          "rows": 1,
+          "saved": 3,
+          "snapshot_size": 112,
+          "adopted_programs_sha256": "92f89790ec421c294acaed63c620cde8c626a6252b2df5e64ca94643a5034d2e"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 31,
+          "saved": 106,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "2b9e7a6c3d2a78931ebde1280dfda965a22db70d169586f4d2f46a6ac9807ead"
+        },
+        "work/virtual/palette-powers.csv": {
+          "rows": 5,
+          "saved": 26,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "13e1af6a32697a691d10027de2083d3fe3941841969dc798e483044cd6114538"
+        },
+        "work/virtual/meet-fresh.csv": {
+          "rows": 3,
+          "saved": 5,
+          "snapshot_size": 35,
+          "adopted_programs_sha256": "f815e2a7910e7f0ac14a3d7b19335307be63fda8dd231f7cc37a1bbd7d7c6899"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:38:15+00:00",
+      "previous_sha256": "00cdfbde2169a2065d4d868e1ea397451c96e8c4c7a1c28ef0855a5a764e1b0e",
+      "score": 153609,
+      "sha256": "3b4876cbf775052f3f49fcc956f73ea7247a3bdc16f063d31356ec20c5188168",
+      "adopted": {
+        "work/gen/splice-full.csv": {
+          "rows": 89,
+          "saved": 121,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "e11b1a087cc7b6bcf375eb3d33600b1a3040148e37e074398c6b72bf694d9745"
+        },
+        "work/gen/atakan-frontier-full.csv": {
+          "rows": 23,
+          "saved": 32,
+          "snapshot_size": 975,
+          "adopted_programs_sha256": "11d5d294ed65cafa7cfc4a153a686da0aa34d7c2da98f33b6637d834c285aad6"
+        },
+        "work/creative/smooth-independent-full.csv": {
+          "rows": 18,
+          "saved": 18,
+          "snapshot_size": 805,
+          "adopted_programs_sha256": "07eccdf94586d7f1ed4b915db9971f8dfc27c3c4b8bcbdd76712e5632bb0319f"
+        },
+        "work/gpu/landmark-expansion.csv": {
+          "rows": 7,
+          "saved": 32,
+          "snapshot_size": 73,
+          "adopted_programs_sha256": "36db22671edb5a2f2cdc78114f7f8b044d10731e70404926022dca17afa653e9"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 19,
+          "saved": 97,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "6359cb4cf485e5ffbdfc2fea1b8bf92269f3f3994b1d58381f8fbb05876add80"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:42:26+00:00",
+      "previous_sha256": "3b4876cbf775052f3f49fcc956f73ea7247a3bdc16f063d31356ec20c5188168",
+      "score": 153275,
+      "sha256": "a454637b0fe02ad552f4e306dfe8283c0fd6816cbc2bcc310402dd3b9dfb7037",
+      "adopted": {
+        "work/gen/splice-bridges.csv": {
+          "rows": 52,
+          "saved": 62,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "c6720d69a59d1fabbca9c76e08a97f9f664e464e744610906575b258af30f1c3"
+        },
+        "work/creative/smooth-independent-full.csv": {
+          "rows": 4,
+          "saved": 4,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "797382b018ef2d4b5d3e513a6558e227fda2c18c2a239f0bdb1731ce624f8f80"
+        },
+        "work/gpu/landmark-expansion.csv": {
+          "rows": 6,
+          "saved": 12,
+          "snapshot_size": 142,
+          "adopted_programs_sha256": "e9a3ea7f66420dd8c85a954ddb9f8eb7412d22b517e58ce9fda834decdb94eaf"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 37,
+          "saved": 256,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "ca76e8399f3446cdceca13665833f050e728f95398f3610bb3e7da8455d3e83b"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:43:58+00:00",
+      "previous_sha256": "a454637b0fe02ad552f4e306dfe8283c0fd6816cbc2bcc310402dd3b9dfb7037",
+      "score": 153118,
+      "sha256": "33d2bdbe053dbf0623269434737d18bb7596cdc421c90d9d0abfc0cd54b716cc",
+      "adopted": {
+        "work/gpu/independent-conditioned.csv": {
+          "rows": 7,
+          "saved": 11,
+          "snapshot_size": 25,
+          "adopted_programs_sha256": "c8b201632ae6d25ac2096adc417e96c1dbad52b80c8027add9aad6e679b143ba"
+        },
+        "work/gpu/independent-local-conditioned.csv": {
+          "rows": 12,
+          "saved": 16,
+          "snapshot_size": 51,
+          "adopted_programs_sha256": "436dc10d3029023a11a4906d617fe569f69b834a8597401225b7d4b74323f3dd"
+        },
+        "work/gpu/landmark-expansion.csv": {
+          "rows": 1,
+          "saved": 4,
+          "snapshot_size": 166,
+          "adopted_programs_sha256": "fb4c23a78e4a9800f4f329afc8429455745a474b69815d629ba158865c9a91f8"
+        },
+        "work/gpu/independent-foreign-conditioned.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "87a858042384d14158d8f0575c68537f71b82d1ff39ef896be874f3e0ffaa6e6"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 4,
+          "saved": 20,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "79f2115a88dfd57bd6e5b97dac54deff69d1e2fd4ed2abe866f51962b4f9537d"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 14,
+          "saved": 104,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "e73d63657a50d7cbca0f4ee1dcdc69894fa2b442ef8a11d166dec49425622af2"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:48:36+00:00",
+      "previous_sha256": "33d2bdbe053dbf0623269434737d18bb7596cdc421c90d9d0abfc0cd54b716cc",
+      "score": 151609,
+      "sha256": "225dce35260196ed3939dbe8d5838eebd7e0d8c298340262fd33ce91ffcb8ad6",
+      "adopted": {
+        "work/virtual/matrix-example.csv": {
+          "rows": 1,
+          "saved": 31,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "cf206135090219e25281ae82d0fe75d21c1b3720c09a8e40b38b04d2bba7c349"
+        },
+        "work/virtual/matrix-high.csv": {
+          "rows": 53,
+          "saved": 1153,
+          "snapshot_size": 60,
+          "adopted_programs_sha256": "d5c4f92c09e6e1121e0aceeeba8bbebd7faecfa7dec882b9c927c68a97298222"
+        },
+        "work/creative/matrix-program-independent.csv": {
+          "rows": 7,
+          "saved": 14,
+          "snapshot_size": 114,
+          "adopted_programs_sha256": "da6ece2d6c124bcb838c28962094515200bac593c4125a0e52c84eee7805854b"
+        },
+        "work/gen/splice-updated.csv": {
+          "rows": 57,
+          "saved": 98,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "64581a90e346da7bb7c58033273acabfa4f50ba465087aa59962eeeb62201ede"
+        },
+        "work/gpu/independent-local-conditioned.csv": {
+          "rows": 9,
+          "saved": 13,
+          "snapshot_size": 92,
+          "adopted_programs_sha256": "8efbb9e6972a9f6b53e3558f1317630f9eeaeb9964c0f52966b4ae262499f82d"
+        },
+        "work/gpu/landmark-expansion.csv": {
+          "rows": 2,
+          "saved": 4,
+          "snapshot_size": 200,
+          "adopted_programs_sha256": "8e1545e6ca2ce4064460abdc316a61455ddf3120ac92ec1ccda5d08e9872f9f4"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 22,
+          "saved": 82,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "34c0cba444bb9d4aa9cb095f403c0cccb67bec62778cd4ce099e3b845781367f"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 23,
+          "saved": 114,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "93b7d6b474d4306b16343fdb2b31a514462f3bb7db54531e58ca9d03b328d9d4"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:49:24+00:00",
+      "previous_sha256": "225dce35260196ed3939dbe8d5838eebd7e0d8c298340262fd33ce91ffcb8ad6",
+      "score": 151301,
+      "sha256": "79ec958341c169cbf19daef6e7db30cb884502b46b2ed29ac55cbffe0b2919d0",
+      "adopted": {
+        "work/gen/matrix-splice.csv": {
+          "rows": 73,
+          "saved": 162,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "e53e1a7f3127c1f2292e82d524e20d2cfba45917bb981a1ecb33d8d65c0e2ee5"
+        },
+        "work/gen/matrix-atlas.csv": {
+          "rows": 63,
+          "saved": 118,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "eb799ac7f3cfb8dee6a78a5d5c35db292f9e60a9ab2afc826b3fc2c9bf4af231"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 11,
+          "saved": 15,
+          "snapshot_size": 78,
+          "adopted_programs_sha256": "47fad2f08ced66cfa23edaa704c4e690d3fdffaca42c3950f9f4fd9a104a37f2"
+        },
+        "work/virtual/matrix-graft-independent.csv": {
+          "rows": 4,
+          "saved": 11,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "8e774aad321249ac5623100b487db79d91f08419a8037e24789720ff32619d4a"
+        },
+        "work/gpu/independent-local-conditioned.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 94,
+          "adopted_programs_sha256": "d5909165819ce60a647ad9a2ea70ffc629806121876dc32c48d58d0be4a7a53b"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:53:18+00:00",
+      "previous_sha256": "79ec958341c169cbf19daef6e7db30cb884502b46b2ed29ac55cbffe0b2919d0",
+      "score": 150114,
+      "sha256": "63ab4b620c5c967a62fa5b303af1e4b6521c7f39a703919c138cd26cb96da6df",
+      "adopted": {
+        "work/virtual/matrix-high.csv": {
+          "rows": 31,
+          "saved": 636,
+          "snapshot_size": 100,
+          "adopted_programs_sha256": "62df9fc6142626fdefa651912447b78ff14e7312ae589a9d730d486e9a7e1eb4"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 10,
+          "saved": 155,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "d6d99d93718382ed14dd6403fbb395efa58f05b1eb191c21d854ea1094ef1ad9"
+        },
+        "work/creative/matrix-program-independent.csv": {
+          "rows": 1,
+          "saved": 4,
+          "snapshot_size": 489,
+          "adopted_programs_sha256": "64909b4c362c03fe21944b15c57bb6a401ccb98afadbc4ce31dd98f60be8eb01"
+        },
+        "work/virtual/matrix-graft-independent.csv": {
+          "rows": 2,
+          "saved": 8,
+          "snapshot_size": 50,
+          "adopted_programs_sha256": "b80ca93b53c1b979f49194d637364164b9a1f2685b24f75b086efc83d45cd053"
+        },
+        "work/gpu/independent-local-conditioned.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 100,
+          "adopted_programs_sha256": "07edf98c19d1704955e35b62a9b1ccea387eef342c7d93d86fe6f590b1060e95"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 8,
+          "saved": 31,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "e9d63c5591ae85d1f4de88541e6d64a8f86c31f3a9bb975fbcec876bd12ca273"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 9,
+          "saved": 34,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "7a7332342271874815d41dee6e92743131d8f3cfb8170b007afb20d7ab3a5d19"
+        },
+        "work/gen/matrix-atlas.csv": {
+          "rows": 164,
+          "saved": 318,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "1b1f65a9940ced62a0a3f310d0e61d03e4b15484cb4d9009b8e277202b918d6c"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T12:57:40+00:00",
+      "previous_sha256": "63ab4b620c5c967a62fa5b303af1e4b6521c7f39a703919c138cd26cb96da6df",
+      "score": 149635,
+      "sha256": "8690ad025bad28e88b9880c302ae85e72bd858598834da9b2c28a65f98181b70",
+      "adopted": {
+        "work/creative/family-program-fresh.csv": {
+          "rows": 4,
+          "saved": 88,
+          "snapshot_size": 186,
+          "adopted_programs_sha256": "a85cab826c3be442f8bc25d0796e7777e1d2d814fadf2f47c6fb2b40193adc57"
+        },
+        "work/creative/matrix-prepay-fresh.csv": {
+          "rows": 4,
+          "saved": 23,
+          "snapshot_size": 100,
+          "adopted_programs_sha256": "6cade01de726f49115eda1ca4ef2642dc91b7b52910aac9a6a3d94f53de8a8b1"
+        },
+        "work/virtual/matrix-high.csv": {
+          "rows": 6,
+          "saved": 81,
+          "snapshot_size": 114,
+          "adopted_programs_sha256": "ddb7810c333d9ca40bb9ceccb063d6f78eef660c2dca5cb48d6222605f71d888"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 19,
+          "saved": 220,
+          "snapshot_size": 70,
+          "adopted_programs_sha256": "317555ec0c6c9e32b9b465b6b186c2786374fef5eba6e5cb8b7c055609908f6f"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 4,
+          "saved": 24,
+          "snapshot_size": 10,
+          "adopted_programs_sha256": "f7d881a3e3d00034af16566fd96c0e06905d669c689370361678fbd7501cea06"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 11,
+          "saved": 24,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "1f652dca4d67e645f708c2f263cfbd494c019e1867597f616d1ed7ecafb42dd2"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 7,
+          "saved": 19,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "12b67581e3f5acfcdbfc0109e78a1f31e6c11bb5e4f4d18687270f7441e61d5b"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:02:37+00:00",
+      "previous_sha256": "8690ad025bad28e88b9880c302ae85e72bd858598834da9b2c28a65f98181b70",
+      "score": 149395,
+      "sha256": "7abea42eeec90ee1a4fa1880908f2cd8bc6de08d825ce2dc1a5467056f08a2c1",
+      "adopted": {
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 13,
+          "saved": 135,
+          "snapshot_size": 100,
+          "adopted_programs_sha256": "c463c6685fff5ea525bae127f038a9e93001f783cb5563c6ad2fff5bfab037ad"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 1,
+          "saved": 13,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "afb523f321c7ff990f25b06bf388e04758aecd64b05e38bcfbed67047935ad69"
+        },
+        "work/virtual/compound-raw.csv": {
+          "rows": 5,
+          "saved": 12,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "017545b3adf8c013796ef358c07a226ee2db01a81c2c555aece134cf26ef6638"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 6,
+          "saved": 15,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "040af69d75456b7f39fa8249ae96262f6967ac22306630e2e90a01e9e7a6a641"
+        },
+        "work/virtual/powers-full.csv": {
+          "rows": 13,
+          "saved": 65,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "3cdd602fc967a360defc08c5d720350fad70ab773a4a16261bd701ac355f337a"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:04:22+00:00",
+      "previous_sha256": "7abea42eeec90ee1a4fa1880908f2cd8bc6de08d825ce2dc1a5467056f08a2c1",
+      "score": 149256,
+      "sha256": "22667bcb0bbfa793e958ede9dcba7c5f3a7d6e482c9a86cb11dfc4323f59c8fb",
+      "adopted": {
+        "work/gpu/matrix-template-independent.csv": {
+          "rows": 25,
+          "saved": 100,
+          "snapshot_size": 32,
+          "adopted_programs_sha256": "97764ab99b9332813bba150d91b7449e910e6b24011e9d19eb4681ada8908fa1"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 110,
+          "adopted_programs_sha256": "ff284b25e72f18e3a241047bfc8901c610b4d8d9e59eb4a68c4957ba696da61a"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 2,
+          "saved": 18,
+          "snapshot_size": 30,
+          "adopted_programs_sha256": "5efed154a2cfd4a482890bde69d5ae35716f2e943ad22d82b6f22066912a5c65"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 5,
+          "saved": 19,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "0b64cafdfa15351bf531cab914b26bd22aca7b40a7f7b24c167b5ecd52760935"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:09:17+00:00",
+      "previous_sha256": "22667bcb0bbfa793e958ede9dcba7c5f3a7d6e482c9a86cb11dfc4323f59c8fb",
+      "score": 148966,
+      "sha256": "9078af88bde479ac79c28a1893bd82e20461fc654f4fef1c9ea52d6807cd4084",
+      "adopted": {
+        "work/gen/component-pilot.csv": {
+          "rows": 18,
+          "saved": 44,
+          "snapshot_size": 30,
+          "adopted_programs_sha256": "05b1f44feddae3c067446300a91c804c4ca2e4b96f11070c546bfeb173c6b8d0"
+        },
+        "work/gen/late-base.csv": {
+          "rows": 37,
+          "saved": 74,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "9703cfac369a85a82588934a8def4652231f82b2703216e641b573e93a030101"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 16,
+          "saved": 42,
+          "snapshot_size": 30,
+          "adopted_programs_sha256": "b9ad0ea18fdfc8e0e264f783ba00d051db1673e46355f04519e4b8b79761e469"
+        },
+        "work/gpu/matrix-refine-independent.csv": {
+          "rows": 9,
+          "saved": 24,
+          "snapshot_size": 16,
+          "adopted_programs_sha256": "f5bd8d7d4b2250cc5730b24f2abe44a14bdadb327fb54a60ac02d17349bb7bd1"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 9,
+          "saved": 57,
+          "snapshot_size": 140,
+          "adopted_programs_sha256": "dd20b7fbb3e7daf4e6100680715ee0bcc5fe0d653e0efcde2a7c2cb1dafd64de"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 9,
+          "saved": 22,
+          "snapshot_size": 80,
+          "adopted_programs_sha256": "e7d086d7a0d0ce37ed0555dbe7d4f92992f158d64b8519948e71959601129b67"
+        },
+        "work/virtual/compound-raw.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 30,
+          "adopted_programs_sha256": "395e8d097c4b554b511019ed451ce9809d85bfcde430b7af256f41a9d3fb28eb"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 5,
+          "saved": 25,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "6865f75dba8bf7492dfd03863a38360691e7222f9a65924037fca20e22351eed"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:11:54+00:00",
+      "previous_sha256": "9078af88bde479ac79c28a1893bd82e20461fc654f4fef1c9ea52d6807cd4084",
+      "score": 148665,
+      "sha256": "5abb114e8b9d8bbd45c09ff34b005d0ac284f013fcc04aca4faddd41564cbe24",
+      "adopted": {
+        "work/gen/component-full.csv": {
+          "rows": 119,
+          "saved": 224,
+          "snapshot_size": 816,
+          "adopted_programs_sha256": "cc629d5c44010ba4deeb3b38476e307c56115e4fb8f612f40a88d675ddc36b9c"
+        },
+        "work/gen/arsen-delete-pilot.csv": {
+          "rows": 5,
+          "saved": 10,
+          "snapshot_size": 24,
+          "adopted_programs_sha256": "5267f503e877f2ab59543ab9a517fd7468073d2f5808c9b47ad92f133ce6f020"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 6,
+          "saved": 23,
+          "snapshot_size": 42,
+          "adopted_programs_sha256": "e27581608f190c39e1f29da31aae69855b8672370b4dcfb72056400837179555"
+        },
+        "work/gpu/matrix-refine-independent.csv": {
+          "rows": 4,
+          "saved": 7,
+          "snapshot_size": 28,
+          "adopted_programs_sha256": "d650f501af8f1c2f60243fe34ed85ef016607d3cd8248cbb317a558104255f01"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 2,
+          "saved": 11,
+          "snapshot_size": 90,
+          "adopted_programs_sha256": "df7bd056882e86486643f4351314e0f79a45ef8ef6b5b351377f044f067d56d1"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 6,
+          "saved": 20,
+          "snapshot_size": 160,
+          "adopted_programs_sha256": "bf5d1e5d0824fb626eb5b1345defe1f29334f766d6b3dc34f134afd7889d27d2"
+        },
+        "work/virtual/projection-pilot.csv": {
+          "rows": 1,
+          "saved": 6,
+          "snapshot_size": 20,
+          "adopted_programs_sha256": "dd28f19d33e6a7895dd8942a4d8de7a9704608707bd5c8c523775fc92a5f329b"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:16:13+00:00",
+      "previous_sha256": "5abb114e8b9d8bbd45c09ff34b005d0ac284f013fcc04aca4faddd41564cbe24",
+      "score": 148345,
+      "sha256": "bf162f26f7ff812563159d03effbfb03ad4639760642eae5745cc887bbd56649",
+      "adopted": {
+        "work/gen/component-full.csv": {
+          "rows": 22,
+          "saved": 49,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "8c332fccc552e2eb66c413f2f8fb8b1fa799b9cf0fd0bde978ae1af4c6a0ab38"
+        },
+        "work/gen/arsen-delete-full.csv": {
+          "rows": 43,
+          "saved": 97,
+          "snapshot_size": 228,
+          "adopted_programs_sha256": "cf76817743929ab9b8ba5bb871fb161dcfe5ea88f136c36ae4c0e80d04e29b92"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 17,
+          "saved": 21,
+          "snapshot_size": 453,
+          "adopted_programs_sha256": "d555ba72b47a5ec902fd3faf6ea41860553c60881d67a083ed4f618671bf90c5"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 12,
+          "saved": 50,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "8247349cad0b74c186bc7abb6568607fb27bdb9d08a1a07b4607562b056b1c7e"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 6,
+          "saved": 34,
+          "snapshot_size": 170,
+          "adopted_programs_sha256": "fc302013e5c8e7084dcf6545d577c9d6107f38d473ac194c1d18c2e9b675df78"
+        },
+        "work/virtual/compound-raw.csv": {
+          "rows": 3,
+          "saved": 5,
+          "snapshot_size": 40,
+          "adopted_programs_sha256": "6b4f13337d6c908c3c8e9af0cef953674c2577d3797d090253bc2d061547d4fc"
+        },
+        "work/virtual/anchor-fresh.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 10,
+          "adopted_programs_sha256": "27a4d606f413ef9863771a496907894ccd8d04a522d01f3f1109d505a5b689ce"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 13,
+          "saved": 42,
+          "snapshot_size": 72,
+          "adopted_programs_sha256": "af29f0c6f08784ca3f55429bab4d39d09c6d7b86b88361b3617dce4f365b7dc3"
+        },
+        "work/gpu/matrix-refine-independent.csv": {
+          "rows": 6,
+          "saved": 10,
+          "snapshot_size": 48,
+          "adopted_programs_sha256": "83d328cd924c87c379511952e820a03532f44895f91340dfdd06d05886824c99"
+        },
+        "work/gpu/matrix-factors-independent.csv": {
+          "rows": 5,
+          "saved": 11,
+          "snapshot_size": 24,
+          "adopted_programs_sha256": "9ee8484f93f7c41dbd7d02d5116a3b7664ba88790bfc6d340b3ea2e4fec32a62"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:30:48+00:00",
+      "previous_sha256": "bf162f26f7ff812563159d03effbfb03ad4639760642eae5745cc887bbd56649",
+      "score": 147052,
+      "sha256": "6b8fbbe8f50e9db0e18c2c491167762cfeed35c4da9389209b44e3fa1b2d7fa6",
+      "adopted": {
+        "work/gen/model-cp-full.csv": {
+          "rows": 105,
+          "saved": 237,
+          "snapshot_size": 732,
+          "adopted_programs_sha256": "59462f2125e0e84ed484a58475f72cf4f7284e735a18b0b3972d882e2adf0474"
+        },
+        "work/gen/model-cp-pilot.csv": {
+          "rows": 3,
+          "saved": 3,
+          "snapshot_size": 30,
+          "adopted_programs_sha256": "8dec835167d0f9a3143f18f806c93f4988bd28e4d8c91a08edcc8d19905bc61a"
+        },
+        "work/gen/arsen-delete-full.csv": {
+          "rows": 130,
+          "saved": 339,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "32b25d1770efe6ef0f22a9843e3ac51893d8884ec00ccbe6b0a60b5119a73473"
+        },
+        "work/gen/arsen-joint-v7-pilot.csv": {
+          "rows": 3,
+          "saved": 7,
+          "snapshot_size": 28,
+          "adopted_programs_sha256": "488164885391f5ec02974ed2afa11ebd545ef6035997e556ba84d89ccb910292"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 44,
+          "saved": 59,
+          "snapshot_size": 703,
+          "adopted_programs_sha256": "f81fcac7740ce4b56bbfe8dddb1b8f6382e6ce62d901262747e1f8dc1ddde86a"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 21,
+          "saved": 70,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "9df0ef4937f2ba191bb905c6b697c6dd672ec31b87dcbacaccffa133540c16c6"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 36,
+          "saved": 405,
+          "snapshot_size": 230,
+          "adopted_programs_sha256": "ae1a11b934693871df9baf696c66ec8204dc6517e2bbb87dcab55f3fff59fb3f"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 5,
+          "saved": 50,
+          "snapshot_size": 180,
+          "adopted_programs_sha256": "73d62a470335ed49cbcbd50986949bb450422ccb9c80e10e0252460d7f7edbb5"
+        },
+        "work/virtual/compound-raw.csv": {
+          "rows": 8,
+          "saved": 61,
+          "snapshot_size": 59,
+          "adopted_programs_sha256": "db8f64e898842066f2137dd343b1ed397d2ef2b0fc7403e0087eed980211fe5d"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 15,
+          "saved": 51,
+          "snapshot_size": 162,
+          "adopted_programs_sha256": "b927c66b8a757727a4045fdfc9b33b76e5caf90981e8339ced23b5400e84d801"
+        },
+        "work/gpu/matrix-refine-independent.csv": {
+          "rows": 2,
+          "saved": 3,
+          "snapshot_size": 70,
+          "adopted_programs_sha256": "2fc7fd96fbe9fce93236eee7d270e33859282ad90b5422df02b388cec5baa88c"
+        },
+        "work/gpu/matrix-factors-independent.csv": {
+          "rows": 2,
+          "saved": 4,
+          "snapshot_size": 32,
+          "adopted_programs_sha256": "20d9b35e8c116ab578e7b614c1f2f11fc5e57199127dae09668856a7a17d9706"
+        },
+        "work/gpu/matrix-exchange-independent.csv": {
+          "rows": 3,
+          "saved": 4,
+          "snapshot_size": 14,
+          "adopted_programs_sha256": "f6429841b469674bca572f7327c45dcd11b97039f0a0220c9675dfdee25d7e88"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:32:06+00:00",
+      "previous_sha256": "6b8fbbe8f50e9db0e18c2c491167762cfeed35c4da9389209b44e3fa1b2d7fa6",
+      "score": 147001,
+      "sha256": "425091962275bcbad8366b02752b4fa2fd6d50af589d29ea5772a0c06c779e05",
+      "adopted": {
+        "work/creative/shifted-ind-replay.csv": {
+          "rows": 10,
+          "saved": 10,
+          "snapshot_size": 106,
+          "adopted_programs_sha256": "26c677feca644dbd3b362e8f7556f946f8f3980661197fc72bd32ad497bb5242"
+        },
+        "work/gen/shrink-pilot.csv": {
+          "rows": 4,
+          "saved": 7,
+          "snapshot_size": 28,
+          "adopted_programs_sha256": "a2f1411d0e97378af2630171c5977475aaf589f5a9004d4f7d8f87e65e01fdb0"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 6,
+          "saved": 34,
+          "snapshot_size": 180,
+          "adopted_programs_sha256": "f13198aa3a481d45dc95149794d085bbcb5acaf3d2ed9dde22c5494a79f3dc73"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:41:28+00:00",
+      "previous_sha256": "425091962275bcbad8366b02752b4fa2fd6d50af589d29ea5772a0c06c779e05",
+      "score": 146680,
+      "sha256": "0130c2729dca377e0dcd21414b2a56335584dce9445fa6b477be866812f44447",
+      "adopted": {
+        "work/creative/broad-ind-replay.csv": {
+          "rows": 24,
+          "saved": 39,
+          "snapshot_size": 596,
+          "adopted_programs_sha256": "51770c4f9c119af3f1c108cfb43b7306b1723e707c249304aea4d4fd6068a5da"
+        },
+        "work/creative/bridge-ind-replay.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 106,
+          "adopted_programs_sha256": "61dbebbd9f0cf8cb378f23b85c47fcad1992fd1a8840e0422fd209de4da853c2"
+        },
+        "work/virtual/scale-fresh.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 45,
+          "adopted_programs_sha256": "dccd2c88d328f3825a7e5703b003622cf91c94f30d1391a52afcda2c4125b622"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 28,
+          "saved": 79,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "07ff4ff72d673c472825c1994292070c4d0b771b64bdad474724375c35fdc439"
+        },
+        "work/virtual/matrix-mid-raw.csv": {
+          "rows": 16,
+          "saved": 114,
+          "snapshot_size": 263,
+          "adopted_programs_sha256": "65eacbb1b7b48fecc0c62ef6ece8a7eddff9667cf394c365bce3c3bdbe70d9b0"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 5,
+          "saved": 45,
+          "snapshot_size": 230,
+          "adopted_programs_sha256": "d4cd6ef10f4cf2b0e0fc0078941c2b21a357009933ef74bc7354a4c879893fab"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 12,
+          "saved": 17,
+          "snapshot_size": 878,
+          "adopted_programs_sha256": "e006fcde3c323f346806748295821004e4b377a271c43ef6b8ce05b6a6556ba3"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 6,
+          "saved": 24,
+          "snapshot_size": 300,
+          "adopted_programs_sha256": "e2a3835edb6c397d90ebac9e3f81bd1c6645f1f839ab73ea71cdaf808d0cf7b9"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:42:33+00:00",
+      "previous_sha256": "0130c2729dca377e0dcd21414b2a56335584dce9445fa6b477be866812f44447",
+      "score": 146629,
+      "sha256": "d15ea784aeec96c4ed0b49fe1be232e47f4940dc47df2b3bb6cdb9fdab442410",
+      "adopted": {
+        "work/gpu/matrix-factor-next-independent.csv": {
+          "rows": 10,
+          "saved": 18,
+          "snapshot_size": 72,
+          "adopted_programs_sha256": "4551d460f5bc1136bc8bdd902512ae1b3fe705657d4e01e384c74ad8157002a3"
+        },
+        "work/gpu/matrix-exchange-next-independent.csv": {
+          "rows": 13,
+          "saved": 18,
+          "snapshot_size": 60,
+          "adopted_programs_sha256": "4ff0bb61147452655ce67a2b10883812058df900d8016f22204e213ac1bf4cdb"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 1,
+          "saved": 10,
+          "snapshot_size": 312,
+          "adopted_programs_sha256": "96464138fbc90de34287b89c849c4de4b7926b35589e90cc40319b573e15dff0"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 4,
+          "saved": 5,
+          "snapshot_size": 903,
+          "adopted_programs_sha256": "cf64301416fce00f8e4be33b4265aa69f88424efd41bc32c73f1abd7d314ec42"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-19T13:44:35+00:00",
+      "previous_sha256": "d15ea784aeec96c4ed0b49fe1be232e47f4940dc47df2b3bb6cdb9fdab442410",
+      "score": 146435,
+      "sha256": "896ec81abfb737879fd10eaa9be102d604e2a2e2ce348a083ce688e54efb7094",
+      "adopted": {
+        "work/gen/shrink-full.csv": {
+          "rows": 90,
+          "saved": 124,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "437bc0d5a85474e4d62801b7412e205c0aa5befdec7c3825c75959457fe66b3e"
+        },
+        "work/virtual/matrix-wide-high.csv": {
+          "rows": 1,
+          "saved": 8,
+          "snapshot_size": 240,
+          "adopted_programs_sha256": "d452d02c5aa316265115e8877b8297588209a574096e9e084c638c9607f02da7"
+        },
+        "work/virtual/palette-powers-full.csv": {
+          "rows": 5,
+          "saved": 12,
+          "snapshot_size": 1000,
+          "adopted_programs_sha256": "8c3d9d932ec191cf69ba85541bf5d495eabd7d54587733679b5e744f147289b8"
+        },
+        "work/gpu/matrix-factor-next-independent.csv": {
+          "rows": 3,
+          "saved": 9,
+          "snapshot_size": 84,
+          "adopted_programs_sha256": "0d19ba8a30cc24f13da9c316526535ff25e5a8c796425dd6c82f5fee9ae30e59"
+        },
+        "work/gpu/matrix-exchange-next-independent.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 71,
+          "adopted_programs_sha256": "410f9051072bc42adebb58f1704b69f3880330a9b591bc030f5dfdda1acaee85"
+        },
+        "work/gpu/matrix-expansion-independent.csv": {
+          "rows": 3,
+          "saved": 36,
+          "snapshot_size": 342,
+          "adopted_programs_sha256": "6afc846541e6bc1fbdda8ca16a84c46b3694de2592be3077795df9d8fe0ab636"
+        },
+        "work/gen/trajectory-full.csv": {
+          "rows": 3,
+          "saved": 3,
+          "snapshot_size": 953,
+          "adopted_programs_sha256": "d9fcf34834f0cc2030273b8e441737e83488fa33d0132f03c259aeaa21c7503f"
+        }
+      }
+    }
+  ],
+  "target_count_lower_bound": 26898,
+  "lower_bound_certificate": "work/virtual/certificates.csv"
+}

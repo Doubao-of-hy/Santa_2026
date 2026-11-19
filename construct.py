@@ -1,157 +1,160 @@
-"""Independent arithmetic constructions with value reuse and register recycling."""
+"""Construct candidate programs from starting values and targets."""
 
-from collections import Counter, defaultdict
-from bisect import bisect_right
-from math import gcd
+from itertools import combinations_with_replacement
 
-
-def plan(p, base, balanced, relations):
-    expr = {}
-    seeds = set(p.seeds)
-    available = set(p.seeds)
-    order = []
-    targets = set(p.targets)
-
-    def put(v, a, op, b):
-        if v not in available:
-            expr[v] = (a, op, b)
-            available.add(v)
-            order.append(v)
-        return v
-
-    def radix(v):
-        if v in available:
-            return v
-        if v == 1:
-            return put(1, p.seeds[0], "/", p.seeds[0])
-        # Divide a small digit recursively, independently of the outer base.
-        if v <= base:
-            half = radix(v // 2)
-            even = put(half * 2, half, "+", half)
-            if even == v:
-                return even
-            return put(v, even, "+", radix(1))
-        q, r = divmod(v, base)
-        if balanced and 2 * r > base and (q + 1) * base <= p.limit:
-            q, r = q + 1, r - base
-        a, b = radix(q), radix(base)
-        prod = put(q * base, a, "*", b)
-        if not r:
-            return prod
-        return put(v, prod, "+" if r > 0 else "-", radix(abs(r)))
-
-    def digit_cost(v):
-        if v in available:
-            return 0
-        return 2 * ((v.bit_length() - 1) / max(1, base.bit_length() - 1)) + 1
-
-    anchors = set(p.seeds)
-    if relations:
-        divisors = Counter(gcd(a, b) for a in sorted(targets) for b in targets if a < b)
-        for d, freq in sorted(divisors.items(), key=lambda item: (-item[1], -item[0])):
-            if (
-                d > base
-                and (freq >= 2 or d.bit_length() >= 14)
-                and len(anchors) < len(seeds) + 16
-            ):
-                radix(d)
-                anchors.add(d)
-    pending = set(targets) - available
-    while pending:
-        if not relations:
-            t = min(pending)
-            radix(t)
-        else:
-            # Model the cost of synthesizing an offset/factor from scratch.
-            # Also use common divisors across targets as optional anchors.
-            best = None
-            for t in sorted(pending):
-                candidate = (digit_cost(t), t, 0, 0, "", 0)
-                for a in anchors:
-                    if a == t:
-                        candidate = (0, t, 0, 0, "", 0)
-                        break
-                    d = abs(t - a)
-                    if d < t:
-                        option = (1 + digit_cost(d), t, 1, a, "+" if t > a else "-", d)
-                        candidate = min(candidate, option)
-                    if a > 1 and t % a == 0:
-                        option = (1 + digit_cost(t // a), t, 1, a, "*", t // a)
-                        candidate = min(candidate, option)
-                    if a > t and a % t == 0:
-                        option = (1 + digit_cost(a // t), t, 1, a, "/", a // t)
-                        candidate = min(candidate, option)
-                best = candidate if best is None else min(best, candidate)
-            _, t, uses_anchor, a, op, d = best
-            if uses_anchor:
-                radix(d)
-                put(t, a, op, d)
-            else:
-                radix(t)
-            anchors.add(t)
-        pending.difference_update(available)
-    return expr, order
+from elf import Program, Puzzle, check
+from graph import Graph, Recipe, compile_graph
 
 
-class InstructionBudgetExceeded(Exception):
-    """This schedule cannot improve the incumbent program."""
+def one_step(values: set[int], target: int, limit: int):
+    """Enumerate all single instructions for target with inputs in values."""
+    for value in values:
+        complement = target - value
+        if complement >= value and complement in values:
+            yield "+", value, complement
+        complement = target + value
+        if complement <= limit and complement in values:
+            yield "-", complement, value
+        complement, remainder = divmod(target, value)
+        if not remainder and complement >= value and complement in values:
+            yield "*", value, complement
+        multiple = target * value
+        if multiple <= limit and multiple in values:
+            yield "/", multiple, value
 
 
-def compile_dag(p, expr, proposed_order, max_steps=None):
-    """Emit only reachable values. Evicted intermediate values may be recomputed."""
-    roots = set(p.targets)
-    needed = set(roots)
-    sequence = []
-    for v in reversed(proposed_order):
-        if v in needed:
-            a, _, b = expr[v]
-            needed.update((a, b))
-            sequence.append(v)
-    sequence.reverse()
-    uses = defaultdict(list)
-    for tick, v in enumerate(sequence):
-        a, _, b = expr[v]
-        uses[a].append(tick)
-        uses[b].append(tick)
-
-    pinned = set(p.seeds) & needed
-    loc = {v: i for i, v in enumerate(p.seeds) if v in pinned}
-    regs = [None] * p.slots
-    for v, idx in loc.items():
-        regs[idx] = v
-    code = []
-
-    def emit(v, protected):
-        if v in loc:
-            return loc[v]
-        a, op, b = expr[v]
-        i = emit(a, protected)
-        j = emit(b, protected | {a})
-        if None in regs:
-            out = regs.index(None)
-        else:
-
-            def priority(value):
-                times = uses[value]
-                k = bisect_right(times, tick)
-                return times[k] if k < len(times) else float("inf")
-
-            allowed = [x for x in regs if x not in pinned and x not in protected]
-            if not allowed:
-                raise ValueError("Register pressure")
-            victim = max(allowed, key=priority)
-            out = loc.pop(victim)
-        if max_steps is not None and len(code) >= max_steps:
-            raise InstructionBudgetExceeded
-        code.append([op, i, j, out])
-        regs[out] = v
-        loc[v] = out
-        return out
-
-    for tick, v in enumerate(sequence):
-        emit(v, set())
-    return code
+def seed_dictionary(puzzle: Puzzle) -> Graph:
+    seeds = set(puzzle.seeds)
+    recipes = {}
+    for left, right in combinations_with_replacement(sorted(seeds), 2):
+        candidates = [(left + right, "+", left, right), (right - left, "-", right, left),
+                      (left * right, "*", left, right)]
+        quotient, remainder = divmod(right, left)
+        if not remainder:
+            candidates.append((quotient, "/", right, left))
+        for value, op, first, second in candidates:
+            if 1 <= value <= puzzle.limit and value not in seeds:
+                recipes.setdefault(value, (op, first, second))
+    return recipes
 
 
-def build(p, base=2, balanced=False, relations=False):
-    return compile_dag(p, *plan(p, base, balanced, relations))
+class Constructor:
+    def __init__(self, puzzle: Puzzle, base: int, balanced: bool, indirect: bool):
+        self.puzzle = puzzle
+        self.base = base
+        self.balanced = balanced
+        self.indirect = indirect
+        self.known = set(puzzle.seeds)
+        self.graph: Graph = {}
+        self.dictionary = seed_dictionary(puzzle)
+        self.cheap = self.known | self.dictionary.keys()
+
+    def add(self, value: int, recipe: Recipe) -> None:
+        if value not in self.known:
+            self.graph[value] = recipe
+            self.known.add(value)
+
+    def direct(self, value: int) -> bool:
+        if value in self.dictionary:
+            self.add(value, self.dictionary[value])
+            return True
+        recipe = next(one_step(self.known, value, self.puzzle.limit), None)
+        if recipe is not None:
+            self.add(value, recipe)
+            return True
+        return False
+
+    def constant(self, value: int) -> None:
+        if value in self.known or self.direct(value):
+            return
+        if value == 1:
+            first = self.puzzle.seeds[0]
+            self.add(1, ("/", first, first))
+            return
+        quotient, remainder = divmod(value, 2)
+        self.constant(quotient)
+        self.add(2 * quotient, ("+", quotient, quotient))
+        if remainder:
+            self.constant(1)
+            self.add(value, ("+", 2 * quotient, 1))
+
+    def indirect_recipe(self, value: int) -> Recipe | None:
+        available = self.cheap | self.known
+        return min(one_step(available, value, self.puzzle.limit),
+                   key=lambda r: len({r[1], r[2]} - self.known), default=None)
+
+    def synthesize(self, value: int) -> None:
+        if value in self.known or self.direct(value):
+            return
+        if self.indirect:
+            best = self.indirect_recipe(value)
+            if best is not None:
+                for child in set(best[1:]) - self.known:
+                    self.add(child, self.dictionary[child])
+                self.add(value, best)
+                return
+        if value <= self.base:
+            self.constant(value)
+            return
+        quotient, remainder = divmod(value, self.base)
+        rounded = (quotient + 1) * self.base
+        if self.balanced and remainder * 2 > self.base and rounded <= self.puzzle.limit:
+            quotient += 1
+            remainder -= self.base
+        scaled = quotient * self.base
+        self.synthesize(quotient)
+        self.constant(self.base)
+        if scaled not in self.known and not self.direct(scaled):
+            self.add(scaled, ("*", self.base, quotient))
+        if remainder:
+            self.constant(abs(remainder))
+            self.add(value, ("+" if remainder > 0 else "-", scaled, abs(remainder)))
+
+
+def binary_stream(puzzle: Puzzle) -> Program | None:
+    if set(puzzle.targets).issubset(puzzle.seeds):
+        return ()
+    if puzzle.registers < 2:
+        return None
+    instructions = []
+    if 1 in puzzle.seeds:
+        unit = puzzle.seeds.index(1)
+    else:
+        unit = 0
+        instructions.append(("/", unit, unit, unit))
+    work = 1 if unit == 0 else 0
+    for target in sorted(set(puzzle.targets) - set(puzzle.seeds) - {1}):
+        first = unit
+        for digit in bin(target)[3:]:
+            instructions.append(("+", first, first, work))
+            if digit == "1":
+                instructions.append(("+", work, unit, work))
+            first = work
+    return tuple(instructions)
+
+
+def construct_candidates(puzzle: Puzzle, wide: bool = False) -> list[Program]:
+    candidates = []
+    fallback = binary_stream(puzzle)
+    if fallback is not None and len(fallback) <= 4096:
+        check(puzzle, fallback)
+        candidates.append(fallback)
+    bases = {3, 5, 8, 16, 31, 64, 127, 256, 1024}
+    if wide:
+        bases.update(range(2, 65))
+        bases.update(value for value in puzzle.seeds if 2 <= value <= 2000)
+    else:
+        bases.update(value for value in puzzle.seeds if 2 <= value <= 128)
+    targets = sorted(set(puzzle.targets))
+    for index, base in enumerate(sorted(bases)):
+        configs = [(False, True, targets), (True, True, targets[::-1])]
+        if wide:
+            configs.extend(((True, True, targets), (False, False, targets[::-1])))
+        for balanced, indirect, order in configs:
+            solver = Constructor(puzzle, base, balanced, indirect)
+            for target in order:
+                solver.synthesize(target)
+            program = compile_graph(puzzle, solver.graph)
+            if program is not None:
+                candidates.append(program)
+    return sorted(set(candidates), key=lambda p: (len(p), p))

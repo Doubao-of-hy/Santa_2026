@@ -1,0 +1,11 @@
+{
+  "subproblems": 867,
+  "optimum_certified_in_domain": 866,
+  "limit_reached": 1,
+  "smaller_closure": 226,
+  "steps_saved": 58,
+  "rows_improved": 53,
+  "rows": 289,
+  "total_rows": 289,
+  "seconds": 6.2
+}

@@ -1,5 +1,12 @@
 /data/
-/out/
-/graph_search
+/work/
 __pycache__/
-/backward
+*.py[cod]
+*.sqlite*
+*.exe
+*.dll
+*.zip
+*.log
+.env
+.env.*
+.venv/

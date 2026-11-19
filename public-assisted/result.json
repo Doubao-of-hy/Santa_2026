@@ -1,0 +1,30 @@
+{
+  "instructions": 137442,
+  "puzzles": 1000,
+  "sha256": "d96b73973ec5add77aabea0293ce999ce3f2e35af09431e8fc41de3916ac2ef3",
+  "source": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/13",
+  "source_version": 13,
+  "source_version_evidence": "Kaggle dataset directory lists version 13 at 826037 bytes; pinned download is 826037 bytes from datasetVersionId 22440963, and bundled change history ends at its author label v11",
+  "archive_history_label": "v11",
+  "catalog_metadata_version": 13,
+  "source_program_license": "Apache-2.0",
+  "source_steps": 138356,
+  "source_archive_sha256": "0e57c66c13707290b689b89968c0f7c0ff0b79622d2cf17ebdc8ea7df6a608b1",
+  "original_credited_csv_sha256": "617c4b3c248117d2bd29411cace3855055854047deb6e505d9fa991aec7376fd",
+  "source_file_sha256": "fc4e0ba6303f511c999a2b06eea69b208babe3431bbdaa78eb26e6dc721519a5",
+  "reduction_from_source": 914,
+  "row_origins": {
+    "Asterios v13": 856,
+    "local from official inputs": 92,
+    "work/virtual/anchor-rest-v10.csv": 8,
+    "work/gen/assisted-arsen-delete-full.csv": 32,
+    "work/virtual/matrix-graft-v8.csv": 1,
+    "work/virtual/anchor-v10.csv": 3,
+    "work/gen/assisted-shrink-full.csv": 3,
+    "work/virtual/public-trusted-repair.csv": 1,
+    "work/gen/assisted-model-cp-full.csv": 3,
+    "work/gpu/matrix-expansion-trusted.csv": 1
+  },
+  "independently_replayed": true,
+  "submission_status": "local_only"
+}

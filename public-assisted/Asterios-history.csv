@@ -1,0 +1,10 @@
+version,date_utc,total,delta,change,credit
+v1,2026-11-19,141339,0,best public programs re-verified + analysis + experiment log,"Tony Li, konbu17, Elias T.-H. Shieh, Mizero Lucky Gall, thisray, Nilanjan_Saha123, Atakan Aldemir, Angel Jacinto Sanchez Ruiz"
+v4,2026-11-19,141330,-9,per-puzzle merge of the newest public programs (3 better than the best single public file),"Ertugrul Ozer, Roman Rozen, Atakan Aldemir, Nilanjan_Saha123 and the earlier sources"
+v5,2026-11-19,141329,-1,our first own gain: scored_0744 276 -> 275 with the helper-group joint rebuild,"ours (engine: Nilanjan_Saha123 suffix rebuilder, Apache-2.0)"
+v6,2026-11-19,141308,-21,merge of the newest public programs + scored_0590 139 -> 138 (graph passes re-run on the merged set),"Roman Rozen, Ertugrul Ozer, Pablo Diego Pereira, Nilanjan_Saha123 (passes)"
+v7,2026-11-19,138456,-2852,"per-puzzle merge of the newest public programs (19 notebooks, 6 datasets), every program re-verified","suka, Bikram Basnet, Mudit Chaturvedi, Rishabh Bafna, alex chilton, Pratham Jain, Roman Rozen and the earlier sources"
+v8,2026-11-19,138410,-46,"merge of the newest public programs (138,440) + Atakan Aldemir's multiplier-frontier optimizer re-run on all puzzles of the merged set (17 puzzles, -30)","Atakan Aldemir (optimizer), Mizero Lucky Gall, Pratham Jain, Roman Rozen, Ertugrul Ozer"
+v9,2026-11-19,138370,-40,"merge of the newest public programs (Atakan Aldemir 138,385, Rudolph, IceFire, Hanif, Starter) + 7 more instructions from re-running Atakan's optimizer on 5 puzzles","Atakan Aldemir, alex chilton, Roman Rozen, Hanif Noer Rofiq, Ertugrul Ozer"
+v10,2026-11-19,138365,-5,"merge of Atakan Aldemir's newest programs (138,382) + 2 more instructions from re-running his optimizer on 2 puzzles",Atakan Aldemir
+v11,2026-11-19,138356,-9,newest public programs merged per puzzle,"Kozykorpesh, Mizero Lucky Gall, prvsiyan, Ángel Jacinto Sánchez Ruiz"

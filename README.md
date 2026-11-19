@@ -1,87 +1,56 @@
-# Santa_2026
+# Santa 2026 · The Elf Calculator
 
-Kaggle [Santa 2026 – The Elf Calculator](https://www.kaggle.com/competitions/santa-2026). 每题从给定的整数出发，写一段四则运算程序，让所有目标值在执行期间至少出现一次。评估指标是 1,000 道计分题的总指令数，越少越好。
+截至 2026 年 11 月 19 日暂停时，从官方输入独立生成的版本为 **146,435 条**，使用公开许可算式的版本为 **137,442 条**。两份提交均已在本地重放全部 1,000 道计分题，尚未提交 Kaggle。各阶段的得分、方法取舍和距离榜首的差距见[进展记录](PROGRESS.md)。
 
-**当前本地最佳为 138,845 条指令。** 全部 1,000 道计分题已通过两套独立实现的逐条回放。相较上一轮，62 题缩短，938 题持平。
+每道题从给定的初始值出发，在 48 个寄存器中使用加、减、乘和整除生成全部目标值。程序中的值必须始终为正整数并且不超过题目上限。提交文件包含 `id` 和 `program` 两列，每题最多 4,096 条指令。总分是全部程序的指令数之和，越低越好。小规模搜索已经证明 16 道正式小题的最短解，合计 57 条指令。其余题使用启发式搜索。
 
-| 路线 | 上轮 | 本轮 | 减少 |
-|---|---:|---:|---:|
-| 计分题，含公开参考程序 | 138,921 | 138,845 | 76 |
-| 同一批计分题，仅从题目构造 | 207,257 | 172,469 | 34,788 |
-| 200 道练习题，仅从题目构造 | 42,948 | 35,461 | 7,487 |
+## 校验与复跑
 
-## 恢复当前提交文件
+从比赛数据页取得官方 `santa-2026.zip`，将其中的 `puzzles.csv` 和 `practice_puzzles.csv` 解压到仓库根目录下的 `data/`。前者用于计分，后者用于有标签的练习题实验。仓库中保存求解代码、候选提交和验证记录，官方原始数据由参赛者自行取得。[官方数据页](https://www.kaggle.com/competitions/santa-2026/data)
 
-准备比赛的 `puzzles.csv`，在仓库根目录运行。Python 3.11 及以上版本的标准库即可。脚本按需要获取固定版本的参考程序，应用逐题改动，在保存前核对回放成绩和输出字节的 SHA-256。
+在仓库根目录运行以下命令即可复核两个总分和提交文件的 SHA-256。验证只需要 Python 3.12 或更新版本的标准库。
 
-```bash
-python checkpoint_patch.py restore data/puzzles.csv out/submission.csv
+```powershell
+python -B elf.py data/puzzles.csv submission.csv
+python -B elf.py data/puzzles.csv public-assisted/submission.csv
 ```
 
-已有参考 CSV 时可指定 `--references 路径 --offline`。每行的参考文件由补丁记录，相同上游程序可能有多个转载版本。原始作者与附带说明见 [数据来源](SOURCES.md)。
+从头生成一份新基线时，可运行 `python -B run.py --output candidate.csv --profile quick`。快速档构造混合进制基线并精确求解小题。标准档加入动态算式库、同余余数搜索、因式分解和算式重写。深度档进一步比较寄存器内搜索、算术提示和图合并。发布分数来自多轮独立实验逐题择优。合并过程和每轮采用的程序哈希见[独立结果记录](result.json)。
 
-只看从零求解的结果可直接下载 [计分题程序](checkpoints/standalone-round2.csv.gz) 或 [练习题程序](checkpoints/practice-round2.csv.gz)，解压后运行 `python run.py verify 题目.csv 程序.csv`。下面的命令以全新的题目文件为输入，生成一份候选，然后在同一批题上保留两种搜索的逐题最短结果。实验表中的最终独立成绩还包括多份自写候选的重组。
+扩展搜索按算法另需工具。部分 Windows 搜索使用 .NET Framework C# 编译器，C++ 搜索使用 g++，因式分解使用 SymPy，整数规划实验使用 SciPy 或 OR-Tools。OpenCL 实验还需兼容设备和驱动。编译器、实验性可执行文件、SQLite 检查点和大部分候选池保存在原机器的 `work/` 目录。新检出仓库时，重跑特定实验需重新安装相应工具并生成其输入候选。
 
-```bash
-g++ -O3 -std=c++17 seed_search.cpp -o seed_search
-python seed_construct.py data/puzzles.csv out/quotient.csv --basis 32 --beam 10
-python seed_construct.py data/puzzles.csv out/refined.csv --basis 42 --beam 18 --fallback out/quotient.csv
+## 方法和验证
+
+- 混合进制基线尝试多个底数和有符号余数，并共享重复子表达式。
+- 动态算式库搜索正负余数、精确因数和邻近乘积。分别尝试在全局依赖图上编译，以及直接限制搜索使用的寄存器。
+- 同余搜索允许选择同余类中的多个余数。商变得更容易构造时，即使余数较大，整条算式也能缩短。
+- 因式分解利用精确因子、近邻乘积及多个目标共同的因数。
+- 依赖图重写搜索可复用的和、差与乘积，删除无用计算。每次修改后重新分配寄存器并重放整段程序。
+- 部分题可以从目标值的近似平方和近似乘积恢复一组整数。求解器利用它们的乘法表构造多个目标，同时比较把偏差加在乘法之前或之后的指令数。`matrix_scan.py` 只接收题目数据，`matrix_construct.py` 可基于恢复的整数重新生成完整的算式。设计算式时仍须支付构造这些整数的成本。
+- 独立整数解释器检查 CSV 编码、题目 ID、寄存器索引、无余数除法、值域和目标覆盖。输入寄存器先读取，随后写回目标寄存器。已经生成的目标值被覆盖后仍计为已完成。
+
+已证明全体题目的指令数之和至少为 33,331。对每个目标，先检查给定初值或其他目标能否直接产生它，再计算固定数量的额外中间值最多能覆盖多少个剩余目标。对于两个中间值可以产生多个目标的情况，用和、差、积、整商的所有成对方程精确列举例外。逐题证书同时记录当时可行解的长度。用当前提交运行 `python -B lower_bounds.py data/puzzles.csv public-assisted/submission.csv bounds-current.csv` 可另存一份采用当前可行解的对照表。[逐题证书](work/virtual/certificates.csv) · [证书与输入哈希](work/virtual/certificates.json)
+
+当前主文件中的程序由求解器从官方输入生成，或由这些程序进一步缩短。公开求解器的作者、版本、许可证和本地改动记录在 `generative/NOTICE.md`。每次主文件更新时，`checkpoint.py` 对完整 CSV 进行两次独立重放，并把每题所用来源写入 `origins.csv`。当前总分、文件哈希和历次改进见 `result.json`。实际排名由 Kaggle 提交后的榜单确定。[官方排行榜](https://www.kaggle.com/competitions/santa-2026/leaderboard)
+
+公开辅助候选以 Asterios Panoras 在 Kaggle 发布的第 **13** 版汇总为起点。原版重放为 138,356 条，本地逐题择优后再省 **914 条**。部分改写还参考了 Asterios 第 8、10 版及 Hanif 第 15 版。逐题作者与来源、原版哈希、许可和本地改动均随提交保留。[公开辅助结果](public-assisted/result.json) · [逐题署名](public-assisted/origins.csv) · [来源声明](public-assisted/NOTICE.md) · [Kaggle 第 13 版](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/13)
+
+## 持续优化
+
+`virtual.cpp` 借用 Tony Li 和 konbu17 的整数索引、初始算式与依赖图表示。新搜索器逐轮选择目标，用刚得到的中间值更新可用算式。它比较多个目标对同一中间值的需求，估计目标顺序对后续计算的影响，并把整张图重新编译到 48 个寄存器。以下是一个独立实验示例。在仓库根目录的 PowerShell 中运行，先将本机 MinGW-w64 的 `g++` 加入 PATH。输出是一份新候选。
+
+```powershell
+New-Item -ItemType Directory -Force work\virtual | Out-Null
+$env:PYTHONDONTWRITEBYTECODE='1'
+$env:TEMP=(Resolve-Path work\virtual).Path
+$env:TMP=$env:TEMP
+g++ -O3 -march=x86-64 -static -std=c++17 virtual.cpp -o work\virtual\rerun.exe
+python -B virtual_search.py data/puzzles.csv submission.csv work/virtual/rerun.csv --exe work/virtual/rerun.exe --fresh --leaves 86 --width 6 --scan 1 --joins 13 --jobs 4
+python -B elf.py data/puzzles.csv work/virtual/rerun.csv
 ```
 
-[本轮实验记录](EXPERIMENTS.md#第二轮) · [逐题成绩](progress.csv) · [练习题成绩](practice.csv) · [文件校验](checkpoint.json)
+对照实验覆盖公开成品程序，因此对照总分须连同其来源和许可一起解读。已逐题复核 2026 年 11 月 19 日发布的 138,460 条指令版本。[公开 Notebook 的固定版本](https://www.kaggle.com/code/kindasomethin/santa-2026-exact-portfolio-frontier-138460?scriptVersionId=371361105)
 
-## 第一轮运行入口
+[比赛说明和评分](https://www.kaggle.com/competitions/santa-2026/overview) · [官方数据和计算规则](https://www.kaggle.com/competitions/santa-2026/data) · [比赛规则](https://www.kaggle.com/competitions/santa-2026/rules)
 
-准备好 `data/puzzles.csv` 后，在仓库根目录运行以下命令。全流程需要 Python 3.11+、NumPy、SciPy 和支持 C++17 的 g++。程序会核验下载的六份公开参考文件，并生成可提交的 `out/submission.csv`。
-
-```bash
-python reproduce.py data out --workers 4
-```
-
-运行 `python reproduce.py data own-out --own-only` 可单独复现从零求解，成绩文件为 `own-out/standalone.csv`。
-
-## 第一轮进度
-
-| 全量实验 | 总指令数 |
-|---|---:|
-| 赛事样例 | 1,490,379 |
-| 二进制构造 | 1,242,359 |
-| 多进制构造 | 303,217 |
-| 提取公因子、目标差及整除关系 | 305,083 |
-| 自写构造逐题择优 | 300,044 |
-| 自写双向字典搜索 | 223,797 |
-| 自写构造与字典逐题择优 | 223,309 |
-| 在自写候选上联合选择算式（整数规划） | 218,370 |
-| 自写路线全部候选逐题择优 | **207,257** |
-| 六份公开程序逐题择优 | 138,998 |
-| 跨程序重组表达式 | 138,952 |
-| 再搜索可替换的短算式 | 138,945 |
-| 四步局部搜索分支 | 138,939 |
-| 加入独立候选、调整寄存器分配 | 138,925 |
-| 最终逐题合并 | **138,921** |
-
-表中成绩均在本地回放，尚未取得 Kaggle 提交回执。独立的 200 道练习题从初始构造的 60,862 条降至 42,948 条。16 道小练习题与 16 道小计分题已用穷举证明各自的最短长度，总计分别为 50 与 57 条。公开程序组合的成绩包含第三方贡献。公开数据集和各版本见 [SOURCES.md](SOURCES.md)。
-
-## 复现
-
-Python 3.11+。整数规划这一个实验需要 SciPy 和 NumPy，实测版本为 SciPy 1.17.0、NumPy 2.3.5。原始题目可从赛事 Data 页面获取。下列命令在仓库根目录运行。前三个命令只用 Python 标准库。
-
-```bash
-python run.py verify data/puzzles.csv data/sample_submission.csv
-python run.py construct data/puzzles.csv out/independent.csv --report out/independent.json
-python run.py construct data/practice_puzzles.csv out/practice.csv --report out/practice.json
-g++ -O3 -std=c++17 graph_search.cpp -o graph_search
-g++ -O3 -std=c++17 backward.cpp -o backward
-python dictionary.py data/puzzles.csv out/dictionary.csv
-python integer_search.py data/puzzles.csv out/mip-own.csv --sources out/dictionary.csv out/independent.csv --nodes 16
-```
-
-公开解逐题择优、搜索及复查的命令见 [SOURCES.md](SOURCES.md)。每次写入 CSV 都先写临时文件，再从磁盘读回并逐条回放，验证成功后才替换输出。求解器不会向 Kaggle 发起提交。
-
-## 方法
-
-- 每个候选程序单独检查寄存器、输入是否已初始化、精确整除、数值上限及全部目标。已经产生过的目标可以从寄存器中覆盖。
-- 从零构造时，同时比较二进制、多个带符号或无符号的进制，以及基于目标差和公因子的构造。编译器按需复用中间数，在寄存器紧张时回收并重新计算。
-- 重组阶段使用各程序的实际中间值构建有向图，寻找同一个值的不同计算方法。搜索同时考虑一个中间数被多少个目标复用。局部改写允许用新的中间值替换整段算式。每题保留输入程序作为退路。
-
-双向搜索先用当前数字建立一步可达值字典，再从目标反推并尝试在字典中会合。整数规划联合选择多个目标共享的算式，仅在给定候选和拓扑顺序内求解。对于数值上限不超过 20 且寄存器充足的小题，广度优先搜索遍历可达数字集合，第一次覆盖所有目标即给出最少步数。
+官方赛程的报名截止为北京时间 2027 年 1 月 22 日 07:59，最终提交截止为北京时间 2027 年 1 月 29 日 07:59。[官方赛程](https://www.kaggle.com/competitions/santa-2026/overview#timeline)

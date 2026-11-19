@@ -1,0 +1,35 @@
+{
+  "code_version": "7c92de5aeab411435f6bbf8ff003f5366a2394d2c1a0cdc97f3c499049d3d581",
+  "archive_allowlist": [
+    "recovered/solver.cpp",
+    "solver_v2.cpp",
+    "run_solver.py",
+    "merge_candidates.py",
+    "reproduce.py",
+    "test_solver.py",
+    "SOURCES.md",
+    "LICENSE"
+  ],
+  "source_sha256": {
+    "recovered/solver.cpp": "5264319457f09b9625e509d9e81d6502af3e92f183b6577fc1be73086428ebcb",
+    "solver_v2.cpp": "8ca5a6474398f7111455796d5a461b20e58922c594a080a093d0b20dfc98bbe4",
+    "run_solver.py": "9fd2e76d2cbc331c991081c80c7d59f47574cd5a793591d15f258105da9f86df",
+    "merge_candidates.py": "7783d686d3339bc7643f6360ea8fe12aa2c2030820be4fcb6e2510133fcb5198",
+    "reproduce.py": "a85a24a63890e4e057675baf780a6193b0f666484c23574100c6eed35f5b5a5d",
+    "test_solver.py": "f4f12289cce952c740308b185c50312bac3e4cced4070cd35518baf73f383197",
+    "SOURCES.md": "5216593499c4cb246fdd28840ec8a5b2d4946d80fae9eaf5bc3d4dff4ce188fd",
+    "LICENSE": "82f844797fbe2858a94b29dc8e7f32cd52522056c7acb1671545b54a2e8fc686"
+  },
+  "dataset_allowlist": [
+    "source_bundle.zip",
+    "README.md",
+    "SOURCES.md",
+    "LICENSE",
+    "release_manifest.json",
+    "dataset-metadata.json"
+  ],
+  "notebook_allowlist": [
+    "solver.ipynb",
+    "kernel-metadata.json"
+  ]
+}

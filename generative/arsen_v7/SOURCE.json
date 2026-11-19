@@ -1,0 +1,17 @@
+{
+  "url": "https://www.kaggle.com/datasets/arsen123/santa-2026-original-dictionary-solver-source/versions/7",
+  "author": "Arsen Zakaryan",
+  "license": "Apache-2.0",
+  "archive_sha256": "6802ec8e941188d3f09a4bbd06a614bd3c85477e91021626c20738482a6c7ef3",
+  "code_version": "eeeacbd6819a7b3337ac29dd7ff89a49a824b101285467924b51ad70e1709606",
+  "sources": {
+    "solver_joint.cpp": "fb15ee2a546e44f24969f6e3c9cb6f1f6cfeec61bf241a93ff1745f9740d7255",
+    "solver_fast.cpp": "04ab03347f1e4e0053acc315e79265e805e9c18d7ba0e90df57a4a9d2acb72d1",
+    "recovered/solver.cpp": "72a5afc34541d8af2e7822ddb7a254d3823ba6364cf51584ce45f2da5ffebb8b",
+    "eliminate_values.py": "da0152b324fc3eaf9f15ab3ba4abe33895854125a52e87fc285dc29bcb7bf570",
+    "recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+    "run_solver.py": "62d8add684d82a30c890376191c46025b24021ec6561e0158b1402ce8d0e1795",
+    "LICENSE": "82f844797fbe2858a94b29dc8e7f32cd52522056c7acb1671545b54a2e8fc686",
+    "SOURCES.md": "de93bdde98dfdbac405f967a9b75b43ae7fa601dcc3da2efff6eb0e8327165df"
+  }
+}
