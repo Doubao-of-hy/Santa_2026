@@ -12,6 +12,17 @@ from resynthesize import optimize
 from seed_construct import solve
 
 
+class CheckpointTests(unittest.TestCase):
+    def test_replacement_offsets_refer_to_original_program(self):
+        from checkpoint_patch import apply_edits, edits
+
+        before = [["+", 0, 0, 3], ["*", 3, 0, 2], ["-", 2, 3, 2], ["+", 2, 2, 1]]
+        after = [["/", 0, 0, 1], before[0], before[2], ["*", 2, 0, 0]]
+        self.assertEqual(apply_edits(before, edits(before, after)), after)
+        with self.assertRaises(ValueError):
+            apply_edits(before, [[2, 3, []], [1, 2, []]])
+
+
 @unittest.skipUnless(
     shutil.which(os.environ.get("CXX", "g++")), "C++17 compiler required"
 )

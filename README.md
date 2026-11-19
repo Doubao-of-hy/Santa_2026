@@ -2,11 +2,33 @@
 
 Kaggle [Santa 2026 – The Elf Calculator](https://www.kaggle.com/competitions/santa-2026). 每题从给定的整数出发，写一段四则运算程序，让所有目标值在执行期间至少出现一次。评估指标是 1,000 道计分题的总指令数，越少越好。
 
-**第二轮检查点为 138,852 条指令，覆盖全部 1,000 道计分题。** 运行 `python checkpoint_patch.py restore data/puzzles.csv out/submission.csv` 可从固定版本的公开参考和本项目的逐题修改恢复文件，输出字节会与已保存的 SHA-256 核对。
+**当前本地最佳为 138,845 条指令。** 全部 1,000 道计分题已通过两套独立实现的逐条回放。相较上一轮，62 题缩短，938 题持平。
 
-第一轮本地最佳为 138,921 条指令。 两套回放器逐题验证通过。纯自写路线的程序为 [standalone.csv.gz](checkpoints/standalone.csv.gz)，解压后即可回放，合计 207,257 条。
+| 路线 | 上轮 | 本轮 | 减少 |
+|---|---:|---:|---:|
+| 计分题，含公开参考程序 | 138,921 | 138,845 | 76 |
+| 同一批计分题，仅从题目构造 | 207,257 | 172,469 | 34,788 |
+| 200 道练习题，仅从题目构造 | 42,948 | 35,461 | 7,487 |
 
-[实验记录](EXPERIMENTS.md) · [逐题成绩](progress.csv) · [文件校验与总分](checkpoint.json)
+## 恢复当前提交文件
+
+准备比赛的 `puzzles.csv`，在仓库根目录运行。Python 3.11 及以上版本的标准库即可。脚本按需要获取固定版本的参考程序，应用逐题改动，在保存前核对回放成绩和输出字节的 SHA-256。
+
+```bash
+python checkpoint_patch.py restore data/puzzles.csv out/submission.csv
+```
+
+已有参考 CSV 时可指定 `--references 路径 --offline`。每行的参考文件由补丁记录，相同上游程序可能有多个转载版本。原始作者与附带说明见 [数据来源](SOURCES.md)。
+
+只看从零求解的结果可直接下载 [计分题程序](checkpoints/standalone-round2.csv.gz) 或 [练习题程序](checkpoints/practice-round2.csv.gz)，解压后运行 `python run.py verify 题目.csv 程序.csv`。下面的命令以全新的题目文件为输入，生成一份候选，然后在同一批题上保留两种搜索的逐题最短结果。实验表中的最终独立成绩还包括多份自写候选的重组。
+
+```bash
+g++ -O3 -std=c++17 seed_search.cpp -o seed_search
+python seed_construct.py data/puzzles.csv out/quotient.csv --basis 32 --beam 10
+python seed_construct.py data/puzzles.csv out/refined.csv --basis 42 --beam 18 --fallback out/quotient.csv
+```
+
+[本轮实验记录](EXPERIMENTS.md#第二轮) · [逐题成绩](progress.csv) · [练习题成绩](practice.csv) · [文件校验](checkpoint.json)
 
 ## 第一轮运行入口
 

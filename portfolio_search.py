@@ -1,13 +1,15 @@
 """Optimize structurally distinct near-best source programs before comparing their scores."""
 
 import argparse
+import hashlib
+import json
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 from improve import value_graph
-from machine import load_programs, load_puzzles, save_verified, score
-from resynthesize import optimize
+from machine import load_programs, load_puzzles, replay, save_verified, score
+from resynthesize import optimize, write_row
 
 
 def signature(p, code):
@@ -55,6 +57,9 @@ def main():
         help="First file is the verified incumbent",
     )
     ap.add_argument("--bin-dir", type=Path, required=True)
+    ap.add_argument(
+        "--cache", type=Path, help="Resume completed puzzle rows after an interruption"
+    )
     ap.add_argument("--slack", type=int, default=4)
     ap.add_argument("--alternatives", type=int, default=4)
     ap.add_argument("--workers", type=int, default=4)
@@ -77,23 +82,54 @@ def main():
     ]
     branches = saved = 0
     start = time.monotonic()
+    cache_key = None
+    if args.cache:
+        args.cache.mkdir(parents=True, exist_ok=True)
+        checksum = hashlib.sha256()
+        for file in [__file__, args.puzzles, *args.sources, *(c[0] for c in commands)]:
+            checksum.update(hashlib.sha256(Path(file).read_bytes()).digest())
+        checksum.update(repr((args.slack, args.alternatives, settings)).encode())
+        cache_key = checksum.hexdigest()
     with ProcessPoolExecutor(args.workers) as pool:
-        jobs = [
-            pool.submit(
+        jobs = {}
+        for puzzle in puzzles:
+            filename = hashlib.sha256(puzzle.id.encode()).hexdigest() + ".json"
+            path = args.cache / filename if args.cache else None
+            if path and path.exists():
+                item = json.loads(path.read_text())
+                if item["key"] == cache_key and item["id"] == puzzle.id:
+                    candidate = item["code"]
+                    if candidate is not None and replay(puzzle, candidate) < len(
+                        best[puzzle.id]
+                    ):
+                        best[puzzle.id] = candidate
+                    branches += item["branches"]
+                    continue
+            job = pool.submit(
                 search_row,
-                p,
-                [s[p.id] for s in sources],
+                puzzle,
+                [s[puzzle.id] for s in sources],
                 args.slack,
                 args.alternatives,
                 commands,
             )
-            for p in puzzles
-        ]
+            jobs[job] = path
         for count, job in enumerate(as_completed(jobs), 1):
             k, code, number = job.result()
-            saved += len(best[k]) - len(code)
+            improvement = len(best[k]) - len(code)
+            saved += improvement
             branches += number
             best[k] = code
+            if jobs[job]:
+                write_row(
+                    jobs[job],
+                    dict(
+                        id=k,
+                        key=cache_key,
+                        branches=number,
+                        code=code if improvement else None,
+                    ),
+                )
             if count % 100 == 0:
                 print(
                     count,

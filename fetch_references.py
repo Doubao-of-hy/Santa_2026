@@ -11,7 +11,6 @@ from zipfile import ZipFile
 
 
 def fetch(folder, manifest=None):
-    folder.mkdir(parents=True, exist_ok=True)
     spec = json.loads(
         (manifest or Path(__file__).with_name("references.json")).read_text()
     )
