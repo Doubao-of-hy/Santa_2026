@@ -23,7 +23,7 @@
 | peephole.csv | [hanifnoerrofiq v13](https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/13) | submission.csv | 141,101 |
 | elias.csv | [b05204047elias v3](https://www.kaggle.com/datasets/b05204047elias/elf-calculator-verified-best-programs/versions/3) | submission.csv | 142,856 |
 
-先运行 README 中的构造命令。把上述 CSV 按第一列命名并放入 data/。以下为 Bash 命令，源文件顺序同时指定平局时的取舍。图搜索使用每个题目 ID 的 SHA-256 派生固定随机种子。原运行环境为 Linux x86-64、Python 3.12、GNU C++。
+先运行 README 中的构造命令。运行 `python fetch_references.py data` 获取六份固定版本的 CSV 并验证散列，或从上表手动下载。以下为 Bash 命令，源文件顺序同时指定平局时的取舍。图搜索使用每个题目 ID 的 SHA-256 派生固定随机种子。原运行环境为 Linux x86-64、Python 3.12、GNU C++。
 
 ```bash
 sources=(data/portfolio.csv data/exp.csv data/xray.csv data/konbu.csv data/elias.csv data/peephole.csv out/independent.csv)
