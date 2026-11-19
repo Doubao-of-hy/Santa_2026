@@ -1,0 +1,99 @@
+{
+  "total_instructions": 137275,
+  "sha256": "dcf3328edf576b8d607e41f0fe06f6bd65f18f3b247c6e0b2ebe082be221eba0",
+  "sources": {
+    "repo-public-assisted": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 137442
+    },
+    "repo-independent": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 146435
+    },
+    "asterios-v23": {
+      "valid": 1000,
+      "improved": 106,
+      "invalid": 0,
+      "total": 138169
+    },
+    "hanif-peephole": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138430
+    },
+    "ozertuu-verified": {
+      "valid": 1000,
+      "improved": 8,
+      "invalid": 0,
+      "total": 138160
+    },
+    "alexchilton-rudolph": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138172
+    },
+    "konbu17": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 142940
+    },
+    "kindasomethin-138441": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138441
+    },
+    "kindasomethin-138460": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138460
+    },
+    "kindasomethin-138628": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138628
+    },
+    "sacuscreed": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 138206
+    },
+    "thisray": {
+      "valid": 1000,
+      "improved": 0,
+      "invalid": 0,
+      "total": 174827
+    },
+    "repo-gpu-domain": {
+      "valid": 289,
+      "improved": 12,
+      "invalid": 0,
+      "total": 35465
+    }
+  },
+  "adoption": {
+    "repo-public-assisted": 877,
+    "repo-independent": 0,
+    "asterios-v23": 103,
+    "hanif-peephole": 0,
+    "ozertuu-verified": 8,
+    "alexchilton-rudolph": 0,
+    "konbu17": 0,
+    "kindasomethin-138441": 0,
+    "kindasomethin-138460": 0,
+    "kindasomethin-138628": 0,
+    "sacuscreed": 0,
+    "thisray": 0,
+    "repo-gpu-domain": 12
+  }
+}
