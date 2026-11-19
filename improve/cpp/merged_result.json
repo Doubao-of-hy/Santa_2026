@@ -1,0 +1,23 @@
+{
+  "total": 137178,
+  "sha256": "dcfd23d96caa002b4bd19418a9ee92e9904a28b7dac5bbaf2bd3ae403c40d8a1",
+  "sources": {
+    "current": {
+      "valid": 1000,
+      "improved": 0
+    },
+    "vsearch": {
+      "valid": 1000,
+      "improved": 17
+    },
+    "matrix": {
+      "valid": 60,
+      "improved": 11
+    }
+  },
+  "adoption": {
+    "current": 972,
+    "vsearch": 17,
+    "matrix": 11
+  }
+}
