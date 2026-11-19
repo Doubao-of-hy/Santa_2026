@@ -22,14 +22,15 @@ writes new candidates under `improve/`.
 
 ## Best independent candidate
 
-**`improve/submission.csv` = 137,038 instructions** (sha256
-`8744ad59963070ec2e38aa060b8a1e5f2f1dd5376ecd1177d6d0b3d49bfe64bc`), fully
-replayed on all 1,000 scored puzzles — **404 below** the repo's
+**`improve/submission.csv` = 136,993 instructions** (sha256
+`00e43b3dc8aed2be93f05330aa8c605264fc4622d2134302cb58114ea16094e1`), fully
+replayed on all 1,000 scored puzzles — **449 below** the repo's
 `public-assisted/submission.csv` (137,442), shorter on 186+ puzzles, and does not
 modify any original file. Pipeline: public merge (137,275) -> pure-Python
 `algebra_rewrite` (137,254) -> cross-donor `mix.py` (137,223) -> C++
 `virtual_search` x2 (137,108) -> `matrix_construct --anchored` hub reconstruction
-x2 (137,038, still accumulating marginally). `crossover_graft.py` added 0.
+(confident-models x2 -> 137,038; broader `matrix-scored.jsonl` pass -> 136,993,
+reaching 212 puzzles the confident set never covered). `crossover_graft.py` added 0.
 
 Pipeline to reproduce the best candidate:
 
