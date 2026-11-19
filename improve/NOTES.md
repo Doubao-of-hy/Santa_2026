@@ -22,21 +22,36 @@ writes new candidates under `improve/`.
 
 ## Best independent candidate
 
-**`improve/submission.csv` = 137,254 instructions** (sha256
-`98b3d06137e20df01694d005c449eb6b288292090c1cf3b3feb75a00bf667db7`), fully
-replayed on all 1,000 scored puzzles. It is the public merge (137,275) followed
-by the repo's pure-Python algebraic rewrite pass (-21 on 16 puzzles). This is
-188 instructions below the repo's `public-assisted/submission.csv` (137,442) and
-does not modify any original file.
+**`improve/submission.csv` = 137,223 instructions** (sha256
+`0cba47a65246c26f942d06e686b2892b328a1be40e7561c689ffa8f2fa92acbd`), fully
+replayed on all 1,000 scored puzzles. Pipeline: public merge (137,275) ->
+pure-Python `algebra_rewrite` pass (137,254) -> cross-donor recipe mixing
+`mix.py` (137,228, then 137,223 with a second higher-effort pass). This is 219
+instructions below the repo's `public-assisted/submission.csv` (137,442) and does
+not modify any original file. `crossover_graft.py` added 0 on top of mixing.
 
 Pipeline to reproduce the best candidate:
 
 ```powershell
+python -B improve/fetch_public.py                 # download public donors (once)
 python -B improve/merge_public.py                 # -> improve/merged/submission.csv (137,275)
 python -B improve/algebra_pass.py                 # -> improve/algebra/submission.csv (137,254)
-copy improve\algebra\submission.csv improve\submission.csv
+python -B mix.py data/puzzles.csv improve/mix/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/algebra/submission.csv --joins --trials 4 --passes 6 --jobs 4
+python -B mix.py data/puzzles.csv improve/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/mix/submission.csv --joins --trials 6 --passes 10 --jobs 4
 python -B elf.py data/puzzles.csv improve/submission.csv
 ```
+
+## C++ constructive search (g++ now available)
+
+The user supplied a portable WinLibs zip; it is extracted to `work/toolchain/`
+(gitignored) and `virtual.cpp` compiles to `work/virtual/improve_planner.exe`
+with `work/toolchain/mingw64/bin/g++.exe -O3 -march=x86-64 -static -std=c++17`.
+Warm single-pass search beats the heavily-optimized incumbent only sparingly
+(~1 puzzle in 25 with leaves 120 / width 8 / scan 2 / joins 15949 / style 4 /
+tail 8); run with `--jobs 2` (4 concurrent dictionaries exhaust memory and crash
+the planner). `improve/run_cpp_search.ps1` automates the extended search plus
+`matrix_construct.py --anchored` hub reconstruction. Larger gains require many
+variants / seeds and the matrix route, accumulated per puzzle.
 
 ## Experiments and negative results (so we do not repeat them)
 
