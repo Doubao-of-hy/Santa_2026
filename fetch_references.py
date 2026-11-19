@@ -1,4 +1,4 @@
-"""Fetch the six versioned public program files and verify their exact bytes."""
+"""Fetch versioned public program files and verify their exact bytes."""
 
 import argparse
 import hashlib
@@ -10,9 +10,11 @@ from urllib.request import urlopen
 from zipfile import ZipFile
 
 
-def fetch(folder):
+def fetch(folder, manifest=None):
     folder.mkdir(parents=True, exist_ok=True)
-    spec = json.loads(Path(__file__).with_name("references.json").read_text())
+    spec = json.loads(
+        (manifest or Path(__file__).with_name("references.json")).read_text()
+    )
     for name, ref in spec.items():
         dest = folder / (name + ".csv")
         if dest.exists():
@@ -40,4 +42,8 @@ def fetch(folder):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("directory", type=Path, nargs="?", default=Path("data"))
-    fetch(ap.parse_args().directory)
+    ap.add_argument(
+        "--manifest", type=Path, help="Alternate version and checksum manifest"
+    )
+    args = ap.parse_args()
+    fetch(args.directory, args.manifest)
