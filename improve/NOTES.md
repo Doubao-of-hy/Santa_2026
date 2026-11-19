@@ -46,12 +46,25 @@ python -B elf.py data/puzzles.csv improve/submission.csv
 The user supplied a portable WinLibs zip; it is extracted to `work/toolchain/`
 (gitignored) and `virtual.cpp` compiles to `work/virtual/improve_planner.exe`
 with `work/toolchain/mingw64/bin/g++.exe -O3 -march=x86-64 -static -std=c++17`.
-Warm single-pass search beats the heavily-optimized incumbent only sparingly
-(~1 puzzle in 25 with leaves 120 / width 8 / scan 2 / joins 15949 / style 4 /
-tail 8); run with `--jobs 2` (4 concurrent dictionaries exhaust memory and crash
-the planner). `improve/run_cpp_search.ps1` automates the extended search plus
-`matrix_construct.py --anchored` hub reconstruction. Larger gains require many
-variants / seeds and the matrix route, accumulated per puzzle.
+The machine has 16 cores / ~32 GB RAM; run searches with `--jobs 8`+ (the earlier
+"crashes" at jobs 4 were a 115 s timeout killing the process, exit 143, not OOM).
+
+Results against the mixed incumbent:
+- `virtual_search.py` warm (leaves 120 / width 8 / scan 2 / joins 15949 / style 4
+  / tail 8): seed 17 saved 20 on 17 puzzles; seed 7 saved 15 on 15. A different
+  config (style 6 / tail 12 / seed 99) saved 0 on 60 — single-config warm search
+  saturates near the mixed incumbent.
+- `matrix_construct.py --anchored` hub reconstruction is the most productive C++
+  route: anchored to the 137,223 incumbent it saved ~91 instructions over the
+  first 170 of 530 confident models. Re-anchoring to the improved 137,108 best
+  drops the gain rate to ~1 per 30 models (diminishing returns — the candidate is
+  near the ceiling of these methods).
+
+`improve/run_cpp_search.ps1` automates compile + extended search + matrix.
+`improve/merge_cpp.py` merges current best + vsearch + vsearch2 + matrix + matrix2
+per puzzle with full replay. Larger gains toward the 130,600 leaderboard top
+require substantially more compute (many variants/seeds, GPU search) than these
+single passes; the remaining gap is structural, not a missing local trick.
 
 ## Experiments and negative results (so we do not repeat them)
 
