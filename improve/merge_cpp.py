@@ -14,6 +14,7 @@ pmap = {p.id: p for p in puzzles}
 SOURCES = [
     ("current", root / "improve/submission.csv"),
     ("vsearch", root / "improve/cpp/vsearch.csv"),
+    ("vsearch2", root / "improve/cpp/vsearch2.csv"),
     ("matrix", root / "improve/cpp/matrix.csv"),
 ]
 best = {}
