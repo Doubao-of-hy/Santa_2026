@@ -8,7 +8,7 @@
 | practice_puzzles.csv | 13934566fc50cc25b2178d7a35287864127881e0f848f4a4e7b799089e7510bf |
 | sample_submission.csv | 8d9e65baff997d5faa15cb654546a296457650436603928de0b07413cfa7e559 |
 
-[赛题镜像与固定版本](https://github.com/Aftahiislam007/Santa-2026-The-Elf-Calculator/tree/d9b94cc61dc9be1d8f830be6ff7fca91ef8bfdd2/datasets) · [交叉核对题目的另一来源](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/6) · [用于核对回放约束的公开实现](https://github.com/Juan-Severiano/santa-2026)
+[赛题镜像与固定版本](https://github.com/Aftahiislam007/Santa-2026-The-Elf-Calculator/tree/d9b94cc61dc9be1d8f830be6ff7fca91ef8bfdd2/datasets) · [交叉核对题目的另一来源](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/6) · [独立复核所用回放器的固定版本](https://github.com/Juan-Severiano/santa-2026/blob/7f5cb0d8fd31de4ae1d1692e863987dde3d65992/src/santa2026/core.py)
 
 ## 公开起点
 
