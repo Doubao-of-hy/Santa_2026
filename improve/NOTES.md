@@ -20,36 +20,76 @@ writes new candidates under `improve/`.
    Per-puzzle provenance in `merged/origins.csv`, hashes in `merged/result.json`.
    Adoption: 877 repo-public-assisted, 103 Asterios-v23, 8 ozertuu, 12 gpu-domain.
 
-## Findings that shape the next algorithm
+## Best independent candidate
 
-- `breakdown.py`: of 137,275 instructions, **60,362 (44%)** build small helper
-  values (<=1e7: hubs, remainders, radix bases), 26,898 (20%) emit targets,
-  50,015 (36%) are large helpers (shared products / scaled products).
+**`improve/submission.csv` = 137,254 instructions** (sha256
+`98b3d06137e20df01694d005c449eb6b288292090c1cf3b3feb75a00bf667db7`), fully
+replayed on all 1,000 scored puzzles. It is the public merge (137,275) followed
+by the repo's pure-Python algebraic rewrite pass (-21 on 16 puzzles). This is
+188 instructions below the repo's `public-assisted/submission.csv` (137,442) and
+does not modify any original file.
+
+Pipeline to reproduce the best candidate:
+
+```powershell
+python -B improve/merge_public.py                 # -> improve/merged/submission.csv (137,275)
+python -B improve/algebra_pass.py                 # -> improve/algebra/submission.csv (137,254)
+copy improve\algebra\submission.csv improve\submission.csv
+python -B elf.py data/puzzles.csv improve/submission.csv
+```
+
+## Experiments and negative results (so we do not repeat them)
+
 - `proto_rewrite.py`: dedup-by-value + dead-code elimination changes program
   length by **zero** on every tested puzzle — the existing programs are already
   tight value-DAGs. A naive 1-op/2-op alternative-derivation rewrite with a
   tree-rank cost model makes them *worse* (double-counts shared values). Local
-  peephole rewriting therefore has no headroom; improvements must come from
-  better global structure (cheaper shared hub/remainder construction), not from
-  post-hoc peephole passes. This prototype is kept only as evidence and is not
-  used in the merged submission.
-- Public per-puzzle merging saturates near 138k; the leaderboard top (130,600 on
-  2026-11-19) is ~7k below the public frontier, so the remaining gap requires a
-  stronger constructive search rather than more public sources.
+  peephole rewriting has no headroom.
+- `reallocate.py` (register reallocation + instruction-order search,
+  schedule-width 10 / operation-width 6): **0** puzzles improved — consistent
+  with the programs already being tightly scheduled.
+- `csplanner.cs`: an independent C# 5 port of the core LiveBank dictionary +
+  TargetSearch beam planner, matching the native stdin/stdout interface so it
+  plugs into `virtual_search.py`. Compiled with the .NET Framework `csc`
+  (C# 5 only). **Fresh** runs average ~185 instructions/puzzle vs the incumbent
+  ~137 — clearly inferior (it lacks `custom_palette`, `branching_products`,
+  joint `meetings`, and the full move set of `virtual.cpp`), and large
+  concurrent dictionaries exhaust memory. Per the project guidance ("do not
+  grind on a bad algorithm"), this port is **abandoned** as a competitive solver;
+  it is kept only as a documented experiment. The proven algorithm is
+  `virtual.cpp`, which needs g++ to compile.
 
-## Reproduce
+## Conclusion on the remaining gap
+
+Public per-puzzle merging saturates near 138k and the repo's programs are
+locally optimal under peephole/algebraic/reallocation passes. The leaderboard top
+(130,600 on 2026-11-19) is ~6,650 below our 137,254; closing it requires running
+the proven C++ constructive search (`virtual.cpp` / `matrix_construct.py`) with
+extended compute, not more public sources or local post-processing.
+
+## Turnkey C++ search (requires g++)
+
+`improve/run_cpp_search.ps1` compiles `virtual.cpp` and runs an extended
+`virtual_search.py` (leaves 96, width 7, scan 2, joins 13) warm-started from the
+merged incumbent, then `matrix_construct.py --anchored --variants 8` on the
+confident hub models. Outputs land in `improve/cpp/`; merge per-puzzle best
+before submitting. g++ was not present on this machine and auto-mode blocked
+automatic toolchain download; install it manually:
 
 ```powershell
-python -B improve/merge_public.py        # rebuild merged/submission.csv
-python -B elf.py data/puzzles.csv improve/merged/submission.csv
-python -B improve/breakdown.py           # cost breakdown
+winget install -e --id BrechtSanders.WinLibs.POSIX.UCRT --accept-source-agreements --accept-package-agreements
+powershell -ExecutionPolicy Bypass -File improve\run_cpp_search.ps1
 ```
 
-## Environment notes
+## Environment / handoff notes
 
 - Kaggle CLI must be invoked as `python -m kaggle` (the `kaggle` shim exits
   silently). Account `hiyohane`, OAuth.
-- No C++ compiler on PATH; `csc.exe` (.NET Framework) is available. The repo's
-  strongest searchers (`virtual.cpp` etc.) need g++ to recompile.
-- Direct Kaggle submission upload to the GCS endpoint stalls from this network;
-  GitHub clone/fetch works.
+- No C++ compiler on PATH or anywhere on the machine; `csc.exe` (.NET Framework,
+  C# 5) is available. The repo's strongest searchers need g++ to recompile.
+- Direct Kaggle submission upload to the GCS endpoint stalls from this network
+  (China uplink). The verified candidate `improve/submission.csv` is ready to
+  submit when the network allows.
+- GitHub `git push` requires interactive authentication (Git Credential Manager);
+  read/clone works anonymously but write needs the user to authenticate. The
+  improvement commits are prepared locally.
