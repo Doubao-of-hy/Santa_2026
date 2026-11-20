@@ -1,0 +1,208 @@
+{
+  "frozen_utc": "2026-11-20T14:21:48.816688+00:00",
+  "git_commit": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+  "lane": "independent",
+  "baseline": 140727,
+  "baseline_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+  "sampling": "8 equal bins of 125 by (parent instructions, id); within each bin sort SHA256(UTF8 joint-moduli-1/<id>), first 2 dev next 2 holdout. Do not swap ineligible cases.",
+  "rows": [
+    {
+      "id": "scored_0818",
+      "length": 21,
+      "stratum": 1,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0091",
+      "length": 24,
+      "stratum": 1,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0487",
+      "length": 26,
+      "stratum": 1,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0842",
+      "length": 25,
+      "stratum": 1,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0943",
+      "length": 94,
+      "stratum": 2,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0138",
+      "length": 99,
+      "stratum": 2,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0153",
+      "length": 95,
+      "stratum": 2,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0176",
+      "length": 101,
+      "stratum": 2,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0177",
+      "length": 111,
+      "stratum": 3,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0327",
+      "length": 115,
+      "stratum": 3,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0999",
+      "length": 109,
+      "stratum": 3,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0053",
+      "length": 110,
+      "stratum": 3,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0486",
+      "length": 116,
+      "stratum": 4,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0722",
+      "length": 116,
+      "stratum": 4,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0302",
+      "length": 118,
+      "stratum": 4,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0305",
+      "length": 124,
+      "stratum": 4,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0535",
+      "length": 143,
+      "stratum": 5,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0383",
+      "length": 131,
+      "stratum": 5,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0895",
+      "length": 129,
+      "stratum": 5,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0843",
+      "length": 147,
+      "stratum": 5,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0953",
+      "length": 184,
+      "stratum": 6,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0745",
+      "length": 188,
+      "stratum": 6,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0242",
+      "length": 167,
+      "stratum": 6,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0670",
+      "length": 189,
+      "stratum": 6,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0640",
+      "length": 225,
+      "stratum": 7,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0262",
+      "length": 215,
+      "stratum": 7,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0751",
+      "length": 208,
+      "stratum": 7,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0998",
+      "length": 218,
+      "stratum": 7,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0051",
+      "length": 303,
+      "stratum": 8,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0762",
+      "length": 291,
+      "stratum": 8,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0819",
+      "length": 235,
+      "stratum": 8,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0373",
+      "length": 227,
+      "stratum": 8,
+      "phase": "holdout"
+    }
+  ],
+  "case_selection": "One pair per registered puzzle, both non-ancestor private branches of length 2 to 4. Joint removal 4-8 steps, boundary 2-5 already-paid free values. Prefer shared input boundary, then more removable nodes, then smaller boundary, then parent instruction position. Add up to one already-paid extra free anchor (max dictionary 6), chosen by distance to either root, tie numeric value.",
+  "search": "Synthesize a fresh binary-op straight-line program over the actual input dictionary; no list of permitted intermediate results. Search lengths 3,4,5 strictly below removed node count. Shared operation, operand slots, output routing and acyclic topology across all prime constraints. Both outputs must depend on a non-output intermediate, all operations must be live.",
+  "arithmetic": "5 versus 5,7,11. Residues for +,-,* are usual. Division requires left == right * result modulo p; if left==right==0 allow all output residues. Recheck concrete positive integers, exact division, cap, both roots and physical register replay; ban whole failed/tried topology including operators, selectors and root assignment independent of its residue witnesses.",
+  "budget": "2.5 seconds wall per eligible length per arm including model creation/search/concrete checks; one CP-SAT search worker per case. Same physical compilation for both arms. Fixed solver seed 271828 and no holdout tuning.",
+  "positive_and_negative_controls": "Planted joint-saving case with positive-integer shared helper. A planted true integer division with 5-divisible numerator and denominator. An impossible integer signature sharing an admissible residue assignment.",
+  "outcome": "Count only strict improvements to the entire replayed puzzle; report distinct rejected programs, exact witnesses, timing, missing or untested cases. Stop expansion if no novel upper bound in the two locked cohorts."
+}
