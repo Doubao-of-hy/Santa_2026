@@ -1,0 +1,18 @@
+{
+  "base": "138be6dbe448ef824afe87ba7b17a02e2f21e8a5",
+  "salt": "shared-new-value-134175-A",
+  "development": 12,
+  "holdout": 24,
+  "rounds": [
+    180,
+    180
+  ],
+  "arms": [
+    "ordinary",
+    "graft",
+    "protected",
+    "random"
+  ],
+  "scope": "Select independently shuffled puzzles with at least eight targets, at least 35 physical steps, and two distinct legal proposed intermediates. Generate intermediates from the present program only. A proposed value must serve at least two different existing computations. Freeze the selected rows before any trajectory search. The graft and protected arms use the identical graph; the random arm uses another reproducibly sampled proposal.",
+  "extension": "Expand on a lane if the new protected or graft route strictly beats the ordinary result on at least one holdout row. Keep all strict improvements from all comparisons."
+}
