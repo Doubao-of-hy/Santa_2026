@@ -1,0 +1,141 @@
+{
+  "commit": "aca4989fad3a364af53362841790b7e65d935f12",
+  "track": "public-assisted",
+  "total": 134311,
+  "parent_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+  "origin_sha256": "948848d7f2ba0bb6e8236d31a627cf31873547c5730ffef4d007a862f2154b19",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "selection": "Official targets >=12. Parent length in [120,159], [160,199], [200,4096]. Within each order by SHA256('euclidean-target-pairs-134311/'+id). First 2 dev, next 2 holdout.",
+  "rows": [
+    {
+      "id": "scored_0843",
+      "split": "development",
+      "stratum": [
+        120,
+        159
+      ],
+      "parent": 145,
+      "program_sha256": "dbc92490a42b16ebc708583592a89ab6a214c4627323d6c33dac54cc1f71dd60"
+    },
+    {
+      "id": "scored_0530",
+      "split": "development",
+      "stratum": [
+        120,
+        159
+      ],
+      "parent": 155,
+      "program_sha256": "cea6807f4c21b8c604937ae0fff82b8571a0ef24d5c267e8033a686260c5d802"
+    },
+    {
+      "id": "scored_0275",
+      "split": "holdout",
+      "stratum": [
+        120,
+        159
+      ],
+      "parent": 145,
+      "program_sha256": "e654eeca943746cdbf98df6376c86fe1dd7625d8f8ce211e7ca125755332f4cc"
+    },
+    {
+      "id": "scored_0603",
+      "split": "holdout",
+      "stratum": [
+        120,
+        159
+      ],
+      "parent": 120,
+      "program_sha256": "1fb0f7bda1807417fcbfd3558300731f931c6b4acd9d951aceb96f78f4a1cb93"
+    },
+    {
+      "id": "scored_0745",
+      "split": "development",
+      "stratum": [
+        160,
+        199
+      ],
+      "parent": 183,
+      "program_sha256": "3da65cf101144fe3b8bab0b2ea1cd30718ffe744165d98544e3ebe498092305b"
+    },
+    {
+      "id": "scored_0314",
+      "split": "development",
+      "stratum": [
+        160,
+        199
+      ],
+      "parent": 187,
+      "program_sha256": "835c345ab72908946246a80705306c5640d0b3a88c9dbf7f09305d617a3c2634"
+    },
+    {
+      "id": "scored_0239",
+      "split": "holdout",
+      "stratum": [
+        160,
+        199
+      ],
+      "parent": 170,
+      "program_sha256": "0a8cf733ef643af2e808989373c701a00b0de60efa27cc93de0779c09bca5fbd"
+    },
+    {
+      "id": "scored_0764",
+      "split": "holdout",
+      "stratum": [
+        160,
+        199
+      ],
+      "parent": 194,
+      "program_sha256": "e3e9b6bfa4dfbe05970014aa4e847d73ffa83222a4108d6a4816570cf31444e6"
+    },
+    {
+      "id": "scored_0905",
+      "split": "development",
+      "stratum": [
+        200,
+        4096
+      ],
+      "parent": 232,
+      "program_sha256": "fda6bea771a8e34b06e4ab77c7109af2b21f3c9ff2d2b09d35671b8a720c3e89"
+    },
+    {
+      "id": "scored_0565",
+      "split": "development",
+      "stratum": [
+        200,
+        4096
+      ],
+      "parent": 214,
+      "program_sha256": "5b128f10118e728420a7dc13f668c6f79046c5c727fc9eb045f4c48309446bc4"
+    },
+    {
+      "id": "scored_0762",
+      "split": "holdout",
+      "stratum": [
+        200,
+        4096
+      ],
+      "parent": 273,
+      "program_sha256": "d0d2212fecfefaca94eedae01e0ef92c818d94206a853d0f1b927568489b60cb"
+    },
+    {
+      "id": "scored_0998",
+      "split": "holdout",
+      "stratum": [
+        200,
+        4096
+      ],
+      "parent": 204,
+      "program_sha256": "d7551a32ebb8daf30f643af74578cacfddb1e6cbf6f0438e3e5041396cd95d4e"
+    }
+  ],
+  "search": {
+    "max_pairs": 24,
+    "highest_private_targets": 12,
+    "depth": 8,
+    "beam": 14,
+    "coefficients": "deduplicated {1, floor(A/B), ceil(A/B)}; >=2 must be paid or one paid binary operation; both quotient directions, positive bounded intermediate",
+    "terminal": "unchanged private ancestor with no root dependency or retained paid value or one operation on retained paid values; optional second terminal directly using the first and a paid operand",
+    "controls": "identical target pairs, dictionary, terminal rules, scheduler; control permits up to one quotient exchange; treatment permits up to eight with identical base offers",
+    "measure": "only physical full-row shortening against fallback and control, both replayed; stop after registered 12 if no advantage"
+  }
+}
