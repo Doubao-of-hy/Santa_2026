@@ -1,0 +1,50 @@
+{
+  "official": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "parents": {
+    "own": "d778476281dad9c8d4fa5cc2afe43517ad5430ee5ab0a5685e4522794fce8f1d",
+    "assisted": "23c79ccfb1b2d23f39315e67d937f78115f924c03972256c46d559b99769d9af"
+  },
+  "pilot": [
+    "scored_0110",
+    "scored_0742",
+    "scored_0179",
+    "scored_0786",
+    "scored_0626",
+    "scored_0281",
+    "scored_0198",
+    "scored_0279",
+    "scored_0921",
+    "scored_0397",
+    "scored_0917",
+    "scored_0677"
+  ],
+  "holdout": [
+    "scored_0468",
+    "scored_0386",
+    "scored_0664",
+    "scored_0959",
+    "scored_0458",
+    "scored_0335",
+    "scored_0207",
+    "scored_0315",
+    "scored_0968",
+    "scored_0663",
+    "scored_0899",
+    "scored_0799",
+    "scored_0861",
+    "scored_0303",
+    "scored_0508",
+    "scored_0168",
+    "scored_0363",
+    "scored_0231",
+    "scored_0790",
+    "scored_0992",
+    "scored_0114",
+    "scored_0248",
+    "scored_0145",
+    "scored_0661"
+  ],
+  "pool": 391,
+  "design": "Fixed 12+24 in four parent-length quartiles among official targets>=15 and published length>=150. Compare independent and assisted parents independently. Derive alternate complete and partial target representations via joint variable-radix quotient/remainder search. Controls use same pruned target groups, original parent graph and direct repair. No same-puzzle cross-lane input.",
+  "baseline_commit": "248894967985e4e6a68ec188d8387b9f43056f9b"
+}

@@ -1,0 +1,45 @@
+{
+  "own": {
+    "parent_sha256": "d778476281dad9c8d4fa5cc2afe43517ad5430ee5ab0a5685e4522794fce8f1d",
+    "baseline": 141438,
+    "total": 141434,
+    "output_sha256": "82bba31978346b15897027fd2f2cff5296fef9d936175107b5dc7a4f56e0ef46",
+    "full_sha256": "6c872d9eb44ffdd9c8d8f4d48966c6aba013cd0c6dc1ca840d9d3d605d883e57",
+    "rows": {
+      "scored_0110": {
+        "before": 172,
+        "after": 171,
+        "picked": "own-pilot-factor_join.csv"
+      },
+      "scored_0179": {
+        "before": 227,
+        "after": 226,
+        "picked": "own-pilot-factor_join.csv"
+      },
+      "scored_0468": {
+        "before": 165,
+        "after": 164,
+        "picked": "own-holdout-factor_join.csv"
+      },
+      "scored_0959": {
+        "before": 239,
+        "after": 238,
+        "picked": "own-holdout.csv"
+      }
+    }
+  },
+  "assisted": {
+    "parent_sha256": "23c79ccfb1b2d23f39315e67d937f78115f924c03972256c46d559b99769d9af",
+    "baseline": 135077,
+    "total": 135076,
+    "output_sha256": "dc882a296b156b1bb2534b0e9247f711ce0d8fed047bb90b8f0316c7df1a9726",
+    "full_sha256": "d774bef69d92870587a09a208a249051502c35d821dfd79372038663c4ed84c5",
+    "rows": {
+      "scored_0145": {
+        "before": 217,
+        "after": 216,
+        "picked": "assisted-holdout-factor_join.csv"
+      }
+    }
+  }
+}

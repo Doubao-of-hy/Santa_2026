@@ -1,0 +1,66 @@
+{
+  "own-quotient-pilot": {
+    "puzzles": 12,
+    "ordered_cases": 192,
+    "feasible": 45,
+    "control_feasible": 0,
+    "saved": 1,
+    "report_sha256": "663068e358ea8f38a266d5c5863f34f09b01db963fd6461ab6e1b7cad2e11e53"
+  },
+  "own-quotient-holdout": {
+    "puzzles": 24,
+    "ordered_cases": 384,
+    "feasible": 134,
+    "control_feasible": 0,
+    "saved": 2,
+    "report_sha256": "3a745ba615bad572ead90138eb1b7857dd56253a43af606846ca4f42ac1c02ea"
+  },
+  "own-factor_join-pilot": {
+    "puzzles": 12,
+    "ordered_cases": 192,
+    "feasible": 56,
+    "control_feasible": 0,
+    "saved": 2,
+    "report_sha256": "09fe4089e2735d67a0e87c9599a3b76568b68eb8ad2dc8c047177f4457e34c00"
+  },
+  "own-factor_join-holdout": {
+    "puzzles": 24,
+    "ordered_cases": 384,
+    "feasible": 158,
+    "control_feasible": 0,
+    "saved": 1,
+    "report_sha256": "f9bb14ce43d47d143a1a6d9904db15ba05a4a17b545843a55bfee9262bd695a6"
+  },
+  "assisted-quotient-pilot": {
+    "puzzles": 12,
+    "ordered_cases": 192,
+    "feasible": 49,
+    "control_feasible": 0,
+    "saved": 0,
+    "report_sha256": "5cc96ae855f9b7274bd887f9cc44ea6c7cb47fa98972a95cbe6369eabc84e5e6"
+  },
+  "assisted-quotient-holdout": {
+    "puzzles": 24,
+    "ordered_cases": 384,
+    "feasible": 109,
+    "control_feasible": 5,
+    "saved": 0,
+    "report_sha256": "9ba20bdbb028af088ca05ebcd1edd866ddc1fe068a5cf8040f3aaef200a8771b"
+  },
+  "assisted-factor_join-pilot": {
+    "puzzles": 12,
+    "ordered_cases": 192,
+    "feasible": 55,
+    "control_feasible": 0,
+    "saved": 0,
+    "report_sha256": "72cb148e00d3d99739558bcc379484bae6324477908d3be8d1f652a0f8715775"
+  },
+  "assisted-factor_join-holdout": {
+    "puzzles": 24,
+    "ordered_cases": 384,
+    "feasible": 146,
+    "control_feasible": 5,
+    "saved": 1,
+    "report_sha256": "83ae7874ce725e183dae03b698fd1a90dac4acbb1974c040ede24fda95ceb226"
+  }
+}

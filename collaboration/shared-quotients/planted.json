@@ -1,0 +1,327 @@
+{
+  "cases": 80,
+  "direct_feasible": 0,
+  "mixed_feasible": 80,
+  "rows": [
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 8
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 8
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 8
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 8
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 8
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 7
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    },
+    {
+      "direct": null,
+      "mixed": 6
+    }
+  ]
+}
