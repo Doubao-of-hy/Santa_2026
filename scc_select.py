@@ -1,11 +1,13 @@
-"""Shorten a submission using only its incumbent arithmetic values.
+"""Shorten a submission in a finite arithmetic recipe bank.
 
 Each puzzle has a finite bank of recipes formed from values in its incumbent
-arithmetic graph. OPTIMAL certifies a minimum DAG size only within that bank,
+arithmetic graph. With --translation-offsets, a screened family of positive
+shared offsets can also be selected and charged. OPTIMAL certifies a minimum DAG size only within that bank,
 not the puzzle minimum or the minimum after register allocation.
 """
 
 import argparse
+from collections import Counter, defaultdict
 from concurrent.futures import ProcessPoolExecutor
 import json
 import math
@@ -83,6 +85,57 @@ def incumbent_bank(puzzle, tape):
 
 
 
+def recover_translations(p, old):
+    """Screen absent differences using repeated old pairs and another related difference."""
+    present=set(p.seeds)|set(old)
+    uses=Counter(v for _,a,b in old.values() for v in {a,b})
+    targets=set(p.targets)
+    groups=defaultdict(list)
+    observed=sorted(present)
+    for i,a in enumerate(observed):
+        for b in observed[:i]:
+            d=a-b
+            if d<33 or d in present:continue
+            groups[d].append((a,b))
+    # Each latent is an absent common translation among disjoint old endpoints.
+    def disjoint(ports):
+        a,b=ports[0]
+        return any(a not in j and b not in j for j in ports[1:])
+    clusters={d:rs for d,rs in groups.items() if 2<=len(rs)<=14 and disjoint(rs)}
+    links=[]
+    scalars=sorted(present.intersection(range(2,65)),key=lambda k:(-uses[k],k))[:16]
+    for a,rs in clusters.items():
+        for k in scalars:
+            b=a+k
+            if b in clusters:
+                links.append((a,b,'+',k))
+            b=a*k
+            if b<=p.limit and b in clusters:
+                links.append((a,b,'*',k))
+    if not links:return [],{}
+    def relevance(d):
+        ps=clusters[d]
+        return 2*len(ps)+2*sum(bool({v,w}&targets) for v,w in ps)+sum(min(4,uses[v]) for v,w in ps)*.25
+    links.sort(key=lambda j:(-(relevance(j[0])+relevance(j[1])),j))
+    return links[:18],clusters
+
+def translation_bank(p, ways, links, groups):
+    """Offer individual shared translations. Do not add links between offsets."""
+    if not links:
+        return ways
+    new={v:set(e) for v,e in ways.items()}
+    seeds=set(p.seeds)
+    def add(o,v,a,b):
+        if v in seeds or min(v,a,b)<1 or max(v,a,b)>p.limit or v in (a,b):return
+        new.setdefault(v,set()).add(canonical((o,a,b)))
+    for d in sorted({x for a,b,_,_ in links for x in (a,b)}):
+        for a,b in groups[d]:
+            add('-',d,a,b)
+            add('+',a,b,d)
+            add('-',b,a,d)
+    return new
+
+
 def optimize(p, incumbent, primary, ways, seconds):
     roots=set(p.seeds)
     forced=set(p.targets)-roots
@@ -113,13 +166,13 @@ def optimize(p, incumbent, primary, ways, seconds):
             _,a,b=r
             z=model.new_bool_var('')
             edges[z]=(v,r);options.append(z)
-            model.add_hint(z,int(r==canonical(primary[v])))
+            model.add_hint(z,int(v in primary and r==canonical(primary[v])))
             for x in set((a,b))-roots:
                 if x not in forced:model.add_implication(z,use[x])
                 if v in location and location.get(x)==location[v]:
                     model.add(rank[v]>rank[x]).only_enforce_if(z)
         model.add(sum(options)==use[v])
-        if v not in forced:model.add_hint(use[v],1)
+        if v not in forced:model.add_hint(use[v],int(v in primary))
     objective=sum(u for v,u in use.items() if v not in forced)
     model.minimize(objective)
     model.add(objective<=len(primary)-len(forced))
@@ -137,9 +190,15 @@ def optimize(p, incumbent, primary, ways, seconds):
     return incumbent,meta
 
 def optimize_one(task):
-    puzzle, incumbent, seconds = task
+    puzzle, incumbent, seconds, translations = task
     start = time.process_time()
     primary, ways = incumbent_bank(puzzle, incumbent)
+    extra = 0
+    if translations and ways:
+        links, groups = recover_translations(puzzle, primary)
+        updated = translation_bank(puzzle, ways, links, groups)
+        extra = len(updated) - len(ways)
+        ways = updated
     if not ways:
         tape, info = incumbent, {"status": "TRIVIAL", "finite_bank_node_lower_bound": 0}
     else:
@@ -147,7 +206,7 @@ def optimize_one(task):
     check(puzzle, tape)
     if len(tape) > len(incumbent):
         raise ValueError(f"{puzzle.id}: candidate regressed")
-    info.update(id=puzzle.id, before=len(incumbent), after=len(tape),
+    info.update(id=puzzle.id, before=len(incumbent), after=len(tape), new_translation_values=extra,
                 process_cpu_seconds=round(time.process_time() - start, 6))
     return puzzle.id, tape, info
 
@@ -160,6 +219,8 @@ def main():
     parser.add_argument("--ids-file", type=Path, help="Optional newline-separated puzzle IDs")
     parser.add_argument("--seconds", type=float, default=2.75, help="CP-SAT wall time per case")
     parser.add_argument("--jobs", type=int, default=1, help="Concurrent cases, each using one SAT worker")
+    parser.add_argument("--translation-offsets", action="store_true",
+                        help="admit screened new shared differences and charge each selected one")
     args = parser.parse_args()
     if args.jobs < 1 or not math.isfinite(args.seconds) or args.seconds <= 0:
         parser.error("positive --jobs and finite positive --seconds are required")
@@ -176,7 +237,7 @@ def main():
     ids = set(args.ids_file.read_text(encoding="utf-8").split()) if args.ids_file else set(prior)
     if not ids or ids - prior.keys():
         parser.error("IDs must be a nonempty subset of incumbent puzzle IDs")
-    tasks = [(p, prior[p.id], args.seconds) for p in puzzles if p.id in ids]
+    tasks = [(p, prior[p.id], args.seconds, args.translation_offsets) for p in puzzles if p.id in ids]
     best = dict(prior)
     with ProcessPoolExecutor(args.jobs) as pool:
         for pid, tape, info in pool.map(optimize_one, tasks, chunksize=1):
@@ -199,7 +260,7 @@ def main():
                           improvements=sum(len(best[k]) < len(prior[k]) for k in ids),
                           replayed=len(puzzles), sha256=sha256(args.output),
                           incumbent_sha256=sha256(args.incumbent),
-                          arithmetic_bank_only=True)), flush=True)
+                          arithmetic_bank_only=True, incumbent_values_only=not args.translation_offsets)), flush=True)
 
 
 if __name__ == "__main__":
