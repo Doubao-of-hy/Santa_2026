@@ -1,0 +1,464 @@
+[
+  {
+    "id": "scored_0021",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "9d949e95ff713c09f54867f69a7e7e0c5ccfa451e8aaa4d6c1fdd94d45c2683e"
+  },
+  {
+    "id": "scored_0021",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "a9430e2cbe626d3185ac3be561503c28c3a334e4d2f43c96e789dc442127013e"
+  },
+  {
+    "id": "scored_0021",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "c22a80a1c64884b16215060aa1d28c1099717b465571699f0d7602c187229ab4"
+  },
+  {
+    "id": "scored_0029",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "18616b6c4f24eb65e0b875381a3b65bdc8b99fff7a63c36e7c01f58adfb30a59"
+  },
+  {
+    "id": "scored_0029",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "64416ef88d26c545864f1112cfb9bb452a7114e9542a07218be0e8787cbe2a67"
+  },
+  {
+    "id": "scored_0029",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "3a7ab93ea0181ee289efa7fe07abbbc39923bf6f8ace372dd65fb1f5780af000"
+  },
+  {
+    "id": "scored_0065",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "8dc091f8918e1c5bee1613fb84cc82bafb43248b030b77a7b8f30595ba976e5b"
+  },
+  {
+    "id": "scored_0065",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "4144b5aa5ab7527133e21a4e37eac4894be873072c1df6932212570a43d9ba97"
+  },
+  {
+    "id": "scored_0065",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "a8ce6ddb0a6a9967538f1bd6a78cf1bbf7c6e5a2044e3cee56ab14b33690dc3a"
+  },
+  {
+    "id": "scored_0066",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "14b6ef432135aec89c8df6297a9581fc7849a60b2bdff78b3441f9935acdf8ac"
+  },
+  {
+    "id": "scored_0066",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "78d0eb2884eaa3c26534b219ce29d9996721cec901e28efba0d40d2d8186daa7"
+  },
+  {
+    "id": "scored_0066",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "f3a79ac0066450c13a8be9098f63b592aab9c5b519f912eda8821bb1a164f2ce"
+  },
+  {
+    "id": "scored_0084",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "c5d240742061750274ecd772d78e5d5a6134fe6fb3345387f2a9faae7018d01c"
+  },
+  {
+    "id": "scored_0084",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 43,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "22e7a805f811d2ea183350d1245099d68fae6744dc4e1d5e2577d7c0c083f58d"
+  },
+  {
+    "id": "scored_0084",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 43,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "c0f32cd43652d5fb9fde18493a5996bc04ca84396168962c544d2d8eb9c754a0"
+  },
+  {
+    "id": "scored_0103",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "9bd1d51af9aef307d56ed3e368bcc096ba184f0460f718b9a7c12ba66b60a248"
+  },
+  {
+    "id": "scored_0103",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "59e395119204adad530e9311548d188e17fb3faa49d6a8d1cf74f72da4a161b1"
+  },
+  {
+    "id": "scored_0103",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "7f92c50a9b2831c35ceaa351ead0aad3275d63b748ad13b32e3de6dd85bcd512"
+  },
+  {
+    "id": "scored_0211",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "c3ab49e3a63fe5ea5e9578459ff00bcbc864dc7f12a48b6f37ec0c1b479ffbfe"
+  },
+  {
+    "id": "scored_0211",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "0c9ff6cb1b5044937625094474c7535167815c6b8df4257e8750b7ae02c4a27c"
+  },
+  {
+    "id": "scored_0211",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 41,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "55d92994b2eb608fe33fad025e9fe22f33993c90bfb9c936a340017e89d49fd1"
+  },
+  {
+    "id": "scored_0221",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 35,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "76e209775355eb11c204f07c5db7d847788952a341d383fd2e5e52e72f1d1afe"
+  },
+  {
+    "id": "scored_0221",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "e28df383d9b89a8861b7a8055e1786f9610d42e7da5f7a3684a256b794e76a85"
+  },
+  {
+    "id": "scored_0221",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "da1e993f97fa2e3a7aa8a09d87e05473e7f1bdbeff6e9a02e19b100ca91e8029"
+  },
+  {
+    "id": "scored_0282",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 43,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "2429c3e96bfaa3dd482b642c4969b20ab4064b6122dd71f8c6597e03e0252591"
+  },
+  {
+    "id": "scored_0282",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 45,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "22ddd07df78671bfec4d8bf90361c98f3337ca923797247a548b5bd2963e4c35"
+  },
+  {
+    "id": "scored_0282",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 45,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "b4ad4d15a5785c0f368ba4f9832cf452d7eda403119d07be4076033211e655d6"
+  },
+  {
+    "id": "scored_0296",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "dc3b53240019092e397b498efe8fa25485f6e05274cac19b5ec188209178e719"
+  },
+  {
+    "id": "scored_0296",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "8250101b3125dde6cd1dc3d3b2e6c9f757bf232150aa9ae9dc04259080dcbd36"
+  },
+  {
+    "id": "scored_0296",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "9213921c17b0dfbded2b0d94c2107a868f0679b6f1993f1d6d3dfd836334309c"
+  },
+  {
+    "id": "scored_0300",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "a6eb4576b64ffd7995a86f0c7deb0e4dc456b35213e4d311c69afd6f1e9fafc1"
+  },
+  {
+    "id": "scored_0300",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "067e4379e92a7cf68e581950c86001fd8e7dd78594d1c4238bd533ee61f8641a"
+  },
+  {
+    "id": "scored_0300",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 39,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "7917a664f6dffd9f8b2bf92fd9df020e0265cfd8448bf3a2daf4e874616ac24f"
+  },
+  {
+    "id": "scored_0548",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 34,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "fa499b0b7fa5f824f675ddc8242afb7cbb7c6595e6784af4d7a35e35655a2da0"
+  },
+  {
+    "id": "scored_0548",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "5b4ce8a59ed73d5c896a94def0601decdb66cbd1b49bed9b89b9564da20f3eac"
+  },
+  {
+    "id": "scored_0548",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "acac11fc9f471a7fedef9b42e4bfeebbf7c36ec91478c9f00ecfb984236fdd4f"
+  },
+  {
+    "id": "scored_0873",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 36,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "c7bf055b0b69d0f053ca522c18d9f337528a22a7ef9c782e130b683ccd395838"
+  },
+  {
+    "id": "scored_0873",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "515a03d2a8fe5d97ce7c6f55f0c083d5aafb525f3d8a19834ca96af34023dadd"
+  },
+  {
+    "id": "scored_0873",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 37,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "495f0a57e30637d808102cecd612f8816236232e8f864bd69314d2560da86c50"
+  },
+  {
+    "id": "scored_0914",
+    "arm": "assisted",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "34920e74132b900afa0211a19695aaa1c8e2cabc6ef8c32f461a71f61d15e73c"
+  },
+  {
+    "id": "scored_0914",
+    "arm": "multi",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "f1dd6e42bdfe23886928ad6fe593243ccd4511c566f2ca9ea9f92fe44aec8c30"
+  },
+  {
+    "id": "scored_0914",
+    "arm": "one",
+    "attempts": [
+      {
+        "budget": 38,
+        "status": "UNKNOWN"
+      }
+    ],
+    "sha256": "92600b1a001f9cde30deb0507f435bfcfc468de1937d43a043208df3e378d7a5"
+  }
+]

@@ -1,49 +1,89 @@
 {
-  "sampled_at": "2026-11-20T16:29:02+08:00",
+  "sampled_at": "2026-11-20T16:49:20+08:00",
   "instances": {
     "scored_0901": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 224,
-      "unknown": 203,
+      "finished": 384,
+      "unknown": 211,
       "total_branches": 384,
-      "nodes": 37022935047
+      "nodes": 38821766134
     },
     "scored_0149": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 223,
-      "unknown": 214,
+      "finished": 383,
+      "unknown": 237,
       "total_branches": 384,
-      "nodes": 38520000018
+      "nodes": 42798930448
     },
     "scored_0212": {
       "helpers": 11,
       "status": "INCOMPLETE",
-      "finished": 225,
+      "finished": 384,
       "unknown": 66,
       "total_branches": 384,
-      "nodes": 11880000205
+      "nodes": 11880000364
     },
     "scored_0882": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 94,
-      "unknown": 2,
+      "finished": 129,
+      "unknown": 3,
       "total_branches": 768,
-      "nodes": 2119571205
+      "nodes": 3044770659
     }
   },
   "conditioned_0882": {
     "old_helpers_required": 5,
     "other_helpers_allowed": 5,
     "status": "INCOMPLETE",
-    "shards_returned": 370,
+    "shards_returned": 1024,
     "shards_planned": 1024,
-    "nodes": 419948794,
+    "nodes": 1012077541,
     "counts": {
-      "UNSAT": 5692,
-      "UNKNOWN": 2
-    }
-  }
+      "UNSAT": 15499,
+      "UNKNOWN": 5
+    },
+    "undecided": [
+      {
+        "shard": 59,
+        "indices": [
+          59
+        ]
+      },
+      {
+        "shard": 88,
+        "indices": [
+          88
+        ]
+      },
+      {
+        "shard": 452,
+        "indices": [
+          452
+        ]
+      },
+      {
+        "shard": 453,
+        "indices": [
+          453
+        ]
+      },
+      {
+        "shard": 482,
+        "indices": [
+          482
+        ]
+      }
+    ],
+    "receipt_sha256": "3ce862dde4261fce05159e1f5c438d13e568c0283c72de7bab23e81526501642",
+    "unsat_after_targeted_retry": 15503,
+    "pending_indices": [
+      482
+    ],
+    "retry_evidence": "puzzle-0882-paused.json"
+  },
+  "execution": "paused",
+  "active_workers": 0
 }

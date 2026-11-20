@@ -1,0 +1,1516 @@
+{
+  "totals": {
+    "cells_checked": 54,
+    "complete_cases": 18,
+    "milestones_rounds": [
+      0,
+      50,
+      100,
+      200,
+      350
+    ],
+    "expected_cells": 54,
+    "strict_control_pairs_checked": 7,
+    "best_casewise_independent_savings": 2,
+    "assisted_savings_assisted_arm_only": 0,
+    "public_savings_all_admissible": 0,
+    "multi_comparison": {
+      "tie": 16,
+      "multi_better": 1,
+      "single_better": 1
+    },
+    "savings_by_arm_and_round": {
+      "one": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "multi": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "assisted": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "public_different_row_only": {
+      "own_saved": 2,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0
+    },
+    "source_study_sha256": "fc58ccc5eccc6e5c5466d44f2c81256824a0a8e45abde4e05a15f32a56c44a84"
+  },
+  "cases": [
+    {
+      "id": "scored_0021",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 137,
+            "end_steps": 40,
+            "pool_records": 96
+          },
+          "raw_sha256": "b2be488316c1f4c6e033e13b568714b62fbb035815ab1a607037fc312f08180c"
+        },
+        "multi": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 158,
+            "end_steps": 42,
+            "pool_records": 107
+          },
+          "raw_sha256": "3434552a29dfc87905203d1578262f94b48360742ed8fc1c903cdec1c98b6b3c"
+        },
+        "one": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 157,
+            "end_steps": 42,
+            "pool_records": 117
+          },
+          "raw_sha256": "7003b01ecc1e0224a1f81123e1197683c8115af18f312c29fa42477bb770089a"
+        }
+      },
+      "independent_best": 42,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 2,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0029",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 226,
+            "end_steps": 38,
+            "pool_records": 171
+          },
+          "raw_sha256": "2f62c78bf8858d758dac84d4a264aac40389096c6490995ff65d802ca8d0bdbf"
+        },
+        "multi": {
+          "base": 40,
+          "end": 39,
+          "saved": 1,
+          "milestones": [
+            40,
+            40,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [
+            {
+              "iteration_zero_based": 72,
+              "steps": 39,
+              "sha256": "a1c938f6917d9525bc7b493b55327605e74f3df251df23abe7da4adf54e6d380",
+              "helpers_new_to_arm_parents": [
+                334,
+                27879,
+                100200,
+                413060
+              ],
+              "used_from_only_first": [
+                10,
+                110,
+                130,
+                143,
+                167,
+                169,
+                171,
+                300,
+                310,
+                2483,
+                4666,
+                4966,
+                18810,
+                21970,
+                24453,
+                24463,
+                27889,
+                46689,
+                109516,
+                111556,
+                114182,
+                278890,
+                355069,
+                412760,
+                15167060
+              ],
+              "used_from_only_second": []
+            }
+          ],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 146,
+            "end_steps": 39,
+            "pool_records": 87
+          },
+          "raw_sha256": "2d70c391574a9acea4dad14c96ab1d44b518403aabb55344ca5f2c7fb7a40f5f"
+        },
+        "one": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 187,
+            "end_steps": 40,
+            "pool_records": 144
+          },
+          "raw_sha256": "3c2218a1673ec369e892e927f99bfb967999f7b5371844973b9da8695708446a"
+        }
+      },
+      "independent_best": 39,
+      "own_saved": 1,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 1,
+        "multi_vs_one_final": -1
+      }
+    },
+    {
+      "id": "scored_0065",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 143,
+            "end_steps": 37,
+            "pool_records": 101
+          },
+          "raw_sha256": "e6d9b40370320c40686b9e04ca2a1f7bbac2c44af356173e1dac8c1b1a5762fc"
+        },
+        "multi": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 188,
+            "end_steps": 38,
+            "pool_records": 140
+          },
+          "raw_sha256": "67c4b6f78d2ff18145d7ac196a17b68a53d596de6523cbd5f495f95b7af93583"
+        },
+        "one": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 199,
+            "end_steps": 38,
+            "pool_records": 155
+          },
+          "raw_sha256": "feeebf2f3e89f64cbc980d05779f8972015e65a2f8d6049b0d1039dfdb28ee94"
+        }
+      },
+      "independent_best": 38,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 1,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0066",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 185,
+            "end_steps": 37,
+            "pool_records": 127
+          },
+          "raw_sha256": "0212a8ef778bde4ad0b855f835fc562e7cb06b6d3a5129b900007e65e0055a36"
+        },
+        "multi": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 200,
+            "end_steps": 42,
+            "pool_records": 156
+          },
+          "raw_sha256": "81f5a433c6d1ef7493bd78ec0b215c292ac45a7110b49ce582863ad2a39c02ac"
+        },
+        "one": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 212,
+            "end_steps": 42,
+            "pool_records": 144
+          },
+          "raw_sha256": "d1b64a2f363b58e7fb7bf8c9f1f5defb207e991c0c47ae838f1c468ffbe26749"
+        }
+      },
+      "independent_best": 42,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 5,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0084",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 192,
+            "end_steps": 39,
+            "pool_records": 167
+          },
+          "raw_sha256": "b6ba5c12268155bdb2044bcbdb806140360065d18e27fd781c657e4647410646"
+        },
+        "multi": {
+          "base": 44,
+          "end": 44,
+          "saved": 0,
+          "milestones": [
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 201,
+            "end_steps": 44,
+            "pool_records": 160
+          },
+          "raw_sha256": "45f26fcd6145c8676b4e991b722f6eb59d98668544a192ff8efc491cd2c5c2be"
+        },
+        "one": {
+          "base": 44,
+          "end": 43,
+          "saved": 1,
+          "milestones": [
+            44,
+            44,
+            44,
+            43,
+            43
+          ],
+          "winning_events": [
+            {
+              "iteration_zero_based": 192,
+              "steps": 43,
+              "sha256": "885c9f4eeebd06044d111507387876cf48c20f172616af8d91f004e1b6b35c0a",
+              "helpers_new_to_arm_parents": [
+                124,
+                368368,
+                368630,
+                556547,
+                556671,
+                909588,
+                5676930,
+                5676944,
+                12734480,
+                50937920
+              ]
+            }
+          ],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 184,
+            "end_steps": 43,
+            "pool_records": 137
+          },
+          "raw_sha256": "6df39ca6b6024b3cf149c0f733c4653faa1ef295132e1c89118707211021d990"
+        }
+      },
+      "independent_best": 43,
+      "own_saved": 1,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 4,
+        "multi_vs_one_final": 1
+      }
+    },
+    {
+      "id": "scored_0103",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 187,
+            "end_steps": 40,
+            "pool_records": 150
+          },
+          "raw_sha256": "77f6967cc051f5a8ba83cbf17280b1fa765a6495bbf124dfa65028146c5421b2"
+        },
+        "multi": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 151,
+            "end_steps": 40,
+            "pool_records": 109
+          },
+          "raw_sha256": "5c1b4e592d9a70c205817c83798eeb08fa095fc6d12d59e7f03a71f47eea43e5"
+        },
+        "one": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 187,
+            "end_steps": 40,
+            "pool_records": 150
+          },
+          "raw_sha256": "787d3719a278f46ad40fb60928de5c6e95859eaeaf4d9fcaabcd79a6d7bbaf98"
+        }
+      },
+      "independent_best": 40,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0149",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 107,
+            "end_steps": 17,
+            "pool_records": 60
+          },
+          "raw_sha256": "e05c6ffd1d22f8a9af10368a65e48d7c6060b5f320b36425ce85a297ac2a841a"
+        },
+        "multi": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 120,
+            "end_steps": 17,
+            "pool_records": 78
+          },
+          "raw_sha256": "37eda6e42e2b1b3cf34e9f6bd7bf6d5fdb8a888b21f45503ff97412567369e4c"
+        },
+        "one": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 107,
+            "end_steps": 17,
+            "pool_records": 60
+          },
+          "raw_sha256": "1c226d48a45458bd825b7aefb3808ba79541156dd26c02af8f0672da87598f2f"
+        }
+      },
+      "independent_best": 17,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0211",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 162,
+            "end_steps": 38,
+            "pool_records": 128
+          },
+          "raw_sha256": "6428d2bc6c9e6ea2f18498e47cd39a540c2fbc927ed17dd146688d241bbb9568"
+        },
+        "multi": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 188,
+            "end_steps": 42,
+            "pool_records": 137
+          },
+          "raw_sha256": "f7afb0d0163d200be1b397f95a82e0de655db33fc43e4c379d0f91369136a221"
+        },
+        "one": {
+          "base": 42,
+          "end": 42,
+          "saved": 0,
+          "milestones": [
+            42,
+            42,
+            42,
+            42,
+            42
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 166,
+            "end_steps": 42,
+            "pool_records": 123
+          },
+          "raw_sha256": "15271f911032b732fcd6eff8baafb156640a4b5c089d2d8255abef0d00bfa753"
+        }
+      },
+      "independent_best": 42,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 4,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0221",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 36,
+          "end": 36,
+          "saved": 0,
+          "milestones": [
+            36,
+            36,
+            36,
+            36,
+            36
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 159,
+            "end_steps": 36,
+            "pool_records": 106
+          },
+          "raw_sha256": "aba5622052262c5b71a9c25e4adaabcba8ecbdb8717c499dab4db4c296836f8c"
+        },
+        "multi": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 172,
+            "end_steps": 37,
+            "pool_records": 131
+          },
+          "raw_sha256": "616c366f7045738ec2dc09ad961a075c68505a5660db81129353d2da6c43030a"
+        },
+        "one": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 222,
+            "end_steps": 37,
+            "pool_records": 186
+          },
+          "raw_sha256": "df20c408184f0b7cf2ac90ef13b35ecea65f2aed917d0c786eb54099f2abf6c7"
+        }
+      },
+      "independent_best": 37,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 1,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0271",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 181,
+            "end_steps": 40,
+            "pool_records": 125
+          },
+          "raw_sha256": "fafd63f6842a613b76c5eb76af482ab1c824a432819f5cd16a5002f2044a0025"
+        },
+        "multi": {
+          "base": 41,
+          "end": 41,
+          "saved": 0,
+          "milestones": [
+            41,
+            41,
+            41,
+            41,
+            41
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 148,
+            "end_steps": 41,
+            "pool_records": 98
+          },
+          "raw_sha256": "4a451887aedd47ca6686a02bbc83b08004c35519579078c2a2a1a665228d5e2b"
+        },
+        "one": {
+          "base": 41,
+          "end": 41,
+          "saved": 0,
+          "milestones": [
+            41,
+            41,
+            41,
+            41,
+            41
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 138,
+            "end_steps": 41,
+            "pool_records": 94
+          },
+          "raw_sha256": "20d666b7b87d01a54a4c7e3bb38692cc5e13e871984e5a04ed467dbdbc00d7ce"
+        }
+      },
+      "independent_best": 41,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 1,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0282",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 44,
+          "end": 44,
+          "saved": 0,
+          "milestones": [
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 184,
+            "end_steps": 44,
+            "pool_records": 119
+          },
+          "raw_sha256": "0736a86694add66f12f52c1740e146dfeb3351bfef54de6eceb626a32ace86cc"
+        },
+        "multi": {
+          "base": 46,
+          "end": 46,
+          "saved": 0,
+          "milestones": [
+            46,
+            46,
+            46,
+            46,
+            46
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 192,
+            "end_steps": 46,
+            "pool_records": 161
+          },
+          "raw_sha256": "11e9b61c99cba09eb5eb7f6375cbd0e78ef6117efcb9b9646f9ceec4acc44e90"
+        },
+        "one": {
+          "base": 46,
+          "end": 46,
+          "saved": 0,
+          "milestones": [
+            46,
+            46,
+            46,
+            46,
+            46
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 207,
+            "end_steps": 46,
+            "pool_records": 164
+          },
+          "raw_sha256": "bc46ed9942744448bc34c28ab448edcaf872beb1d513b2e8456eab05e6ee9169"
+        }
+      },
+      "independent_best": 46,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 2,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0296",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 134,
+            "end_steps": 39,
+            "pool_records": 88
+          },
+          "raw_sha256": "04004efd24af689e21b2ac29224fbcda68dccd0e74f52b5910f97af8295966bc"
+        },
+        "multi": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 128,
+            "end_steps": 39,
+            "pool_records": 79
+          },
+          "raw_sha256": "36fabdd562725c0d811caa103355a179fce820b636fca7289df25e91cbb46784"
+        },
+        "one": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 134,
+            "end_steps": 39,
+            "pool_records": 88
+          },
+          "raw_sha256": "c172b9917d1be6bd663d64dd72ee3d44d3f7048a6fa0f2c813697caec0a1509f"
+        }
+      },
+      "independent_best": 39,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0300",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 190,
+            "end_steps": 40,
+            "pool_records": 138
+          },
+          "raw_sha256": "55de58709d115fda5a3e66dca26e565de6e5770a490fd9db172ad41ab24983ec"
+        },
+        "multi": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 191,
+            "end_steps": 40,
+            "pool_records": 148
+          },
+          "raw_sha256": "39f831009f254d70a06637f31e25dc85439575c674c9f66bf5ef600bf468edf8"
+        },
+        "one": {
+          "base": 40,
+          "end": 40,
+          "saved": 0,
+          "milestones": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 190,
+            "end_steps": 40,
+            "pool_records": 138
+          },
+          "raw_sha256": "5ee53013aa76879084cdcf5e38f250a3a280bebb32775ece789a22656a5478b7"
+        }
+      },
+      "independent_best": 40,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0548",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 35,
+          "end": 35,
+          "saved": 0,
+          "milestones": [
+            35,
+            35,
+            35,
+            35,
+            35
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 230,
+            "end_steps": 35,
+            "pool_records": 186
+          },
+          "raw_sha256": "97db696d82af25cd88633a5351a9c26f951e8712d4f62bac9adb0b94e43a100b"
+        },
+        "multi": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 152,
+            "end_steps": 37,
+            "pool_records": 119
+          },
+          "raw_sha256": "f4765c061dee2b0fbbc1bf8d10851fed254028bda6ca31de458cdbac641c9bbf"
+        },
+        "one": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 187,
+            "end_steps": 37,
+            "pool_records": 155
+          },
+          "raw_sha256": "a73d72693b39c6fc086249663ca3de274d7a5ae03017a9f33b1f42ba883c62b9"
+        }
+      },
+      "independent_best": 37,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 2,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0873",
+      "same_input_control": false,
+      "arms": {
+        "assisted": {
+          "base": 37,
+          "end": 37,
+          "saved": 0,
+          "milestones": [
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 174,
+            "end_steps": 37,
+            "pool_records": 117
+          },
+          "raw_sha256": "6a5aab5f7f65be5eaff8f01a1f9699f0571d8a26af56cc17a4a29dd64ded0b50"
+        },
+        "multi": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 193,
+            "end_steps": 38,
+            "pool_records": 130
+          },
+          "raw_sha256": "d97d6613dc8c25895989e4f21bb6480a8e4d7183b4550ff924242c45cf5f4229"
+        },
+        "one": {
+          "base": 38,
+          "end": 38,
+          "saved": 0,
+          "milestones": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 202,
+            "end_steps": 38,
+            "pool_records": 155
+          },
+          "raw_sha256": "32bd1af65935ba9a6c2bd8dbac3b9b7cc74f836ef4d959605dcca592234aabd4"
+        }
+      },
+      "independent_best": 38,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 1,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0892",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 16,
+          "end": 16,
+          "saved": 0,
+          "milestones": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 126,
+            "end_steps": 16,
+            "pool_records": 99
+          },
+          "raw_sha256": "b310be4dd607c5f94db419d364977c596241f17de5116ebd6b0fd07b6e7ca1da"
+        },
+        "multi": {
+          "base": 16,
+          "end": 16,
+          "saved": 0,
+          "milestones": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 117,
+            "end_steps": 16,
+            "pool_records": 104
+          },
+          "raw_sha256": "a5f3d76f7736c6d0780567acfd5b37493818cc2581758497d1223fac5ea3ed25"
+        },
+        "one": {
+          "base": 16,
+          "end": 16,
+          "saved": 0,
+          "milestones": [
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 126,
+            "end_steps": 16,
+            "pool_records": 99
+          },
+          "raw_sha256": "a20264e6722ba9f55255399052bb342c573fe16de7ecc960121026133eedad11"
+        }
+      },
+      "independent_best": 16,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0901",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 111,
+            "end_steps": 17,
+            "pool_records": 73
+          },
+          "raw_sha256": "596b720dbdcfa34cfca3a25e2523a7550aedbe5c002f8eb7c7801bd3e5436f15"
+        },
+        "multi": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 113,
+            "end_steps": 17,
+            "pool_records": 70
+          },
+          "raw_sha256": "2e35f313388dba280f2a8a50822c6a810a4992e2708b9425332fe4f7d92591e5"
+        },
+        "one": {
+          "base": 17,
+          "end": 17,
+          "saved": 0,
+          "milestones": [
+            17,
+            17,
+            17,
+            17,
+            17
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 111,
+            "end_steps": 17,
+            "pool_records": 73
+          },
+          "raw_sha256": "1ed9a6400d26368705b31bd872bf08b7122afb108bc35656d15e84879ef015e6"
+        }
+      },
+      "independent_best": 17,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    },
+    {
+      "id": "scored_0914",
+      "same_input_control": true,
+      "arms": {
+        "assisted": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 201,
+            "end_steps": 39,
+            "pool_records": 140
+          },
+          "raw_sha256": "31f5b70aa2c04ea158dfef871d834b3fc9dde08525150d3167a291c739a6a7ed"
+        },
+        "multi": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 199,
+            "end_steps": 39,
+            "pool_records": 152
+          },
+          "raw_sha256": "097198762b7d6975e586ada6b43550a1839da186a20527408a998cdde95474db"
+        },
+        "one": {
+          "base": 39,
+          "end": 39,
+          "saved": 0,
+          "milestones": [
+            39,
+            39,
+            39,
+            39,
+            39
+          ],
+          "winning_events": [],
+          "refused": 0,
+          "dominated": 0,
+          "native": {
+            "distinct_candidate_hashes": 201,
+            "end_steps": 39,
+            "pool_records": 140
+          },
+          "raw_sha256": "35b93bef9d31bdf5edff07190c885205c6334f340d5f84dd580cafa476da99f1"
+        }
+      },
+      "independent_best": 39,
+      "own_saved": 0,
+      "assisted_own_arm_saved": 0,
+      "public_total_saved_from_valid_sources": 0,
+      "independent_alone_beats_public_baseline": false,
+      "cross_source_after_runs": {
+        "independent_vs_assisted_final": 0,
+        "multi_vs_one_final": 0
+      }
+    }
+  ]
+}

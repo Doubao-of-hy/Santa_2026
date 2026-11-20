@@ -1,0 +1,84 @@
+{
+  "execution": "paused",
+  "base_receipt_sha256": "3ce862dde4261fce05159e1f5c438d13e568c0283c72de7bab23e81526501642",
+  "total": 15504,
+  "base_counts": {
+    "UNSAT": 15499,
+    "UNKNOWN": 5
+  },
+  "completed_retries": [
+    {
+      "index": 59,
+      "required_old_values": [
+        25,
+        37,
+        48,
+        325,
+        350
+      ],
+      "engine": "generic",
+      "node_limit": 16000000,
+      "nodes": 3032854,
+      "status": "UNSAT",
+      "receipt_sha256": "8b864ee3a0532b40bc600c228e917b53c87d8627bb69b3e36ef6b44729755e71",
+      "stdout_sha256": "9c1a69756f2ab4d779f588d3ac8bf25a910c222983db86fe64629df7b0bb2746",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c"
+    },
+    {
+      "index": 88,
+      "required_old_values": [
+        25,
+        37,
+        48,
+        350,
+        13956
+      ],
+      "engine": "generic",
+      "node_limit": 16000000,
+      "nodes": 2901118,
+      "status": "UNSAT",
+      "receipt_sha256": "2e7599dca9df28d5a7027ad8fc53626b2e729ff6601919a10149d81963f4a22a",
+      "stdout_sha256": "ee4eb869f597fba08ad420161d5d86c7de71f600379e9c39437a726697fd076f",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c"
+    },
+    {
+      "index": 452,
+      "required_old_values": [
+        25,
+        37,
+        300,
+        325,
+        329
+      ],
+      "engine": "generic",
+      "node_limit": 16000000,
+      "nodes": 330857,
+      "status": "UNSAT",
+      "receipt_sha256": "dff148a424165407d6df26c94552a21f3a1d4d2c3c3bc60e3870959a1d053ee6",
+      "stdout_sha256": "6d4d67d7431f4313622b0764d908fe1cfce94cfd1b9f7d641026e068fa01110a",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c"
+    },
+    {
+      "index": 453,
+      "required_old_values": [
+        25,
+        37,
+        300,
+        325,
+        350
+      ],
+      "engine": "generic",
+      "node_limit": 16000000,
+      "nodes": 2757286,
+      "status": "UNSAT",
+      "receipt_sha256": "ec926c81fefc7b00184a1deb21bce3cb93b77266bbc181dab79dd1a461c73d16",
+      "stdout_sha256": "c7ffbc2399d1783ad7419af521288b3534456a8e20d0949f9fbd2e295979bb77",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c"
+    }
+  ],
+  "unsat_total": 15503,
+  "pending_indices": [
+    482
+  ],
+  "status": "INCOMPLETE"
+}

@@ -4,6 +4,8 @@
 新判定追加到 [decisions.json](decisions.json)，合并后的逐题上下界见
 [bounds.csv](bounds.csv)（上界采用独立改进提交 `improve/submission.csv`，136,991 条）。
 
+领取新题时可先查看全仓库已证下界和已登记的搜索。运行 `python -B collaboration/next_proofs.py --puzzles data/puzzles.csv` 会列出仍能提高项目总下界的题号与辅助数预算，自动跳过已登记的同题同预算任务。[逐题汇总](../collaboration/puzzle-bounds.csv) · [当前分工](../collaboration/STATUS.md)
+
 ## 方法
 
 与原证明相同的松弛模型：所有已产生的数永久可用，任何 48 寄存器程序都可被模拟。
