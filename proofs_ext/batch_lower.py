@@ -18,6 +18,7 @@ import csv
 import json
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,7 +46,7 @@ def decided(pid, budget):
     return False
 
 
-def queue(puzzles_path, collab_path, bounds_path, max_limit, max_budget):
+def queue(puzzles_path, collab_path, bounds_path, max_limit, max_budget, max_opts=0):
     puzzles = read_puzzles(puzzles_path)
     theirs = {
         r["id"]: (int(r["certified_lower"]), int(r["best_verified_upper"]))
@@ -72,6 +73,8 @@ def queue(puzzles_path, collab_path, bounds_path, max_limit, max_budget):
         if (p.id, budget) in RESERVED or decided(p.id, budget):
             continue
         opts = len(available(p.seeds, set(p.targets), p.limit))
+        if max_opts and opts > max_opts:
+            continue
         items.append((budget, p.limit, opts, p.id, missing, floor, upper))
     items.sort()
     return items
@@ -80,6 +83,8 @@ def queue(puzzles_path, collab_path, bounds_path, max_limit, max_budget):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--max-budget", type=int, default=8)
+    ap.add_argument("--max-opts", type=int, default=0,
+                    help="skip puzzles with more root helper options than this (0 = no filter)")
     ap.add_argument("--max-limit", type=int, default=1_000_000_000)
     ap.add_argument("--node-limit", type=int, default=1_000_000)
     ap.add_argument("--jobs", type=int, default=16)
@@ -90,18 +95,26 @@ def main():
     done = 0
     for budget, limit, opts, pid, missing, floor, upper in queue(
         ROOT / "data/puzzles.csv", args.collab, ROOT / "proofs_ext/bounds.csv",
-        args.max_limit, args.max_budget,
+        args.max_limit, args.max_budget, args.max_opts,
     ):
         print(f"=== {pid} h{budget} opts {opts} limit {limit} floor {floor} upper {upper}", flush=True)
-        result = subprocess.run(
-            [sys.executable, "-B", str(ROOT / "proofs_ext/prove.py"), pid, str(budget),
-             "--binary", str(args.binary), "--node-limit", str(args.node_limit),
-             "--jobs", str(args.jobs)],
-            text=True,
-        )
-        if result.returncode != 0:
-            print("driver failed; stopping")
-            break
+        result = None
+        for attempt in range(4):
+            result = subprocess.run(
+                [sys.executable, "-B", str(ROOT / "proofs_ext/prove.py"), pid, str(budget),
+                 "--binary", str(args.binary), "--node-limit", str(args.node_limit),
+                 "--jobs", str(args.jobs)],
+                text=True,
+            )
+            if result.returncode == 0:
+                break
+            # Transient Windows file locks (AV scanning the exe) clear quickly;
+            # retry a few times before giving up on this puzzle.
+            print(f"driver attempt {attempt + 1} failed (rc {result.returncode}); retrying", flush=True)
+            time.sleep(8)
+        if result is None or result.returncode != 0:
+            print("driver still failing; skipping to next puzzle", flush=True)
+            continue
         if not (ROOT / "proofs_ext/decisions.d" / f"{pid}_h{budget}.json").exists():
             print("inconclusive or FOUND; skipping to next puzzle", flush=True)
             continue

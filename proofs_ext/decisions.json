@@ -155,6 +155,31 @@
       "lower_bound": 18
     },
     {
+      "id": "scored_0024",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        6232590,
+        9150826,
+        9425964,
+        10309351,
+        9239253,
+        8526303,
+        7712186,
+        7391189,
+        6454522,
+        6340911,
+        6616789,
+        5382201,
+        5444665,
+        3312652,
+        2553891
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 102.7,
+      "lower_bound": 22
+    },
+    {
       "id": "scored_0046",
       "helpers": 4,
       "max_nodes_per_shard": 400000000,
@@ -309,6 +334,39 @@
       "lower_bound": 15
     },
     {
+      "id": "scored_0056",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        15523493,
+        16693675,
+        21307756,
+        24781455,
+        24574266,
+        29126125,
+        25294789,
+        26619976,
+        23701085,
+        20343781,
+        25596864,
+        21180230,
+        16446769,
+        20743906,
+        16836773,
+        17255679,
+        19189730,
+        16677952,
+        15363176,
+        15073323,
+        15296905,
+        14433143,
+        9891813
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 446.5,
+      "lower_bound": 16
+    },
+    {
       "id": "scored_0065",
       "helpers": 4,
       "max_nodes_per_shard": 2000000,
@@ -359,6 +417,32 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 3.8,
       "lower_bound": 20
+    },
+    {
+      "id": "scored_0065",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        4867449,
+        7295105,
+        8858362,
+        9742807,
+        8770529,
+        9252385,
+        8389992,
+        9197560,
+        8911125,
+        9588664,
+        8698918,
+        7650915,
+        8817343,
+        8776796,
+        8952559,
+        8297299
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 129.6,
+      "lower_bound": 21
     },
     {
       "id": "scored_0066",
@@ -681,6 +765,50 @@
       "lower_bound": 14
     },
     {
+      "id": "scored_0134",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        1202625,
+        1761903,
+        2082813,
+        1880722,
+        1840349,
+        2052538,
+        1646786,
+        1327040
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 15.0,
+      "lower_bound": 17
+    },
+    {
+      "id": "scored_0137",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        8398245,
+        11347187,
+        7359315,
+        6676204,
+        5768780,
+        5141231,
+        6478926,
+        3784278,
+        3179466,
+        4156880,
+        2532463,
+        1387907,
+        1030484,
+        577793,
+        494065,
+        302897
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 96.0,
+      "lower_bound": 25
+    },
+    {
       "id": "scored_0151",
       "helpers": 4,
       "max_nodes_per_shard": 2000000,
@@ -750,6 +878,24 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 0.1,
       "lower_bound": 15
+    },
+    {
+      "id": "scored_0181",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        935785,
+        1323434,
+        869885,
+        1324375,
+        1761301,
+        1555330,
+        1239114,
+        1553507
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 12.7,
+      "lower_bound": 18
     },
     {
       "id": "scored_0196",
@@ -991,6 +1137,36 @@
       "lower_bound": 18
     },
     {
+      "id": "scored_0222",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        12002220,
+        19250208,
+        20621825,
+        23082863,
+        21119980,
+        23082199,
+        19420146,
+        20598637,
+        20846270,
+        17454666,
+        16396068,
+        18585470,
+        17065465,
+        16240523,
+        18152475,
+        14720977,
+        13759032,
+        11635752,
+        9499952,
+        9427219
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 341.7,
+      "lower_bound": 19
+    },
+    {
       "id": "scored_0233",
       "helpers": 4,
       "max_nodes_per_shard": 2000000,
@@ -1049,6 +1225,48 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 1.9,
       "lower_bound": 18
+    },
+    {
+      "id": "scored_0237",
+      "helpers": 7,
+      "max_nodes_per_shard": 10000000,
+      "shard_nodes": [
+        1060964,
+        1116310,
+        1279127,
+        1525143,
+        1519375,
+        1658383,
+        1525335,
+        1549640,
+        1521457,
+        1638029,
+        1319773,
+        1454579,
+        1263184,
+        1386946,
+        1661800,
+        1400336,
+        1128716,
+        1280344,
+        1094921,
+        1048239,
+        1129755,
+        1267353,
+        1059201,
+        1022801,
+        957363,
+        875381,
+        766948,
+        930406,
+        719916,
+        590091,
+        587237,
+        531365
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 41.1,
+      "lower_bound": 21
     },
     {
       "id": "scored_0241",
@@ -1611,6 +1829,29 @@
       "lower_bound": 12
     },
     {
+      "id": "scored_0376",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        3378227,
+        4790426,
+        4904163,
+        6323998,
+        5641352,
+        5667185,
+        4607265,
+        3718119,
+        3939821,
+        3393510,
+        3893494,
+        4230422,
+        2677446
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 54.8,
+      "lower_bound": 15
+    },
+    {
       "id": "scored_0387",
       "helpers": 4,
       "max_nodes_per_shard": 400000000,
@@ -2003,6 +2244,31 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 0.2,
       "lower_bound": 15
+    },
+    {
+      "id": "scored_0409",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        5996242,
+        12276926,
+        9986044,
+        11507144,
+        10214322,
+        9168031,
+        10680023,
+        9486675,
+        6450412,
+        6848419,
+        5955152,
+        5319698,
+        3931344,
+        2795834,
+        2988966
+      ],
+      "terminal_candidates": 5972,
+      "seconds_16_threads": 113.5,
+      "lower_bound": 18
     },
     {
       "id": "scored_0419",
@@ -3641,6 +3907,28 @@
       "lower_bound": 12
     },
     {
+      "id": "scored_0818",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        4822164,
+        6050207,
+        3485358,
+        6196928,
+        5446844,
+        6632823,
+        4107740,
+        4282515,
+        4404225,
+        6555971,
+        4334073,
+        3481212
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 61.2,
+      "lower_bound": 15
+    },
+    {
       "id": "scored_0822",
       "helpers": 4,
       "max_nodes_per_shard": 2000000,
@@ -3824,6 +4112,24 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 0.2,
       "lower_bound": 13
+    },
+    {
+      "id": "scored_0866",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        1578347,
+        1467023,
+        1939521,
+        1894618,
+        2092400,
+        1915051,
+        1448022,
+        1174253
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 15.8,
+      "lower_bound": 16
     },
     {
       "id": "scored_0868",
@@ -4107,6 +4413,32 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 0.3,
       "lower_bound": 15
+    },
+    {
+      "id": "scored_0908",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        8043472,
+        6633555,
+        8478374,
+        7883791,
+        10117140,
+        8889595,
+        10076258,
+        8922306,
+        8382667,
+        6794141,
+        8604015,
+        7028482,
+        6236654,
+        4520745,
+        4610865,
+        3847686
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 108.1,
+      "lower_bound": 18
     },
     {
       "id": "scored_0910",
@@ -4465,6 +4797,24 @@
       "lower_bound": 14
     },
     {
+      "id": "scored_0928",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        1428558,
+        2105908,
+        2188784,
+        1877988,
+        1844276,
+        1978912,
+        1586407,
+        1156595
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 16.4,
+      "lower_bound": 17
+    },
+    {
       "id": "scored_0937",
       "helpers": 3,
       "max_nodes_per_shard": 400000000,
@@ -4814,6 +5164,37 @@
       "lower_bound": 12
     },
     {
+      "id": "scored_0971",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        13346758,
+        20631877,
+        29347016,
+        24540619,
+        19861772,
+        23449985,
+        23182774,
+        25276318,
+        19797928,
+        17770242,
+        17301255,
+        20104395,
+        16742471,
+        15573087,
+        14746707,
+        15111493,
+        12560852,
+        11066022,
+        10928285,
+        8910141,
+        9333514
+      ],
+      "terminal_candidates": 41710,
+      "seconds_16_threads": 340.8,
+      "lower_bound": 15
+    },
+    {
       "id": "scored_0981",
       "helpers": 3,
       "max_nodes_per_shard": 400000000,
@@ -4866,6 +5247,24 @@
       "terminal_candidates": 0,
       "seconds_16_threads": 0.2,
       "lower_bound": 13
+    },
+    {
+      "id": "scored_0981",
+      "helpers": 8,
+      "max_nodes_per_shard": 30000000,
+      "shard_nodes": [
+        1466067,
+        2215910,
+        2266645,
+        1825263,
+        1967155,
+        1939684,
+        1531256,
+        1060626
+      ],
+      "terminal_candidates": 0,
+      "seconds_16_threads": 16.3,
+      "lower_bound": 16
     }
   ]
 }
