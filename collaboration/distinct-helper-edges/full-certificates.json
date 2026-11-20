@@ -1,0 +1,2396 @@
+{
+ "method": "rainbow-k4-turan-two-integer-oracles-v1",
+ "base_commit": "d3317babb7d530c031bde7df6f56d00b0247f85d",
+ "base_table_sha256": "2837087113a87f08b61e6c62408748277706e86755eea701dab9f9903899d339",
+ "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "count": 113,
+ "sum_gain": 113,
+ "rows": {
+  "scored_0023": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 820,
+   "allowed_sha256": "87b368f849799f0ed8e1e158d7981712b0939f71e39e9001198e750b6245bc43",
+   "labels": 28,
+   "labels_sha256": "2d534bedcd7f77dd07e07c22cd02ad121539d7dad85221872d04e00b03367099",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6500
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0026": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 3313,
+   "allowed_sha256": "196e6c0762f1202189d028b9fb7ff200002a7d337a7d3ce2f572669b8c0c634b",
+   "labels": 32,
+   "labels_sha256": "3a44972779e43b3b0b2c8982775b3b4eea1ebd190382c9041171a25e2eaaf227",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9840
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0037": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 125,
+   "allowed_sha256": "a2973b436a981881edf526d46204bc55e71f647eb62a638e57681c2d6e5acd77",
+   "labels": 30,
+   "labels_sha256": "95c6114fd136f170f260c7504a0f580ebd831ec3e6a1786b010411022cfd09ef",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8024
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0040": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 808,
+   "allowed_sha256": "c0cf1522109442b8206b14c9a4fd434dbb154a5bc2c45679e43aa39c805893ff",
+   "labels": 31,
+   "labels_sha256": "de3ccfa2b79a4c6c2a48a49484c8b01157f12769dd3545eb7f0f6d9837d0ba79",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8848
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0057": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "67a6cd1790cbc29bb8f2aae9a3b94737c16d8ee9ce11ebede98b2d8683fbe252",
+   "labels": 30,
+   "labels_sha256": "eda47ad3bc1b3f8ff05d47e2e20d33a00e0a1f03c00d5114844dcce69e25e53d",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8120
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 435,
+    "equations": 1169280,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8120
+   }
+  },
+  "scored_0071": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 114,
+   "allowed_sha256": "1807c7635bef68b08659acb25b3002d3f51e859a82fcb1b9b531df929e9bc18d",
+   "labels": 31,
+   "labels_sha256": "1a0e60aac82cdca3e88fd5c8ce1d880de97d1041ad4cad04097b10477b6bc5a9",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9102
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0077": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 30,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 31,
+   "allowed_sha256": "02477fc5e00e29d14ea5dff3e101538da8b0917a0ad3a36ae964790fc1f9b7e6",
+   "labels": 30,
+   "labels_sha256": "0fceeb69280ee146ed12ba7c473f379ccf89e742c04fc0613dfc1420df69e15e",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 9017
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 435,
+    "equations": 1169280,
+    "unresolved_identity": 0,
+    "grounded_triangles": 9017
+   }
+  },
+  "scored_0099": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 3080,
+   "allowed_sha256": "5f19f42b85b0c234a1dcdffa46a498f823e30c0ad3afbe62144ff74aa0989d3e",
+   "labels": 31,
+   "labels_sha256": "0eecb791a080ae5e20c426005b10c038258467f39e9ef7cbb8fb5ca9999231c8",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9328
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 9328
+   }
+  },
+  "scored_0100": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2722,
+   "allowed_sha256": "be7d951cd7494016ed55941d2e039fa4b39eeb65950fc48df58fac917cd5c298",
+   "labels": 27,
+   "labels_sha256": "0903e41423a30c324a93326a92770af152168f86a1812802dd9fa2956cde59d0",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0117": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2101,
+   "allowed_sha256": "88dd59452b4ce5d6cbf255c40f457605378d62ecced6c2397c99820568e30f65",
+   "labels": 31,
+   "labels_sha256": "e1d8cbe01bf11f03f3be26eeb380081c68ce5ddc97ac139a281c5c74a9a94042",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9328
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0122": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 816,
+   "allowed_sha256": "668d4c8f069fd7d9de9769b999edc06fb9be85dcea8da93efef8552a0622acff",
+   "labels": 28,
+   "labels_sha256": "876bfd4048fa378ac5a886d916efcda892ca956dc969415b39e1573864527ce0",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6464
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0129": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 824,
+   "allowed_sha256": "794b66a33627ada38e90a2d803ee0ea4cfb1f6497520871c22df638a37e22047",
+   "labels": 32,
+   "labels_sha256": "169424c8b7bc4db6ed203176606afef37ca1fc952972dd4f97eb55ae28fea281",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 8811
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0133": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 159,
+   "allowed_sha256": "0ae5183998422312c2ba7dceb963e0dc61be230a1a608a606f48c1f6e4d6ce80",
+   "labels": 32,
+   "labels_sha256": "97d1ea4fab1ae79439b646ca0b4bde9899cf7fe824f1acab9b78da544c6ae6a2",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9696
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0135": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 30,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 24,
+   "allowed_sha256": "4b4ced32ccbe7282e3ca7f9bb59e2a5777bba3437e2e04b6d73c54a56ef0f112",
+   "labels": 30,
+   "labels_sha256": "10724a746f7b019f3b1f4d98346ea651cd573a21088105cb5d0468f08a620749",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8348
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 435,
+    "equations": 1169280,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8348
+   }
+  },
+  "scored_0140": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 1989,
+   "allowed_sha256": "5e6e6824f0abe64c9244cc769fbd393f7fec7f53022234fafc71824ff4425705",
+   "labels": 32,
+   "labels_sha256": "0410a0e58380f9f653f126bef872095477a725f7772230d1947eba67ab3a14d1",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9840
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0165": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 827,
+   "allowed_sha256": "8a5d90fa51e9bc11b18c3299d03c4bb4ebe863c2b24434547e9038360ed714cd",
+   "labels": 28,
+   "labels_sha256": "611932c75ad9b7985a0e51b67fe567a01f858dc77cb69de6550c11a940c03b6b",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 4692
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 378,
+    "equations": 943488,
+    "unresolved_identity": 0,
+    "grounded_triangles": 4692
+   }
+  },
+  "scored_0170": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 32,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 27,
+   "allowed_sha256": "533ec1433f48f82f1ed46ea1df1416d45d6d4f2259583cc28085927c522e5df6",
+   "labels": 32,
+   "labels_sha256": "1fa438b7a5b8dc3cc6a9a44dc89aaea695142a657283e1736e8872ab2e3cc4ed",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9600
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0171": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 198,
+   "allowed_sha256": "51e2836ee801a07d7b1c7641cf49f16ff17f419d04701a7b575cb36643e9347d",
+   "labels": 30,
+   "labels_sha256": "e6773ef754e155d1f7ffd40bd678f08926f1257d74bd308a7bc45bd15b54d76d",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8344
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0179": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 1489,
+   "allowed_sha256": "d283cb3c7289461d83c49f29d37f75e088647e0b8aba203b52fb59aeef33a7d3",
+   "labels": 30,
+   "labels_sha256": "ef35635d95e8466ad1c7d25a029f5a53fdb102eccd7b6d8cb223fe0e8a30ae16",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8120
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0194": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2145,
+   "allowed_sha256": "8e9952e7ed57a2734a37e66885e8b6039f47862a27ab7dcbbc9d32018ec3a58f",
+   "labels": 30,
+   "labels_sha256": "5d2d7e2727c636e525eebda8b67e14f27f36f670ddd423f9c32638fe4e7abfba",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8344
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0200": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 3139,
+   "allowed_sha256": "f4ca1d76dfa18af7d3036160e1012b621bf028d92f8715bce879b5f8d70c2428",
+   "labels": 21,
+   "labels_sha256": "d3687b722d6140cede2c9113c6e4bf95de358bda77ee6f59e732d5b7b685d242",
+   "mobius": {
+    "triples": 1330,
+    "maps": 287280,
+    "identities": 0,
+    "triangles": 2632
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0209": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "915b9fd4ce3fbe93de98fef5e748ad3161f23789ab4223a7fb0db684148be393",
+   "labels": 31,
+   "labels_sha256": "391ad5f32a248771ede495d8b8fd02895177f304ab1593127267d26c3b4c1ad7",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9072
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0228": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 1670,
+   "allowed_sha256": "b2aa0175c5113d43b10c411ba65bbb8c5a35c001e494b589adf179b6ed7f94dc",
+   "labels": 25,
+   "labels_sha256": "ac9a6aa8ad9dddecf893549c22e930caa85942c87d0dec569f9e1162a16b09b7",
+   "mobius": {
+    "triples": 2300,
+    "maps": 496800,
+    "identities": 0,
+    "triangles": 4576
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0235": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2730,
+   "allowed_sha256": "1a34dd3bcfe3375c0955a5d3e21bac0a4429f8d9eefbf116a316170bb2cf556b",
+   "labels": 27,
+   "labels_sha256": "7e64d2d3159b1f079880bfc13596ac4ce1c7990b88e336ca3d7075b05599917b",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5485
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0236": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 286,
+   "allowed_sha256": "4aae7e4575d6a9d0bf393a53f474f2e6ac86c2eeaf74a28f01d764489a94ee86",
+   "labels": 28,
+   "labels_sha256": "9b6555c568e70c0f4c765c172e2ce79e766a2c17fcb916e42b348a5f6f9deedd",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6504
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 378,
+    "equations": 943488,
+    "unresolved_identity": 0,
+    "grounded_triangles": 6504
+   }
+  },
+  "scored_0242": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 824,
+   "allowed_sha256": "1da630a3dd1e0fa8652272cb319c6948eef996e7e6ce5b06f6a6dc996e2516c2",
+   "labels": 28,
+   "labels_sha256": "d8ac0d0f9c4490dcdf3b3f2624884b05489665ee9f69322ede6cdf6c15097416",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6604
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 378,
+    "equations": 943488,
+    "unresolved_identity": 0,
+    "grounded_triangles": 6604
+   }
+  },
+  "scored_0244": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2757,
+   "allowed_sha256": "479fa9622da3767fc465f373f7eb56adacd2ed723c3103cbbbf6cc43327040a3",
+   "labels": 31,
+   "labels_sha256": "665c0509db0b7b262599564ef198237e8d03b9b09b57caddcf304b283c6205e2",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8958
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8958
+   }
+  },
+  "scored_0248": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 820,
+   "allowed_sha256": "e8ef2719cf61b6411c338ca7f29998098542c307a1e7c38f22eac638db3376da",
+   "labels": 31,
+   "labels_sha256": "697b2b525ea2e5659799582f8fa02fbc4b3c9f4fdc2ba98da107d517bff00491",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8960
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0249": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 826,
+   "allowed_sha256": "b27e96a4466498b96380a7568cf97b6f2b75da1e7ff93e5e5aa73bc6966f379c",
+   "labels": 30,
+   "labels_sha256": "28ad09daf72b0468a51f8b7dc3803b05adefa63279678cbf5aac7dc60c19d9fd",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 6891
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0261": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 814,
+   "allowed_sha256": "e9065a64899f78fc25843f39a684d7eda8a6e253d3e841b08581b2487cd641f4",
+   "labels": 30,
+   "labels_sha256": "ec0160ba73f3513898a0cca5063e8bc26a6577efd716e3674ba181ca9229bb91",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 7663
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0280": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 29,
+   "allowed_sha256": "4e7b4fae1d3ce81f395612180d570f58572658b01743f1fbb157ce6e67c4c781",
+   "labels": 31,
+   "labels_sha256": "817839575ec59174b746be24296dc21cf7d5ecb7172ad8451efb7988e9089558",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8960
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0281": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 839,
+   "allowed_sha256": "59f4838a402fd80ba4f3c59977e3a5551b1431801e28de2346dd88f6e0826137",
+   "labels": 32,
+   "labels_sha256": "c9af5e0798bad56729418d994f238a8c9987bd1fb46542c62e35889e34024190",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9980
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0292": {
+   "prior": 16,
+   "lower": 17,
+   "missing": 10,
+   "k": 2,
+   "residual_helpers": 5,
+   "plain_helpers": 4,
+   "allowed_count": 1204,
+   "allowed_sha256": "f44bd786ddd4c94492a53c5b475a6d0d139eeb098ffdf9a7a275cb13c7cbb5e1",
+   "labels": 10,
+   "labels_sha256": "197ee1e5de8ea03063c6bb799d4aec6183b0de0cc75e6aff852f9a2d17707c0c",
+   "mobius": {
+    "triples": 120,
+    "maps": 25920,
+    "identities": 0,
+    "triangles": 240
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0303": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 827,
+   "allowed_sha256": "92b405dd4b8cea0392f762ff8b6857da5b7aed7d98ccbf30f59fe8a7747544ef",
+   "labels": 28,
+   "labels_sha256": "a23f9632cc3b4f6d94fe45d8a531c2d0c6f954e0901859b60a7b82af20aea357",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6504
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0311": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 289,
+   "allowed_sha256": "7fb8eff9b89a3dbccaacb187000a7f19f2cff157ed77ef2993850af4d4864b12",
+   "labels": 31,
+   "labels_sha256": "ff60996de2d076df1f4aa19fe5d00e6113c4af7b8f8f5ec1d8697a4a22ec5c5d",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8893
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0315": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "52db8019b4412f01f1bbeff3cd2c5736929ee764874a5569b6880852a45b691c",
+   "labels": 32,
+   "labels_sha256": "ab9bd12234fb9281ec6a4590da9c6ad6915a05b42680a96bb5dde747a54ab2df",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9804
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0317": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 3369,
+   "allowed_sha256": "7f9cc6b0b0f56cd7b0dab36d9107be8c70a0924c3edaa13b00f1aedd0969dbc5",
+   "labels": 31,
+   "labels_sha256": "ee3e58c1d9e2d4ac680e1126c2f9dd3003042430f2fb104b1d1f0b56a83d94ad",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8652
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0318": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 811,
+   "allowed_sha256": "4ee1987d8bdf97475ce493ac2e8647e3f1f7c37e3101e1963715b327bf2862ce",
+   "labels": 32,
+   "labels_sha256": "c4e1664ef3ca1f77d0a523d4858abed5e4fe1436a44d1963edf6bef8e479d941",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 10000
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0328": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2150,
+   "allowed_sha256": "1e184e4e3e1bdefac3d41d6a3f102ff3d3d054ffcd57eef384ccab5027aa4b41",
+   "labels": 32,
+   "labels_sha256": "45a108c8b6cf88c57642822b7f2d11937b34902327da95af5f25141b7b25e87a",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9755
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0344": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 807,
+   "allowed_sha256": "5cdeaba9d8fda74965b2bea086ad17ed4c8320fb07026bbfac67986534aaa359",
+   "labels": 28,
+   "labels_sha256": "0cb3447f05133feede02101b654850a208126c447df90695cd8695c56e6e1c56",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6552
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0346": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 821,
+   "allowed_sha256": "80a265c6ad1f63c001fa66de277bcb17dfdbe93f374a4b96ba8d1f1efb06eecc",
+   "labels": 30,
+   "labels_sha256": "717dce50881a8cf1cd554d901f5f33f52c4ff12ffeabee158e3e1f87383f2fcc",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8064
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0349": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 324,
+   "allowed_sha256": "e6816d339bc7a4bca01ba01513d472286ad364b8ecc34919c8768616418d7109",
+   "labels": 30,
+   "labels_sha256": "3e0865604f09d249c0e13692677b4025e6441af7592ad3ab2970244778199b4c",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8216
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0360": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 450,
+   "allowed_sha256": "49421c34ce1490b1ac7077c9e7cb5dda4a1998793205fc38ee1f39655bf758a9",
+   "labels": 32,
+   "labels_sha256": "a9951efb71aac11f48c7bd3ab753d63d9fdba127d45e594e918de483e4690875",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 10120
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 496,
+    "equations": 1428480,
+    "unresolved_identity": 0,
+    "grounded_triangles": 10120
+   }
+  },
+  "scored_0362": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 1808,
+   "allowed_sha256": "ee026c4942664da8f05f3498538c0d06a6ab8efc1ce9a21690add016d914252e",
+   "labels": 19,
+   "labels_sha256": "a2f40e1f527421c2456a1ef669afca738e7dd0e4ba6d6cdd470212e0c6c52cba",
+   "mobius": {
+    "triples": 969,
+    "maps": 209304,
+    "identities": 0,
+    "triangles": 1888
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0370": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 831,
+   "allowed_sha256": "c25a1805c32f51db6081222564198e8cbf5b700cdcb9419c2ea37bd24cf6c476",
+   "labels": 31,
+   "labels_sha256": "f2f8c0030314e19a872dea2ba16f10b887b29e44892fccf95d7d47aa4f117d4d",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8096
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8096
+   }
+  },
+  "scored_0373": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2549,
+   "allowed_sha256": "04581fc3390beae9640874dbfdc92b72f4ad07afcba9bb73d1df5122ab9cf50d",
+   "labels": 26,
+   "labels_sha256": "afa28ef042e7039062d0a3577815316960f9f9a73493a2345ad92de1e07c9188",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 4912
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0381": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 803,
+   "allowed_sha256": "61edd89f75f2aca4a8884ca4cfd0464f69255312147b0fc3ccba0e237c70c44f",
+   "labels": 28,
+   "labels_sha256": "5609a5b5680928b59c5dc4dd4c9b76ab59cbf01638400c912a4654d4c6a04fea",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 5401
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 378,
+    "equations": 943488,
+    "unresolved_identity": 0,
+    "grounded_triangles": 5401
+   }
+  },
+  "scored_0391": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2031,
+   "allowed_sha256": "2150d08b6ec64bc306d85a620300b6692f0c0c1d2a8710cefcc182bc84a82bfd",
+   "labels": 27,
+   "labels_sha256": "7c62a0155a39e5e5455719e23c246925731b725340f6d9c81069ee4b2d785d55",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5575
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0397": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2962,
+   "allowed_sha256": "7a79aff7f6f11a957ea88fb4160e2bef9220f25d58c0a636d1e29601d0cf6ae9",
+   "labels": 30,
+   "labels_sha256": "472c4f1ee3452773217c53184fc970cefe06848a4d61fcbd4354c5cc47d59b39",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8024
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0406": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2988,
+   "allowed_sha256": "6fc1364bfec0ff3147948134fdca80abb4f8c48d2c4cc806072875f08287259a",
+   "labels": 31,
+   "labels_sha256": "003c2c4d67d3a40a2120ed3dbce37429884ba91f36ea270b1f685ea780a43e30",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8880
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0413": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1748,
+   "allowed_sha256": "a3b008ce180a0ac60cbf92b8bc8d7a593510b5a40814ae39e998b63991082665",
+   "labels": 29,
+   "labels_sha256": "a901e2ef92d117ed920b82873f7f5ff8230ac7b1661b6f0b19927737749e120a",
+   "mobius": {
+    "triples": 3654,
+    "maps": 789264,
+    "identities": 0,
+    "triangles": 7280
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0426": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1825,
+   "allowed_sha256": "e20ca142969cfce7023530f022a9b32649ad5e2815ece4259782a741c10de3b3",
+   "labels": 25,
+   "labels_sha256": "33a60d1c44420ccad2d4dfa754e85280b6d8f73a76a70260f6ab2d64d5a53403",
+   "mobius": {
+    "triples": 2300,
+    "maps": 496800,
+    "identities": 0,
+    "triangles": 4544
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 300,
+    "equations": 662400,
+    "unresolved_identity": 0,
+    "grounded_triangles": 4544
+   }
+  },
+  "scored_0427": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1912,
+   "allowed_sha256": "b5d73ce2cb7d5b9388e59a24858a775c361b6fe68824f890642bca7907e4945b",
+   "labels": 26,
+   "labels_sha256": "e2a0eab6d59e979fbf3f2480d39e7dc2ad9d42b3f85565e34d173d1e7e2ea4ac",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 5248
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 325,
+    "equations": 748800,
+    "unresolved_identity": 0,
+    "grounded_triangles": 5248
+   }
+  },
+  "scored_0444": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 827,
+   "allowed_sha256": "3d63b8ddb17b265dacc175617cf07533c00627edf03085de33a04d824b099c66",
+   "labels": 28,
+   "labels_sha256": "7b659cc9315bf806f09b2de124ab6c69869f1a6c57055a2f38e6cab7bc0233c4",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 5761
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0458": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2287,
+   "allowed_sha256": "4632196330fd79c8166f5fb027a977797c550107dcd752cc6cb2f0c4dd300fcc",
+   "labels": 28,
+   "labels_sha256": "5a44c305ecb097bd3a27d97baffe5275bfe648457b8d9f4ca86650cdb16c268f",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6552
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0464": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 29,
+   "k": 1,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 39,
+   "allowed_sha256": "815a45430fd8fce0ad2db4ae885633d933e86db6356c2d1a504ea5cb9dec232a",
+   "labels": 27,
+   "labels_sha256": "b27b880255af9ee93adde7c0ffd2527c4eee493ce550702ddbbb1baf31775a93",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5785
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0466": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 29,
+   "k": 4,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2876,
+   "allowed_sha256": "654ddb9ac5e943da57148753fe7feea6fda281ff65ad185592cb57198bd04402",
+   "labels": 27,
+   "labels_sha256": "d19ea12285fcb1f9c131b19ca012a35d882a616814af234d079bc62b509de842",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5780
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0494": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 3112,
+   "allowed_sha256": "6909a127745c262b4f4c83bcbc687eb28901a9cebca8c6e4ba4db5711c5566f2",
+   "labels": 30,
+   "labels_sha256": "cf8a42eb3b1f755a42159f5d1d43f112a26e79e88fad5c2b1a183431f4cb5d77",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 7986
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0505": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 146,
+   "allowed_sha256": "99142c435c6082446e6439f9d3cdea26fd7871c4b4b488f5acf89880b28e543b",
+   "labels": 26,
+   "labels_sha256": "8650089bea1b24ef5eee5a6adc67491ba44f6577db834b13c589ddffbb6ea4f0",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 5152
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0540": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 809,
+   "allowed_sha256": "46a90207d7344e9e5e313599de3f343260c84c76f37100ec02d66d5f93622e74",
+   "labels": 30,
+   "labels_sha256": "c0451e8d679d33ec3f4dfc0c6b1221664b59d58e60b5ee394689c7ca3cf04e6a",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8184
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0541": {
+   "prior": 16,
+   "lower": 17,
+   "missing": 10,
+   "k": 2,
+   "residual_helpers": 5,
+   "plain_helpers": 4,
+   "allowed_count": 788,
+   "allowed_sha256": "08887432cc607a73a5dd4ae689244e7fb5564f874de20e1c21df3c083998bac3",
+   "labels": 10,
+   "labels_sha256": "d34b7841757a02a42ed3965355f5611b99018ecee0bd5060ec6d889b93bcd3c5",
+   "mobius": {
+    "triples": 120,
+    "maps": 25920,
+    "identities": 0,
+    "triangles": 256
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0552": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 821,
+   "allowed_sha256": "001dcb3004d3d9c420ed94ae67711b58bab5c833918b98e706dcf8341a25a6b8",
+   "labels": 31,
+   "labels_sha256": "613f1838535c52a1af39ee587a72821c2bb3413850a47c2656d81d5e6dcff657",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9020
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0565": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "0acbfa25c3e516203d9a79fcbfe4c49b82d051fb280ed08459d52d3716204ff0",
+   "labels": 30,
+   "labels_sha256": "df91df893bf42e0526d6770592eb422769b09dc111220e90cd1b769479b421bc",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 6967
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0574": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 30,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 27,
+   "allowed_sha256": "16c3606da7601843b1ec55a8a7481a38900905b1f18e73a900743b170cc7c2e3",
+   "labels": 30,
+   "labels_sha256": "ba936fed540e4e66a524aac354e93be5c2b2b3bde32102658d954d1d759dbe50",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8163
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0594": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 30,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2183,
+   "allowed_sha256": "2929237a6bcc636b935c5ae0d868e96812fd422f564b2fb754868ca74b1bd92a",
+   "labels": 30,
+   "labels_sha256": "2c728ff517fed588ebe9c94f571e79e09b99f8434451c635477a28ad9cb942a4",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8143
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0595": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 2497,
+   "allowed_sha256": "5dc6acefb5f667121e2e1be0877ff5aa1be69034f4d00a13456f299e42777b4d",
+   "labels": 25,
+   "labels_sha256": "2086204dce2f08909c3acbe77395e20d0ed8b91979f0559a7f7ee9b433788c49",
+   "mobius": {
+    "triples": 2300,
+    "maps": 496800,
+    "identities": 0,
+    "triangles": 4544
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0603": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 32,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 40,
+   "allowed_sha256": "3580bde309f80128d1a2d0912c7f7808cd52f9552a1e86bbdc1a1b182a011720",
+   "labels": 32,
+   "labels_sha256": "187a950ba7ca1f70bc4a0a5cb3790411ad0b03b5ac2e3fe0304dd851c89e03cf",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9940
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0615": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 40,
+   "allowed_sha256": "19e8677ebf0ae2c71efe87e26b928d8241a8d99d1fce6713933ba7e68f38c698",
+   "labels": 30,
+   "labels_sha256": "04bc12703d4aea32b7b6bbe624cc6a9536754f5a6f3ac9a38a86601038559bd3",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 9016
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0621": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 1850,
+   "allowed_sha256": "ef52f0baa1fb9d5b1454e87e2d7d9696569cb7eba609c00728eeb24c22f3c621",
+   "labels": 32,
+   "labels_sha256": "33e9ac796bb8a46e5c777ad503498bc8e29ac71e4f97b57ab42fd31a18873c87",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9920
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0623": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 29,
+   "k": 1,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 36,
+   "allowed_sha256": "fb7713ded303833493d7e5673806ad05699f77f1a9345c74682b9504d6be15d0",
+   "labels": 29,
+   "labels_sha256": "9a5892b1775f54c5f7c213426f85865ca50cbb595c465418eb7654078ccc0317",
+   "mobius": {
+    "triples": 3654,
+    "maps": 789264,
+    "identities": 0,
+    "triangles": 8017
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 406,
+    "equations": 1052352,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8017
+   }
+  },
+  "scored_0626": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2559,
+   "allowed_sha256": "5d37553252a631df0bc89c3e2532dfb149697bf4cd8c8b471a12517ec1bca535",
+   "labels": 26,
+   "labels_sha256": "efd34492f192d7583a9161e3304ac55ead8b142a7cb7806a4bc482f7fab13ebb",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0632": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2760,
+   "allowed_sha256": "43d0627010f1e132480f65529284d2a03790db28b8ed37eb05bbca1223771143",
+   "labels": 27,
+   "labels_sha256": "86640f4758129abfc583f000f7546d0ab1aff6c9b581db6cd12a8e4a18cd84a8",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5780
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0644": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2577,
+   "allowed_sha256": "4b82197136e07661e7e4a9f66774ff989e9f4d33075cdad46be68ca899742398",
+   "labels": 26,
+   "labels_sha256": "d79a9bbfa5e38ccbea161b04dd9bff2687670ea49fad911fb087e3ab3efe22c0",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 5120
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0652": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 26,
+   "allowed_sha256": "e608cf1ed18e6dbea786f90b006578dfed14fb47ef0e9d4c744786b4ac396929",
+   "labels": 31,
+   "labels_sha256": "7c6a7d7f6850db097f4b64d12a4d6539efd30445c6b3f41152740109338c0833",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8896
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0657": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 186,
+   "allowed_sha256": "7ce4441fb7ebeb1777f988c7631eb6cc8df9585e054597afb7f5722c1ec47f04",
+   "labels": 31,
+   "labels_sha256": "daf1e6225f7ecf1843530ad3b8a5878d6bc08cf47f79b80d24be10234fde4eb7",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8880
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8880
+   }
+  },
+  "scored_0658": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 819,
+   "allowed_sha256": "241bc9429b2bccbe310ee52ba1468373b51353d80e8ec1f8efd8b1fa942c2d79",
+   "labels": 30,
+   "labels_sha256": "b93afbc50fcd4ecfe135e465c6956a97e4887da99a09b6ca3b59a09fccc5d7f2",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8224
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0661": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 818,
+   "allowed_sha256": "b975db219c619034528f0fe489f5e3ae61042c8d641552437ddf34a9c0cc510e",
+   "labels": 32,
+   "labels_sha256": "367e57b965ce1a09690bbe752b52bfe146512f068a0dbad09920fc770cd8eed1",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9768
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0663": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1565,
+   "allowed_sha256": "8c84e5ea48ddfcdde3dd1078e4b3ad9e9a1aff3781768cac6ec184e7db2fa11a",
+   "labels": 27,
+   "labels_sha256": "e04a166e17e09f916d248bdd0933c6dc0c045acc2d79046963522c3f670e4ea6",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0673": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2095,
+   "allowed_sha256": "efef706eb1709b9863d6cd76e69091a6a3ac49db806fa99330c33f5740ce26fd",
+   "labels": 32,
+   "labels_sha256": "3e27ae2ac546dfbda2679f85e29bee0acf022137a37fcf515339788f16ce0ee5",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9980
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0678": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 812,
+   "allowed_sha256": "f5dc371efda9880656d43827fe8c079aaef5ea1d76b5f9aa3cffcc42bffd1686",
+   "labels": 28,
+   "labels_sha256": "b40595082be23a693e0bd3deb99a737f7b312927e6b7ce7ddb60f0568bfe8de3",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6552
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0682": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 818,
+   "allowed_sha256": "4d38ab2e64eaaf4968e98f08a0d08ba009877ebeae0fac570e24fc59cbb2c05e",
+   "labels": 31,
+   "labels_sha256": "15bf72d29d8256a5a5b819600109952e279529b39201b04ecc555bfb887c7b3d",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 7916
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0685": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 815,
+   "allowed_sha256": "a1e296d22c3ff355d41af076ed6270b4acefb689f227b258278de7b472bac48b",
+   "labels": 31,
+   "labels_sha256": "73c39986b40ae090b830bc8394c50cb6569bff2314961c6a51afe17ccf2a0247",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8880
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0687": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "652d6d68edb9e870785047a870e4475f8f7fad54d8e4fc540bdf9e86c60c9565",
+   "labels": 32,
+   "labels_sha256": "eae3dc307a9ff2a30b545be6d8c2f9b409c103612301302c7ba5381b98e666e8",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 10024
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0688": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 801,
+   "allowed_sha256": "7a3a460fb0c4279bfbbf4a764c8c4c68fac19610d40769b399f161ecf664b63b",
+   "labels": 28,
+   "labels_sha256": "e2f846ad923eaaf752d204bc1dba306d03fd109eb725278fefaf9a2b06fe0f17",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6800
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0694": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 27,
+   "allowed_sha256": "7fbccd22a14070aaaa7b8e306bf33ba6e4d2e5c56a1b7880698934a635f4109a",
+   "labels": 31,
+   "labels_sha256": "b7f18af0b70b452535e7752fef1cd48b2057be81c1a7a433a423a65ec870093f",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8893
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8893
+   }
+  },
+  "scored_0713": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 30,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 29,
+   "allowed_sha256": "e498dba52825ff54bd1b8f569fc73054891b32f005cab510fac9ae31e4fea917",
+   "labels": 30,
+   "labels_sha256": "992dcd11ab1afe3f8dc26634c3425c9466297a7fb018cc59e81107b134b1e5e2",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8160
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0735": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 2171,
+   "allowed_sha256": "f158ab91374fdcb2ddfab49cc37e23c5fcf93c5631e19f8d64736de259673851",
+   "labels": 25,
+   "labels_sha256": "80e7accc31077ba3a38010c41aaccbe7d5bfbaf90d0f049e3cfa87bea4526c20",
+   "mobius": {
+    "triples": 2300,
+    "maps": 496800,
+    "identities": 0,
+    "triangles": 4536
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0740": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1418,
+   "allowed_sha256": "0adefa568ddc1008319f8d5f48cb5d6dc4f21db9bbf86b6ca49e0551225b82e0",
+   "labels": 28,
+   "labels_sha256": "ed03856558b4cb8e9a2550a18708cd8c94870cdb36d9a88ecfac930af231cab6",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6464
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0742": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 815,
+   "allowed_sha256": "c8eeb318634b70867730c766f87d569778b65acf329ab99d2d8290d53f134ade",
+   "labels": 32,
+   "labels_sha256": "ae6d6592f6a9f012f8ee63e6a1b304f4bd9d519ff0ecb8eecdd7f63b4bcbe90d",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 10024
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0756": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2131,
+   "allowed_sha256": "450928386ec8ccaf32065e2924def1ec5f2d64070913591a08e4eeb36041e1b1",
+   "labels": 29,
+   "labels_sha256": "1aec72bcfce492e7267d9f759d89ead94ad229cfa83f8d1a7c0cca18b27efe69",
+   "mobius": {
+    "triples": 3654,
+    "maps": 789264,
+    "identities": 0,
+    "triangles": 7296
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0759": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2578,
+   "allowed_sha256": "39765a0c7bb802b1ad37ee15b3a857ba41b17200202c4ad97ff90ee1348b81bf",
+   "labels": 31,
+   "labels_sha256": "63c79f8784162857ec9c83761a7465b73fc6c1de1ab1ae2e17299357b5cba804",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8908
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 465,
+    "equations": 1294560,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8908
+   }
+  },
+  "scored_0771": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 811,
+   "allowed_sha256": "68454fba558c72f99abd1c2fcb244fc931704e3f757c3bf549f91cc6a7d00186",
+   "labels": 30,
+   "labels_sha256": "153d2d293a4c65c1ac5e9c6cdb7c0adb7affed3f61a9577b38a541d43a5a6098",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 6076
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0776": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 818,
+   "allowed_sha256": "8ead41faf39dee067b09ec8cf3b418b3c5fddffe1099be4bca73281350e9e393",
+   "labels": 31,
+   "labels_sha256": "23da7b4de23d5fd6a9a667ab8745372dc3468fdac4961e53cd90fdcb26dc3973",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9020
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0778": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 163,
+   "allowed_sha256": "14ce1758863b50a3a3d71726d9052d23c76c01a0c8c82737e135e99b2386376a",
+   "labels": 30,
+   "labels_sha256": "1c71268e86e624d9b0b4a6bd3c1115ced43d1c419da0404c10d0c0c76a664af8",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8016
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 435,
+    "equations": 1169280,
+    "unresolved_identity": 0,
+    "grounded_triangles": 8016
+   }
+  },
+  "scored_0788": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 2914,
+   "allowed_sha256": "53e45a55582b6ff08edfeb77c47b4668dd651eb5618697f0b2663d4504e2754d",
+   "labels": 31,
+   "labels_sha256": "a95d2e9cca60c5927b6b28a522e554aaf96f4a5b63687f9baae516710fc218c9",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8631
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0800": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 29,
+   "k": 2,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 453,
+   "allowed_sha256": "02aa76f83f8ac7876cb2c41da06ac1a01ddf7ce05f37ee3158aeb9e2258d2835",
+   "labels": 25,
+   "labels_sha256": "e60ebad66d1c2e39acd43927e2c433d9f4b30466b304636e117a60d798c4f37a",
+   "mobius": {
+    "triples": 2300,
+    "maps": 496800,
+    "identities": 0,
+    "triangles": 4567
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0805": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1710,
+   "allowed_sha256": "5c326907b9d1eeee228a9d6611a9d9e78856acfb6cdb906a694326f81fae69f1",
+   "labels": 26,
+   "labels_sha256": "1e3f978f7a79017fd337ffb7e66b6711fcf1ee0b6300f812d5086dcb7c43c658",
+   "mobius": {
+    "triples": 2600,
+    "maps": 561600,
+    "identities": 0,
+    "triangles": 6688
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 325,
+    "equations": 748800,
+    "unresolved_identity": 0,
+    "grounded_triangles": 6688
+   }
+  },
+  "scored_0821": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 31,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 26,
+   "allowed_sha256": "9a0bbb85be3b811a9b969b95c19d398463947efe2afa1eb33a276b45811653a1",
+   "labels": 31,
+   "labels_sha256": "1973df54a4750fbfbc0866783dec5e934df0aa3db59384b53e8d3760e39e251d",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 10114
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0827": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2332,
+   "allowed_sha256": "0be1665c4092f1b08ffb3045d0b651d8efb37f3f28b3e6a80572a42a9ecdb9fc",
+   "labels": 28,
+   "labels_sha256": "08b94e9a1a515fdcbf76a8b2416ea3b15856b7e6ffb6e0f97775f8db60e2f864",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6460
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0831": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 30,
+   "k": 1,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 19,
+   "allowed_sha256": "0db90cc6557e485deb5da9e4bc4899bfad1451475d3aabed240110003df2c4e2",
+   "labels": 30,
+   "labels_sha256": "92a5a0e65026e1341e069c9ae17a65582567c6ac185b6ab3975b37b0892ef74a",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8061
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0837": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 823,
+   "allowed_sha256": "32c1602d11f6d887ce586455eef4b293bf73ffd2f7e86ec8087b4bfbe1896ab7",
+   "labels": 32,
+   "labels_sha256": "2ad4b52fe5150b38a32b65eae979b2e31c3692cb19f5d4da38cfe249f54a8078",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9672
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0850": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 31,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 822,
+   "allowed_sha256": "5a3def0c7832aa99f1ff6bb07eb25f3fc1a2097157521ebdd11eb92a86d2a56d",
+   "labels": 31,
+   "labels_sha256": "3e5fce15418158c8a440bb17ee983a45b2a50a7eb90818d655da08b58d3c7a2d",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8908
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0860": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 2664,
+   "allowed_sha256": "d604997be76e12e84caeedfdb22f4e7ab065dc4594599b239a9383b375e5dbd6",
+   "labels": 28,
+   "labels_sha256": "a088d1d66cacad350e9b4ca8d81ef0530469a681ef55e9d49169bd03f60f42ff",
+   "mobius": {
+    "triples": 3276,
+    "maps": 707616,
+    "identities": 0,
+    "triangles": 6464
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0862": {
+   "prior": 41,
+   "lower": 42,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 370,
+   "allowed_sha256": "6f7ebe83ce9dbce992c3037d303fbc9bb29a4d63ab379524b0d84431c302815e",
+   "labels": 32,
+   "labels_sha256": "a80ebd9117e76ceb72638e3fcfd3cb316b81118248636fb469aaca57652e859e",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9804
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0923": {
+   "prior": 43,
+   "lower": 44,
+   "missing": 32,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 342,
+   "allowed_sha256": "04f613c827e21248976c9455a28b2b9e67bbdcdfec5aef099c166ab7800cf210",
+   "labels": 32,
+   "labels_sha256": "dff78164d22b779511ec6078b96de00f38f2d010cdce9cadf04422b0ddcee1c1",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9816
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 496,
+    "equations": 1428480,
+    "unresolved_identity": 0,
+    "grounded_triangles": 9816
+   }
+  },
+  "scored_0932": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 1828,
+   "allowed_sha256": "5f973bbc86ede7ad6c7fe3ed0b262f473c3e31a4f4df291f97105e57234682d1",
+   "labels": 31,
+   "labels_sha256": "3f2bbb99d3adb7cd347ce4abf63451836e7ad01ec03fa0c6826b4e5f2ce00a69",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 9193
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0933": {
+   "prior": 37,
+   "lower": 38,
+   "missing": 28,
+   "k": 3,
+   "residual_helpers": 7,
+   "plain_helpers": 6,
+   "allowed_count": 2487,
+   "allowed_sha256": "a619436117f99902b876b2633814602e0308eb8a2474029302109ede0264b2fa",
+   "labels": 22,
+   "labels_sha256": "ecfd424f285d1ceb348f442b4f45fa6be7cdbe9c85c66d91193e405aaa43e4b9",
+   "mobius": {
+    "triples": 1540,
+    "maps": 332640,
+    "identities": 0,
+    "triangles": 3200
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT",
+   "ordered": {
+    "label_pairs": 231,
+    "equations": 443520,
+    "unresolved_identity": 0,
+    "grounded_triangles": 3200
+   }
+  },
+  "scored_0944": {
+   "prior": 39,
+   "lower": 40,
+   "missing": 29,
+   "k": 3,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 1956,
+   "allowed_sha256": "4584d0d165f895af3b33e5f61cd0e423e12dc40d8855f4f556d2de686303278c",
+   "labels": 27,
+   "labels_sha256": "a3061bd86273f5560ee6f18e7ce765d0bab538ac24c654b7c3654d7fe4666f43",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5688
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0946": {
+   "prior": 40,
+   "lower": 41,
+   "missing": 30,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 825,
+   "allowed_sha256": "3764cdcadf643eb673ff694164f87524cc9e0d484ee97c4aee325b0b5c525448",
+   "labels": 30,
+   "labels_sha256": "a6f31b0625a18a4db39d6a201b8744d0b3b3ba8323159737b48eaa379c8c651e",
+   "mobius": {
+    "triples": 4060,
+    "maps": 876960,
+    "identities": 0,
+    "triangles": 8016
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0953": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 813,
+   "allowed_sha256": "4d650a1ab3e8ec321b2ead8e11a6c22439b082aca091482b5effa34069124df1",
+   "labels": 32,
+   "labels_sha256": "807ca9c9952ec2dd21e3cefd25cbe93fa0a754e52d352d0b8b95c8ae3db8280e",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 8844
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0973": {
+   "prior": 38,
+   "lower": 39,
+   "missing": 29,
+   "k": 2,
+   "residual_helpers": 8,
+   "plain_helpers": 7,
+   "allowed_count": 220,
+   "allowed_sha256": "25aa0b8736796035e35b867fb513cc33869529109a6965de5cd5a3e0baffc31a",
+   "labels": 27,
+   "labels_sha256": "87e1dbd0dd0225961ff8233b9e24a871684f492c4a5155a9a4f5eb880a950184",
+   "mobius": {
+    "triples": 2925,
+    "maps": 631800,
+    "identities": 0,
+    "triangles": 5856
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0983": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 32,
+   "k": 2,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 130,
+   "allowed_sha256": "e0373e9be0f5991ed9aee49fd63dbb3af405f66e704124ded6e3b5440ab07155",
+   "labels": 32,
+   "labels_sha256": "a731ae3fc8ebb4dbfe95f4a8f8f66d8e0761125f1dad3d4461e966ffc8b28752",
+   "mobius": {
+    "triples": 4960,
+    "maps": 1071360,
+    "identities": 0,
+    "triangles": 9940
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  },
+  "scored_0990": {
+   "prior": 42,
+   "lower": 43,
+   "missing": 31,
+   "k": 3,
+   "residual_helpers": 9,
+   "plain_helpers": 8,
+   "allowed_count": 3315,
+   "allowed_sha256": "99540a7539fdf4a339275c2335f05ba83c71f30b44b790ee71fbec9764bb02af",
+   "labels": 31,
+   "labels_sha256": "64d4bb5b0fd6b7b04fce290ccc04a28113fb13e894ca9978c99695f5c8a9b9bb",
+   "mobius": {
+    "triples": 4495,
+    "maps": 970920,
+    "identities": 0,
+    "triangles": 8652
+   },
+   "mobius_status": "ABSENT",
+   "ordered_status": "ABSENT"
+  }
+ }
+}

@@ -21,6 +21,9 @@ def main():
     parser.add_argument('--receipt',required=True,type=Path)
     args=parser.parse_args()
     evidence=json.loads(args.receipt.read_bytes())
+    for relative, expected in evidence.get('dependencies', {}).items():
+        if sha256(HERE/relative) != expected:
+            raise ValueError(f'Proof dependency changed: {relative}')
     external_sha=sha256(ROOT/'proofs_ext/bounds.csv')
     if external_sha!=evidence['external_bounds_sha256']:
         revision=evidence['upstream']

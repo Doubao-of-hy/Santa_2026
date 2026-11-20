@@ -1,0 +1,10 @@
+{
+ "frozen": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+ "published_sum": 36768,
+ "after_four_initial_claims": 36772,
+ "input_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "published_table_sha256": "2837087113a87f08b61e6c62408748277706e86755eea701dab9f9903899d339",
+ "rows": 1000,
+ "earlier_results_sha256": "00dd521226ee9a3d2181e98f4b85c744b73f1ec34cc01a4078e3d59e8a078aaa",
+ "selection": "All 1000 frozen puzzles; skip previously tight rows, screen every depth 0..4 with max domain 3500 and with at least one real target outside the preceding prefix. Retain all official targets as operands. Search all surviving one-to-three deletions in each original unsupported set; stop a winning row on its first strict gain over its previously published floor or the initial four row updates. Reuse the prior search only with exactly the same row, prefix and remaining-helper budget. No change to the pair-count formula and no Turan/K4 refinement. Record any sizes beyond three the count screen does not rule out."
+}

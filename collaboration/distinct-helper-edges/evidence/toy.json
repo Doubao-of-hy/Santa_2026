@@ -1,0 +1,32 @@
+{
+ "exhaustive_and_seeded": {
+  "PRESENT": 229,
+  "identity_cases": 352,
+  "ABSENT": 209
+ },
+ "planted": {
+  "vertices": [
+   7,
+   3,
+   11,
+   23
+  ],
+  "labels": [
+   10,
+   14,
+   18,
+   30,
+   26,
+   34
+  ],
+  "edges": [
+   "ab",
+   "bc",
+   "ca",
+   "ad",
+   "bd",
+   "cd"
+  ]
+ },
+ "identity_fallback": "UNKNOWN"
+}

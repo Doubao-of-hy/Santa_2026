@@ -1,0 +1,71 @@
+{
+ "scored_0037": {
+  "k": 3,
+  "remaining_helpers": 7,
+  "deleted": [
+   1616598875
+  ]
+ },
+ "scored_0117": {
+  "k": 3,
+  "deleted": [
+   5116519184,
+   8495469166
+  ]
+ },
+ "scored_0133": {
+  "k": 3,
+  "remaining_helpers": 7,
+  "deleted": [
+   44867212802
+  ]
+ },
+ "scored_0170": {
+  "k": 2,
+  "remaining_helpers": 7,
+  "deleted": [
+   239162417634
+  ]
+ },
+ "scored_0328": {
+  "k": 3,
+  "deleted": [
+   445757036016
+  ]
+ },
+ "scored_0494": {
+  "k": 3,
+  "deleted": [
+   4070519212500
+  ]
+ },
+ "scored_0505": {
+  "k": 3,
+  "remaining_helpers": 6,
+  "deleted": [
+   14257079
+  ]
+ },
+ "scored_0595": {
+  "k": 3,
+  "remaining_helpers": 6,
+  "deleted": [
+   7795314,
+   14373336272
+  ]
+ },
+ "scored_0603": {
+  "k": 2,
+  "remaining_helpers": 7,
+  "deleted": [
+   773557786,
+   773558508
+  ]
+ },
+ "scored_0820": {
+  "k": 3,
+  "deleted": [
+   187493217265
+  ]
+ }
+}

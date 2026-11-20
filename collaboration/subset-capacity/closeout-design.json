@@ -1,0 +1,11 @@
+{
+ "as_of": "After the frozen 1000-row screen",
+ "inputs": {
+  "claims_sha256": "aa99ca0c0d2cec120629835adef518ae4a8af51abfdb69e797a3d74af7cede31",
+  "full-design_sha256": "8d19ab1b752560452a5fe29d51d1658c0778ba7df85729f9427ce7f86e929dff"
+ },
+ "tasks": [
+  "The one exact-envelope stage for which the count screen still permits four deletions: scored_0270, prefix 3, h=6. Enumerate every subset deleting exactly four of the 26 remaining unsupported targets.",
+  "For the ten initially successful rows, repeat the count ceiling at every available depth 0..4 with the higher already-verified lower bound. If a stage survives, enumerate every subset size permitted by that analytic ceiling; stop if it yields a second strict gain."
+ ]
+}

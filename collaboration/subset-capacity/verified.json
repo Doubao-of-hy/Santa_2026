@@ -1,0 +1,222 @@
+{
+ "frozen": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+ "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "published_table_sha256": "2837087113a87f08b61e6c62408748277706e86755eea701dab9f9903899d339",
+ "baseline": 36768,
+ "proposed_new_total": 36778,
+ "rows": {
+  "scored_0037": {
+   "old": 40,
+   "new": 41,
+   "required": 30,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 2553,
+   "unsupported": 30,
+   "deleted": [
+    1616598875
+   ],
+   "counted": 29,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  },
+  "scored_0117": {
+   "old": 41,
+   "new": 42,
+   "required": 31,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 2101,
+   "unsupported": 31,
+   "deleted": [
+    5116519184,
+    8495469166
+   ],
+   "counted": 29,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  },
+  "scored_0133": {
+   "old": 42,
+   "new": 43,
+   "required": 32,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 2820,
+   "unsupported": 32,
+   "deleted": [
+    44867212802
+   ],
+   "counted": 31,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  },
+  "scored_0170": {
+   "old": 41,
+   "new": 42,
+   "required": 32,
+   "witness_first_helpers": 2,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 175,
+   "unsupported": 32,
+   "deleted": [
+    239162417634
+   ],
+   "counted": 31,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  },
+  "scored_0328": {
+   "old": 42,
+   "new": 43,
+   "required": 32,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 2150,
+   "unsupported": 32,
+   "deleted": [
+    445757036016
+   ],
+   "counted": 31,
+   "capacity": 29,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 8,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 16
+   }
+  },
+  "scored_0494": {
+   "old": 42,
+   "new": 43,
+   "required": 32,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 3112,
+   "unsupported": 30,
+   "deleted": [
+    4070519212500
+   ],
+   "counted": 29,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  },
+  "scored_0505": {
+   "old": 37,
+   "new": 38,
+   "required": 28,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 6,
+   "original_free_envelope_size": 2636,
+   "unsupported": 25,
+   "deleted": [
+    14257079
+   ],
+   "counted": 24,
+   "capacity": 22,
+   "terms": {
+    "helper_pairs": 15,
+    "top_unary": 7,
+    "top_degrees": 6,
+    "top_pair_bonuses": 15,
+    "top_mixed": 14
+   }
+  },
+  "scored_0595": {
+   "old": 37,
+   "new": 38,
+   "required": 28,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 6,
+   "original_free_envelope_size": 2497,
+   "unsupported": 25,
+   "deleted": [
+    7795314,
+    14373336272
+   ],
+   "counted": 23,
+   "capacity": 22,
+   "terms": {
+    "helper_pairs": 15,
+    "top_unary": 7,
+    "top_degrees": 6,
+    "top_pair_bonuses": 15,
+    "top_mixed": 14
+   }
+  },
+  "scored_0603": {
+   "old": 41,
+   "new": 42,
+   "required": 32,
+   "witness_first_helpers": 2,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 307,
+   "unsupported": 32,
+   "deleted": [
+    773557786,
+    773558508
+   ],
+   "counted": 30,
+   "capacity": 29,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 8,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 16
+   }
+  },
+  "scored_0820": {
+   "old": 40,
+   "new": 41,
+   "required": 30,
+   "witness_first_helpers": 3,
+   "remaining_helper_budget": 7,
+   "original_free_envelope_size": 3060,
+   "unsupported": 30,
+   "deleted": [
+    187493217265
+   ],
+   "counted": 29,
+   "capacity": 28,
+   "terms": {
+    "helper_pairs": 21,
+    "top_unary": 7,
+    "top_degrees": 7,
+    "top_pair_bonuses": 21,
+    "top_mixed": 14
+   }
+  }
+ }
+}

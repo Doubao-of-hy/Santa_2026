@@ -1,0 +1,362 @@
+[
+ {
+  "id": "scored_0923",
+  "previous": 43,
+  "certified": 44,
+  "cases": [
+   {
+    "k": 3,
+    "unsupported": 32,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4960,
+     "maps": 1071360,
+     "identities": 0,
+     "triangles": 9816
+    },
+    "witness": null,
+    "seconds": 1.3565,
+    "established": 44,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 496,
+     "equations": 1428480,
+     "unresolved_identity": 0,
+     "grounded_triangles": 9816
+    },
+    "independent_seconds": 1.3583
+   }
+  ]
+ },
+ {
+  "id": "scored_0694",
+  "previous": 40,
+  "certified": 41,
+  "cases": [
+   {
+    "k": 1,
+    "unsupported": 31,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4495,
+     "maps": 970920,
+     "identities": 0,
+     "triangles": 8893
+    },
+    "witness": null,
+    "seconds": 1.2582,
+    "established": 41,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 465,
+     "equations": 1294560,
+     "unresolved_identity": 0,
+     "grounded_triangles": 8893
+    },
+    "independent_seconds": 1.2722
+   }
+  ]
+ },
+ {
+  "id": "scored_0165",
+  "previous": 37,
+  "certified": 38,
+  "cases": [
+   {
+    "k": 2,
+    "unsupported": 28,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 3276,
+     "maps": 707616,
+     "identities": 0,
+     "triangles": 4692
+    },
+    "witness": null,
+    "seconds": 0.7597,
+    "established": 38,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 378,
+     "equations": 943488,
+     "unresolved_identity": 0,
+     "grounded_triangles": 4692
+    },
+    "independent_seconds": 0.781
+   }
+  ]
+ },
+ {
+  "id": "scored_0370",
+  "previous": 41,
+  "certified": 42,
+  "cases": [
+   {
+    "k": 2,
+    "unsupported": 31,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4495,
+     "maps": 970920,
+     "identities": 0,
+     "triangles": 8096
+    },
+    "witness": null,
+    "seconds": 1.2394,
+    "established": 42,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 465,
+     "equations": 1294560,
+     "unresolved_identity": 0,
+     "grounded_triangles": 8096
+    },
+    "independent_seconds": 1.3914
+   }
+  ]
+ },
+ {
+  "id": "scored_0236",
+  "previous": 37,
+  "certified": 38,
+  "cases": [
+   {
+    "k": 2,
+    "unsupported": 28,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 3276,
+     "maps": 707616,
+     "identities": 0,
+     "triangles": 6504
+    },
+    "witness": null,
+    "seconds": 0.9227,
+    "established": 38,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 378,
+     "equations": 943488,
+     "unresolved_identity": 0,
+     "grounded_triangles": 6504
+    },
+    "independent_seconds": 0.9912
+   }
+  ]
+ },
+ {
+  "id": "scored_0099",
+  "previous": 41,
+  "certified": 42,
+  "cases": [
+   {
+    "k": 3,
+    "unsupported": 31,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4495,
+     "maps": 970920,
+     "identities": 0,
+     "triangles": 9328
+    },
+    "witness": null,
+    "seconds": 1.5846,
+    "established": 42,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 465,
+     "equations": 1294560,
+     "unresolved_identity": 0,
+     "grounded_triangles": 9328
+    },
+    "independent_seconds": 1.4755
+   }
+  ]
+ },
+ {
+  "id": "scored_0381",
+  "previous": 37,
+  "certified": 38,
+  "cases": [
+   {
+    "k": 2,
+    "unsupported": 28,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 3276,
+     "maps": 707616,
+     "identities": 0,
+     "triangles": 5401
+    },
+    "witness": null,
+    "seconds": 0.9761,
+    "established": 38,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 378,
+     "equations": 943488,
+     "unresolved_identity": 0,
+     "grounded_triangles": 5401
+    },
+    "independent_seconds": 0.995
+   }
+  ]
+ },
+ {
+  "id": "scored_0426",
+  "previous": 38,
+  "certified": 39,
+  "cases": [
+   {
+    "k": 3,
+    "unsupported": 25,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 2300,
+     "maps": 496800,
+     "identities": 0,
+     "triangles": 4544
+    },
+    "witness": null,
+    "seconds": 0.7135,
+    "established": 39,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 300,
+     "equations": 662400,
+     "unresolved_identity": 0,
+     "grounded_triangles": 4544
+    },
+    "independent_seconds": 0.7005
+   }
+  ]
+ },
+ {
+  "id": "scored_0360",
+  "previous": 43,
+  "certified": 44,
+  "cases": [
+   {
+    "k": 3,
+    "unsupported": 32,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4960,
+     "maps": 1071360,
+     "identities": 0,
+     "triangles": 10120
+    },
+    "witness": null,
+    "seconds": 1.3963,
+    "established": 44,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 496,
+     "equations": 1428480,
+     "unresolved_identity": 0,
+     "grounded_triangles": 10120
+    },
+    "independent_seconds": 1.5208
+   }
+  ]
+ },
+ {
+  "id": "scored_0623",
+  "previous": 37,
+  "certified": 38,
+  "cases": [
+   {
+    "k": 1,
+    "unsupported": 29,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 3654,
+     "maps": 789264,
+     "identities": 0,
+     "triangles": 8017
+    },
+    "witness": null,
+    "seconds": 0.9248,
+    "established": 38,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 406,
+     "equations": 1052352,
+     "unresolved_identity": 0,
+     "grounded_triangles": 8017
+    },
+    "independent_seconds": 1.043
+   }
+  ]
+ },
+ {
+  "id": "scored_0805",
+  "previous": 38,
+  "certified": 39,
+  "cases": [
+   {
+    "k": 3,
+    "unsupported": 26,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 2600,
+     "maps": 561600,
+     "identities": 0,
+     "triangles": 6688
+    },
+    "witness": null,
+    "seconds": 0.7924,
+    "established": 39,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 325,
+     "equations": 748800,
+     "unresolved_identity": 0,
+     "grounded_triangles": 6688
+    },
+    "independent_seconds": 0.8159
+   }
+  ]
+ },
+ {
+  "id": "scored_0657",
+  "previous": 40,
+  "certified": 41,
+  "cases": [
+   {
+    "k": 2,
+    "unsupported": 31,
+    "status": "ABSENT",
+    "statistics": {
+     "triples": 4495,
+     "maps": 970920,
+     "identities": 0,
+     "triangles": 8880
+    },
+    "witness": null,
+    "seconds": 1.1677,
+    "established": 41,
+    "independent_status": "ABSENT",
+    "independent_witness": null,
+    "independent_statistics": {
+     "label_pairs": 465,
+     "equations": 1294560,
+     "unresolved_identity": 0,
+     "grounded_triangles": 8880
+    },
+    "independent_seconds": 1.0432
+   }
+  ]
+ }
+]

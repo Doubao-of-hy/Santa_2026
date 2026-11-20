@@ -1,0 +1,20 @@
+{
+  "upstream": "95780b7841ab78e02b724b11aa286f4dedd8581d",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "external_bounds_sha256": "42b1ecd7d0e1f4098b8e7850b1385c8f82301ead711e033ef24c57f41bfb42bf",
+  "local_manifest_sha256": "7103f42ab4da2c9ed02c566dd99c8767c39f43629bc0f3610e6b1ccf10eee2d0",
+  "base_commit": "d3317babb7d530c031bde7df6f56d00b0247f85d",
+  "base_table_sha256": "2837087113a87f08b61e6c62408748277706e86755eea701dab9f9903899d339",
+  "parent_lower_projection_sha256": "d168252ce9f37503ef470cb80100afd5976d6a1741aa972729227ac0a8371000",
+  "previous_certified_lower": 36768,
+  "certified_lower": 36882,
+  "count_strict_rows": 114,
+  "overlapping_rows": 9,
+  "lower_projection_sha256": "ed8310368405feffb4e6ccd83a89aeb30bcf2c91527b99f84fa2b047473307c3",
+  "dependencies": {
+    "evidence/upstream-95780b7.json": "f459c2113ca182b80c08604450e055c84619d74e297e079058c0407c261c3ee5",
+    "distinct-helper-edges/full-certificates.json": "5e3d6378b4421275918ed0bf70d9b40882b2c92bd253c9469051f1eae44bfc86",
+    "subset-capacity/verified.json": "dafc7e9ef7f427ecd056fcde3973c86b25896ee92fb5a2205b2d96d75e994b87",
+    "subset-capacity/witnesses.json": "653bc11b964b8bdbd322b016d4297f4262b733226df8779f030f3802378f8c96"
+  }
+}

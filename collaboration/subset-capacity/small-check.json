@@ -1,0 +1,61 @@
+{
+ "negative_control": {
+  "reason": "Dropping uncounted target 4 from the operand bank would incorrectly label target 8 unsupported. Legal tape: 4=2+2, 8=4+4. No non-target helper needed.",
+  "seeds": [
+   2
+  ],
+  "targets": [
+   4,
+   8
+  ],
+  "counted": [
+   8
+  ],
+  "optimum": 2
+ },
+ "counts": {
+  "checked_operand_pairs": 83,
+  "seed_target_instances": 6212,
+  "finite_optima": 6212,
+  "subsets": 3826,
+  "helper_budgets": 11478,
+  "strict_exclusions": 3878
+ },
+ "examples": [
+  {
+   "cap": 7,
+   "seeds": [
+    5
+   ],
+   "targets": [
+    3,
+    7
+   ],
+   "counted": [
+    3
+   ],
+   "first_helpers": 1,
+   "remaining_budget_excluded": 0,
+   "projected_lower": 4,
+   "exact_optimum": 4
+  },
+  {
+   "cap": 8,
+   "seeds": [
+    1
+   ],
+   "targets": [
+    5,
+    8
+   ],
+   "counted": [
+    5
+   ],
+   "first_helpers": 1,
+   "remaining_budget_excluded": 0,
+   "projected_lower": 4,
+   "exact_optimum": 4
+  }
+ ],
+ "register_relaxation": "All computed positive values stay available; BFS includes all legal pairs and operations within cap."
+}

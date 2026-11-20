@@ -1,0 +1,81 @@
+{
+ "snapshot": "d3317babb7d530c031bde7df6f56d00b0247f85d",
+ "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "source_manifest_sha256": "d8b36d8b48df1bf120c81cf2787f84668491a5d829e7b958a29dc06516f23113",
+ "packs": {
+  "conditioned-6d94502c744e99db.json.gz": "6d94502c744e99dbc1f75747647e2f5b48768bb4e173b5f14fc7b155a98f6bcf",
+  "conditioned-d822fe4329c19e58.json.gz": "d822fe4329c19e58da4a02c6d5f16a28bac1c66faa06184766c955b67c857a75",
+  "conditioned-d42119cf362e72ca.json.gz": "d42119cf362e72ca4665886f481981a7765170c525972d66e486f2372abde5ac",
+  "conditioned-8b87135a96a1dda8.json.gz": "8b87135a96a1dda86ace42b681db030202ce9372ff47e0c60f944bcaf9a441fd"
+ },
+ "plain_certificates_sha256": "5e3d6378b4421275918ed0bf70d9b40882b2c92bd253c9469051f1eae44bfc86",
+ "group_counts": {
+  "(1, 5)": 220,
+  "(6, 10)": 259,
+  "(11, 10000)": 166
+ },
+ "eligible": 645,
+ "pilot": [
+  {
+   "id": "scored_0096",
+   "split": "development",
+   "leaves": 4
+  },
+  {
+   "id": "scored_0483",
+   "split": "development",
+   "leaves": 4
+  },
+  {
+   "id": "scored_0446",
+   "split": "holdout",
+   "leaves": 4
+  },
+  {
+   "id": "scored_0886",
+   "split": "holdout",
+   "leaves": 3
+  },
+  {
+   "id": "scored_0829",
+   "split": "development",
+   "leaves": 8
+  },
+  {
+   "id": "scored_0949",
+   "split": "development",
+   "leaves": 8
+  },
+  {
+   "id": "scored_0139",
+   "split": "holdout",
+   "leaves": 8
+  },
+  {
+   "id": "scored_0581",
+   "split": "holdout",
+   "leaves": 8
+  },
+  {
+   "id": "scored_0636",
+   "split": "development",
+   "leaves": 12
+  },
+  {
+   "id": "scored_0741",
+   "split": "development",
+   "leaves": 26
+  },
+  {
+   "id": "scored_0119",
+   "split": "holdout",
+   "leaves": 19
+  },
+  {
+   "id": "scored_0845",
+   "split": "holdout",
+   "leaves": 12
+  }
+ ],
+ "scope": "No new branches. Per archived tree use only its exact partition groups, stated envelope depths and caps. First price every leaf against max(fixed baseline, unconditioned K4). Each leaf must meet the threshold. A common negative may be inherited only for a containing label set and a contained forbidden-vertex set. If a common test does not exclude a K4, directly check needed leaves. Both complete integer oracles must certify every use of Turan; otherwise retain the ordinary bound. Never strengthen 0926."
+}

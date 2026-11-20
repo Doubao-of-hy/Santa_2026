@@ -1,0 +1,542 @@
+{
+ "small_graphs": {
+  "PRESENT": 284,
+  "ABSENT": 100
+ },
+ "development": [
+  {
+   "id": "scored_0476",
+   "baseline": 42,
+   "strict_lower": 43,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 30,
+     "target_count": 32,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 26,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0933",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 20,
+     "target_count": 22,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0244",
+   "baseline": 43,
+   "strict_lower": 44,
+   "states": [
+    {
+     "k": 3,
+     "h": 9,
+     "upper_capacity": 30,
+     "target_count": 31,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0693",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 26,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 26,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0242",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0479",
+   "baseline": 42,
+   "strict_lower": 43,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 32,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 27,
+     "target_count": 32,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0135",
+   "baseline": 40,
+   "strict_lower": 41,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0427",
+   "baseline": 43,
+   "strict_lower": 44,
+   "states": [
+    {
+     "k": 3,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 26,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0739",
+   "baseline": 40,
+   "strict_lower": 41,
+   "states": [
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 23,
+     "target_count": 27,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0759",
+   "baseline": 43,
+   "strict_lower": 44,
+   "states": [
+    {
+     "k": 3,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 31,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0077",
+   "baseline": 40,
+   "strict_lower": 41,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0017",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 1,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 29,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 2,
+     "h": 7,
+     "upper_capacity": 26,
+     "target_count": 29,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0057",
+   "baseline": 41,
+   "strict_lower": 42,
+   "states": [
+    {
+     "k": 2,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0951",
+   "baseline": 37,
+   "strict_lower": 38,
+   "states": [
+    {
+     "k": 0,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 29,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 1,
+     "h": 7,
+     "upper_capacity": 23,
+     "target_count": 26,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0778",
+   "baseline": 41,
+   "strict_lower": 42,
+   "states": [
+    {
+     "k": 2,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0310",
+   "baseline": 41,
+   "strict_lower": 42,
+   "states": [
+    {
+     "k": 1,
+     "h": 8,
+     "upper_capacity": 26,
+     "target_count": 27,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 2,
+     "h": 7,
+     "upper_capacity": 26,
+     "target_count": 27,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 3,
+     "h": 6,
+     "upper_capacity": 21,
+     "target_count": 23,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  }
+ ],
+ "holdout": [
+  {
+   "id": "scored_0923",
+   "baseline": 44,
+   "strict_lower": 45,
+   "states": [
+    {
+     "k": 3,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 32,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0694",
+   "baseline": 41,
+   "strict_lower": 42,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 31,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0165",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0664",
+   "baseline": 39,
+   "strict_lower": 40,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 29,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0370",
+   "baseline": 42,
+   "strict_lower": 43,
+   "states": [
+    {
+     "k": 2,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 31,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0236",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 25,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0099",
+   "baseline": 42,
+   "strict_lower": 42,
+   "states": []
+  },
+  {
+   "id": "scored_0684",
+   "baseline": 39,
+   "strict_lower": 40,
+   "states": [
+    {
+     "k": 0,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 1,
+     "h": 8,
+     "upper_capacity": 27,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0381",
+   "baseline": 38,
+   "strict_lower": 39,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 28,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0018",
+   "baseline": 40,
+   "strict_lower": 41,
+   "states": [
+    {
+     "k": 1,
+     "h": 9,
+     "upper_capacity": 29,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 26,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 26,
+     "target_count": 30,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0426",
+   "baseline": 39,
+   "strict_lower": 40,
+   "states": [
+    {
+     "k": 3,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 25,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0164",
+   "baseline": 40,
+   "strict_lower": 41,
+   "states": [
+    {
+     "k": 2,
+     "h": 8,
+     "upper_capacity": 24,
+     "target_count": 26,
+     "status": "ABSENT",
+     "witness": null
+    },
+    {
+     "k": 3,
+     "h": 7,
+     "upper_capacity": 22,
+     "target_count": 26,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0360",
+   "baseline": 44,
+   "strict_lower": 45,
+   "states": [
+    {
+     "k": 3,
+     "h": 9,
+     "upper_capacity": 31,
+     "target_count": 32,
+     "status": "ABSENT",
+     "witness": null
+    }
+   ]
+  },
+  {
+   "id": "scored_0623",
+   "baseline": 38,
+   "strict_lower": 38,
+   "states": []
+  },
+  {
+   "id": "scored_0805",
+   "baseline": 39,
+   "strict_lower": 39,
+   "states": []
+  },
+  {
+   "id": "scored_0657",
+   "baseline": 41,
+   "strict_lower": 41,
+   "states": []
+  }
+ ]
+}

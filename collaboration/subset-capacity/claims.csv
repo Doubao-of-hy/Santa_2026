@@ -1,0 +1,11 @@
+id,previous_lower,certified_lower,missing_targets,prefix_helpers,excluded_remaining_helpers,counted_targets,hit_ceiling
+scored_0037,40,41,30,3,7,29,28
+scored_0117,41,42,31,3,7,29,28
+scored_0133,42,43,32,3,7,31,28
+scored_0170,41,42,32,2,7,31,28
+scored_0328,42,43,32,3,7,31,29
+scored_0494,42,43,32,3,7,29,28
+scored_0505,37,38,28,3,6,24,22
+scored_0595,37,38,28,3,6,23,22
+scored_0603,41,42,32,2,7,30,29
+scored_0820,40,41,30,3,7,29,28

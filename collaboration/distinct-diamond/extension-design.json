@@ -1,0 +1,8 @@
+{
+  "base": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "baseline_total": 36882,
+  "order_seed": "diamond-capacity-36882/",
+  "batch_size": 32,
+  "scope": "All puzzles with a remaining upper/lower gap relative to the per-row union of K4 and subset proofs. Compare each state to its best previous bound, use the exact unrestricted prefix envelope with k<=4 and at most 3500 values. Only exclusions confirmed by a second independent arithmetic oracle enter the published lower bounds."
+}

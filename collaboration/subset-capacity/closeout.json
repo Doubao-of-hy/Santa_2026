@@ -1,0 +1,13 @@
+[
+ {
+  "id": "scored_0270",
+  "k": 3,
+  "h": 6,
+  "tested": 14950,
+  "max_drop": 4,
+  "strict": [],
+  "min_by_deletions": {
+   "4": 22
+  }
+ }
+]

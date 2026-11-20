@@ -1,0 +1,24 @@
+{
+ "rows": 1000,
+ "skip": {
+  "check-stages": 749,
+  "seed-injection ceiling": 231,
+  "certified upper equals lower": 20
+ },
+ "stages": {
+  "envelope cap": 1008,
+  "evaluated": 127,
+  "reused": 74
+ },
+ "maximum_deletions_after_arithmetic_screen": {
+  "0": 148,
+  "1": 27,
+  "2": 12,
+  "3": 13,
+  "4": 1
+ },
+ "small_subsets": {
+  "new": 27096,
+  "reused": 17862
+ }
+}

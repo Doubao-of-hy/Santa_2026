@@ -1,0 +1,215 @@
+{
+  "git_commit": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+  "baseline": 140727,
+  "baseline_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+  "rows": [
+    {
+      "id": "scored_0818",
+      "length": 21,
+      "stratum": 1,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0091",
+      "length": 24,
+      "stratum": 1,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0487",
+      "length": 26,
+      "stratum": 1,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0842",
+      "length": 25,
+      "stratum": 1,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0943",
+      "length": 94,
+      "stratum": 2,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0138",
+      "length": 99,
+      "stratum": 2,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0153",
+      "length": 95,
+      "stratum": 2,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0176",
+      "length": 101,
+      "stratum": 2,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0177",
+      "length": 111,
+      "stratum": 3,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0327",
+      "length": 115,
+      "stratum": 3,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0999",
+      "length": 109,
+      "stratum": 3,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0053",
+      "length": 110,
+      "stratum": 3,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0486",
+      "length": 116,
+      "stratum": 4,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0722",
+      "length": 116,
+      "stratum": 4,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0302",
+      "length": 118,
+      "stratum": 4,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0305",
+      "length": 124,
+      "stratum": 4,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0535",
+      "length": 143,
+      "stratum": 5,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0383",
+      "length": 131,
+      "stratum": 5,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0895",
+      "length": 129,
+      "stratum": 5,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0843",
+      "length": 147,
+      "stratum": 5,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0953",
+      "length": 184,
+      "stratum": 6,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0745",
+      "length": 188,
+      "stratum": 6,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0242",
+      "length": 167,
+      "stratum": 6,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0670",
+      "length": 189,
+      "stratum": 6,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0640",
+      "length": 225,
+      "stratum": 7,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0262",
+      "length": 215,
+      "stratum": 7,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0751",
+      "length": 208,
+      "stratum": 7,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0998",
+      "length": 218,
+      "stratum": 7,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0051",
+      "length": 303,
+      "stratum": 8,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0762",
+      "length": 291,
+      "stratum": 8,
+      "phase": "development"
+    },
+    {
+      "id": "scored_0819",
+      "length": 235,
+      "stratum": 8,
+      "phase": "holdout"
+    },
+    {
+      "id": "scored_0373",
+      "length": 227,
+      "stratum": 8,
+      "phase": "holdout"
+    }
+  ],
+  "utc": "2026-11-20T14:30:39.544478+00:00",
+  "method": "Transposed signed positional digit buckets from a generated unit. No parent intermediates or programs in construction. Group target values in increasing numeric order in blocks; aggregate positional weights for identical complete digit vectors, then descending weighted bucket accumulation per target and sign. Same graph backend, exact arithmetic and register constraints for both arms.",
+  "radices": [
+    2,
+    4,
+    8
+  ],
+  "encoding": "binary NAF for radix 2; balanced centered base for 4 and 8, tie positive; if signed powers exceed cap use unsigned encoding for the affected row; never emit a nonpositive or over-limit intermediate.",
+  "group_sizes": [
+    2,
+    3,
+    4
+  ],
+  "control": "Same radix encoding and weight construction but direct nonbucketed weighted sum per target (one run per radix); shared interning is applied symmetrically.",
+  "cohort": "Same 16+16 frozen length-stratified IDs as joint-moduli-1 for comparison, both phases locked.",
+  "acceptance": "For each arm report best physically compiled full puzzle per ID, both against each other and against the independent parent. Report all invalid/no physical paths explicitly. No tuning after seeing holdout."
+}

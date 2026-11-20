@@ -1,0 +1,751 @@
+{
+ "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "reference_sha256": "bd6846b4ba7c3c568c21500aa4078d70462a7bcfa4c64b80d50606b472561003",
+ "panel_rows": 32,
+ "eligible_states": 39,
+ "exact_status_agreements": 39,
+ "dual_absent_rows": 28,
+ "results": [
+  {
+   "id": "scored_0017",
+   "k": 1,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 29,
+   "labels_sha256": "3a81e7ab2f30bc2e46f43279223d1b3fa31d676cbe68f8e94cdad6838b2e66b2",
+   "allowed_sha256": "e6989c3229e89c276ee26bc0e19a28fc9ad348f5213589e526c99dcbf6750e71",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1052352,
+    "identities": 0,
+    "triangles": 7296
+   },
+   "seconds": 1.719
+  },
+  {
+   "id": "scored_0017",
+   "k": 2,
+   "remaining_helpers": 7,
+   "previous": 38,
+   "labels": 29,
+   "labels_sha256": "3a81e7ab2f30bc2e46f43279223d1b3fa31d676cbe68f8e94cdad6838b2e66b2",
+   "allowed_sha256": "dbefd7012d713d5b579f208deb76a2438e8291534793628897dd6453054ad54e",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1052352,
+    "identities": 0,
+    "triangles": 7296
+   },
+   "seconds": 1.739
+  },
+  {
+   "id": "scored_0018",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 40,
+   "labels": 30,
+   "labels_sha256": "ac006d87befa71dc7a3256549c9bf41a7e716e5302755c32b0a56f513b205438",
+   "allowed_sha256": "1f5d70368a3fb237acfd879990019a9400c131a128ae1cc0715f824bc84eae6b",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9016
+   },
+   "seconds": 2.068
+  },
+  {
+   "id": "scored_0018",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 40,
+   "labels": 30,
+   "labels_sha256": "ac006d87befa71dc7a3256549c9bf41a7e716e5302755c32b0a56f513b205438",
+   "allowed_sha256": "1a1ccc317876c97445a8f73a791ce6dee091238938b54c1f740477f7f4a6296d",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9016
+   },
+   "seconds": 2.053
+  },
+  {
+   "id": "scored_0018",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 40,
+   "labels": 30,
+   "labels_sha256": "ac006d87befa71dc7a3256549c9bf41a7e716e5302755c32b0a56f513b205438",
+   "allowed_sha256": "c2027f7926fbf267e2d5df80cd67568bd14dd30139d3e78b0777512bb95f1893",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9016
+   },
+   "seconds": 2.538
+  },
+  {
+   "id": "scored_0057",
+   "k": 2,
+   "remaining_helpers": 9,
+   "previous": 41,
+   "labels": 30,
+   "labels_sha256": "eda47ad3bc1b3f8ff05d47e2e20d33a00e0a1f03c00d5114844dcce69e25e53d",
+   "allowed_sha256": "67a6cd1790cbc29bb8f2aae9a3b94737c16d8ee9ce11ebede98b2d8683fbe252",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 8120
+   },
+   "seconds": 2.075
+  },
+  {
+   "id": "scored_0077",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 40,
+   "labels": 30,
+   "labels_sha256": "0fceeb69280ee146ed12ba7c473f379ccf89e742c04fc0613dfc1420df69e15e",
+   "allowed_sha256": "02477fc5e00e29d14ea5dff3e101538da8b0917a0ad3a36ae964790fc1f9b7e6",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9017
+   },
+   "seconds": 2.049
+  },
+  {
+   "id": "scored_0135",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 40,
+   "labels": 30,
+   "labels_sha256": "10724a746f7b019f3b1f4d98346ea651cd573a21088105cb5d0468f08a620749",
+   "allowed_sha256": "4b4ced32ccbe7282e3ca7f9bb59e2a5777bba3437e2e04b6d73c54a56ef0f112",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 8348
+   },
+   "seconds": 1.828
+  },
+  {
+   "id": "scored_0164",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 40,
+   "labels": 26,
+   "labels_sha256": "1de767962819850763866bd22587f9d52a6f1550ef63c80ab24d7139984137bf",
+   "allowed_sha256": "d0f3902f52228dcac880549d3320db58801357e02b185e14df73f40a6c1db795",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 748800,
+    "identities": 0,
+    "triangles": 6688
+   },
+   "seconds": 1.455
+  },
+  {
+   "id": "scored_0164",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 40,
+   "labels": 26,
+   "labels_sha256": "1de767962819850763866bd22587f9d52a6f1550ef63c80ab24d7139984137bf",
+   "allowed_sha256": "077dc153738a2ce39bf3a757a95a3340e938d33d306d9aea7df033da542cff7f",
+   "upper_capacity": 22,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 748800,
+    "identities": 0,
+    "triangles": 6688
+   },
+   "seconds": 1.863
+  },
+  {
+   "id": "scored_0165",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "611932c75ad9b7985a0e51b67fe567a01f858dc77cb69de6550c11a940c03b6b",
+   "allowed_sha256": "8a5d90fa51e9bc11b18c3299d03c4bb4ebe863c2b24434547e9038360ed714cd",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 4692
+   },
+   "seconds": 1.585
+  },
+  {
+   "id": "scored_0236",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "9b6555c568e70c0f4c765c172e2ce79e766a2c17fcb916e42b348a5f6f9deedd",
+   "allowed_sha256": "4aae7e4575d6a9d0bf393a53f474f2e6ac86c2eeaf74a28f01d764489a94ee86",
+   "upper_capacity": 25,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 6504
+   },
+   "seconds": 1.741
+  },
+  {
+   "id": "scored_0242",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "d8ac0d0f9c4490dcdf3b3f2624884b05489665ee9f69322ede6cdf6c15097416",
+   "allowed_sha256": "1da630a3dd1e0fa8652272cb319c6948eef996e7e6ce5b06f6a6dc996e2516c2",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 6604
+   },
+   "seconds": 1.585
+  },
+  {
+   "id": "scored_0244",
+   "k": 3,
+   "remaining_helpers": 9,
+   "previous": 43,
+   "labels": 31,
+   "labels_sha256": "665c0509db0b7b262599564ef198237e8d03b9b09b57caddcf304b283c6205e2",
+   "allowed_sha256": "479fa9622da3767fc465f373f7eb56adacd2ed723c3103cbbbf6cc43327040a3",
+   "upper_capacity": 30,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1294560,
+    "identities": 0,
+    "triangles": 8958
+   },
+   "seconds": 2.642
+  },
+  {
+   "id": "scored_0310",
+   "k": 1,
+   "remaining_helpers": 8,
+   "previous": 41,
+   "labels": 27,
+   "labels_sha256": "1627db85b0a0abe308e3b87c101c35629c10125225fe1b9532d992dd127a6e04",
+   "allowed_sha256": "6e8d500d8f8095fb5015806d94b47cd088ec9ff14fa913d422458dbce7a8802c",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 842400,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "seconds": 1.309
+  },
+  {
+   "id": "scored_0310",
+   "k": 2,
+   "remaining_helpers": 7,
+   "previous": 41,
+   "labels": 27,
+   "labels_sha256": "1627db85b0a0abe308e3b87c101c35629c10125225fe1b9532d992dd127a6e04",
+   "allowed_sha256": "24baf2dbfeb95a193fcf64f0c4abeef458b6fcc496ec62ae3e1d23652ead9eaa",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 842400,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "seconds": 1.306
+  },
+  {
+   "id": "scored_0310",
+   "k": 3,
+   "remaining_helpers": 6,
+   "previous": 41,
+   "labels": 23,
+   "labels_sha256": "c9b904aa3358f009a920d2e5dac356a5fc06360e9d2ea087e5485c18668fe7c5",
+   "allowed_sha256": "c2656472727c8c66196650063f53f44f6de7f091fa67d1de227141c5f5f09f61",
+   "upper_capacity": 21,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 510048,
+    "identities": 0,
+    "triangles": 3500
+   },
+   "seconds": 1.4
+  },
+  {
+   "id": "scored_0360",
+   "k": 3,
+   "remaining_helpers": 9,
+   "previous": 44,
+   "labels": 32,
+   "labels_sha256": "a9951efb71aac11f48c7bd3ab753d63d9fdba127d45e594e918de483e4690875",
+   "allowed_sha256": "49421c34ce1490b1ac7077c9e7cb5dda4a1998793205fc38ee1f39655bf758a9",
+   "upper_capacity": 31,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1428480,
+    "identities": 0,
+    "triangles": 10120
+   },
+   "seconds": 2.553
+  },
+  {
+   "id": "scored_0370",
+   "k": 2,
+   "remaining_helpers": 9,
+   "previous": 42,
+   "labels": 31,
+   "labels_sha256": "f2f8c0030314e19a872dea2ba16f10b887b29e44892fccf95d7d47aa4f117d4d",
+   "allowed_sha256": "c25a1805c32f51db6081222564198e8cbf5b700cdcb9419c2ea37bd24cf6c476",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1294560,
+    "identities": 0,
+    "triangles": 8096
+   },
+   "seconds": 2.334
+  },
+  {
+   "id": "scored_0381",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "5609a5b5680928b59c5dc4dd4c9b76ab59cbf01638400c912a4654d4c6a04fea",
+   "allowed_sha256": "61edd89f75f2aca4a8884ca4cfd0464f69255312147b0fc3ccba0e237c70c44f",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 5401
+   },
+   "seconds": 1.722
+  },
+  {
+   "id": "scored_0426",
+   "k": 3,
+   "remaining_helpers": 8,
+   "previous": 39,
+   "labels": 25,
+   "labels_sha256": "33a60d1c44420ccad2d4dfa754e85280b6d8f73a76a70260f6ab2d64d5a53403",
+   "allowed_sha256": "e20ca142969cfce7023530f022a9b32649ad5e2815ece4259782a741c10de3b3",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 662400,
+    "identities": 0,
+    "triangles": 4544
+   },
+   "seconds": 1.384
+  },
+  {
+   "id": "scored_0427",
+   "k": 3,
+   "remaining_helpers": 8,
+   "previous": 43,
+   "labels": 26,
+   "labels_sha256": "e2a0eab6d59e979fbf3f2480d39e7dc2ad9d42b3f85565e34d173d1e7e2ea4ac",
+   "allowed_sha256": "b5d73ce2cb7d5b9388e59a24858a775c361b6fe68824f890642bca7907e4945b",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 748800,
+    "identities": 0,
+    "triangles": 5248
+   },
+   "seconds": 1.452
+  },
+  {
+   "id": "scored_0476",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 42,
+   "labels": 32,
+   "labels_sha256": "07ee5daa0a21040545e995c7c3a55335257814d0069cfa2df34e8bed60daede1",
+   "allowed_sha256": "554fe5f469a82aa26cf0cc294a02dcc39ce929def76518b517870bbb066388bd",
+   "upper_capacity": 30,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1428480,
+    "identities": 0,
+    "triangles": 10478
+   },
+   "seconds": 2.447
+  },
+  {
+   "id": "scored_0476",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 42,
+   "labels": 30,
+   "labels_sha256": "cac1728be889ec284c68960599b67fb13b9e009e125f7ce87c68a59f02f29bcf",
+   "allowed_sha256": "c0b136b151bfc9d3c4edf0eceec162fa761038e4cdf76bead8395ace5cdfa61e",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 8318
+   },
+   "seconds": 2.177
+  },
+  {
+   "id": "scored_0479",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 42,
+   "labels": 32,
+   "labels_sha256": "5a7447d4101a3250ea21d5b5b283b2717d18ae5465810065896c53a8e708a010",
+   "allowed_sha256": "8d93415a3077163dbb819a8dd4ec0bb29f516bd2706ea9d576352add81453e34",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1428480,
+    "identities": 0,
+    "triangles": 11957
+   },
+   "seconds": 2.53
+  },
+  {
+   "id": "scored_0479",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 42,
+   "labels": 32,
+   "labels_sha256": "5a7447d4101a3250ea21d5b5b283b2717d18ae5465810065896c53a8e708a010",
+   "allowed_sha256": "0d4e136c0d2eb2c5718c425d3f14bf4c4d318f1a1161c0c08facd9b150c3add7",
+   "upper_capacity": 27,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1428480,
+    "identities": 0,
+    "triangles": 11954
+   },
+   "seconds": 2.517
+  },
+  {
+   "id": "scored_0664",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 39,
+   "labels": 29,
+   "labels_sha256": "430ebd38e5655a36e437b4d0febb2031973dbfdebd8a63d7dc36e114b68de385",
+   "allowed_sha256": "77572d16b23f52805c0d2d0893454d0c1969eebda223d8792bdde2716637ef57",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1052352,
+    "identities": 0,
+    "triangles": 7232
+   },
+   "seconds": 1.997
+  },
+  {
+   "id": "scored_0684",
+   "k": 0,
+   "remaining_helpers": 9,
+   "previous": 39,
+   "labels": 30,
+   "labels_sha256": "9e1b0d1fd35059f96613239642b8f4b63d25be676134037882467ae5c7d52d53",
+   "allowed_sha256": "9e4868e1c969187281ff79c1cd7964ab652a161561420b1348649a01dbb6d7e1",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9018
+   },
+   "seconds": 2.209
+  },
+  {
+   "id": "scored_0684",
+   "k": 1,
+   "remaining_helpers": 8,
+   "previous": 39,
+   "labels": 30,
+   "labels_sha256": "9e1b0d1fd35059f96613239642b8f4b63d25be676134037882467ae5c7d52d53",
+   "allowed_sha256": "e5a19c8730b85e81519f1ae84dfe63441184b039c6ec842a22b86004529407cc",
+   "upper_capacity": 27,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 9018
+   },
+   "seconds": 2.081
+  },
+  {
+   "id": "scored_0693",
+   "k": 2,
+   "remaining_helpers": 8,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "82dbdd82f469d9b43e5d923a0ca414ea614b23313144191cd51ebcf25d4f5e2f",
+   "allowed_sha256": "cb1846916ff0595c1ee00b69eada1cda38b85e3f45249bd72bafa28c4c173abf",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 6552
+   },
+   "seconds": 1.568
+  },
+  {
+   "id": "scored_0693",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 38,
+   "labels": 28,
+   "labels_sha256": "82dbdd82f469d9b43e5d923a0ca414ea614b23313144191cd51ebcf25d4f5e2f",
+   "allowed_sha256": "f70c454c24e616892a6c5e838ccb02c03db8a3e4e8cc7fffc2dc8756c6f3b639",
+   "upper_capacity": 26,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 943488,
+    "identities": 0,
+    "triangles": 6552
+   },
+   "seconds": 1.719
+  },
+  {
+   "id": "scored_0694",
+   "k": 1,
+   "remaining_helpers": 9,
+   "previous": 41,
+   "labels": 31,
+   "labels_sha256": "b7f18af0b70b452535e7752fef1cd48b2057be81c1a7a433a423a65ec870093f",
+   "allowed_sha256": "7fbccd22a14070aaaa7b8e306bf33ba6e4d2e5c56a1b7880698934a635f4109a",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1294560,
+    "identities": 0,
+    "triangles": 8893
+   },
+   "seconds": 2.675
+  },
+  {
+   "id": "scored_0739",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 40,
+   "labels": 27,
+   "labels_sha256": "f9f84b4e79763c3025099fe619ce11a7f4b33852c99f7e6ead28bf59c8ba60b0",
+   "allowed_sha256": "4e2ae17adcc7dfadec73517c08f410ec6e7c2d2bcca4b3ef9def2c4165a78f61",
+   "upper_capacity": 23,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 842400,
+    "identities": 0,
+    "triangles": 5760
+   },
+   "seconds": 1.612
+  },
+  {
+   "id": "scored_0759",
+   "k": 3,
+   "remaining_helpers": 9,
+   "previous": 43,
+   "labels": 31,
+   "labels_sha256": "63c79f8784162857ec9c83761a7465b73fc6c1de1ab1ae2e17299357b5cba804",
+   "allowed_sha256": "39765a0c7bb802b1ad37ee15b3a857ba41b17200202c4ad97ff90ee1348b81bf",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1294560,
+    "identities": 0,
+    "triangles": 8908
+   },
+   "seconds": 2.729
+  },
+  {
+   "id": "scored_0778",
+   "k": 2,
+   "remaining_helpers": 9,
+   "previous": 41,
+   "labels": 30,
+   "labels_sha256": "1c71268e86e624d9b0b4a6bd3c1115ced43d1c419da0404c10d0c0c76a664af8",
+   "allowed_sha256": "14ce1758863b50a3a3d71726d9052d23c76c01a0c8c82737e135e99b2386376a",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1169280,
+    "identities": 0,
+    "triangles": 8016
+   },
+   "seconds": 1.909
+  },
+  {
+   "id": "scored_0923",
+   "k": 3,
+   "remaining_helpers": 9,
+   "previous": 44,
+   "labels": 32,
+   "labels_sha256": "dff78164d22b779511ec6078b96de00f38f2d010cdce9cadf04422b0ddcee1c1",
+   "allowed_sha256": "04f613c827e21248976c9455a28b2b9e67bbdcdfec5aef099c166ab7800cf210",
+   "upper_capacity": 29,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1428480,
+    "identities": 0,
+    "triangles": 9816
+   },
+   "seconds": 2.728
+  },
+  {
+   "id": "scored_0933",
+   "k": 3,
+   "remaining_helpers": 7,
+   "previous": 38,
+   "labels": 22,
+   "labels_sha256": "ecfd424f285d1ceb348f442b4f45fa6be7cdbe9c85c66d91193e405aaa43e4b9",
+   "allowed_sha256": "a619436117f99902b876b2633814602e0308eb8a2474029302109ede0264b2fa",
+   "upper_capacity": 20,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 443520,
+    "identities": 0,
+    "triangles": 3200
+   },
+   "seconds": 1.022
+  },
+  {
+   "id": "scored_0951",
+   "k": 0,
+   "remaining_helpers": 8,
+   "previous": 37,
+   "labels": 29,
+   "labels_sha256": "9a4811b8290855ab52041d55fba1bbfbf6f19423e24d951d7314258b981f0608",
+   "allowed_sha256": "d13d87e04e1fa2d8a336e716905657f0ec3c00ae9ac6645ef768aba4cb26f1fa",
+   "upper_capacity": 24,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 1052352,
+    "identities": 0,
+    "triangles": 7310
+   },
+   "seconds": 1.603
+  },
+  {
+   "id": "scored_0951",
+   "k": 1,
+   "remaining_helpers": 7,
+   "previous": 37,
+   "labels": 26,
+   "labels_sha256": "a7ba9e518fc5761ee920f87bacf17d0029460ea0349bd05d568a0cd09d219924",
+   "allowed_sha256": "29968a43995d49fa20f42b32664c174dbd8c825ddde65798142766a0bc91d820",
+   "upper_capacity": 23,
+   "primary": "ABSENT",
+   "ordered": "ABSENT",
+   "witness": null,
+   "statistics": {
+    "equations": 748800,
+    "identities": 0,
+    "triangles": 5155
+   },
+   "seconds": 1.1
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+  "utc": "2026-11-20T14:28:37.526616+00:00",
+  "python_ortools": "9.15.6755",
+  "cohort_rows": 32,
+  "eligible_rows": 30,
+  "unselected_roots_private_file_sha256": "8ce9b972a01c6fe5aac734a5fdbc1866529d2e105bc6aabbddc7bf4a1afee6b5",
+  "totals": {
+    "single": {
+      "eligible_rows": 30,
+      "length_templates": 58,
+      "exhausted_length_templates": 0,
+      "distinct_topologies": 99375,
+      "outcomes": {
+        "wrong_roots": 14776,
+        "nonpositive": 36360,
+        "nonintegral": 41570,
+        "over_limit": 6669,
+        "duplicate_modular_witness": 462
+      },
+      "summed_wall_seconds": 145.041,
+      "strict_upper_bounds": 0
+    },
+    "multi": {
+      "eligible_rows": 30,
+      "length_templates": 58,
+      "exhausted_length_templates": 30,
+      "distinct_topologies": 8609,
+      "outcomes": {
+        "nonpositive": 5349,
+        "wrong_roots": 830,
+        "nonintegral": 2064,
+        "over_limit": 366,
+        "duplicate_modular_witness": 1249
+      },
+      "summed_wall_seconds": 73.296,
+      "strict_upper_bounds": 0
+    }
+  },
+  "phase": {
+    "development": {
+      "single": {
+        "rows": 16,
+        "eligible": 14,
+        "length_models": 29,
+        "distinct_topologies": 45108,
+        "outcomes": {
+          "wrong_roots": 6603,
+          "nonpositive": 16625,
+          "nonintegral": 18674,
+          "over_limit": 3206,
+          "duplicate_modular_witness": 285
+        },
+        "complete_models": 0,
+        "sum_wall_seconds": 72.523,
+        "wins": {},
+        "full_double_replay_instructions": 140727,
+        "full_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd"
+      },
+      "multi": {
+        "rows": 16,
+        "eligible": 14,
+        "length_models": 29,
+        "distinct_topologies": 3381,
+        "outcomes": {
+          "nonpositive": 2580,
+          "wrong_roots": 157,
+          "nonintegral": 493,
+          "over_limit": 151,
+          "duplicate_modular_witness": 622
+        },
+        "complete_models": 14,
+        "sum_wall_seconds": 38.068,
+        "wins": {},
+        "full_double_replay_instructions": 140727,
+        "full_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd"
+      }
+    },
+    "holdout": {
+      "single": {
+        "rows": 16,
+        "eligible": 16,
+        "length_models": 29,
+        "distinct_topologies": 54267,
+        "outcomes": {
+          "nonintegral": 22896,
+          "wrong_roots": 8173,
+          "nonpositive": 19735,
+          "over_limit": 3463,
+          "duplicate_modular_witness": 177
+        },
+        "complete_models": 0,
+        "sum_wall_seconds": 72.519,
+        "wins": {},
+        "full_double_replay_instructions": 140727,
+        "full_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd"
+      },
+      "multi": {
+        "rows": 16,
+        "eligible": 16,
+        "length_models": 29,
+        "distinct_topologies": 5228,
+        "outcomes": {
+          "nonpositive": 2769,
+          "nonintegral": 1571,
+          "wrong_roots": 673,
+          "over_limit": 215,
+          "duplicate_modular_witness": 627
+        },
+        "complete_models": 16,
+        "sum_wall_seconds": 35.228,
+        "wins": {},
+        "full_double_replay_instructions": 140727,
+        "full_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd"
+      }
+    }
+  },
+  "stop": "No strict upper bounds. Exhausted models refer only to the registered inputs, topology constraints and length."
+}

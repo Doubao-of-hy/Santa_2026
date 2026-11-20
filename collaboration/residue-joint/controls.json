@@ -1,0 +1,185 @@
+{
+  "single": {
+    "shared_4_to_3": {
+      "shape": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        3,
+        0,
+        2,
+        3,
+        1,
+        0
+      ],
+      "program": [
+        [
+          "+",
+          0,
+          1,
+          0
+        ],
+        [
+          "+",
+          1,
+          0,
+          1
+        ],
+        [
+          "+",
+          2,
+          0,
+          0
+        ]
+      ],
+      "trace": {
+        "seconds": 0.08113,
+        "model_seconds": 0.00102,
+        "solver_statuses": [
+          "FEASIBLE",
+          "FEASIBLE",
+          "FEASIBLE"
+        ],
+        "topologies_checked": 176,
+        "outcomes": {
+          "over_limit": 23,
+          "nonintegral": 56,
+          "nonpositive": 53,
+          "wrong_roots": 43,
+          "exact": 1
+        },
+        "exhausted": false
+      }
+    },
+    "division_10_over_5": {
+      "shape": [
+        3,
+        0,
+        1,
+        0,
+        2,
+        3,
+        2,
+        2,
+        3,
+        1,
+        0
+      ],
+      "trace": {
+        "seconds": 0.00131,
+        "model_seconds": 0.0007,
+        "solver_statuses": [
+          "OPTIMAL"
+        ],
+        "topologies_checked": 1,
+        "outcomes": {
+          "exact": 1
+        },
+        "exhausted": false
+      }
+    },
+    "modular_collision": {
+      "seconds": 0.00134,
+      "model_seconds": 0.00085,
+      "solver_statuses": [
+        "OPTIMAL"
+      ],
+      "topologies_checked": 1,
+      "outcomes": {
+        "wrong_roots": 1
+      },
+      "exhausted": true
+    }
+  },
+  "multi": {
+    "shared_4_to_3": {
+      "shape": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1,
+        3,
+        1,
+        1
+      ],
+      "program": [
+        [
+          "+",
+          0,
+          1,
+          0
+        ],
+        [
+          "+",
+          1,
+          0,
+          1
+        ],
+        [
+          "+",
+          2,
+          0,
+          0
+        ]
+      ],
+      "trace": {
+        "seconds": 0.02056,
+        "model_seconds": 0.00096,
+        "solver_statuses": [
+          "FEASIBLE"
+        ],
+        "topologies_checked": 3,
+        "outcomes": {
+          "nonpositive": 2,
+          "exact": 1
+        },
+        "exhausted": false
+      }
+    },
+    "division_10_over_5": {
+      "shape": [
+        3,
+        0,
+        1,
+        0,
+        2,
+        3,
+        2,
+        2,
+        3,
+        1,
+        0
+      ],
+      "trace": {
+        "seconds": 0.00231,
+        "model_seconds": 0.00125,
+        "solver_statuses": [
+          "OPTIMAL"
+        ],
+        "topologies_checked": 1,
+        "outcomes": {
+          "exact": 1
+        },
+        "exhausted": false
+      }
+    },
+    "modular_collision": {
+      "seconds": 0.00162,
+      "model_seconds": 0.00096,
+      "solver_statuses": [
+        "OPTIMAL"
+      ],
+      "topologies_checked": 1,
+      "outcomes": {
+        "wrong_roots": 1
+      },
+      "exhausted": true
+    }
+  }
+}
