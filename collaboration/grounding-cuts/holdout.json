@@ -1,0 +1,50 @@
+{
+  "controls": {
+    "input": 4,
+    "ranks": 3,
+    "cuts": 3
+  },
+  "phase": "holdout",
+  "lanes": {
+    "independent": {
+      "ranks": {
+        "replayed": 1000,
+        "total": 140727,
+        "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+        "wins": []
+      },
+      "cuts": {
+        "replayed": 1000,
+        "total": 140727,
+        "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+        "wins": []
+      },
+      "union": {
+        "replayed": 1000,
+        "total": 140727,
+        "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+        "wins": []
+      }
+    },
+    "assisted": {
+      "ranks": {
+        "replayed": 1000,
+        "total": 134285,
+        "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+        "wins": []
+      },
+      "cuts": {
+        "replayed": 1000,
+        "total": 134285,
+        "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+        "wins": []
+      },
+      "union": {
+        "replayed": 1000,
+        "total": 134285,
+        "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+        "wins": []
+      }
+    }
+  }
+}

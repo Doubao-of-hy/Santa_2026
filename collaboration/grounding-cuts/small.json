@@ -1,0 +1,5 @@
+{
+  "libraries": 100,
+  "exhaustive_helper_sets": 3200,
+  "independently_checked_minimal_cuts": 225
+}

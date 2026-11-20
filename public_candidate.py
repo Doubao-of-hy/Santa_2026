@@ -139,6 +139,7 @@ def main():
         +("Additional rows from Alex Chilton’s Rudolph v67 portfolio retain its release-level authorship. [Rudolph v67](https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/67).\n" if any("Rudolph" in v and "release 67" in v for v in credits.values()) else "")
         +("Additional rows from Hanif Noer Rofiq, Kaggle release 24, retain the [original notice](Hanif-v24-NOTICE.md) and [license](Hanif-v24-LICENSE.txt).\n" if (dest/"Hanif-v24-NOTICE.md").exists() else "")
         +("goodpjw2008's release 10 includes his arithmetic search, public inputs, and Wang Jakie's search with E-Max AI's seeded crossover. [Published programs](https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10), [original notice](GoodPJW-v10-NOTICE.md), and [public source list](GoodPJW-v10-public-sources.json).\n" if (dest/"GoodPJW-v10-NOTICE.md").exists() else "")
+        +("GoodPJW release 11 contributed shorter complete programs. The release credits Wang Jakie, E-Max AI, and the public sources in its ladder. [Release 11](https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/11), [upstream notice](GoodPJW-v11-NOTICE.md), and [public source list](GoodPJW-v11-public-sources.json).\n" if (dest/"GoodPJW-v11-NOTICE.md").exists() else "")
         +portfolio_note,encoding="utf8")
     with (dest/"origins.csv").open("w",encoding="utf8",newline="") as f:
         out=csv.writer(f);out.writerow(("id","source","upstream_source","instructions"))
