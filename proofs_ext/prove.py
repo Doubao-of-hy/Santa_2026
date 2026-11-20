@@ -71,10 +71,12 @@ def merge_receipts(puzzles_path, submission_path):
     digest = sha256(puzzles_path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
     decisions = all_decisions()
     with ReceiptLock(EXT / ".receipt.lock"):
-        (EXT / "decisions.json").write_text(
+        dj_tmp = EXT / "decisions.json.tmp"
+        dj_tmp.write_text(
             json.dumps({"puzzles_lf_sha256": digest, "decisions": decisions}, indent=2) + "\n",
             encoding="utf8",
         )
+        dj_tmp.replace(EXT / "decisions.json")
         original = {
             r["id"]: r
             for r in csv.DictReader((ROOT / "proofs/bounds.csv").open(newline=""))

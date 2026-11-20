@@ -59,9 +59,13 @@ def main():
     ap.add_argument("--jobs", type=int, default=8)
     ap.add_argument("--puzzles", type=Path, default=ROOT / "data/puzzles.csv")
     ap.add_argument("--submission", type=Path, default=ROOT / "improve/submission.csv")
+    ap.add_argument("--only", type=str, default="",
+                    help="comma-separated receipt stems (id_hN) to recheck; "
+                         "skips the full-table comparison when set")
     args = ap.parse_args()
     if args.jobs < 1:
         ap.error("Expected a positive worker count")
+    only = {s.strip() for s in args.only.split(",") if s.strip()}
 
     normalized = args.puzzles.read_bytes().replace(b"\r\n", b"\n")
     digest = sha256(normalized).hexdigest()
@@ -87,6 +91,11 @@ def main():
             d = json.loads(path.read_text())
             merged[(d["id"], d["helpers"])] = d
     decisions.extend(merged[key] for key in sorted(merged))
+    if only:
+        decisions = [d for d in decisions if f"{d['id']}_h{d['helpers']}" in only]
+        missing_stems = only - {f"{d['id']}_h{d['helpers']}" for d in decisions}
+        if missing_stems:
+            raise ValueError(f"--only stems not found: {sorted(missing_stems)}")
 
     puzzles = read_puzzles(args.puzzles)
     programs = read_submission(args.submission)
@@ -121,8 +130,14 @@ def main():
                 raise ValueError(f"{p.id}: search trace differs from the receipt")
             missing = len(set(p.targets) - set(p.seeds))
             bounds[p.id] = max(bounds[p.id], missing + row["helpers"] + 1)
+            if bounds[p.id] > len(programs[p.id]):
+                raise ValueError(f"{p.id}: lower exceeds verified upper")
             print(p.id, "helpers", row["helpers"], "lower", bounds[p.id],
                   "upper", len(programs[p.id]), flush=True)
+
+    if only:
+        print(f"Rechecked {len(decisions)} selected decisions; all traces match.")
+        return
 
     with (ROOT / "proofs_ext/bounds.csv").open(newline="") as f:
         published = list(csv.DictReader(f))
