@@ -182,7 +182,7 @@
     "early_dictionary_steps": 202265,
     "public_reference_portfolio_steps": 138904,
     "public_leaderboard_first_steps": 128330,
-    "public_leaderboard_snapshot_beijing": "2026-11-20 23:11",
+    "public_leaderboard_snapshot_beijing": "2026-11-20 23:31",
     "public_leaderboard_url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
     "public_reference_sources": {
       "asterios": {
@@ -210,17 +210,17 @@
     "current_reduction_from_sample_percent": 90.5599,
     "latest_official_leaderboard": {
       "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
-      "checked_at": "2026-11-20T15:11:35.707227+00:00",
+      "checked_at": "2026-11-20T15:31:29.689739+00:00",
       "top_scores": [
         128330,
         128830,
-        129881,
+        129851,
         129989,
         130050,
         130396,
         130399,
-        130502,
-        130711,
+        130426,
+        130690,
         130818
       ],
       "evidence": "collaboration/leaderboard.json"
@@ -3504,7 +3504,7 @@
     "proofs/local/proofs/helper-wave9.json": "53a624a2b7e0e7b6d796268167444ae3411fc481b9ae8e1863882b1a57f711c2",
     "proofs/local/proofs/conditioned-bounds.json": "d8b36d8b48df1bf120c81cf2787f84668491a5d829e7b958a29dc06516f23113"
   },
-  "combined_arithmetic_lower_bound": 37916,
+  "combined_arithmetic_lower_bound": 37921,
   "combined_exact_puzzles": 20,
   "combined_exact_steps": 128
 }

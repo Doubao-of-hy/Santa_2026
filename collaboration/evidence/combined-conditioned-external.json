@@ -1,0 +1,29 @@
+{
+  "upstream": "4f841d7d6f69669a6e9c5d3ed180b9e02d08960b",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "external_bounds_sha256": "dfb6c3b53a60b8e71cf0c2800ba82097a7acafe01a63db5840269ed326e3ded1",
+  "local_manifest_sha256": "7103f42ab4da2c9ed02c566dd99c8767c39f43629bc0f3610e6b1ccf10eee2d0",
+  "base_commit": "b6f68c1c72b3d3333f07198ece619143201a66b4",
+  "base_table_sha256": "669bc5a4d47b747d011760718be59fd2d7c5fff49d34f7fe373f91dee7e69d20",
+  "parent_lower_projection_sha256": "c8e9a366ee81d4aebb04f7bf38d0ed70729c51330940ef7609f4427ce2e5606e",
+  "previous_certified_lower": 37512,
+  "certified_lower": 37921,
+  "strict_rows": 409,
+  "lower_projection_sha256": "f60a2c3768753858a2aef29f1552536d43c485a28271ce336f572a62bdf3a339",
+  "dependencies": {
+    "evidence/upstream-95780b7.json": "f459c2113ca182b80c08604450e055c84619d74e297e079058c0407c261c3ee5",
+    "distinct-helper-edges/full-certificates.json": "5e3d6378b4421275918ed0bf70d9b40882b2c92bd253c9469051f1eae44bfc86",
+    "subset-capacity/verified.json": "dafc7e9ef7f427ecd056fcde3973c86b25896ee92fb5a2205b2d96d75e994b87",
+    "subset-capacity/witnesses.json": "653bc11b964b8bdbd322b016d4297f4262b733226df8779f030f3802378f8c96",
+    "evidence/combined-arithmetic-36882.json": "fb8ee76e957dd9475671331675fb24ab016bbefa553330d6f2f3e77fd27020d9",
+    "distinct-diamond/claims.json.gz": "68993d433e2e932f0065d04647af5921beeb3f3caf098a6a38f5d256952348f0",
+    "distinct-helper-edges/conditioned-full-certificates.json": "453902ba97d11123f6df8d3775b6f67cd38cf3a1545f750d468f72dd81434aac",
+    "evidence/combined-graph-37512.json": "47f2a78b9ca2d87d5871b3d6d99c5ffc8203dfccc76bc2a05f7a93ad52130bc1",
+    "distinct-diamond/conditioned-claims.json.gz": "91dac397f43f2eba0c3f1922292e24878a76692b53b9ef3c7c7397f10c142948",
+    "distinct-diamond/conditioned-independent.json": "2d8e4977b40310ed0d0aea763a436953087e5e030ef6887eb3968e7e0beb55d3",
+    "distinct-diamond/external-replayed.json": "0150354f5eb07b77a969805b4639b77d32cb78fc07eed0fbedf6fd76311522b3"
+  },
+  "conditioned_claims": 404,
+  "external_claims": 5,
+  "overlap": 0
+}

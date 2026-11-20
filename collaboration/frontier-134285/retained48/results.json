@@ -1,0 +1,116 @@
+{
+ "base": "66592020237bd4c14e3b232db1c2265a5901e7f6",
+ "cases": {
+  "scored_0271-reported": {
+   "id": "scored_0271",
+   "arm": "reported",
+   "before": 39,
+   "after": 38,
+   "mode": "anneal",
+   "seed": 491443,
+   "rounds": 1800,
+   "omitted": [],
+   "expected_program_sha256": "3b53a37f98924fe2eea55d606166bd91fdc0c512e4e25edfce00d813fe684cd5",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134187/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "66592020237bd4c14e3b232db1c2265a5901e7f6:public-assisted/submission.csv",
+     "credit": "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",
+     "sha256": "2c5c1001f1ad27e27eb56f9ba6b6bad657d240969f8052988bad693e7f47dcb1",
+     "role": "base"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge",
+     "sha256": "dde1e5f4f08673bb59d7196efeb9517fbf8f5d9661f91913ecc9788edda2c1fc",
+     "role": "Prior_public_union"
+    }
+   ]
+  },
+  "scored_0271-own": {
+   "id": "scored_0271",
+   "arm": "own",
+   "before": 41,
+   "after": 41,
+   "mode": "anneal",
+   "seed": 491443,
+   "rounds": 1800,
+   "omitted": [],
+   "expected_program_sha256": "14aa91ca75be56ba2e9d17b569cab7dda628694230656a4e509f6a555f4e49f3",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134187/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "66592020237bd4c14e3b232db1c2265a5901e7f6:submission.csv",
+     "credit": "work/gpu/pivot-independent.csv",
+     "sha256": "14aa91ca75be56ba2e9d17b569cab7dda628694230656a4e509f6a555f4e49f3"
+    },
+    {
+     "origin": "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d:submission.csv",
+     "credit": "work/gen/splice-full.csv",
+     "sha256": "734dd495c05b2c3eec840d437fded32f6fc0e9863cf6dfed5786876a19c3e079"
+    }
+   ]
+  },
+  "scored_0271-public": {
+   "id": "scored_0271",
+   "arm": "public",
+   "before": 39,
+   "after": 39,
+   "mode": "anneal",
+   "seed": 491443,
+   "rounds": 1800,
+   "omitted": [],
+   "expected_program_sha256": "2c5c1001f1ad27e27eb56f9ba6b6bad657d240969f8052988bad693e7f47dcb1",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134187/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "66592020237bd4c14e3b232db1c2265a5901e7f6:public-assisted/submission.csv",
+     "credit": "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",
+     "sha256": "2c5c1001f1ad27e27eb56f9ba6b6bad657d240969f8052988bad693e7f47dcb1"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge",
+     "sha256": "dde1e5f4f08673bb59d7196efeb9517fbf8f5d9661f91913ecc9788edda2c1fc"
+    },
+    {
+     "origin": "work/creative/asterios-v10/best_programs.csv",
+     "credit": "suka, Verified Portfolio Programs dataset",
+     "sha256": "25da7e040bbb19b50b13c0110a22ae92d2200387337c7b742c30ce8bcf8044ed"
+    },
+    {
+     "origin": "66592020237bd4c14e3b232db1c2265a5901e7f6:submission.csv",
+     "credit": "work/gpu/pivot-independent.csv",
+     "sha256": "14aa91ca75be56ba2e9d17b569cab7dda628694230656a4e509f6a555f4e49f3"
+    },
+    {
+     "origin": "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d:submission.csv",
+     "credit": "work/gen/splice-full.csv",
+     "sha256": "734dd495c05b2c3eec840d437fded32f6fc0e9863cf6dfed5786876a19c3e079"
+    }
+   ]
+  }
+ },
+ "portfolios": {
+  "own": {
+   "instructions": 140694,
+   "rows": 1000,
+   "wins": {},
+   "sha256": "20fe7599d3ca326f13e42310bc820511d67e3b6851636f94b2a2acf6910b86e5"
+  },
+  "public": {
+   "instructions": 134177,
+   "rows": 1000,
+   "wins": {
+    "scored_0271": 1
+   },
+   "sha256": "9ff67d2801b53f2c5a95281f263bde472772d129ac3980eae87fa9eafea44610"
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+  "version": 126,
+  "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/126",
+  "score": 134185,
+  "license": "Apache 2.0",
+  "description": "**Every verified program for the 1,000 scored puzzles of Santa 2026 - The Elf Calculator, with its source, plus the data and tools behind our analysis notebook.** Updated in place: one documented change per version (see `history.csv`).\n\nAnalysis notebook: https://www.kaggle.com/code/asteriospanoras/santa-2026-where-instructions-go-what-fails\n\n## Files\n- `puzzles.csv`, `practice_puzzles.csv` - the official competition data, included unchanged so a notebook needs only this dataset (competition rules: data access and use Open Source).\n- `best_programs.csv` - `id`, `instructions`, `source`, `program` (JSON list of `[op, i, j, d]`). Every program replays correctly under the competition rules; total 141,339 in version 1. To submit, write `id,program` with a CSV writer.\n- `experiments.csv` - twelve ideas we tested on the best public programs: how, how many puzzles, the result and why it failed.\n- `headroom_independent_build.csv` - cost of building each remaining target on its own vs the published programs (20 puzzles).\n- `practice_structure_costs.csv` - for every practice target, the exact cost (<= 4) from the starting values plus the smaller targets.\n- `public_lineage.csv` - the public scores of day one, each recomputed from the notebook output.\n- `history.csv` - one line per version.\n- `elf_tools/` - our exact verifier, DAG-aware exact searches (depth 4 and 5), cone re-synthesis, joint-cut and suffix passes, and an extended suffix rebuilder in C++.\n\n## Sources and license\nThe programs are public work released under the Apache License 2.0, re-verified here; `source` names the origin of each one:\nTony Li (Elf Calculator With Register Reuse), konbu17 (Wider Dictionary + Portfolio and its dataset), Elias T.-H. Shieh (Verified Best Programs and dataset), Mizero Lucky Gall and thisray (credited in those datasets), Nilanjan_Saha123 (Best-of-Public Elf Optimizer), Atakan Aldemir (Joint Recipes for Large Puzzles), Angel Jacinto Sanchez Ruiz (Public Merge) and Sargis Khachatryan (Cross-Trace MILP). `elf_tools/elf_suffix_ext.cpp` is based on Nilanjan_Saha123's suffix rebuilder. This dataset is released under the Apache License 2.0.\n",
+  "version_notes": "134,185: public merge + ledger steps",
+  "raw": "best_programs.csv",
+  "raw_sha256": "12c2a4c0d7e65c1dfa4c2ead3c5dbcfe9a6b9f045abf1f98ca24a17245de530e",
+  "normalized_sha256": "882bb2e85d42cd778e0bcb353fbac85f9954a0f24d6fe0698dacdd0a4b30c658",
+  "archive": "69b5f841beeeaffa105d5dd6d8ea4b8e74844e80485cbbe316c2e99256346a5a",
+  "archive_bytes": 815258,
+  "storage_path": "https://storage.googleapis.com:443/kaggle-data-sets/13468494/22506508/bundle/archive.zip",
+  "dataset_version_id": 22506508,
+  "metadata_version": 126,
+  "utc": "2026-11-20T15:35:30.307842+00:00",
+  "version_evidence": "The SDK catalog identifies version 126, Apache 2.0, and the exact compressed size. The fixed-version download provides the immutable archive. The publisher version note gives 134,185, confirmed by two full replays. The internal history uses an earlier label.",
+  "baseline_score": 134178,
+  "frozen_commit": "66592020237bd4c14e3b232db1c2265a5901e7f6",
+  "winners": {
+    "scored_0271": {
+      "before": 39,
+      "after": 38,
+      "source": "E-Max AI, Santa 2026 | Public Frontier | Score 134,187"
+    },
+    "scored_0791": {
+      "before": 137,
+      "after": 135,
+      "source": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set"
+    }
+  },
+  "complete_rows": 1000,
+  "combined": 134175,
+  "combined_sha256": "a997ad0c82fc0d8151b9e6e9f2e6fde5a78341d6beffa9a4edaec25fdb083e00",
+  "history_head": {
+    "version": "v124",
+    "date_utc": "2026-11-20",
+    "total": "134185",
+    "delta": "-4",
+    "change": "newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer",
+    "credit": "E-Max AI, Mizero Lucky Gall, Roman Rozen, alex chilton"
+  }
+}

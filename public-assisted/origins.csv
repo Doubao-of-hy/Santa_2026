@@ -269,7 +269,7 @@ scored_0267,local from official inputs,Generated from official inputs,114
 scored_0268,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",200
 scored_0269,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",272
 scored_0270,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",117
-scored_0271,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",39
+scored_0271,work/creative/frontier-134285/retained-48/public-shorter.csv,"Wang Jakie engine, E-Max AI retained-pool method. Recorded parents: 66592020237bd4c14e3b232db1c2265a5901e7f6:public-assisted/submission.csv (goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.) | work/creative/asterios-v113/best_programs.csv (Ángel Jacinto Sánchez Ruiz, Public Merge)",38
 scored_0272,local from official inputs,Generated from official inputs,22
 scored_0273,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",180
 scored_0274,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",137
@@ -789,7 +789,7 @@ scored_0787,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [1
 scored_0788,work/creative/frontier-135161/arsen-shorter.csv,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",222
 scored_0789,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",118
 scored_0790,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",214
-scored_0791,Asterios v125,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",137
+scored_0791,Asterios v126,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",135
 scored_0792,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",110
 scored_0793,work/virtual/resume-135077/v113-polish.csv,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",205
 scored_0794,Asterios v119,"E-Max AI, Santa 2026 | Public Frontier | Score 134,439",116
