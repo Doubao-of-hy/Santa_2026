@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T21:27:33+08:00",
+  "checked": "2026-11-20T21:49:33+08:00",
   "puzzle": "scored_0882",
   "bounds": [
     22,
@@ -8,9 +8,9 @@
   "grid": {
     "helpers": 10,
     "total_branches": 768,
-    "finished": 199,
+    "finished": 233,
     "unknown": 4,
-    "nodes": 4619999426,
+    "nodes": 5438126230,
     "status": "INCOMPLETE"
   },
   "refined": {
@@ -23,6 +23,6 @@
     "nodes": 134090359,
     "status": "UNSAT"
   },
-  "resolved_with_refinement": 196,
+  "resolved_with_refinement": 230,
   "remaining_returned_unknown": 3
 }

@@ -70,12 +70,12 @@ scored_0068,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,55
 scored_0069,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",273
 scored_0070,Asterios v115,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",120
 scored_0071,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",113
-scored_0072,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",101
+scored_0072,local from official inputs,Generated from official inputs,101
 scored_0073,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",124
 scored_0074,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",205
 scored_0075,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",254
 scored_0076,Asterios v99,"suka, Verified Portfolio Programs dataset",145
-scored_0077,local from official inputs,Generated from official inputs,107
+scored_0077,local from official inputs,Generated from official inputs,106
 scored_0078,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",109
 scored_0079,work/creative/resume-135077/accepted-134500/shorter.csv,"wang Jakie, Kaggle 371736767, Apache-2.0 | Asterios v113 — 守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs | previous project 135077 — Local graph recombination. Available row sources: Asterios v79 (Roman Rozen, Santa 2026 | IceFire Strong Start); Generated from official inputs; cff0e1d0897294bc6adfad687f4001a29949dbc3 arithmetic rewrite of Local independent GPU-domain program generated from official puzzle values. Joint solver also had the original portfolio row (Generated from official inputs) and official-input programs.. Additional independent solvers used official puzzle inputs. | goodpjw2008, Santa 2026 DAG-LNS programs v5, Apache-2.0 (algorithm)",133
 scored_0080,Asterios v99,konbu17 dataset (suffix re-solve),147
@@ -275,7 +275,7 @@ scored_0273,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0274,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",138
 scored_0275,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",145
 scored_0276,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",72
-scored_0277,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",111
+scored_0277,local from official inputs,Generated from official inputs,111
 scored_0278,Asterios v99,"suka, Verified Portfolio Programs dataset",82
 scored_0279,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",256
 scored_0280,local from official inputs,Generated from official inputs,112
@@ -716,7 +716,7 @@ scored_0714,local from official inputs,Generated from official inputs,143
 scored_0715,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",120
 scored_0716,local from official inputs,Generated from official inputs,117
 scored_0717,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",122
-scored_0718,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",115
+scored_0718,local from official inputs,Generated from official inputs,115
 scored_0719,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",246
 scored_0720,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",29
 scored_0721,local from official inputs,Generated from official inputs,4
@@ -770,7 +770,7 @@ scored_0768,Asterios v99,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large P
 scored_0769,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",97
 scored_0770,local from official inputs,Generated from official inputs,112
 scored_0771,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",258
-scored_0772,local from official inputs,Generated from official inputs,117
+scored_0772,local from official inputs,Generated from official inputs,115
 scored_0773,work/virtual/registers-135078/assisted-wins.csv,"Ertugrul Ozer, 138,867 SOTA Verified Portfolio",42
 scored_0774,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",273
 scored_0775,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",116
@@ -917,7 +917,7 @@ scored_0915,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0916,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",227
 scored_0917,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",211
 scored_0918,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",210
-scored_0919,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",121
+scored_0919,local from official inputs,Generated from official inputs,121
 scored_0920,Asterios v99,"prvsiyan, Santa is not happy",142
 scored_0921,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",164
 scored_0922,local from official inputs,Generated from official inputs,22
@@ -973,7 +973,7 @@ scored_0971,local from official inputs,Generated from official inputs,18
 scored_0972,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",122
 scored_0973,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",104
 scored_0974,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",230
-scored_0975,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",107
+scored_0975,local from official inputs,Generated from official inputs,107
 scored_0976,Asterios v117,"E-Max AI, Santa 2026 | Public Frontier | Score 134,465",96
 scored_0977,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",163
 scored_0978,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",105
