@@ -65,11 +65,16 @@ def rebuild():
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--write',action='store_true')
+    ap.add_argument('--table-at',help='Compare with the published table at a historical revision')
     args=ap.parse_args()
+    if args.table_at and args.write:ap.error('Historical tables are read-only')
     proved,receipt=rebuild()
     table=HERE/'puzzle-bounds.csv'
     with table.open(encoding='utf8',newline='') as f:
         live=list(csv.DictReader(f))
+    if args.table_at:
+        raw=subprocess.check_output(['git','show',args.table_at+':collaboration/puzzle-bounds.csv'],cwd=HERE)
+        live=list(csv.DictReader(io.StringIO(raw.decode())))
     if [r['id'] for r in proved]!=[r['id'] for r in live]:raise ValueError('Live puzzle IDs changed')
     wanted=receipt['lower_projection_sha256']
     if args.write:
