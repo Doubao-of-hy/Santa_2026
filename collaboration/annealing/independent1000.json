@@ -1,0 +1,19 @@
+{
+ "utc": "2026-11-20T13:06:37.903856+00:00",
+ "base_total": 140814,
+ "base_sha256": "6201efe2d0f5aefed28e6069fe3bec12bd3ad36ba271341b1fce5ba0429a610d",
+ "verified": 140813,
+ "sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+ "rows": 1,
+ "saved": 1,
+ "input_hashes": {
+  "independent 140946": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba",
+  "own previous 141435": "230001b8315e852344520f305c488ebd82c084b05d119534eed03757d3fc5aed",
+  "own previous 141241": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+  "own previous 141026": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+  "Rudolph individually generated from official inputs": "3d041560e30d46647971ad149f7bad06f7c476b6b9f90deffe2636381db4f692",
+  "konbu individually generated from official inputs": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a"
+ },
+ "source_receipt": "verified-independent-donors/audit.json",
+ "recipes_sha256": "7fd6cc09821d3d8cb6a38c9ac48f1ccdd3c10f06fd9961779e160ef1adb7d230"
+}

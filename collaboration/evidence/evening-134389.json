@@ -1,0 +1,48 @@
+{
+  "starting_commit": "248894967985e4e6a68ec188d8387b9f43056f9b",
+  "updated": "2026-11-20T21:08:29+08:00",
+  "independent": {
+    "initial": 141438,
+    "current": 140813,
+    "changed": 327,
+    "saved": 625,
+    "source_sha256": "d778476281dad9c8d4fa5cc2afe43517ad5430ee5ab0a5685e4522794fce8f1d",
+    "current_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+    "largest": {
+      "scored_0177": 12,
+      "scored_0128": 8,
+      "scored_0011": 7,
+      "scored_0326": 7,
+      "scored_0477": 7,
+      "scored_0871": 7,
+      "scored_0972": 7,
+      "scored_0439": 5,
+      "scored_0495": 5,
+      "scored_0639": 5,
+      "scored_0693": 5,
+      "scored_0714": 5
+    }
+  },
+  "assisted": {
+    "initial": 135077,
+    "current": 134389,
+    "changed": 400,
+    "saved": 688,
+    "source_sha256": "23c79ccfb1b2d23f39315e67d937f78115f924c03972256c46d559b99769d9af",
+    "current_sha256": "757d8632ddb9202f9671fc4c2841a5c9453d5e647a284082931a994fb2390f22",
+    "largest": {
+      "scored_0807": 16,
+      "scored_0577": 8,
+      "scored_0086": 6,
+      "scored_0197": 6,
+      "scored_0304": 6,
+      "scored_0340": 6,
+      "scored_0247": 5,
+      "scored_0326": 5,
+      "scored_0397": 5,
+      "scored_0607": 5,
+      "scored_0639": 5,
+      "scored_0653": 5
+    }
+  }
+}
