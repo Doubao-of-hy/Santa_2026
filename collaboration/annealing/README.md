@@ -13,3 +13,5 @@
 使用历史图结构预测下一题能否缩短。先去掉 49 道已知改善题，再冻结预测靠前的 100 题和 100 道长度匹配的对照。相同预算下两组各省 2 条和 1 条；这三项改进都通过完整回放。这次前瞻差距只有一条。[固定分组](prospective-100-pairs.json) · [早期交叉验证](rank-validation.json) · [前瞻结果](prospective-replay.json) · [复跑输入](prospective-recipes.csv)
 
 在 256 题上比较只用一种独立父程序与增加 Rudolph、konbu 的独立生成程序。用于生成这些父程序的输入只含官方初值及目标。单父本合计省 26 条，多父本合计省 21 条，逐题选优共省 35 条。与仓库当时的独立上界逐题合并，140,914 降到 140,879 条。[同预算结果与基线指纹](own-portfolio160.json) · [逐题来源](own-portfolio160-origins.csv)
+
+继续检验其余独立程序，54 题合计省 65 条。冻结候选由 140,879 降至 140,814 条，两份整数解释器均已复核。编排额外父程序时，Rudolph 数据中只使用直接由官方初值生成的 250 行，konbu 数据中只使用对应的 174 行。所有入选程序保留输入算式、种子与作者。[独立父程序筛选](independent-donors.json) · [改进结果](independent-wide.json) · [搜索输入和种子](independent-wide-recipes.csv) · [署名](independent-wide-origins.csv)

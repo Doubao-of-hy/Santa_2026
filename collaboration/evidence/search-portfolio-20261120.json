@@ -1,0 +1,505 @@
+{
+ "utc": "2026-11-20T13:04:39.011411+00:00",
+ "sources": {
+  "asterios113": {
+   "score": 134508,
+   "license": "Apache 2.0",
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/113",
+   "normalized_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f"
+  },
+  "asterios115": {
+   "score": 134494,
+   "license": "Apache 2.0",
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/115",
+   "normalized_sha256": "0d9b93a29041fa8f1eca7c64379847706ca587ca17a890bb1a4ecd1615f60f74"
+  },
+  "asterios117": {
+   "score": 134463,
+   "license": "Apache 2.0",
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/117",
+   "normalized_sha256": "c5b8a94005a26b6bd35ea0293062de5c98b781ea6c8456f1d824490ae9f7a120",
+   "archive_hash": "59f47eb2bfe007857855cc695c86a71388f5c8d570755325f4dcef2ae909f1ec"
+  },
+  "rudolph64": {
+   "score": 134522,
+   "license": "CC0: Public Domain",
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/64",
+   "normalized_sha256": "310d64f810810b4e9695e2cedcbc93a07bede5a92bb83972dcb1003503faa265"
+  },
+  "rudolph65": {
+   "score": 134500,
+   "license": "CC0: Public Domain",
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/65",
+   "normalized_sha256": "472b8d61be2e078581ad0eb15f7f0ef637ce461475e26c9f0f476c2b98e1de33"
+  },
+  "rudolph66": {
+   "score": 134475,
+   "license": "CC0: Public Domain",
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/66",
+   "normalized_sha256": "3baf375863f8e380cbf4a826a9e9e6419ec32fd7e7fd681619a034f757aac02a",
+   "archive_hash": "5190f676aa5653833d66588ed3e520f9b7cd658b06caef1cc811a2fea7a5fb53"
+  },
+  "hanif22": {
+   "score": 134525,
+   "license": "Apache 2.0",
+   "url": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/22",
+   "normalized_sha256": "cb311808a526e6a9116f0cc2d605a740847f3bcc99d0474e225a67cbc6ff9b8b"
+  },
+  "hanif23": {
+   "score": 134477,
+   "license": "Apache 2.0",
+   "url": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/23",
+   "normalized_sha256": "48f7dbc58893dc54d0d601adde202cddd8fd356bfaa6be90ed3486d1a5e7d260",
+   "archive_hash": "60b3febe6b640b4711d666a6dd931d394d482d77eaa66a3f4f438690299a53f2"
+  },
+  "good8": {
+   "score": 134561,
+   "license": "Apache 2.0",
+   "normalized_sha256": "eea7d2acfb55c9ae55a4f2e63f55b56fd4a8b4cb295e301c78c501573891ea8c",
+   "own_programs": 134556,
+   "public_frontier": 134561,
+   "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/8"
+  },
+  "pratham23": {
+   "score": 135812,
+   "license": "Other (specified in description)",
+   "url": "https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/23",
+   "normalized_sha256": "709ebf32e87497128493b41891cfb330d38039bad5aceb2438638b6c7f53e9c8"
+  }
+ },
+ "Wang_code": {
+  "source": "https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767",
+  "id": 371736767,
+  "author": "wang Jakie",
+  "license": "Apache 2.0",
+  "evidence": "Pinned Kaggle page, Version 5 of 5, License heading with Apache 2.0 link.",
+  "notebook_sha256": "0acd4ddb657152b6f16f22354987da142b97033693584656dbce7cf6d4819e2c",
+  "extraction": "Python AST literal assignments NATIVE_FILES only, cells 15 and 16; no notebook cells executed.",
+  "files": {
+   "anneal.cpp": "0e4ec5db401e7b0642c93d3499634e8790dd78efa02f6ab689cf8be23e6befbb",
+   "baseline_mask.cpp": "a3f5385fd0cec1a1902e70f47d2de0ac0115869a2f171a761b4353f651ec2e59",
+   "cache_lookup.inc": "37a48bf4043e7c408f7e24c6a0a4917e9acde6cd133c881aa63339d641b3b591",
+   "cache_perturb.inc": "8cb736e327b7cbfc6c94607a30aac11f17b54ff653c77d33d0ba207def02c392",
+   "common.inc": "2b876924774e19a9ba1ba1ed52351eb5485895be6759e3720b0d5091a50a61d6",
+   "compact.inc": "4132404aca1128d1e6c47eac6977a7a1577932a4438697eebc9e162ada5f3238",
+   "compact_mask.cpp": "bb6c7a0711b4db50d3995706677d08fa80d70cbfee7b9a0504b47f963308c2a1",
+   "compact_rotate.cpp": "d2507768fa70f83f9f3bdb69218ef8e4bcec91ca100e1319956c91b94012c4cb",
+   "cross.inc": "7a742c6c5faca1727c57ec092b80d6eb7bb616d2c1ab2bc747cfc0789ea246bb",
+   "fast_perturb.inc": "5a2154f2e18db8888dd1de10684fb409015b01627b5f7817fbe4856a1a050cb2",
+   "incremental.cpp": "7a0d5327d0883e04c80c42761d7ec53e6cc3fbc45b36e0700bf5b1900dc09e8f",
+   "main.inc": "7e514496bf56d073908cf137ebc9a6290826a422486316ef8f66577915625b52",
+   "neutral.inc": "37f0eb32fa83f0b7d3d0a5262fa96253e824a7467c125c3e219c66a8187d4027",
+   "quartet.cpp": "99b210b8531090df731b42748e5dcd311e1cc01094cd6f38fe075e981fb379a5",
+   "recipe_lookup.inc": "6eab4d783e02989a2b6027bdfeeea0c1f55a2000d0b75fe3eee376fe20a323a3",
+   "states.inc": "a317af6a77ca1b2de3ec1c9a61e6604b3f9427e2b331d0b1e34fca5859b8d67e"
+  }
+ },
+ "method_pairs": {
+  "compact": {
+   "selected": {
+    "rows": 47,
+    "wins": 1,
+    "instructions_saved": 1
+   },
+   "control": {
+    "rows": 47,
+    "wins": 0,
+    "instructions_saved": 0
+   }
+  },
+  "incremental": {
+   "selected": {
+    "rows": 47,
+    "wins": 3,
+    "instructions_saved": 3
+   },
+   "control": {
+    "rows": 47,
+    "wins": 0,
+    "instructions_saved": 0
+   }
+  },
+  "basin": {
+   "selected": {
+    "rows": 47,
+    "wins": 0,
+    "instructions_saved": 0
+   },
+   "control": {
+    "rows": 47,
+    "wins": 0,
+    "instructions_saved": 0
+   }
+  }
+ },
+ "ranking_fivefold": {
+  "baseline_raw_rate": 0.019,
+  "oof_top100": {
+   "hits": 12,
+   "saved": 16,
+   "total_wins": 19,
+   "top_count": 100,
+   "average_precision": 0.21587473270783158
+  },
+  "oof_by_length": {
+   "hits": 0,
+   "saved": 0,
+   "total_wins": 19,
+   "top_count": 100,
+   "average_precision": 0.01636600858928053
+  },
+  "holdout_known_algorithm": {
+   "hits": 4,
+   "saved": 7,
+   "total_wins": 5,
+   "top_count": 41,
+   "average_precision": 0.38353654188948305
+  },
+  "holdout_by_length": {
+   "hits": 0,
+   "saved": 0,
+   "total_wins": 5,
+   "top_count": 41,
+   "average_precision": 0.014687860602754219
+  },
+  "raw_selected": 23,
+  "sources": [
+   "work\\creative\\asterios-v23\\best_programs.csv",
+   "work\\creative\\asterios-v80\\best_programs.csv",
+   "work\\creative\\asterios-v89\\best_programs.csv",
+   "work\\creative\\asterios-v96\\best_programs.csv",
+   "work\\creative\\asterios-v99\\best_programs.csv",
+   "work\\creative\\resume-135077\\rudolph64\\rudolph_programs.csv",
+   "work\\creative\\resume-135077\\hanif22\\submission.csv",
+   "work\\creative\\resume-135077\\good8\\our_programs.csv",
+   "work\\creative\\resume-135077\\assisted.csv"
+  ]
+ },
+ "prospective": {
+  "cohort_sha256": "ba8742cd9d86a86ff89064528fe5bfc20892ca628ff95d59ce1018d55dabf06a",
+  "selected": {
+   "rows": 100,
+   "wins": 2,
+   "instructions_saved": 2
+  },
+  "control": {
+   "rows": 100,
+   "wins": 1,
+   "instructions_saved": 1
+  }
+ },
+ "experiments": {
+  "anneal-pilot": {
+   "rows": 32,
+   "total": 134508,
+   "verified": 134508,
+   "modes": {
+    "anneal": {
+     "wins": 0,
+     "savings": 0,
+     "CPU_wall_seconds_sum": 7.62
+    },
+    "anneal_seeded": {
+     "wins": 0,
+     "savings": 0,
+     "CPU_wall_seconds_sum": 7.24
+    }
+   },
+   "baseline_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f",
+   "combined_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f"
+  },
+  "anneal-anneal135": {
+   "rows": 160,
+   "total": 134508,
+   "verified": 134502,
+   "modes": {
+    "anneal": {
+     "wins": 2,
+     "savings": 2,
+     "CPU_wall_seconds_sum": 463.52
+    },
+    "anneal_seeded": {
+     "wins": 3,
+     "savings": 4,
+     "CPU_wall_seconds_sum": 469.15
+    }
+   },
+   "baseline_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f",
+   "combined_sha256": "dbce5bcae8c7558094c1a46b3fb51cdd54f707fdb2ca072deab775619f759507"
+  },
+  "anneal-quartet20": {
+   "rows": 380,
+   "total": 134508,
+   "verified": 134508,
+   "modes": {
+    "quartet": {
+     "wins": 0,
+     "savings": 0,
+     "CPU_wall_seconds_sum": 215.92
+    }
+   },
+   "baseline_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f",
+   "combined_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f"
+  },
+  "anneal-diverse75": {
+   "rows": 96,
+   "total": 141241,
+   "verified": 141222,
+   "modes": {
+    "anneal_diverse": {
+     "wins": 15,
+     "savings": 19,
+     "CPU_wall_seconds_sum": 145.41
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "214b9576616ebbdebf3864e1d3433db1b99a0920cfa74d8f770b6f5fef113d4e"
+  },
+  "anneal-diverse75-control": {
+   "rows": 96,
+   "total": 141241,
+   "verified": 141220,
+   "modes": {
+    "anneal": {
+     "wins": 12,
+     "savings": 21,
+     "CPU_wall_seconds_sum": 145.1
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "d85c13cacdaa14c11323b02f66ca614abce41c738216f6fcaa27005163efe116"
+  },
+  "anneal-region75-own": {
+   "rows": 96,
+   "total": 141241,
+   "verified": 141240,
+   "modes": {
+    "region_anneal": {
+     "wins": 1,
+     "savings": 1,
+     "CPU_wall_seconds_sum": 536.13
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "b537701705136bf01a67a4cbc91eae1bac2122dad6d21f8fcdcfd0e435e519ae"
+  },
+  "anneal-region120-pub": {
+   "rows": 180,
+   "total": 134487,
+   "verified": 134487,
+   "modes": {
+    "region_anneal": {
+     "wins": 0,
+     "savings": 0,
+     "CPU_wall_seconds_sum": 601.25
+    }
+   },
+   "baseline_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+   "combined_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8"
+  },
+  "anneal-basin75-own": {
+   "rows": 96,
+   "total": 141241,
+   "verified": 141239,
+   "modes": {
+    "basin": {
+     "wins": 2,
+     "savings": 2,
+     "CPU_wall_seconds_sum": 56.79
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "37024ac56f2d8b0733a71ba67f5c5d9d8fa87c8b43324a853380e898c5b1d76b"
+  },
+  "anneal-active134408-basin": {
+   "rows": 94,
+   "total": 134408,
+   "verified": 134408,
+   "modes": {
+    "basin": {
+     "wins": 0,
+     "savings": 0,
+     "CPU_wall_seconds_sum": 88.79
+    }
+   },
+   "baseline_sha256": "674feb4b39c6d1e87a725cfb4f1f6ebbf37ed3087f3f2844ea60c355776f277e",
+   "combined_sha256": "674feb4b39c6d1e87a725cfb4f1f6ebbf37ed3087f3f2844ea60c355776f277e"
+  },
+  "anneal-public-diverse120": {
+   "rows": 410,
+   "total": 134487,
+   "verified": 134479,
+   "modes": {
+    "anneal_diverse": {
+     "wins": 5,
+     "savings": 8,
+     "CPU_wall_seconds_sum": 1035.45
+    }
+   },
+   "baseline_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+   "combined_sha256": "bb048e7c617dec3ba3351058d7bf7a427205ff0269700dc675a32917e82ed2e3"
+  },
+  "anneal-public-long110": {
+   "rows": 128,
+   "total": 134487,
+   "verified": 134484,
+   "modes": {
+    "anneal": {
+     "wins": 1,
+     "savings": 1,
+     "CPU_wall_seconds_sum": 352.07
+    },
+    "anneal_seeded": {
+     "wins": 2,
+     "savings": 2,
+     "CPU_wall_seconds_sum": 354.5
+    }
+   },
+   "baseline_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+   "combined_sha256": "4cb2b826b9949d5841b830747b21593b99cc5a4173f62cf8b45560bf892bce8b"
+  },
+  "anneal-fresh134430-450": {
+   "rows": 21,
+   "total": 134430,
+   "verified": 134422,
+   "modes": {
+    "anneal": {
+     "wins": 3,
+     "savings": 6,
+     "CPU_wall_seconds_sum": 307.29
+    },
+    "anneal_seeded": {
+     "wins": 3,
+     "savings": 8,
+     "CPU_wall_seconds_sum": 319.18
+    }
+   },
+   "baseline_sha256": "1102710ce5786dfb01393e55d82d21451637385b646b1a24036c84c5cec3ae08",
+   "combined_sha256": "9084c658d4283026eb464c50f25bdf3290c27d66bb1608f595d093e7c972e5f7"
+  },
+  "anneal-independent-full35": {
+   "rows": 1000,
+   "total": 141435,
+   "verified": 141241,
+   "modes": {
+    "anneal": {
+     "wins": 150,
+     "savings": 194,
+     "CPU_wall_seconds_sum": 746.02
+    }
+   },
+   "baseline_sha256": "230001b8315e852344520f305c488ebd82c084b05d119534eed03757d3fc5aed",
+   "combined_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc"
+  },
+  "anneal-independent-incremental95": {
+   "rows": 225,
+   "total": 141241,
+   "verified": 141186,
+   "modes": {
+    "incremental": {
+     "wins": 41,
+     "savings": 55,
+     "CPU_wall_seconds_sum": 497.58
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "0ee5fef0dc2c5621b3d99eb724eb688dec1f51f40038602b8c9ac0916e0991f1"
+  },
+  "anneal-independent-incremental95-rem": {
+   "rows": 775,
+   "total": 141241,
+   "verified": 141101,
+   "modes": {
+    "incremental": {
+     "wins": 104,
+     "savings": 140,
+     "CPU_wall_seconds_sum": 1293.35
+    }
+   },
+   "baseline_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+   "combined_sha256": "43024665f9faf9755989556f44c748ae3743d90773658067c12c642feede2681"
+  },
+  "anneal-independent-diverse-full105": {
+   "rows": 1000,
+   "total": 141026,
+   "verified": 140946,
+   "modes": {
+    "anneal_diverse": {
+     "wins": 65,
+     "savings": 80,
+     "CPU_wall_seconds_sum": 2806.58
+    }
+   },
+   "baseline_sha256": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+   "combined_sha256": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba"
+  },
+  "anneal-own-port160": {
+   "rows": 256,
+   "total": 140946,
+   "verified": 140911,
+   "modes": {
+    "anneal": {
+     "wins": 22,
+     "savings": 26,
+     "CPU_wall_seconds_sum": 279.34
+    },
+    "anneal_seeded": {
+     "wins": 16,
+     "savings": 21,
+     "CPU_wall_seconds_sum": 289.15
+    }
+   },
+   "baseline_sha256": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba",
+   "combined_sha256": "62508f795b5d7ddab12413fe057436186a7bcffca2414bb4f478ec0b82b452b9"
+  }
+ },
+ "applied_programs": {
+  "release-union-134430": {
+   "verified": 134430,
+   "sha256": "1102710ce5786dfb01393e55d82d21451637385b646b1a24036c84c5cec3ae08"
+  },
+  "fresh-replay-134422": {
+   "verified": 134422,
+   "sha256": "9084c658d4283026eb464c50f25bdf3290c27d66bb1608f595d093e7c972e5f7"
+  },
+  "release-union-134408": {
+   "verified": 134408,
+   "sha256": "674feb4b39c6d1e87a725cfb4f1f6ebbf37ed3087f3f2844ea60c355776f277e"
+  },
+  "active-replay-134401": {
+   "verified": 134401,
+   "sha256": "da4b9b0f47f1a3386253c272de51426f03a9ec0169e077c95876f583dd339569"
+  }
+ },
+ "leaderboard": {
+  "official_utc": "2026-11-20T12:59:31.600803+00:00",
+  "snapshot": "leaderboard-20261120-205931.json",
+  "ranked": 1790,
+  "first": 128330,
+  "hypothetical_rank_134398": 118
+ },
+ "independent_sources": {
+  "rudolph": {
+   "verified_fresh_rows": 250,
+   "input": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+   "full": "91453abf036867d16293df3467b1e5211df7432153dca3c6a70e9bbe8147fb1b",
+   "excluded_resumed_rows": 750,
+   "excluded_resume_hash": "6a2a839c798eb498cb5acca08bbe7d77402c09ac89c847cae645b3607b7f58d5",
+   "receipt": "work\\gen\\rudolph-complete.json",
+   "no_program_input": true,
+   "clean_sha": "3d041560e30d46647971ad149f7bad06f7c476b6b9f90deffe2636381db4f692"
+  },
+  "konbu": {
+   "verified_fresh_rows": 174,
+   "input": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+   "full": "327ea6588825f8658e8e82e712c4f5b383c913b8f68873e6ea6f3a125d118ea6",
+   "excluded_resumed_rows": 826,
+   "excluded_resume_hash": "7705161f9b58392eaa05de030b80de5e5f2bb818fbe54d6e385ef3b55b06653e",
+   "receipt": "work\\gen\\konbu-complete.json",
+   "no_program_input": true,
+   "clean_sha": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a"
+  }
+ },
+ "cleaned_bytes": 104064599,
+ "cleaned_files": 56
+}

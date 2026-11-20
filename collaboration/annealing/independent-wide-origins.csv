@@ -1,0 +1,55 @@
+id,source,upstream_source,instructions
+scored_0008,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,112
+scored_0011,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435, own previous 141026",110
+scored_0016,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",127
+scored_0017,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,109
+scored_0073,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,131
+scored_0096,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,176
+scored_0118,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,109
+scored_0164,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",130
+scored_0200,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",99
+scored_0210,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435, own previous 141241",95
+scored_0247,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",112
+scored_0266,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,101
+scored_0267,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,114
+scored_0270,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,124
+scored_0304,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,130
+scored_0309,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",113
+scored_0311,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",113
+scored_0323,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",118
+scored_0340,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,102
+scored_0362,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,112
+scored_0372,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,124
+scored_0379,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,121
+scored_0406,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,120
+scored_0429,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435, own previous 141241",121
+scored_0449,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435, own previous 141241",98
+scored_0462,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,123
+scored_0477,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435, own previous 141241",130
+scored_0500,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,87
+scored_0523,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",111
+scored_0524,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,113
+scored_0533,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,122
+scored_0535,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,145
+scored_0542,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,110
+scored_0590,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,111
+scored_0599,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,122
+scored_0615,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,119
+scored_0627,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,120
+scored_0674,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,112
+scored_0675,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,122
+scored_0679,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,126
+scored_0715,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, own previous 141435",128
+scored_0718,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,116
+scored_0723,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,98
+scored_0761,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,100
+scored_0785,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, Rudolph individually generated from official inputs",112
+scored_0804,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, Rudolph individually generated from official inputs",115
+scored_0825,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, Rudolph individually generated from official inputs, konbu individually generated from official inputs",126
+scored_0850,Wang graph anneal_seeded on independently generated parents,"wang Jakie Apache-2.0 v5; independent 140946, konbu individually generated from official inputs, Rudolph individually generated from official inputs",187
+scored_0893,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,130
+scored_0909,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,118
+scored_0929,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,115
+scored_0963,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,129
+scored_0987,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,112
+scored_0988,Wang graph anneal on independently generated parents,wang Jakie Apache-2.0 v5; independent 140946,116

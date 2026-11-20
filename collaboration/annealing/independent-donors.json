@@ -1,0 +1,22 @@
+{
+ "rudolph": {
+  "verified_fresh_rows": 250,
+  "input": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "full": "91453abf036867d16293df3467b1e5211df7432153dca3c6a70e9bbe8147fb1b",
+  "excluded_resumed_rows": 750,
+  "excluded_resume_hash": "6a2a839c798eb498cb5acca08bbe7d77402c09ac89c847cae645b3607b7f58d5",
+  "receipt": "work\\gen\\rudolph-complete.json",
+  "no_program_input": true,
+  "clean_sha": "3d041560e30d46647971ad149f7bad06f7c476b6b9f90deffe2636381db4f692"
+ },
+ "konbu": {
+  "verified_fresh_rows": 174,
+  "input": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "full": "327ea6588825f8658e8e82e712c4f5b383c913b8f68873e6ea6f3a125d118ea6",
+  "excluded_resumed_rows": 826,
+  "excluded_resume_hash": "7705161f9b58392eaa05de030b80de5e5f2bb818fbe54d6e385ef3b55b06653e",
+  "receipt": "work\\gen\\konbu-complete.json",
+  "no_program_input": true,
+  "clean_sha": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a"
+ }
+}
