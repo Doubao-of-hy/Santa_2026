@@ -1,0 +1,672 @@
+{
+  "base": "7b786dbdf3fb938c8f743306fdb52ccfcf1e3017",
+  "base_sha256": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f",
+  "cohort_sha256": "5e4ef92cc7ffc64953ffbc1d39319e59b3c441c9091fe75e448f8e5f6535b44a",
+  "guide_sha256": "f3912b104ba44ac574d6bb4489cac4be474d3e06d59c876e8257e80905206f5f",
+  "generation_sources_sha256": {
+    "fresh-rudolph.csv": "e2f045bc9f4d2fefc50ad0ca9e0d3abb09589d5402d29879654835be7d803b52",
+    "fresh-wang.csv": "f6a37b99d5fb799b996081c95db9b1983c57122c479bb49a16ce2acf7ef74a98",
+    "anneal-independent-full35/results.jsonl": "b2a4ceaf3798a6afd35cd3d40f49ba7c22d1088934d974724024726d6e0624a4",
+    "anneal-independent-incremental95/results.jsonl": "9abde758b969b10232a114c0ccd23d15970acc5ebf64aadf08c791b7730f3785",
+    "anneal-independent-incremental95-rem/results.jsonl": "58bff0089aa3acd5949000fa15960cd08b6dd1c9fe29300745125485a08bbcc8",
+    "anneal-diverse75/results.jsonl": "1a3de5d0b7a8f03880f9aa59072142e27aa57454c04142099237f8240dfaf1aa",
+    "anneal-diverse75-control/results.jsonl": "fd4f7118de4ee31c5a9a5ef11458d9621188a9aacef8cda8ecfc03e695dffbce",
+    "anneal-independent-diverse-full105/results.jsonl": "0d0854ce69c9890112c9f390c8851828479325c20d5fc7d0a3ddd92df7c2f8c9",
+    "anneal-own-port160/results.jsonl": "118d0bb16f5e499b2471a5081539740513f9b41097f1e15b893a8d1bed3dac22",
+    "anneal-own-port160-rest/results.jsonl": "fdf169c19dfeac144a8af14bfb864d09b03e4b8a0d4647ed38bf06cb716c7949",
+    "verified-independent-donors/konbu.csv": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a",
+    "verified-independent-donors/rudolph.csv": "3d041560e30d46647971ad149f7bad06f7c476b6b9f90deffe2636381db4f692"
+  },
+  "fresh_wang": {
+    "seed": "20261120 + numeric id",
+    "iterations": 40,
+    "input": "frozen independent A only",
+    "binary_sha256": "1b7ad01bccdf2b916d9356afc5d54eddef95c4194f28c4d4532f3e1952e77933"
+  },
+  "guides_only_with_generation_evidence": true,
+  "selection": "Within max(6,ceil(0.08*parent length)) of parent, rank mean of top four per-target ancestor-edge Jaccard distances minus 0.012 per instruction gap. If no near guide, choose closest nonidentical ancestor set.",
+  "controls": "Both full A\u2192B and B\u2192A paths. Greedy minimizes exact number of live arithmetic steps on each candidate next target; tie by raw target position. Random uses SHA-derived per-row seed. Wang upstream v5 crossover uses same two endpoints, equal deletion-round budget (one round per evaluated path position in each arm), alternating starting direction per invocation. No anneal or Good post-polish.",
+  "stopping": "Run dev and holdout unchanged. No expansion after zero new instructions from relinking.",
+  "rows": {
+    "scored_0021": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 41,
+      "guide": 45,
+      "near": true,
+      "changed_target_closures": 11,
+      "top4_target_ancestor_jaccard_distance": 0.7465019
+    },
+    "scored_0027": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 116,
+      "guide": 121,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.6708769
+    },
+    "scored_0035": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 107,
+      "guide": 112,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.6814344
+    },
+    "scored_0040": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 189,
+      "guide": 203,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.9892914
+    },
+    "scored_0056": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 25,
+      "guide": 31,
+      "near": true,
+      "changed_target_closures": 7,
+      "top4_target_ancestor_jaccard_distance": 0.9725721
+    },
+    "scored_0062": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 153,
+      "guide": 160,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.7417342
+    },
+    "scored_0065": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 38,
+      "guide": 42,
+      "near": true,
+      "changed_target_closures": 12,
+      "top4_target_ancestor_jaccard_distance": 0.9615942
+    },
+    "scored_0069": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 295,
+      "guide": 313,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.9821753
+    },
+    "scored_0076": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 151,
+      "guide": 161,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0099": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 120,
+      "guide": 126,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.7345077
+    },
+    "scored_0114": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 178,
+      "guide": 186,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.6103335
+    },
+    "scored_0122": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 166,
+      "guide": 180,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0127": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 97,
+      "guide": 101,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.7745177
+    },
+    "scored_0129": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 291,
+      "guide": 317,
+      "near": false,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.9943792
+    },
+    "scored_0132": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 112,
+      "guide": 117,
+      "near": true,
+      "changed_target_closures": 23,
+      "top4_target_ancestor_jaccard_distance": 0.6736451
+    },
+    "scored_0150": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 173,
+      "guide": 187,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0162": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "anneal-diverse75-control/results.jsonl#anneal",
+      "parent": 140,
+      "guide": 140,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.8373208
+    },
+    "scored_0172": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 164,
+      "guide": 172,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.8149884
+    },
+    "scored_0184": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 118,
+      "guide": 123,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.6176306
+    },
+    "scored_0229": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 152,
+      "guide": 160,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0270": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "anneal-independent-diverse-full105/results.jsonl#anneal_diverse",
+      "parent": 124,
+      "guide": 126,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.7999521
+    },
+    "scored_0278": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 84,
+      "guide": 88,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.7330598
+    },
+    "scored_0285": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 220,
+      "guide": 241,
+      "near": false,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.9897425
+    },
+    "scored_0293": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 199,
+      "guide": 207,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.64569
+    },
+    "scored_0305": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 124,
+      "guide": 130,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.7232045
+    },
+    "scored_0306": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 277,
+      "guide": 304,
+      "near": false,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.9840613
+    },
+    "scored_0357": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 240,
+      "guide": 257,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0368": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 28,
+      "guide": 32,
+      "near": true,
+      "changed_target_closures": 12,
+      "top4_target_ancestor_jaccard_distance": 0.7657826
+    },
+    "scored_0392": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 104,
+      "guide": 109,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.4933963
+    },
+    "scored_0395": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 94,
+      "guide": 98,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.7392551
+    },
+    "scored_0423": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 100,
+      "guide": 104,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.6826929
+    },
+    "scored_0443": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 30,
+      "guide": 34,
+      "near": true,
+      "changed_target_closures": 7,
+      "top4_target_ancestor_jaccard_distance": 0.9219697
+    },
+    "scored_0463": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 108,
+      "guide": 112,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.6844222
+    },
+    "scored_0470": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 278,
+      "guide": 292,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0533": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 122,
+      "guide": 128,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.5825035
+    },
+    "scored_0538": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 178,
+      "guide": 186,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.6466376
+    },
+    "scored_0541": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 54,
+      "guide": 57,
+      "near": true,
+      "changed_target_closures": 10,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0553": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 130,
+      "guide": 136,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.7370223
+    },
+    "scored_0559": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 35,
+      "guide": 38,
+      "near": true,
+      "changed_target_closures": 6,
+      "top4_target_ancestor_jaccard_distance": 0.8458513
+    },
+    "scored_0582": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 192,
+      "guide": 202,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0617": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 93,
+      "guide": 97,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.7296519
+    },
+    "scored_0640": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 225,
+      "guide": 240,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.973155
+    },
+    "scored_0680": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "anneal-independent-incremental95-rem/results.jsonl#incremental",
+      "parent": 210,
+      "guide": 212,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.9863606
+    },
+    "scored_0720": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 31,
+      "guide": 35,
+      "near": true,
+      "changed_target_closures": 11,
+      "top4_target_ancestor_jaccard_distance": 0.595207
+    },
+    "scored_0722": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-wang.csv",
+      "parent": 116,
+      "guide": 121,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.5809563
+    },
+    "scored_0729": {
+      "eligible": true,
+      "credible_distinct_candidates": 1,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 298,
+      "guide": 315,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.9775226
+    },
+    "scored_0752": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "verified-independent-donors/rudolph.csv",
+      "parent": 102,
+      "guide": 110,
+      "near": true,
+      "changed_target_closures": 27,
+      "top4_target_ancestor_jaccard_distance": 0.8592672
+    },
+    "scored_0767": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 108,
+      "guide": 113,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.8368758
+    },
+    "scored_0770": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 112,
+      "guide": 117,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.7205586
+    },
+    "scored_0785": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-wang.csv",
+      "parent": 112,
+      "guide": 117,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.5705743
+    },
+    "scored_0813": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 228,
+      "guide": 254,
+      "near": false,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.9757574
+    },
+    "scored_0820": {
+      "eligible": true,
+      "credible_distinct_candidates": 2,
+      "guide_source": "verified-independent-donors/rudolph.csv",
+      "parent": 216,
+      "guide": 245,
+      "near": false,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.9767657
+    },
+    "scored_0824": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 143,
+      "guide": 150,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.7648471
+    },
+    "scored_0833": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 136,
+      "guide": 137,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.984514
+    },
+    "scored_0847": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 178,
+      "guide": 185,
+      "near": true,
+      "changed_target_closures": 30,
+      "top4_target_ancestor_jaccard_distance": 0.5826151
+    },
+    "scored_0850": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "verified-independent-donors/rudolph.csv",
+      "parent": 187,
+      "guide": 195,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 1.0
+    },
+    "scored_0896": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 136,
+      "guide": 142,
+      "near": true,
+      "changed_target_closures": 31,
+      "top4_target_ancestor_jaccard_distance": 0.6766575
+    },
+    "scored_0898": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 83,
+      "guide": 89,
+      "near": true,
+      "changed_target_closures": 17,
+      "top4_target_ancestor_jaccard_distance": 0.9845788
+    },
+    "scored_0915": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "verified-independent-donors/rudolph.csv",
+      "parent": 197,
+      "guide": 209,
+      "near": true,
+      "changed_target_closures": 29,
+      "top4_target_ancestor_jaccard_distance": 0.9896203
+    },
+    "scored_0929": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 115,
+      "guide": 120,
+      "near": true,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.709353
+    },
+    "scored_0959": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "fresh-rudolph.csv",
+      "parent": 238,
+      "guide": 265,
+      "near": false,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.9830917
+    },
+    "scored_0962": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 33,
+      "guide": 37,
+      "near": true,
+      "changed_target_closures": 11,
+      "top4_target_ancestor_jaccard_distance": 0.7487112
+    },
+    "scored_0965": {
+      "eligible": true,
+      "credible_distinct_candidates": 3,
+      "guide_source": "verified-independent-donors/rudolph.csv",
+      "parent": 196,
+      "guide": 226,
+      "near": false,
+      "changed_target_closures": 32,
+      "top4_target_ancestor_jaccard_distance": 0.9899049
+    },
+    "scored_0976": {
+      "eligible": true,
+      "credible_distinct_candidates": 4,
+      "guide_source": "fresh-wang.csv",
+      "parent": 97,
+      "guide": 101,
+      "near": true,
+      "changed_target_closures": 28,
+      "top4_target_ancestor_jaccard_distance": 0.6522985
+    }
+  }
+}

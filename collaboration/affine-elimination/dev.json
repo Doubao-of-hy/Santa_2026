@@ -1,0 +1,387 @@
+{
+  "witness": {
+    "anchors": [
+      69,
+      17
+    ],
+    "holes": [
+      43,
+      26
+    ],
+    "new": [
+      52,
+      86
+    ],
+    "physical_steps": 4,
+    "singular_rejected": true
+  },
+  "rows": [
+    {
+      "id": "scored_0750",
+      "parent_lengths": [
+        109,
+        115,
+        109,
+        109,
+        109
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 183,
+        "recipes": 220,
+        "cyclic_rank_vars": 15,
+        "graph": 109,
+        "physical": 109
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 183,
+        "recipes": 220,
+        "cyclic_rank_vars": 15,
+        "graph": 109,
+        "physical": 109
+      },
+      "elimination": {
+        "nonsingular": 20,
+        "usable_routes": 0,
+        "fresh_values": 0
+      }
+    },
+    {
+      "id": "scored_0161",
+      "parent_lengths": [
+        159,
+        164,
+        159,
+        159,
+        159
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 292,
+        "recipes": 340,
+        "cyclic_rank_vars": 8,
+        "graph": 159,
+        "physical": 159
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 292,
+        "recipes": 340,
+        "cyclic_rank_vars": 8,
+        "graph": 159,
+        "physical": 159
+      },
+      "elimination": {
+        "nonsingular": 53,
+        "usable_routes": 0,
+        "fresh_values": 0
+      }
+    },
+    {
+      "id": "scored_0331",
+      "parent_lengths": [
+        245,
+        271,
+        245,
+        245,
+        245
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 473,
+        "recipes": 508,
+        "cyclic_rank_vars": 0,
+        "graph": 245,
+        "physical": 245
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 473,
+        "recipes": 508,
+        "cyclic_rank_vars": 0,
+        "graph": 245,
+        "physical": 245
+      },
+      "elimination": {
+        "nonsingular": 166,
+        "usable_routes": 0,
+        "fresh_values": 0
+      }
+    },
+    {
+      "id": "scored_0435",
+      "parent_lengths": [
+        118,
+        120,
+        118,
+        118,
+        118
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 161,
+        "recipes": 198,
+        "cyclic_rank_vars": 5,
+        "graph": 118,
+        "physical": 118
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 194,
+        "recipes": 265,
+        "cyclic_rank_vars": 64,
+        "graph": 118,
+        "physical": 118
+      },
+      "elimination": {
+        "nonsingular": 68,
+        "jointly_grounded": 27,
+        "usable_routes": 45,
+        "fresh_values": 32
+      },
+      "active_witnesses": [],
+      "example": {
+        "holes": [
+          1,
+          266
+        ],
+        "equations": [
+          [
+            535,
+            [
+              1,
+              2,
+              2
+            ]
+          ],
+          [
+            2141,
+            [
+              5,
+              8,
+              8
+            ]
+          ]
+        ],
+        "sources": [
+          [
+            "local-independent"
+          ],
+          [
+            "local-independent"
+          ]
+        ],
+        "output": 266,
+        "fresh": [
+          2673
+        ]
+      }
+    },
+    {
+      "id": "scored_0807",
+      "parent_lengths": [
+        120,
+        135,
+        129,
+        129,
+        129
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 197,
+        "recipes": 267,
+        "cyclic_rank_vars": 17,
+        "graph": 120,
+        "physical": 120
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 199,
+        "recipes": 272,
+        "cyclic_rank_vars": 26,
+        "graph": 120,
+        "physical": 120
+      },
+      "elimination": {
+        "nonsingular": 43,
+        "jointly_grounded": 10,
+        "usable_routes": 2,
+        "fresh_values": 2
+      },
+      "active_witnesses": [],
+      "example": {
+        "holes": [
+          45,
+          675
+        ],
+        "equations": [
+          [
+            638,
+            [
+              -1,
+              1,
+              8
+            ]
+          ],
+          [
+            410,
+            [
+              -6,
+              1,
+              5
+            ]
+          ]
+        ],
+        "sources": [
+          [
+            "incumbent"
+          ],
+          [
+            "incumbent"
+          ]
+        ],
+        "output": 45,
+        "fresh": [
+          225,
+          228
+        ]
+      }
+    },
+    {
+      "id": "scored_0793",
+      "parent_lengths": [
+        205,
+        208,
+        206,
+        206,
+        206
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 228,
+        "recipes": 233,
+        "cyclic_rank_vars": 0,
+        "graph": 205,
+        "physical": 205
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 228,
+        "recipes": 233,
+        "cyclic_rank_vars": 0,
+        "graph": 205,
+        "physical": 205
+      },
+      "elimination": {
+        "nonsingular": 35,
+        "usable_routes": 0,
+        "fresh_values": 0
+      }
+    },
+    {
+      "id": "scored_0309",
+      "parent_lengths": [
+        113,
+        113,
+        114,
+        116,
+        115
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 149,
+        "recipes": 189,
+        "cyclic_rank_vars": 8,
+        "graph": 113,
+        "physical": 113
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 157,
+        "recipes": 202,
+        "cyclic_rank_vars": 30,
+        "graph": 113,
+        "physical": 113
+      },
+      "elimination": {
+        "nonsingular": 26,
+        "jointly_grounded": 8,
+        "usable_routes": 4,
+        "fresh_values": 7
+      },
+      "active_witnesses": [],
+      "example": {
+        "holes": [
+          1,
+          3040
+        ],
+        "equations": [
+          [
+            12164,
+            [
+              4,
+              4,
+              0
+            ]
+          ],
+          [
+            6083,
+            [
+              3,
+              2,
+              0
+            ]
+          ]
+        ],
+        "sources": [
+          [
+            "hanif23",
+            "rudolph67"
+          ],
+          [
+            "hanif23",
+            "rudolph67"
+          ]
+        ],
+        "output": 3040,
+        "fresh": [
+          12160,
+          24332,
+          36492
+        ]
+      }
+    },
+    {
+      "id": "scored_0754",
+      "parent_lengths": [
+        170,
+        178,
+        170,
+        170,
+        170
+      ],
+      "control": {
+        "status": "OPTIMAL",
+        "values": 312,
+        "recipes": 348,
+        "cyclic_rank_vars": 0,
+        "graph": 170,
+        "physical": 170
+      },
+      "treatment": {
+        "status": "OPTIMAL",
+        "values": 312,
+        "recipes": 348,
+        "cyclic_rank_vars": 0,
+        "graph": 170,
+        "physical": 170
+      },
+      "elimination": {
+        "nonsingular": 183,
+        "usable_routes": 0,
+        "fresh_values": 0
+      }
+    }
+  ]
+}

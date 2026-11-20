@@ -1,0 +1,541 @@
+{
+  "registered": "2026-11-20T21:40:25+08:00",
+  "sources": [
+    {
+      "commit": "472b715858b74910ca9b1eafcbea4d64183fa09d",
+      "submission_sha256": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f",
+      "origins_sha256": "dba16ae363519d56ff4b96f548aa17fd1e929ff07814559b1e3492ad0fc2dae3"
+    },
+    {
+      "commit": "22e78c3f04b1d3059f2a166f510979e75895ea31",
+      "submission_sha256": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+      "origins_sha256": "07176a279fa82574991c69a5b1534ba0d37c595960bf848929a35ad2ef92c82e"
+    },
+    {
+      "commit": "248894967985e4e6a68ec188d8387b9f43056f9b",
+      "submission_sha256": "d778476281dad9c8d4fa5cc2afe43517ad5430ee5ab0a5685e4522794fce8f1d",
+      "origins_sha256": "e24859799dd19909e495ff71eea161191ddae5d85ba9a50b46c048f28a2e3839"
+    }
+  ],
+  "excluded_path_relink_cohort": [
+    "scored_0021",
+    "scored_0027",
+    "scored_0035",
+    "scored_0040",
+    "scored_0056",
+    "scored_0062",
+    "scored_0065",
+    "scored_0069",
+    "scored_0076",
+    "scored_0099",
+    "scored_0114",
+    "scored_0122",
+    "scored_0127",
+    "scored_0129",
+    "scored_0132",
+    "scored_0150",
+    "scored_0162",
+    "scored_0172",
+    "scored_0184",
+    "scored_0229",
+    "scored_0270",
+    "scored_0278",
+    "scored_0285",
+    "scored_0293",
+    "scored_0305",
+    "scored_0306",
+    "scored_0357",
+    "scored_0368",
+    "scored_0392",
+    "scored_0395",
+    "scored_0423",
+    "scored_0443",
+    "scored_0463",
+    "scored_0470",
+    "scored_0533",
+    "scored_0538",
+    "scored_0541",
+    "scored_0553",
+    "scored_0559",
+    "scored_0582",
+    "scored_0617",
+    "scored_0640",
+    "scored_0680",
+    "scored_0720",
+    "scored_0722",
+    "scored_0729",
+    "scored_0752",
+    "scored_0767",
+    "scored_0770",
+    "scored_0785",
+    "scored_0813",
+    "scored_0820",
+    "scored_0824",
+    "scored_0833",
+    "scored_0847",
+    "scored_0850",
+    "scored_0896",
+    "scored_0898",
+    "scored_0915",
+    "scored_0929",
+    "scored_0959",
+    "scored_0962",
+    "scored_0965",
+    "scored_0976"
+  ],
+  "eligible": 285,
+  "selection": "Exclude concurrent path-relink cohort and require an unequal historical independent tape no more than 3 instructions longer. Sort by current independent length/id, make eight equal-count bins, take two per bin by SHA256(salt+/+id).",
+  "salt": "GoodPJW-v10-independent-134385-check-1",
+  "base_score": 140811,
+  "rounds": 180,
+  "seed": "710177 + puzzle numeric suffix",
+  "arms": [
+    "local incremental single",
+    "GoodPJW incremental_seeded single",
+    "GoodPJW incremental_seeded multiple",
+    "local anneal_seeded multiple",
+    "GoodPJW anneal_seeded multiple"
+  ],
+  "rows": [
+    {
+      "id": "scored_0800",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 82,
+          "program_sha256": "93c7dd55875b77c7d7336ab5166297e7cc3e7f01547c9ba15b11a2dbf2fd5018",
+          "credit": {
+            "id": "scored_0800",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "82"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 83,
+          "program_sha256": "3d476fe9e7d0857025d1982291dfdfb38f2028e4eec3f68be50164b076d04aed",
+          "credit": {
+            "id": "scored_0800",
+            "source": "work/creative/own-good/cumulative-wins.csv",
+            "instructions": "83"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0180",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 89,
+          "program_sha256": "0fa78b90c97deb314b2b31f25c6eecc1f02ca90aafa3aeae52c8f875f534bc1b",
+          "credit": {
+            "id": "scored_0180",
+            "source": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv",
+            "instructions": "89"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 90,
+          "program_sha256": "096ae43cc068ca5d6ffefab830e1a041b91c5f4d395922aff35e80bb5b56ce7b",
+          "credit": {
+            "id": "scored_0180",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "90"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 91,
+          "program_sha256": "016e4567a81db26d75b150309d16d6478f4daf733b9d86bac46e87f32de66b1a",
+          "credit": {
+            "id": "scored_0180",
+            "source": "work/creative/frontier-135161/own/best-shorter.csv",
+            "instructions": "91"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0125",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 99,
+          "program_sha256": "75f57fc6225a1dd14edd788054e9dffc149f6642183bc09c0a6a2a6f85104244",
+          "credit": {
+            "id": "scored_0125",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "99"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 100,
+          "program_sha256": "fc0c2ab785e18d7d1b8e2eafa6c560c0bcb1e97168f101cf34e7229291286d08",
+          "credit": {
+            "id": "scored_0125",
+            "source": "work/gpu/exchange-independent.csv",
+            "instructions": "100"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0402",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 94,
+          "program_sha256": "007cbebc60f1625bfb324753f9ceca3331bfa845e69e1356ccec6211983eb361",
+          "credit": {
+            "id": "scored_0402",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "94"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 95,
+          "program_sha256": "816b3b5841b42ad369df704c16649afa9708ba012fefa9ef56ff46d496ba40a3",
+          "credit": {
+            "id": "scored_0402",
+            "source": "work/gpu/lineage-independent.csv",
+            "instructions": "95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0245",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 111,
+          "program_sha256": "ba5aa790e165a5ad9c56fdb8b99935b3a36a39ab2781cc1e56a0bbc4be4ae56b",
+          "credit": {
+            "id": "scored_0245",
+            "source": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv",
+            "instructions": "111"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 112,
+          "program_sha256": "e3eed6663fb694176b5e80e89138c1b9015c3500b7b68a063172bf3d4f4fe9de",
+          "credit": {
+            "id": "scored_0245",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "112"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0904",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 109,
+          "program_sha256": "efd1fd4b635556f9128ffc979703d551694345fe3bed1122dee98477635bad3a",
+          "credit": {
+            "id": "scored_0904",
+            "source": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv",
+            "instructions": "109"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 111,
+          "program_sha256": "0795da0866676fb2b9457ab0f09ff1a7d816f6df9ea6a7ce866a99d69498b20c",
+          "credit": {
+            "id": "scored_0904",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "111"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 112,
+          "program_sha256": "7b23fa4d864f861bbb60a1ab66ecdba4c517e917f392868b9389687afa011c18",
+          "credit": {
+            "id": "scored_0904",
+            "source": "work/gpu/lineage-independent.csv",
+            "instructions": "112"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0311",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 113,
+          "program_sha256": "ee13c70bcdbc3d3f9b4fca464f6a10d6f059f4c7f5da90f634ae8ceb88743011",
+          "credit": {
+            "id": "scored_0311",
+            "source": "work/creative/resume-135077/independent-final-140814/shorter.csv",
+            "instructions": "113"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 114,
+          "program_sha256": "8a1798471721dcd848ac97f0fce927feb7904d964c6664074f6cc4b9474f139a",
+          "credit": {
+            "id": "scored_0311",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "114"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 115,
+          "program_sha256": "cf533f112f068a49ac4eeaf2c6610ddf2d3f63910d5a022753df41d3214cca25",
+          "credit": {
+            "id": "scored_0311",
+            "source": "work/creative/ladder/lns-local.csv",
+            "instructions": "115"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0779",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 114,
+          "program_sha256": "c97b522eed03e67322356f7b72ca2061db7259f357772699a4f94c2f964f1663",
+          "credit": {
+            "id": "scored_0779",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "114"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 115,
+          "program_sha256": "0eaf39da2cabb1af3aeb43d8325b28650cdfea392037bcd9be7fe6f74251dd28",
+          "credit": {
+            "id": "scored_0779",
+            "source": "work/creative/own-good-reproduced/wins.csv",
+            "instructions": "115"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0225",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 119,
+          "program_sha256": "d3cb0c8f23d8bb58daa4e96063958216b0748a1e8d4067f9b983b6eb9b11541e",
+          "credit": {
+            "id": "scored_0225",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "119"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 120,
+          "program_sha256": "d3f8f2ca4e0183895f3c349537988c7527e0ab25af7bd78b425278bbbd3e8d73",
+          "credit": {
+            "id": "scored_0225",
+            "source": "work/heritage/deep-own-wins.csv",
+            "instructions": "120"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0439",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 118,
+          "program_sha256": "5a09f21fb167dc707d82fdc013eefcabc3bd0aa00d2f89f6d4cad7e689159536",
+          "credit": {
+            "id": "scored_0439",
+            "source": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv",
+            "instructions": "118"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 119,
+          "program_sha256": "0ce496a24f6bb1ff56d7d184bd5bba2e03f2530086401ad22c590625f8573f5a",
+          "credit": {
+            "id": "scored_0439",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "119"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0429",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 121,
+          "program_sha256": "d89dd7abc4c7ccae0398b18450a8cf5c3fffd032ce819eaebe992522a514a83b",
+          "credit": {
+            "id": "scored_0429",
+            "source": "work/creative/resume-135077/independent-final-140814/shorter.csv",
+            "instructions": "121"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 122,
+          "program_sha256": "45735d5eab525ddf68015bfe964e06dcca4b4ad0aac1bef974c95cabce16ca1f",
+          "credit": {
+            "id": "scored_0429",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "122"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0927",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 124,
+          "program_sha256": "50751382fa16134b72e08a9fb3d28f4b686c1fa58b3a415255e2c71955892b55",
+          "credit": {
+            "id": "scored_0927",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "124"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 125,
+          "program_sha256": "c4c3126f9c85b21b67a7556d6f82e38ad6574e0f2c43c7171718251c55d26425",
+          "credit": {
+            "id": "scored_0927",
+            "source": "work/virtual/siblings-135106/own-exact-f0.csv",
+            "instructions": "125"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0156",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 141,
+          "program_sha256": "9c82d738534357656c48673a69093d3782f65717219c1e91da0184a2f8acaa23",
+          "credit": {
+            "id": "scored_0156",
+            "source": "work/virtual/resume-135077/wang-second.csv",
+            "instructions": "141"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 142,
+          "program_sha256": "43d0cb6082b2e63fc4e284a8a4737973a19086901f4848f2e9f302a164610144",
+          "credit": {
+            "id": "scored_0156",
+            "source": "work/virtual/portfolio-135289/own-wide-all.csv",
+            "instructions": "142"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0295",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 131,
+          "program_sha256": "99cbf1b4b024fc66c57c12486b66f6552e38b51d9d6a0367037473fd305d139f",
+          "credit": {
+            "id": "scored_0295",
+            "source": "work/creative/resume-135077/anneal-own-port160/shorter.csv",
+            "instructions": "131"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 133,
+          "program_sha256": "e99e64303c5bf4d013a6bec7d7d0a40cc2939d67cc815b885c2535133273a58a",
+          "credit": {
+            "id": "scored_0295",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "133"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 134,
+          "program_sha256": "1569ee4d8e702cdb931b108e240a5a4699e7ac268a6b92c917f0a0db603c155d",
+          "credit": {
+            "id": "scored_0295",
+            "source": "work/virtual/portfolio-135289/own-post.csv",
+            "instructions": "134"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0384",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 149,
+          "program_sha256": "5c3cd3939178e1dccb5b3bfd677d53d5ba767541cfd10e67d84c6ed022691bdf",
+          "credit": {
+            "id": "scored_0384",
+            "source": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+            "instructions": "149"
+          }
+        },
+        {
+          "index": 2,
+          "steps": 150,
+          "program_sha256": "e86ffd14f15eb3e72d98860ec9ad001889ac2210d0e4b5c3645b6ec0f76dae8f",
+          "credit": {
+            "id": "scored_0384",
+            "source": "work/creative/frontier-135161/own/best-shorter.csv",
+            "instructions": "150"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scored_0673",
+      "parents": [
+        {
+          "index": 0,
+          "steps": 174,
+          "program_sha256": "be056d1824e468ad9b383a1de1649549a451dd6f8989bad2d57db5e157b2f0bc",
+          "credit": {
+            "id": "scored_0673",
+            "source": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv",
+            "instructions": "174"
+          }
+        },
+        {
+          "index": 1,
+          "steps": 175,
+          "program_sha256": "72cd30929b67b50cf957e521e1a593ffd3e8938f741eadc50d12547a7b494a3d",
+          "credit": {
+            "id": "scored_0673",
+            "source": "work/virtual/lifetimes-135161/own-revisit-value-exchange.csv",
+            "instructions": "175"
+          }
+        }
+      ]
+    }
+  ]
+}
