@@ -1,0 +1,23 @@
+{
+  "base": "1e60bb93190d4ed18873d7db1560fced68917183",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "salt": "santa-134079-omit-and-repair-A",
+  "lanes": [
+    "own",
+    "public"
+  ],
+  "arms": [
+    "ordinary",
+    "one",
+    "group"
+  ],
+  "rounds": [
+    220,
+    220
+  ],
+  "development": 8,
+  "holdout": 16,
+  "eligibility": "Use puzzles with 6 to 45 different targets, at least 35 incumbent instructions, a target with at least two exclusive operations and a group of two or three with at least four jointly exclusive operations. Sort by seeded SHA-256 separately per lane. Exclude solved puzzles.",
+  "selection": "Remove the target with the largest private cone, or a group of two or three maximizing shared removable operations and then total removable operations per removed target. Rebuild the unchanged official problem from the shortened remaining program using its new values, reconstruct dropped goals, and optimize the full program again. Ordinary uses two full-program passes with matched seeds.",
+  "expansion": "Expand a lane if either removal policy yields a shorter result than ordinary on a holdout puzzle. Bank all verified reductions."
+}
