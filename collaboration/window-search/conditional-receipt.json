@@ -1,0 +1,141 @@
+{
+ "official": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "included_reports": {
+  "own-exact-f0.json": {
+   "sha256": "492bbdf82d0fa1eb4285b7f81cbfd97fb108bec09fb97b6996ac4f9227bfeeb1",
+   "source": "8acb7afce5ccf7733979b23dc2960afec06a0e64d69b706aa5590819045df04d",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "own-exact-f2.json": {
+   "sha256": "b3eab6208f02018e34a7cdf93ce6c2c5a876d48db38daff7abd996aa791838ed",
+   "source": "8acb7afce5ccf7733979b23dc2960afec06a0e64d69b706aa5590819045df04d",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "own-retry-f0.json": {
+   "sha256": "1410a49005e8179c8f1455dde4851a24ea2f66c6a99fcbbcf095c5a694789df0",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 28,
+   "max_nodes": 130000
+  },
+  "own-retry-f2.json": {
+   "sha256": "1b01dfe420d9c119447b7806f838ebe40f0ae195af62a0121019cd9f640a2600",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 29,
+   "max_nodes": 130000
+  },
+  "own-shell-all.json": {
+   "sha256": "0d4ef68513e9d1d5d8286acc8973d19d89ca0fa8f8c4f059fa243a6a58398872",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "own-deep-f0.json": {
+   "sha256": "fd3ad4673fa79e2d27bfa139ef50ee8bb12c73864a4941bac3718718fbc53abf",
+   "source": "13001bbe3d1f7f8900548699fe85f0eafbf4bf3b3df9a09985e82e0c8deefb2b",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 26000
+  },
+  "own-deep-f2.json": {
+   "sha256": "68fa2a9ee382ea319ac8a3f06b17a09afa535d2a677c247ec20e272573aa7a55",
+   "source": "13001bbe3d1f7f8900548699fe85f0eafbf4bf3b3df9a09985e82e0c8deefb2b",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 26000
+  },
+  "assisted-exact-f0.json": {
+   "sha256": "f3ca23c56917dfae851dc017e5bfecd48c7074327337b6bca1f3431b49603336",
+   "source": "8acb7afce5ccf7733979b23dc2960afec06a0e64d69b706aa5590819045df04d",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "assisted-exact-f2.json": {
+   "sha256": "62f176e18ec6a221fca958827832e041e672701e15d08e8d634f488abca7222c",
+   "source": "8acb7afce5ccf7733979b23dc2960afec06a0e64d69b706aa5590819045df04d",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "assisted-retry-f0.json": {
+   "sha256": "16ed91be2fdf2f4fc543fbca9985603e75279abc7e5625f94b2416cec8f53816",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 16,
+   "max_nodes": 130000
+  },
+  "assisted-retry-f2.json": {
+   "sha256": "98689dd89fdbb49711ac8d8f824467dc4a8bc60b7a96bfb9a5ecb9b4b03ed007",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 32,
+   "max_nodes": 130000
+  },
+  "assisted-shell-all.json": {
+   "sha256": "6117693951b5f532ac41c187d7bd61efe3e3e562afdddfc38168a1f9ef1b07d9",
+   "source": "8e16ce19f983cda348e575305a45d7d79501039e9f62296de5f5450f5b3ef16c",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 12000
+  },
+  "assisted-deep-f0.json": {
+   "sha256": "e83e3afcdceeb6c1fdce7f44ce15302b8538ec5ee1bf18ef32277fefd95a08e5",
+   "source": "13001bbe3d1f7f8900548699fe85f0eafbf4bf3b3df9a09985e82e0c8deefb2b",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 26000
+  },
+  "assisted-deep-f2.json": {
+   "sha256": "d10441658bb5cfd3e27a2a2f5b738e910e28c9a3ef4d6e43efdd21c51f458817",
+   "source": "13001bbe3d1f7f8900548699fe85f0eafbf4bf3b3df9a09985e82e0c8deefb2b",
+   "exe": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+   "cases": 1000,
+   "max_nodes": 26000
+  }
+ },
+ "totals": {
+  "distinct_interfaces": 9771,
+  "tight_interfaces": 8988,
+  "conditional_witnesses": 10,
+  "UNSAT": 8988,
+  "UNKNOWN": 783,
+  "FOUND": 10
+ },
+ "lane_calls": {
+  "own": {
+   "UNSAT": 5032,
+   "UNKNOWN": 508,
+   "FOUND": 8
+  },
+  "assisted": {
+   "UNSAT": 4948,
+   "UNKNOWN": 451,
+   "FOUND": 2
+  }
+ },
+ "incumbents": {
+  "own": {
+   "baseline": 141475,
+   "current": 141453,
+   "sha256": "70bf5e41b4902d4b13c853057cc1087c44b574f037af39560f6c2cb8a1ee2089",
+   "saved": 22,
+   "changed": 16
+  },
+  "assisted": {
+   "baseline": 135106,
+   "current": 135083,
+   "sha256": "40a9d15438a0d2692a480fc61e3860a0c226c19844252a049aabe3f8ac4a65a6",
+   "saved": 23,
+   "changed": 16
+  }
+ },
+ "conditional_file_sha256": "ced2e8201be653158bda8e7703a9173dae431aa041e88014b8fc6a8f5ff9cf72",
+ "description": "Every interface is specific to its puzzle, starting anchors and required outputs. Some anchors have already been reached by unchanged earlier operations. Counts do not strengthen full-puzzle lower bounds."
+}

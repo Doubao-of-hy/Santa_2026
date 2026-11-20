@@ -1,0 +1,13 @@
+{
+  "version": 54,
+  "version_notes": "local merge 2026-11-20 09:00: 135759",
+  "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/54",
+  "license": "CC0: Public Domain",
+  "archive": "2712dbab45a8e6a9e9fb856481a370f42f310498b06a6548d80ebf6001814676",
+  "raw_sha256": "3f490a2853436cf21a257f80ba0a2ae431ab3572deb76fd74963cc4908df30c1",
+  "total": 135759,
+  "rows": 1000,
+  "incumbent_sha256": "451ad47a2864f788c5a42d2393c11459dc1f20de7b860e5ad1abb6c1204918c1",
+  "improvements": {},
+  "time": "2026-11-20T08:09:10.709327+00:00"
+}

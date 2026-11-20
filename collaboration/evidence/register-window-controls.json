@@ -1,0 +1,112 @@
+{
+  "official": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "binary": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+  "original_score": 141470,
+  "verified_score": 141470,
+  "full_result_sha256": "3ce6e546e062802d81fba6d732875d7e12bf4f557c0e499998102e819b172ef7",
+  "unique_competition_rows": 108,
+  "window_receipts": {
+    "dev": {
+      "rows": 12,
+      "results_per_arm": {
+        "dependency": {
+          "UNSAT": 143
+        },
+        "contiguous": {
+          "UNSAT": 133
+        }
+      },
+      "largest_native_node_count": {
+        "dependency": 152,
+        "contiguous": 163
+      },
+      "instructions_saved": {
+        "dependency": 0,
+        "contiguous": 0
+      }
+    },
+    "hold": {
+      "rows": 48,
+      "results_per_arm": {
+        "dependency": {
+          "UNSAT": 566
+        },
+        "contiguous": {
+          "UNSAT": 544
+        }
+      },
+      "largest_native_node_count": {
+        "dependency": 261,
+        "contiguous": 436
+      },
+      "instructions_saved": {
+        "dependency": 0,
+        "contiguous": 0
+      }
+    },
+    "side-dev": {
+      "rows": 8,
+      "results_per_arm": {
+        "necessary": {
+          "UNSAT": 107
+        },
+        "live": {
+          "UNSAT": 107
+        }
+      },
+      "largest_native_node_count": {
+        "necessary": 97,
+        "live": 122
+      },
+      "instructions_saved": {
+        "necessary": 0,
+        "live": 0
+      }
+    },
+    "side-hold": {
+      "rows": 40,
+      "results_per_arm": {
+        "necessary": {
+          "UNSAT": 536
+        },
+        "live": {
+          "UNSAT": 536
+        }
+      },
+      "largest_native_node_count": {
+        "necessary": 128,
+        "live": 162
+      },
+      "instructions_saved": {
+        "necessary": 0,
+        "live": 0
+      }
+    },
+    "all-side-dev": {
+      "rows": 8,
+      "all_viable_structural_windows": 1832,
+      "windows_satisfiable_with_zero_helpers_and_at_most_three_genuine_extra_inputs": 0,
+      "savings": 0
+    },
+    "all-side-hold": {
+      "rows": 40,
+      "all_viable_structural_windows": 9138,
+      "windows_satisfiable_with_zero_helpers_and_at_most_three_genuine_extra_inputs": 0,
+      "savings": 0
+    }
+  },
+  "positive_control": {
+    "necessary": [
+      "UNSAT",
+      6
+    ],
+    "live": [
+      "FOUND",
+      4
+    ]
+  },
+  "selected_ids_primary": "register-window-design.json",
+  "selected_ids_second_disjoint_sample": "register-window-side-design.json",
+  "proof_interpretation": "UNSAT is only within the listed local live-ins, required outputs and helper limit.",
+  "physical_patch_sha256": "30124725c57ef75a50fea9057d56163c564615ad6aed7a1848c512b6c71816c5"
+}

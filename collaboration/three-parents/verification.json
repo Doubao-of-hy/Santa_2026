@@ -1,0 +1,77 @@
+{
+  "base_clean_clone_commit": "2cdc55ede0df584897ba206d70d5df669c2d5723",
+  "python": "3.13.7",
+  "package_files_sha256": {
+    "manifest.json": "d2f7d457ad4f2a6c483fa10466faad8cb89a69ab425fbaeb63a160519e295696",
+    "programs.csv": "2583866d332a0af78bbdf8a26919e9e4dc206acaa894abcf9d79359f79c4762b",
+    "README.md": "0c2ceaf0b5083e7a3dc631bd6d231b6fe1202ec89b46db229670b5baff5c2215",
+    "reproduce.py": "bef633372979b01c8964506143a378cc52ef462cdff48d98ed0fd036748f03ca",
+    "vendor/arsen_v15/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "vendor/arsen_v15/LICENSE2026": "96c9bea04402213f96562e696342a9ff5684502ca0a8d6cf28edd6547f969070",
+    "vendor/arsen_v15/recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+    "vendor/arsen_v15/recombine2026.py": "43c0fc702350b367bdb15048167c6a63f4b26db900d5790f9f0790f0e10ba204",
+    "vendor/arsen_v15/run_solver.py": "62d8add684d82a30c890376191c46025b24021ec6561e0158b1402ce8d0e1795"
+  },
+  "validation": "Official puzzles.csv and competition ZIP agree; both independent register interpreters accepted all physical inputs and output. The pinned vendored code reran every solver group from its declared physical input.",
+  "per_program": {
+    "incumbent": 29,
+    "atlas": 30,
+    "rudolph": 33,
+    "result": 28
+  },
+  "fresh_search": {
+    "ortools_version": "9.15.6755",
+    "groups": [
+      {
+        "inputs": [
+          "incumbent"
+        ],
+        "steps": 29,
+        "finite_pool_status": "OPTIMAL",
+        "candidate_values": 29,
+        "candidate_recipes": 75,
+        "matches_recorded_tape": true
+      },
+      {
+        "inputs": [
+          "incumbent",
+          "atlas"
+        ],
+        "steps": 29,
+        "finite_pool_status": "OPTIMAL",
+        "candidate_values": 40,
+        "candidate_recipes": 122,
+        "matches_recorded_tape": true
+      },
+      {
+        "inputs": [
+          "incumbent",
+          "rudolph"
+        ],
+        "steps": 29,
+        "finite_pool_status": "OPTIMAL",
+        "candidate_values": 51,
+        "candidate_recipes": 226,
+        "matches_recorded_tape": true
+      },
+      {
+        "inputs": [
+          "incumbent",
+          "atlas",
+          "rudolph"
+        ],
+        "steps": 28,
+        "finite_pool_status": "OPTIMAL",
+        "candidate_values": 60,
+        "candidate_recipes": 286,
+        "matches_recorded_tape": true
+      }
+    ],
+    "reproduced_all_four": true
+  },
+  "original_clone_submission": {
+    "puzzles": 1000,
+    "instructions": 141474,
+    "with_strictly_shorter_case_results": 141474
+  }
+}

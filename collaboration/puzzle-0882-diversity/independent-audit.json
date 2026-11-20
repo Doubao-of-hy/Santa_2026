@@ -1,0 +1,616 @@
+{
+  "puzzle": "scored_0882",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "historical_git_commit": "f737707b1ed66f778bc7c79f12b0e213732d8f44",
+  "parents": [
+    {
+      "steps": 23,
+      "distinct_helpers": 11,
+      "archive": "submission.csv",
+      "archive_sha256": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3"
+    },
+    {
+      "steps": 24,
+      "distinct_helpers": 12,
+      "archive": "work/virtual/unit-135369/own.csv",
+      "archive_sha256": "9935eeccab33d694ce6ffa0f33dd43263b0fb613e4266325c9b64bbad661dc17"
+    },
+    {
+      "steps": 23,
+      "distinct_helpers": 11,
+      "archive": "work/gpu/closest-36729/diverse-0882-135-16941.json",
+      "archive_sha256": "cb59e9925b59079fcb113dda680fe46bbf344f738c3daf67284a60ef17d6b33f"
+    },
+    {
+      "steps": 23,
+      "distinct_helpers": 11,
+      "archive": "work/gpu/closest-36729/diverse-0882-135-16941.json",
+      "archive_sha256": "cb59e9925b59079fcb113dda680fe46bbf344f738c3daf67284a60ef17d6b33f"
+    },
+    {
+      "steps": 23,
+      "distinct_helpers": 11,
+      "archive": "work/gpu/closest-36729/diverse-0882-135-16941.json",
+      "archive_sha256": "cb59e9925b59079fcb113dda680fe46bbf344f738c3daf67284a60ef17d6b33f"
+    }
+  ],
+  "old_values_union": [
+    25,
+    37,
+    48,
+    132,
+    144,
+    156,
+    300,
+    325,
+    329,
+    350,
+    799,
+    1044,
+    1165,
+    1820,
+    2184,
+    2628,
+    2692,
+    13956,
+    50700,
+    65700
+  ],
+  "h9_receipts": [
+    {
+      "receipt": "star-882-h9.json",
+      "mode": "star",
+      "cells": 96,
+      "nodes": 721681183
+    },
+    {
+      "receipt": "verify3-882-h9.json",
+      "mode": "verify3",
+      "cells": 96,
+      "nodes": 665029008
+    }
+  ],
+  "levels": [
+    {
+      "k": 1,
+      "required": 9,
+      "subsets": 167960,
+      "cells": 16,
+      "nodes": 171754
+    },
+    {
+      "k": 2,
+      "required": 8,
+      "subsets": 125970,
+      "cells": 32,
+      "nodes": 9645718
+    },
+    {
+      "k": 3,
+      "required": 7,
+      "subsets": 77520,
+      "cells": 256,
+      "nodes": 557154081
+    }
+  ],
+  "unpublished_region_sample_count": 84,
+  "sampled_native_nodes_range": [
+    809,
+    89965
+  ],
+  "additional_native_generic_comparisons": [
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        329,
+        13956,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 89965,
+      "reference": "UNSAT",
+      "reference_nodes": 285
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        329,
+        350,
+        2628
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 88672,
+      "reference": "UNSAT",
+      "reference_nodes": 736
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        350,
+        13956,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 74190,
+      "reference": "UNSAT",
+      "reference_nodes": 258
+    },
+    {
+      "selected": [
+        25,
+        37,
+        48,
+        156,
+        325,
+        350,
+        50700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 48975,
+      "reference": "UNSAT",
+      "reference_nodes": 209
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        329,
+        350,
+        2692,
+        13956
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 48131,
+      "reference": "UNSAT",
+      "reference_nodes": 691
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        329,
+        350,
+        13956,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 47763,
+      "reference": "UNSAT",
+      "reference_nodes": 205
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        350,
+        1165,
+        13956,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 47587,
+      "reference": "UNSAT",
+      "reference_nodes": 205
+    },
+    {
+      "selected": [
+        25,
+        37,
+        48,
+        350,
+        2184,
+        13956,
+        50700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 47421,
+      "reference": "UNSAT",
+      "reference_nodes": 206
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        350,
+        1165,
+        2628
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 46262,
+      "reference": "UNSAT",
+      "reference_nodes": 208
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        350,
+        2628,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 45106,
+      "reference": "UNSAT",
+      "reference_nodes": 201
+    },
+    {
+      "selected": [
+        25,
+        300,
+        325,
+        329,
+        350,
+        1044,
+        1820
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 42505,
+      "reference": "UNSAT",
+      "reference_nodes": 195
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        329,
+        350,
+        799,
+        2628
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 37017,
+      "reference": "UNSAT",
+      "reference_nodes": 185
+    },
+    {
+      "selected": [
+        25,
+        300,
+        325,
+        329,
+        350,
+        2628,
+        13956
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 31078,
+      "reference": "UNSAT",
+      "reference_nodes": 575
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        329,
+        350,
+        2628,
+        2692
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 28834,
+      "reference": "UNSAT",
+      "reference_nodes": 159
+    },
+    {
+      "selected": [
+        25,
+        37,
+        48,
+        132,
+        156,
+        350,
+        50700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 28278,
+      "reference": "UNSAT",
+      "reference_nodes": 157
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        329,
+        350,
+        1044,
+        65700
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 27754,
+      "reference": "UNSAT",
+      "reference_nodes": 166
+    },
+    {
+      "selected": [
+        25,
+        48,
+        144,
+        300,
+        329,
+        350,
+        2692
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 27459,
+      "reference": "UNSAT",
+      "reference_nodes": 154
+    },
+    {
+      "selected": [
+        25,
+        37,
+        325,
+        350,
+        1820,
+        2628,
+        13956
+      ],
+      "native": "UNSAT_REGION",
+      "native_nodes": 26921,
+      "reference": "UNSAT",
+      "reference_nodes": 153
+    },
+    {
+      "selected": [
+        25,
+        37,
+        48,
+        144,
+        156,
+        329,
+        350,
+        2184,
+        13956
+      ],
+      "native": "FOUND",
+      "native_nodes": 3646,
+      "reference": "FOUND",
+      "reference_nodes": 144
+    },
+    {
+      "selected": [
+        25,
+        37,
+        48,
+        156,
+        329,
+        350,
+        2184,
+        13956,
+        50700
+      ],
+      "native": "FOUND",
+      "native_nodes": 1633,
+      "reference": "FOUND",
+      "reference_nodes": 48
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        329,
+        350,
+        1044,
+        13956
+      ],
+      "native": "FOUND",
+      "native_nodes": 45403,
+      "reference": "FOUND",
+      "reference_nodes": 670
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        329,
+        1044,
+        1165,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 18384,
+      "reference": "FOUND",
+      "reference_nodes": 726
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        350,
+        799,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 20207,
+      "reference": "FOUND",
+      "reference_nodes": 76
+    },
+    {
+      "selected": [
+        25,
+        37,
+        300,
+        350,
+        1044,
+        1820,
+        2628,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 33356,
+      "reference": "FOUND",
+      "reference_nodes": 147
+    },
+    {
+      "selected": [
+        25,
+        300,
+        325,
+        329,
+        350,
+        2628,
+        2692,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 4119,
+      "reference": "FOUND",
+      "reference_nodes": 24
+    },
+    {
+      "selected": [
+        25,
+        300,
+        329,
+        350,
+        1044,
+        2692,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 2629,
+      "reference": "FOUND",
+      "reference_nodes": 2418
+    },
+    {
+      "selected": [
+        25,
+        325,
+        329,
+        799,
+        1044,
+        2628,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 5995,
+      "reference": "FOUND",
+      "reference_nodes": 771
+    },
+    {
+      "selected": [
+        37,
+        48,
+        132,
+        156,
+        329,
+        350,
+        2184,
+        13956,
+        50700
+      ],
+      "native": "FOUND",
+      "native_nodes": 623,
+      "reference": "FOUND",
+      "reference_nodes": 531
+    },
+    {
+      "selected": [
+        37,
+        300,
+        325,
+        329,
+        350,
+        799,
+        2628,
+        13956
+      ],
+      "native": "FOUND",
+      "native_nodes": 601,
+      "reference": "FOUND",
+      "reference_nodes": 507
+    },
+    {
+      "selected": [
+        37,
+        300,
+        325,
+        329,
+        350,
+        1044,
+        2628,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 653,
+      "reference": "FOUND",
+      "reference_nodes": 429
+    },
+    {
+      "selected": [
+        37,
+        300,
+        350,
+        1044,
+        1820,
+        2628,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 473,
+      "reference": "FOUND",
+      "reference_nodes": 16
+    },
+    {
+      "selected": [
+        37,
+        329,
+        350,
+        1044,
+        1165,
+        2628,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 506,
+      "reference": "FOUND",
+      "reference_nodes": 355
+    },
+    {
+      "selected": [
+        325,
+        329,
+        350,
+        1044,
+        1820,
+        2628,
+        13956,
+        65700
+      ],
+      "native": "FOUND",
+      "native_nodes": 425,
+      "reference": "FOUND",
+      "reference_nodes": 333
+    }
+  ]
+}

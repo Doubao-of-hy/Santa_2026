@@ -1,0 +1,37 @@
+{
+  "sampled_at": "2026-11-20T16:18:45+08:00",
+  "instances": {
+    "scored_0901": {
+      "helpers": 10,
+      "status": "INCOMPLETE",
+      "finished": 208,
+      "unknown": 193,
+      "total_branches": 384,
+      "nodes": 35108412408
+    },
+    "scored_0149": {
+      "helpers": 10,
+      "status": "INCOMPLETE",
+      "finished": 204,
+      "unknown": 197,
+      "total_branches": 384,
+      "nodes": 35460000014
+    },
+    "scored_0212": {
+      "helpers": 11,
+      "status": "INCOMPLETE",
+      "finished": 208,
+      "unknown": 66,
+      "total_branches": 384,
+      "nodes": 11880000188
+    },
+    "scored_0882": {
+      "helpers": 10,
+      "status": "INCOMPLETE",
+      "finished": 79,
+      "unknown": 2,
+      "total_branches": 768,
+      "nodes": 1946626171
+    }
+  }
+}

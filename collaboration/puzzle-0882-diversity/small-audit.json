@@ -1,0 +1,8 @@
+{
+  "decisions": 240,
+  "found": 87,
+  "unsat": 153,
+  "binary_sha256": "981ecf478c78f075600b92acec738124c52ce8c6136a61f5a9cf3d20934f04af",
+  "cpp_sha256": "629192f0c13a8ce8feffcf4d3e89d4e9a00732ecfbffdc5e3268e70769d8f197",
+  "bfs_source_sha256": "92d434b6b5a2a6a5299da9456b2ee93ba2795733c3ecfd98add635c46be08167"
+}

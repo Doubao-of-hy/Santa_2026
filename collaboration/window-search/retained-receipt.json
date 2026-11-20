@@ -1,0 +1,761 @@
+{
+ "phases": {
+  "assisted-retained-f0.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "c1980ceb4c7f9f5492629445c4d748504b1f480493d551bd38958c463ea21724",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 3,
+   "per_window": 22,
+   "cap": 18000,
+   "tested_rows": 72,
+   "counts": {
+    "UNSAT": 1760
+   },
+   "saved_against_frozen": 0
+  },
+  "assisted-retained-f2.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "c1980ceb4c7f9f5492629445c4d748504b1f480493d551bd38958c463ea21724",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 2,
+   "remove": 3,
+   "per_window": 22,
+   "cap": 18000,
+   "tested_rows": 72,
+   "counts": {
+    "UNSAT": 2520
+   },
+   "saved_against_frozen": 0
+  },
+  "assisted-retained-four-rest.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "cdb1a0667e82e495c470fbe3e8255c2efcc07709167b348cfd08afa1b3bc9412",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 4,
+   "per_window": 12,
+   "cap": 10000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 242,
+    "UNKNOWN": 53,
+    "FOUND": 2
+   },
+   "saved_against_frozen": 1
+  },
+  "assisted-retained-four.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "c1980ceb4c7f9f5492629445c4d748504b1f480493d551bd38958c463ea21724",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 4,
+   "per_window": 7,
+   "cap": 7000,
+   "tested_rows": 72,
+   "counts": {
+    "UNKNOWN": 112,
+    "UNSAT": 493
+   },
+   "saved_against_frozen": 0
+  },
+  "assisted-retained-rest-f2.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "cdb1a0667e82e495c470fbe3e8255c2efcc07709167b348cfd08afa1b3bc9412",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 2,
+   "remove": 3,
+   "per_window": 18,
+   "cap": 7000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 18247,
+    "FOUND": 5
+   },
+   "saved_against_frozen": 1
+  },
+  "assisted-retained-rest.json": {
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "cdb1a0667e82e495c470fbe3e8255c2efcc07709167b348cfd08afa1b3bc9412",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 3,
+   "per_window": 36,
+   "cap": 18000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 615,
+    "FOUND": 2
+   },
+   "saved_against_frozen": 1
+  },
+  "own-retained-f0.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "6a3555ca87e8131a015b762970c38096ecef6d28757da58d199841546838adee",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 3,
+   "per_window": 22,
+   "cap": 18000,
+   "tested_rows": 72,
+   "counts": {
+    "UNSAT": 1735,
+    "FOUND": 1
+   },
+   "saved_against_frozen": 1
+  },
+  "own-retained-f2.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "6a3555ca87e8131a015b762970c38096ecef6d28757da58d199841546838adee",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 2,
+   "remove": 3,
+   "per_window": 22,
+   "cap": 18000,
+   "tested_rows": 72,
+   "counts": {
+    "UNSAT": 2770
+   },
+   "saved_against_frozen": 0
+  },
+  "own-retained-four-rest.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "5948b5864e54846b177427df4180a98638ce707e9eb7ad5020eac23ad56361f4",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 4,
+   "per_window": 12,
+   "cap": 10000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 422,
+    "UNKNOWN": 131,
+    "FOUND": 5
+   },
+   "saved_against_frozen": 2
+  },
+  "own-retained-four.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "6a3555ca87e8131a015b762970c38096ecef6d28757da58d199841546838adee",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 4,
+   "per_window": 7,
+   "cap": 7000,
+   "tested_rows": 72,
+   "counts": {
+    "UNSAT": 477,
+    "UNKNOWN": 96,
+    "FOUND": 3
+   },
+   "saved_against_frozen": 2
+  },
+  "own-retained-rest-f2.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "5948b5864e54846b177427df4180a98638ce707e9eb7ad5020eac23ad56361f4",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 2,
+   "remove": 3,
+   "per_window": 18,
+   "cap": 7000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 17923,
+    "FOUND": 7
+   },
+   "saved_against_frozen": 5
+  },
+  "own-retained-rest.json": {
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "5948b5864e54846b177427df4180a98638ce707e9eb7ad5020eac23ad56361f4",
+   "exe": "c4a619687b81b49353295bda970b6235b9e673bd06db9a47fab09992add5d436",
+   "source": "5035734ecb3816c673e777ed60f28e695e8d5fa8963879124e22fe817d154474",
+   "fringe": 0,
+   "remove": 3,
+   "per_window": 36,
+   "cap": 18000,
+   "tested_rows": 928,
+   "counts": {
+    "UNSAT": 1084,
+    "FOUND": 3
+   },
+   "saved_against_frozen": 2
+  }
+ },
+ "archive_sha256": "f147d82dd42311b6e4f006f317268b04abdc7ccefe29d2119dc69e204dab9b94",
+ "recovery": {
+  "own": {
+   "complete": true,
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "incumbent": "3ce6e546e062802d81fba6d732875d7e12bf4f557c0e499998102e819b172ef7",
+   "reports": {
+    "own-deep-f0.json": "fd3ad4673fa79e2d27bfa139ef50ee8bb12c73864a4941bac3718718fbc53abf",
+    "own-deep-f2.json": "68fa2a9ee382ea319ac8a3f06b17a09afa535d2a677c247ec20e272573aa7a55"
+   },
+   "rows": {
+    "scored_0094": {
+     "before": 266,
+     "best": 265,
+     "lowest_graph": 265,
+     "prior": 266,
+     "tests": [
+      [
+       265,
+       73,
+       318,
+       [
+        265
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  "assisted": {
+   "complete": true,
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "incumbent": "527fee82cee3d7588fdc18644d605dbccb472fcd6c1579e5ded89fa562135587",
+   "reports": {
+    "assisted-deep-f0.json": "e83e3afcdceeb6c1fdce7f44ce15302b8538ec5ee1bf18ef32277fefd95a08e5",
+    "assisted-deep-f2.json": "d10441658bb5cfd3e27a2a2f5b738e910e28c9a3ef4d6e43efdd21c51f458817"
+   },
+   "rows": {
+    "scored_0002": {
+     "before": 247,
+     "best": 246,
+     "lowest_graph": 246,
+     "prior": 247,
+     "tests": [
+      [
+       246,
+       66,
+       281,
+       [
+        246
+       ]
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "retained_recovery": {
+  "own": {
+   "complete": true,
+   "parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "incumbent": "d252476c85bd4c2b93e277bdfd8666a09d0471cc4843c1630f9b1cf1566f6702",
+   "reports": {
+    "own-retained-f0.json": "bfcbcd90fa8725b0a93f673ab8ced7e3bdc03f8984941a868acd81efa3c9f2bf",
+    "own-retained-f2.json": "6f2e2fce6214ce8733668cbcbfeafbc97fe0dc63a4d4ccc3bf2b179d3b4e5547",
+    "own-retained-four-rest.json": "58463cb3d97e47f54cb6274bb4d8a962364181d6444479d645b951102a4d6f2e",
+    "own-retained-four.json": "3e106a093c5ef5551290bdb25ee33cf5e4c450d98f7340eb2830fc9738ae3829",
+    "own-retained-rest-f2.json": "86421aedbee44e4d59c65babe70c8550185e5621f6f8b545eb0c5285d58e4c2c",
+    "own-retained-rest.json": "ca274aa8e0ef807b9977ac199180c29aa599c28899cc80d14d24fc9471249e3b"
+   },
+   "rows": {
+    "scored_0025": {
+     "before": 124,
+     "best": 124,
+     "lowest_graph": 123,
+     "prior": 123,
+     "tests": []
+    },
+    "scored_0094": {
+     "before": 266,
+     "best": 266,
+     "lowest_graph": 265,
+     "prior": 265,
+     "tests": []
+    },
+    "scored_0757": {
+     "before": 143,
+     "best": 143,
+     "lowest_graph": 142,
+     "prior": 142,
+     "tests": []
+    },
+    "scored_0854": {
+     "before": 174,
+     "best": 174,
+     "lowest_graph": 173,
+     "prior": 173,
+     "tests": []
+    },
+    "scored_0517": {
+     "before": 141,
+     "best": 141,
+     "lowest_graph": 140,
+     "prior": 138,
+     "tests": []
+    },
+    "scored_0868": {
+     "before": 30,
+     "best": 30,
+     "lowest_graph": 29,
+     "prior": 29,
+     "tests": []
+    },
+    "scored_0205": {
+     "before": 140,
+     "best": 140,
+     "lowest_graph": 139,
+     "prior": 139,
+     "tests": []
+    },
+    "scored_0470": {
+     "before": 279,
+     "best": 279,
+     "lowest_graph": 278,
+     "prior": 278,
+     "tests": []
+    },
+    "scored_0577": {
+     "before": 136,
+     "best": 136,
+     "lowest_graph": 135,
+     "prior": 135,
+     "tests": []
+    },
+    "scored_0592": {
+     "before": 208,
+     "best": 208,
+     "lowest_graph": 207,
+     "prior": 207,
+     "tests": []
+    }
+   }
+  },
+  "assisted": {
+   "complete": true,
+   "parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "incumbent": "9a93460ea798d3a9f610abfb74494dd3d1af4e7a7db508785e5565709114fdd5",
+   "reports": {
+    "assisted-retained-f0.json": "4c7c9890cd0b141ddc1b5e54d18ba7ab96c7e1e298acfe86ca4c1510478aa6a5",
+    "assisted-retained-f2.json": "fdcefa0b5d303bbc3a36720648faac1983e65fbc1a54afeca0a0b0aa2c11b629",
+    "assisted-retained-four-rest.json": "c1685d01ab4e7b1150129447ee63b63e35a267da1228e38045332fa205e9705f",
+    "assisted-retained-four.json": "aa92ed39d2f620a0e6027a7866add262b5793fddeb10d0c40f2b36af6a8ff924",
+    "assisted-retained-rest-f2.json": "94a513ee2914c53d4b48c5e60ec341251c10d06d05df8682e2c292c82ac43290",
+    "assisted-retained-rest.json": "588789c1363cb7928fe9a632f4ff8143bb440edd2e0d1276f7dfb4dcd17651cd"
+   },
+   "rows": {
+    "scored_0757": {
+     "before": 133,
+     "best": 133,
+     "lowest_graph": 132,
+     "prior": 132,
+     "tests": []
+    },
+    "scored_0002": {
+     "before": 247,
+     "best": 247,
+     "lowest_graph": 246,
+     "prior": 246,
+     "tests": []
+    },
+    "scored_0424": {
+     "before": 208,
+     "best": 207,
+     "lowest_graph": 207,
+     "prior": 208,
+     "tests": [
+      [
+       207,
+       59,
+       230,
+       [
+        207
+       ]
+      ]
+     ]
+    },
+    "scored_0649": {
+     "before": 119,
+     "best": 119,
+     "lowest_graph": 118,
+     "prior": 118,
+     "tests": []
+    }
+   }
+  }
+ },
+ "postprocess": {
+  "own": {
+   "complete": true,
+   "parent": "e650df74d516a7c7222130410311a8ccd4bbebe7db47c3dcaf7ba9e143fde04a",
+   "rows": {
+    "scored_0025": {
+     "id": "scored_0025",
+     "before": 123,
+     "single": {
+      "group": 123,
+      "exchange": 123,
+      "factor": 123,
+      "paid": 123
+     },
+     "chain": 123,
+     "history": [],
+     "best": 123
+    },
+    "scored_0094": {
+     "id": "scored_0094",
+     "before": 265,
+     "single": {
+      "group": 265,
+      "exchange": 265,
+      "factor": 265,
+      "paid": 265
+     },
+     "chain": 265,
+     "history": [],
+     "best": 265
+    },
+    "scored_0134": {
+     "id": "scored_0134",
+     "before": 28,
+     "single": {
+      "group": 27,
+      "exchange": 28,
+      "factor": 28,
+      "paid": 28
+     },
+     "chain": 27,
+     "history": [
+      [
+       "group",
+       28,
+       27
+      ]
+     ],
+     "best": 27
+    },
+    "scored_0205": {
+     "id": "scored_0205",
+     "before": 139,
+     "single": {
+      "group": 139,
+      "exchange": 139,
+      "factor": 139,
+      "paid": 139
+     },
+     "chain": 139,
+     "history": [],
+     "best": 139
+    },
+    "scored_0470": {
+     "id": "scored_0470",
+     "before": 278,
+     "single": {
+      "group": 278,
+      "exchange": 278,
+      "factor": 278,
+      "paid": 278
+     },
+     "chain": 278,
+     "history": [],
+     "best": 278
+    },
+    "scored_0517": {
+     "id": "scored_0517",
+     "before": 140,
+     "single": {
+      "group": 139,
+      "exchange": 140,
+      "factor": 140,
+      "paid": 140
+     },
+     "chain": 138,
+     "history": [
+      [
+       "group",
+       140,
+       139
+      ],
+      [
+       "exchange",
+       139,
+       138
+      ]
+     ],
+     "best": 138
+    },
+    "scored_0592": {
+     "id": "scored_0592",
+     "before": 207,
+     "single": {
+      "group": 207,
+      "exchange": 207,
+      "factor": 207,
+      "paid": 207
+     },
+     "chain": 207,
+     "history": [],
+     "best": 207
+    },
+    "scored_0757": {
+     "id": "scored_0757",
+     "before": 142,
+     "single": {
+      "group": 142,
+      "exchange": 142,
+      "factor": 142,
+      "paid": 142
+     },
+     "chain": 142,
+     "history": [],
+     "best": 142
+    },
+    "scored_0854": {
+     "id": "scored_0854",
+     "before": 173,
+     "single": {
+      "group": 173,
+      "exchange": 173,
+      "factor": 173,
+      "paid": 173
+     },
+     "chain": 173,
+     "history": [],
+     "best": 173
+    },
+    "scored_0868": {
+     "id": "scored_0868",
+     "before": 29,
+     "single": {
+      "group": 29,
+      "exchange": 29,
+      "factor": 29,
+      "paid": 29
+     },
+     "chain": 29,
+     "history": [],
+     "best": 29
+    },
+    "scored_0927": {
+     "id": "scored_0927",
+     "before": 125,
+     "single": {
+      "group": 125,
+      "exchange": 125,
+      "factor": 125,
+      "paid": 125
+     },
+     "chain": 125,
+     "history": [],
+     "best": 125
+    }
+   }
+  },
+  "assisted": {
+   "complete": true,
+   "parent": "451ad47a2864f788c5a42d2393c11459dc1f20de7b860e5ad1abb6c1204918c1",
+   "rows": {
+    "scored_0002": {
+     "id": "scored_0002",
+     "before": 246,
+     "single": {
+      "group": 246,
+      "exchange": 246,
+      "factor": 246,
+      "paid": 246
+     },
+     "chain": 246,
+     "history": [],
+     "best": 246
+    },
+    "scored_0039": {
+     "id": "scored_0039",
+     "before": 114,
+     "single": {
+      "group": 114,
+      "exchange": 114,
+      "factor": 114,
+      "paid": 114
+     },
+     "chain": 114,
+     "history": [],
+     "best": 114
+    },
+    "scored_0044": {
+     "id": "scored_0044",
+     "before": 75,
+     "single": {
+      "group": 75,
+      "exchange": 75,
+      "factor": 75,
+      "paid": 75
+     },
+     "chain": 75,
+     "history": [],
+     "best": 75
+    },
+    "scored_0072": {
+     "id": "scored_0072",
+     "before": 103,
+     "single": {
+      "group": 103,
+      "exchange": 103,
+      "factor": 103,
+      "paid": 103
+     },
+     "chain": 103,
+     "history": [],
+     "best": 103
+    },
+    "scored_0297": {
+     "id": "scored_0297",
+     "before": 124,
+     "single": {
+      "group": 124,
+      "exchange": 124,
+      "factor": 124,
+      "paid": 124
+     },
+     "chain": 124,
+     "history": [],
+     "best": 124
+    },
+    "scored_0649": {
+     "id": "scored_0649",
+     "before": 118,
+     "single": {
+      "group": 118,
+      "exchange": 118,
+      "factor": 118,
+      "paid": 118
+     },
+     "chain": 118,
+     "history": [],
+     "best": 118
+    },
+    "scored_0696": {
+     "id": "scored_0696",
+     "before": 81,
+     "single": {
+      "group": 81,
+      "exchange": 81,
+      "factor": 81,
+      "paid": 81
+     },
+     "chain": 81,
+     "history": [],
+     "best": 81
+    },
+    "scored_0757": {
+     "id": "scored_0757",
+     "before": 132,
+     "single": {
+      "group": 132,
+      "exchange": 132,
+      "factor": 132,
+      "paid": 132
+     },
+     "chain": 132,
+     "history": [],
+     "best": 132
+    },
+    "scored_0785": {
+     "id": "scored_0785",
+     "before": 107,
+     "single": {
+      "group": 107,
+      "exchange": 107,
+      "factor": 107,
+      "paid": 107
+     },
+     "chain": 107,
+     "history": [],
+     "best": 107
+    },
+    "scored_0794": {
+     "id": "scored_0794",
+     "before": 118,
+     "single": {
+      "group": 118,
+      "exchange": 118,
+      "factor": 118,
+      "paid": 118
+     },
+     "chain": 118,
+     "history": [],
+     "best": 118
+    },
+    "scored_0838": {
+     "id": "scored_0838",
+     "before": 140,
+     "single": {
+      "group": 140,
+      "exchange": 140,
+      "factor": 140,
+      "paid": 140
+     },
+     "chain": 140,
+     "history": [],
+     "best": 140
+    },
+    "scored_0911": {
+     "id": "scored_0911",
+     "before": 82,
+     "single": {
+      "group": 82,
+      "exchange": 82,
+      "factor": 82,
+      "paid": 82
+     },
+     "chain": 82,
+     "history": [],
+     "best": 82
+    },
+    "scored_0929": {
+     "id": "scored_0929",
+     "before": 109,
+     "single": {
+      "group": 109,
+      "exchange": 109,
+      "factor": 109,
+      "paid": 109
+     },
+     "chain": 109,
+     "history": [],
+     "best": 109
+    },
+    "scored_0963": {
+     "id": "scored_0963",
+     "before": 121,
+     "single": {
+      "group": 121,
+      "exchange": 121,
+      "factor": 121,
+      "paid": 121
+     },
+     "chain": 121,
+     "history": [],
+     "best": 121
+    },
+    "scored_0976": {
+     "id": "scored_0976",
+     "before": 97,
+     "single": {
+      "group": 97,
+      "exchange": 97,
+      "factor": 97,
+      "paid": 97
+     },
+     "chain": 97,
+     "history": [],
+     "best": 97
+    }
+   }
+  }
+ }
+}

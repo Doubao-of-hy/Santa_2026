@@ -1,6 +1,6 @@
 id,source,upstream_source,instructions
 scored_0001,work/heritage/scale-hard.csv,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",229
-scored_0002,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",247
+scored_0002,work/virtual/siblings-135106/assisted-recovered-early.csv,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",246
 scored_0003,Asterios v99,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",199
 scored_0004,Asterios v99,"Ertugrul Ozer, Deep Cone & Joint Scaffold Optimizer",212
 scored_0005,Asterios v99,"suka, Verified Portfolio Programs dataset",48
@@ -248,7 +248,7 @@ scored_0246,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [1
 scored_0247,local from official inputs,Generated from official inputs,114
 scored_0248,Asterios v99,"suka, Verified Portfolio Programs dataset",173
 scored_0249,Asterios v99,konbu17 dataset (wide planning + re-allocation),256
-scored_0250,Asterios v99,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large Puzzles",20
+scored_0250,local from official inputs,Generated from official inputs,20
 scored_0251,local from official inputs,Generated from official inputs,208
 scored_0252,Asterios v99,"suka, Verified Portfolio Programs dataset",66
 scored_0253,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",78
@@ -385,7 +385,7 @@ scored_0383,local from official inputs,Generated from official inputs,133
 scored_0384,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",145
 scored_0385,local from official inputs,Generated from official inputs,118
 scored_0386,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",189
-scored_0387,Asterios v99,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",23
+scored_0387,local from official inputs,Generated from official inputs,23
 scored_0388,local from official inputs,Generated from official inputs,18
 scored_0389,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",171
 scored_0390,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",96
@@ -422,7 +422,7 @@ scored_0420,work/gpu/overlap-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + De
 scored_0421,local from official inputs,Generated from official inputs,114
 scored_0422,Asterios v99,"suka, Verified Portfolio Programs dataset",163
 scored_0423,Asterios v99,"Bikram Basnet, Arithmetic Graph Rewrites",94
-scored_0424,work/gpu/schedule-trusted.csv,"Hansen0223/Santa_2026 commit cff0e1d, improve/submission.csv. GPU-domain independent program generated from the official inputs. Additional available base for joint rewrites: Generated from official inputs. Local solver and official-input programs were also available.",208
+scored_0424,work/virtual/siblings-135106/assisted-retained-recovered.csv,"Hansen0223/Santa_2026 commit cff0e1d, improve/submission.csv. GPU-domain independent program generated from the official inputs. Additional available base for joint rewrites: Generated from official inputs. Local solver and official-input programs were also available.",207
 scored_0425,local from official inputs,Generated from official inputs,23
 scored_0426,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137822]",140
 scored_0427,local from official inputs,Generated from official inputs,120
@@ -647,7 +647,7 @@ scored_0645,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0646,local from official inputs,Generated from official inputs,127
 scored_0647,Asterios v99,konbu17 dataset (suffix re-solve),212
 scored_0648,local from official inputs,Generated from official inputs,99
-scored_0649,work/gpu/donor-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",119
+scored_0649,work/virtual/siblings-135106/assisted-retry-f0.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",118
 scored_0650,local from official inputs,Generated from official inputs,26
 scored_0651,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",124
 scored_0652,Asterios v99,"suka, Verified Portfolio Programs dataset",94
@@ -709,7 +709,7 @@ scored_0707,work/gpu/frontier-trusted.csv,"Ertuğrul Özer, Santa 2026 | Starter
 scored_0708,Asterios v99,"prvsiyan, Santa is not happy",145
 scored_0709,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",103
 scored_0710,work/gpu/lineage-trusted.csv,"alex chilton, Rudolph the Red-Nosed Register Allocator",117
-scored_0711,Asterios v99,konbu17 dataset (exact program rewrites),21
+scored_0711,local from official inputs,Generated from official inputs,21
 scored_0712,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",187
 scored_0713,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",100
 scored_0714,Asterios v99,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 135,921",144
@@ -755,7 +755,7 @@ scored_0753,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0754,Asterios v99,konbu17 dataset (wide planning + re-allocation),170
 scored_0755,local from official inputs,Generated from official inputs,94
 scored_0756,Asterios v99,"prvsiyan, Santa is not happy",153
-scored_0757,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",133
+scored_0757,work/virtual/siblings-135106/assisted-retained-rest.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",132
 scored_0758,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",107
 scored_0759,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",197
 scored_0760,Asterios v99,"prvsiyan, Santa is not happy",114
@@ -816,7 +816,7 @@ scored_0814,local from official inputs,Generated from official inputs,120
 scored_0815,local from official inputs,Generated from official inputs,212
 scored_0816,Asterios v99,"suka, Verified Portfolio Programs dataset",105
 scored_0817,Asterios v99,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",160
-scored_0818,Asterios v99,Elias T.-H. Shieh dataset (our search and Mizero's peephole pass),21
+scored_0818,local from official inputs,Generated from official inputs,21
 scored_0819,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",227
 scored_0820,local from official inputs,Generated from official inputs,216
 scored_0821,Asterios v99,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",98
@@ -866,7 +866,7 @@ scored_0864,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0865,work/heritage/deep-pub-wins.csv,konbu17 dataset (graph recombination),230
 scored_0866,local from official inputs,Generated from official inputs,27
 scored_0867,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",87
-scored_0868,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",29
+scored_0868,local from official inputs,Generated from official inputs,29
 scored_0869,local from official inputs,Generated from official inputs,103
 scored_0870,local from official inputs,Generated from official inputs,213
 scored_0871,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137738]",114

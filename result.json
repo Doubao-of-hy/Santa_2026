@@ -1,7 +1,7 @@
 {
   "puzzles": 1000,
-  "instructions": 141474,
-  "sha256": "f0af44eda0247367c83720c3d93bd3c1cee03681a0e9bd9ec6d99a84655643b6",
+  "instructions": 141453,
+  "sha256": "70bf5e41b4902d4b13c853057cc1087c44b574f037af39560f6c2cb8a1ee2089",
   "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
   "longest_program": 303,
   "arithmetic_lower_bound": 36731,
@@ -10,21 +10,21 @@
   "selected": {
     "work/virtual/lifetimes-135161/own-broad-all.csv": 16,
     "work/heritage/blend-own-wins.csv": 14,
-    "work/gpu/graft-walk-independent.csv": 26,
-    "work/gpu/walk-independent.csv": 65,
+    "work/gpu/graft-walk-independent.csv": 25,
+    "work/gpu/walk-independent.csv": 64,
     "work/gpu/lineage-independent.csv": 85,
     "work/creative/own-good/pilot-wins.csv": 6,
     "work/creative/own-good/cumulative-wins.csv": 29,
-    "work/creative/ladder/lns-local.csv": 51,
+    "work/creative/ladder/lns-local.csv": 48,
     "work/heritage/scale-own-wins.csv": 36,
-    "work/virtual/portfolio-135289/own-wide-all.csv": 56,
+    "work/virtual/portfolio-135289/own-wide-all.csv": 54,
     "work/creative/own-good/part3-wins.csv": 22,
     "work/creative/frontier-135161/own/best-shorter.csv": 36,
     "work/virtual/hyper-fresh-full.csv": 2,
     "work/gpu/overlap-independent.csv": 6,
     "work/virtual/carry-135348/own-full-split.csv": 3,
     "work/virtual/whole-135358/sparse.csv": 2,
-    "work/creative/own-good/part2-wins.csv": 38,
+    "work/virtual/siblings-135106/own-retained-f0.csv": 1,
     "work/virtual/lifetimes-135161/own-pressure.csv": 7,
     "work/gpu/coop-independent.csv": 4,
     "work/virtual/lifetimes-135161/own-broad-hold.csv": 3,
@@ -33,9 +33,9 @@
     "work/virtual/bank-135324/own-repeat.csv": 5,
     "work/virtual/lifetimes-135161/own-direct-all.csv": 19,
     "work/creative/ladder/branch-local.csv": 18,
-    "work/gpu/forced-active-independent.csv": 24,
+    "work/gpu/forced-active-independent.csv": 22,
     "work/gpu/frontier-independent.csv": 11,
-    "work/virtual/portfolio-135289/own-all.csv": 33,
+    "work/virtual/portfolio-135289/own-all.csv": 31,
     "work/virtual/guided-142434/small-twoply.csv": 1,
     "work/virtual/lifetimes-135161/schedule.csv": 1,
     "work/creative/own-good-reproduced/wins.csv": 20,
@@ -45,13 +45,15 @@
     "work/virtual/carry-135348/own-full-deep.csv": 8,
     "work/virtual/guided-142434/medium-warm.csv": 1,
     "work/gen/atlas-scored-raw.csv": 1,
+    "work/creative/own-good/part2-wins.csv": 37,
     "work/heritage/equality-portfolio/own-sweep-numeric.csv": 2,
     "work/creative/own-good/part4-wins.csv": 26,
     "work/heritage/symbol-own-wins.csv": 4,
-    "work/virtual/bank-135324/own-full-native.csv": 23,
+    "work/virtual/bank-135324/own-full-native.csv": 22,
     "work/virtual/bank-135324/own-neutral-hold.csv": 2,
     "work/gen/shrink-full.csv": 6,
     "work/virtual/lifetimes-135161/polish/own-remaining-wins.csv": 6,
+    "work/virtual/siblings-135106/own-recovered-early.csv": 1,
     "work/heritage/global-diversity/independent-wins.csv": 1,
     "work/virtual/bank-135324/own-neutral-full.csv": 14,
     "work/virtual/portfolio-135289/own-post.csv": 7,
@@ -62,20 +64,22 @@
     "work/heritage/equality-portfolio/own-wins.csv": 1,
     "work/gpu/exchange-independent.csv": 6,
     "work/gen/rudolph-fresh.csv": 2,
-    "work/heritage/latent-135106/own-wins.csv": 1,
+    "work/virtual/siblings-135106/own-last.csv": 2,
     "work/gpu/forced-schedule-independent.csv": 3,
-    "work/gpu/suffix-neighbors.csv": 4,
+    "work/gpu/suffix-neighbors.csv": 3,
     "work/heritage/pressure-confirm/own-wins.csv": 3,
     "work/gpu/schedule-independent.csv": 5,
     "work/virtual/steiner-own-full.csv": 6,
     "work/virtual/portfolio-135289/own-hold.csv": 1,
     "work/virtual/lifetimes-135161/own-composition-gpu.csv": 4,
+    "work/virtual/siblings-135106/own-exact-f2.csv": 1,
     "work/virtual/lifetimes-135161/own-composition-factor.csv": 3,
     "work/virtual/whole-135358/guided.csv": 4,
     "work/creative/carry-gpu/full-own-wins.csv": 5,
     "work/gpu/domain-independent.csv": 3,
     "work/creative/forward/independent-replayed-0237.csv": 1,
     "work/gpu/orbit-extension/own-all.csv": 4,
+    "work/gpu/bridge-36731/construct/sparse-0250-1293-20.csv": 1,
     "work/creative/market/own-offset-all.csv": 1,
     "work/heritage/path-relink/all-own-wins.csv": 2,
     "work/creative/latest-methods/trial/verified-wins.csv": 2,
@@ -87,6 +91,7 @@
     "work/gen/arsen-delete-full.csv": 1,
     "work/virtual/portfolio-135289/own-late.csv": 1,
     "work/gen/splice-full.csv": 1,
+    "work/gpu/bridge-36731/construct/sparse-0387-697-23.csv": 1,
     "work/heritage/mobius-own-wins.csv": 1,
     "work/gpu/witness-dfs/own-blind.csv": 2,
     "work/virtual/lifetimes-135161/own-quad-0.csv": 1,
@@ -94,10 +99,12 @@
     "work/virtual/carry-135348/own-full.csv": 1,
     "work/gen/matrix-atlas.csv": 5,
     "work/gpu/staged-independent.csv": 1,
+    "work/virtual/siblings-135106/own-exact-f0.csv": 3,
     "work/gpu/independent-local-conditioned.csv": 1,
     "work/gpu/mid-orbit/tight/own-wins.csv": 2,
     "work/virtual/palette-powers-full.csv": 1,
     "work/gpu/901-independent/transfer/primary-wins.csv": 1,
+    "work/virtual/siblings-135106/own-retained-rest-f2.csv": 1,
     "work/virtual/bank-135324/own-hold-alt.csv": 2,
     "work/gpu/offset-independent.csv": 3,
     "work/gen/post-atlas-base.csv": 1,
@@ -105,14 +112,17 @@
     "work/virtual/bank-135324/own-hold-retain.csv": 1,
     "work/gen/matrix-splice.csv": 1,
     "work/virtual/repeated-135211/own-corrected.csv": 1,
+    "work/gpu/bridge-36731/construct/balance-0711-1991-21.csv": 1,
     "work/creative/ladder/atakan-closure-local-full.csv": 1,
     "work/creative/macros/own-handwritten-recovery.csv": 1,
     "work/virtual/lifetimes-135161/polish/holdout/own-wins.csv": 1,
     "work/virtual/bank-135324/own-dev.csv": 1,
+    "work/virtual/siblings-135106/own-retained-rest.csv": 2,
     "work/virtual/current-priced.csv": 1,
     "work/virtual/lifetimes-135161/own-pilot-direct.csv": 1,
     "work/gen/atlas-third.csv": 2,
-    "work/virtual/guided-142434/small-warm.csv": 1,
+    "work/gpu/bridge-36731/construct/balance-0818-1532-21.csv": 1,
+    "work/virtual/siblings-135106/own-retained-four.csv": 1,
     "work/gen/splice-bridges.csv": 1,
     "work/gpu/901-independent/independent-17.csv": 1,
     "work/gpu/suffix-neighbors-wide.csv": 1,
@@ -146,7 +156,7 @@
     "independent_full_replay": true,
     "median_program": 128.5,
     "p90_program": 232,
-    "submission_bytes": 2258294,
+    "submission_bytes": 2257946,
     "kaggle_submission_status": "local_only"
   },
   "benchmarks": {
@@ -158,7 +168,7 @@
     "early_dictionary_steps": 202265,
     "public_reference_portfolio_steps": 138904,
     "public_leaderboard_first_steps": 128831,
-    "public_leaderboard_snapshot_beijing": "2026-11-20 15:39",
+    "public_leaderboard_snapshot_beijing": "2026-11-20 16:05",
     "public_leaderboard_url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
     "public_reference_sources": {
       "asterios": {
@@ -183,10 +193,10 @@
         "selected_puzzles": 1
       }
     },
-    "current_reduction_from_sample_percent": 90.5075,
+    "current_reduction_from_sample_percent": 90.5089,
     "latest_official_leaderboard": {
       "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
-      "checked_at": "2026-11-20T07:39:12.995838+00:00",
+      "checked_at": "2026-11-20T08:05:17.276797+00:00",
       "top_scores": [
         128831,
         130195,
@@ -194,10 +204,10 @@
         130300,
         130399,
         130598,
-        131040,
+        130988,
         131044,
-        131615,
-        131791
+        131282,
+        131468
       ],
       "evidence": "collaboration/leaderboard.json"
     }
@@ -2901,6 +2911,148 @@
           "saved": 1,
           "snapshot_size": 1,
           "adopted_programs_sha256": "3d25877acfada3c8808c020c184d95cb662e4127140a5d026c6953fdbfd617e5"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T07:56:52+00:00",
+      "previous_sha256": "f0af44eda0247367c83720c3d93bd3c1cee03681a0e9bd9ec6d99a84655643b6",
+      "score": 141470,
+      "sha256": "3ce6e546e062802d81fba6d732875d7e12bf4f557c0e499998102e819b172ef7",
+      "adopted": {
+        "work/virtual/siblings-135106/own-exact-f0.csv": {
+          "rows": 3,
+          "saved": 3,
+          "snapshot_size": 3,
+          "adopted_programs_sha256": "584f537e87fc10f3c724563514114d528f2bd423338018abcf78596569f21254"
+        },
+        "work/virtual/siblings-135106/own-exact-f2.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "59674f8e68009ecc30a0b686640db48863f9bb56046b3bf74fb7fdadc63c431c"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:01:52+00:00",
+      "previous_sha256": "3ce6e546e062802d81fba6d732875d7e12bf4f557c0e499998102e819b172ef7",
+      "score": 141469,
+      "sha256": "3651810463e03ff91c2bb1e32fe7a59a9c4a25a8a5d5a4a5f836c00b0e59af11",
+      "adopted": {
+        "work/virtual/siblings-135106/own-recovered-early.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "5e62ce476333ebffe20e4c8c090930370c1b321321f8ff12f5bcb5d7bf0693b0"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:06:05+00:00",
+      "previous_sha256": "3651810463e03ff91c2bb1e32fe7a59a9c4a25a8a5d5a4a5f836c00b0e59af11",
+      "score": 141466,
+      "sha256": "c2bc5b39589ec7a55a496eda86f60d4568b1d41df2d3d19f2d310069935a5622",
+      "adopted": {
+        "work/virtual/siblings-135106/own-retained-f0.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "d1a096d7872b97a0ab0db20e94e9f8cb2f64a8fe13cdea362edf822936477886"
+        },
+        "work/virtual/siblings-135106/own-retained-rest.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 2,
+          "adopted_programs_sha256": "caa42c4834de929704840c081c83c64102644f8b0124a600ff49da0b6f0f905a"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:07:28+00:00",
+      "previous_sha256": "c2bc5b39589ec7a55a496eda86f60d4568b1d41df2d3d19f2d310069935a5622",
+      "score": 141464,
+      "sha256": "e650df74d516a7c7222130410311a8ccd4bbebe7db47c3dcaf7ba9e143fde04a",
+      "adopted": {
+        "work/virtual/siblings-135106/own-retained-four.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 2,
+          "adopted_programs_sha256": "f2e7464e07bf901bc2579f5ef368c4e06be5c514f984d8f2765cfffb8d67c684"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:11:25+00:00",
+      "previous_sha256": "e650df74d516a7c7222130410311a8ccd4bbebe7db47c3dcaf7ba9e143fde04a",
+      "score": 141461,
+      "sha256": "f61aed985b281026d43940e383aeb68e64f31620b7d2120945d05233a08cb36e",
+      "adopted": {
+        "work/virtual/siblings-135106/own-last.csv": {
+          "rows": 2,
+          "saved": 3,
+          "snapshot_size": 2,
+          "adopted_programs_sha256": "5e0b3329548c2b566992bee62264768f5ce655f368b1ea1ce19d5942337100d2"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:13:46+00:00",
+      "previous_sha256": "f61aed985b281026d43940e383aeb68e64f31620b7d2120945d05233a08cb36e",
+      "score": 141459,
+      "sha256": "d252476c85bd4c2b93e277bdfd8666a09d0471cc4843c1630f9b1cf1566f6702",
+      "adopted": {
+        "work/virtual/siblings-135106/own-retained-rest-f2.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 5,
+          "adopted_programs_sha256": "9d15d6d8d67d6ec3b779a923cb8257037a29d6b18e65f8be0b99b9b3324de778"
+        },
+        "work/gpu/bridge-36731/construct/balance-0711-1991-21.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "0e93a8697840c0facc35b04fb03fe913848fc39dc978b67e4dfe3371f0f385e3"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:17:31+00:00",
+      "previous_sha256": "d252476c85bd4c2b93e277bdfd8666a09d0471cc4843c1630f9b1cf1566f6702",
+      "score": 141456,
+      "sha256": "a4f18f681caccd242880c677465defdf3715314be9c52d4486657b589aa0835e",
+      "adopted": {
+        "work/gpu/bridge-36731/construct/balance-0818-1532-21.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "4cb677c658bc60b5600a98a4caef33c65ce5df362f8271b0e04e2a95c53a5718"
+        },
+        "work/gpu/bridge-36731/construct/sparse-0250-1293-22.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "14a22cbe8e6ecb8fd88827703c2e0c115e4405998262bd0ca97cbe6103dd2971"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T08:17:38+00:00",
+      "previous_sha256": "a4f18f681caccd242880c677465defdf3715314be9c52d4486657b589aa0835e",
+      "score": 141453,
+      "sha256": "70bf5e41b4902d4b13c853057cc1087c44b574f037af39560f6c2cb8a1ee2089",
+      "adopted": {
+        "work/gpu/bridge-36731/construct/sparse-0250-1293-20.csv": {
+          "rows": 1,
+          "saved": 2,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "be41ce959b8a2e149d966930123492d44c5c73eaac0418e1329623cdc2dd1d8f"
+        },
+        "work/gpu/bridge-36731/construct/sparse-0387-697-23.csv": {
+          "rows": 1,
+          "saved": 1,
+          "snapshot_size": 1,
+          "adopted_programs_sha256": "54edc899be12db4e5af22ce52d56f8ab4ab4269fc23d4bae8146507e44adf610"
         }
       }
     }

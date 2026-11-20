@@ -1,0 +1,196 @@
+{
+  "puzzle_id": "scored_0134",
+  "official_puzzle_fingerprint": "b48496d011be1473c8ae665c21a34d0a86ee37007f6ad78fcf283df43a091381",
+  "official_scored_csv_lf_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85",
+  "recorded_program_csv_sha256": "2583866d332a0af78bbdf8a26919e9e4dc206acaa894abcf9d79359f79c4762b",
+  "track": "independent",
+  "frozen_1000_parent_sha256": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+  "frozen_parent_total": 141475,
+  "replayed_after_single_row_replacement": 141474,
+  "programs": {
+    "incumbent": {
+      "program_sha256": "e3bc6890fc3d35baa0a437a75f5ee15a445fa35921db41cb7e83f623b330b99d",
+      "source": "work/creative/own-good/part4-wins.csv"
+    },
+    "atlas": {
+      "program_sha256": "63d799a08a3ffe8be551e8ee06a6cf6e51564c283501a4800280196f374a5cfc",
+      "source": "work/gen/atlas-continued.csv"
+    },
+    "rudolph": {
+      "program_sha256": "f49e847dffb9316904ddcb0654f789a350cd19ce6c9f32235feba0a5c718910b",
+      "source": "work/gen/rudolph-complete.csv"
+    },
+    "result": {
+      "program_sha256": "016e72e3e87afe997e411a14b41273617be0c0f103b075af7813ed483cdfbfbb",
+      "source": "three-parent arithmetic recipe selection"
+    }
+  },
+  "source_details": [
+    {
+      "catalog": "work/heritage/equality-portfolio/own-base",
+      "row_source": "work/gen/atlas-continued.csv",
+      "steps": 30,
+      "row_sha256": "63d799a08a3ffe8be551e8ee06a6cf6e51564c283501a4800280196f374a5cfc"
+    },
+    {
+      "catalog": "work/gen/rudolph-complete",
+      "row_source": "rudolph",
+      "steps": 33,
+      "row_sha256": "f49e847dffb9316904ddcb0654f789a350cd19ce6c9f32235feba0a5c718910b"
+    }
+  ],
+  "paid_recipes_absent_in_all_three": [
+    {
+      "result": 154,
+      "op": "*",
+      "left": 11,
+      "right": 14,
+      "targets": [
+        149072,
+        149244,
+        149258,
+        958353
+      ]
+    },
+    {
+      "result": 61952,
+      "op": "*",
+      "left": 64,
+      "right": 968,
+      "targets": [
+        108071,
+        495616,
+        841302,
+        879222,
+        958353
+      ]
+    },
+    {
+      "result": 108071,
+      "op": "/",
+      "left": 864568,
+      "right": 8,
+      "targets": [
+        108071
+      ]
+    },
+    {
+      "result": 149075,
+      "op": "+",
+      "left": 3,
+      "right": 149072,
+      "targets": [
+        149244,
+        149258,
+        958353
+      ]
+    },
+    {
+      "result": 495616,
+      "op": "*",
+      "left": 8,
+      "right": 61952,
+      "targets": [
+        495616
+      ]
+    },
+    {
+      "result": 864568,
+      "op": "-",
+      "left": 879222,
+      "right": 14654,
+      "targets": [
+        108071
+      ]
+    }
+  ],
+  "solver": {
+    "creator": "Arsen Zakaryan (Kaggle arsen123)",
+    "version_url": "https://www.kaggle.com/datasets/arsen123/santa-2026-original-dictionary-solver-source/versions/15",
+    "release": 15,
+    "release_code_version": "d52c95d138cd08078232b05e8385167a22931d371b2bb7aadfbf3b319f2c1ee3",
+    "license": "Apache-2.0",
+    "pinned_sources": {
+      "run_solver.py": "62d8add684d82a30c890376191c46025b24021ec6561e0158b1402ce8d0e1795",
+      "recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+      "recombine2026.py": "43c0fc702350b367bdb15048167c6a63f4b26db900d5790f9f0790f0e10ba204",
+      "LICENSE2026": "96c9bea04402213f96562e696342a9ff5684502ca0a8d6cf28edd6547f969070"
+    },
+    "verified_ortools": "9.15.6755",
+    "seed": 871199,
+    "deterministic_time_budget": 0.48,
+    "slack": 33,
+    "optional_helpers": 0
+  },
+  "groups": [
+    {
+      "inputs": [
+        "incumbent"
+      ],
+      "selected": "incumbent",
+      "steps": 29,
+      "finite_pool_status": "OPTIMAL"
+    },
+    {
+      "inputs": [
+        "incumbent",
+        "atlas"
+      ],
+      "selected": "incumbent",
+      "steps": 29,
+      "finite_pool_status": "OPTIMAL"
+    },
+    {
+      "inputs": [
+        "incumbent",
+        "rudolph"
+      ],
+      "selected": "incumbent",
+      "steps": 29,
+      "finite_pool_status": "OPTIMAL"
+    },
+    {
+      "inputs": [
+        "incumbent",
+        "atlas",
+        "rudolph"
+      ],
+      "selected": "result",
+      "steps": 28,
+      "finite_pool_status": "OPTIMAL"
+    }
+  ],
+  "sample_outcomes": {
+    "stratified_high_gap": {
+      "independent_rows": 24,
+      "development_rows": 8,
+      "holdout_rows": 16,
+      "new_winners": 0
+    },
+    "exploratory_smaller_rows": {
+      "rows": 12,
+      "new_winners": 1
+    },
+    "remaining_eligible_small_rows": {
+      "rows": 36,
+      "new_winners": 0
+    },
+    "extra_untested_length_35_to_85": {
+      "independent_baseline": 141474,
+      "assisted_comparator_lengths_only": 135087,
+      "gap_range_inclusive": [
+        2,
+        8
+      ],
+      "excluded_previous_rows": 72,
+      "eligible_by_length_band": {
+        "70\u201385": 10,
+        "35\u201349": 2,
+        "50\u201369": 1
+      },
+      "included": 13,
+      "new_winners": 0
+    }
+  },
+  "canonical_program_encoding": "SHA-256 of the UTF-8 bytes of compact JSON array with separators comma and colon."
+}

@@ -1,0 +1,36 @@
+# 第 882 题的 22 步解至少需要 5 个新辅助值
+
+五份独立程序用过 **20 个不同的辅助值**。如果本题存在 22 步解，其中至少 **5 个辅助值**必须来自这 20 个数以外。当前全局下界仍是 22 步，已知程序为 23 步。这里的结果限定了还能产生 22 步见证的整数选择。[全局下界](../../proofs/local/proofs/helper-wave17.json) · [五份可回放程序及其来源](parents.json)
+
+| 从 20 个旧值中指定的个数 | 另外允许的任意整数个数 | 指定子集总数 | 分片 | 展开节点 | 结果 |
+| ---: | ---: | ---: | ---: | ---: | --- |
+| 9 | 1 | 167,960 | 16 | 171,754 | 全部无解 |
+| 8 | 2 | 125,970 | 32 | 9,645,718 | 全部无解 |
+| 7 | 3 | 77,520 | 256 | 557,154,081 | 全部无解 |
+| 6 | 4 | 38,760 | 256 | 94,901,836 | 全部无解 |
+
+五份程序长度为 23、24、23、23、23。第一份来自独立提交，第二份来自较早的独立存档。另三份在独立程序的算术候选池中寻找等长解，经目标闭包还原为可执行指令。文件给出每份程序的全部指令、辅助值清单、原始存档名与 SHA-256，复核器从官方题目重新执行五份程序并重建并集。[一个新值的分片](one-new.json) · [两个新值的分片](two-new.json) · [三个新值的分片](three-new.json)
+
+## 为什么这些子集已足够
+
+本题必须首次生成 12 个不在初值中的目标。先前的全局证明已经排除仅用 9 个辅助值，所以任意 22 步解恰好引入 10 个不同辅助值。若其中最多 4 个不在这 20 个数中，则至少有 6 个在其中。把任意这样的 6 个旧值也列为必生成目标，原解至多还需 4 个不限来源的辅助数。一共有 `C(20,6) = 38,760` 种选择，完整穷举全部返回无解。前三档同理。即使另外的数本身也属于旧值并集，该搜索仍然允许它出现。[第四档分片](four-new.json)
+
+每个子问题只提供官方初值。新增的指定目标也必须通过运算取得。搜索保留此前生成的全部数，在每一步生成所有已可达目标，然后枚举下一条合法运算的非目标结果。最后只余一个辅助数时，如果某个目标即便把所有目标当成操作数也还没有生成方法，该辅助数必须和已选辅助值、目标、初值或自身配对得到该目标。反解加、减、乘、整除涵盖全部候选；实际生成顺序最终仍须合法。程序也处理放宽后全部目标已有生成方法的情形，此时直接扫描当前可达的一步结果。限定的数值范围取自官方文件。[C++ 实现](bundle_exact.cpp)
+
+## 复核
+
+从比赛下载官方 `puzzles.csv`。在仓库根目录执行以下命令，需要 Python 3.12 以上及支持 C++17 的编译器。下面三行会分别用专用求解器穷尽前三档，用增量终局求解器穷尽第四档，并复核 240 项小值域对照及 236 项官方数值对照。给 `verify.py` 添加 `--max-new 2` 可先复核计算量较小的前两档。给 `verify_four.py` 添加 `--shard 17` 可只检查第四档的一个分片，或用 `--receipts-only` 核对整档清单的覆盖和计数。
+
+```bash
+g++ -O3 -std=c++17 collaboration/puzzle-0882-diversity/bundle_exact.cpp -o diversity-proof
+python -B collaboration/puzzle-0882-diversity/verify.py --puzzles data/puzzles.csv --binary ./diversity-proof --jobs 4 --audit
+python -B collaboration/puzzle-0882-diversity/verify_four.py --puzzles data/puzzles.csv --jobs 4
+```
+
+小值域对照用独立广度优先搜索覆盖 87 项有解和 153 项无解。真实第 882 题的首批 203 项对照覆盖 71 项已知可行与 132 项无解。第二轮从另取的 84 个七旧值子集中挑选计算量最大的 18 个，另加 15 个可行子集；通用遍历的 33 个结果与专用求解器全部相符。另对该题值域内每个整数逐一正向运算，验证了 3,366,864 项操作数配对、1,496,384 项一步可达结果和 120 个闭包。以下命令可重做这两项交叉验证。Windows 可把可执行文件名改为 `.exe`。[小域审计](small-audit.json) · [首批官方审计](official-sample-audit.json) · [独立审计及父本溯源](independent-audit.json)
+
+```bash
+g++ -O3 -std=c++17 proofs/local/exact_helpers.cpp -o diversity-reference
+g++ -O3 -std=c++17 collaboration/puzzle-0882-diversity/operations.cpp -o diversity-operations
+python -B collaboration/puzzle-0882-diversity/verify.py --puzzles data/puzzles.csv --binary ./diversity-proof --reference-binary ./diversity-reference --operations-binary ./diversity-operations --jobs 4
+```

@@ -1,0 +1,20 @@
+{
+  "star": {
+    "original_name": "star.cpp",
+    "original_sha256": "fd1ebeac409df10a332e2de7c69b243f7838df7caf590d6def1aae61cbf3e61e",
+    "compiled_source": "40a1f6044cd961f32881a6b6cf6fea8b2ff18e23d8ae444247121ea5ff780caf",
+    "binary": "2ffb5673bd04269d84372b1234f3d637819b281bf5cf586d66abf486b4184222"
+  },
+  "generic": {
+    "original_name": "generic_verifier.cpp",
+    "original_sha256": "bc0a9bcdae751581ca62a641853b44a0e87f102de5c3f826febaa635cf460d9d",
+    "compiled_source": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+    "binary": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c"
+  },
+  "hot": {
+    "original_name": "hot.cpp",
+    "original_sha256": "4493ce4dcae5ad65f4fb554156f00bf342eb588537ccd9ccc70168bc5dbe1d8d",
+    "compiled_source": "dc36f457cde8b7a0157e008bf7cb6687e175d1b784c22a8e4370e4bf9df4b43e",
+    "binary": "e338bffbf9df44e39f4b9eac53f27ca26b4b0cdca9724e696f5d7c31e0dbea01"
+  }
+}

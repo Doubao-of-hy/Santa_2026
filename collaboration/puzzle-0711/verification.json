@@ -1,0 +1,43 @@
+{
+  "id": "scored_0711",
+  "official_puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "winning_csv_sha256": "b278a3e3545cc0e4d32b90846101c1f2d33c41762819d2d50e32cfe1a348b9da",
+  "steps": 21,
+  "two_interpreters": [
+    "elf.check with structured puzzles",
+    "checkpoint.independent_score with raw CSV and explicit registers"
+  ],
+  "independent_source_input_sha256": "1d0d18c2a61fc9ad9c174e0e564611658f8d2ac411cf9fc80f90756cb7218dff",
+  "frozen_parent_families": 2,
+  "baseline_at_test_sha256": "f61aed985b281026d43940e383aeb68e64f31620b7d2120945d05233a08cb36e",
+  "baseline_at_test_steps": 22,
+  "baseline_at_test_total": 141461,
+  "trial_with_only_replacement_sha256": "141c6268035f82d71a265359abdfb9c483fdaf1554404143773fb97779dbc7b7",
+  "trial_entire_corpus_rows": 1000,
+  "trial_entire_corpus_steps_both": 141460,
+  "local_proven_lower": 16,
+  "current_public_assisted_upper": 21,
+  "outputs": [
+    3,
+    9,
+    81,
+    1134,
+    10206,
+    11340,
+    12,
+    132,
+    17424,
+    7218,
+    24642,
+    295704,
+    158760,
+    11349,
+    1261,
+    1247,
+    10338,
+    73926,
+    75187,
+    86536,
+    4131
+  ]
+}

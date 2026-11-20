@@ -1,0 +1,70 @@
+{
+ "construct": {
+  "selected": 24,
+  "valid": 24,
+  "total": 4075,
+  "seconds_on_24": 210.555,
+  "parent_and_direct_wins": {
+   "own": {
+    "total": 3449,
+    "wins": 0
+   },
+   "assisted": {
+    "total": 3294,
+    "wins": 0
+   }
+  }
+ },
+ "experiments": {
+  "two-parent": {
+   "own": {
+    "count": 24,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 0,
+    "joint_solver_status": {
+     "OPTIMAL": 3,
+     "FEASIBLE": 21
+    }
+   },
+   "assisted": {
+    "count": 24,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 0,
+    "joint_solver_status": {
+     "OPTIMAL": 3,
+     "FEASIBLE": 21
+    }
+   }
+  },
+  "graft": {
+   "own": {
+    "count": 24,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 0
+   },
+   "assisted": {
+    "count": 24,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 0
+   }
+  },
+  "reconstruction": {
+   "own": {
+    "count": 8,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 0
+   },
+   "assisted": {
+    "count": 8,
+    "joint_strictly_better_than_frozen_parent": 0,
+    "control_strictly_better_than_frozen_parent": 0,
+    "joint_shorter_than_its_control": 1
+   }
+  }
+ }
+}
