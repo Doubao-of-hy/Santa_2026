@@ -1,0 +1,57 @@
+{
+ "verified_utc": "2026-11-20T13:12:10.938320+00:00",
+ "catalog": "four-catalog-20261120-131120.json",
+ "catalog_sha256": "bf2d4145a9179b16008532ab67430f24b071313a3e349a0f536c3c7ca41757c5",
+ "frozen_score": 134389,
+ "frozen_sha256": "757d8632ddb9202f9671fc4c2841a5c9453d5e647a284082931a994fb2390f22",
+ "verified": 134385,
+ "sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+ "shorter_sha256": "b46ff3b3295af6c91501c0d7d6b91b89bfba9e891d7f7c60028a3b96371e0cbc",
+ "origins_sha256": "d2747eb6ce2a35ac77ffeef15413d9fc56faca49be58aacc576fce0cda5ee3fb",
+ "sources": {
+  "Asterios v118": {
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/118",
+   "score": 134459,
+   "license": "Apache 2.0",
+   "archive_sha256": "8d58048bbbd626ea2082560559e08ec592c2155a828995b1cedf1d7b7ae2c1ea",
+   "normalized_sha256": "5d5afb3f812996488f1f6e83687d38e8674b9442a0514435b5c7872c0e7ac8fe",
+   "dataset_version_id": 22500019
+  },
+  "Rudolph v67": {
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/67",
+   "score": 134454,
+   "license": "CC0: Public Domain",
+   "archive_sha256": "bfd836f325664c05b50afd67ba721cbd591ed4d2687c045117723b3bf26bf8f1",
+   "normalized_sha256": "085eda6649d8f3b8d51d5f32e9f998c3978b5fa29ffb45e45e7e93fb322d3051",
+   "dataset_version_id": 22499889
+  }
+ },
+ "new_rows": {
+  "scored_0148": {
+   "before": 173,
+   "after": 172,
+   "source": "Asterios v118"
+  },
+  "scored_0695": {
+   "before": 105,
+   "after": 104,
+   "source": "Rudolph v67"
+  },
+  "scored_0752": {
+   "before": 96,
+   "after": 95,
+   "source": "Rudolph v67"
+  },
+  "scored_0855": {
+   "before": 64,
+   "after": 63,
+   "source": "Asterios v118"
+  }
+ },
+ "changed_solver_sources": [],
+ "stable_sources": {
+  "hanif": 23,
+  "goodpjw": 8
+ },
+ "full_replay_rows": 1000
+}

@@ -1,5 +1,5 @@
 {
- "utc": "2026-11-20T13:04:39.011411+00:00",
+ "utc": "2026-11-20T13:07:51.893016+00:00",
  "sources": {
   "asterios113": {
    "score": 134508,
@@ -451,6 +451,25 @@
    },
    "baseline_sha256": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba",
    "combined_sha256": "62508f795b5d7ddab12413fe057436186a7bcffca2414bb4f478ec0b82b452b9"
+  },
+  "anneal-own-port160-rest": {
+   "rows": 744,
+   "total": 140946,
+   "verified": 140875,
+   "modes": {
+    "anneal": {
+     "wins": 41,
+     "savings": 50,
+     "CPU_wall_seconds_sum": 709.73
+    },
+    "anneal_seeded": {
+     "wins": 31,
+     "savings": 37,
+     "CPU_wall_seconds_sum": 212.48
+    }
+   },
+   "baseline_sha256": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba",
+   "combined_sha256": "364f70d905c06894dcc2930323def2d36da9ba98e93883dcfd353a2c59293148"
   }
  },
  "applied_programs": {
@@ -472,11 +491,11 @@
   }
  },
  "leaderboard": {
-  "official_utc": "2026-11-20T12:59:31.600803+00:00",
-  "snapshot": "leaderboard-20261120-205931.json",
-  "ranked": 1790,
+  "official_utc": "2026-11-20T13:07:41.649285+00:00",
+  "snapshot": "leaderboard-20261120-210741.json",
+  "ranked": 1795,
   "first": 128330,
-  "hypothetical_rank_134398": 118
+  "hypothetical_rank_134398": 121
  },
  "independent_sources": {
   "rudolph": {
@@ -500,6 +519,6 @@
    "clean_sha": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a"
   }
  },
- "cleaned_bytes": 104064599,
- "cleaned_files": 56
+ "cleaned_bytes": 133176645,
+ "cleaned_files": 69
 }

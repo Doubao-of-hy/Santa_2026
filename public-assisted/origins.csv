@@ -146,7 +146,7 @@ scored_0144,work/gpu/frontier-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + D
 scored_0145,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",216
 scored_0146,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",259
 scored_0147,Asterios v99,"suka, Verified Portfolio Programs dataset",97
-scored_0148,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",173
+scored_0148,Asterios v118,"E-Max AI, Santa 2026 | Public Frontier | Score 134,461",172
 scored_0149,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",16
 scored_0150,Asterios v99,"suka, Verified Portfolio Programs dataset",165
 scored_0151,local from official inputs,Generated from official inputs,27
@@ -693,7 +693,7 @@ scored_0691,Asterios v99,"Asterios Panoras, Atakan Aldemir's multiplier-frontier
 scored_0692,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",195
 scored_0693,Asterios v113,"E-Max AI, Santa 2026 Crossover Stage 134618",117
 scored_0694,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",156
-scored_0695,local from official inputs,Generated from official inputs,105
+scored_0695,work/creative/resume-135077/four-source-134389-to-134385/shorter.csv,"Alex Chilton (Rudolph), Kaggle dataset release 67 (CC0), a verified public portfolio. The dataset credits Georgy Mamarin, Best-of-Public Elf Optimizer, Verified Best Programs, Atakan Aldemir, Public Merge, Hanif Noer Rofiq and Rudolph. Original authors were not listed per row in this release.",104
 scored_0696,work/virtual/resume-135077/wang-first.csv,"wang Jakie Apache-2.0 kernel 371736767, Asterios v113: goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 135,444",78
 scored_0697,local from official inputs,Generated from official inputs,101
 scored_0698,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",225
@@ -750,7 +750,7 @@ scored_0748,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0749,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",92
 scored_0750,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",109
 scored_0751,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",207
-scored_0752,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",96
+scored_0752,work/creative/resume-135077/four-source-134389-to-134385/shorter.csv,"Alex Chilton (Rudolph), Kaggle dataset release 67 (CC0), a verified public portfolio. The dataset credits Georgy Mamarin, Best-of-Public Elf Optimizer, Verified Best Programs, Atakan Aldemir, Public Merge, Hanif Noer Rofiq and Rudolph. Original authors were not listed per row in this release.",95
 scored_0753,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",92
 scored_0754,Asterios v99,konbu17 dataset (wide planning + re-allocation),170
 scored_0755,local from official inputs,Generated from official inputs,93
@@ -853,7 +853,7 @@ scored_0851,local from official inputs,Generated from official inputs,26
 scored_0852,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",122
 scored_0853,Asterios v113,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 135,444",174
 scored_0854,Asterios v99,"Rishabh Bafna, Optimal Verified Programs dataset",160
-scored_0855,Asterios v99,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",64
+scored_0855,Asterios v118,"Roman Rozen, Santa 2026 | IceFire Strong Start",63
 scored_0856,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",212
 scored_0857,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",218
 scored_0858,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",32

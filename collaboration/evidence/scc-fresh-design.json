@@ -1,0 +1,588 @@
+{
+  "frozen_utc": "2026-11-20T13:13:19.898694+00:00",
+  "upstream_commit": "e24a8e5557434d2a2022fc7c9873e71aab148661",
+  "source": "origin/optimize/shared-recipe-portfolio",
+  "independent_parent_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+  "independent_parent_instructions": 140813,
+  "sampling": "Sort by (instruction count, puzzle ID). Split into 8 consecutive groups of 125. Within each group sort by SHA-256 of UTF-8 e24a8e5-newbase:<id>. Use positions 1-4 for development and 5-8 for holdout.",
+  "development_count": 32,
+  "holdout_count": 32,
+  "rows": [
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "development",
+      "id": "scored_0720",
+      "instructions": 31,
+      "selection_sha256": "00b19d0b2bbb1d86de65163b24f7256dc6355114497cf2ca27be2c3b2e675fb4"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "development",
+      "id": "scored_0021",
+      "instructions": 41,
+      "selection_sha256": "03be68b8ef01f745baa542d14e5e7ea1f26c792d4b8e55118c544f4bf5ff475e"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "development",
+      "id": "scored_0368",
+      "instructions": 28,
+      "selection_sha256": "07e9a29f037c02827ed91b154d2f9e901c572505cd92a1852d3bc9e68df03aba"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "development",
+      "id": "scored_0962",
+      "instructions": 33,
+      "selection_sha256": "09ddd65ea213aa48756a1124014d89dcd7439520405f3bf388c30aaccbb0f556"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "holdout",
+      "id": "scored_0443",
+      "instructions": 30,
+      "selection_sha256": "0a1cedb156f4b22776c40ddd109a8695815e0d7624182d226f32436941e5f6bc"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "holdout",
+      "id": "scored_0559",
+      "instructions": 35,
+      "selection_sha256": "0ad12f88149cff7a0eb5ebd3b965381553fdc441f9869631318e58244407a45e"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "holdout",
+      "id": "scored_0065",
+      "instructions": 38,
+      "selection_sha256": "0b5bd187997ac2511e1e1a761f4af3dc03927badd9993786a4b37b007b7f05d7"
+    },
+    {
+      "stratum": 1,
+      "stratum_min": 2,
+      "stratum_max": 43,
+      "partition": "holdout",
+      "id": "scored_0056",
+      "instructions": 25,
+      "selection_sha256": "0c9f7570e52bab92b87551c0cc6fa106db2a48f88e9d1f80341edfa1538ccfed"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "development",
+      "id": "scored_0127",
+      "instructions": 97,
+      "selection_sha256": "01713945747eaa8d9792239f0854cfe65cf25c7d0f79d581fe3eba4444189696"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "development",
+      "id": "scored_0898",
+      "instructions": 83,
+      "selection_sha256": "06a9087606a1ebd538006fb5c69e4fdb93818fb12fb573a766e874e0a58ca0e8"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "development",
+      "id": "scored_0423",
+      "instructions": 100,
+      "selection_sha256": "09bb8e8ee4613b1dcb6b86cc480771ebc0907f03dda1d6601def810bd261300c"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "development",
+      "id": "scored_0617",
+      "instructions": 93,
+      "selection_sha256": "0a6d9a01f6c600971ad47cdbb10af063bbd6a13a3b522f313809b4c39dfc2750"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "holdout",
+      "id": "scored_0278",
+      "instructions": 84,
+      "selection_sha256": "0a6e8b4bc74551ee9c01aa28d5853cd75b1b2f53208641c5824f8a5f071f4adf"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "holdout",
+      "id": "scored_0976",
+      "instructions": 97,
+      "selection_sha256": "0bb7efdb943c5f0a713567cb2b2a507a38bd75f02095038b9f94011136abce7e"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "holdout",
+      "id": "scored_0395",
+      "instructions": 94,
+      "selection_sha256": "0d0b9ad88ca8f79c3b904d0d0292a64b599264438f54711bb74f5908cf0c76e6"
+    },
+    {
+      "stratum": 2,
+      "stratum_min": 44,
+      "stratum_max": 102,
+      "partition": "holdout",
+      "id": "scored_0541",
+      "instructions": 54,
+      "selection_sha256": "0e02f71e458c9c94d73b1d65380b39350d71402eef018b9511902324a9a0067b"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "development",
+      "id": "scored_0035",
+      "instructions": 107,
+      "selection_sha256": "00a806dc505bd68a0cb69b3ed1533e2edb7a3adfd2885f9d46750f4d5f74fdb5"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "development",
+      "id": "scored_0132",
+      "instructions": 112,
+      "selection_sha256": "00caa26886de2d270e426db7dc0637f6393c3afa196e4e184954676512df9a28"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "development",
+      "id": "scored_0767",
+      "instructions": 108,
+      "selection_sha256": "03f9e0fab02882362fd1f8bc68b79eb5ce8bb621d20259f1dacb3d7dde737e31"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "development",
+      "id": "scored_0392",
+      "instructions": 104,
+      "selection_sha256": "04c3a168b9f04ae0a5800973e38248824dad3e5391dae7b00262f57bb4afab4a"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "holdout",
+      "id": "scored_0752",
+      "instructions": 102,
+      "selection_sha256": "0a076ce762e79134aa3b99831f047e780a1f7e93b951c7794febfa92c1c3f9f3"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "holdout",
+      "id": "scored_0463",
+      "instructions": 108,
+      "selection_sha256": "0af06434dcea52ecd021f56d6295109b2cb08d360987de12c983e3c504ae1ece"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "holdout",
+      "id": "scored_0785",
+      "instructions": 112,
+      "selection_sha256": "0b39804c10d1cc7538952cb54e0389206bda148126e1a9a7f0b7fe7f506538d9"
+    },
+    {
+      "stratum": 3,
+      "stratum_min": 102,
+      "stratum_max": 115,
+      "partition": "holdout",
+      "id": "scored_0770",
+      "instructions": 112,
+      "selection_sha256": "0d043aefc8b7fe9f1c58e622a9fba6cd1117b425de22454c4b2a8cd1e03d9234"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "development",
+      "id": "scored_0184",
+      "instructions": 118,
+      "selection_sha256": "0094eee13ed1a66ce7a74c212af9eda120faa97211d6802d562709c58d9665fb"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "development",
+      "id": "scored_0027",
+      "instructions": 116,
+      "selection_sha256": "084c7e6baed2667ebb340843ec19b966fdb3dedbb36ff045b518d8d2f04437ae"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "development",
+      "id": "scored_0533",
+      "instructions": 122,
+      "selection_sha256": "09eef8b9fe93a6d497760307254f8d0bae8d569ffba8be2500c0f1f239a3c9b6"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "development",
+      "id": "scored_0099",
+      "instructions": 120,
+      "selection_sha256": "0b381cf624815a8de80965ce5e9aed0136083667c783fc1305bac50ff4485368"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "holdout",
+      "id": "scored_0722",
+      "instructions": 116,
+      "selection_sha256": "0f64811eacd94956100466f61b82c6238c40e16bead6d109e8d0ac522e07bfb2"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "holdout",
+      "id": "scored_0270",
+      "instructions": 124,
+      "selection_sha256": "10b02037ea5bb6b41cb47b13b36916d556fcddc19594bb03fa106b371cac86f2"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "holdout",
+      "id": "scored_0305",
+      "instructions": 124,
+      "selection_sha256": "11e82613652feec6b8b13ea405426dee95ed492c77e2e10cb9253d444124c9d8"
+    },
+    {
+      "stratum": 4,
+      "stratum_min": 115,
+      "stratum_max": 127,
+      "partition": "holdout",
+      "id": "scored_0929",
+      "instructions": 115,
+      "selection_sha256": "195ff21edf544796306bbc6d6ebc368610e3fe66b3ad818a840b677b7c41dc4d"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "development",
+      "id": "scored_0229",
+      "instructions": 152,
+      "selection_sha256": "002de703008af6cd90d7d60b807bf48dd3eaf0de9b4d13ae4771e57c5e078b22"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "development",
+      "id": "scored_0553",
+      "instructions": 130,
+      "selection_sha256": "010940f4b5254126b31587661157eca21093f267d02ba9db76c72d4985f49761"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "development",
+      "id": "scored_0833",
+      "instructions": 136,
+      "selection_sha256": "01dc2447c78ee49e2290801bdea1878729e38f4a0213dab5e3890870854b07b6"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "development",
+      "id": "scored_0162",
+      "instructions": 140,
+      "selection_sha256": "0204648693dbf76ae7279de73bae546191737377cdd51081433ede60da235a35"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "holdout",
+      "id": "scored_0076",
+      "instructions": 151,
+      "selection_sha256": "02a2e947e002eb24dcbd576ddf3c50df19b51ba434aaa7713434f30a96a74373"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "holdout",
+      "id": "scored_0896",
+      "instructions": 136,
+      "selection_sha256": "052f6e20755bb89db6839526dff9a79812b2c3571c6d6607f5680ac879edc5f5"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "holdout",
+      "id": "scored_0824",
+      "instructions": 143,
+      "selection_sha256": "05e2d27ca08aa75e4d04a3e98815bbb1f06b3b9360737fc5dde553336e11099d"
+    },
+    {
+      "stratum": 5,
+      "stratum_min": 127,
+      "stratum_max": 162,
+      "partition": "holdout",
+      "id": "scored_0062",
+      "instructions": 153,
+      "selection_sha256": "06cdc6ff469bdf1702e18b0897bb597d432d6d0fd974b3d416dfa1a88010b26c"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "development",
+      "id": "scored_0040",
+      "instructions": 189,
+      "selection_sha256": "00cdd19a633882f609df12033b0e811364992d5f806f2d61b422d36da37875ec"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "development",
+      "id": "scored_0850",
+      "instructions": 187,
+      "selection_sha256": "01ad5083dcf4131e96dd880d5bfebacf752159a46eeae28ba1f2d7ae15adc0f3"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "development",
+      "id": "scored_0122",
+      "instructions": 166,
+      "selection_sha256": "02214cd081c2428ac2a44fe99785b01985149193eaef7a07280a9260147f10c6"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "development",
+      "id": "scored_0114",
+      "instructions": 178,
+      "selection_sha256": "0789ad48aef01efcaf8a262405641a35b0ac5dc3cc13600c11017e37d3ee199c"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "holdout",
+      "id": "scored_0538",
+      "instructions": 178,
+      "selection_sha256": "08534924d32791db1157d8bc139b16cfb254f0791fb75716aa8232e4d4d2c750"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "holdout",
+      "id": "scored_0847",
+      "instructions": 178,
+      "selection_sha256": "09bf1ae86292ad92e016e254a73004558bb09619e92975736dbcbd0c35146d0a"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "holdout",
+      "id": "scored_0172",
+      "instructions": 164,
+      "selection_sha256": "0abfe1f7e63948944ebd1ff2dcea5c5c031fe6f67c7cd19c7943e2a13fd51449"
+    },
+    {
+      "stratum": 6,
+      "stratum_min": 162,
+      "stratum_max": 189,
+      "partition": "holdout",
+      "id": "scored_0150",
+      "instructions": 173,
+      "selection_sha256": "0ba40b8087a30bec8adbc6269666472e4ba573ddf56c26565c19619440c9a32b"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "development",
+      "id": "scored_0640",
+      "instructions": 225,
+      "selection_sha256": "01065efcc8964eae87311f8b90c528fedafbfce660c9a5a46c989d54df18b8ba"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "development",
+      "id": "scored_0582",
+      "instructions": 192,
+      "selection_sha256": "051051544bea5ecdc842c8b702069f493f36c51e5ac14cee2546de4410dd88cf"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "development",
+      "id": "scored_0820",
+      "instructions": 216,
+      "selection_sha256": "06a2d422c908f875ae47a2a86a77824bb4191b5105cbaa98ccd46028e2489984"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "development",
+      "id": "scored_0680",
+      "instructions": 211,
+      "selection_sha256": "075047eba27f96482d7aa676ced2c4695ccf592ea14d9eebac4246d6ea62c1aa"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "holdout",
+      "id": "scored_0965",
+      "instructions": 196,
+      "selection_sha256": "07d09314169bd84a4c326761f4c4c69d99ad7c8b0981ba3d0f8734b9cb6466a3"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "holdout",
+      "id": "scored_0293",
+      "instructions": 199,
+      "selection_sha256": "081165acb21b087bb387272d1544e4af43d94bf42426043c2a2660c731705c1a"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "holdout",
+      "id": "scored_0915",
+      "instructions": 197,
+      "selection_sha256": "08ee82c6ee36bfd48e59f79c089fdc882d8af7e4b645d69070e535b5309c4d5e"
+    },
+    {
+      "stratum": 7,
+      "stratum_min": 189,
+      "stratum_max": 225,
+      "partition": "holdout",
+      "id": "scored_0285",
+      "instructions": 220,
+      "selection_sha256": "08f2350519647dc8c13bf9874ddb58d28e2a03b66d29a1b422dddd9b7c54ec95"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "development",
+      "id": "scored_0069",
+      "instructions": 295,
+      "selection_sha256": "018de7fd9e10a540c98e51ab94c829e52a91dbbbd076a5485d70659daf231244"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "development",
+      "id": "scored_0306",
+      "instructions": 277,
+      "selection_sha256": "02659c0ad03d3519b0cfa3ff20566337bcba710d1cc22588bdbbf90581e7c349"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "development",
+      "id": "scored_0729",
+      "instructions": 298,
+      "selection_sha256": "0372cfe4f8286b36a6ac8f12a82dd32f6545e7389366471e4a704946ee22e5a9"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "development",
+      "id": "scored_0357",
+      "instructions": 240,
+      "selection_sha256": "083b8c6bc7e90f90d0f7d9ecc95f8a6990dc700fcd6d14143ff07ff6f04106ac"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "holdout",
+      "id": "scored_0959",
+      "instructions": 238,
+      "selection_sha256": "0871aad5b99c9c872e3a0cc0d157adb4f5f6a5f84b2bc2c950f55a82ba30bbe9"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "holdout",
+      "id": "scored_0813",
+      "instructions": 228,
+      "selection_sha256": "0ac38f9f0897c2c103f175f811d6cfbf2485d0f633549ac2e87a6da2759b6223"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "holdout",
+      "id": "scored_0470",
+      "instructions": 278,
+      "selection_sha256": "0c1b1b5254a34136d17a5ae1e0a91444859ee1d803bfb19f782139e1b2f22916"
+    },
+    {
+      "stratum": 8,
+      "stratum_min": 225,
+      "stratum_max": 303,
+      "partition": "holdout",
+      "id": "scored_0129",
+      "instructions": 291,
+      "selection_sha256": "114348c7239e58006f3e632996df8eb560ff56dc1b99166fd20f9cf91d528357"
+    }
+  ]
+}
