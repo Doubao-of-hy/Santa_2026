@@ -1,0 +1,10 @@
+{
+  "base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "claims": "collaboration/distinct-diamond/claims.json.gz",
+  "claims_sha256": "68993d433e2e932f0065d04647af5921beeb3f3caf098a6a38f5d256952348f0",
+  "salt": "helper-membership-37916",
+  "pilot": 32,
+  "method": "Re-use a replayed prefix and the proved absence of a diamond. For a concrete helper x branch into using it (grant its value and subtract one remaining helper) or forbidding it. Close all leaves with an integer target capacity bound. Prove only full binary trees. Use the actual current per-row bound as the excluded budget.",
+  "control": "Compare with identical unconditioned capacity and an independent finite arithmetic enumeration on small domains.",
+  "extension": "Try the next 64 after a verified gain in the pilot; retain only certificates independently reconstructed from exact operands."
+}
