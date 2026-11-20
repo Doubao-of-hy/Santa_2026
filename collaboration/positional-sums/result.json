@@ -1,0 +1,114 @@
+{
+  "official": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "comparison_commit": "595401bd916c41dcbf060f9f5681057694d4f6ec",
+  "pilot": [
+    "0493",
+    "0269",
+    "0163",
+    "0255"
+  ],
+  "unused_holdout": [
+    "0780",
+    "0612",
+    "0610",
+    "0470"
+  ],
+  "rows": {
+    "0493": {
+      "ordinary": {
+        "physical": 485,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": false,
+        "winning_graph_size": 456,
+        "minimum_graph_size": 456,
+        "variants": 32
+      },
+      "shared": {
+        "physical": 462,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": true,
+        "winning_graph_size": 456,
+        "minimum_graph_size": 431,
+        "variants": 64
+      },
+      "independent": 254,
+      "assisted": 228
+    },
+    "0269": {
+      "ordinary": {
+        "physical": 580,
+        "base": 125,
+        "form": "balanced",
+        "width": 0,
+        "group": false,
+        "winning_graph_size": 512,
+        "minimum_graph_size": 504,
+        "variants": 32
+      },
+      "shared": {
+        "physical": 524,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": true,
+        "winning_graph_size": 510,
+        "minimum_graph_size": 476,
+        "variants": 64
+      },
+      "independent": 299,
+      "assisted": 272
+    },
+    "0163": {
+      "ordinary": {
+        "physical": 532,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": false,
+        "winning_graph_size": 474,
+        "minimum_graph_size": 474,
+        "variants": 32
+      },
+      "shared": {
+        "physical": 478,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": true,
+        "winning_graph_size": 466,
+        "minimum_graph_size": 450,
+        "variants": 64
+      },
+      "independent": 273,
+      "assisted": 245
+    },
+    "0255": {
+      "ordinary": {
+        "physical": 592,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": false,
+        "winning_graph_size": 528,
+        "minimum_graph_size": 518,
+        "variants": 32
+      },
+      "shared": {
+        "physical": 551,
+        "base": 49,
+        "form": "balanced",
+        "width": 0,
+        "group": true,
+        "winning_graph_size": 528,
+        "minimum_graph_size": 489,
+        "variants": 64
+      },
+      "independent": 296,
+      "assisted": 271
+    }
+  }
+}

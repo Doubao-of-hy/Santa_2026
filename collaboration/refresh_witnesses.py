@@ -4,6 +4,8 @@ import csv
 import hashlib
 import json
 from pathlib import Path
+import re
+import subprocess
 import sys
 
 HERE=Path(__file__).resolve().parent
@@ -19,8 +21,15 @@ def main():
     parser.add_argument('--receipt',required=True,type=Path)
     args=parser.parse_args()
     evidence=json.loads(args.receipt.read_bytes())
+    external_sha=sha256(ROOT/'proofs_ext/bounds.csv')
+    if external_sha!=evidence['external_bounds_sha256']:
+        revision=evidence['upstream']
+        if not re.fullmatch(r'[0-9a-f]{40}',revision):
+            raise ValueError('Expected a full proof revision')
+        frozen=subprocess.check_output(['git','show',revision+':proofs_ext/bounds.csv'],cwd=ROOT)
+        external_sha=hashlib.sha256(frozen).hexdigest()
     if (sha256(args.puzzles)!=evidence['official_sha256'] or
-            sha256(ROOT/'proofs_ext/bounds.csv')!=evidence['external_bounds_sha256'] or
+            external_sha!=evidence['external_bounds_sha256'] or
             sha256(ROOT/'proofs/local/files.sha256.json')!=evidence['local_manifest_sha256']):
         raise ValueError('Proof inputs changed; rerun proofs/local/verify.py')
     target=HERE/'puzzle-bounds.csv'

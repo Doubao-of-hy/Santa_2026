@@ -1,0 +1,20 @@
+{
+ "utc": "2026-11-20T12:20:41.186449+00:00",
+ "earlier_local_git": {
+  "commit": "73718ec",
+  "path": "improve/submission.csv",
+  "mode": "public programs used",
+  "sha256": "e2224fdc160fe82dd4c1b3951dc704cd7ca451fb1806367153d793c87b815551",
+  "score": 136991,
+  "current_public": 134487,
+  "vs_public_shorter": {}
+ },
+ "pure": {
+  "working_baseline": 141240,
+  "working_sha256": "1d88949b5bee69375eaa2158fa65952ee614beea9168c3c73ad06c3e1709ff3f",
+  "verified": 141026,
+  "sha256": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+  "improved_rows": 154,
+  "improvement": 214
+ }
+}

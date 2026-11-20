@@ -1,0 +1,58 @@
+{
+ "utc": "2026-11-20T12:19:39.151889+00:00",
+ "admitted": 24,
+ "savings": 30,
+ "verified": 134478,
+ "baseline_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f",
+ "sha256": "b699f80082725028ada5d2f59773d060f4f90002f7851fdd3ad47d4922dfbdf3",
+ "recomputed_all": true,
+ "replaced_unclear_lineage": {
+  "scored_0954": [
+   "Asterios v113",
+   "Asterios v99"
+  ],
+  "scored_0125": [
+   "Asterios v113",
+   "Asterios v99",
+   "previous project 135077"
+  ],
+  "scored_0213": [
+   "Asterios v113",
+   "Asterios v96"
+  ],
+  "scored_0785": [
+   "Asterios v113",
+   "Asterios v96"
+  ]
+ },
+ "skipped_unlicensed_or_unreproduced": [
+  "scored_0643"
+ ],
+ "rows": {
+  "scored_0006": 1,
+  "scored_0017": 1,
+  "scored_0030": 1,
+  "scored_0064": 2,
+  "scored_0079": 1,
+  "scored_0125": 2,
+  "scored_0213": 1,
+  "scored_0247": 2,
+  "scored_0309": 3,
+  "scored_0310": 1,
+  "scored_0383": 1,
+  "scored_0392": 2,
+  "scored_0513": 1,
+  "scored_0568": 1,
+  "scored_0618": 1,
+  "scored_0653": 1,
+  "scored_0695": 1,
+  "scored_0696": 1,
+  "scored_0785": 1,
+  "scored_0807": 1,
+  "scored_0888": 1,
+  "scored_0923": 1,
+  "scored_0954": 1,
+  "scored_0985": 1
+ },
+ "inputs_sha256": "cdc81560c456f6a8fd3a876733b3933560d87f73f779825ca50843f2c5d35080"
+}

@@ -41,7 +41,9 @@ def main():
     parser.add_argument("baseline", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--binary-dir", type=Path, required=True)
+    parser.add_argument("--allow-different-parents", action="store_true", help="Replay credited manifests assembled from multiple baseline versions")
     parser.add_argument("--recipes", type=Path, help="Override specified rows using ranked, credited parents")
+    parser.add_argument("--mode", choices=("anneal", "incremental", "anneal_diverse"), default="anneal")
     parser.add_argument("--rounds", type=int, default=35)
     parser.add_argument("--seed-offset", type=int, default=737049)
     parser.add_argument("--jobs", type=int, default=1)
@@ -59,19 +61,19 @@ def main():
             for row in csv.DictReader(source):
                 key = row["id"]
                 params = (row["mode"], int(row["rounds"]), int(row["seed"]))
-                if key not in baseline or params[0] not in {"anneal", "anneal_seeded"}:
+                if key not in baseline or params[0] not in {"anneal", "anneal_seeded", "incremental", "anneal_diverse"}:
                     raise ValueError(f"Unsupported manifest row {key}")
                 mode, rounds, seed, parents = settings.setdefault(key, (*params, []))
                 if (mode, rounds, seed) != params or int(row["rank"]) != len(parents):
                     raise ValueError(f"Conflicting manifest order for {key}")
                 parents.append(tuple(tuple(op) for op in json.loads(row["program"])))
         for key, (_, _, _, parents) in settings.items():
-            if parents[0] != baseline[key]:
+            if parents[0] != baseline[key] and not args.allow_different_parents:
                 raise ValueError(f"Incorrect baseline for {key}")
     else:
         for puzzle in puzzles:
             seed = args.seed_offset + int(puzzle.id.rsplit("_", 1)[1])
-            settings[puzzle.id] = ("anneal", args.rounds, seed, [baseline[puzzle.id]])
+            settings[puzzle.id] = (args.mode, args.rounds, seed, [baseline[puzzle.id]])
 
     def execute(puzzle):
         mode, rounds, seed, parents = settings[puzzle.id]
