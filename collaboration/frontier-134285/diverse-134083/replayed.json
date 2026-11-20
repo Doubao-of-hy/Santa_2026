@@ -1,0 +1,42 @@
+{
+  "union": 134091,
+  "reconstructed": 134083,
+  "sha256": "36beda3e6f8878d6df83de4c8a82f77aaa777758860aff033aca1c71634fe182",
+  "cases": {
+    "scored_0884": {
+      "base": 108,
+      "output": 106,
+      "canonical_sha256": "74d7cfbdd6eaa98b9c04a0a7402feef8c260b1d36a77dcd7ead9490af27712b7"
+    },
+    "scored_0975": {
+      "base": 107,
+      "output": 106,
+      "canonical_sha256": "b53376cd54099750396c6a8b002e2174a71d0576bb7a40726ff25288be0a840e"
+    },
+    "scored_0219": {
+      "base": 109,
+      "output": 108,
+      "canonical_sha256": "59acad9b9f6ab58896ff05c6888c652b9d808c51ac2db70c1987180fa37d650f"
+    },
+    "scored_0449": {
+      "base": 95,
+      "output": 94,
+      "canonical_sha256": "5d33e9d6e07a7465091ee6374bb9c20170ad3b2d92f92c816a740b6a1cd93f9c"
+    },
+    "scored_0102": {
+      "base": 117,
+      "output": 116,
+      "canonical_sha256": "b4490e590d7df8347f338462a07eea42bb77b156ecab2e735e60f95ff81ceaa5"
+    },
+    "scored_0392": {
+      "base": 99,
+      "output": 98,
+      "canonical_sha256": "06932a6d4d2767f8e59e7788b52cccfc3399f70cf6d2af1d6098b03925d82b71"
+    },
+    "scored_0437": {
+      "base": 127,
+      "output": 126,
+      "canonical_sha256": "db5a96052616aca8a3f5732235f95c94851f5f02d13962b01607b9cf7e5dade6"
+    }
+  }
+}

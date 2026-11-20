@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 00:16
+
+公开辅助候选 **134,065 条**。重建 E-Max AI 的七个结果省 8 条，另有六个公开程序各省 1 条。独立路线在 24 道试验题省 12 条，独立候选为 **140,663 条**。两份候选均已完整回放，未提交 Kaggle。[公开来源与程序](collaboration/frontier-134285/diverse-134083/README.md) · [独立结果和 873 道扩展名单](collaboration/withheld-targets/README.md)
+
 ## 北京时间 11 月 21 日 00:05
 
 另外 12 道题的最短长度下界各提高 1 条。经完整复核，1,000 题合计下界从 **37,968** 升至 **37,980**。仍有 20 题已证最短。[12 道题的复核结果](collaboration/evidence/combined-membership-8d4b4df.json)

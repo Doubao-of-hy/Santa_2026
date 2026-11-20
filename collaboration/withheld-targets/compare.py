@@ -133,29 +133,43 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     for k in ('puzzles','out'):ap.add_argument('--'+k,type=Path,required=True)
     ap.add_argument('--exe',type=Path);ap.add_argument('--jobs',type=int,default=7)
-    ap.add_argument('--phase',choices=['freeze','development','holdout'],required=True)
+    ap.add_argument('--phase',choices=['freeze','development','holdout','freeze-extension','extension'],required=True)
+    ap.add_argument('--block',type=int,default=0)
     ap.add_argument('--replay-only',action='store_true')
     a=ap.parse_args();a.out.mkdir(exist_ok=True,parents=True)
     assert sha256(a.puzzles)==cfg['puzzles_sha256']
     ps=read_puzzles(a.puzzles);pm={p.id:p for p in ps}
     parents={l:parent(l) for l in cfg['lanes']}
     selection=a.out/'selection.json'
-    if a.phase=='freeze':
+    if a.phase in ('freeze','freeze-extension'):
         eligible={r['id'] for r in frozen('collaboration/puzzle-bounds.csv') if not int(r['tight'])}
         selected={}
         for lane,(table,credit) in parents.items():
+            if a.phase=='freeze-extension' and lane!='own':continue
             group=[]
             for p in sorted(ps,key=lambda p:digest([cfg['salt'],lane,p.id])):
                 if p.id not in eligible:continue
                 case=choose(p,table[p.id])
                 if case:group.append(case)
-                if len(group)==cfg['development']+cfg['holdout']:break
-            assert len(group)==cfg['development']+cfg['holdout']
+                if a.phase=='freeze' and len(group)==cfg['development']+cfg['holdout']:break
+            size=cfg['development']+cfg['holdout']
+            if a.phase=='freeze-extension':
+                assert group[:size]==load(HERE/'selection.json')[lane]
+                group=group[size:]
+            else:assert len(group)==size
             selected[lane]=group
+        if a.phase=='freeze-extension':selection=a.out/'extension-selection.json.gz'
         dump(selection,selected);print(sha256(selection));return
-    records_file=a.out/(a.phase+'.json.gz')
-    selections=load(selection)
-    selected={l:(rows[:cfg['development']] if a.phase=='development' else rows[cfg['development']:]) for l,rows in selections.items()}
+    phase=a.phase
+    if a.phase=='extension':
+        phase=f'block-{a.block:02}'
+        cases=load(a.out/'extension-selection.json.gz')['own']
+        assert 0<=a.block*48<len(cases)
+        selected={'own':cases[a.block*48:(a.block+1)*48]}
+    else:
+        selections=load(selection)
+        selected={l:(rows[:cfg['development']] if a.phase=='development' else rows[cfg['development']:]) for l,rows in selections.items()}
+    records_file=a.out/(phase+'.json.gz')
     if not a.replay_only:
         packets={}
         for lane,rows in selected.items():
@@ -185,12 +199,12 @@ def main():
         with tempfile.TemporaryDirectory(dir=a.out) as tmp:
             path=Path(tmp)/'merged.csv';score=write_submission(path,ps,table|wins)
             assert score==sum(independent_score(a.puzzles,path))
-        dest=a.out/(a.phase+'-'+lane+'.csv')
+        dest=a.out/(phase+'-'+lane+'.csv')
         write_submission(dest,[p for p in ps if p.id in wins],wins)
         with dest.with_suffix('.origins.csv').open('w',encoding='utf8',newline='') as st:
             w=csv.writer(st);w.writerow(('id','source','upstream_source','instructions'))
             for i,t in sorted(wins.items()):w.writerow((i,'withheld-target recovery',credit[i],len(t)))
         report[lane]={'score':score,'savings':totals,'wins':{i:len(table[i])-len(v) for i,v in wins.items()},'beats_ordinary':adv}
-    dump(a.out/(a.phase+'.json'),report);print(report,flush=True)
+    dump(a.out/(phase+'.json'),report);print(report,flush=True)
 if __name__=='__main__':
     main()

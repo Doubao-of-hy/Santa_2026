@@ -1,0 +1,7 @@
+{
+  "input_dataset": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134083/versions/1",
+  "input_archive_sha256": "551fb150ba70f81dc230c34e1632695ed449d917a35f216fb7ce07b9f39a13d9",
+  "source_dataset": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-graph-search-source/versions/3",
+  "source_archive_sha256": "f8494a05598bb8c1ec58e5b339bd088acc834ed5c2452561053939c9ee40cc6a",
+  "author": "E-Max AI (royalacecat); arithmetic graph-search base by Wang Jakie. Input bundles credit GoodPJW, Asterios and their public sources."
+}

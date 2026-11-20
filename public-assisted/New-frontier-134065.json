@@ -1,0 +1,254 @@
+{
+  "base": "1e60bb93190d4ed18873d7db1560fced68917183",
+  "base_score": 134079,
+  "base_sha256": "47f4a6ae8a07173d6c147ce7b1e0851217c4f3bcd9fa7452c716ec866a5f9249",
+  "verified": 134065,
+  "verified_sha256": "cb6af9f187d155a64fc10ce4bf511e9b98d8de7a8859425e57d6007bc43d2c06",
+  "sources": {
+    "bikram": {
+      "ref": "bikrambasnet1/santa-2026-arithmetic-graph-rewrites",
+      "session": 371868626,
+      "source": "https://www.kaggle.com/code/bikrambasnet1/santa-2026-arithmetic-graph-rewrites?scriptVersionId=371868626",
+      "score": 134119,
+      "sha256": "9755f5d5b9b65fa460a1cd34a6d77781ee13fd8383beeaae2f7e11978ec00cbb",
+      "notebook_sha256": "76050525167d9ea403ad8c26cd6abb1f5a954849929b327feb97790e462a35b9",
+      "data_sources": [
+        {
+          "sourceType": "competition",
+          "sourceId": 177055
+        },
+        {
+          "sourceType": "datasetVersion",
+          "sourceId": 22390041
+        }
+      ],
+      "files": [
+        "submission.csv"
+      ]
+    },
+    "roman": {
+      "ref": "romanrozen/santa-2026-icefire-strong-start",
+      "session": 371870480,
+      "source": "https://www.kaggle.com/code/romanrozen/santa-2026-icefire-strong-start?scriptVersionId=371870480",
+      "score": 134085,
+      "sha256": "db8628a7db5b799c11fcf48b4b20446be8c70afee5d46d198bf330038d39fb4b",
+      "notebook_sha256": "46dc18044c53f89fcf9694555ee2e7ef5346562df6d7ea50b95fe4771e733591",
+      "data_sources": [
+        {
+          "sourceType": "competition",
+          "sourceId": 177055
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371867712
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371868626
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371866321
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371862730
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371860621
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371849485
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371826310
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371821642
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371818421
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371812841
+        },
+        {
+          "sourceType": "kernelVersion",
+          "sourceId": 371859290
+        }
+      ],
+      "files": [
+        "submission.csv"
+      ]
+    },
+    "rudolph": {
+      "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/75",
+      "archive_sha256": "5715cce582b89e41ff6119755074d261732b9929dea396f4b1067b30f80e7a25",
+      "csv_sha256": "3e75b9fccc210cef03dfb3640ebf009401680f54e1ba41225ed02067d3544c7e",
+      "score": 134085
+    },
+    "pratham": {
+      "url": "https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/25",
+      "archive_sha256": "d5a7adb0217695ac4842289f639ea42520ff33ec1ba6778517051a5bcae4bbef",
+      "csv_sha256": "0972a8cc3097acca6259d032501d5e25200a6f487571630617233e583c08a77d",
+      "score": 134091
+    },
+    "emax": {
+      "url": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134083/versions/1",
+      "archive_sha256": "551fb150ba70f81dc230c34e1632695ed449d917a35f216fb7ce07b9f39a13d9",
+      "replay": {
+        "union": 134091,
+        "reconstructed": 134083,
+        "sha256": "36beda3e6f8878d6df83de4c8a82f77aaa777758860aff033aca1c71634fe182",
+        "cases": {
+          "scored_0884": {
+            "base": 108,
+            "output": 106,
+            "canonical_sha256": "74d7cfbdd6eaa98b9c04a0a7402feef8c260b1d36a77dcd7ead9490af27712b7"
+          },
+          "scored_0975": {
+            "base": 107,
+            "output": 106,
+            "canonical_sha256": "b53376cd54099750396c6a8b002e2174a71d0576bb7a40726ff25288be0a840e"
+          },
+          "scored_0219": {
+            "base": 109,
+            "output": 108,
+            "canonical_sha256": "59acad9b9f6ab58896ff05c6888c652b9d808c51ac2db70c1987180fa37d650f"
+          },
+          "scored_0449": {
+            "base": 95,
+            "output": 94,
+            "canonical_sha256": "5d33e9d6e07a7465091ee6374bb9c20170ad3b2d92f92c816a740b6a1cd93f9c"
+          },
+          "scored_0102": {
+            "base": 117,
+            "output": 116,
+            "canonical_sha256": "b4490e590d7df8347f338462a07eea42bb77b156ecab2e735e60f95ff81ceaa5"
+          },
+          "scored_0392": {
+            "base": 99,
+            "output": 98,
+            "canonical_sha256": "06932a6d4d2767f8e59e7788b52cccfc3399f70cf6d2af1d6098b03925d82b71"
+          },
+          "scored_0437": {
+            "base": 127,
+            "output": 126,
+            "canonical_sha256": "db5a96052616aca8a3f5732235f95c94851f5f02d13962b01607b9cf7e5dade6"
+          }
+        }
+      }
+    }
+  },
+  "wins": {
+    "scored_0060": {
+      "old": 252,
+      "new": 251,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    },
+    "scored_0102": {
+      "old": 117,
+      "new": 116,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0219": {
+      "old": 109,
+      "new": 108,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0269": {
+      "old": 272,
+      "new": 271,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    },
+    "scored_0392": {
+      "old": 99,
+      "new": 98,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0437": {
+      "old": 127,
+      "new": 126,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0449": {
+      "old": 95,
+      "new": 94,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0690": {
+      "old": 261,
+      "new": 260,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    },
+    "scored_0729": {
+      "old": 274,
+      "new": 273,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    },
+    "scored_0884": {
+      "old": 108,
+      "new": 106,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0975": {
+      "old": 107,
+      "new": 106,
+      "matched": [
+        "E-Max AI"
+      ]
+    },
+    "scored_0991": {
+      "old": 174,
+      "new": 173,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    },
+    "scored_0998": {
+      "old": 204,
+      "new": 203,
+      "matched": [
+        "Bikram",
+        "Roman",
+        "Rudolph"
+      ]
+    }
+  }
+}
