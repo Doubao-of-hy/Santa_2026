@@ -23,6 +23,7 @@
 | GoodPJW v10 的历史父本交叉 | 已完成 | 16 道冻结独立题，五组同预算搜索中取短。第 180、225、429、927 题共省 6 条，独立总数 140,805。[五组与逐题结果](goodpjw-incremental/independent-results.json) |
 | 近长独立父本的交叉扩展 | 已完成 | 已完成 269/269 道，46 题共省 60 条。每题三种方法各 180 轮。[固定分组](goodpjw-incremental/extension-design.json) · [各批实际结果](goodpjw-incremental/extension) |
 | 新公开程序的交叉改写 | 已完成 | 50 道题各跑两种方法，每种 360 轮，0147 从 96 到 94，0557 从 109 到 108。[逐题结果、署名与复现](fresh-public-recombination/README.md) |
+| 用连续松弛选新增中间值 | Hansen0223 / Codex 在做 | 在独立、公开辅助两组做 8+16 题对照，将松弛解、旧路径计数与仅用已有数的整数解做整题重放比较。[分组与方法](helper-pricing/design.md) |
 | 短算术电路的等价替换 | 已完成 | 两组各 32+32 题共检查 13,619 个子图，13,921 个不同的整数改写均未缩短整题。人工完全平方从 6 条缩至 2 条。[代码与逐题实测](circuit-cuts/README.md) |
 | 交换不同温度下的程序 | 已完成 | 原版、四条无交换轨迹、四条可交换轨迹都跑完 32+32 题；留出组 203 次交换不同程序，三种设置都未缩短，已停止。[逐题与复现](parallel-tempering/README.md) |
 | 从两个已知输出反推两个中间数 | 已完成 | 8+16 题的新逆算式均没有超越同条件对照。对照中的两份父本组合使第 152 题从 115 降到 114。[实验与复现](affine-elimination/README.md) · [逐父本排除](affine-elimination/control-origins.json) |
