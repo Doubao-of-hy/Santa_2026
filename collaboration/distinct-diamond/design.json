@@ -1,0 +1,41 @@
+{
+  "base": "44e63d2dc88f858d87a65d3d5c4d1d951393b387",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "development": [
+    "scored_0476",
+    "scored_0933",
+    "scored_0244",
+    "scored_0693",
+    "scored_0242",
+    "scored_0479",
+    "scored_0135",
+    "scored_0427",
+    "scored_0739",
+    "scored_0759",
+    "scored_0077",
+    "scored_0017",
+    "scored_0057",
+    "scored_0951",
+    "scored_0778",
+    "scored_0310"
+  ],
+  "holdout": [
+    "scored_0923",
+    "scored_0694",
+    "scored_0165",
+    "scored_0664",
+    "scored_0370",
+    "scored_0236",
+    "scored_0099",
+    "scored_0684",
+    "scored_0381",
+    "scored_0018",
+    "scored_0426",
+    "scored_0164",
+    "scored_0360",
+    "scored_0623",
+    "scored_0805",
+    "scored_0657"
+  ],
+  "method": "Check for a diamond with five distinct target labels. In its absence, for h>=4 any simple representative graph has at most floor(h^2/4) edges. Every vertex outside a triangle has at most one neighbor inside it. Induct on deleting the three vertices, with the triangle-free case given by Mantel. Use only if strictly stronger than the K4-free ceiling. Return UNKNOWN on unresolved infinite families. Start with two independent frozen panels of 16. Verify against direct labelled small-graph enumeration before use."
+}
