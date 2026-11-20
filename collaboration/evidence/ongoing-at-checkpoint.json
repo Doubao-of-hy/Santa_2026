@@ -1,37 +1,49 @@
 {
-  "sampled_at": "2026-11-20T16:18:45+08:00",
+  "sampled_at": "2026-11-20T16:29:02+08:00",
   "instances": {
     "scored_0901": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 208,
-      "unknown": 193,
+      "finished": 224,
+      "unknown": 203,
       "total_branches": 384,
-      "nodes": 35108412408
+      "nodes": 37022935047
     },
     "scored_0149": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 204,
-      "unknown": 197,
+      "finished": 223,
+      "unknown": 214,
       "total_branches": 384,
-      "nodes": 35460000014
+      "nodes": 38520000018
     },
     "scored_0212": {
       "helpers": 11,
       "status": "INCOMPLETE",
-      "finished": 208,
+      "finished": 225,
       "unknown": 66,
       "total_branches": 384,
-      "nodes": 11880000188
+      "nodes": 11880000205
     },
     "scored_0882": {
       "helpers": 10,
       "status": "INCOMPLETE",
-      "finished": 79,
+      "finished": 94,
       "unknown": 2,
       "total_branches": 768,
-      "nodes": 1946626171
+      "nodes": 2119571205
+    }
+  },
+  "conditioned_0882": {
+    "old_helpers_required": 5,
+    "other_helpers_allowed": 5,
+    "status": "INCOMPLETE",
+    "shards_returned": 370,
+    "shards_planned": 1024,
+    "nodes": 419948794,
+    "counts": {
+      "UNSAT": 5692,
+      "UNKNOWN": 2
     }
   }
 }

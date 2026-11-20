@@ -8,7 +8,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[1]))
-from elf import Puzzle, read_puzzles, read_submission, replay, sha256
+from elf import read_puzzles, read_submission, replay, sha256
 from tiny import encode
 
 
@@ -53,11 +53,9 @@ def main():
     receipt = json.loads((directory / "verification.json").read_bytes())
     settings = source.get("search", {"seed": 1991, "discovery_iteration": 1105, "steps": 21,
                                      "profile": "balanced"})
-    p = Puzzle(source["id"], tuple(source["starting_values"]), tuple(source["targets"]),
-               source["value_limit"], source["registers"])
-    if args.puzzles:
-        assert sha256(args.puzzles) == source["official_puzzles_sha256"]
-        assert next(q for q in read_puzzles(args.puzzles) if q.id == p.id) == p
+    official = args.puzzles or HERE.parents[1] / "data" / "puzzles.csv"
+    assert sha256(official) == source["official_puzzles_sha256"]
+    p = next(q for q in read_puzzles(official) if q.id == source["id"])
     assert receipt.get("independent_source_input_sha256", receipt.get("frozen_parents")) == source["frozen_inputs_sha256"]
     witness_file = directory / "witness.csv"
     assert sha256(witness_file) == receipt.get("winning_csv_sha256", receipt.get("program_sha256"))

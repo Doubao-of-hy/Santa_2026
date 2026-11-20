@@ -123,17 +123,17 @@
  "incumbents": {
   "own": {
    "baseline": 141475,
-   "current": 141453,
-   "sha256": "70bf5e41b4902d4b13c853057cc1087c44b574f037af39560f6c2cb8a1ee2089",
-   "saved": 22,
-   "changed": 16
+   "current": 141441,
+   "sha256": "58b48b2f9a52cd4850fc1dad73681ceda207496d3a6a84498864c8c676a1726b",
+   "saved": 34,
+   "changed": 26
   },
   "assisted": {
    "baseline": 135106,
-   "current": 135083,
-   "sha256": "40a9d15438a0d2692a480fc61e3860a0c226c19844252a049aabe3f8ac4a65a6",
-   "saved": 23,
-   "changed": 16
+   "current": 135078,
+   "sha256": "f0fd262cf042a891acddccee749ab2b983fe43f8923e83c44fa9a446cf4d0ea1",
+   "saved": 28,
+   "changed": 20
   }
  },
  "conditional_file_sha256": "ced2e8201be653158bda8e7703a9173dae431aa041e88014b8fc6a8f5ff9cf72",

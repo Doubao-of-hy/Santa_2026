@@ -65,7 +65,7 @@ def main():
             'incompatible protocol')
     require(doc['status']=='UNSAT_REGION' and doc['totals']=={'UNSAT':comb(20,6)} and len(records)==shards and
             sorted(r['shard'] for r in records)==list(range(shards)) and doc['nodes']==sum(r['nodes'] for r in records),'incomplete grid')
-    if a.engine=='star':require(doc['nodes']==94901836,'unexpected primary node count')
+    require(doc['nodes']=={'star':94901836,'generic':79443526}[a.engine],'unexpected node count')
     groups=[[] for _ in range(shards)]
     for i,g in enumerate(combinations(union,6)):groups[i%shards].append(g)
     for row in records:

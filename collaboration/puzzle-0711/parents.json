@@ -1,19 +1,5 @@
 {
   "id": "scored_0711",
-  "starting_values": [
-    11,
-    14
-  ],
-  "targets": [
-    1247,
-    4131,
-    10338,
-    86536,
-    158760,
-    295704
-  ],
-  "value_limit": 838842,
-  "registers": 48,
   "official_puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
   "frozen_inputs_sha256": "1d0d18c2a61fc9ad9c174e0e564611658f8d2ac411cf9fc80f90756cb7218dff",
   "origin": {

@@ -9,6 +9,8 @@
 | 7 | 3 | 77,520 | 256 | 557,154,081 | 全部无解 |
 | 6 | 4 | 38,760 | 256 | 94,901,836 | 全部无解 |
 
+第四档另用通用遍历独立跑完同样的 38,760 个子问题，共展开 79,443,526 个节点。两种实现共用整数运算规则和目标闭包。第一种增量维护可达值，第二种在每一层重新枚举当前值的全部配对，并在剩余三个辅助数时检查可行条件。两边的全部 256 个分片均已结束。[通用遍历的完整回执](four-new-generic.json)
+
 五份程序长度为 23、24、23、23、23。第一份来自独立提交，第二份来自较早的独立存档。另三份在独立程序的算术候选池中寻找等长解，经目标闭包还原为可执行指令。文件给出每份程序的全部指令、辅助值清单、原始存档名与 SHA-256，复核器从官方题目重新执行五份程序并重建并集。[一个新值的分片](one-new.json) · [两个新值的分片](two-new.json) · [三个新值的分片](three-new.json)
 
 ## 为什么这些子集已足够
@@ -19,12 +21,13 @@
 
 ## 复核
 
-从比赛下载官方 `puzzles.csv`。在仓库根目录执行以下命令，需要 Python 3.12 以上及支持 C++17 的编译器。下面三行会分别用专用求解器穷尽前三档，用增量终局求解器穷尽第四档，并复核 240 项小值域对照及 236 项官方数值对照。给 `verify.py` 添加 `--max-new 2` 可先复核计算量较小的前两档。给 `verify_four.py` 添加 `--shard 17` 可只检查第四档的一个分片，或用 `--receipts-only` 核对整档清单的覆盖和计数。
+从比赛下载官方 `puzzles.csv`。在仓库根目录执行以下命令，需要 Python 3.12 以上及支持 C++17 的编译器。专用求解器穷尽前三档并复核 240 项小值域对照及 236 项官方数值对照。最后两行分别用两种引擎穷尽第四档。给 `verify.py` 添加 `--max-new 2` 可先复核计算量较小的前两档。给 `verify_four.py` 添加 `--shard 17` 可只检查第四档的一个分片，或用 `--receipts-only` 核对整档清单的覆盖和计数。
 
 ```bash
 g++ -O3 -std=c++17 collaboration/puzzle-0882-diversity/bundle_exact.cpp -o diversity-proof
 python -B collaboration/puzzle-0882-diversity/verify.py --puzzles data/puzzles.csv --binary ./diversity-proof --jobs 4 --audit
 python -B collaboration/puzzle-0882-diversity/verify_four.py --puzzles data/puzzles.csv --jobs 4
+python -B collaboration/puzzle-0882-diversity/verify_four.py --puzzles data/puzzles.csv --engine generic --jobs 4
 ```
 
 小值域对照用独立广度优先搜索覆盖 87 项有解和 153 项无解。真实第 882 题的首批 203 项对照覆盖 71 项已知可行与 132 项无解。第二轮从另取的 84 个七旧值子集中挑选计算量最大的 18 个，另加 15 个可行子集；通用遍历的 33 个结果与专用求解器全部相符。另对该题值域内每个整数逐一正向运算，验证了 3,366,864 项操作数配对、1,496,384 项一步可达结果和 120 个闭包。以下命令可重做这两项交叉验证。Windows 可把可执行文件名改为 `.exe`。[小域审计](small-audit.json) · [首批官方审计](official-sample-audit.json) · [独立审计及父本溯源](independent-audit.json)

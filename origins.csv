@@ -17,7 +17,7 @@ scored_0015,work/gpu/walk-independent.csv,228
 scored_0016,work/gpu/walk-independent.csv,129
 scored_0017,work/creative/frontier-135161/own/best-shorter.csv,110
 scored_0018,work/creative/own-good/pilot-wins.csv,131
-scored_0019,work/virtual/hyper-fresh-full.csv,25
+scored_0019,work/gpu/bridge-36731/wide-first-release/wins.csv,23
 scored_0020,work/gpu/overlap-independent.csv,265
 scored_0021,work/creative/frontier-135161/own/best-shorter.csv,42
 scored_0022,work/virtual/carry-135348/own-full-split.csv,122
@@ -89,7 +89,7 @@ scored_0087,work/heritage/deep-own-wins.csv,260
 scored_0088,work/creative/own-good/part3-wins.csv,208
 scored_0089,work/heritage/scale-own-wins.csv,134
 scored_0090,work/gpu/walk-independent.csv,194
-scored_0091,work/gen/shrink-full.csv,26
+scored_0091,work/gpu/bridge-36731/wide-first-release/wins.csv,25
 scored_0092,work/virtual/lifetimes-135161/polish/own-remaining-wins.csv,34
 scored_0093,work/creative/own-good/part3-wins.csv,108
 scored_0094,work/virtual/siblings-135106/own-recovered-early.csv,265
@@ -128,7 +128,7 @@ scored_0126,original-172868,4
 scored_0127,work/gpu/exchange-independent.csv,99
 scored_0128,work/virtual/repeated-135211/own-full.csv,124
 scored_0129,work/heritage/deep-own-wins.csv,291
-scored_0130,work/gen/rudolph-fresh.csv,25
+scored_0130,work/gpu/bridge-36731/wide-first-release/wins.csv,24
 scored_0131,work/virtual/bank-135324/own-full-native.csv,99
 scored_0132,work/creative/own-good/cumulative-wins.csv,113
 scored_0133,work/heritage/blend-own-wins.csv,219
@@ -391,7 +391,7 @@ scored_0389,work/creative/own-good/pilot-wins.csv,183
 scored_0390,work/gpu/walk-independent.csv,97
 scored_0391,work/gpu/graft-walk-independent.csv,197
 scored_0392,work/virtual/steiner-own-full.csv,105
-scored_0393,work/gpu/witness-dfs/own-blind.csv,24
+scored_0393,work/gpu/bridge-36731/wide-first-release/wins.csv,23
 scored_0394,work/creative/frontier-135161/own/best-shorter.csv,127
 scored_0395,work/creative/own-good/part4-wins.csv,95
 scored_0396,work/gpu/orbit-extension/own-all.csv,36
@@ -399,7 +399,7 @@ scored_0397,work/virtual/bank-135324/own-full-native.csv,191
 scored_0398,work/creative/own-good/cumulative-wins.csv,214
 scored_0399,work/gpu/lineage-independent.csv,21
 scored_0400,work/creative/own-good/part4-wins.csv,231
-scored_0401,work/creative/ladder/lns-local.csv,28
+scored_0401,work/gpu/bridge-36731/wide-first-release/wins.csv,27
 scored_0402,work/gpu/lineage-independent.csv,95
 scored_0403,work/virtual/lifetimes-135161/own-broad-all.csv,232
 scored_0404,work/virtual/portfolio-135289/own-all.csv,113
@@ -453,7 +453,7 @@ scored_0451,work/creative/frontier-135161/own/best-shorter.csv,122
 scored_0452,work/gpu/forced-active-independent.csv,215
 scored_0453,work/gpu/walk-independent.csv,111
 scored_0454,work/virtual/bank-135324/own-full-native.csv,219
-scored_0455,work/creative/ladder/lns-local.csv,29
+scored_0455,work/gpu/bridge-36731/wide-first-release/wins.csv,27
 scored_0456,work/creative/own-good/part3-wins.csv,127
 scored_0457,work/virtual/carry-135348/own-full-split.csv,121
 scored_0458,work/gpu/walk-independent.csv,157
@@ -485,12 +485,12 @@ scored_0483,work/heritage/deep-own-wins.csv,180
 scored_0484,work/virtual/portfolio-135289/own-post.csv,145
 scored_0485,original-172868,2
 scored_0486,work/virtual/bank-135324/own-neutral-full.csv,117
-scored_0487,work/gen/atakan-frontier-full.csv,29
+scored_0487,work/gpu/bridge-36731/wide-first-release/wins.csv,28
 scored_0488,work/virtual/portfolio-135289/own-wide-all.csv,159
 scored_0489,work/gpu/lineage-independent.csv,154
 scored_0490,original-172868,4
 scored_0491,work/virtual/portfolio-135289/own-all.csv,199
-scored_0492,work/gpu/mid-orbit/tight/own-wins.csv,36
+scored_0492,work/gpu/bridge-36731/wide-first-release/wins.csv,35
 scored_0493,work/virtual/carry-135348/own-full-deep.csv,254
 scored_0494,work/heritage/scale-own-wins.csv,216
 scored_0495,work/creative/own-good/cumulative-wins.csv,101
@@ -861,7 +861,7 @@ scored_0859,work/gpu/forced-active-independent.csv,230
 scored_0860,work/virtual/portfolio-135289/own-wide-all.csv,148
 scored_0861,work/creative/frontier-135161/own/best-shorter.csv,162
 scored_0862,work/creative/own-good/part2-wins.csv,110
-scored_0863,work/creative/own-good/part4-wins.csv,33
+scored_0863,work/gpu/bridge-36731/wide-first-release/wins.csv,32
 scored_0864,work/gpu/exchange-independent.csv,184
 scored_0865,work/heritage/deep-own-wins.csv,246
 scored_0866,work/gpu/lineage-independent.csv,27
@@ -956,7 +956,7 @@ scored_0954,work/gpu/walk-independent.csv,80
 scored_0955,work/gpu/lineage-independent.csv,89
 scored_0956,work/virtual/lifetimes-135161/own-direct-all.csv,230
 scored_0957,work/creative/ladder/lns-local.csv,29
-scored_0958,work/creative/ladder/branch-local.csv,28
+scored_0958,work/gpu/bridge-36731/wide-first-release/wins.csv,27
 scored_0959,work/creative/own-good/part3-wins.csv,239
 scored_0960,work/creative/ladder/lns-local.csv,130
 scored_0961,work/gpu/graft-walk-independent.csv,110
