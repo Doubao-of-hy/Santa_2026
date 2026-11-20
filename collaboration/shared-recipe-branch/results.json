@@ -96,5 +96,37 @@
     "incumbent_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
     "arithmetic_bank_only": true,
     "incumbent_values_only": true
+  },
+  "assisted_offset": {
+    "summary": {
+      "score": 134385,
+      "prior_score": 134385,
+      "saved": 0,
+      "improvements": 0,
+      "replayed": 1000,
+      "sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+      "incumbent_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+      "arithmetic_bank_only": true,
+      "incumbent_values_only": false
+    },
+    "optimal": 997,
+    "feasible": 3,
+    "shapes": 1000
+  },
+  "assisted_offset30": {
+    "summary": {
+      "score": 134385,
+      "prior_score": 134385,
+      "saved": 0,
+      "improvements": 0,
+      "replayed": 1000,
+      "sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+      "incumbent_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+      "arithmetic_bank_only": true,
+      "incumbent_values_only": false
+    },
+    "optimal": 3,
+    "feasible": 0,
+    "shapes": 3
   }
 }

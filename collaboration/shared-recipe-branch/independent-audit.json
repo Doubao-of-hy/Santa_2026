@@ -1,0 +1,347 @@
+{
+  "upstream_commit": "e24a8e5557434d2a2022fc7c9873e71aab148661",
+  "upstream_author": "Hiyohane",
+  "base_instructions": 140813,
+  "base_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+  "preregistered_cohort_sha256": "5e4ef92cc7ffc64953ffbc1d39319e59b3c441c9091fe75e448f8e5f6535b44a",
+  "solver_source_hashes": {
+    "private_cone.cpp": {
+      "git_blob": "c960f14893187e5477eb96d1884eb6e4a9d891c7",
+      "sha256": "1fb5bd99621b82712860b3375fd13798aa236dbed8d496d70b8d369da0e1f30b"
+    },
+    "private_cone.py": {
+      "git_blob": "5ec581eabc911fccefc47683650be4d2984d559e",
+      "sha256": "7354ab56d86c1f4a2aa92e9cf5912bee5e8e7c18aee3d255a982065c02cb3504"
+    },
+    "graph.py": {
+      "git_blob": "ea240d87fc5dbac9ef0725f598b28ab3ba69b2e6",
+      "sha256": "15511299ab2c6b96e463568b4b6e889fbb55a6c348863f0b5465cb2ae0c79421"
+    },
+    "elf.py": {
+      "git_blob": "8d5704978a66e42258371419a9cf38f4da04e88e",
+      "sha256": "6ee54b2d15e9ab0e70cb2ebbc20c6eac33414462f1dbc96789dc2fec58e9bdd8"
+    },
+    "gpu_schedule.py": {
+      "git_blob": "a3870eb06676bef23ef9fe90722bbdeb0f3e13b7",
+      "sha256": "d57ca2c10ef1b8574f86d9aef6cf570825beae0b8ff15ca53faa68157d4644c0"
+    },
+    "scc_donor_select.py": {
+      "git_blob": "586b2fee1b2b8b57288b108981e16786395fc7d4",
+      "sha256": "f962e2b0bbc1629a1c05412f8ff6b841f2397a75bbaf64ad2fb8f1fcb57ed7a4"
+    },
+    "checkpoint.py": {
+      "git_blob": "8fbe9a0ec33add2d7b7c22af3cb010fcd5c7e9f3",
+      "sha256": "7b12fb949eace4f94ea5af558eb1885f00197bb3421a95d4f6a3b054a12f5eed"
+    },
+    "scc_select.py": {
+      "git_blob": "a578c13b2a85d481f6125c527504ecec42be98a0",
+      "sha256": "f4a439820362fb944eff5902a9f6d3d54cd19a2369c99cb327a3e95298f91f02"
+    },
+    "generative/parallel_solve.py": {
+      "git_blob": "86cc240da80e902cf68807a90c5842e2d352fd37",
+      "sha256": "001c284d99ddec1aabd6ebd22c7dfe3ca7efe502f56e2acc2e3ccded165f8e19"
+    },
+    "generative/parallel_probe.py": {
+      "git_blob": "a28f21dc5a195c986b323446c2957fd928410375",
+      "sha256": "b52ea8ca9af37e4b5a222eb7b0bff8be182c78f3455e32734e041776bbfbe07b"
+    },
+    "generative/run_source.py": {
+      "git_blob": "ddb7551f1e78c6f92b9758e9bf1e269998b71fe5",
+      "sha256": "9c69c0bae63d1a5b84882a2affddc66448e0d7228d7d94f3b63d896b47c381be"
+    },
+    "crossover_lns.py": {
+      "git_blob": "7148bde0d38576a577ee7bafe350f0ab0dd9e978",
+      "sha256": "5c63b16482962112a5989ccedebd0e5c2d3822a0e683d5972521afbda5a5533f"
+    },
+    "generative/component_select.py": {
+      "git_blob": "3493a928b1b79eb688f111c77879a9214300781f",
+      "sha256": "16d2523be2593cab7ad3263290fbfd90df6060bdd4cacedc74dbe18e53d82010"
+    },
+    "generative/reachability_select.py": {
+      "git_blob": "c628e77d798dc553de0c69b19378d72045764da0",
+      "sha256": "22cbc0930700032b33389a77c9c34812bf28a2d542d3169b5cffade4fd433ed0"
+    }
+  },
+  "training_and_holdout_settings": {
+    "single": "scc_select.py",
+    "multiple": "scc_donor_select.py",
+    "seconds": 1.5,
+    "cp_sat_workers_per_row": 1,
+    "jobs_per_arm": 3,
+    "translation_offsets": false,
+    "donors": [
+      "verified-independent-donors/rudolph.csv",
+      "verified-independent-donors/konbu.csv",
+      "historical-wang.csv"
+    ],
+    "development_rows": 32,
+    "holdout_rows": 32
+  },
+  "ortools_version": "9.15.6755",
+  "historical_wang_sha256": "a642732f27cb8a8c3f3200a370a820704622bbf55cc1fed84308500f211c8aeb",
+  "historical_wang_selection": "Select the prior independent tape with the most distinct computed values absent from the incumbent; ties use shorter length and declared source order. If there are no new values, use the verified 140946 historical Wang tape so both arms still run the incumbent bank.",
+  "fresh_input_rows": {
+    "rudolph": {
+      "verified_fresh_rows": 250,
+      "excluded_resumed_rows": 750,
+      "clean_sha": "3d041560e30d46647971ad149f7bad06f7c476b6b9f90deffe2636381db4f692"
+    },
+    "konbu": {
+      "verified_fresh_rows": 174,
+      "excluded_resumed_rows": 826,
+      "clean_sha": "a0c98ee92845d8522037f1513bcb9e74f8db0e0a2410c56536648ea787cd579a"
+    }
+  },
+  "production": "Same settings as locked arms. All 1000 rows incl. 64 locked rows. Descriptive, not a new holdout.",
+  "resolution": "Only previously FEASIBLE row rerun at 30 s per arm, with one worker. Both finite-bank objectives closed at 219.",
+  "bound_scope": "Optimal only for the objectives and limited set of values/recipes admitted by each solver. Register scheduling checked by replay.",
+  "arms": {
+    "development-single": {
+      "rows": 32,
+      "sum_instructions": 140812,
+      "saved": 1,
+      "changed": {
+        "scored_0680": [
+          211,
+          210
+        ]
+      },
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "e14dfbe0e76a1fada67d7b8bb161dcd2530455fe899f98ef2239f686ab8bdaae",
+      "finite_bank_status": {
+        "OPTIMAL": 32
+      },
+      "donor_values": {},
+      "unresolved": []
+    },
+    "development-multiple": {
+      "rows": 32,
+      "sum_instructions": 140812,
+      "saved": 1,
+      "changed": {
+        "scored_0680": [
+          211,
+          210
+        ]
+      },
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "fe47f5d527a6e1fc67c1895dbef79a6b51083959072e5d8864f18cf67dbfe628",
+      "finite_bank_status": {
+        "OPTIMAL": 32
+      },
+      "donor_values": {
+        "offered_donor_values": {
+          "sum_within_rows": 1303,
+          "nonzero_rows": 14
+        },
+        "kept_donor_values": {
+          "sum_within_rows": 226,
+          "nonzero_rows": 14
+        },
+        "selected_new_values": {
+          "sum_within_rows": 0,
+          "nonzero_rows": 0
+        }
+      },
+      "unresolved": []
+    },
+    "holdout-single": {
+      "rows": 32,
+      "sum_instructions": 140813,
+      "saved": 0,
+      "changed": {},
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+      "finite_bank_status": {
+        "OPTIMAL": 32
+      },
+      "donor_values": {},
+      "unresolved": []
+    },
+    "holdout-multiple": {
+      "rows": 32,
+      "sum_instructions": 140813,
+      "saved": 0,
+      "changed": {},
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+      "finite_bank_status": {
+        "OPTIMAL": 32
+      },
+      "donor_values": {
+        "offered_donor_values": {
+          "sum_within_rows": 3046,
+          "nonzero_rows": 17
+        },
+        "kept_donor_values": {
+          "sum_within_rows": 360,
+          "nonzero_rows": 17
+        },
+        "selected_new_values": {
+          "sum_within_rows": 0,
+          "nonzero_rows": 0
+        }
+      },
+      "unresolved": []
+    },
+    "production-single": {
+      "rows": 1000,
+      "sum_instructions": 140812,
+      "saved": 1,
+      "changed": {
+        "scored_0680": [
+          211,
+          210
+        ]
+      },
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "e14dfbe0e76a1fada67d7b8bb161dcd2530455fe899f98ef2239f686ab8bdaae",
+      "finite_bank_status": {
+        "OPTIMAL": 999,
+        "FEASIBLE": 1
+      },
+      "donor_values": {},
+      "unresolved": [
+        "scored_0952"
+      ]
+    },
+    "production-multiple": {
+      "rows": 1000,
+      "sum_instructions": 140811,
+      "saved": 2,
+      "changed": {
+        "scored_0324": [
+          187,
+          186
+        ],
+        "scored_0680": [
+          211,
+          210
+        ]
+      },
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "c887cc8eaf1e84d2ea51e108eede0a49840755a62ac3e8fa8abf9e18af7849d9",
+      "finite_bank_status": {
+        "OPTIMAL": 999,
+        "FEASIBLE": 1
+      },
+      "donor_values": {
+        "offered_donor_values": {
+          "sum_within_rows": 57437,
+          "nonzero_rows": 435
+        },
+        "kept_donor_values": {
+          "sum_within_rows": 7714,
+          "nonzero_rows": 435
+        },
+        "selected_new_values": {
+          "sum_within_rows": 1,
+          "nonzero_rows": 1
+        }
+      },
+      "unresolved": [
+        "scored_0952"
+      ]
+    },
+    "resolution-single": {
+      "rows": 1,
+      "sum_instructions": 140813,
+      "saved": 0,
+      "changed": {},
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+      "finite_bank_status": {
+        "OPTIMAL": 1
+      },
+      "donor_values": {},
+      "unresolved": []
+    },
+    "resolution-multiple": {
+      "rows": 1,
+      "sum_instructions": 140813,
+      "saved": 0,
+      "changed": {},
+      "full_replays": {
+        "elf": 1000,
+        "independent_score": 1000
+      },
+      "output_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+      "finite_bank_status": {
+        "OPTIMAL": 1
+      },
+      "donor_values": {
+        "offered_donor_values": {
+          "sum_within_rows": 418,
+          "nonzero_rows": 1
+        },
+        "kept_donor_values": {
+          "sum_within_rows": 24,
+          "nonzero_rows": 1
+        },
+        "selected_new_values": {
+          "sum_within_rows": 0,
+          "nonzero_rows": 0
+        }
+      },
+      "unresolved": []
+    }
+  },
+  "private_cone_control": {
+    "development": "32 puzzles, 246 cones, 0 with proposals, 0 accepted cones, 0 shorter puzzles, 0 instructions saved",
+    "holdout": "32 puzzles, 229 cones, 0 with proposals, 0 accepted cones, 0 shorter puzzles, 0 instructions saved"
+  },
+  "release_arm": "production-multiple",
+  "winners": [
+    {
+      "id": "scored_0324",
+      "baseline": 187,
+      "instructions": 186,
+      "program_source": "Hiyohane e24a8e5 scc_donor_select.py",
+      "input_parent": "independent 140813",
+      "donor_source": "anneal-independent-full35/programs.csv",
+      "donor_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+      "donor_algorithm": "wang Jakie v5 Apache-2.0 graph annealing on local independent programs",
+      "offered_new_values": 156,
+      "kept_new_values": 19,
+      "used_new_values": 1,
+      "single_parent_instructions": 187
+    },
+    {
+      "id": "scored_0680",
+      "baseline": 211,
+      "instructions": 210,
+      "program_source": "Hiyohane e24a8e5 scc_donor_select.py",
+      "input_parent": "independent 140813",
+      "donor_source": "anneal-independent-full35/programs.csv",
+      "donor_sha256": "5be59064e59ad3023c1244e5471aacbcf9a2d9e6601e8ac25ff2fa384def5efc",
+      "donor_algorithm": "wang Jakie v5 Apache-2.0 graph annealing on local independent programs",
+      "offered_new_values": 179,
+      "kept_new_values": 24,
+      "used_new_values": 0,
+      "single_parent_instructions": 210
+    }
+  ],
+  "delta_sha256": "ded4ad9bc0b6a5f28e0eb969370c4666004501c09da6e578a1cf127349a9a790",
+  "origins_sha256": "b6825cb90cddb5ffa1c550dd96de3d65d3995b77fe664d4e098274cf51f05ce2"
+}

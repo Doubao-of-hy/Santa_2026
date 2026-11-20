@@ -4,6 +4,8 @@
 
 复用其他开发者在 `optimize/shared-recipe-portfolio` 发布的实现，独立解的第 680 题从 211 降到 210，第 324 题从 187 降到 186。与主线合并后，独立候选 **140,811** 条，公开辅助候选 **134,385** 条。两份文件均经两套解释器完整回放。两条路线相对暂停时分别减少 627 和 692 条。[来源、对照和两道程序](collaboration/shared-recipe-branch/README.md)
 
+21:22 的官方榜首为 128,330 条，129 支已排名的队伍优于本地公开辅助候选，0 队同分；若插入该快照约第 130 名。两项公开辅助全量对照已经完成，未找到更短的程序。[官方快照对照](collaboration/evidence/rank-134385-2122.json)
+
 ## 11 月 20 日新增四题并同步协作分支
 
 公开辅助候选 **134,385** 条。第 148 和 855 题来自 Asterios 第 118 版，第 695 和 752 题来自 Alex Chilton 发布的 Rudolph 第 67 版，各省 1 条。后者按发布版保留署名，来源未按题区分原作者。与暂停时相比，401 道题缩短 692 条；纯独立候选 140,813 条也已完整重放。21:07 的榜单快照中有 120 支队伍领先、0 支同分，距榜首 128,330 条还有 6,055 条。[逐题署名](collaboration/evidence/four-source-134385-origins.csv) · [复核证明](collaboration/evidence/four-source-134385.json) · [榜单对照](collaboration/evidence/rank-134385.json)
