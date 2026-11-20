@@ -1,0 +1,27 @@
+{
+  "baseline": "34a7042fc940dc6abb47760161110d71d3ccc6d6",
+  "own": 140722,
+  "assisted": 134183,
+  "reference": "E-Max AI v46 and v47 select two cases and one case respectively. v44 and v45 have complete comparisons already.",
+  "jobs": [
+    [
+      "134288",
+      "scored_0362"
+    ],
+    [
+      "134288",
+      "scored_0501"
+    ],
+    [
+      "134190",
+      "scored_0064"
+    ]
+  ],
+  "variants": [
+    "Recreate the documented parent set only with independently attributed byte-equivalent tapes; explicitly record exclusions and substitute the current attributed baseline if main absent.",
+    "Apply the same seeded method to the frozen project baseline and a diverse selected mix of traceable source tapes.",
+    "Apply it to the independently generated frozen baseline and its own distinct historical tapes only."
+  ],
+  "acceptance": "Compare the physical program with the fixed per-row incumbent, replay every accepted source and mixed candidate, and keep credits. Judge portfolio results by actual emitted lengths.",
+  "next": "If no gain among the three published cases switch the search, independently of whether the publication can be reproduced."
+}
