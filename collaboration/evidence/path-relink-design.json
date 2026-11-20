@@ -1,0 +1,10 @@
+{
+  "registered": "2026-11-20T21:29:51+08:00",
+  "parent_commit": "7b786dbdf3fb938c8f743306fdb52ccfcf1e3017",
+  "file": "submission.csv",
+  "score": 140811,
+  "sha256": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f",
+  "cohort": "scc-fresh-design.json",
+  "cohort_sha256": "5e4ef92cc7ffc64953ffbc1d39319e59b3c441c9091fe75e448f8e5f6535b44a",
+  "scope": "Independent circuit donors generated from official seeds and targets. Compare directed bidirectional replacement of target ancestry with random ordering and matched Wang crossover; all gains must compile under the official register limit and replay physically."
+}
