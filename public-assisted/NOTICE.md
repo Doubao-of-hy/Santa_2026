@@ -1,11 +1,11 @@
 # Attribution
 
-Asterios v120 is a collection verified and published by Asterios Panoras. The original dataset identifies the contributors to each program in its source column. The same credits are retained in origins.csv for selected Asterios v120 rows.
+Asterios v121 is a collection verified and published by Asterios Panoras. The original dataset identifies the contributors to each program in its source column. The same credits are retained in origins.csv for selected Asterios v121 rows.
 
 The programs are public work released under the Apache License 2.0, re-verified here; `source` names the origin of each one:
 Tony Li (Elf Calculator With Register Reuse), konbu17 (Wider Dictionary + Portfolio and its dataset), Elias T.-H. Shieh (Verified Best Programs and dataset), Mizero Lucky Gall and thisray (credited in those datasets), Nilanjan_Saha123 (Best-of-Public Elf Optimizer), Atakan Aldemir (Joint Recipes for Large Puzzles), Angel Jacinto Sanchez Ruiz (Public Merge) and Sargis Khachatryan (Cross-Trace MILP). `elf_tools/elf_suffix_ext.cpp` is based on Nilanjan_Saha123's suffix rebuilder. This dataset is released under the Apache License 2.0.
 
-[Original publication](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/120)
+[Original publication](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/121)
 
 Earlier local rewrites also used Asterios v8, v10 and v13. Contributors are listed in Asterios-history.csv and origins.csv. [Version 8](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/8) [Version 10](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/10) [Version 13](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/13)
 

@@ -1,0 +1,139 @@
+{
+  "commit": "aca4989fad3a364af53362841790b7e65d935f12",
+  "track": "public-assisted",
+  "total": 134311,
+  "parent_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+  "origin_sha256": "948848d7f2ba0bb6e8236d31a627cf31873547c5730ffef4d007a862f2154b19",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "selection": "Exclude first experiment's 12. Require >=12 distinct official targets. Hash sort with 'shared-intercept-134311/'+id per stratum; first two development and next two holdout.",
+  "rows": [
+    {
+      "id": "scored_0948",
+      "split": "development",
+      "parent": 132,
+      "stratum": [
+        120,
+        159
+      ],
+      "program_sha256": "ec85d1078dbde28414f0a2b513da9cc47e3106459f4edb233cc74603d35bb9d4"
+    },
+    {
+      "id": "scored_0226",
+      "split": "development",
+      "parent": 120,
+      "stratum": [
+        120,
+        159
+      ],
+      "program_sha256": "329925cae6a8c3f1d2bb2862809662ed17645772586ec92d3c789d95812b5822"
+    },
+    {
+      "id": "scored_0838",
+      "split": "holdout",
+      "parent": 139,
+      "stratum": [
+        120,
+        159
+      ],
+      "program_sha256": "a6e7542b8cb2c9df7810fa4625e8917870cecb95975fe9dbc81e35faccfde98c"
+    },
+    {
+      "id": "scored_0591",
+      "split": "holdout",
+      "parent": 127,
+      "stratum": [
+        120,
+        159
+      ],
+      "program_sha256": "8cb53e7afefc855f6f1867cc5ba1501d899df492a3c2443a6b0aaadd8eda5820"
+    },
+    {
+      "id": "scored_0986",
+      "split": "development",
+      "parent": 170,
+      "stratum": [
+        160,
+        199
+      ],
+      "program_sha256": "86a0fca37d423abf66baf770af8b48982bf0069900e224658828aa1c05287ed5"
+    },
+    {
+      "id": "scored_0680",
+      "split": "development",
+      "parent": 193,
+      "stratum": [
+        160,
+        199
+      ],
+      "program_sha256": "3e9e00ad67c89ae93049cc4d7ba3be111e884d0ea8db4bfb7b56517b95d2b6a0"
+    },
+    {
+      "id": "scored_0003",
+      "split": "holdout",
+      "parent": 196,
+      "stratum": [
+        160,
+        199
+      ],
+      "program_sha256": "8c67da4b238868ed278e3aa1b36dfa10aaab8ee506deaa5d44a5d772a4340752"
+    },
+    {
+      "id": "scored_0291",
+      "split": "holdout",
+      "parent": 163,
+      "stratum": [
+        160,
+        199
+      ],
+      "program_sha256": "bf070e59ea5abfb9765ccdb7d40de1dbee7d3f1e8f26dfede678333de0c8abe6"
+    },
+    {
+      "id": "scored_0476",
+      "split": "development",
+      "parent": 207,
+      "stratum": [
+        200,
+        4096
+      ],
+      "program_sha256": "46bcdb271601fcaadd54f7137599ec195b5d3328b2a782be909a13b7b17e6f8b"
+    },
+    {
+      "id": "scored_0592",
+      "split": "development",
+      "parent": 204,
+      "stratum": [
+        200,
+        4096
+      ],
+      "program_sha256": "bd77a8f468efc4940a1595911e8263e236f63ba8a827d9758797916f7a08371e"
+    },
+    {
+      "id": "scored_0719",
+      "split": "holdout",
+      "parent": 246,
+      "stratum": [
+        200,
+        4096
+      ],
+      "program_sha256": "64070232e1d9e99ec76c249148a6a02f33993d527db4310040e51e5aeb8fa2e1"
+    },
+    {
+      "id": "scored_0952",
+      "split": "holdout",
+      "parent": 210,
+      "stratum": [
+        200,
+        4096
+      ],
+      "program_sha256": "63b8d027add307be7bdee280556d2ff0c210c15be5dd8fe182e83d81b93b235f"
+    }
+  ],
+  "search": {
+    "per_branch": 4,
+    "max_roots": 50,
+    "max_coefficients": 36,
+    "max_pairs_to_build": 64,
+    "max_witnesses_per_pair": 4,
+    "mode": "Search distinct original single-target private branches. For each pair (u,v) solve directly u=k*h+e, v=l*h+e where k,l are paid positive coefficients. Using v-u=(l-k)h infer h, then signed e. Check h and abs(e) against original values or one step. Two physically compilable candidate arms use single-root changes one at a time vs combined two-root, permitting greedy assembly in both. Same frozen pair evidence, full physical replay, stop after 12."
+  }
+}

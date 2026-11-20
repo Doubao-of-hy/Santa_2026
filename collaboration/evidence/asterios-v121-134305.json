@@ -1,0 +1,47 @@
+{
+ "version_url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/121",
+ "source_score": 134316,
+ "release_license": "Apache 2.0",
+ "archive_sha256": "b9f21579bbc965240b4ed72fb6944ad7eb479dbf1ebbebe964821174cc66ce22",
+ "archive_bytes": 815662,
+ "version_evidence": "Kaggle SDK ListDatasets gives version 121, Apache 2.0 and compressed byte count; attached notebook 371830122 cites the immutable input 22502478, identical to the version-specific download storage path. Full programs double-replayed.",
+ "dataset_version_id": 22502478,
+ "raw_sha256": "b0438e40478480843fb38cd685e69917d8bef8bf99f2b56f35788698c73b2291",
+ "normalized_sha256": "3b77137573a2f992fa5e7272318a5372d95242ca0c65b2b15bdab7a85574e052",
+ "actual_replay_rows": 1000,
+ "frozen_previous_commit": "aca4989",
+ "current": 134305,
+ "public_sha256": "06a41e1395a7242663a7c7461570fea0911b54e267be6b7db9052d19327257d3",
+ "strict_replacements": {
+  "scored_0395": {
+   "before": 85,
+   "after": 84,
+   "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,318"
+  },
+  "scored_0457": {
+   "before": 113,
+   "after": 112,
+   "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,318"
+  },
+  "scored_0608": {
+   "before": 150,
+   "after": 149,
+   "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,318"
+  },
+  "scored_0646": {
+   "before": 126,
+   "after": 124,
+   "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set"
+  },
+  "scored_0871": {
+   "before": 113,
+   "after": 112,
+   "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,318"
+  }
+ },
+ "leaderboard_utc": "2026-11-20T13:52:59.258926+00:00",
+ "leader": 128330,
+ "ranked_rows": 1800,
+ "strictly_better": 125,
+ "equal": 1
+}
