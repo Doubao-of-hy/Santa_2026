@@ -1,0 +1,100 @@
+{
+  "source_commit": "e24a8e5557434d2a2022fc7c9873e71aab148661",
+  "independent": {
+    "development-single": {
+      "summary": {
+        "score": 140812,
+        "prior_score": 140813,
+        "saved": 1,
+        "improvements": 1,
+        "replayed": 1000,
+        "sha256": "e14dfbe0e76a1fada67d7b8bb161dcd2530455fe899f98ef2239f686ab8bdaae",
+        "incumbent_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+        "arithmetic_bank_only": true,
+        "incumbent_values_only": true
+      },
+      "total": 32,
+      "raw_sha256": "ad7b6e7508173d05884c4ec455ab1b704fd0d31408a03a9f1322ae5b43df4051"
+    },
+    "development-multiple": {
+      "summary": {
+        "prior": 140813,
+        "score": 140812,
+        "saved": 1,
+        "improved": 1,
+        "replayed": 1000,
+        "sha256": "fe47f5d527a6e1fc67c1895dbef79a6b51083959072e5d8864f18cf67dbfe628",
+        "scope": "finite_recipe_bank"
+      },
+      "total": 32,
+      "raw_sha256": "0df60a69adaed41a33f25f13677a29ae0d86740e7b54327070aad6efe1a6ade9"
+    },
+    "holdout-single": {
+      "summary": {
+        "score": 140813,
+        "prior_score": 140813,
+        "saved": 0,
+        "improvements": 0,
+        "replayed": 1000,
+        "sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+        "incumbent_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+        "arithmetic_bank_only": true,
+        "incumbent_values_only": true
+      },
+      "total": 32,
+      "raw_sha256": "a53f0dc06489db0d29bb6cfd8c04b1635c6f35e303374c79eccbcf77db125219"
+    },
+    "holdout-multiple": {
+      "summary": {
+        "prior": 140813,
+        "score": 140813,
+        "saved": 0,
+        "improved": 0,
+        "replayed": 1000,
+        "sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+        "scope": "finite_recipe_bank"
+      },
+      "total": 32,
+      "raw_sha256": "22436db0bbb4daa050dcd7e8366cfa329014b369acde1d6174a8567e0eba374e"
+    },
+    "production-single": {
+      "summary": {
+        "score": 140812,
+        "prior_score": 140813,
+        "saved": 1,
+        "improvements": 1,
+        "replayed": 1000,
+        "sha256": "e14dfbe0e76a1fada67d7b8bb161dcd2530455fe899f98ef2239f686ab8bdaae",
+        "incumbent_sha256": "49d65b1dc92385a80bd72e9abeaa054ec12aebd5e619d4b6ba93da2de9014365",
+        "arithmetic_bank_only": true,
+        "incumbent_values_only": true
+      },
+      "total": 1000,
+      "raw_sha256": "89765dec20993d471d2a51064e65e45218c90ef2c5e9ac8da883919582ba9903"
+    },
+    "production-multiple": {
+      "summary": {
+        "prior": 140813,
+        "score": 140811,
+        "saved": 2,
+        "improved": 2,
+        "replayed": 1000,
+        "sha256": "c887cc8eaf1e84d2ea51e108eede0a49840755a62ac3e8fa8abf9e18af7849d9",
+        "scope": "finite_recipe_bank"
+      },
+      "total": 1000,
+      "raw_sha256": "32fc86d4f504f5b7324a1398fbfa3d8f3e1cfe81da0c47df1424197f9f36b477"
+    }
+  },
+  "assisted_incumbent": {
+    "score": 134385,
+    "prior_score": 134385,
+    "saved": 0,
+    "improvements": 0,
+    "replayed": 1000,
+    "sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+    "incumbent_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+    "arithmetic_bank_only": true,
+    "incumbent_values_only": true
+  }
+}
