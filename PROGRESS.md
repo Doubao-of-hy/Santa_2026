@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 00:05
+
+另外 12 道题的最短长度下界各提高 1 条。经完整复核，1,000 题合计下界从 **37,968** 升至 **37,980**。仍有 20 题已证最短。[12 道题的复核结果](collaboration/evidence/combined-membership-8d4b4df.json)
+
 ## 北京时间 11 月 21 日 00:02
 
 公开辅助候选为 **134,079**。与前一版相比，GoodPJW 发布的 26 道题省 33 条，E-Max AI 的第 942 题再省 1 条。独立搜索另在 6 道题省 9 条，独立候选为 **140,675**。两份候选均已完整回放。00:02 榜首 128,330，相差 5,749 条，尚未提交。[本轮 27 道](collaboration/frontier-134285/public-134079/README.md) · [独立搜索](collaboration/synthetic-temporary-targets/README.md)

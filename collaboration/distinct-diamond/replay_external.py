@@ -1,4 +1,4 @@
-"""Recheck the five 4f841d7 additions against their published shard counts."""
+"""Recheck new external decisions against their published shard counts."""
 import argparse
 from concurrent.futures import ThreadPoolExecutor,as_completed
 import hashlib,importlib.util,json,subprocess,sys
@@ -8,20 +8,24 @@ def sha(data):return hashlib.sha256(data).hexdigest()
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     for name in ('repo','puzzles','exe','out'):ap.add_argument('--'+name,type=Path,required=True)
+    ap.add_argument('--ref',default='4f841d7');ap.add_argument('--base',default='d8af49a');
     ap.add_argument('--jobs',type=int,default=8);a=ap.parse_args();a.out.mkdir(parents=True,exist_ok=True)
     repo=a.repo.resolve();sys.path.insert(0,str(repo))
     from elf import read_puzzles
     spec=importlib.util.spec_from_file_location('external_search',repo/'proofs_ext/verify.py')
     mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
-    rev=subprocess.check_output(['git','rev-parse','4f841d7'],cwd=repo,text=True).strip()
+    rev=subprocess.check_output(['git','rev-parse',a.ref],cwd=repo,text=True).strip()
     def get(name):return subprocess.check_output(['git','show',rev+':'+name],cwd=repo)
-    aggregate=json.loads(get('proofs_ext/decisions.json'));earlier=json.loads(subprocess.check_output(['git','show','d8af49a:proofs_ext/decisions.json'],cwd=repo))
+    aggregate=json.loads(get('proofs_ext/decisions.json'));earlier=json.loads(subprocess.check_output(['git','show',a.base+':proofs_ext/decisions.json'],cwd=repo))
     keys=lambda rs:{(x['id'],x['helpers']):x for x in rs['decisions']}
     now,before=keys(aggregate),keys(earlier)
-    assert now.keys()-before.keys()==set(IDS.items()) and all(now[k]==v for k,v in before.items())
+    additions=sorted(now.keys()-before.keys())
+    assert additions and all(now[k]==v for k,v in before.items())
+    if a.ref=='4f841d7' and a.base=='d8af49a':assert set(additions)==set(IDS.items())
+    assert len(additions)==len({i for i,h in additions})
     official=a.puzzles.read_bytes();assert sha(official.replace(b'\r\n',b'\n'))==aggregate['puzzles_lf_sha256']
     ps={p.id:p for p in read_puzzles(a.puzzles)};binhash=sha(a.exe.read_bytes());claims={};tasks=[]
-    for i,h in IDS.items():
+    for i,h in additions:
         decision=json.loads(get(f'proofs_ext/decisions.d/{i}_h{h}.json'))
         assert decision==now[i,h] and not decision.get('subshards')
         assert len(set(ps[i].targets)-set(ps[i].seeds))+h+1==decision['lower_bound']

@@ -1,0 +1,13 @@
+{
+  "puzzle": "scored_0942",
+  "input_bundle": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134124/versions/1",
+  "source": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-graph-search-source/versions/3",
+  "source_archive_sha256": "f8494a05598bb8c1ec58e5b339bd088acc834ed5c2452561053939c9ee40cc6a",
+  "source_sha256": "b60c8feead2a2754888ca0b6f58f271c00e9f7a0fc2192534f7f0720a83e479d",
+  "seed": 492181,
+  "rounds": 1200,
+  "before": 112,
+  "after": 111,
+  "canonical_program_sha256": "cfaf2ee42b37b05aca58bd7cc8e577e1aee7494b647633051b5dc03e2218f276",
+  "result": "independently recompiled and matched all instructions of the published solution"
+}
