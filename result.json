@@ -1,7 +1,7 @@
 {
   "puzzles": 1000,
-  "instructions": 140745,
-  "sha256": "5944252c3b2f2fb8caa197ea36c74dfa4d430d0856144f1a406c558dc30931ba",
+  "instructions": 140734,
+  "sha256": "afd1997bd72b8e7b884b45f939f3bbbf7bfcbdae1330e0f674e6abe40ca75f85",
   "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
   "longest_program": 303,
   "arithmetic_lower_bound": 36731,
@@ -14,8 +14,8 @@
     "work/gpu/walk-independent.csv": 38,
     "work/gpu/lineage-independent.csv": 49,
     "work/creative/resume-135077/anneal-independent-full35/shorter.csv": 65,
-    "work/creative/resume-135077/anneal-own-port160/shorter.csv": 26,
-    "work/creative/resume-135077/independent-final-140814/shorter.csv": 42,
+    "work/creative/resume-135077/anneal-own-port160/shorter.csv": 25,
+    "work/creative/resume-135077/independent-final-140814/shorter.csv": 41,
     "work/creative/ladder/lns-local.csv": 28,
     "work/heritage/scale-own-wins.csv": 33,
     "work/virtual/portfolio-135289/own-wide-all.csv": 34,
@@ -23,7 +23,7 @@
     "work/creative/own-good/pilot-wins.csv": 5,
     "work/gpu/bridge-36731/wide-first-release/wins.csv": 5,
     "work/gpu/overlap-independent.csv": 6,
-    "work/virtual/good10-wang-269/results/batch-05/winners.csv": 7,
+    "work/virtual/good10-wang-269/results/batch-05/winners.csv": 6,
     "work/virtual/resume-135077/wang-second.csv": 84,
     "work/virtual/whole-135358/sparse.csv": 2,
     "work/virtual/lifetimes-135161/own-pressure.csv": 6,
@@ -37,20 +37,20 @@
     "work/gpu/frontier-independent.csv": 9,
     "work/virtual/portfolio-135289/own-all.csv": 22,
     "work/virtual/resume-135077/official-fresh-3.csv": 1,
-    "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv": 42,
+    "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv": 39,
     "work/virtual/guided-142434/small-twoply.csv": 1,
     "work/virtual/lifetimes-135161/schedule.csv": 1,
     "work/virtual/resume-135077/polish2-own-remaining.csv": 9,
     "work/creative/own-good-reproduced/wins.csv": 7,
     "work/virtual/portfolio-135289/own-wide-hold.csv": 4,
     "original-172868": 16,
-    "work/virtual/good10-wang-269/results/batch-08/winners.csv": 9,
+    "work/virtual/good10-wang-269/results/batch-08/winners.csv": 8,
     "work/virtual/guided-142434/medium-warm.csv": 1,
     "work/virtual/carry-135348/own-full-deep.csv": 6,
     "work/virtual/good10-wang-269/results/batch-02/winners.csv": 6,
     "work/heritage/symbol-own-wins.csv": 4,
     "work/virtual/good10-wang-269/results/batch-03/winners.csv": 6,
-    "work/virtual/bank-135324/own-full-native.csv": 17,
+    "work/virtual/bank-135324/own-full-native.csv": 16,
     "work/creative/own-good/part2-wins.csv": 20,
     "work/virtual/bank-135324/own-neutral-hold.csv": 2,
     "work/gpu/bridge-next-141441/engine/results/best-independent.csv": 1,
@@ -82,18 +82,20 @@
     "work/virtual/lifetimes-135161/own-broad-hold.csv": 2,
     "work/virtual/whole-135358/guided.csv": 4,
     "work/creative/own-good/cumulative-wins.csv": 16,
+    "work/virtual/reactive-134311/results/pure-holdout.csv": 2,
     "work/gpu/domain-independent.csv": 3,
     "work/creative/forward/independent-replayed-0237.csv": 1,
     "work/gpu/orbit-extension/own-all.csv": 4,
     "work/gpu/bridge-36731/construct/sparse-0250-1293-20.csv": 1,
     "work/creative/market/own-offset-all.csv": 1,
-    "work/virtual/good10-wang-269/results/batch-01/winners.csv": 4,
+    "work/virtual/reactive-134311/accepted/independent-shorter.csv": 8,
+    "work/virtual/good10-wang-269/results/batch-01/winners.csv": 3,
     "work/virtual/whole-135358/focus.csv": 1,
     "work/creative/own-good/part4-wins.csv": 10,
     "work/virtual/good10-wang-269/results/batch-09/winners.csv": 2,
     "work/creative/carry-gpu/full-own-wins.csv": 3,
     "work/virtual/hyper-fresh-full.csv": 1,
-    "work/heritage/scale-own.csv": 3,
+    "work/heritage/scale-own.csv": 2,
     "work/gen/atakan-frontier-full.csv": 4,
     "work/creative/scc-e24a8e5-140813/bank-production-win.csv": 1,
     "work/gen/atlas-expanded.csv": 2,
@@ -165,7 +167,7 @@
     "independent_full_replay": true,
     "median_program": 127.0,
     "p90_program": 232,
-    "submission_bytes": 2262456,
+    "submission_bytes": 2261902,
     "kaggle_submission_status": "local_only"
   },
   "benchmarks": {
@@ -202,7 +204,7 @@
         "selected_puzzles": 1
       }
     },
-    "current_reduction_from_sample_percent": 90.5564,
+    "current_reduction_from_sample_percent": 90.5572,
     "latest_official_leaderboard": {
       "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
       "checked_at": "2026-11-20T13:52:59.258926+00:00",
@@ -3390,6 +3392,26 @@
           "saved": 3,
           "snapshot_size": 2,
           "adopted_programs_sha256": "2d834c636cc63dc9f0a7558de3c4140a9777d269fd5d37b39ad65863da2fb3ea"
+        }
+      }
+    },
+    {
+      "utc": "2026-11-20T14:09:14+00:00",
+      "previous_sha256": "5944252c3b2f2fb8caa197ea36c74dfa4d430d0856144f1a406c558dc30931ba",
+      "score": 140734,
+      "sha256": "afd1997bd72b8e7b884b45f939f3bbbf7bfcbdae1330e0f674e6abe40ca75f85",
+      "adopted": {
+        "work/virtual/reactive-134311/results/pure-holdout.csv": {
+          "rows": 2,
+          "saved": 2,
+          "snapshot_size": 2,
+          "adopted_programs_sha256": "53365524c504324695707e42a78f0296af9d90621eb0c648bf2d9eb6e3465c73"
+        },
+        "work/virtual/reactive-134311/accepted/independent-shorter.csv": {
+          "rows": 8,
+          "saved": 9,
+          "snapshot_size": 8,
+          "adopted_programs_sha256": "abea6d149d19424ee6d6879e6050f05cd8c392bd66e8bc7c00dc2e9a544ad4b2"
         }
       }
     }

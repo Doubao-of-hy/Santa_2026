@@ -1,0 +1,128 @@
+{
+  "basis": "aca4989",
+  "total": 134310,
+  "double_replayed_rows": 1000,
+  "sha256": "829a771dea4726acc52a0123cc3266b654acfbdec1ca90411c59216306aa3eb8",
+  "shorter_sha256": "68cb9800ec8b95352b756d890580c40435c0f3bfecc1ecb25aede1498aa959a7",
+  "cases": {
+    "scored_0740": {
+      "mode": "anneal",
+      "rounds": 900,
+      "seed": 491656,
+      "before": 131,
+      "after": 130,
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "source": "work\\creative\\public-refresh-134321\\asterios120\\best_programs.csv",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "program_sha256": "7807e97a6903aed55456c86a2693f6ce39b249f45e14801df68c43bfb4d5649a"
+        },
+        {
+          "role": "atakan",
+          "source": "work\\creative\\asterios-v8\\best_programs.csv",
+          "credit": "Ertugrul Ozer, Starter Notebook",
+          "program_sha256": "d7e0409b24d468b808b5da1817076fd84859c228d2ac4735451c886f9a84061e"
+        }
+      ],
+      "omitted_undocumented_inputs": [],
+      "local_source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+      "local_program_sha256": "57a2d83fffdf2b7d10933b7fe5c05ba56e2bf1e3db0ba2e8534000153c43ab10",
+      "matches_actual_public_output": true
+    },
+    "scored_0286": {
+      "mode": "anneal",
+      "rounds": 900,
+      "seed": 491203,
+      "before": 117,
+      "after": 117,
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "source": "work\\creative\\public-refresh-134321\\asterios120\\best_programs.csv",
+          "credit": "E-Max AI, Santa 2026 Crossover Stage 134618",
+          "program_sha256": "07b9383b0e5b10277635e1eb6ec86f5b9f1ed839f5b898c93379bf814847ce80"
+        },
+        {
+          "role": "Hansen_248894967985",
+          "source": "248894967985e4e6a68ec188d8387b9f43056f9b:public-assisted/submission.csv",
+          "credit": "Asterios v10 credits Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set. Local or Hanif v15 donors may also contribute.",
+          "program_sha256": "8a785141c0ed89565dc66a3173e02b4394032289f0da550f743efa2c3ae283bb"
+        }
+      ],
+      "omitted_undocumented_inputs": [
+        "Ozer_0947",
+        "Ozer_1021"
+      ],
+      "local_source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+      "local_program_sha256": "07b9383b0e5b10277635e1eb6ec86f5b9f1ed839f5b898c93379bf814847ce80",
+      "matches_actual_public_output": false
+    },
+    "scored_0383": {
+      "mode": "oldest",
+      "rounds": 900,
+      "seed": 491300,
+      "before": 131,
+      "after": 131,
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "source": "work\\creative\\public-refresh-134321\\asterios120\\best_programs.csv",
+          "credit": "Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",
+          "program_sha256": "a2164e6139c4dc0bdfaf4a6cb139dec0b180aadba7cc09dd5078afe288ba3c6e"
+        },
+        {
+          "role": "Our_v22_public",
+          "source": "work\\creative\\resume-135077\\rudolph66\\rudolph_programs.csv",
+          "credit": "work\\creative\\resume-135077\\rudolph66\\rudolph_programs.csv",
+          "program_sha256": "8b6463d10a1bf5f3075be4e1b9e94bc4ba567e742af9b9951eccd9c1557d28fa"
+        },
+        {
+          "role": "Additional_public_1_1612",
+          "source": "aca4989:submission.csv",
+          "credit": "work/virtual/resume-135077/wang-second.csv",
+          "program_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9"
+        },
+        {
+          "role": "Our_v34_public",
+          "source": "work\\creative\\resume-135077\\rudolph67\\rudolph_programs.csv",
+          "credit": "work\\creative\\resume-135077\\rudolph67\\rudolph_programs.csv",
+          "program_sha256": "c9e5d190a499bc0b72b4fae17e44ffa9faebd7a2786a243a9b4f3704bf2b1943"
+        }
+      ],
+      "omitted_undocumented_inputs": [
+        "Additional_public_1_1557"
+      ],
+      "local_source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+      "local_program_sha256": "a2164e6139c4dc0bdfaf4a6cb139dec0b180aadba7cc09dd5078afe288ba3c6e",
+      "matches_actual_public_output": false
+    },
+    "scored_0189": {
+      "mode": "incremental",
+      "rounds": 900,
+      "seed": 491106,
+      "before": 117,
+      "after": 117,
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "source": "work\\creative\\public-refresh-134321\\asterios120\\best_programs.csv",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,582",
+          "program_sha256": "6bac9c1c2f62f3b871bc4903a2882843532935b8b8e40e73c48801473ddef910"
+        },
+        {
+          "role": "Hansen_248894967985",
+          "source": "248894967985e4e6a68ec188d8387b9f43056f9b:public-assisted/submission.csv",
+          "credit": "Generated from official inputs",
+          "program_sha256": "f91007a2b1f5f3706b9d6c5a164b6b61dc0c74e92cc1d25abf6c5568e83f0a81"
+        }
+      ],
+      "omitted_undocumented_inputs": [
+        "Roman_1115_public"
+      ],
+      "local_source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295",
+      "local_program_sha256": "6bac9c1c2f62f3b871bc4903a2882843532935b8b8e40e73c48801473ddef910",
+      "matches_actual_public_output": false
+    }
+  }
+}

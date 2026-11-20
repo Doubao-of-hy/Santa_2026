@@ -1,0 +1,56 @@
+{
+ "commit": "aca4989fad3a364af53362841790b7e65d935f12",
+ "group": "holdout",
+ "puzzle_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "binary_sha256": {
+  "original": "fd29e937db7b846f15ef04e5fbc767c681044c4c80902a0997ad827b93be736b",
+  "three": "bf015e26f05f785f878ce8b3e15bd2f09d9bfbc492205e68e7d4b36c5cfbe47b",
+  "tabu": "bf015e26f05f785f878ce8b3e15bd2f09d9bfbc492205e68e7d4b36c5cfbe47b"
+ },
+ "pure": {
+  "rows": 48,
+  "wins": 2,
+  "full_score": 140743,
+  "full_sha256": "0441f8d10d3dd462a2339606d875ae17719b1bde966010d124ac4c2e2eece79a",
+  "arms": {
+   "original": {
+    "savings": 2,
+    "unique_savings": 2,
+    "blocked": 0
+   },
+   "three": {
+    "savings": 0,
+    "unique_savings": 0,
+    "blocked": 0
+   },
+   "tabu": {
+    "savings": 0,
+    "unique_savings": 0,
+    "blocked": 3134
+   }
+  }
+ },
+ "assisted": {
+  "rows": 48,
+  "wins": 0,
+  "full_score": 134311,
+  "full_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+  "arms": {
+   "original": {
+    "savings": 0,
+    "unique_savings": 0,
+    "blocked": 0
+   },
+   "three": {
+    "savings": 0,
+    "unique_savings": 0,
+    "blocked": 0
+   },
+   "tabu": {
+    "savings": 0,
+    "unique_savings": 0,
+    "blocked": 3276
+   }
+  }
+ }
+}

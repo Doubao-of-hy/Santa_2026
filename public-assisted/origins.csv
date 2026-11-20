@@ -162,7 +162,7 @@ scored_0160,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithm
 scored_0161,work/creative/frontier-135161/arsen-shorter.csv,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 135,921",159
 scored_0162,work/gpu/lineage-trusted.csv,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",137
 scored_0163,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",245
-scored_0164,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",120
+scored_0164,work/virtual/reactive-134311/results/assisted-development.csv,"Wang Jakie incremental search (Apache-2.0); local trajectory variant original; parent aca4989: goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",119
 scored_0165,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",242
 scored_0166,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",204
 scored_0167,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",251
@@ -272,7 +272,7 @@ scored_0270,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",117
 scored_0271,Asterios v99,"Ángel Jacinto Sánchez Ruiz, Public Merge",40
 scored_0272,local from official inputs,Generated from official inputs,22
 scored_0273,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",180
-scored_0274,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",138
+scored_0274,local from official inputs,Generated from official inputs,138
 scored_0275,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",145
 scored_0276,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",72
 scored_0277,local from official inputs,Generated from official inputs,111
@@ -738,7 +738,7 @@ scored_0736,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0737,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",113
 scored_0738,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",99
 scored_0739,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",149
-scored_0740,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",131
+scored_0740,work/creative/notebook-frontier-134311/reproduction/shorter.csv,"E-Max AI (RoyalAceCat) v41 reported the retained-pool rule and case seed. Locally reimplemented on the wang Jakie Apache-2.0 v5 engine. Input programs: work\creative\public-refresh-134321\asterios120\best_programs.csv (Ertuğrul Özer, Santa 2026 | Starter Notebook!), work\creative\asterios-v8\best_programs.csv (Ertugrul Ozer, Starter Notebook)",130
 scored_0741,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",117
 scored_0742,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",181
 scored_0743,Asterios v113,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,556",103
@@ -902,7 +902,7 @@ scored_0900,work/gpu/exchange-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + D
 scored_0901,local from official inputs,Generated from official inputs,17
 scored_0902,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",209
 scored_0903,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",151
-scored_0904,Asterios v117,"E-Max AI, Santa 2026 | Public Frontier | Score 134,465",108
+scored_0904,local from official inputs,Generated from official inputs,108
 scored_0905,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",232
 scored_0906,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",201
 scored_0907,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",117

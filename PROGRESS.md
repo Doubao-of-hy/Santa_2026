@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日的多方法整题重放
+
+独立文件达到 **140,734** 条，公开辅助文件达到 **134,303** 条。原版 Wang 增量搜索在新对照中改善独立 0228、0746 及公开辅助 0164。第 740 题用两份有署名的旧程序重建了 E-Max AI 的保留父本方法。另有 8 道独立题来自 Atakan 两个原版乘数搜索的复跑。所有成果以两种解释器逐题校验。[合并前后的逐题长度](collaboration/evidence/trajectory-frontier-merge.json) · [三种搜索的完整对照](collaboration/reactive-tabu/README.md)
+
 ## 11 月 20 日更新 Asterios 第 121 版
 
 完整重放得到 134,316 条。相对上次发布的公开辅助文件，第 395、457、608、871 题各省 1 条，第 646 题省 2 条，合计达到 **134,305** 条。前四题在上游逐行署名 E-Max AI，第 646 题署名 Asterios Panoras 复跑 Atakan Aldemir 优化器。独立文件为 **140,745** 条。[固定来源、逐题回执及榜单](collaboration/evidence/asterios-v121-134305.json)
