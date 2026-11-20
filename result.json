@@ -167,7 +167,7 @@
     "early_dictionary_steps": 202265,
     "public_reference_portfolio_steps": 138904,
     "public_leaderboard_first_steps": 128330,
-    "public_leaderboard_snapshot_beijing": "2026-11-20 21:22",
+    "public_leaderboard_snapshot_beijing": "2026-11-20 21:35",
     "public_leaderboard_url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
     "public_reference_sources": {
       "asterios": {
@@ -195,7 +195,7 @@
     "current_reduction_from_sample_percent": 90.552,
     "latest_official_leaderboard": {
       "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
-      "checked_at": "2026-11-20T13:22:15.841364+00:00",
+      "checked_at": "2026-11-20T13:35:54.830550+00:00",
       "top_scores": [
         128330,
         128830,

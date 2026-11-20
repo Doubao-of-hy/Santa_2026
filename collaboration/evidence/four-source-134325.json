@@ -1,0 +1,308 @@
+{
+ "utc": "2026-11-20T13:38:09.091139+00:00",
+ "catalog_observed": "2026-11-20T13:32:27Z",
+ "frozen_commit": "472b715858b74910ca9b1eafcbea4d64183fa09d",
+ "previous_steps": 134385,
+ "previous_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+ "instructions": 134325,
+ "sha256": "e5a9b953f0dfdd39bed5483d407ca198afab9936d66b2019b0448e1d8f7c0d1c",
+ "sources": {
+  "Asterios v119": {
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/119",
+   "license": "Apache 2.0",
+   "archive_sha256": "d78c367564150ce210d9f7b89b9add20b0881c777817c65ca181494837d9e7a2",
+   "raw": "best_programs.csv",
+   "raw_sha256": "790077ed5899f72f682f4361a860325a84b9b18c17f6312b32cced86280297e0",
+   "instructions": 134437,
+   "rows": 1000
+  },
+  "Hanif v24": {
+   "url": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/24",
+   "license": "Apache 2.0",
+   "archive_sha256": "b241e2c49657455ba734a3f67a8bd6201c4171bfbdf903c9239f07919d55220c",
+   "raw": "submission.csv",
+   "raw_sha256": "969a0e4e57b2642c27c42712fab72d8177c465c349f686fd96ea31938e4fb02c",
+   "instructions": 134404,
+   "rows": 1000
+  },
+  "Rudolph v68": {
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/68",
+   "license": "CC0: Public Domain",
+   "archive_sha256": "407606f3f55a2444bd1c3fbe130b21515af7e16df6607cd6ae23c10c99373ada",
+   "raw": "rudolph_programs.csv",
+   "raw_sha256": "c3ef39d42fbde44c68223589831b92e7a5b6b25d2b8c2db6daaa06ddb55c9fcf",
+   "instructions": 134404,
+   "rows": 1000
+  },
+  "GoodPJW v10 our_programs": {
+   "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10",
+   "license": "Apache 2.0",
+   "archive_sha256": "b6ba4ee1a9eaba14164934c90d9acd38af914eb7837e96b024c715ece48a995f",
+   "raw": "our_programs.csv",
+   "raw_sha256": "bc47ed454a6a6c70e02bffc82cfdcd701c1449d36b1a6177fe272f555450f97a",
+   "instructions": 134329,
+   "rows": 1000
+  },
+  "GoodPJW v10 public_frontier": {
+   "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10",
+   "license": "Apache 2.0",
+   "archive_sha256": "b6ba4ee1a9eaba14164934c90d9acd38af914eb7837e96b024c715ece48a995f",
+   "raw": "public_frontier.csv",
+   "raw_sha256": "a6b7968f63b3492c6163ffff7ffe3506f04babcb91b4309c4e05cee6c9540000",
+   "instructions": 134419,
+   "rows": 1000
+  }
+ },
+ "strict_replacements": {
+  "scored_0016": {
+   "before": 127,
+   "after": 125,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0053": {
+   "before": 110,
+   "after": 109,
+   "source": "Asterios v119"
+  },
+  "scored_0063": {
+   "before": 102,
+   "after": 101,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0072": {
+   "before": 102,
+   "after": 101,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0089": {
+   "before": 121,
+   "after": 120,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0131": {
+   "before": 96,
+   "after": 95,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0140": {
+   "before": 163,
+   "after": 162,
+   "source": "Asterios v119"
+  },
+  "scored_0147": {
+   "before": 97,
+   "after": 96,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0186": {
+   "before": 109,
+   "after": 108,
+   "source": "Hanif v24"
+  },
+  "scored_0197": {
+   "before": 114,
+   "after": 113,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0214": {
+   "before": 126,
+   "after": 125,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0240": {
+   "before": 113,
+   "after": 112,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0304": {
+   "before": 123,
+   "after": 121,
+   "source": "Hanif v24"
+  },
+  "scored_0310": {
+   "before": 115,
+   "after": 114,
+   "source": "Hanif v24"
+  },
+  "scored_0325": {
+   "before": 104,
+   "after": 102,
+   "source": "Hanif v24"
+  },
+  "scored_0330": {
+   "before": 124,
+   "after": 123,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0354": {
+   "before": 116,
+   "after": 115,
+   "source": "Asterios v119"
+  },
+  "scored_0385": {
+   "before": 116,
+   "after": 115,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0407": {
+   "before": 157,
+   "after": 156,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0421": {
+   "before": 113,
+   "after": 112,
+   "source": "Asterios v119"
+  },
+  "scored_0427": {
+   "before": 118,
+   "after": 117,
+   "source": "Hanif v24"
+  },
+  "scored_0436": {
+   "before": 109,
+   "after": 108,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0464": {
+   "before": 78,
+   "after": 77,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0495": {
+   "before": 96,
+   "after": 95,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0557": {
+   "before": 110,
+   "after": 109,
+   "source": "Asterios v119"
+  },
+  "scored_0563": {
+   "before": 111,
+   "after": 110,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0568": {
+   "before": 106,
+   "after": 105,
+   "source": "Hanif v24"
+  },
+  "scored_0590": {
+   "before": 110,
+   "after": 108,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0606": {
+   "before": 160,
+   "after": 159,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0607": {
+   "before": 111,
+   "after": 110,
+   "source": "Asterios v119"
+  },
+  "scored_0643": {
+   "before": 126,
+   "after": 125,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0705": {
+   "before": 109,
+   "after": 108,
+   "source": "Asterios v119"
+  },
+  "scored_0713": {
+   "before": 100,
+   "after": 99,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0767": {
+   "before": 105,
+   "after": 104,
+   "source": "Asterios v119"
+  },
+  "scored_0792": {
+   "before": 111,
+   "after": 110,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0794": {
+   "before": 117,
+   "after": 116,
+   "source": "Asterios v119"
+  },
+  "scored_0821": {
+   "before": 98,
+   "after": 97,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0833": {
+   "before": 122,
+   "after": 121,
+   "source": "Asterios v119"
+  },
+  "scored_0838": {
+   "before": 140,
+   "after": 139,
+   "source": "Asterios v119"
+  },
+  "scored_0852": {
+   "before": 122,
+   "after": 121,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0869": {
+   "before": 103,
+   "after": 102,
+   "source": "Hanif v24"
+  },
+  "scored_0888": {
+   "before": 117,
+   "after": 114,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0890": {
+   "before": 92,
+   "after": 91,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0925": {
+   "before": 119,
+   "after": 117,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0933": {
+   "before": 115,
+   "after": 114,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0940": {
+   "before": 130,
+   "after": 128,
+   "source": "Hanif v24"
+  },
+  "scored_0943": {
+   "before": 90,
+   "after": 88,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0961": {
+   "before": 110,
+   "after": 109,
+   "source": "GoodPJW v10 our_programs"
+  },
+  "scored_0978": {
+   "before": 107,
+   "after": 105,
+   "source": "Hanif v24"
+  },
+  "scored_0985": {
+   "before": 110,
+   "after": 109,
+   "source": "Hanif v24"
+  }
+ }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "scored_0152",
+  "parent_lengths": [
+    115,
+    119,
+    117,
+    117,
+    116
+  ],
+  "all_subsets": [
+    {
+      "donors": [],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "asterios118"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "hanif23"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "asterios118"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "hanif23"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "asterios118",
+        "hanif23"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "asterios118",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "hanif23",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "asterios118",
+        "hanif23"
+      ],
+      "length": 115,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "asterios118",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "hanif23",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "asterios118",
+        "hanif23",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    },
+    {
+      "donors": [
+        "local-independent",
+        "asterios118",
+        "hanif23",
+        "rudolph67"
+      ],
+      "length": 114,
+      "status": "OPTIMAL"
+    }
+  ],
+  "minimum_extra_donor_count": 1,
+  "minimum_options": [
+    {
+      "donors": [
+        "rudolph67"
+      ],
+      "edge_counts": {
+        "incumbent|rudolph67": 77,
+        "rudolph67": 14,
+        "incumbent": 23
+      }
+    }
+  ],
+  "selected": [
+    "incumbent",
+    "rudolph67"
+  ],
+  "output": "control-wins.csv",
+  "sha256": "55598f425c0f8a6284065abdbb44b7e9ea7a73d45a06643e9da6e323847ffd04"
+}

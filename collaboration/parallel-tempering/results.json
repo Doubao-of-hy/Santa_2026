@@ -1,0 +1,195 @@
+{
+  "design_sha256": "763c1b98a0991678a1a9a44247c99d383fce68e51438207ad83eca87dad81388",
+  "rows_gzip_sha256": "8ca04bc6c38f698a91053a8511d16731b84af67180b0b7d963ca5e2750a63d1d",
+  "source_sha256": "b770f844caed5d237d309fc748a20b741737fa43bbe6a3810c4b38f104ec4779",
+  "native_sources": {
+    "incremental.cpp": "7a0d5327d0883e04c80c42761d7ec53e6cc3fbc45b36e0700bf5b1900dc09e8f",
+    "common.inc": "2b876924774e19a9ba1ba1ed52351eb5485895be6759e3720b0d5091a50a61d6",
+    "compact.inc": "4132404aca1128d1e6c47eac6977a7a1577932a4438697eebc9e162ada5f3238",
+    "cross.inc": "7a742c6c5faca1727c57ec092b80d6eb7bb616d2c1ab2bc747cfc0789ea246bb",
+    "cache_lookup.inc": "37a48bf4043e7c408f7e24c6a0a4917e9acde6cd133c881aa63339d641b3b591",
+    "cache_perturb.inc": "8cb736e327b7cbfc6c94607a30aac11f17b54ff653c77d33d0ba207def02c392",
+    "main.inc": "7e514496bf56d073908cf137ebc9a6290826a422486316ef8f66577915625b52"
+  },
+  "binary_sha256": {
+    "original": "4997071325bce5949026e84126526278025047ec024c7b0559aaff3911380eb0",
+    "replicas": "16715130469e78e3eb6954e07f0793b3c27cb2190374be97f19d84d234f264c8"
+  },
+  "summaries": {
+    "development": {
+      "cases": 32,
+      "arms": {
+        "original": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 41.3,
+          "counters": {}
+        },
+        "isolated": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 36.03,
+          "counters": {
+            "proposals": 7680,
+            "accepted": 1391,
+            "uphill": 480,
+            "resets": 384
+          }
+        },
+        "exchange": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 35.96,
+          "counters": {
+            "proposals": 7680,
+            "accepted": 1243,
+            "uphill": 448,
+            "resets": 384,
+            "swap_tests": 960,
+            "swap_accepts": 702,
+            "different_graph_swaps": 205,
+            "unequal_length_swaps": 86
+          }
+        }
+      },
+      "comparison": {
+        "net": 0,
+        "tied": 32
+      },
+      "winners": {},
+      "combined_saved": 0
+    },
+    "holdout": {
+      "cases": 32,
+      "arms": {
+        "original": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 39.98,
+          "counters": {}
+        },
+        "isolated": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 33.93,
+          "counters": {
+            "proposals": 7680,
+            "accepted": 1392,
+            "uphill": 460,
+            "resets": 384
+          }
+        },
+        "exchange": {
+          "saved": 0,
+          "wins": 0,
+          "seconds": 34.79,
+          "counters": {
+            "proposals": 7680,
+            "accepted": 1352,
+            "uphill": 473,
+            "resets": 384,
+            "swap_tests": 960,
+            "swap_accepts": 694,
+            "different_graph_swaps": 203,
+            "unequal_length_swaps": 111
+          }
+        }
+      },
+      "comparison": {
+        "net": 0,
+        "tied": 32
+      },
+      "winners": {},
+      "combined_saved": 0
+    }
+  },
+  "positive_control": {
+    "seeds": [
+      2,
+      3
+    ],
+    "targets": [
+      10
+    ],
+    "limit": 100,
+    "parent": [
+      [
+        "+",
+        0,
+        1,
+        2
+      ],
+      [
+        "+",
+        2,
+        1,
+        3
+      ],
+      [
+        "+",
+        3,
+        0,
+        4
+      ]
+    ],
+    "cap": 48,
+    "rounds": 240,
+    "seed": 310117,
+    "rows": {
+      "original": {
+        "steps": 2,
+        "tape": [
+          [
+            "+",
+            1,
+            0,
+            1
+          ],
+          [
+            "*",
+            0,
+            1,
+            1
+          ]
+        ],
+        "counters": ""
+      },
+      "isolated": {
+        "steps": 2,
+        "tape": [
+          [
+            "+",
+            1,
+            0,
+            1
+          ],
+          [
+            "*",
+            0,
+            1,
+            1
+          ]
+        ],
+        "counters": "replicas 240 240 0 12 0 0 0 0"
+      },
+      "exchange": {
+        "steps": 2,
+        "tape": [
+          [
+            "+",
+            1,
+            0,
+            1
+          ],
+          [
+            "*",
+            0,
+            1,
+            1
+          ]
+        ],
+        "counters": "replicas 240 240 0 12 30 30 9 0"
+      }
+    }
+  }
+}

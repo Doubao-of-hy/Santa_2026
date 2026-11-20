@@ -1,0 +1,11 @@
+{
+ "local": 134324,
+ "ranked_rows": 1796,
+ "strictly_better": 120,
+ "ties": 1,
+ "leader": 128330,
+ "utc": "2026-11-20T13:35:54.830550+00:00",
+ "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+ "public_sha256": "ed64bab9497244f2c8d8e83ab30b57c22b60f3b5bc9ffbe1a3b80aa3f0afee4b",
+ "pure_sha256": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f"
+}
