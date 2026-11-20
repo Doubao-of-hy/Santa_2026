@@ -1,0 +1,19 @@
+{
+  "base": "a933464ecfa9c726de0f91824f75400bbae3282f",
+  "history": [
+    "d3317ba",
+    "aca4989",
+    "62378d6",
+    "d8af49a"
+  ],
+  "method": "Temporarily require an absent helper observed in a different recorded solution, minimize the augmented program, remove the temporary target and optimize the official problem. Candidate ranking uses overlap with existing consumers, the cost to introduce its missing ancestors, and direct arithmetic alternatives. Use the same released graph as a control with no helper protection. Include an ordinary-search control and a random eligible helper arm.",
+  "selection": "Build an ordered SHA-256 shuffle from the salt and lane. Take the first 12 development and next 24 holdout puzzles with at least two distinct eligible helpers whose introduction needs at most 6 new values. Freeze the selection before any outcomes. Each lane only uses recorded inputs from its permitted lineage. The public lane additionally allows the independent program at the same revision.",
+  "salt": "santa-11-20-temporary-value-134182",
+  "development": 12,
+  "holdout": 24,
+  "rounds": [
+    160,
+    160
+  ],
+  "extension": "Extend only if the ranked or random protected arm strictly beats both control results on any row. Keep every independently replayed improvement, including controls."
+}
