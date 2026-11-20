@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-20T12:59:31.600803+00:00",
+  "candidate": 134398,
+  "leader": 128330,
+  "teams_with_rank": 1788,
+  "entries_returned": 1790,
+  "better": 117,
+  "tied_before_insertion": 0,
+  "hypothetical_rank": 118,
+  "official_submission": false,
+  "raw_sha256": "0b60b1886b2efe69e2da99c3e57b5a354f683d4066fe924ee3d5319e80ed7914"
+}

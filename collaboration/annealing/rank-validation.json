@@ -1,0 +1,43 @@
+{
+ "baseline_raw_rate": 0.019,
+ "oof_top100": {
+  "hits": 12,
+  "saved": 16,
+  "total_wins": 19,
+  "top_count": 100,
+  "average_precision": 0.21587473270783158
+ },
+ "oof_by_length": {
+  "hits": 0,
+  "saved": 0,
+  "total_wins": 19,
+  "top_count": 100,
+  "average_precision": 0.01636600858928053
+ },
+ "holdout_known_algorithm": {
+  "hits": 4,
+  "saved": 7,
+  "total_wins": 5,
+  "top_count": 41,
+  "average_precision": 0.38353654188948305
+ },
+ "holdout_by_length": {
+  "hits": 0,
+  "saved": 0,
+  "total_wins": 5,
+  "top_count": 41,
+  "average_precision": 0.014687860602754219
+ },
+ "raw_selected": 23,
+ "sources": [
+  "work\\creative\\asterios-v23\\best_programs.csv",
+  "work\\creative\\asterios-v80\\best_programs.csv",
+  "work\\creative\\asterios-v89\\best_programs.csv",
+  "work\\creative\\asterios-v96\\best_programs.csv",
+  "work\\creative\\asterios-v99\\best_programs.csv",
+  "work\\creative\\resume-135077\\rudolph64\\rudolph_programs.csv",
+  "work\\creative\\resume-135077\\hanif22\\submission.csv",
+  "work\\creative\\resume-135077\\good8\\our_programs.csv",
+  "work\\creative\\resume-135077\\assisted.csv"
+ ]
+}

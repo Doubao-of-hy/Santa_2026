@@ -23,17 +23,21 @@ def main():
     with (HERE/"puzzle-bounds.csv").open(encoding="utf8",newline="") as stream:
         bounds = {r["id"]:r for r in csv.DictReader(stream)}
     normalized = hashlib.sha256(args.puzzles.read_bytes().replace(b"\r\n",b"\n")).hexdigest()
-    expected = json.loads((HERE.parent/"proofs_ext/decisions.json").read_bytes())["puzzles_lf_sha256"]
-    if normalized != expected:
+    external = json.loads((HERE.parent/"proofs_ext/decisions.json").read_bytes())
+    if normalized != external["puzzles_lf_sha256"]:
         raise ValueError("Puzzle data differs from the official proof input")
+    published = {}
+    for decision in external["decisions"]:
+        pid = decision["id"]
+        published[pid] = max(published.get(pid, -1), decision["helpers"])
     jobs = []
     for p in read_puzzles(args.puzzles):
         row = bounds.pop(p.id)
         lower = int(row["certified_lower"])
         upper = int(row["best_verified_upper"])
         missing = len(set(p.targets)-set(p.seeds))
-        h = lower-missing
-        if lower==upper or (p.id,h) in assigned:
+        h = max(lower-missing, published.get(p.id, -1)+1)
+        if missing+h>=upper or (p.id,h) in assigned:
             continue
         if p.limit>10**18 or len(p.targets)>64 or not 0<=h<=4096:
             continue

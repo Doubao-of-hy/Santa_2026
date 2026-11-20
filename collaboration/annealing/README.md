@@ -9,3 +9,5 @@
 在第二轮中，使用带缓存的退火继续优化独立生成的算式，并与仓库的独立候选逐题择短。154 题合计省 214 条，整表降至 141,026 条。以第 113 版为单独对照的公开辅助试验在 24 题省 30 条，得到 134,478 条；与此前的改进和新的独立候选逐题合并后，整表为 134,456 条。[独立重放](independent95.json) · [独立输入来源](independent95-origins.csv) · [公开重放](assisted160.json) · [输入程序与种子](assisted160-recipes.csv) · [逐题来源](assisted160-origins.csv)
 
 对 47 道近期出现改进的题和 47 道长度、初值数量、目标数量相近的对照题使用同一计算预算。前组四题各省一条，对照组无改进。每个入选程序均从实际父本重新运行，并按原署名保存。另测同时重建多个目标，在独立 96 题省 1 条，公开辅助 180 题没有缩短，已停止扩展。[四项改进回执](active-pairs.json) · [重跑种子和父程序](active-pairs-recipes.csv) · [父程序署名](active-pairs-origins.csv) · [独立多目标试验](anneal-region75-own.json) · [公开多目标试验](anneal-region120-pub.json)
+
+使用历史图结构预测下一题能否缩短。先去掉 49 道已知改善题，再冻结预测靠前的 100 题和 100 道长度匹配的对照。相同预算下两组各省 2 条和 1 条；这三项改进都通过完整回放。这次前瞻差距只有一条。[固定分组](prospective-100-pairs.json) · [早期交叉验证](rank-validation.json) · [前瞻结果](prospective-replay.json) · [复跑输入](prospective-recipes.csv)
