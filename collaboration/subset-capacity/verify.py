@@ -74,10 +74,10 @@ def choose_targets(base,goals,cap):
         if all(not other(t,b,cap)&base[1] for b in base[1]):u.add(t)
     return u
 
-def capacity(allowed,all_targets,chosen,cap,h,brute=False,pair_limit=None):
+def capacity(allowed,all_targets,chosen,cap,h,brute=False,pair_limit=None,excluded=frozenset()):
     base=set(allowed)|all_targets
     if brute:
-        helpers=set(range(1,cap+1))-base
+        helpers=set(range(1,cap+1))-base-excluded
     else:
         helpers=set()
         for t in chosen:
@@ -96,7 +96,7 @@ def capacity(allowed,all_targets,chosen,cap,h,brute=False,pair_limit=None):
             rt=math.isqrt(t)
             if rt*rt==t:g.add(rt)
             if t%2==0:g.add(t//2)
-            for v in g-base:groups[v].add(t)
+            for v in g-base-excluded:groups[v].add(t)
     cap1={}
     for v,group in groups.items():
         if not group:continue
@@ -118,7 +118,7 @@ def capacity(allowed,all_targets,chosen,cap,h,brute=False,pair_limit=None):
     else:
         candidates=set()
         for t,q in itertools.combinations(chosen,2):candidates.update(solve_pair(t,q,cap))
-        pairs=((a,b) for a,b in candidates if a not in base and b not in base)
+        pairs=((a,b) for a,b in candidates if a not in base and b not in base and a not in excluded and b not in excluded)
     degrees=Counter();bonuses=[]
     for a,b in pairs:
         v=len(outcomes(a,b,cap)&chosen)-1

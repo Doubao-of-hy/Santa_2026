@@ -1,0 +1,5 @@
+{
+  "original_base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "trigger": "Independently verified winning trees in 2 of 32 pilot and 9 of the next 64. Check every other eligible original diamond certificate in fixed hash order in disjoint batches of up to 64. Keep the same limits of depth 192 and 1500 search calls per case.",
+  "upstream": "Five later external certificates are merged separately per puzzle at their maximum. Never add their gains without checking for overlap."
+}
