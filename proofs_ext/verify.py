@@ -66,13 +66,27 @@ def main():
     normalized = args.puzzles.read_bytes().replace(b"\r\n", b"\n")
     digest = sha256(normalized).hexdigest()
     decisions = []
-    for path in (ROOT / "proofs/decisions.json", ROOT / "proofs_ext/decisions.json"):
-        if not path.exists():
-            continue
-        receipt = json.loads(path.read_text())
+    original = ROOT / "proofs/decisions.json"
+    if original.exists():
+        receipt = json.loads(original.read_text())
         if receipt["puzzles_lf_sha256"] != digest:
-            raise ValueError(f"Unexpected puzzle file in {path}")
+            raise ValueError("Unexpected puzzle file in proofs/decisions.json")
         decisions.extend(receipt["decisions"])
+    # Extended layer: union of the merged receipt and per-decision files.
+    merged = {}
+    ext_receipt = ROOT / "proofs_ext/decisions.json"
+    if ext_receipt.exists():
+        receipt = json.loads(ext_receipt.read_text())
+        if receipt["puzzles_lf_sha256"] != digest:
+            raise ValueError("Unexpected puzzle file in proofs_ext/decisions.json")
+        for d in receipt["decisions"]:
+            merged[(d["id"], d["helpers"])] = d
+    decision_dir = ROOT / "proofs_ext/decisions.d"
+    if decision_dir.exists():
+        for path in sorted(decision_dir.glob("*.json")):
+            d = json.loads(path.read_text())
+            merged[(d["id"], d["helpers"])] = d
+    decisions.extend(merged[key] for key in sorted(merged))
 
     puzzles = read_puzzles(args.puzzles)
     programs = read_submission(args.submission)

@@ -64,9 +64,7 @@ def main():
             print("driver failed; stopping")
             break
         # prove.py prints INCONCLUSIVE / FOUND without recording; detect via receipt.
-        import json
-        receipt = json.loads((ROOT / "proofs_ext/decisions.json").read_text())
-        if not any(d["id"] == pid and d["helpers"] == budget for d in receipt["decisions"]):
+        if not (ROOT / "proofs_ext/decisions.d" / f"{pid}_h{budget}.json").exists():
             print("no new receipt; stopping")
             break
         done += 1

@@ -7,6 +7,7 @@ proofs_ext/decisions.json; the combined table is written to proofs_ext/bounds.cs
 import argparse
 import csv
 import json
+import os
 import subprocess
 import sys
 import time
@@ -20,7 +21,86 @@ sys.path.insert(0, str(ROOT))
 from elf import read_puzzles, read_submission, score
 from prefix_bounds import available, lower
 from tiny import encode
+
 EXT = ROOT / "proofs_ext"
+DECISION_DIR = EXT / "decisions.d"
+
+
+class ReceiptLock:
+    """Serialize read-modify-write of the shared receipts across processes."""
+
+    def __init__(self, path, timeout=3600):
+        self.path = path
+        self.timeout = timeout
+
+    def __enter__(self):
+        start = time.time()
+        while True:
+            try:
+                fd = os.open(str(self.path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+                os.close(fd)
+                return self
+            except FileExistsError:
+                if time.time() - start > self.timeout:
+                    raise TimeoutError(f"stale lock {self.path}")
+                time.sleep(1)
+
+    def __exit__(self, *exc):
+        self.path.unlink(missing_ok=True)
+
+
+def all_decisions():
+    """Union of the merged receipt and the per-decision files (source of truth)."""
+    merged = {}
+    receipt_path = EXT / "decisions.json"
+    if receipt_path.exists():
+        for d in json.loads(receipt_path.read_text())["decisions"]:
+            merged[(d["id"], d["helpers"])] = d
+    if DECISION_DIR.exists():
+        for path in sorted(DECISION_DIR.glob("*.json")):
+            d = json.loads(path.read_text())
+            merged[(d["id"], d["helpers"])] = d
+    return [merged[key] for key in sorted(merged)]
+
+
+def merge_receipts(puzzles_path, submission_path):
+    """Regenerate decisions.json and bounds.csv from the per-decision files."""
+    puzzles = read_puzzles(puzzles_path)
+    programs = read_submission(submission_path)
+    score(puzzles, programs)
+    digest = sha256(puzzles_path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+    decisions = all_decisions()
+    with ReceiptLock(EXT / ".receipt.lock"):
+        (EXT / "decisions.json").write_text(
+            json.dumps({"puzzles_lf_sha256": digest, "decisions": decisions}, indent=2) + "\n",
+            encoding="utf8",
+        )
+        original = {
+            r["id"]: r
+            for r in csv.DictReader((ROOT / "proofs/bounds.csv").open(newline=""))
+        }
+        analytic = {q.id: lower(q) for q in puzzles}
+        certified = {
+            pid: max(int(r["certified_lower"]), analytic[pid]) for pid, r in original.items()
+        }
+        for d in decisions:
+            certified[d["id"]] = max(certified[d["id"]], d["lower_bound"])
+        rows = []
+        for q in puzzles:
+            lb = certified[q.id]
+            ub = len(programs[q.id])
+            if lb > ub:
+                raise AssertionError((q.id, lb, ub))
+            rows.append((q.id, analytic[q.id], lb, ub))
+        with (EXT / "bounds.csv").open("w", encoding="utf8", newline="") as f:
+            writer = csv.writer(f, lineterminator="\n")
+            writer.writerow(("id", "prefix_lower", "certified_lower", "verified_upper"))
+            writer.writerows(rows)
+    print(
+        "Total lower", sum(r[2] for r in rows),
+        "upper", sum(r[3] for r in rows),
+        "proved optimal", sum(r[2] == r[3] for r in rows),
+    )
 
 
 def native_input(puzzle, helpers, node_limit):
@@ -58,8 +138,10 @@ def query(binary, puzzle, helpers, node_limit, shard, total):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("puzzle_id")
-    ap.add_argument("helpers", type=int)
+    ap.add_argument("puzzle_id", nargs="?")
+    ap.add_argument("helpers", type=int, nargs="?")
+    ap.add_argument("--merge-only", action="store_true",
+                    help="regenerate receipts from decisions.d without searching")
     ap.add_argument("--binary", type=Path, default=ROOT / "work/proofs/exact_helpers.exe")
     ap.add_argument("--shards", type=int, default=0, help="0 = one per root helper option")
     ap.add_argument("--node-limit", type=int, default=2_000_000_000)
@@ -67,6 +149,11 @@ def main():
     ap.add_argument("--puzzles", type=Path, default=ROOT / "data/puzzles.csv")
     ap.add_argument("--submission", type=Path, default=ROOT / "improve/submission.csv")
     args = ap.parse_args()
+    if args.merge_only:
+        merge_receipts(args.puzzles, args.submission)
+        return
+    if args.puzzle_id is None or args.helpers is None:
+        ap.error("puzzle_id and helpers are required unless --merge-only")
 
     puzzles = read_puzzles(args.puzzles)
     programs = read_submission(args.submission)
@@ -115,44 +202,13 @@ def main():
         "seconds_16_threads": elapsed,
         "lower_bound": missing + args.helpers + 1,
     }
-    receipt_path = EXT / "decisions.json"
-    receipt = (
-        json.loads(receipt_path.read_text())
-        if receipt_path.exists()
-        else {
-            "puzzles_lf_sha256": sha256(
-                args.puzzles.read_bytes().replace(b"\r\n", b"\n")
-            ).hexdigest(),
-            "decisions": [],
-        }
-    )
-    receipt["decisions"] = [d for d in receipt["decisions"] if d["id"] != p.id or d["helpers"] != args.helpers]
-    receipt["decisions"].append(decision)
-    receipt["decisions"].sort(key=lambda d: (d["id"], d["helpers"]))
-    receipt_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf8")
-
-    # Combined per-puzzle table: original certificates plus the new decisions.
-    original = {r["id"]: r for r in csv.DictReader((ROOT / "proofs/bounds.csv").open(newline=""))}
-    analytic = {q.id: lower(q) for q in puzzles}
-    certified = {pid: max(int(r["certified_lower"]), analytic[pid]) for pid, r in original.items()}
-    for d in receipt["decisions"]:
-        certified[d["id"]] = max(certified[d["id"]], d["lower_bound"])
-    rows = []
-    for q in puzzles:
-        lb = certified[q.id]
-        ub = len(programs[q.id])
-        if lb > ub:
-            raise AssertionError((q.id, lb, ub))
-        rows.append((q.id, analytic[q.id], lb, ub))
-    with (EXT / "bounds.csv").open("w", encoding="utf8", newline="") as f:
-        writer = csv.writer(f, lineterminator="\n")
-        writer.writerow(("id", "prefix_lower", "certified_lower", "verified_upper"))
-        writer.writerows(rows)
-    print(
-        "Total lower", sum(r[2] for r in rows),
-        "upper", sum(r[3] for r in rows),
-        "proved optimal", sum(r[2] == r[3] for r in rows),
-    )
+    # Per-decision file first: concurrent drivers can never lose a receipt.
+    DECISION_DIR.mkdir(exist_ok=True)
+    target = DECISION_DIR / f"{p.id}_h{args.helpers}.json"
+    tmp = target.with_suffix(".tmp")
+    tmp.write_text(json.dumps(decision, indent=2) + "\n", encoding="utf8")
+    tmp.replace(target)
+    merge_receipts(args.puzzles, args.submission)
 
 
 if __name__ == "__main__":
