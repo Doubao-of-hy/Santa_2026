@@ -1,5 +1,13 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日多样性搜索及第 117 版
+
+独立候选已降到 **140,944** 条，公开辅助候选降到 **134,406** 条。前一份已发布的 140,000 级独立表为 141,026，保持不同形态算式的搜索在 65 题省 80 条，另有两道独立题 0324 和 0680 各省 1 条。后两题的程序从官方初值重新生成，使用随机挑选的低成本辅助数作为开头，所有辅助数的生成成本均计入结果。[独立退火核验](collaboration/annealing/independent105.json) · [全新生成的两个程序](collaboration/evidence/random-dictionary-wins.csv)
+
+公开辅助线合并第 117 版时，5 道题使 134,414 再减 6 条。四种改写的 48 题开发对照在早先冻结的父本上省了 6 条，其中 2 条继续缩短当前候选。两份整表均经过两套解释器实际回放。[第 117 版记录](collaboration/evidence/release-v117.json) · [各题上游作者](collaboration/evidence/asterios-v117-sources.csv) · [四种改写](collaboration/wang-polish/README.md)
+
+北京时间 20:49 的官方快照里，114 支已排名的队伍优于 134,406，0 队同分。按该快照插入约第 115，距榜首 128,330 还有 6,076 条。[排名计算](collaboration/evidence/rank-134406.json)
+
 ## 11 月 20 日公开版本更新
 
 公开辅助候选为 **134,430** 条，比上一版的 134,456 条再省 26 条，独立候选为 **141,026** 条。21 个改进的题中，8 题采用 Asterios 第 115 版，8 题采用 Hanif 第 23 版，其余 5 题来自本地退火。Rudolph 第 65 版中更短的行已由其他来源覆盖。两套解释器均已重放全部 1,000 题。[合并回执](collaboration/evidence/release-union-134430.json) · [逐题署名](collaboration/evidence/release-union-134430-origins.csv) · [Hanif 原始声明](public-assisted/Hanif-v23-NOTICE.md)

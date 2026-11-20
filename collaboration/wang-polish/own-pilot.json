@@ -1,0 +1,596 @@
+{
+  "parent": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+  "ids": [
+    "scored_0487",
+    "scored_0044",
+    "scored_0570",
+    "scored_0124",
+    "scored_0282",
+    "scored_0180",
+    "scored_0339",
+    "scored_0402",
+    "scored_0127",
+    "scored_0648",
+    "scored_0200",
+    "scored_0738",
+    "scored_0568",
+    "scored_0639",
+    "scored_0392",
+    "scored_0118",
+    "scored_0904",
+    "scored_0064",
+    "scored_0280",
+    "scored_0942",
+    "scored_0189",
+    "scored_0465",
+    "scored_0245",
+    "scored_0805",
+    "scored_0068",
+    "scored_0184",
+    "scored_0925",
+    "scored_0735",
+    "scored_0894",
+    "scored_0041",
+    "scored_0994",
+    "scored_0616",
+    "scored_0927",
+    "scored_0190",
+    "scored_0288",
+    "scored_0367",
+    "scored_0205",
+    "scored_0923",
+    "scored_0528",
+    "scored_0591",
+    "scored_0948",
+    "scored_0893",
+    "scored_0680",
+    "scored_0110",
+    "scored_0935",
+    "scored_0294",
+    "scored_0629",
+    "scored_0185"
+  ],
+  "rows": {
+    "scored_0041": {
+      "id": "scored_0041",
+      "before": 119,
+      "after": 119,
+      "forward": 119,
+      "reverse": 119,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0044": {
+      "id": "scored_0044",
+      "before": 81,
+      "after": 81,
+      "forward": 81,
+      "reverse": 81,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0064": {
+      "id": "scored_0064",
+      "before": 112,
+      "after": 112,
+      "forward": 112,
+      "reverse": 112,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0068": {
+      "id": "scored_0068",
+      "before": 119,
+      "after": 119,
+      "forward": 119,
+      "reverse": 119,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0110": {
+      "id": "scored_0110",
+      "before": 171,
+      "after": 171,
+      "forward": 171,
+      "reverse": 171,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0118": {
+      "id": "scored_0118",
+      "before": 110,
+      "after": 110,
+      "forward": 110,
+      "reverse": 110,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0124": {
+      "id": "scored_0124",
+      "before": 26,
+      "after": 26,
+      "forward": 26,
+      "reverse": 26,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0127": {
+      "id": "scored_0127",
+      "before": 97,
+      "after": 97,
+      "forward": 97,
+      "reverse": 97,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0180": {
+      "id": "scored_0180",
+      "before": 90,
+      "after": 89,
+      "forward": 89,
+      "reverse": 89,
+      "traces": [
+        [
+          [
+            "group",
+            90,
+            89
+          ]
+        ],
+        [
+          [
+            "group",
+            90,
+            89
+          ]
+        ]
+      ]
+    },
+    "scored_0184": {
+      "id": "scored_0184",
+      "before": 118,
+      "after": 118,
+      "forward": 118,
+      "reverse": 118,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0185": {
+      "id": "scored_0185",
+      "before": 149,
+      "after": 149,
+      "forward": 149,
+      "reverse": 149,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0189": {
+      "id": "scored_0189",
+      "before": 117,
+      "after": 117,
+      "forward": 117,
+      "reverse": 117,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0190": {
+      "id": "scored_0190",
+      "before": 130,
+      "after": 130,
+      "forward": 130,
+      "reverse": 130,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0200": {
+      "id": "scored_0200",
+      "before": 100,
+      "after": 100,
+      "forward": 100,
+      "reverse": 100,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0205": {
+      "id": "scored_0205",
+      "before": 138,
+      "after": 138,
+      "forward": 138,
+      "reverse": 138,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0245": {
+      "id": "scored_0245",
+      "before": 112,
+      "after": 112,
+      "forward": 112,
+      "reverse": 112,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0280": {
+      "id": "scored_0280",
+      "before": 112,
+      "after": 112,
+      "forward": 112,
+      "reverse": 112,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0282": {
+      "id": "scored_0282",
+      "before": 45,
+      "after": 45,
+      "forward": 45,
+      "reverse": 45,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0288": {
+      "id": "scored_0288",
+      "before": 124,
+      "after": 124,
+      "forward": 124,
+      "reverse": 124,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0294": {
+      "id": "scored_0294",
+      "before": 165,
+      "after": 165,
+      "forward": 165,
+      "reverse": 165,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0339": {
+      "id": "scored_0339",
+      "before": 94,
+      "after": 94,
+      "forward": 94,
+      "reverse": 94,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0367": {
+      "id": "scored_0367",
+      "before": 125,
+      "after": 125,
+      "forward": 125,
+      "reverse": 125,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0392": {
+      "id": "scored_0392",
+      "before": 104,
+      "after": 104,
+      "forward": 104,
+      "reverse": 104,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0402": {
+      "id": "scored_0402",
+      "before": 94,
+      "after": 94,
+      "forward": 94,
+      "reverse": 94,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0465": {
+      "id": "scored_0465",
+      "before": 112,
+      "after": 112,
+      "forward": 112,
+      "reverse": 112,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0487": {
+      "id": "scored_0487",
+      "before": 26,
+      "after": 26,
+      "forward": 26,
+      "reverse": 26,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0528": {
+      "id": "scored_0528",
+      "before": 144,
+      "after": 144,
+      "forward": 144,
+      "reverse": 144,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0568": {
+      "id": "scored_0568",
+      "before": 106,
+      "after": 106,
+      "forward": 106,
+      "reverse": 106,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0570": {
+      "id": "scored_0570",
+      "before": 86,
+      "after": 86,
+      "forward": 86,
+      "reverse": 86,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0591": {
+      "id": "scored_0591",
+      "before": 132,
+      "after": 132,
+      "forward": 132,
+      "reverse": 132,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0616": {
+      "id": "scored_0616",
+      "before": 122,
+      "after": 122,
+      "forward": 122,
+      "reverse": 122,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0629": {
+      "id": "scored_0629",
+      "before": 162,
+      "after": 162,
+      "forward": 162,
+      "reverse": 162,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0639": {
+      "id": "scored_0639",
+      "before": 106,
+      "after": 106,
+      "forward": 106,
+      "reverse": 106,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0648": {
+      "id": "scored_0648",
+      "before": 98,
+      "after": 98,
+      "forward": 98,
+      "reverse": 98,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0680": {
+      "id": "scored_0680",
+      "before": 212,
+      "after": 212,
+      "forward": 212,
+      "reverse": 212,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0735": {
+      "id": "scored_0735",
+      "before": 119,
+      "after": 119,
+      "forward": 119,
+      "reverse": 119,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0738": {
+      "id": "scored_0738",
+      "before": 103,
+      "after": 103,
+      "forward": 103,
+      "reverse": 103,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0805": {
+      "id": "scored_0805",
+      "before": 116,
+      "after": 116,
+      "forward": 116,
+      "reverse": 116,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0893": {
+      "id": "scored_0893",
+      "before": 132,
+      "after": 132,
+      "forward": 132,
+      "reverse": 132,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0894": {
+      "id": "scored_0894",
+      "before": 117,
+      "after": 117,
+      "forward": 117,
+      "reverse": 117,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0904": {
+      "id": "scored_0904",
+      "before": 111,
+      "after": 111,
+      "forward": 111,
+      "reverse": 111,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0923": {
+      "id": "scored_0923",
+      "before": 142,
+      "after": 142,
+      "forward": 142,
+      "reverse": 142,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0925": {
+      "id": "scored_0925",
+      "before": 119,
+      "after": 119,
+      "forward": 119,
+      "reverse": 119,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0927": {
+      "id": "scored_0927",
+      "before": 124,
+      "after": 124,
+      "forward": 124,
+      "reverse": 124,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0935": {
+      "id": "scored_0935",
+      "before": 177,
+      "after": 177,
+      "forward": 177,
+      "reverse": 177,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0942": {
+      "id": "scored_0942",
+      "before": 113,
+      "after": 113,
+      "forward": 113,
+      "reverse": 113,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0948": {
+      "id": "scored_0948",
+      "before": 134,
+      "after": 134,
+      "forward": 134,
+      "reverse": 134,
+      "traces": [
+        [],
+        []
+      ]
+    },
+    "scored_0994": {
+      "id": "scored_0994",
+      "before": 122,
+      "after": 122,
+      "forward": 122,
+      "reverse": 122,
+      "traces": [
+        [],
+        []
+      ]
+    }
+  },
+  "complete": true
+}

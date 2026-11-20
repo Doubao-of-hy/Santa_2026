@@ -1,0 +1,43 @@
+{
+ "utc": "2026-11-20T12:48:22.718558+00:00",
+ "verified": 134408,
+ "sha256": "674feb4b39c6d1e87a725cfb4f1f6ebbf37ed3087f3f2844ea60c355776f277e",
+ "rows": 5,
+ "base": 134414,
+ "baseline_sha256": "3e1f0427168574e9356e59faccd095eb4e42076c234770d65792dbf901e9fbd2",
+ "source_hashes": {
+  "Asterios v117": "c5b8a94005a26b6bd35ea0293062de5c98b781ea6c8456f1d824490ae9f7a120",
+  "Hanif v23": "48f7dbc58893dc54d0d601adde202cddd8fd356bfaa6be90ed3486d1a5e7d260",
+  "Rudolph v66": "3baf375863f8e380cbf4a826a9e9e6419ec32fd7e7fd681619a034f757aac02a",
+  "Wang local search": "1dc1d4e0f42e5a5c64bc2b67a1ca07b968a64ab97accee9e2b4a2764f2fc8fdd",
+  "Wang newly changed rows": "2adf4732b9021336bf7fbd01bdf07f16877dbbf46b8a215b41a84b5133540350"
+ },
+ "accepted_credit_counts": {
+  "Asterios v117": 5,
+  "Hanif v23": 0,
+  "Rudolph v66": 0,
+  "Wang local search": 0,
+  "Wang newly changed rows": 0
+ },
+ "steps_by_source_in_sequence": {
+  "Asterios v117": {
+   "scored_0041": 1,
+   "scored_0186": 1,
+   "scored_0684": 2,
+   "scored_0904": 1,
+   "scored_0976": 1
+  },
+  "Hanif v23": {},
+  "Rudolph v66": {},
+  "Wang local search": {},
+  "Wang newly changed rows": {}
+ },
+ "check": "Official Kaggle author listing, versioned immutable archive, double independent replay",
+ "added_rows": {
+  "scored_0041": 1,
+  "scored_0186": 1,
+  "scored_0684": 2,
+  "scored_0904": 1,
+  "scored_0976": 1
+ }
+}
