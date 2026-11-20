@@ -92,6 +92,12 @@ single passes; the remaining gap is structural, not a missing local trick.
   grind on a bad algorithm"), this port is **abandoned** as a competitive solver;
   it is kept only as a documented experiment. The proven algorithm is
   `virtual.cpp`, which needs g++ to compile.
+- Focused hardest-40 constructive pass (`vhard`): high-effort `virtual_search`
+  (leaves 160, width 10, scan 2, tail 6, style 5, joins 16383 = all moves) on the
+  40 puzzles with the most instructions (251–279). **0** improvements — the
+  hardest puzzles are already at the constructive search's floor, so extra effort
+  there has no headroom. Gains come from *coverage* (matrix reconstruction reaching
+  new puzzles), not from re-searching the tightest ones.
 
 ## Conclusion on the remaining gap
 
