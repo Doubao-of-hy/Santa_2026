@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日新公开程序的 50 题复验
+
+在刚采用新公开程序的 50 道题上，单父本把第 147 题从 96 条缩到 94，多父本另把第 557 题从 109 条缩到 108。公开辅助候选共 **134,321** 条，已用两套解释器重放全部 1,000 题。独立候选 **140,805** 条。北京时间 21:45 的官方榜首是 128,330 条，差 5,991 条。[实测](collaboration/fresh-public-recombination/verification.json) · [逐题作者](collaboration/fresh-public-recombination/shorter.origins.csv) · [官方榜单对照](collaboration/evidence/rank-134321.json)
+
 ## 11 月 20 日独立候选缩短 6 条
 
 在只使用独立生成程序的 16 道分层选题中，第 180 题 89→87、第 225 题 119→117、第 429 题 121→120、第 927 题 124→123。五组同预算对照的逐题最短合计得到 **140,805** 条，完整双重回放已通过。搜索方法向 Wang Jakie、GoodPJW 及 E-Max AI 署名。公开辅助文件仍为 **134,324** 条。[逐题实测](collaboration/goodpjw-incremental/independent-results.json) · [四行程序](collaboration/goodpjw-incremental/winners.csv)

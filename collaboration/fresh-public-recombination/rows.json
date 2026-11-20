@@ -1,0 +1,902 @@
+[
+ {
+  "id": "scored_0016",
+  "arm": "multi",
+  "seed": 3047846,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.201,
+  "parents": 3
+ },
+ {
+  "id": "scored_0016",
+  "arm": "single",
+  "seed": 3047846,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.119,
+  "parents": 1
+ },
+ {
+  "id": "scored_0053",
+  "arm": "multi",
+  "seed": 3047883,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.252,
+  "parents": 2
+ },
+ {
+  "id": "scored_0053",
+  "arm": "single",
+  "seed": 3047883,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.24,
+  "parents": 1
+ },
+ {
+  "id": "scored_0063",
+  "arm": "multi",
+  "seed": 3047893,
+  "before": 101,
+  "after": 101,
+  "seconds": 1.621,
+  "parents": 2
+ },
+ {
+  "id": "scored_0063",
+  "arm": "single",
+  "seed": 3047893,
+  "before": 101,
+  "after": 101,
+  "seconds": 1.616,
+  "parents": 1
+ },
+ {
+  "id": "scored_0072",
+  "arm": "multi",
+  "seed": 3047902,
+  "before": 101,
+  "after": 101,
+  "seconds": 1.77,
+  "parents": 3
+ },
+ {
+  "id": "scored_0072",
+  "arm": "single",
+  "seed": 3047902,
+  "before": 101,
+  "after": 101,
+  "seconds": 1.763,
+  "parents": 1
+ },
+ {
+  "id": "scored_0089",
+  "arm": "multi",
+  "seed": 3047919,
+  "before": 120,
+  "after": 120,
+  "seconds": 2.476,
+  "parents": 2
+ },
+ {
+  "id": "scored_0089",
+  "arm": "single",
+  "seed": 3047919,
+  "before": 120,
+  "after": 120,
+  "seconds": 2.491,
+  "parents": 1
+ },
+ {
+  "id": "scored_0131",
+  "arm": "multi",
+  "seed": 3047961,
+  "before": 95,
+  "after": 95,
+  "seconds": 1.322,
+  "parents": 2
+ },
+ {
+  "id": "scored_0131",
+  "arm": "single",
+  "seed": 3047961,
+  "before": 95,
+  "after": 95,
+  "seconds": 1.328,
+  "parents": 1
+ },
+ {
+  "id": "scored_0140",
+  "arm": "multi",
+  "seed": 3047970,
+  "before": 162,
+  "after": 162,
+  "seconds": 3.097,
+  "parents": 2
+ },
+ {
+  "id": "scored_0140",
+  "arm": "single",
+  "seed": 3047970,
+  "before": 162,
+  "after": 162,
+  "seconds": 3.152,
+  "parents": 1
+ },
+ {
+  "id": "scored_0147",
+  "arm": "multi",
+  "seed": 3047977,
+  "before": 96,
+  "after": 94,
+  "seconds": 1.281,
+  "parents": 2
+ },
+ {
+  "id": "scored_0147",
+  "arm": "single",
+  "seed": 3047977,
+  "before": 96,
+  "after": 94,
+  "seconds": 1.415,
+  "parents": 1
+ },
+ {
+  "id": "scored_0186",
+  "arm": "multi",
+  "seed": 3048016,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.924,
+  "parents": 3
+ },
+ {
+  "id": "scored_0186",
+  "arm": "single",
+  "seed": 3048016,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.973,
+  "parents": 1
+ },
+ {
+  "id": "scored_0197",
+  "arm": "multi",
+  "seed": 3048027,
+  "before": 113,
+  "after": 113,
+  "seconds": 1.656,
+  "parents": 2
+ },
+ {
+  "id": "scored_0197",
+  "arm": "single",
+  "seed": 3048027,
+  "before": 113,
+  "after": 113,
+  "seconds": 1.673,
+  "parents": 1
+ },
+ {
+  "id": "scored_0214",
+  "arm": "multi",
+  "seed": 3048044,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.061,
+  "parents": 2
+ },
+ {
+  "id": "scored_0214",
+  "arm": "single",
+  "seed": 3048044,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.075,
+  "parents": 1
+ },
+ {
+  "id": "scored_0240",
+  "arm": "multi",
+  "seed": 3048070,
+  "before": 112,
+  "after": 112,
+  "seconds": 1.963,
+  "parents": 2
+ },
+ {
+  "id": "scored_0240",
+  "arm": "single",
+  "seed": 3048070,
+  "before": 112,
+  "after": 112,
+  "seconds": 1.975,
+  "parents": 1
+ },
+ {
+  "id": "scored_0304",
+  "arm": "multi",
+  "seed": 3048134,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.501,
+  "parents": 3
+ },
+ {
+  "id": "scored_0304",
+  "arm": "single",
+  "seed": 3048134,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.486,
+  "parents": 1
+ },
+ {
+  "id": "scored_0310",
+  "arm": "multi",
+  "seed": 3048140,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.661,
+  "parents": 3
+ },
+ {
+  "id": "scored_0310",
+  "arm": "single",
+  "seed": 3048140,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.679,
+  "parents": 1
+ },
+ {
+  "id": "scored_0325",
+  "arm": "multi",
+  "seed": 3048155,
+  "before": 102,
+  "after": 102,
+  "seconds": 2.024,
+  "parents": 3
+ },
+ {
+  "id": "scored_0325",
+  "arm": "single",
+  "seed": 3048155,
+  "before": 102,
+  "after": 102,
+  "seconds": 2.046,
+  "parents": 1
+ },
+ {
+  "id": "scored_0330",
+  "arm": "multi",
+  "seed": 3048160,
+  "before": 123,
+  "after": 123,
+  "seconds": 2.248,
+  "parents": 2
+ },
+ {
+  "id": "scored_0330",
+  "arm": "single",
+  "seed": 3048160,
+  "before": 123,
+  "after": 123,
+  "seconds": 2.25,
+  "parents": 1
+ },
+ {
+  "id": "scored_0354",
+  "arm": "multi",
+  "seed": 3048184,
+  "before": 115,
+  "after": 115,
+  "seconds": 2.448,
+  "parents": 2
+ },
+ {
+  "id": "scored_0354",
+  "arm": "single",
+  "seed": 3048184,
+  "before": 115,
+  "after": 115,
+  "seconds": 2.384,
+  "parents": 1
+ },
+ {
+  "id": "scored_0385",
+  "arm": "multi",
+  "seed": 3048215,
+  "before": 115,
+  "after": 115,
+  "seconds": 2.47,
+  "parents": 3
+ },
+ {
+  "id": "scored_0385",
+  "arm": "single",
+  "seed": 3048215,
+  "before": 115,
+  "after": 115,
+  "seconds": 2.386,
+  "parents": 1
+ },
+ {
+  "id": "scored_0407",
+  "arm": "multi",
+  "seed": 3048237,
+  "before": 156,
+  "after": 156,
+  "seconds": 3.218,
+  "parents": 2
+ },
+ {
+  "id": "scored_0407",
+  "arm": "single",
+  "seed": 3048237,
+  "before": 156,
+  "after": 156,
+  "seconds": 3.138,
+  "parents": 1
+ },
+ {
+  "id": "scored_0421",
+  "arm": "multi",
+  "seed": 3048251,
+  "before": 112,
+  "after": 112,
+  "seconds": 2.32,
+  "parents": 3
+ },
+ {
+  "id": "scored_0421",
+  "arm": "single",
+  "seed": 3048251,
+  "before": 112,
+  "after": 112,
+  "seconds": 2.297,
+  "parents": 1
+ },
+ {
+  "id": "scored_0427",
+  "arm": "multi",
+  "seed": 3048257,
+  "before": 117,
+  "after": 117,
+  "seconds": 1.928,
+  "parents": 4
+ },
+ {
+  "id": "scored_0427",
+  "arm": "single",
+  "seed": 3048257,
+  "before": 117,
+  "after": 117,
+  "seconds": 1.883,
+  "parents": 1
+ },
+ {
+  "id": "scored_0436",
+  "arm": "multi",
+  "seed": 3048266,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.863,
+  "parents": 2
+ },
+ {
+  "id": "scored_0436",
+  "arm": "single",
+  "seed": 3048266,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.811,
+  "parents": 1
+ },
+ {
+  "id": "scored_0464",
+  "arm": "multi",
+  "seed": 3048294,
+  "before": 77,
+  "after": 77,
+  "seconds": 0.988,
+  "parents": 2
+ },
+ {
+  "id": "scored_0464",
+  "arm": "single",
+  "seed": 3048294,
+  "before": 77,
+  "after": 77,
+  "seconds": 0.941,
+  "parents": 1
+ },
+ {
+  "id": "scored_0495",
+  "arm": "multi",
+  "seed": 3048325,
+  "before": 95,
+  "after": 95,
+  "seconds": 1.228,
+  "parents": 3
+ },
+ {
+  "id": "scored_0495",
+  "arm": "single",
+  "seed": 3048325,
+  "before": 95,
+  "after": 95,
+  "seconds": 1.195,
+  "parents": 1
+ },
+ {
+  "id": "scored_0557",
+  "arm": "multi",
+  "seed": 3048387,
+  "before": 109,
+  "after": 108,
+  "seconds": 1.889,
+  "parents": 2
+ },
+ {
+  "id": "scored_0557",
+  "arm": "single",
+  "seed": 3048387,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.02,
+  "parents": 1
+ },
+ {
+  "id": "scored_0563",
+  "arm": "multi",
+  "seed": 3048393,
+  "before": 110,
+  "after": 110,
+  "seconds": 2.249,
+  "parents": 2
+ },
+ {
+  "id": "scored_0563",
+  "arm": "single",
+  "seed": 3048393,
+  "before": 110,
+  "after": 110,
+  "seconds": 2.247,
+  "parents": 1
+ },
+ {
+  "id": "scored_0568",
+  "arm": "multi",
+  "seed": 3048398,
+  "before": 105,
+  "after": 105,
+  "seconds": 2.121,
+  "parents": 5
+ },
+ {
+  "id": "scored_0568",
+  "arm": "single",
+  "seed": 3048398,
+  "before": 105,
+  "after": 105,
+  "seconds": 2.049,
+  "parents": 1
+ },
+ {
+  "id": "scored_0590",
+  "arm": "multi",
+  "seed": 3048420,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.831,
+  "parents": 2
+ },
+ {
+  "id": "scored_0590",
+  "arm": "single",
+  "seed": 3048420,
+  "before": 108,
+  "after": 108,
+  "seconds": 1.851,
+  "parents": 1
+ },
+ {
+  "id": "scored_0606",
+  "arm": "multi",
+  "seed": 3048436,
+  "before": 159,
+  "after": 159,
+  "seconds": 2.978,
+  "parents": 2
+ },
+ {
+  "id": "scored_0606",
+  "arm": "single",
+  "seed": 3048436,
+  "before": 159,
+  "after": 159,
+  "seconds": 2.921,
+  "parents": 1
+ },
+ {
+  "id": "scored_0607",
+  "arm": "multi",
+  "seed": 3048437,
+  "before": 110,
+  "after": 110,
+  "seconds": 1.73,
+  "parents": 2
+ },
+ {
+  "id": "scored_0607",
+  "arm": "single",
+  "seed": 3048437,
+  "before": 110,
+  "after": 110,
+  "seconds": 1.763,
+  "parents": 1
+ },
+ {
+  "id": "scored_0643",
+  "arm": "multi",
+  "seed": 3048473,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.043,
+  "parents": 2
+ },
+ {
+  "id": "scored_0643",
+  "arm": "single",
+  "seed": 3048473,
+  "before": 125,
+  "after": 125,
+  "seconds": 2.025,
+  "parents": 1
+ },
+ {
+  "id": "scored_0705",
+  "arm": "multi",
+  "seed": 3048535,
+  "before": 108,
+  "after": 108,
+  "seconds": 2.157,
+  "parents": 2
+ },
+ {
+  "id": "scored_0705",
+  "arm": "single",
+  "seed": 3048535,
+  "before": 108,
+  "after": 108,
+  "seconds": 2.24,
+  "parents": 1
+ },
+ {
+  "id": "scored_0713",
+  "arm": "multi",
+  "seed": 3048543,
+  "before": 99,
+  "after": 99,
+  "seconds": 1.265,
+  "parents": 2
+ },
+ {
+  "id": "scored_0713",
+  "arm": "single",
+  "seed": 3048543,
+  "before": 99,
+  "after": 99,
+  "seconds": 1.28,
+  "parents": 1
+ },
+ {
+  "id": "scored_0767",
+  "arm": "multi",
+  "seed": 3048597,
+  "before": 104,
+  "after": 104,
+  "seconds": 1.498,
+  "parents": 2
+ },
+ {
+  "id": "scored_0767",
+  "arm": "single",
+  "seed": 3048597,
+  "before": 104,
+  "after": 104,
+  "seconds": 1.483,
+  "parents": 1
+ },
+ {
+  "id": "scored_0792",
+  "arm": "multi",
+  "seed": 3048622,
+  "before": 110,
+  "after": 110,
+  "seconds": 1.646,
+  "parents": 2
+ },
+ {
+  "id": "scored_0792",
+  "arm": "single",
+  "seed": 3048622,
+  "before": 110,
+  "after": 110,
+  "seconds": 1.616,
+  "parents": 1
+ },
+ {
+  "id": "scored_0794",
+  "arm": "multi",
+  "seed": 3048624,
+  "before": 116,
+  "after": 116,
+  "seconds": 2.125,
+  "parents": 2
+ },
+ {
+  "id": "scored_0794",
+  "arm": "single",
+  "seed": 3048624,
+  "before": 116,
+  "after": 116,
+  "seconds": 2.136,
+  "parents": 1
+ },
+ {
+  "id": "scored_0821",
+  "arm": "multi",
+  "seed": 3048651,
+  "before": 97,
+  "after": 97,
+  "seconds": 1.184,
+  "parents": 2
+ },
+ {
+  "id": "scored_0821",
+  "arm": "single",
+  "seed": 3048651,
+  "before": 97,
+  "after": 97,
+  "seconds": 1.168,
+  "parents": 1
+ },
+ {
+  "id": "scored_0833",
+  "arm": "multi",
+  "seed": 3048663,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.479,
+  "parents": 2
+ },
+ {
+  "id": "scored_0833",
+  "arm": "single",
+  "seed": 3048663,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.556,
+  "parents": 1
+ },
+ {
+  "id": "scored_0838",
+  "arm": "multi",
+  "seed": 3048668,
+  "before": 139,
+  "after": 139,
+  "seconds": 2.19,
+  "parents": 2
+ },
+ {
+  "id": "scored_0838",
+  "arm": "single",
+  "seed": 3048668,
+  "before": 139,
+  "after": 139,
+  "seconds": 2.231,
+  "parents": 1
+ },
+ {
+  "id": "scored_0852",
+  "arm": "multi",
+  "seed": 3048682,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.1,
+  "parents": 2
+ },
+ {
+  "id": "scored_0852",
+  "arm": "single",
+  "seed": 3048682,
+  "before": 121,
+  "after": 121,
+  "seconds": 2.062,
+  "parents": 1
+ },
+ {
+  "id": "scored_0869",
+  "arm": "multi",
+  "seed": 3048699,
+  "before": 102,
+  "after": 102,
+  "seconds": 1.771,
+  "parents": 3
+ },
+ {
+  "id": "scored_0869",
+  "arm": "single",
+  "seed": 3048699,
+  "before": 102,
+  "after": 102,
+  "seconds": 1.778,
+  "parents": 1
+ },
+ {
+  "id": "scored_0888",
+  "arm": "multi",
+  "seed": 3048718,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.324,
+  "parents": 4
+ },
+ {
+  "id": "scored_0888",
+  "arm": "single",
+  "seed": 3048718,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.316,
+  "parents": 1
+ },
+ {
+  "id": "scored_0890",
+  "arm": "multi",
+  "seed": 3048720,
+  "before": 91,
+  "after": 91,
+  "seconds": 1.255,
+  "parents": 2
+ },
+ {
+  "id": "scored_0890",
+  "arm": "single",
+  "seed": 3048720,
+  "before": 91,
+  "after": 91,
+  "seconds": 1.292,
+  "parents": 1
+ },
+ {
+  "id": "scored_0925",
+  "arm": "multi",
+  "seed": 3048755,
+  "before": 117,
+  "after": 117,
+  "seconds": 1.984,
+  "parents": 4
+ },
+ {
+  "id": "scored_0925",
+  "arm": "single",
+  "seed": 3048755,
+  "before": 117,
+  "after": 117,
+  "seconds": 1.945,
+  "parents": 1
+ },
+ {
+  "id": "scored_0933",
+  "arm": "multi",
+  "seed": 3048763,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.066,
+  "parents": 2
+ },
+ {
+  "id": "scored_0933",
+  "arm": "single",
+  "seed": 3048763,
+  "before": 114,
+  "after": 114,
+  "seconds": 2.085,
+  "parents": 1
+ },
+ {
+  "id": "scored_0940",
+  "arm": "multi",
+  "seed": 3048770,
+  "before": 128,
+  "after": 128,
+  "seconds": 2.286,
+  "parents": 2
+ },
+ {
+  "id": "scored_0940",
+  "arm": "single",
+  "seed": 3048770,
+  "before": 128,
+  "after": 128,
+  "seconds": 2.227,
+  "parents": 1
+ },
+ {
+  "id": "scored_0943",
+  "arm": "multi",
+  "seed": 3048773,
+  "before": 88,
+  "after": 88,
+  "seconds": 1.412,
+  "parents": 2
+ },
+ {
+  "id": "scored_0943",
+  "arm": "single",
+  "seed": 3048773,
+  "before": 88,
+  "after": 88,
+  "seconds": 1.445,
+  "parents": 1
+ },
+ {
+  "id": "scored_0961",
+  "arm": "multi",
+  "seed": 3048791,
+  "before": 109,
+  "after": 109,
+  "seconds": 1.991,
+  "parents": 2
+ },
+ {
+  "id": "scored_0961",
+  "arm": "single",
+  "seed": 3048791,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.011,
+  "parents": 1
+ },
+ {
+  "id": "scored_0978",
+  "arm": "multi",
+  "seed": 3048808,
+  "before": 105,
+  "after": 105,
+  "seconds": 1.932,
+  "parents": 4
+ },
+ {
+  "id": "scored_0978",
+  "arm": "single",
+  "seed": 3048808,
+  "before": 105,
+  "after": 105,
+  "seconds": 1.939,
+  "parents": 1
+ },
+ {
+  "id": "scored_0985",
+  "arm": "multi",
+  "seed": 3048815,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.252,
+  "parents": 4
+ },
+ {
+  "id": "scored_0985",
+  "arm": "single",
+  "seed": 3048815,
+  "before": 109,
+  "after": 109,
+  "seconds": 2.221,
+  "parents": 1
+ }
+]

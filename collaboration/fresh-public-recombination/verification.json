@@ -1,0 +1,42 @@
+{
+ "release_base": "62378d6b929bb436f46cb85c2cff80764c58af2d",
+ "base": 134324,
+ "combined": 134321,
+ "combined_sha256": "91882c56cb7baf29f5778921e5f9b016feee7322782dade7bbddf9c0ccd04631",
+ "verified_puzzles": 1000,
+ "own_score_claim": false,
+ "savings": 3,
+ "rows": {
+  "scored_0147": {
+   "before": 96,
+   "after": 94,
+   "source": "Local post-merge single"
+  },
+  "scored_0557": {
+   "before": 109,
+   "after": 108,
+   "source": "Local post-merge multi"
+  }
+ },
+ "cohort_baseline": 5640,
+ "arms": {
+  "single": {
+   "wins": 1,
+   "savings": 2,
+   "wall_seconds_sum": 100.223
+  },
+  "multi": {
+   "wins": 2,
+   "savings": 3,
+   "wall_seconds_sum": 100.279
+  }
+ },
+ "parents_per_row_including_incumbent": {
+  "2": 34,
+  "3": 10,
+  "4": 5,
+  "5": 1
+ },
+ "normalized_output_sha256": "877db334ad8df69fcb631c9794343a334bc18d7b5f367d56a0963646c8127dc5",
+ "origins_sha256": "936c5dffe2a716c9faa160ae66aeda1115bd9c79050f89f04e72d43947ee54af"
+}

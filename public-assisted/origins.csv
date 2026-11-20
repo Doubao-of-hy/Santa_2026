@@ -145,7 +145,7 @@ scored_0143,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and M
 scored_0144,work/gpu/frontier-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",116
 scored_0145,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",216
 scored_0146,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",259
-scored_0147,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",96
+scored_0147,work/virtual/collective-135077/fresh134324/shorter.csv,"Wang Jakie, original incremental recipe search (Apache-2.0), Kaggle kernel 371736767. Input programs: 62378d6 public — goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",94
 scored_0148,Asterios v118,"E-Max AI, Santa 2026 | Public Frontier | Score 134,461",172
 scored_0149,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",16
 scored_0150,Asterios v99,"suka, Verified Portfolio Programs dataset",165
@@ -555,7 +555,7 @@ scored_0553,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0554,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [135867]",97
 scored_0555,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",109
 scored_0556,Asterios v99,"Pratham Jain, Exact Portfolio Frontier",27
-scored_0557,Asterios v119,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",109
+scored_0557,work/virtual/collective-135077/fresh134324/shorter.csv,"Wang Jakie, original incremental recipe search (Apache-2.0), Kaggle kernel 371736767; E-Max AI (RoyalAceCat) external parent crossover implemented in GoodPJW v10 (Apache-2.0). Input programs: 62378d6 public — Ertuğrul Özer, Santa 2026 | Starter Notebook! | 472b715 public — wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",108
 scored_0558,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",120
 scored_0559,local from official inputs,Generated from official inputs,35
 scored_0560,local from official inputs,Generated from official inputs,31
