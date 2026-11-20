@@ -1,0 +1,21 @@
+{
+  "baseline_commit": "a7903ac6f322fbdf0c8702a4398e4e8b46521c82",
+  "sha256": "6201efe2d0f5aefed28e6069fe3bec12bd3ad36ba271341b1fce5ba0429a610d",
+  "pilot": [
+    "0567",
+    "0730",
+    "0768",
+    "0801",
+    "0755",
+    "0305"
+  ],
+  "holdout": [
+    "0988",
+    "0976",
+    "0874",
+    "0568",
+    "0027",
+    "0127"
+  ],
+  "selection": "At least six consecutive target gaps with D<=4096, smaller target >8192 and >64*D. Order by SHA256(sparse-ruler:<id>) then take 6+6."
+}

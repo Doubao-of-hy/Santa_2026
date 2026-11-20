@@ -1,0 +1,73 @@
+{
+  "puzzle": "scored_0444",
+  "checkout": "40459ded36fdd9c9139bf355ccd3b8eb39648f07",
+  "method": "Two recorded exchange proposals injected at the native proposal boundary. All scheduling decisions, native ordering runs and CP-SAT operand decisions ran normally from a clean checkout, and each final tape was replayed by two interpreters.",
+  "order_source": "work/creative/pressure/order_search.cpp",
+  "order_source_sha256": "cdbea39d09c502198737ccb2374dfec2fc669489a3365a934b8330a4d958146a",
+  "fixture_file_sha256": "b1cdd9e5121326ccf4c4cdbf288abcb3e976374480b0695f311a8f3ab82a060b",
+  "frozen_parent_sha256": "5ed5ee53105852f22cb0403220a6a1995a75fb5ec682a23e1f59568f05c24b30",
+  "cases": [
+    {
+      "candidate_index": 0,
+      "peak": 58,
+      "proposed_nodes": 237,
+      "before": 238,
+      "after": 237,
+      "observed_operand_solver": [],
+      "stats": {
+        "computed_candidates": 0,
+        "rescued_pairs_candidates": 0,
+        "pairs_checked": 0,
+        "strict_logical_candidates": 1,
+        "reordered_candidates": 1,
+        "schedule_recoveries": 1,
+        "saved": 1,
+        "wins": 1
+      },
+      "frozen_proposal_stdout_sha256": "324f2af4c249fe7b4bbb32c8c5bab18d6d6fd75f0c2243c39ab14c5d0e75c717"
+    },
+    {
+      "candidate_index": 1,
+      "peak": 59,
+      "proposed_nodes": 237,
+      "before": 238,
+      "after": 238,
+      "observed_operand_solver": [
+        "forced-live"
+      ],
+      "stats": {
+        "computed_candidates": 0,
+        "rescued_pairs_candidates": 0,
+        "pairs_checked": 0,
+        "strict_logical_candidates": 1,
+        "reordered_candidates": 1,
+        "schedule_recoveries": 0,
+        "saved": 0,
+        "wins": 0
+      },
+      "frozen_proposal_stdout_sha256": "d955ed979395122920dd87183adefb61144039a5f1e76040e53f888e800a4242"
+    }
+  ],
+  "separate_clean_build_smoke": {
+    "id": "scored_0180",
+    "lane": "own",
+    "before": 90,
+    "after": 89,
+    "binary_sha256": {
+      "group": "10099834f80f7597d9859228ddae28b78f2fb69fbde5e1946fe9d2a07d42fbfc",
+      "exchange": "e244ce437853d13417b99d10ae997948a142e5fca4a4a75ff7e6a4cf52fc2af0",
+      "factor": "64730bc132e2c01307b66e779eaa379005ad988a2b74f5a94a314c1902c04e08",
+      "order": "5146b899ea9260595f7b67ba54c8b41bdc04cc24ced673937cc587ad631fe735"
+    },
+    "matches_published": true,
+    "matches_published_program": true,
+    "synthetic_allocation_control": {
+      "input_peak": 54,
+      "capacity": 48,
+      "reordered_peak": 46,
+      "reordered_steps": 107,
+      "allocation_status": "schedulable",
+      "allocation_steps": 107
+    }
+  }
+}

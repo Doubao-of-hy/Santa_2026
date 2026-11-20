@@ -1,0 +1,39 @@
+{
+  "group": {
+    "author": "goodpjw2008",
+    "original_filename": "elfopt.cpp",
+    "packaged_filename": "group_elfopt.cpp",
+    "unmodified_sha256": "16f12d4963acfe795f89f9632e941fb1aea9d8d8de55ac958a45b17a02881db2",
+    "upstream_v3": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/3",
+    "upstream_archive_v3_sha256": "40d548874401c3816aee7c9d18fee39e51f001f64bef06db689d33775ad40997",
+    "same_source_in_v5": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/5",
+    "license": {
+      "@type": "CreativeWork",
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "original_binary_sha256": "567ac6f379cd5cb05a69969d41b403c0a41f5afcc5c8fcd1790614f43c043e8b"
+  },
+  "paid_recombination": {
+    "author": "Arsen Zakaryan (arsen123)",
+    "upstream": "https://www.kaggle.com/datasets/arsen123/santa-2026-original-dictionary-solver-source/versions/15",
+    "license": "Apache-2.0",
+    "licence_notice": "../../generative/arsen_v15/LICENSE2026",
+    "source_sha256": {
+      "recombine2026.py": "43c0fc702350b367bdb15048167c6a63f4b26db900d5790f9f0790f0e10ba204",
+      "recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+      "run_solver.py": "62d8add684d82a30c890376191c46025b24021ec6561e0158b1402ce8d0e1795"
+    }
+  },
+  "repository_sources": {
+    "collaboration/release-crossover/paid.py": "2c9ad165c7949030a948fc9c415aba435513e2382c10b7343e1a941a37f9eae0",
+    "value_exchange.cpp": "dd25da69aec44917500b235368b3e6870534b66bbd5640216af9dc8c6fb24d77",
+    "value_exchange.py": "1918103554d2899e05b41b3132841ecaf3b305b738d9bb3d80d198fb798f9a90",
+    "factor_resynthesis.cpp": "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44",
+    "factor_resynthesis.py": "dcf0c5d70ff5e514d595982a08fe2f37bde03d89343fc5c479f96dc158deb26e",
+    "work/creative/pressure/reorder.py": "4c94a0bf2979cce3a0dd027218bf59d8441427ca6f42de207786b9dc61338678",
+    "work/creative/pressure/operand_allocation.py": "ee82ae42b63b893de0fa24055096e21b51fd17681eaf8bf648d2d223ebe90d06",
+    "work/creative/pressure/order_search.cpp": "cdbea39d09c502198737ccb2374dfec2fc669489a3365a934b8330a4d958146a",
+    "work/creative/pressure/probe.py": "babe1d2394bbc177ae50820a10d6d1cca8c50a858a947d0481aec3f6784a69b0"
+  }
+}

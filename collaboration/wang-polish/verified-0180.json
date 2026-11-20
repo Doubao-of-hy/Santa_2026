@@ -1,0 +1,93 @@
+{
+  "id": "scored_0180",
+  "lane": "own",
+  "part": "pilot",
+  "parent_commit": "22e78c3f04b1d3059f2a166f510979e75895ea31",
+  "parent_file_sha256": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+  "parent_origin": {
+    "id": "scored_0180",
+    "source": "work/virtual/resume-135077/wang-second.csv",
+    "instructions": "90"
+  },
+  "official_lf_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85",
+  "before": 90,
+  "seed": 14871,
+  "interpreters": [
+    "elf.check",
+    "collaboration/polish/replay.py:run_program"
+  ],
+  "synthetic_allocation_control": {
+    "input_peak": 54,
+    "capacity": 48,
+    "reordered_peak": 46,
+    "reordered_steps": 107,
+    "allocation_status": "schedulable",
+    "allocation_steps": 107
+  },
+  "binary_sha256": {
+    "group": "567ac6f379cd5cb05a69969d41b403c0a41f5afcc5c8fcd1790614f43c043e8b",
+    "exchange": "a7a12e1f3ce4ce2ff7c0f711cc08f134edbf32c45714d5d107913ef0f465f865",
+    "factor": "04a6c012b28f088b02c80338c4fb37ddc58bb8cc0ef51267eed231f781671cf0",
+    "order": "df0030db4241ac5591e1ac844b5a34511ecabe1efde5ae79870c01d8eb1dcdbb"
+  },
+  "after": 89,
+  "forward": 89,
+  "reverse": 89,
+  "traces": [
+    [
+      [
+        "group",
+        90,
+        89
+      ]
+    ],
+    [
+      [
+        "group",
+        90,
+        89
+      ]
+    ]
+  ],
+  "evaluated_offers": 8,
+  "group_calls": [
+    {
+      "method": "group",
+      "before": 90,
+      "after": 89,
+      "native": "scored_0180 90 -> 89 evals 1650 acc 455 strict 1 pair 1 help 367 rejP 0 rejPs 0 kicks 0 t 1.2"
+    },
+    {
+      "method": "group",
+      "before": 89,
+      "after": 89,
+      "native": "scored_0180 89 -> 89 evals 1200 acc 350 strict 0 pair 1 help 244 rejP 0 rejPs 0 kicks 0 t 1.2"
+    }
+  ],
+  "program_sha256": "ba0ebeda4b2c550974006fcb6fe9c1da56ee77c98159ba57f3be887fa90aeac9",
+  "published": {
+    "before": 90,
+    "after": 89,
+    "forward": 89,
+    "reverse": 89,
+    "traces": [
+      [
+        [
+          "group",
+          90,
+          89
+        ]
+      ],
+      [
+        [
+          "group",
+          90,
+          89
+        ]
+      ]
+    ]
+  },
+  "matches_published": true,
+  "published_program_sha256": "ba0ebeda4b2c550974006fcb6fe9c1da56ee77c98159ba57f3be887fa90aeac9",
+  "matches_published_program": true
+}

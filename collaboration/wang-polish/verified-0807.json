@@ -1,0 +1,108 @@
+{
+  "id": "scored_0807",
+  "lane": "assisted",
+  "part": "pilot",
+  "parent_commit": "767761d54afd14927f67dec216c47ee4ded91c2c",
+  "parent_file_sha256": "1102710ce5786dfb01393e55d82d21451637385b646b1a24036c84c5cec3ae08",
+  "parent_origin": {
+    "id": "scored_0807",
+    "source": "work/creative/resume-135077/release-union-134430/shorter.csv",
+    "upstream_source": "wang Jakie Kaggle 371736767 Apache-2.0 | project public 134487 — E-Max AI, Santa 2026 Crossover Stage 134618",
+    "instructions": "126"
+  },
+  "official_lf_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85",
+  "before": 126,
+  "seed": 60642,
+  "interpreters": [
+    "elf.check",
+    "collaboration/polish/replay.py:run_program"
+  ],
+  "binary_sha256": {
+    "group": "567ac6f379cd5cb05a69969d41b403c0a41f5afcc5c8fcd1790614f43c043e8b",
+    "exchange": "a7a12e1f3ce4ce2ff7c0f711cc08f134edbf32c45714d5d107913ef0f465f865",
+    "factor": "04a6c012b28f088b02c80338c4fb37ddc58bb8cc0ef51267eed231f781671cf0",
+    "order": "df0030db4241ac5591e1ac844b5a34511ecabe1efde5ae79870c01d8eb1dcdbb"
+  },
+  "after": 124,
+  "forward": 124,
+  "reverse": 124,
+  "traces": [
+    [
+      [
+        "group",
+        126,
+        124
+      ]
+    ],
+    [
+      [
+        "factor",
+        126,
+        125
+      ],
+      [
+        "group",
+        125,
+        124
+      ]
+    ]
+  ],
+  "evaluated_offers": 13,
+  "group_calls": [
+    {
+      "method": "group",
+      "before": 126,
+      "after": 124,
+      "native": "scored_0807 126 -> 124 evals 675 acc 192 strict 2 pair 0 help 177 rejP 0 rejPs 0 kicks 0 t 1.2"
+    },
+    {
+      "method": "group",
+      "before": 124,
+      "after": 124,
+      "native": "scored_0807 124 -> 124 evals 623 acc 186 strict 0 pair 0 help 169 rejP 0 rejPs 0 kicks 0 t 1.2"
+    },
+    {
+      "method": "group",
+      "before": 125,
+      "after": 124,
+      "native": "scored_0807 125 -> 124 evals 552 acc 173 strict 1 pair 0 help 160 rejP 0 rejPs 0 kicks 0 t 1.2"
+    },
+    {
+      "method": "group",
+      "before": 124,
+      "after": 124,
+      "native": "scored_0807 124 -> 124 evals 891 acc 262 strict 0 pair 0 help 244 rejP 0 rejPs 0 kicks 0 t 1.2"
+    }
+  ],
+  "program_sha256": "fe36e6e58891ecba52990e41a5ecd4c4c3ba859f43676b185961fe87928ea4c9",
+  "published": {
+    "before": 126,
+    "after": 124,
+    "forward": 124,
+    "reverse": 124,
+    "traces": [
+      [
+        [
+          "group",
+          126,
+          124
+        ]
+      ],
+      [
+        [
+          "factor",
+          126,
+          125
+        ],
+        [
+          "group",
+          125,
+          124
+        ]
+      ]
+    ]
+  },
+  "matches_published": true,
+  "published_program_sha256": "fe36e6e58891ecba52990e41a5ecd4c4c3ba859f43676b185961fe87928ea4c9",
+  "matches_published_program": true
+}
