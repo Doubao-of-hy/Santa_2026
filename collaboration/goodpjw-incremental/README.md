@@ -23,3 +23,9 @@ python -B collaboration/goodpjw-incremental/compare.py --puzzles data/puzzles.cs
 ```
 
 已有编译结果时可用 `--binary-dir` 替代 `--archive`。目录内应包含 `inc-local`、`inc-good`、`anneal-local` 和 `anneal-good`，Windows 使用对应的 `.exe` 文件名。
+
+## 其他 269 道符合条件的独立题
+
+使用相同规则，排除上述 16 题和并行路径重联的 64 题。对其余 269 道题完成 807 次搜索，单父本增量、多父本增量、多父本退火分别节省 38、24、28 条。逐题择短合计 46 题节省 60 条。连同先导 16 题后，独立候选从 140,811 降到 140,745。两组题号互不重叠。用已有二进制或原始 GoodPJW v10 压缩包均可复现。
+
+[固定题号](extension-design.json) · [三组总计](extension-summary.json) · [逐批程序与来源](extension) · [复现脚本](extend.py)

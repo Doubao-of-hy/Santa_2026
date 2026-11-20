@@ -2,7 +2,7 @@
 
 ## 近长独立父本的扩展结果
 
-首轮 16 道独立题后，预登记的另外 269 道中已完成 160 道，26 道刷新，合计节省 33 条。独立候选 **140,772** 条，公开辅助候选 **134,318** 条。两份均用两个解释器重放 1,000 题。[全部输入与筛选条件](collaboration/goodpjw-incremental/extension-design.json) · [逐批程序与署名](collaboration/goodpjw-incremental/extension)
+首轮 16 道独立题后，预登记的另外 269 道中已完成 269 道，46 道刷新，合计节省 60 条。独立候选 **140,745** 条，公开辅助候选 **134,314** 条。两份均用两个解释器重放 1,000 题。[全部输入与筛选条件](collaboration/goodpjw-incremental/extension-design.json) · [逐批程序与署名](collaboration/goodpjw-incremental/extension)
 
 ## 11 月 20 日新公开程序的 50 题复验
 

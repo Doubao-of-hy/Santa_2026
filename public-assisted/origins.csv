@@ -245,7 +245,7 @@ scored_0243,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and M
 scored_0244,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",189
 scored_0245,local from official inputs,Generated from official inputs,111
 scored_0246,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137844]",114
-scored_0247,work/creative/resume-135077/fresh-replay-134422/shorter.csv,"wang Jakie Kaggle 371736767 Apache-2.0 | project public 134430 — Hanif Noer Rofiq, Santa 2026 Elf Calculator - Peephole Programs, Kaggle release 23. Its portfolio credits Asterios Panoras, Ertuğrul Özer, RoyalAceCat, Wang Jakie, goodpjw2008 and earlier contributors in Hanif-v23-NOTICE.md; the release does not provide row-specific attribution.",109
+scored_0247,local from official inputs,Generated from official inputs,109
 scored_0248,Asterios v99,"suka, Verified Portfolio Programs dataset",173
 scored_0249,Asterios v99,konbu17 dataset (wide planning + re-allocation),256
 scored_0250,local from official inputs,Generated from official inputs,20
@@ -307,7 +307,7 @@ scored_0305,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",121
 scored_0306,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",257
 scored_0307,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",96
 scored_0308,local from official inputs,Generated from official inputs,30
-scored_0309,local from official inputs,Generated from official inputs,113
+scored_0309,local from official inputs,Generated from official inputs,112
 scored_0310,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",114
 scored_0311,Asterios v113,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,556",104
 scored_0312,work/gpu/schedule-trusted.csv,"Rishabh Bafna, Optimal Verified Programs dataset",245
@@ -434,7 +434,7 @@ scored_0432,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontie
 scored_0433,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",131
 scored_0434,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",107
 scored_0435,work/gpu/frontier-trusted.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",118
-scored_0436,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",108
+scored_0436,local from official inputs,Generated from official inputs,107
 scored_0437,local from official inputs,Generated from official inputs,127
 scored_0438,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",185
 scored_0439,local from official inputs,Generated from official inputs,118
@@ -490,7 +490,7 @@ scored_0488,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and M
 scored_0489,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",147
 scored_0490,local from official inputs,Generated from official inputs,4
 scored_0491,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",183
-scored_0492,local from official inputs,Generated from official inputs,34
+scored_0492,local from official inputs,Generated from official inputs,33
 scored_0493,Asterios v99,"suka, Verified Portfolio Programs dataset",228
 scored_0494,work/virtual/resume-135077/v113-polish.csv,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",211
 scored_0495,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",95
@@ -597,7 +597,7 @@ scored_0595,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and M
 scored_0596,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,527",94
 scored_0597,local from official inputs,Generated from official inputs,3
 scored_0598,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",82
-scored_0599,local from official inputs,Generated from official inputs,122
+scored_0599,local from official inputs,Generated from official inputs,121
 scored_0600,local from official inputs,Generated from official inputs,3
 scored_0601,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",120
 scored_0602,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",93
@@ -807,7 +807,7 @@ scored_0805,Asterios v99,"alex chilton, Rudolph the Red-Nosed Register Allocator
 scored_0806,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",92
 scored_0807,work/creative/resume-135077/fresh-replay-134422/shorter.csv,"wang Jakie Kaggle 371736767 Apache-2.0 | project public 134430 — wang Jakie Kaggle 371736767 Apache-2.0 | project public 134487 — E-Max AI, Santa 2026 Crossover Stage 134618 | Asterios v89 — Elias T.-H. Shieh dataset (our search and Mizero's peephole pass) | Asterios v99 — wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP | project independent 141026 | previous project 135077 — Generated from official inputs",120
 scored_0808,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",248
-scored_0809,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",118
+scored_0809,local from official inputs,Generated from official inputs,118
 scored_0810,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",29
 scored_0811,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",86
 scored_0812,Asterios v99,"suka, Verified Portfolio Programs dataset",106
