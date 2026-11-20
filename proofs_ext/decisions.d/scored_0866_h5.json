@@ -1,0 +1,18 @@
+{
+  "id": "scored_0866",
+  "helpers": 5,
+  "max_nodes_per_shard": 2000000,
+  "shard_nodes": [
+    177,
+    145,
+    167,
+    156,
+    174,
+    159,
+    136,
+    118
+  ],
+  "terminal_candidates": 0,
+  "seconds_16_threads": 0.2,
+  "lower_bound": 13
+}
