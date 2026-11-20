@@ -1,0 +1,216 @@
+{
+  "baseline_commit": "2e04c7ab5fab2286d509e81074ef50979b708f40",
+  "base_sha256": {
+    "origins.csv": "ddf77cdb90512e815a4d6570af4f33f5d2371c0b0966dedcaeb11592767959f0",
+    "public-assisted/origins.csv": "7819dd4e112ac7ca044b0e2064c01c009ee023a74ec554846ed54ced86d02e47",
+    "public-assisted/submission.csv": "f0fd262cf042a891acddccee749ab2b983fe43f8923e83c44fa9a446cf4d0ea1",
+    "submission.csv": "58b48b2f9a52cd4850fc1dad73681ceda207496d3a6a84498864c8c676a1726b"
+  },
+  "preregistered_sha256": "fc58ccc5eccc6e5c5466d44f2c81256824a0a8e45abde4e05a15f32a56c44a84",
+  "iterations_per_arm": 350,
+  "arms": [
+    "single independent parent",
+    "two independent parents",
+    "single credited assisted parent"
+  ],
+  "ids": [
+    {
+      "id": "scored_0021",
+      "own": 42,
+      "assisted": 40,
+      "second": 49,
+      "rng": 1730934,
+      "own_row_sha256": "dc5ccd72000c5b335999cb79cb2b91dd3f7b1cde378ea565f2e2f16241e919dd",
+      "assisted_row_sha256": "f37fb3549885a47c040b4e708e5cd1572ccf7cd622889fd0173fd566922542a0",
+      "second_row_sha256": "27f586993c1a54dc1079b82d170c14acd48d4a1bf6c3f945eab6db97d86b3eab",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0029",
+      "own": 40,
+      "assisted": 38,
+      "second": 46,
+      "rng": 1730942,
+      "own_row_sha256": "6e4b8b05aae6be61395e5b50b84b8a5c6ced016509a2bd4db1a5e760538ed1fb",
+      "assisted_row_sha256": "387a1e61cdec487f488624695ceb11964da526fdfc919f4add5f02b96492a206",
+      "second_row_sha256": "145939b5188624df7b1b6c8af5481347cdb243999994c1c1695af0e2d334a1ae",
+      "second_source": "work/gen/atlas-scored-raw.csv"
+    },
+    {
+      "id": "scored_0065",
+      "own": 38,
+      "assisted": 37,
+      "second": 44,
+      "rng": 1730978,
+      "own_row_sha256": "c2b6e79587dcd2c75aea95d38c32f14826eb9d7a01a6a728ec66f948d119c7f3",
+      "assisted_row_sha256": "af3cdebb1835033181d22b91dbf6c4699381a641307763ad92baf8633f0e18e7",
+      "second_row_sha256": "467f935df6f95b7671d4af74d1d86036809343d9d60baffd0e19565ff29b5fe2",
+      "second_source": "work/gen/atlas-scored-raw.csv"
+    },
+    {
+      "id": "scored_0066",
+      "own": 42,
+      "assisted": 37,
+      "second": 45,
+      "rng": 1730979,
+      "own_row_sha256": "ef411fc5f538a5f40268161e230c38cb2c7284bdaa83dc9799675403c56e45de",
+      "assisted_row_sha256": "26e72562719701a5a73c4e1fe15652bf055a5b7573d55c310f849e226ecce332",
+      "second_row_sha256": "4f668cd70592c32589106f8c62fa8f06b3a57c65e29dffc94a550a8d95d12c77",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0084",
+      "own": 44,
+      "assisted": 39,
+      "second": 47,
+      "rng": 1730997,
+      "own_row_sha256": "c7b8bc8c02a0f65dfc3dd648cae4cb1fb6b98300bf0afce63a91a5380f5b0eab",
+      "assisted_row_sha256": "0b50544fd0733af38d1a635a1fb9c4291764dc79d5394e8690d4722628ee5097",
+      "second_row_sha256": "cc59355da7c535ef3fdebe4f8d34a5cbe0090d22d92efe4d07639c406805f31d",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0103",
+      "own": 40,
+      "assisted": 40,
+      "second": 42,
+      "rng": 1731016,
+      "own_row_sha256": "bda90fd7e0d03245069bc54bf4f801302934e975bc4eb17c6175681412837ac5",
+      "assisted_row_sha256": "bda90fd7e0d03245069bc54bf4f801302934e975bc4eb17c6175681412837ac5",
+      "second_row_sha256": "394a8627fdca211e924eefadc338357c0d6e1896874b8f76da549637e607c115",
+      "second_source": "work/virtual/unit-135369/own.csv"
+    },
+    {
+      "id": "scored_0149",
+      "own": 17,
+      "assisted": 17,
+      "second": 20,
+      "rng": 1731062,
+      "own_row_sha256": "bbd82db30cfdd2149ef49db160681f704936440c3696f7632bf514bce61af0b5",
+      "assisted_row_sha256": "bbd82db30cfdd2149ef49db160681f704936440c3696f7632bf514bce61af0b5",
+      "second_row_sha256": "add4d94eee76c55d8cdf184e885e57c052fd5cc210e025d3305bbeaf5334067b",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0211",
+      "own": 42,
+      "assisted": 38,
+      "second": 49,
+      "rng": 1731124,
+      "own_row_sha256": "bc2c475bd63a292ae7ee3cc2e904954a120e9c993515a0f7787013773c3af37b",
+      "assisted_row_sha256": "433a5c07c50598776280763a2b7ed169dc82d8c53a98b2c09c8187161f941d10",
+      "second_row_sha256": "2fb4a477b711513e093bbd1cb444cf3339bab631ba1e14f25141417a2a356080",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0221",
+      "own": 37,
+      "assisted": 36,
+      "second": 44,
+      "rng": 1731134,
+      "own_row_sha256": "dda49ce1d8586000cf83c051ccbda3e1f30adafa79f63ee3d83b5f21418b43ca",
+      "assisted_row_sha256": "7a9dae16cf31b3ef47fdcba77736c1f75679b3a2a0f0fdf8395f06767263330c",
+      "second_row_sha256": "ab7bc462c4295b9e788130bb94d5f985391904556cc3a0019e5efb7cb325c2cb",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0271",
+      "own": 41,
+      "assisted": 40,
+      "second": 43,
+      "rng": 1731184,
+      "own_row_sha256": "f8f1eb5751ba68783b014a04b3cd3914c14ceb8762464b0b0e136c3b8249e60a",
+      "assisted_row_sha256": "48783e659045e928c0f92b757fa88f0ae2bbc1bd3eda2c23cba8902a209fa317",
+      "second_row_sha256": "0f665ef4e847be5e5e99bdffb8067971f29dfcf206583bc7bd47e7f9cfce575f",
+      "second_source": "work/gpu/frontier-independent.csv"
+    },
+    {
+      "id": "scored_0282",
+      "own": 46,
+      "assisted": 44,
+      "second": 48,
+      "rng": 1731195,
+      "own_row_sha256": "38a5139718db995ea06e7f34198e8af0875a1e9f3117463b29c00014d6d31846",
+      "assisted_row_sha256": "e78fb3ca1f9d57f1e802409c926ed69e30be748a8fd17d13563868faf0e50ca4",
+      "second_row_sha256": "9f5cc9360b5c2ffdceb4e49d06024dfacbc6bf56e64d8834f4bf4dd20db5fa9d",
+      "second_source": "work/gpu/frontier-independent.csv"
+    },
+    {
+      "id": "scored_0296",
+      "own": 39,
+      "assisted": 39,
+      "second": 47,
+      "rng": 1731209,
+      "own_row_sha256": "a41fadfd22944dcbea193a01615aa240f4ae30738ccebc961890d92365f573b7",
+      "assisted_row_sha256": "a41fadfd22944dcbea193a01615aa240f4ae30738ccebc961890d92365f573b7",
+      "second_row_sha256": "6f15287492e0c9e4045b0274a9863263b4c0f40a8f0f761076bfca7672a50a3a",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0300",
+      "own": 40,
+      "assisted": 40,
+      "second": 46,
+      "rng": 1731213,
+      "own_row_sha256": "10d90eeb844e278171afc560a1cad79eaaa36d5631ee76ebc334fb476172e05c",
+      "assisted_row_sha256": "10d90eeb844e278171afc560a1cad79eaaa36d5631ee76ebc334fb476172e05c",
+      "second_row_sha256": "f1f647a3fc04cc8c666195aff10cb46027304b0bfde010d76c4e03de4d436f6d",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0548",
+      "own": 37,
+      "assisted": 35,
+      "second": 44,
+      "rng": 1731461,
+      "own_row_sha256": "ec2fdbb1dc3cd1892dc219eaeb2cd23d3e3479a59db919019606541193b764b7",
+      "assisted_row_sha256": "da20a9c797fd226362a4af3a619697d611c749b10048b41f2be75926d1db86ed",
+      "second_row_sha256": "66d6bc5264a1c314b410ab6c35d6da2cc44386332bf3430eebf85778eae3cfc3",
+      "second_source": "work/gen/atlas-scored-raw.csv"
+    },
+    {
+      "id": "scored_0873",
+      "own": 38,
+      "assisted": 37,
+      "second": 45,
+      "rng": 1731786,
+      "own_row_sha256": "7468e390f5de47cc24d7ab609388b5debe130051e23daa60f22f4bbd803dc210",
+      "assisted_row_sha256": "a832bff933832d6bca2c66d9cc9a08f02cf682b730f014c0537902243dbcebaa",
+      "second_row_sha256": "f1bac0fc48962a8a98737b7b437e25b5b81bfcfa66380a12f1cb98a0ec29f426",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0892",
+      "own": 16,
+      "assisted": 16,
+      "second": 19,
+      "rng": 1731805,
+      "own_row_sha256": "efac0026c0fbe4e2200a1b4443c3848b4d0f1395ff4450846bbc858d33fab0f8",
+      "assisted_row_sha256": "efac0026c0fbe4e2200a1b4443c3848b4d0f1395ff4450846bbc858d33fab0f8",
+      "second_row_sha256": "80fd6d8de3c525f4a16d3d4f6b4965321811cc4f64a10936c6040424857140d3",
+      "second_source": "work/gen/atlas-scored-raw.csv"
+    },
+    {
+      "id": "scored_0901",
+      "own": 17,
+      "assisted": 17,
+      "second": 22,
+      "rng": 1731814,
+      "own_row_sha256": "c778f1e3ac837ead3a402ec22d24cdd180d7ca689e6332cc3d19c48f1f5cbde0",
+      "assisted_row_sha256": "c778f1e3ac837ead3a402ec22d24cdd180d7ca689e6332cc3d19c48f1f5cbde0",
+      "second_row_sha256": "b46110fe546319dee26102f44c9a4213196f71629012107f6daed86008bb7e03",
+      "second_source": "work/gen/rudolph-complete.csv"
+    },
+    {
+      "id": "scored_0914",
+      "own": 39,
+      "assisted": 39,
+      "second": 47,
+      "rng": 1731827,
+      "own_row_sha256": "290e13cb3108a1b4488d9c4f9b8f61fbe3baf811dd6eeb176b2385b25681ca44",
+      "assisted_row_sha256": "290e13cb3108a1b4488d9c4f9b8f61fbe3baf811dd6eeb176b2385b25681ca44",
+      "second_row_sha256": "ac9fe30603d54662151ddcea8ab1a4041d19c366d418a6c5be48bb8a740376eb",
+      "second_source": "work/gen/atlas-scored-raw.csv"
+    }
+  ]
+}
