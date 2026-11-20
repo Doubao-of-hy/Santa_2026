@@ -1,6 +1,8 @@
 # 最短程序证明与分片协作
 
-1,000 题的已证总下界为 **36,882 条**，其中 **20 题**的可行程序达到下界，合计 128 条。第 149 题的可行程序为 16 条，第 882 题仍在 22 至 23 条之间。表中逐题保留最强证明的来源以及两个完整回放的上界。[逐题 CSV](puzzle-bounds.csv) · [证明复核](../proofs/local/README.md)
+1,000 题的已证总下界为 **37,512 条**，其中 **20 题**的可行程序达到下界，合计 128 条。第 149 题的可行程序为 16 条，第 882 题仍在 22 至 23 条之间。表中逐题保留最强证明的来源以及两个完整回放的上界。[逐题 CSV](puzzle-bounds.csv) · [证明复核](../proofs/local/README.md)
+
+在 36,882 的基础上，两组三角共享一条边的证明又提高 622 题，按原有条件树逐叶论证提高 213 题。其中 205 题重合，逐题合并共提高 630 条。[双算法的 622 题](distinct-diamond/README.md) · [条件树的 213 题](distinct-helper-edges/conditioned.md) · [本轮逐题合并回执](evidence/combined-graph-37512.json)
 
 四个辅助数的算术连接给 113 题提高了下界，单独计数目标子集给 10 题提高了下界。其中 9 题重合，逐题取最大后共提高 114 条。[双算法复验证书](distinct-helper-edges/README.md) · [子集证明和算例](subset-capacity/README.md) · [逐题合并回执](evidence/combined-arithmetic-36882.json)
 

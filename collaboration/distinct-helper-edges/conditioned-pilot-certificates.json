@@ -1,0 +1,110 @@
+{
+ "snapshot": "d3317babb7d530c031bde7df6f56d00b0247f85d",
+ "plain_certificates_sha256": "5e3d6378b4421275918ed0bf70d9b40882b2c92bd253c9469051f1eae44bfc86",
+ "pilot_design_sha256": "ba02c9047cb5769fd2dd676505830d5e00ddcbab0c7dc8599e2c7943ab5b0dfe",
+ "cases": 12,
+ "gains": 5,
+ "sum_gain": 5,
+ "rows": {
+  "scored_0096": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "7881606224a1e2f3f2f37a4c12a8bb7f15ed5f25da8ed1c067d29b3ba1622afd",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "57d2f001723040e8e9ee999a699fb64dac1fed03bf418c0c18fddecfca1c3437",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a944c04f16a4c49b2ad2ea5782bc3a4032a983a9e6f5cc350e6db97209c6af4f",
+     "intersection_forbidden_sha256": "d8c5209fa145848573b6f3d0f789c34bdecbbaba522c7deeec176488e85093ca"
+    }
+   ],
+   "entire_replay_sha256": "ba56b7de3dc75ee7b85736a2c28e442acb19792dbaeb42ce73c4ad6b942db582"
+  },
+  "scored_0139": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "70a71951dad339c80f51f0d0cdf7c1718375b54238d3c32208745ea3c385694d",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "1ba76d7002fef9236b68f689915ba65da8fcd8e62851150ccc7432037256a603",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e980349d94b633dc76675b9c115ebb82f4a42900f2f5c6829423b2899e8b2b7f",
+     "intersection_forbidden_sha256": "c512388d49cf2e16ffdddf71903ce093eb9b64740ee10cd6328efedc9573c87e"
+    }
+   ],
+   "entire_replay_sha256": "6832a17882335ec94b28470ed60d17d4125f316076cc2c7d659c30f9b007e44b"
+  },
+  "scored_0446": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "bce821d3ffa7faaa4f74d63fb0f2f9d3fe4018314393813403f710e18d74d98c",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "2036b1e04f1ec90f232df668ee7fa5e99ed8726b9f40ce2a092fb6b3fe90d286",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0d831bc89dbf2dc44501f671138eed1ad07cc62641eecc6664386bbb1ad787f6",
+     "intersection_forbidden_sha256": "406a6a88c993fa86c760b1b113779a31c2a32a0a63ee3a5e862de5720f0e7c2e"
+    }
+   ],
+   "entire_replay_sha256": "5b6a16a3d9d16dcf38eaccf9b397b008df3d0747e0ad829b8677ccf39e6976a9"
+  },
+  "scored_0829": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "3515b90b9d392d52d684b9d073e56abbde6c99f58a67c50d5d4eb268dfee228b",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "3f6d29eb1fd0e98022165bb6e6efceec82384a7dc2b3c363e88a5bca7a6f85c0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e79e6d332cd830ee232f2e6e3f1767cc5ad30425302a028b50006ae3c18cba0b",
+     "intersection_forbidden_sha256": "f10e4298d13d568053946e8de152eca4d982bce80b081b7cf57a7d4ffa34c180"
+    }
+   ],
+   "entire_replay_sha256": "4b99610bc6f3fbc8bb2b13211fa624adde5059a078d8c170d8fd7d6271726dc0"
+  },
+  "scored_0845": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "0500c3f8c866ea6d01cf15e710d944156afd3b261c28d4ea356b82b007b62e1f",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "8577b0038ca01d155cc5e1d1626520ce052eb253319d60601c1537817c5e5a8e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "807492ded8e34870aa440bfb15c809624bc881ceb35b003a9871c5b53e07d79a",
+     "intersection_forbidden_sha256": "e955d584fdcd1735d9bad049c605c0881b7834b4e6e59f7cb447f14519b08ac7"
+    }
+   ],
+   "entire_replay_sha256": "963aee4f93848b09b9eef17b4913e7ad3525227854813d9d8cdea787e21195e9"
+  }
+ }
+}

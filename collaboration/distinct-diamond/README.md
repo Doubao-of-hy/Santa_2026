@@ -10,11 +10,12 @@
 
 首批选定 32 道题。两套算法对 39 个能改变容量的前缀域给出相同判定，28 道题的下界各提高一条。小整数对照中，第一套与 384 次直接穷举一致。第二套还检验了 130 个全标签小域、第四点的各个数值位置和未决情形。[首批对照](pilot-results.json) · [独立复验](panel-results.json) · [小域检验](tiny.json)
 
-扩展以 36,882 条的逐题下界为起点。20 道题已证最短，其余 980 道已用第一套算法逐题筛完，622 道产生严格候选。全部批次的记录包含判断、前缀和预算。[固定范围](extension-design.json) · [全量筛查记录](full-scan.json.gz)
+扩展以 36,882 条的逐题下界为起点。20 道题已证最短，其余 980 道已用第一套算法逐题筛完，622 道产生严格候选。独立整数算法对这 622 道题全部重建各自最强的前缀并确认容量不足，共核验 692,296,416 个整数多项式。[逐题双重证书](claims.json.gz) · [复验统计](final-summary.json)。全部批次的记录包含判断、前缀和预算。[固定范围](extension-design.json) · [全量筛查记录](full-scan.json.gz)
 
 从本仓库根目录运行下面的命令可复验开发与留出组。官方数据文件应放于 data/puzzles.csv。
 
 ```powershell
 python -B collaboration/distinct-diamond/compare.py --k4 collaboration/distinct-helper-edges --subset collaboration/subset-capacity --repo proofs/local --puzzles data/puzzles.csv --design collaboration/distinct-diamond/design.json --out pilot-replay.json
 python -B collaboration/distinct-diamond/tiny_tests.py
+python -B collaboration/distinct-diamond/full_audit.py --repo . --puzzles data/puzzles.csv --claims collaboration/distinct-diamond/claims.json.gz --jobs 4
 ```

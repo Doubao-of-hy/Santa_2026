@@ -1,0 +1,93 @@
+{
+  "registered_design_sha256": "47e32eedbd7693ad8080cd3d4a414aa46bf33ec39dec5805b8c15210d73cb9f6",
+  "parent_total": 140727,
+  "cohort": 32,
+  "runs": 384,
+  "physically_executable_runs": 384,
+  "phase": {
+    "development": {
+      "rows": 16,
+      "direct": {
+        "replayed": 16,
+        "score_on_available": 6152,
+        "parent_on_available": 2376,
+        "wins": {}
+      },
+      "bucket": {
+        "replayed": 16,
+        "score_on_available": 5498,
+        "parent_on_available": 2376,
+        "wins": {}
+      },
+      "matched": {
+        "rows": 16,
+        "shorter": 11,
+        "equal": 1,
+        "longer": 4
+      }
+    },
+    "holdout": {
+      "rows": 16,
+      "direct": {
+        "replayed": 16,
+        "score_on_available": 6066,
+        "parent_on_available": 2228,
+        "wins": {}
+      },
+      "bucket": {
+        "replayed": 16,
+        "score_on_available": 5581,
+        "parent_on_available": 2228,
+        "wins": {}
+      },
+      "matched": {
+        "rows": 16,
+        "shorter": 11,
+        "equal": 0,
+        "longer": 5
+      }
+    }
+  },
+  "full_replays": {
+    "direct": {
+      "rerun_rows": 32,
+      "frozen_other_rows_with_replayed_replacements": 148341,
+      "sha256": "79fe525c1aea33c1e31974c4170090f1f8bb28a988f4af77662ce22cdb668ded"
+    },
+    "bucket": {
+      "rerun_rows": 32,
+      "frozen_other_rows_with_replayed_replacements": 147202,
+      "sha256": "9b6c96dc46312ee3d37f99fa7a656762ca0b8df3e50d787d3ba73f52f35cac93"
+    }
+  },
+  "equal_configuration_counts": {
+    "2": {
+      "wins": 20,
+      "ties": 2,
+      "losses": 10,
+      "sum_delta": -1121
+    },
+    "3": {
+      "wins": 16,
+      "ties": 2,
+      "losses": 14,
+      "sum_delta": -655
+    },
+    "4": {
+      "wins": 16,
+      "ties": 0,
+      "losses": 16,
+      "sum_delta": -489
+    }
+  },
+  "sample_parent_total": 4604,
+  "combined_best": {
+    "direct": 12218,
+    "bucket": 11079
+  },
+  "closest_gap": [
+    23,
+    "scored_0818"
+  ],
+  "new_upper_bounds": 0
+}

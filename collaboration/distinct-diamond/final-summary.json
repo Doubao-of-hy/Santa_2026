@@ -1,0 +1,13 @@
+{
+ "claims_sha256": "68993d433e2e932f0065d04647af5921beeb3f3caf098a6a38f5d256952348f0",
+ "bytes": 65931,
+ "baseline": 36882,
+ "batches": 31,
+ "gapped_rows_screened": 980,
+ "dual_absent_rows": 622,
+ "sum_strict_gain": 622,
+ "equations": 692296416,
+ "identities": 0,
+ "distinctly_labelled_grounded_triangles": 4784397,
+ "excluded_budget_larger_than_first_screened": 0
+}

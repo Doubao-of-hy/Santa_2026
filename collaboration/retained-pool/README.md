@@ -11,3 +11,5 @@ python -B collaboration/retained-pool/replay.py --repo . --puzzles data/puzzles.
 ```
 
 `cases.json.gz` 保存每个实际使用的父程序、Asterios 发布版本、原始逐题署名、输入输出指纹、种子、轮数和被排除的父本。复验从固定 Git 提交取得引擎源码，在临时目录编译，使用官方题面执行每个父程序与输出，再核对指令数和输出指纹。所有父程序都来自有逐题署名的 Asterios 公开数据集。
+
+第 43 版在第 716 题的 117 条旧程序上，使用可归属的三个父本重新生成了 116 条程序。Asterios 第 123 版也在同题取得相同长度，这一条只计一次。[重建记录](v43/audit.json) · [输入和随机种子](v43/cases.json.gz)

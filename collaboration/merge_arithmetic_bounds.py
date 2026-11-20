@@ -60,11 +60,17 @@ def rebuild():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write', action='store_true', help='Update the tracked table and combined receipt.')
+    parser.add_argument('--table-at', help='Check the table at a historical Git revision.')
     args = parser.parse_args()
+    if args.table_at and args.write:
+        parser.error('Choose either --table-at or --write')
     proved, receipt = rebuild()
     target = HERE/'puzzle-bounds.csv'
     with target.open(encoding='utf8', newline='') as f:
         rows = list(csv.DictReader(f))
+    if args.table_at:
+        saved = subprocess.check_output(['git','show',args.table_at+':collaboration/puzzle-bounds.csv'],cwd=GIT)
+        rows = list(csv.DictReader(io.StringIO(saved.decode())))
     if [r['id'] for r in rows] != [r['id'] for r in proved]:
         raise ValueError('Live puzzle IDs changed')
     wanted = receipt['lower_projection_sha256']

@@ -1,0 +1,111 @@
+{
+  "score": 134297,
+  "cases": {
+    "scored_0147": {
+      "before": 94,
+      "input_length": 94,
+      "after": 94,
+      "mode": "oldest",
+      "seed": 491068,
+      "rounds": 900,
+      "skipped_unknown_inputs": [
+        "base"
+      ],
+      "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+      "attributed_inputs": [
+        {
+          "role": "documented current base substitute",
+          "origin": "1cb729d:public-assisted/submission.csv",
+          "credit": "Wang Jakie, original incremental recipe search (Apache-2.0), Kaggle kernel 371736767. Input programs: 62378d6 public / work/creative/resume-135077/four-source-134385-to-134325/shorter.csv — goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+          "sha256": "3350a1feff2d151c1a3671bcfa2fad349b074282ac0820e7e1edacc61b14cbe8"
+        },
+        {
+          "role": "Our_v22_public",
+          "origin": "work\\creative\\resume-135077\\asterios113\\best_programs.csv",
+          "credit": "suka, Verified Portfolio Programs dataset",
+          "sha256": "6b145f3103ebb5bfb00b10e9cc60bc4321a93b0eb571cc47e5c75cdf0dc48697"
+        },
+        {
+          "role": "Asterios_1638_public",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "sha256": "8271f997699691f5686f45bac931c0a296fafd0225d7f9ee60d88138985c932a"
+        }
+      ],
+      "matches_v43_output": false
+    },
+    "scored_0519": {
+      "before": 88,
+      "input_length": 88,
+      "after": 88,
+      "mode": "oldest",
+      "seed": 491441,
+      "rounds": 900,
+      "skipped_unknown_inputs": [
+        "Asterios_0842"
+      ],
+      "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+          "sha256": "b82e7b30eeb01da38eb29d7040f48e6464ca4ff52041804eabcaa6f78efa19d9"
+        },
+        {
+          "role": "10_prvsiyan",
+          "origin": "work\\creative\\asterios-v10\\best_programs.csv",
+          "credit": "Rishabh Bafna, Optimal Verified Programs dataset",
+          "sha256": "adbcfbdd78b08a08c51cc7088ecf11294f7c6d96dc943ee5beee761d011989a7"
+        },
+        {
+          "role": "Hansen_248894967985",
+          "origin": "248894967985e4e6a68ec188d8387b9f43056f9b:public-assisted/submission.csv",
+          "credit": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+          "sha256": "5f53002d2905e5d859018577972922bc84799f18df3456ddad32c9a4a6de5ba9"
+        },
+        {
+          "role": "Our_v13",
+          "origin": "work\\creative\\asterios-v79\\best_programs.csv",
+          "credit": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+          "sha256": "d3c0065b2b8d34603d32087c1c1eb2232a78483b9f21369c3197fc4182dd1e3f"
+        }
+      ],
+      "matches_v43_output": false
+    },
+    "scored_0716": {
+      "before": 117,
+      "input_length": 117,
+      "after": 116,
+      "mode": "anneal",
+      "seed": 491639,
+      "rounds": 1000,
+      "skipped_unknown_inputs": [],
+      "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+          "sha256": "9c5d139e6e2ef3e1523ae2c3f30d64644c65be9ebc80b46dc8c7179e7fac8a4d"
+        },
+        {
+          "role": "Ozer_dataset_0901",
+          "origin": "work\\creative\\asterios-v10\\best_programs.csv",
+          "credit": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+          "sha256": "97a2a34ceaa16c5a617377252fa9749b3558f818ddb3ef6a6d9ef3cfe02e3808"
+        },
+        {
+          "role": "Additional_public_1_1612",
+          "origin": "work\\creative\\resume-135077\\good10\\our_programs.csv",
+          "credit": "good10",
+          "sha256": "8a7d9800a9fe6959134d61b2d82529da7d0c9072f282c9b1528b2a228637de8f"
+        }
+      ],
+      "matches_v43_output": true
+    }
+  },
+  "double_replayed_rows": 1000,
+  "output_sha256": "b053fc2145e4db91a57d09c2df1fda0f16229c9f870eb43d6d3d44476de34f57",
+  "sparse_sha256": "668b51609082d8b9035d7d05d49e817ae9d9aca78403fb368482f64be4edb1a1"
+}

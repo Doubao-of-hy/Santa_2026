@@ -1,0 +1,4270 @@
+{
+ "snapshot": "d3317babb7d530c031bde7df6f56d00b0247f85d",
+ "plain_certificates_sha256": "5e3d6378b4421275918ed0bf70d9b40882b2c92bd253c9469051f1eae44bfc86",
+ "pilot_design_sha256": "ba02c9047cb5769fd2dd676505830d5e00ddcbab0c7dc8599e2c7943ab5b0dfe",
+ "cases": 679,
+ "gains": 213,
+ "sum_gain": 213,
+ "rows": {
+  "scored_0001": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "f49ccb1f708b1bf30dbcc74b86df05f9997db08ca219327600175d2e575fc53b",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "5705c1d8b5fe8353dc52a81414fbd8a35a084aa64c773ef512c5252800e75aec",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e7d5c2648f453d1faa75434d224fd4fdb2a7819e5ab06d073b6f321bb3778ce3",
+     "intersection_forbidden_sha256": "81de33e15c74a9db431cb480e9df8b016633e5643d1323b221bbe423b5eda64f"
+    }
+   ],
+   "entire_replay_sha256": "3ec702eeb6bb89def9006610d65131d409e1afeab90527d1529b71156446c6c2"
+  },
+  "scored_0002": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "b282e488c66a5f3018b35d1396e322d32f6ad72e606cf9eaa087c84a3ea084e9",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "b1feff4a9773b549573208851166f572bd83bc01a1a241e62aaeb271b318128a",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "add8a08a03e345521dc9a41946493dace7b65dfe7b3a7649ea0726b5ad1138e8",
+     "intersection_forbidden_sha256": "95c90ec16b9ee000a9ed68be39756bb91db227ca70f9aadbc6ff3971e763e4e9"
+    }
+   ],
+   "entire_replay_sha256": "f289e92fa5bc4353ecebade2c84f28b1fa4cd9801a2fa10fc5f81cecaf0cd77a"
+  },
+  "scored_0003": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-6d94502c744e99db.json.gz",
+     "tree_sha256": "529b9f2cb273a4d014726e50150ce26f69a0c5bdb55657270592ea58428a54f6",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "7bb2677f4cc10d434e8f2949f07e0b06e59685216c6e54083d9012a07cec7f57",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ee59195388e55c22ceedaf4ec11b037a37b8b28cffc59afcb49553df08965109",
+     "intersection_forbidden_sha256": "e76e794cd6733b2204529f881d22034f787830fe6454eefb2d6db934808e1214"
+    }
+   ],
+   "entire_replay_sha256": "27f5ca14f41ac2403a26d5721f800cf2894e16df22518c5d4828072ab060a8b1"
+  },
+  "scored_0010": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "d834af10f056590c62c1250d0b25c2fb38bff9cf44038ba717ab603e02a890fd",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "e0701506baabdc71cffba7b28606cdd38ca246373f817bb2738497777637fab4",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f9925cdd4d8cd569045ea929148618d5109492042e3936bf17c039d24b01c32c",
+     "intersection_forbidden_sha256": "b35d64152b6aa13b94a0edfea581ea5f4f8ffeb45902887b5ac5f9390ee790b4"
+    }
+   ],
+   "entire_replay_sha256": "05003c27c7a53982d1ec753df58f42bbd2d8b90e75b0d06e5c755fac92a99a40"
+  },
+  "scored_0013": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-6d94502c744e99db.json.gz",
+     "tree_sha256": "310c397b8f8c36856dca253705a4d47f7cf41150fe9268bc303a5341191122ec",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "caea55d0257c9461dc895066fa0f1baad25b3b3259ebc918cd4db30bd25e092d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "044f478c0007c59b7f4b4835a899d82008796b1b7d659d36197c9ce2fae39560",
+     "intersection_forbidden_sha256": "abfebde1040f231bff88b457fae931288a9d56cb842ea1058695f98b0d3c33d3"
+    }
+   ],
+   "entire_replay_sha256": "5d0bb9feff3119119dd624798128c4663b4db20593c59e07238d4e1fe89601c2"
+  },
+  "scored_0015": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-6d94502c744e99db.json.gz",
+     "tree_sha256": "fb97bdf5611c248173ae376efaacf0fdfb8ed8c773b7ccc4c81eee7a9e7bfbd7",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "e15e3e718987df5d07e3fc7bc492fb081c6d961a3d9d72f48574c3dda09f4fa0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c0b83994226ccfcaa0af00de9c633098c219eb3b51cf9cbf53edb8ec43d9ad66",
+     "intersection_forbidden_sha256": "6bc6b9de337684c3f9e332f9fe85aa6222355a0d1d7ee85a05e6453d44a1d2a0"
+    }
+   ],
+   "entire_replay_sha256": "61f0d5dbac1c2f0cd70d86833d338baa5cb9866b4386c272639b459eae19b540"
+  },
+  "scored_0020": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "852f84a0fda647897e811ee74799447ac48a65813b527590f40f0e01c789ac90",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "119dcdb5439205e1b0106c494bf4a1556954122407e4b0dc1ce4a3b1d52197f2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7b3e8e6308522933fdb90ebe450e3aa0f1ed50cd9b58a6c8c19a28ec373f79c9",
+     "intersection_forbidden_sha256": "eea1e5c2d319dff2511baedd9900c75eb9f6342fab4ae90162dfc383fd8cb4a7"
+    }
+   ],
+   "entire_replay_sha256": "10c67fb9aaddcbe236dec6351ffe725c0776a86d29afee3915c11c8ba111fc1a"
+  },
+  "scored_0030": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "150ede65ff88ada687405a950ab67cab8f5fbeca131472d36205642af65f45cd",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "498d76982c02e1310f8bc98bb306e3178f507232e37c3030cbb7774a22483ed4",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "d05ee7f032ac4a68062b47e307b64062c71f9be0eef498123abf4cdc446e485d",
+     "intersection_forbidden_sha256": "824a7d13fc91aa942870315882a1df2f1c7408e39e2de0b7f76df98388d077e2"
+    }
+   ],
+   "entire_replay_sha256": "67665b7aebc91e2fd39a2ce658fc3bcf6b47e1f6eb13e2890bba53e1d083b617"
+  },
+  "scored_0031": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "742f5a6913820f0be70908b3c7b98ac1d80f17c70831799ef18b3f7eece4d9c8",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "14db9383fac2a56545d43b00b0311d1af106527d3fbb5b29544e04d850348cc9",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "30ab2d6075c193af08d73e89abbbde4dc476d26df65b6fedbf98ac0e3f229a79",
+     "intersection_forbidden_sha256": "5b72a71653a6f82de5ca3bc7e2526f4bf1c935b83350868b9a5e3cfda98674ee"
+    }
+   ],
+   "entire_replay_sha256": "939bf1dece22a78f111f691d3f366900f2b3486cc0a66f6096a08c69e36f8c48"
+  },
+  "scored_0032": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "3701db1f340a280e4e20f8912dccc779da9e2733682b5c43fcbbe93cf5647fff",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "e94dac30af2279c5e3fd5b8d7ff0a8cd1f4db9a8e3daba3ecaf48bef16e6d481",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "626d95634f42a4b92da5996361c54cefbe0a4ec214b7524a2a42aa0999ed953a",
+     "intersection_forbidden_sha256": "317385c0a9760902cc293b7ec588ed1d0ea4d52f3a978803d0326c758bcd98ef"
+    }
+   ],
+   "entire_replay_sha256": "b75b776cda1a33648bbf92ed06ac38434e0b1b24bb69fdc38a703f587ea52e4b"
+  },
+  "scored_0036": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "d5aed5a8519c6625b0da86590446c5ec4a45608f64921460ad69e1ff2b9ea6b3",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "848a9aa54bc5f30552d4d74fddbd8e6f731fe5da2c830e124885a025c202b590",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "24bdbb902a837e448ec165ba967d582c4e8cbf3810fb4cdadc63a3fbcbdae3cb",
+     "intersection_forbidden_sha256": "71177ac0842ce21f3f453980b61feec2e4c43c8122307e288455813218c7acb6"
+    }
+   ],
+   "entire_replay_sha256": "9be9ccd826a0cb96616afc90f20328718bb9d4205aa24d129288a87e2b3ebc66"
+  },
+  "scored_0038": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "e78147497d6cae34b4aebd4885651776fbbdff064d7b20b211ad43d086e4a454",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "ae3f2121b73baa52d8b18e0d1236ec396404b23940910647386bba709d090d85",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "06739b71da6148aae974c2f144de89a80b1c523706b0d7d29c1d8d9420b7658d",
+     "intersection_forbidden_sha256": "71c6d60af6a65150926923830ac83b6e6290390d0b3b659a8c056c7d9fc4da01"
+    }
+   ],
+   "entire_replay_sha256": "9b5096d90923548746f292ddb51ec7a26365c62a487d5897456e1ba3190153c8"
+  },
+  "scored_0042": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "8003f7fd2f013e0129e0a5de1c21959bc22abc612d4180f44d14a1a10f3f5a66",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "770d3431130e9125af3c13bb3486b757373509c4ec966f6c09b1f54bdcd35258",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b4219726f83ecb36cfb2f316694287f8ac602d2b3ea1c501a110f594f6691920",
+     "intersection_forbidden_sha256": "d665f44d0b095f9fb2970c2e50e61c28f396345a070c5bea5d6004aac2c31cab"
+    }
+   ],
+   "entire_replay_sha256": "f739528042b62c0c4ea5e931c3a7c2e7ed5e8ad70a52cad92a09e338de9cc769"
+  },
+  "scored_0049": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "4a87d3bcdae6ff803771ea8ec074fc28012c073ccdb0d9a876dc903b2d6a979b",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "d1b785eb7dbef6a2f3d5b7d5146eb5837f443e71fdff41ff41e8bf16d8c0eff4",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6ebc06301efdbcbb45a2868ad04ec56220a1b680bf7acd92e35d492fd6c799d2",
+     "intersection_forbidden_sha256": "19146028dec57a4a811aa05d5fc2c84ca50fb7f616cd4ac8428e3a4350a74488"
+    }
+   ],
+   "entire_replay_sha256": "1588ed67a3654a466a3e452d637d94dd1d6b2e6e145d44dd1c188cd290a6e6ff"
+  },
+  "scored_0051": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "8cdba74bcbd0eac79e40d44dfcf10f88d930661fb31a1c0fae1f1c3503358468",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "772f0103fe12e278efbf8ad921a8d2fecb411865de0e0f319ec73951c3a13edf",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e224da25b10d0642296a3999087dac68673aff9734661b0457be72c6654b051f",
+     "intersection_forbidden_sha256": "7c75b2f19bc17236711a0d45a355ad9dbecd1b964c2dfe39f3024eeaa4214fc9"
+    }
+   ],
+   "entire_replay_sha256": "2053fd9b55d6d3371b83eae045a99eabd8121ba082971755f048fdd7dbbab29f"
+  },
+  "scored_0058": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "17148bf225315b4371d7237c4201eac5680e7f9e405eb780bbdd3c3eaaa1e372",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "a5bb6cdf0b04d6ca38c796997532d5989ba7e8a6a08c422a360e82574d6797d7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "044dd1a8e90dc10c8b8a61ad56cb1f7533f0b7e379b1295099d9f5ead7e6a16f",
+     "intersection_forbidden_sha256": "0acc1162b056f5f596aa8453c21db4d7441f0d9f25a6622b8a001e2d94dfa095"
+    }
+   ],
+   "entire_replay_sha256": "fe68cc93e204a208e9b82b88e1b64d8bd524dfec4a0c0274a48072185f69e3c9"
+  },
+  "scored_0067": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5db159274f3eaf559654fd5089d3720ec56eca061db94b514111eb45fbc3ddc7",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "3b14670959330a8d3a26b60e465a400d82bff8c8d70f5d7564dfb084e0623812",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "274fc245c30e90f8ab96ac2eb355bfd582a71058fb7f70b0ae690f9cd3a10d3f",
+     "intersection_forbidden_sha256": "d55e4fc83ac2f971e38e99c296777c288bcc666bedaeb1900d8b3547a24c1aab"
+    }
+   ],
+   "entire_replay_sha256": "ca01ce8ac2c464ff54e3c47fcf810b3f35583ef5d4834b2becec840fe283616d"
+  },
+  "scored_0069": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "ad4eabdc62f1cf6ef5b5d38ca72851f79be63b00e00d5aa88aa43ca7e12d6da8",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "eff0817d156fe4adb66fe9d86e760de7e07a6a99089728b146f0c756df4f2d07",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ae5d681156fdca80dd10761e0b6d221edc7227adc01a92b1f3cef05076190b3f",
+     "intersection_forbidden_sha256": "3c58be603f2803562a431f9eb1bdb3055651d75188cb1d69426b2d70c1dcf915"
+    }
+   ],
+   "entire_replay_sha256": "17d16fe16f117bd01e299e2f6ff87f714a0db0132cfbc4536d8fc3ca2032d021"
+  },
+  "scored_0083": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "2e49997c31d140fba4f46cd3d44b7d50f59060730e3a05ef4ab941bf6b7b42c0",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "00f38b4bf64db62207e7e7f024588edcec90040d657b12aa294995b80a9f1f05",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2420123799bb45a5f85a91de2b5227e98eea8595512ef55ae0627d1d96f21730",
+     "intersection_forbidden_sha256": "f274f43bf8e9a028c5af03f3a4ff401962dba51ce175521c3eb3f61a659b9ce1"
+    }
+   ],
+   "entire_replay_sha256": "91e770de3821b6c2d8f1ca79a896cb57b740f0a6f9676dea53d28b64c3fb4678"
+  },
+  "scored_0087": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "36646383f377f70372326b4a5f8e314bccab46364a7803b97d584dc1b88d0b3a",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "576f20bacacbc519f8c89ff8e83912d13b2efbdb4d57efd16cf6ec2c43b6fa72",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2fa57f2ec434cc71c2faf03979edb234d20cd68ac92cdeaa6d97e6b076c46efd",
+     "intersection_forbidden_sha256": "6304f662bf5df7b818f48cb57b2e059eefa6c793cb4c64c6ba2cc6928b02a78e"
+    }
+   ],
+   "entire_replay_sha256": "145e2ba48f4e672b631a0c06bb6d07bc770a54a5aecb6b74ea5ab002434cc854"
+  },
+  "scored_0096": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "7881606224a1e2f3f2f37a4c12a8bb7f15ed5f25da8ed1c067d29b3ba1622afd",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "57d2f001723040e8e9ee999a699fb64dac1fed03bf418c0c18fddecfca1c3437",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a944c04f16a4c49b2ad2ea5782bc3a4032a983a9e6f5cc350e6db97209c6af4f",
+     "intersection_forbidden_sha256": "d8c5209fa145848573b6f3d0f789c34bdecbbaba522c7deeec176488e85093ca"
+    }
+   ],
+   "entire_replay_sha256": "ba56b7de3dc75ee7b85736a2c28e442acb19792dbaeb42ce73c4ad6b942db582"
+  },
+  "scored_0098": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5731e5eae0949e765fb4b9909a2236b16393d648bbedf20bec0c4fa3d8a74cb5",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "60baff9939d3a0af3f7386ee0ea7edee5e7bacfad75e8dd62319fd7fd6256216",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5e249962de86e23b9839b3b814544b7e39ed8ae7210805db11bc9781958e4eee",
+     "intersection_forbidden_sha256": "3d4aa7178865b84c21acbbfcdebd4a2db4b81c8987ebc7a27695e58a3be5f5ff"
+    }
+   ],
+   "entire_replay_sha256": "899ae102fc8d3c7354a3ff1e131a0558a13d18a45358c3a9eff2dcb213479e7f"
+  },
+  "scored_0104": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "d7196db85f71ac2c52ae8f4466cae5a4f02925410e52a16d244ebd3d4f38b5ea",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "b185d8b5110f7ef9e6b77fa273d02734457a17eeb0814be279dc0fdd9aad3b91",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fa251e0afe05aa5237ca20ded7da30538b796288d3dc8d7deb4d4bc8cdff1483",
+     "intersection_forbidden_sha256": "3c41059437c7dd2bb2292dfe9bd8ba9dc024e4931cb9db68b60f2113adfc6e32"
+    }
+   ],
+   "entire_replay_sha256": "8323389f0078d010ba37b8b6c270e1309e5033e2d6676d0a930dd4d50a543980"
+  },
+  "scored_0105": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "31263da0b0edd305533cc87d308b21e45a3d5c7e00ab3b7a92bd547fd05ef554",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "15e30516486984e6884698d95aba4f890d47cb84b46eab6371c16e7a5f6d8cef",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "3eaa39a8ca55d229a8e79cdc0ad9e84f4e884c09605274ca7cc3c8a1770518b8",
+     "intersection_forbidden_sha256": "71ac4e79f813d0352afd2d0f51c2b799de0bdf67656f7647c9220f64b7bf019f"
+    }
+   ],
+   "entire_replay_sha256": "9d56b67ac19c9dd1ac3c02ddc05abf6331cbf53465a44fda853a5f49783bbd24"
+  },
+  "scored_0106": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5d04eeea0964347aae4a5fcb211bfafb55d9d296148af3bdbbf72c9aa04b450e",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "e358488d50cff625983fc891f51eba71e0ff8627047d917c60994b7fd94bc586",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "3f5c4e5708a5db4c50a80e77246a21aa9dab45432065e0cc8ab2187e42b47265",
+     "intersection_forbidden_sha256": "746ad3317352f6ecbd9377854fb6c9fa3331fff9d4c12705b6c3d1ed19bbca4e"
+    }
+   ],
+   "entire_replay_sha256": "9b539b3a0ea34377e14e52722e42a361993f93d84ab63cd6b3419fddc7f27fd2"
+  },
+  "scored_0107": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "84fcdcde1f387b2da5a5f9eeb085569d0c84fa6962919e2ce9e9581d5d1b0c2e",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "dbba56cd53f92fb95814f02ece5f487cef175f8ddbe4a98468c617b5956d56b0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "29db97a4bd5c6abef257c34ea49e1d0ee5d7bffeb705517409a21477a79db03f",
+     "intersection_forbidden_sha256": "e706bc2aacb06687c485b1cf06489393c2c9b1bf6b865212a2e49866533aee96"
+    }
+   ],
+   "entire_replay_sha256": "5e543eab4ceed04015312bb33d01621975e19a0c6f1b0ca9a996e0e2377a6c43"
+  },
+  "scored_0108": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "f49f701b60aca3b98fe2233f9490d3dfb6e7f0114176c3912ff075291be7eaa4",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "1a746209cbac7091f20ee09603c2a7c79063d01c89722c5194f2a4d07a93e319",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2128e7fc770da7a3270c77cc4bd5d75bda7b4021253677082912c066b3247751",
+     "intersection_forbidden_sha256": "ef879a5ac8f15a7f48772f0dfd660668d6c98c59a322470f9da59a285e85aebf"
+    }
+   ],
+   "entire_replay_sha256": "2ee3c4f30108ddddee4b5712f08da90e63ae89f30c91553725e2f4163bd9ab6b"
+  },
+  "scored_0114": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "40af453ed30c3432f05b73646713cce389e6385be85d67fda2ac2ca1fa7361cb",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "c1cd016c0070750941e4200ea5692688f20bc03389f32989db8ea103cf61c3f1",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b94fd0eaee80b58e53ac26b89d160d29e1430adb2a301ac1a28d17d1baf4b4dd",
+     "intersection_forbidden_sha256": "574539ad03d5c351527d91dc24db9d165a75f934852df86036df13fd3766cc23"
+    }
+   ],
+   "entire_replay_sha256": "39a21b770a67848b631fba080117fa568c4f9ab4faf542ecf42548ea6541cd7e"
+  },
+  "scored_0115": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "259918d6f1532428e6444a3d61fdab26bad031f78cfd557586fdd40a1963e957",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "2133f9cc2df376df421b810dc972f05206bbd23dc04a99f82978d0ebca764ec1",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "14b44a602c2b259a7fcbe093dbe545f9643b154f1eeb3e9b70d6bdbae268f3ac",
+     "intersection_forbidden_sha256": "055aaa00ffcce404ca58c25fa51f70daf704cefd849a9c991a11d06a44c564e8"
+    }
+   ],
+   "entire_replay_sha256": "5f15deeb984f42571fef5cba15d2a66060f37e57db07f8154666e9d0fb72c6f2"
+  },
+  "scored_0123": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "87676d014814cafa168f90f7e702252181ef403fd2fa2ee47c42169f48b9d81b",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "8a24b6a9f0991288c95dd3f65484efa005ea09f1375b4e9db15fc00887171f80",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "1a0d17ab9d60c2c7ca4ba4d4d6d7fd6c9034f49dbd2420cff4dd6b0c4518770e",
+     "intersection_forbidden_sha256": "9febcc68cbadf7143d90ee0d69fc6addd76ac21f2b3bda2310a66286f5ce1a59"
+    }
+   ],
+   "entire_replay_sha256": "9ef966be20643a4562ee3c1a327d1e57ecd6192ee8a13e899f64e066a05db715"
+  },
+  "scored_0139": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "70a71951dad339c80f51f0d0cdf7c1718375b54238d3c32208745ea3c385694d",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "1ba76d7002fef9236b68f689915ba65da8fcd8e62851150ccc7432037256a603",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e980349d94b633dc76675b9c115ebb82f4a42900f2f5c6829423b2899e8b2b7f",
+     "intersection_forbidden_sha256": "c512388d49cf2e16ffdddf71903ce093eb9b64740ee10cd6328efedc9573c87e"
+    }
+   ],
+   "entire_replay_sha256": "6832a17882335ec94b28470ed60d17d4125f316076cc2c7d659c30f9b007e44b"
+  },
+  "scored_0145": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "e6c09b378800c5e2798f3679c9cdb327b7c54c9869384fe81f50c69a1b61b915",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "955129dad31d0eec8b97c2c5ccd4c87d6caa3886bf466187f61346a180bbc733",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6bc938570837aab1efa17b250fc0d1b7766c8716657d16e8ba1e23bd2ea26124",
+     "intersection_forbidden_sha256": "6a0d2ea7ba407bd26bc14158162a3ad643df954dce71bfbc5dfa25a661ecbeea"
+    }
+   ],
+   "entire_replay_sha256": "d1a5cb5a000e39f18efbc5dcbaebd92fe2b572921118736c1621762ed71b34bc"
+  },
+  "scored_0146": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "f4668831c9bcb2527f16faa4da8b6626fb23f258c97ec553be533af6aa85f3b3",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "f59fcdfd12fe3ed117a635509ca7de22c286885ed11a0c4224b1c1d68c41f495",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7b865af98ce550f446be463d925fb7ddb8c2e2e24876232b6d995cae012f4158",
+     "intersection_forbidden_sha256": "cb13990e550c03e567fd4acd1f05b0681f40108a518941aa4daf10727134b23c"
+    }
+   ],
+   "entire_replay_sha256": "e44f029e2865e58b4afaff389404bb5508c079d4c1e5ddd56a6553aaaeec3f8b"
+  },
+  "scored_0148": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "aedb9df6d1db413ab1d82a278bf36fac55e9ab7caa26841e380f24aa62e36f80",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "cc1366b7b3eb11c86fc8fa9b6aa531ab8df268e3b44ddc08307edfd5818d163c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "313f51e5d39982585596e6f705a5164559264f24d9b6be54e5a8c1b21c069e05",
+     "intersection_forbidden_sha256": "cfbbf38e8f21059209e5c0eb9db9a652992733a7fed9c387f50d8e78dab04143"
+    }
+   ],
+   "entire_replay_sha256": "c9f5c03391029c49bda3640c7d11a2356fc4e8af5af349adc218a39d2030574c"
+  },
+  "scored_0154": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "601548d71dee12e132c8cde4df0991e12c2905fef66b30b30eeb933e1c4c8786",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "c4c91289e625cc2211c80559afae168eda0f07fdff5e97010b939e0231e9262e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "faf03a4b9ee8662df768f1703395c0ef9280c6f26e2bd443cdf8dfa03c4f136a",
+     "intersection_forbidden_sha256": "3b4b48bc80532d3594ddae8260f880d332ba5d86e9131a209f512c6009993b8a"
+    }
+   ],
+   "entire_replay_sha256": "0c880fb75e00a7f6df8eaa6146eaeb205c9a380825f3c00097dcb5fc0bf460cb"
+  },
+  "scored_0155": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "fffb0f19d2e80d617f7f364ea33aa845f37833a1e4142c71da05cea630fe04d7",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "e05cced650ce4a65c1b55f40318bbac69102790558c698632eb5dee4ed3ce4fe",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9127ed5197b93c499f53c9350798629f3e5f947185ef0106e654e7a928daab50",
+     "intersection_forbidden_sha256": "0b871d962b4618c60477a843fc76849b3e9587c85e607f3b928e1917480c8a7d"
+    }
+   ],
+   "entire_replay_sha256": "eda7987aa3c18bd99a593cd547b633815d154de97a07861d3ab04bb7dd46bd47"
+  },
+  "scored_0159": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "1a19650f035a1fa98d1da1bfe9de5ebfdc95547ee89d0c53f1ceedf0dd980586",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "154a3bdcd231dc8a3f3b102e88e0e13e721b2cda03fbdbdfa1e3de2904ac89a0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "66e1f90d7103c632af223ec72c4b90ed99eb44d54efd16159d6c09c617bcbb70",
+     "intersection_forbidden_sha256": "9e411384635fd1397f2dd86736f55e74f2e43911c0a80b687dce801f7147c51b"
+    }
+   ],
+   "entire_replay_sha256": "2998ab9423e3148d08405523a411d1caf10baf1f1596d466e34c4920a0421c32"
+  },
+  "scored_0162": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "9fae04cf483bfaf1031fcd174af02f4306db326aa2b355ac7ffdab38ac65c18c",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "2295be4ffe33345f05871fa7efaaea7634dad62f52b1398b84cb853fa045b155",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "badeda1e11435563903b45b70763fe344c6af256e0535ab279a3fc007ea30b1a",
+     "intersection_forbidden_sha256": "41fd05665dac3bbf1ae3b6b3f0455131d2041823a4b196c3ced683b6e6e2d0a7"
+    }
+   ],
+   "entire_replay_sha256": "523751cef289670fe4503ece839d8a9383257d65094d7d54432bdb4a3e271db2"
+  },
+  "scored_0166": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "cb6a3e0e765f4fa7a7d65c26ff351e9db322c23082c106810ef5a1980c2cc6c1",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "6d0ac2a62e7eb8103ac161177ce24008bcb8789d80a4d097533999b0a72211d5",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8f3e1745c0d9d7a38060bbc606f090f4fdf846e0976a064d2ced4dc39d6d8749",
+     "intersection_forbidden_sha256": "29feb8b04d6cd4ce5495a543b272758885faa9456c72d31063977c2eb952271b"
+    }
+   ],
+   "entire_replay_sha256": "5bcaa4d5be098e6815102556ebd2ddc83946681bc14105ce1d9c50ffda1c7380"
+  },
+  "scored_0168": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "3bff3360d9b96cacef8b76c840a45053edbf9dda98965e4932c66cd3bf6b712f",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "bbde3219296c0946c9f525bb7ca43beea65e344a7da6613f891962f30a42615d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "555ec9ed4bfc969f380509866f7b435a2a863905a8bd43dd67a56f2cf34ed305",
+     "intersection_forbidden_sha256": "63d3b94054816ac42879189d005b3e21f39733aa9a43108df4b6eb403fcf54b8"
+    }
+   ],
+   "entire_replay_sha256": "a6797c3f827fb457efc359268a65b139d7557e6387b265a225fffc4ef5443b52"
+  },
+  "scored_0183": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "787ab1372148b10f197fa026560217356e355f4c51cfdcfbee4032f5b2976e73",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "93cab79090de423cf3234f1b90ea09be4f5b574b74cff723a0171d6bfa4f9c85",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ffe5dc763da1dcf753acb249b599960e955967adde5a0a657ceb9b5a48ea45e9",
+     "intersection_forbidden_sha256": "729423eaa557d2d58d259bb4186f7d3518c6f87ac7f7a86241c3e5f544f4494d"
+    }
+   ],
+   "entire_replay_sha256": "07a72c17c64acadd059608ebb06912e862415585fc53d1d3822904cdb24f7772"
+  },
+  "scored_0198": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "862fd7aa2cef26815543387b33771c4b483ad270eef289fa9f96b4706870da96",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "793c7cf653e58f92c5239728fba71760fa33ea1e60056887922db5906bcac0ce",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "445cfa799deb74abcd081ce95a46813401212adea54f1b7305aa6df40da3dde7",
+     "intersection_forbidden_sha256": "9ec720c71de4d767322cce0789eded236b715079370c2d460baba98cd25bd852"
+    }
+   ],
+   "entire_replay_sha256": "7fb238e16273da31f20e0b479b2574beb9aebde25074f8885c35b70415f1ae6b"
+  },
+  "scored_0207": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "66fe6ce745ba3c583908cb36cfd00c4504a37851cc1f90330e21e1c2b3f16037",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "64449c5ddb64d6759e5476dcf348ab27d4aad493114fc416c31f6f415a97d422",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "051fcc83a5f38d3593c8c7620f96e901b250641076aa93e9d7c4a72f6c494eb7",
+     "intersection_forbidden_sha256": "4699068b093020bd513111e67a43f5977800eaa4e3dd3e433737467164c037cc"
+    }
+   ],
+   "entire_replay_sha256": "ee2e5ea7af7ff7bac1828ad2ec366574694061d1ea9cdf241604858d80351b5b"
+  },
+  "scored_0208": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "8cf8c8091a17cfa215962b06e3e259efb42bd1de81c605408a44d40e7846eb76",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "b026c2e17ee3671074d50decb1b982d843d561ebbe0e0f3a94276056819b4fbe",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "1f757c9835b4be2547b39595d213b9eb4fb1a869bef5d7b7ac2f945226012cf1",
+     "intersection_forbidden_sha256": "9d4fdc27e1b308915d602b263c56150413b25471cb31bf6150e4646cd5a95c9b"
+    }
+   ],
+   "entire_replay_sha256": "882c8d65681f74f8f126e98f109e4276b4ba4f44057634f1700e9b942b68de88"
+  },
+  "scored_0215": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "0a358051cfa1733819bc9a94d2b15630436cd7a993860e50de37617a42a8d8b1",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "01a90829551d949e6cd7a3c6adb85e8d8d3bf5add6dc3353b1a72bdb217316d2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6268411c8fa7ee276886ddb04bd4c2e1f91247d8c484f3ab5543f98a7da320bd",
+     "intersection_forbidden_sha256": "7fb0257651950d76327c62c4637b234d9e67163649d2ae64f3b36bdad94a79ac"
+    }
+   ],
+   "entire_replay_sha256": "0906355a4d202ed8a57a4260f07447bd5f656b82646ecb6b8a4f4a8c39f2a05f"
+  },
+  "scored_0218": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "a6d27909d4ddf7cb67d0e1afe3edc2178a28bd02a975693a33172c8930a4843c",
+     "leaves": 16,
+     "ordinary": 0,
+     "inherited": 16,
+     "individual": 0,
+     "checked_leaves_sha256": "87c54d9ac30356df55f4722810b007c31207e7a76f8cd09293da4479575eb077",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a9b4bf98389accebbc48eae2f9a96e10fc2cf2da4977aaa29f49e446acb64a5e",
+     "intersection_forbidden_sha256": "f7fb4ea494555461610542176562c99fede031d934a04c2f3e4a97826adbe2ae"
+    }
+   ],
+   "entire_replay_sha256": "2c902e35f5d44763f1edc1e79968d2e4fd108dfd39149c79b63d76683262e220"
+  },
+  "scored_0224": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "1c3246d277d5b05c0d72d9364c7422f85604c4ef47844915bd42a7f33da4c621",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "0bd044a896df861f6b10b2dfd5d802f49c9c994305c9aecbcdf1a1634089a14f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ed769339402883315c56cfa26b0e282b6c2d8166952f69efffdac40877ef12f5",
+     "intersection_forbidden_sha256": "b432bb36d32441e82bcf692f5a1fbb584b1acf06932464ea44707be0c4cf94c0"
+    }
+   ],
+   "entire_replay_sha256": "07aff2f87b43ea136c80d3fc034753f5832a27780f574fe50b4b0629fe5902c5"
+  },
+  "scored_0231": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "3f865c0cc5b1de1b165f6b1ff51ba9543e50cf04cce17441720ba2271b86fcf1",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "19f64cbaf66dc8eedc337d2aea08f1b70a18fb2572564d529fd84086623ff749",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "42d78097e7528f6208f9bfb0f1b1e6e2660dd74fc04fddaf6ade8f3def9bfc99",
+     "intersection_forbidden_sha256": "24732fde493cc259dcc3e01eda0fe625aab9b67029eed143a244a7125bbaa1f3"
+    }
+   ],
+   "entire_replay_sha256": "e209cfe5ed81436b4c14f772046735a6cedbc518286c27f14c6291d9a4704fe7"
+  },
+  "scored_0232": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "72cae3878fdb4a14968f71a7de7cb1412d6808c2d18c774f31be97581561899c",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "42d0be905a02892ab386f4240ae062a7dfe8259f9dd48d65d2c6703a05559f3b",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "45b03c603825fbcbec80f81170d7df5f0fb45e734a323726a1e024b0be5c872c",
+     "intersection_forbidden_sha256": "cb9c22d9af96e9e5785f3e992c78c2f8cdd489074f8b053ba8904a896f4c808c"
+    }
+   ],
+   "entire_replay_sha256": "53ece30f1d4f54d9d92cc1ad6471486554166aeff585ee619ff22dae2a58c443"
+  },
+  "scored_0234": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "e937c1c591baf868b06a38f1985055cb41bebcf4924797e16dba7ed085161a8a",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "0de0a73a537d55d4a0c03a626fd6cbe4161b7b924d470dd293c7142dc44e4c35",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6bdff2ceebf0feda62f9742f205b1275a88713831e3709344438ce09cc8af33b",
+     "intersection_forbidden_sha256": "d6e75ba9b29b1283749ae82e3d7a1dddca84060b691536f50c035ec883807763"
+    }
+   ],
+   "entire_replay_sha256": "d1099dc57d37d803535f00a74a86d85bf903d8480fc6b856957a23b69dc84ad2"
+  },
+  "scored_0255": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "d4d9ffa64ff08eb0eeb1e0906cdcb6adf65d286c32d0c27ac737bff1d60d5663",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "ad77b479dedb9ca6faaea6800c566c9e27d27476ee2a8523e4cff1565058c094",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2cbf6c034b6a0383f9a7c6477277aa576a142ddf4f127d5e58598f380fcb6dee",
+     "intersection_forbidden_sha256": "1ed30126c52ef92d5dd6651edc4ca101ab4979ce2612583f0c204f59efe86e99"
+    }
+   ],
+   "entire_replay_sha256": "47e1ab0014ab14b6f725448b9ced7ead7065e727c5c76e6ddec02237a8f4feeb"
+  },
+  "scored_0258": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "08107e230540c9a76057830a15afe1710b4a908f6a833a861862b4b7d56096bb",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "e6006b7e11c9967c6b51eaeed71837b8d7f6ab358784f6d19a3de3ba0bdc37a2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5506ab0d2ad25555a974943c728a16a2c4f70ae3f11080df2bdfc313d96495f6",
+     "intersection_forbidden_sha256": "c2feaba6e3a161a5712b48eab7f73fbc529a9557f0e6ece4c755f4752a0e75e0"
+    }
+   ],
+   "entire_replay_sha256": "ad24ddb6d82a3f06ea42415b5292fcb36edb42f00b984a6950121d134f852cb3"
+  },
+  "scored_0263": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "7f38a60f169f5dad7bf3ed6d4bece74df85718ea5f94c1b66b01fac20d263c21",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "e98428095b0c45bd551dccc61dfa0aa00cb612ae09cc418bee17849a864f98fd",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0884180050e0d04193bee2feabf6baa3580fb2d597ace35a07c8d77066f9577a",
+     "intersection_forbidden_sha256": "35d736024c61fdaaaeca8e97a364bcc82daab8d69d701d63e93489b24c445ad0"
+    }
+   ],
+   "entire_replay_sha256": "9c03f5870eeda11d893de0332b122ae8f46a45f91a6df54d1d5e124a6cb6cc4b"
+  },
+  "scored_0269": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "c0d900645385909512b1bfd9c4a4c52a8d7f1331d339d0d20efe670e69853f47",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "c553eebf40ecce5fff55a52b7fd49adf9d3fed047c1da663fe036769c6b98b3f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0d9cc0399074b897007d67a48b8414a217aa86f872e709e66711972d76ec374d",
+     "intersection_forbidden_sha256": "d26c179b00f2720bfa2e74ee0fef7d876e95fcea06bb180d5032e5b44c9e0f98"
+    }
+   ],
+   "entire_replay_sha256": "45ec8a0e869e503278de9740dc7b3d68fa2ffe654a9faabe25813e260b0b5b14"
+  },
+  "scored_0273": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "611cc2ec89e165a0d15650798a1682a93513e1206967f69eca98743423136e12",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "fdf23ab7183ea2e61c83dd4c62ee5175e166b69b0f97e9d851e199939e3a1476",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b89d0b8d3fa411bb2baea31fcab9816a668a4ed91c2958ab11cdccafc43c66f6",
+     "intersection_forbidden_sha256": "deb9c305dcda55b25ea4fa0957535e9affc9c7bda3691003e8f7aca746e03ee0"
+    }
+   ],
+   "entire_replay_sha256": "8e416eee298543a95b8a1084b2a88adab6d734daeb64826c4491274bd3b7c35a"
+  },
+  "scored_0276": {
+   "prior": 23,
+   "lower": 24,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "3f38d7b7eeeac69bd7241e252e28bb72e02061f6a7e4337c4aa982d2c6c7d9f1",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "cd747815986eb4dc74cf48b48e0a5c01dd071be0a3b46ecaae72f5e12b197ea0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "d5addc6f455dfa57a47edd58a9178eb6878624c73c304277473158f335d6ca5f",
+     "intersection_forbidden_sha256": "7370f8c1c44859bca651925e9993c690a64eb50b487099f3152cc271687c3cc6"
+    }
+   ],
+   "entire_replay_sha256": "bb3265692be37b496a10a1eb8350dd03298bc293701b485efc16dca9ed59fa80"
+  },
+  "scored_0279": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4ed254163ef7dc9b7a84af4352082512f6854dbf3be1136511727b5c0e361426",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "f4ce76b0511f4619bd9829dab197c61de218e4dbb33dec460740e738f1157931",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "84b3bfe4326736a737d65fa1162d2c49f6c49e3b219b7abca908f9648929b717",
+     "intersection_forbidden_sha256": "b067994a7ef8e3864cc12e1701aeaed8a67b79426ed25c0c3e6935ef769bc6dc"
+    }
+   ],
+   "entire_replay_sha256": "cc29fc9a1b7fb06fb397b1b89012882e085380c2b692e2b58ba4b695186c2f43"
+  },
+  "scored_0293": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "00e5eb055418c38083d55be9242cd407ce36bdc68d41199292f5454da0e5b333",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "a4981b34750a17e494723a2db67ff597333868cd22dff27eba818b024840ba6b",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c14cfa50ebf68ee78186a0ab6c9fbf62ef16f8c1fc806a0e2c8315b90f5d9a77",
+     "intersection_forbidden_sha256": "59d03529750999166757894cd86c3eaed85b576ba014985ca363985727e5dfc4"
+    }
+   ],
+   "entire_replay_sha256": "7a450da1058c970cc0457aff7849c48ba01b06e0c1b1f6c5e677aaee601c7d6d"
+  },
+  "scored_0299": {
+   "prior": 22,
+   "lower": 23,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "da545b09a3c1fe729827d0d4f83485b85cc716404b10229ec15c62eb100721ed",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "2b6322899acde64512c0799092bba026542423df2ca50dc6f216f5712cd34266",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0bca1e6e1da9b2942f51c1092dbf6e44bb760316defa6e1c353d308e6037040b",
+     "intersection_forbidden_sha256": "16f25f0dfb92212c62d183e2e2e2a2649568fa3416b5124b967dba1d6b133a8c"
+    }
+   ],
+   "entire_replay_sha256": "835e04fb405087d67e641dc4f5d5c362b92690143c7a5695d096e26c1dfe22ba"
+  },
+  "scored_0306": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "181daa7ab496285a418a395dc0602017a0804014774b9555a101e850c69a17e6",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "432fa78afb380d53480d25293fb44c187af333f4e04302ba8a404ba0ab132a20",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "15e62bf70eb67aeb91e994e433843063cea77fd4d7bc745cf64b77507f6dc734",
+     "intersection_forbidden_sha256": "dea8c0d0d023c657707f2b6f3a392b9be01d18b5e5c39ed9a8f833b06c974d9b"
+    }
+   ],
+   "entire_replay_sha256": "de3ffeeeb25848cd0727b1baba193d128bd06a93097a74aed079e3e69245ab9f"
+  },
+  "scored_0312": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "d4202c655fae57326a092d2fc83c9febbf9dc2af09c0724f622ab1c348e6b633",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "f140f1eb2ff046b5d8d3bf548b1535083b227b625c751ccfc6d73007595fa40e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a763547a5f2afe99a51b9b58b3a500a8075f75e249d7d6f28a7b8e689efe055d",
+     "intersection_forbidden_sha256": "45b6b0e130176ad0b59a145ef06d0378d751da54dbfdb84aacebd4cabeb535a7"
+    }
+   ],
+   "entire_replay_sha256": "697762153957b8570d2e1abe6605e1fb53bb5ea1d501c906f7b4abbf7c8f0238"
+  },
+  "scored_0321": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "9201a0bd5431852ed3c1971d7600499abda4c5c78163d975b163712b505c0bcb",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "1057323994488b8cb5d430a99f357297a8cd929805b47096a2840381621ad2f9",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "828ef78ae2d71869ef0a45d1a22c0ba2f0b245727494bcd8d56072e11c1297e2",
+     "intersection_forbidden_sha256": "2178fcef4e0714bdfd5beca090ff390b18b5697d36d3c103b76e2559c95f6422"
+    }
+   ],
+   "entire_replay_sha256": "3d9c4601e91d6928fb2f6e45adbeb9ec3bc9635bab81b803b53af42cb65c55a2"
+  },
+  "scored_0322": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "4fcfcf8a0fe69880743257d6d83376d20c36d734ad7fd208c6a023ac8fb7b2d2",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "f0eec6ce7cf674700ae34e697ca3dd3daa4553b3fe2ff51062a56f9e6ad8da0c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7aaf00eda23e1c168856ed815a6b9a35b9b7045f0e957f66e6b3725887e8b67d",
+     "intersection_forbidden_sha256": "b795d0d0b987f638b83435c8576aa0380e7f1f4c10d3517e3a24d58080dcf1b1"
+    }
+   ],
+   "entire_replay_sha256": "d0931285272d3191b356934da32c2092c6715b0e18bb1e249ca5cd1d7aaaf89d"
+  },
+  "scored_0324": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5af2aecb02f4c8aa4da582c8016762554ac90643632cdccbcb0fad014ad259d9",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "8241c723a371fee74614862a38d2d03a858b64197a7b902b2b465bb0178cfa6e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ca20ce0ddaba87130a7252fb92be5d1522d4238118b1b522feeb5600542986ad",
+     "intersection_forbidden_sha256": "e01971ef4d7184e281fffbc320c03ee1fcd47e31239c6361b2993b68f7302f80"
+    }
+   ],
+   "entire_replay_sha256": "0b77fb21c6f736dfad1a7e998800e3594cf12a1a37dfe6a4d3b422f835c26407"
+  },
+  "scored_0330": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "dfd16f5d5ed78f970e163786a9dc56390c7b26083cb2b997c2a76c1e7022b3c9",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "d9129cda78a37e1989e48d57e014f5286bc101d7629979d9bf4cfcefd8f4e9a3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6fd5468d33b7ee1b65dd502ef80e8b25361a68d498eb4c2fa08e832e2006dee4",
+     "intersection_forbidden_sha256": "19b246a73d7b0ea19ed97ff10513a60b19ee1fcb43abc4f9a7eef7a808b37f54"
+    }
+   ],
+   "entire_replay_sha256": "5d0e35db84a8bef8d0acce0bbf680141a990dc021d3f7368e4b5a96edb788bf4"
+  },
+  "scored_0331": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "9f9d65530738cfc3270df144b86f01e3ce8d69245996d6b8bacd89347f15898c",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "ada6c01d5bcd1d0b2aebee066eb54535bdd319ea23f999be019dc644af654bbd",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "378864192cec9ebb833d3fecc973d3c0ebe2768391e0dd6fd47b59f23eed4384",
+     "intersection_forbidden_sha256": "23684fc57380c95225ceb1bb91e6157bbb4e246665dc1edb70056edc69e40778"
+    }
+   ],
+   "entire_replay_sha256": "39d3dd3d0021bc2326df756ecb150ded6a99fe7fd0e546a303dc86a84379255c"
+  },
+  "scored_0334": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "9145563dd8ac6985ceef928fffcfac11baf5d80c42f9747ed92005017200f1ff",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "d00648f6fdff3c06b52eac59f5be8649d84674d566bce942470d805bc6237bec",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ba45a6183db1cbb2ed359ecc6570ea2feea537d19fb7c5d766b30897f2b6b2ae",
+     "intersection_forbidden_sha256": "39535765291344ce2c307daea93d7cabca25da48a26abc7abde033bc36c97494"
+    }
+   ],
+   "entire_replay_sha256": "b9da9dd582918efb3d1a2b2633f6488613c59f1b24f410fa2e520e2aea02252e"
+  },
+  "scored_0336": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "d40d38a7a6e9b19b3d13889dd251cc9c0b13e47f8d346ce19ec03bf6e046fde4",
+     "leaves": 7,
+     "ordinary": 1,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "da5ef2249db3192dbc80b63229b9ae3cd51b4093bb0255ff39d35eee20149b95",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "3c10464490684fa191932d4413b1ae8fa8997e1f7e69e544cca81d90d6d7c765",
+     "intersection_forbidden_sha256": "a47c8540817e158ba4d816cf65049ef5aef7636673536a1455c4b5827981d539"
+    }
+   ],
+   "entire_replay_sha256": "1c637ec82b94d0e88fafd3bda1d0fa2767e77d8dc59140723caedde50b9b0402"
+  },
+  "scored_0337": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "e889aa9fee9451413c7101240745daf8b756eda4db4dfa6c716f133241f8e43e",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "eee0918e41060e3c58b7557b6bb784494bcfd440dab257308c36e7621e177c4f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2ac05d4849f250c24ab8d390f9dc2818bc63988d03e009f73c351a4923b0d7e1",
+     "intersection_forbidden_sha256": "27f7c6e203978710edd5ae7dac577dbacadf95de40b76753e0c129237bdeb89e"
+    }
+   ],
+   "entire_replay_sha256": "e1078481a7a7649fa07ffd0851a497c4b7ba3adab9dd2b7703a7b660ca159cb1"
+  },
+  "scored_0338": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "d4c65f857ab76ba452eda6e6d67fd47b26f76a0e498a1b7af49cea5eb6883f51",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "8a09c83daf78ce7b1b2bda51263247c34227222dd42ac099d2c62a10d37df281",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "35877208a94d5c92896ab8980f63d977d9e6c6b19229c1134650b4cb2387db71",
+     "intersection_forbidden_sha256": "92a4bbaca27b2a4bd15595f03fc7c5964e5e58a3000ec4773755ec0bb9f10800"
+    }
+   ],
+   "entire_replay_sha256": "e756c2177636c9c245e27f2168bfb612fafcb97438d98219bc67329ad6f0b654"
+  },
+  "scored_0342": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "c610ffca52aa70ed883868903c7ec632e1ee31695d2a236002b8c5b5d0f50163",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "406d6b1d1dbed81a4f5b69853ba55d3b26282f04d66cee99481261a29dc46d20",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "838bfdb7ba019c12ce39257f5be2594f8e3d06ed81443011e512a9907611a5ee",
+     "intersection_forbidden_sha256": "1aecde93fbc56d8ca843f03a9e26ec689e06ac66381bd44eecdd24cb20ac7a87"
+    }
+   ],
+   "entire_replay_sha256": "49fa9223217832c578b5dd564ca9b14ec774c493ef8e05ad1fe20ed602ebc59f"
+  },
+  "scored_0345": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6f0945e055dc400b391775bd92d60587256116f39fbeefd5401de4a19a2e8ea0",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "dd221f8b10e4e04c7fb7e6e524ac868a38033720d69f9d9a8cc419498b5924ad",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7b19060e95b2f0b01aefa70f8ee38e81ff682b9b4a607e4b22b437dc9efee0c0",
+     "intersection_forbidden_sha256": "c6dbad6a63f2c79d10fc90d2ead8664d9b8b50379f31de7ec136fa10c49a4f07"
+    }
+   ],
+   "entire_replay_sha256": "8dcec801192ca7ff5e109a35cb086ca2ffb42194637e59569195e03e0c817d51"
+  },
+  "scored_0352": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "e3e24aef3cf94bd175002eba874853f3b448f4cbfa4e4594ba6e67c3ac2892da",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "ddf270521fa942b339afc1730758b90beb3956b9f9d392907b85dce227e09c9b",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "85b63f2a118ea5d2349aeb4b444f6d349a75d10272daa8e85160241be1aa6a52",
+     "intersection_forbidden_sha256": "a6dfa6ffc47e703cb3faa710a6b083d00120d680c9b542a36adb2bb728ab708e"
+    }
+   ],
+   "entire_replay_sha256": "3c15c41b483a433ab75a279c41456111cb70eda71f62f1f70368e17d82c5581a"
+  },
+  "scored_0355": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "015312588ebf160e08710c944962fdf8ccaba911741f5f9b90a3e7c7c4d2c21f",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "57257d556d3182eecd4c57afc42b382cc3eaf36dac62ae1ed7ca59429c2dd3cb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4156d583400796528dd7fc9fac43d69b0cfcdea86f3d81569880395cb6cb718c",
+     "intersection_forbidden_sha256": "7f2b2417c91516669c1798185f67f4261df0d6ddf51c276f3003519931549306"
+    }
+   ],
+   "entire_replay_sha256": "40033dfc9a2da5db8e4ff40d4db72d0c0060038252512969ac466ffd825ccecd"
+  },
+  "scored_0357": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "0086593e3a754d1f5463f62d1728b00520cd8ab0088d82986765dc14a1d6e856",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "14f33a40910a8e4c70038591c07fada9b4cc3999287bf2ee8f31a395e13d0aa2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "85f6eedb2c4a0634a54f1b286c172a88fafe21c8f5cfae54277f27c8b0c1c90c",
+     "intersection_forbidden_sha256": "ea7e71cdf56f81b8c4082dfabbb6b212737d19dddf1b51d045501824bc5068a6"
+    }
+   ],
+   "entire_replay_sha256": "a3dd4cc9e77133b2200df78e3e08c40ca7c421e5aab44748efe39e2182bc2721"
+  },
+  "scored_0363": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "28fdb000442bce32fd108d109d3ff823b6db5316c3465f28d2af39f5eb180ef9",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "1bb27592b9ed2d82c874a6100c96a8d986b17128fcc7eddc4b3555af9d3fc842",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "da1121309b01001cc3da94128e11e7b0bacb58168835f03e0fc246c63739e17e",
+     "intersection_forbidden_sha256": "e09bcb248615fc1d48e21941292d86dd3a11642951339cfe348f0e86639056fe"
+    }
+   ],
+   "entire_replay_sha256": "f44e8457a76d5ca978201a49abe1cb883649ec22abdbf5dedcc6fbc2255c032f"
+  },
+  "scored_0369": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "19d53dd4e0f03dbf6de5997df0d5e93c2ca9f42fb2df23261ea53b2be8324454",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "f6172efaaaa76c2686d4168837919309dce7e97a55be5768d60ac037fc6d93ec",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9f48ecc4bd70a7dad6cd2d54829c64fe8e6bac8ca55134aaffa29163cce732f1",
+     "intersection_forbidden_sha256": "d086653202dde29a0ffbcd81d5f9a03328f34a987247c72de859bbfda2d4f720"
+    }
+   ],
+   "entire_replay_sha256": "bae5c3ca213f6d5cf424ff63d03dd6b1396e77ca30e09f2c80ebba42bc3e9ec8"
+  },
+  "scored_0374": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "644650c07b378eb44d1aada7564bee42f0edfc91cae7fd81e4d9074ed9c13a76",
+     "leaves": 7,
+     "ordinary": 4,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "78b0750b911bed1cc746a4c8edf8cdd5d81cff7b9a1e52d3b5aea28800688949",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4a8fa3c905444e77df57e1dd4c81e03397562f1f6ba9199c38ee74ecd45fff31",
+     "intersection_forbidden_sha256": "bf6fd42f40be2c404f0f8c8ea3c4ae48e4d9fb0d2ff647aa34a7372e86b3d38c"
+    }
+   ],
+   "entire_replay_sha256": "d0b6fe3d5c31e115f17c820b524c62ae717dc07b63d7e1b1bb7fdcc8d749796b"
+  },
+  "scored_0375": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "a964db9d085eb6e731f0688118a55677de5cbd30df40486a460898201b01d508",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "0e0af9c23a42337a1d57ee22b5f772bf23ec969ee5a9fb498424d0e681c56088",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "685e0d67cc510b6df09b5dad9c91332f058dff559b3120449ebcc8acbb9f77d2",
+     "intersection_forbidden_sha256": "cdc185b32b5f942ffc67f360fe9bda16a634a895c3586b7ba11ddcb8ad2e739d"
+    }
+   ],
+   "entire_replay_sha256": "8b84e833f9dac06bd58f16535aa72e6064894f25a9f3275e709d80a16768af0b"
+  },
+  "scored_0389": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "a274e4e24f5df07e034c1c2668bd3d300a32ae7fea4f763f4dc8a6db367cc698",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "8a462075588cf89a405c76d5a90d8c1ac826d005a9b1ba8d7470cdf2f7e48f6d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9e722e84256fcb00295a8012e7c67b0c4aaaefd3be358a0808029bc4f6fd862c",
+     "intersection_forbidden_sha256": "b655eef297c708e524647bb95ed06a7266512e4ab220980ff090c7c9ef7085e2"
+    }
+   ],
+   "entire_replay_sha256": "13d4d651454687c3e77dbb94abbf0dda8058ae81923f6fe381aac4c97087a893"
+  },
+  "scored_0398": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "178f9b59195374bbe996ec4fad201a703d684c917e4e7b04037152bca9aeb1b1",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "4e972f4179d8727ac7d26bd7198551b89c9460801d6ef65e1d5ad221929be7c4",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "bd4e5ef05fa57bf677627e05b40c8b0db9c874746035c8736e48807b7ef4fac0",
+     "intersection_forbidden_sha256": "1b7d3f66e06c5c851220f7fbc58de7c2361261c555110ea10fab9a710846bea4"
+    }
+   ],
+   "entire_replay_sha256": "1cf86b978dc86d0a3a25fab910b483436516e646c994698d26728c23a5a03b7e"
+  },
+  "scored_0400": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "eb19f5eca4d9b365414b5fda9f63aff77c4413f7eb1d1268a5ab6f6a3d4bf7d8",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "745fc68f1fd47e3a1b3f4ce30830b396da2ba74bcb9f2d285d41c5b6de186863",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b5914f3e9a377211e2faf50f286922ac38ecf5aab49301381877f98ebbb9c68c",
+     "intersection_forbidden_sha256": "67d2d3bc82f9133e25b38ee59dcad4455dd89919617da7467e987ac1f0aa58bd"
+    }
+   ],
+   "entire_replay_sha256": "cd31d264d54195fa94d827f6ae357185b85061e743aeed3a66068b16887ce5eb"
+  },
+  "scored_0403": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "56cbfa032578d51d1bb89115aab1b3aa23cb6c4da5a55c727b62dbf96e28c2db",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "f54db257f914f034301d0ded3ed23f64f3be2a7f6a462ccf0f7c031584f2706e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9fce28339e56ac38d5060bb4908976ec2ac68777688f8af9f37868d56df80725",
+     "intersection_forbidden_sha256": "4e472ec39a66f3f461e828b5d83eed9f300b46949f45052217b9882988868a5d"
+    }
+   ],
+   "entire_replay_sha256": "511db61b75afe7ff5552b5a5dabe491e55add7ea81a60eeea54eb6527d60cb8c"
+  },
+  "scored_0405": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5dccb08430208dc6f5db13f5ad7a525f226ab282abcc0211f04f5fd4439cc0f0",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "6e00a5d42ef9d6948fb9ce29358826e08ae9f9d3d9b4aadf2e7cb16e81e85162",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5a4e5a39b59e2d03f8ee9ce32dc8b0c434125eac64fc7108ed5c2db2c51334fb",
+     "intersection_forbidden_sha256": "ed55784bcc7ce11492c5788b20406ca699935a5bb9594e542518c5ec458630d2"
+    }
+   ],
+   "entire_replay_sha256": "32ddde859609391efb40188629f7b8b564ad530188fbcb641fdf899aa266669a"
+  },
+  "scored_0410": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "026830e9f01028d77efd666f2a527d0f04e40bcbff10c7071c39ea7f12abb2ed",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "a1576f762241cd951e467835398784f2f2cf5709880fe0cb44eb1fc3a5773382",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "cf64e1e65b09beb3cda3cee5ed4213effec955535cbf56d13eb17050215d3b78",
+     "intersection_forbidden_sha256": "99e48783418b20287a1d960cf8ecb230e48dc0588f54f7b360b40faa0c235d4c"
+    }
+   ],
+   "entire_replay_sha256": "5e82fc33c9142f3b5ebd87935636332139aad2605507332d674beda773b3269f"
+  },
+  "scored_0411": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "727afebd9444d3a8c5bab553177824cbb95abbaf7d47765911d291f14765d685",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "f7796704c515b9e7e1d0150080bc4d861d041a38d5582aa4c0cd820718790710",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8edcb26ad4ba2a1d2c8e63053103358089ecbff108e48c0435ee56604f79deca",
+     "intersection_forbidden_sha256": "d5cda74b862a96659733c5ea464c3b0c15ff2ba8569f96290c54ac37d1734d67"
+    }
+   ],
+   "entire_replay_sha256": "3e9cb42092f4c045a11e07bc7095316637a2966a7085a658ed98c45a543fc24d"
+  },
+  "scored_0412": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "12829ea41c0723a8f5f3035dba5c9809285d1bd30706fde617090ee36d09ef71",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "2aebc0584ffb803f3d28e7e3ba2ae376701e4ebd5faf0ea359fe1f60ff949408",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "1cf0b12bd1f5742ce52654e730c566b80640ebeffa2e6e49d01c53180c3c3595",
+     "intersection_forbidden_sha256": "f41a779ef2a4d567dcac294b28468c333500442016e0984132b86bf06d9f07f5"
+    }
+   ],
+   "entire_replay_sha256": "40e3eaa0d7ebe17004483a3a9a14f5d2f77242d19217178b5159e5ae9101011f"
+  },
+  "scored_0422": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "7361e827e15902df4854ea4c005f4b910f4a3834a1e8efd4c7103b1cb4e66dd8",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "18478810ee4e864cbef1e229fe2689cc05d9697e7206c412653ca2cb5afcb3d7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2044007a05edfea7e4bd97516d410d59a7ed99c9e773637faeff25135159cb90",
+     "intersection_forbidden_sha256": "813272b5c9f71b22c89395156e16a29ecaad794b45aae8e4dd6fa83f0a516f11"
+    }
+   ],
+   "entire_replay_sha256": "29df1d82faae7fed1b4ba771c80fdce29bdd46c7b1e2d7330d61c5ec53d48483"
+  },
+  "scored_0424": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "49f87d9b08eaf28bda00c0a9d7c680f12d6085b224d62631b175472b643ea0de",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "1a0354efefa5e12f549a8a3560e7eba391715371a77ee3bd0aa2dc9da318312f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7665d19c2b477068650a57da9531fc5451df06a620f83fd799d784f8cb2ec551",
+     "intersection_forbidden_sha256": "75baf457c85fb2cbdbc88e35d3c590995fa92889635eedb39d71c01c4c73af7c"
+    }
+   ],
+   "entire_replay_sha256": "3cbffec75a309a76f8e32e21c1908d7ee0f49441b855fd2bf3ea1b2b13a91e0a"
+  },
+  "scored_0441": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "a5f808364cf4a41656b30bdcf031714d1fb8abb01415494af1d31d809e2d53d9",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "70c2d05fedb38e2e7087875273f2a4053497c808147d27157bb424381693fa58",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ca95dcef81b4b7409fe84262ce0dc50e9ecb9f5f734aeacccce06dc50827046d",
+     "intersection_forbidden_sha256": "c60b5e636cca8b5e08b307d4353ea001ade13a350d1d89ba67bffafd0012b690"
+    }
+   ],
+   "entire_replay_sha256": "140703b46e1fdc7bb7d7276b6b55364ae68a183931bcc9a8653ce2c44039e904"
+  },
+  "scored_0442": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "ae9b98843a35a9aea2c45ff310e3c72be3f6590262b20e2c184f42c85354b40b",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "3e910ca2a19d27d628386a6df8e8af251e2690fc1acf07ee111ec5e3027e1091",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c6de184bf368b8451a3cd95a83ee53c17f9fd513d7c573586b1961d0125a2ab8",
+     "intersection_forbidden_sha256": "7c7ff87f599170e7a9e49a353165939376475ddf52e9d57a88f4ba417dac051d"
+    }
+   ],
+   "entire_replay_sha256": "8e33514a878bcb3e288fe719443bceb21aad9c3eb1ebd4e981916afdbdab2cfc"
+  },
+  "scored_0445": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "82a655887b61c3c0aa7582bbb6930681692f5ab79fa5af3baa591ed0e903c81b",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "6b21b8b47dbe0aa00f96f4a33cad6fca0e76a8a0598b50b09f1d6c5f76e55e69",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "34a78768e1002e034cc721a55452cb4f5f63e22f7c66e5930aa0c3ec388a0dbb",
+     "intersection_forbidden_sha256": "e0ca9c4c7ad39e280f65e9c54cc7cf2ce07294780300c14e0edbbe364448d982"
+    }
+   ],
+   "entire_replay_sha256": "9ad58ecfbcb10135c5e03489ec813966bc5d8f471d57527b1dbf674bddf882f4"
+  },
+  "scored_0446": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "bce821d3ffa7faaa4f74d63fb0f2f9d3fe4018314393813403f710e18d74d98c",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "2036b1e04f1ec90f232df668ee7fa5e99ed8726b9f40ce2a092fb6b3fe90d286",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0d831bc89dbf2dc44501f671138eed1ad07cc62641eecc6664386bbb1ad787f6",
+     "intersection_forbidden_sha256": "406a6a88c993fa86c760b1b113779a31c2a32a0a63ee3a5e862de5720f0e7c2e"
+    }
+   ],
+   "entire_replay_sha256": "5b6a16a3d9d16dcf38eaccf9b397b008df3d0747e0ad829b8677ccf39e6976a9"
+  },
+  "scored_0447": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6167b21cbc59356f235fc222e89b01c236e94916fa25c29f9f6c43252a84964b",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "d892c50bf22b4ed81c51e1fb4c0c653f6026771c8a8ac4e31b19bd10f9fac2a1",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e1a0e619911484c087f35cef2f1ab931e3071cc21fc0105b76b00c95ce5ab8af",
+     "intersection_forbidden_sha256": "498bb4be94a2bfe20af486cb0e783d41c2bd7cde053243f0a7d6b33a1b6f4039"
+    }
+   ],
+   "entire_replay_sha256": "546777c4416ce3201339f0013d2be43ff49ea1271182d7fb082fdd8173e47db6"
+  },
+  "scored_0448": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "a31b7320ed27a3c790192f00a42176f9dea5661bbfece4b16b8fb4ed645afdc8",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "de7ce9aba81650e8655627271752eacf4aeb1155cc70808a6bce272f0c875347",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "750898b1a2e5101c406060f7bef96f8b40b1538fdd308db879f5d3f9aa14d086",
+     "intersection_forbidden_sha256": "b7f9bdf6736d2c696ee6ec2f3ddba56df7203f2d6287a27278e7bb08e4202c8b"
+    }
+   ],
+   "entire_replay_sha256": "4409f371ee7e7ae532829f8779d2ed5f923380cef9658c408de87a23b3003497"
+  },
+  "scored_0450": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5fb44b17eb88977219c47904e8d9cbf746054e32b964f889b246c92b1e963e6f",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "fbd40eaf03ade14a050f19c0ba987d5208ae65fdbbb1e83ba5381b30d959e070",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e6a444c085ddb7e772ada39ca6b43491cc092c28c01436eff38fb2530c6379fa",
+     "intersection_forbidden_sha256": "b02b2ee3cbdb60990656644d11acac5b5fd87774f9dd5857f197e8d91802be73"
+    }
+   ],
+   "entire_replay_sha256": "68cf5df3b25f36c5c204fba56110a126a764cedd7809bd1158e1b52c391f8238"
+  },
+  "scored_0452": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "47d2fb2231888ae627182bbb854f4c6096badd9ca59de5e912907cad3f0ddb4e",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "4bc11bbe8826235172dae317eaeab01129efe8b5f189e9f97e08af4001400637",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e299609ab8260c263f60a8c3f7da572584e0eb2c3a2224255a1f29cc523fbe22",
+     "intersection_forbidden_sha256": "ecb23937777f99557240fb0f00070f4f17604378f6ba50579b344daa50f49f7f"
+    }
+   ],
+   "entire_replay_sha256": "6b6e9d83d6f290f0a3485509f721a3479da5c565eeaa0805e6b2da491d79c7da"
+  },
+  "scored_0454": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "cf2e60d3619af782a974da9fcaed728f1307c7d18383113c0d397856938ac700",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "0611ef182ea1a092f71066ff72344f4593ef3da5fa1d1cf2275048200bac1e73",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "235c80de9e68ee511225b528c27b188773943468c77ee9a5d665dc1b518f3705",
+     "intersection_forbidden_sha256": "45e5eb24070121f5a7c2aae2834fe80f0406e2672797575d695607be55a93cbd"
+    }
+   ],
+   "entire_replay_sha256": "34952638130fa86670df12aa34ac77c6b553104b22877c70908f51747d3aa329"
+  },
+  "scored_0460": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "c679ba40114cfab71e33a2573768ad7591297bc210c55bc66ac87aaa1c7667a5",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "8db600dcceec637f4b75d72ceeb39b9cfa94a2afb10da8596f27290389cb9318",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8e1465043d9d8973417ef039518e6aefda58b4032ff38162d8725d23fbcc6e16",
+     "intersection_forbidden_sha256": "518a5e875b8d0a3e5b22fd0ddcabd3a5fa55cf15bfc87465e57b674fbad57adf"
+    }
+   ],
+   "entire_replay_sha256": "a04e5f72474e201900b83c4d22b52dcdbba36a4ae5a609d5ba4d4c2dbced1e3b"
+  },
+  "scored_0470": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "bef3927931a38e440b17568105f6addc28b6bd9c9ddc8f995508c94ab71beea5",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "ab567c0b6aeead3efe74be807f8a75feb4c430c56aac91e9617506d903569202",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b8a7cf7a26cb7e1a1f5a69ce8c28e7e20fc9ff70848a87582b1b77d90099b10a",
+     "intersection_forbidden_sha256": "50e95158219165f17a6597a4f52b7f3c6f0caa287f6cb1bd1db5ca0f8d98b2eb"
+    }
+   ],
+   "entire_replay_sha256": "01163e0dc3a604e2a11c4c7c0a0f7b7a4c10a96e5156d8c31b315eee66df12cd"
+  },
+  "scored_0481": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5fc4daa654c04ccca46cf9592bd538287d805cbce44bad0d2281eaff056558c2",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "9a7feec96a12ca67abcffb41a017eea61979e3db7748f4ff4f4c31c28ba8e9d2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8cc16c81db8e4fa210349be77b377e7a960a8e7a9f0819dfb80d3048713e570b",
+     "intersection_forbidden_sha256": "f84450bfc6de01b9ceec01652d425a689965e0e277f920018eb5b63374a7efdb"
+    }
+   ],
+   "entire_replay_sha256": "47276fe5c9bd32d2a22a56040f649b596d9c978ddbcaa4b623a175f2255580e9"
+  },
+  "scored_0493": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "79e5e9ec6f4f3678b65804a1b138c11151e2440b2e5a271c183d4ffba124f3cf",
+     "leaves": 9,
+     "ordinary": 0,
+     "inherited": 9,
+     "individual": 0,
+     "checked_leaves_sha256": "34fc4421174e2e09665e2fdab240e6dabd242fed31ceaf68386681f9e671fe0f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ef6ba6d32576d795969d27c873ab0a0388ff56e651f98874106a6fb707b3a160",
+     "intersection_forbidden_sha256": "f193186609741fba089fb24068a428391a52c7ac3af75a032fa8de796fd11a8b"
+    }
+   ],
+   "entire_replay_sha256": "c95e237124c641f6c99812278778af81969736fbd89af468d153b1da570b9d97"
+  },
+  "scored_0502": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "41181d1e8898de5434b610b0f037cbb40fa05d5f79f8c40dc7f21c5c8e9ccc15",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "4a6fb3c6b263109f039a9ac56729df4b75b8385ae20a5a768656de10f3d4ccf7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "89b5a3b0dc1cb4dd7728bbb9c0b735917a5b2902ce24c23e5a4d31038acbdc19",
+     "intersection_forbidden_sha256": "7d0158fae9ccf55c8577ef343550279343f506c6f06f625c83a5a64a5ba98133"
+    }
+   ],
+   "entire_replay_sha256": "beb0de0eb1f0656c6d52d52876689135b39699bdd1012662abbd8cbfff11e316"
+  },
+  "scored_0504": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "88dcd8ba2a51d36940516128b6d85b9505bdecbc223e5bcdf5946d4cdc6df3d0",
+     "leaves": 22,
+     "ordinary": 0,
+     "inherited": 22,
+     "individual": 0,
+     "checked_leaves_sha256": "cb233e5df4e3977ba1967d9a39a8a5a6f4e226107befb52bdae4787e632970b7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9d145f2a7f6d804ac4f758562f7902bcebab59cd0ccf136faf96ecd1ba55e2ed",
+     "intersection_forbidden_sha256": "54105e3d3b8721481218924be5363d0489b4934055ae887cb7ae807c3bfc343d"
+    }
+   ],
+   "entire_replay_sha256": "9167ae1662083a071b41ca4c4b52189d3f54e5c28c168217bd66f09ea072d235"
+  },
+  "scored_0507": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "7f84672a789dbd6f6b9c34566bf845e4fcba0039370d530e6464bfd6cd4c01f2",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "9f03136b617dc06c40b14fa08e3797707d875ac2c2accb6579cf7801d015b60d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f426dd41f9aab18278df2d6b51a5913d14fa0c55932b9a66195fb1f2c4c6f7d0",
+     "intersection_forbidden_sha256": "4402eebfc54b6dbd9cca82303ce679e854786d0caf2a58839b5fd0bc5eb6bae2"
+    }
+   ],
+   "entire_replay_sha256": "0eb3379bb769e54bb43d109044cffd8103a9b51be69273b916e60aa7f638252a"
+  },
+  "scored_0508": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "005f7a94f7a29e895b3e7cc4f7bba4e170ac51a443e1a9d5d1acf3cec5dfd6b1",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "f09b4d0df2da2acceffaafcb2c7b7dcfd8c2da6dd860f09dbd8585377db97013",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9abaa7b77a126f8ced3e8cc98794fe8edcfd82cfc0239c80f10068971c48d34f",
+     "intersection_forbidden_sha256": "97a90b4cb918edf8a3eff9223537eb03f0891fc9b235b9fa30ad99f025cddd0c"
+    }
+   ],
+   "entire_replay_sha256": "2af1644d1f78185a7b633029929ea97277459953b9c75dd28b40a2cef60e3200"
+  },
+  "scored_0511": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "798af9f46d692f67dd074781c5a00f1bcdb8e5d6729acff233d7374bbe182887",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "778a63d5ac3727fbb611430ee22880a935b408eb5535c6f7a48e86416a1b61fc",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "91471f89306d61adb93e7a75a48d00607d0500604a60f301258ff10391d1effd",
+     "intersection_forbidden_sha256": "33f5ca0620790b47d12f8a69670463a4c74aeaee32851e2b6d7b8b3b52972ec1"
+    }
+   ],
+   "entire_replay_sha256": "b851b75e5e71a957b9472d2d4196ff98111f600c1c1007cd9fc4384b9cfb33db"
+  },
+  "scored_0517": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "c0d0d4ada0f59e7f494cbbe99f64be93b6b9f2807daa3e7677b0862dbe476d4c",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "bc3f0da6bf30ba3cd927494ee2ea422e69ab3a954d41c4be2907b41d1df188e1",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c568f855c7740dd0b9ea389c177d69fa2df5af247c13143d50995f83969d34eb",
+     "intersection_forbidden_sha256": "e130608ed33981749c32cf1cafc60d0b0b329794bf0d2c0eea86e31c13d45640"
+    }
+   ],
+   "entire_replay_sha256": "83ce8b8a5d4f40576c4b46cdab81705a3325e1b78b94c73501a94cd49058d9c9"
+  },
+  "scored_0520": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "7f034ca876d3bd21a0c1662f07b19f98bfa2a541badde44d46bb3b6ba871ce17",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "3c8f9dc1827a02769babc5cb0f24c79a6d1fd22390397678ca3fd70f92274a5f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8c5a5a3a902d6674704435264341361aa756b4a76221eb6361cc68d61e7510b0",
+     "intersection_forbidden_sha256": "e86449931b8baf846cab053e1a239d4ba1f080a668847b13aa65f12b6fef43cf"
+    }
+   ],
+   "entire_replay_sha256": "5e67de5eeb011db59e0e01a8ff565e99709f357f3e372c00174f2b1015b87232"
+  },
+  "scored_0527": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "847f2c3208fce5a8e4bc09a71289a352fa429a61f018996238ea9b65734efc8a",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "0c48426cbc228410c72e957801fc0a42863d75c45ba83bf84e570d676593e68a",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9561d59f4157c0f4f737b4f7226de9132316f2cc4daee82a68bb6e77289adcde",
+     "intersection_forbidden_sha256": "18e4b000d1d0867282552aa47a4dd32239aea5d9b87ef5b0db4922d9d62d147c"
+    }
+   ],
+   "entire_replay_sha256": "9a4f42546e7d7e7b74e5d535ce5c03fe3a07b5e8323ff322283d2a53383c3715"
+  },
+  "scored_0528": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "77f3fa0c787d323f4dad57a376aa987a77f2c6f72b0946e2eb9704594516449a",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "cbac7078ab267b4d79a4f6d0dd9e942f679bb268d2343bd236e6cc5236f04123",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "01e268fd9ea7ba7cf84fa1e11f91cd3d1457635ea61e80517b83b0d7fe629d9c",
+     "intersection_forbidden_sha256": "a0a2a5186e403e4aa5214ba905763ee5ba39bff441c5d517a69261446b53d54a"
+    }
+   ],
+   "entire_replay_sha256": "5353d96c078433d3d264a8b086b3a041ed1b99281f99df2c61ea5bb3fdb0f296"
+  },
+  "scored_0531": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "05ab0ba6cd14580ef1e326db1ad7e828cbdcd82d511226c29bdddf2bb6b6ef9e",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "49cfdd104e73cf1048face4dd9e27143f9626b230742a038314d8618f716809c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ca1745221361c85b329ad25be77d17ab702906dd0a5edf9ceb23b50be532161b",
+     "intersection_forbidden_sha256": "54342ca2271ae61fb70966ffc21fc5a3b679ab41680e5a582fedf78ed2fe28c3"
+    }
+   ],
+   "entire_replay_sha256": "19e39b11ef6e3340e0dfab7addd06159351db993eca0365c6434c0d41b6c4559"
+  },
+  "scored_0536": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "916e83ebd5c786c4f3c2566bbbf3c503deffea58670950edc5861bf401880c28",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "f128b5a9719251f8f70ed70d3f8a120975fc9194bd8e77ede92a2510902b38fe",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6c1bef997cfae0a55b230b357580e0841da13d5acfc914a3d6f870d09f9eae7f",
+     "intersection_forbidden_sha256": "37b81dedd59247eb85b89bcfc53f5334a93af80c1eeeb007c5ce7516fa464281"
+    }
+   ],
+   "entire_replay_sha256": "c8e79ecbdf5b0b204a7a1ed3b53e8a4bb42cb6889296ab139fd3b2bdd26601ae"
+  },
+  "scored_0538": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4b2fa00c7e85601468769a4e9b19ce3910ad7e99feaac656fbec823eaa7fa1eb",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "951f474b2fb70bd4e0c7f795440f447e6ca0f1ea91936479ff725729951e9a43",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fb2f9c48cd25ea04e01e7f3c9fb61489794e420b6a0e19f65ffb323c629a93b3",
+     "intersection_forbidden_sha256": "ab742b67657f413772b61ab614cca1889923236032c4b1902175658481eb2a09"
+    }
+   ],
+   "entire_replay_sha256": "172d2af1530fd6fdb2088d17067c17b6daaa9bfb136f7a7253896497a4cd707d"
+  },
+  "scored_0544": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "399c3f473adf6ef2d54080368a193b1a485b4d8f40cf5d2dea74ec51e3db4df9",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "44bfb90c1d31dce973fda2eae2409193869cb071a892b585fb212812700e9a19",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "2ce4897cdf5432bd0341a94ef939e839e6c51904580adbe3ff5d4b09dcb81b2d",
+     "intersection_forbidden_sha256": "2b2275e6e315f1c90546e07ddd91e77c79f9b8ef701709383f98a22c5771d39e"
+    }
+   ],
+   "entire_replay_sha256": "f39d39832e3ee9ad6e454a1d447aaba9582156d0ed65babbf5883a5478825da7"
+  },
+  "scored_0551": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "8d895f3600677cd20f429300d641ea9726534db4acce042edb07d4d01d1dcf88",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "cd4e07fc138dd5a54ef81d79dbb5a5759bc7c487d43d0619b09b99be9813a2a0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6a8104da182c59426152af2de0c625197244a459e1753915e00c89bb5c4ea228",
+     "intersection_forbidden_sha256": "60458cd7fae9175803d628a7e4af2ae25aa7af0f1c60e5755dece718bd21b8b8"
+    }
+   ],
+   "entire_replay_sha256": "7a91426f2e1e91b13b22c578df94958990b2d3433b250d2b58aec033d83d3f1b"
+  },
+  "scored_0572": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "2697d5de17a664b7e4619bc777abb14fb9207824eca2b749ea1fbf2dbc8efbfa",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "46f102fac495f1091ac7e85c501789f1668033f00baff0191804fa022533a4c3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ce1746ff2bd46622fac0d862841fa7aaab10fa6883679a08f20ea2850af3928b",
+     "intersection_forbidden_sha256": "5b603819fd31212dce206989fddec18fdb0da32d44e673adde5f39c58096fd9f"
+    }
+   ],
+   "entire_replay_sha256": "fcfaefb31425e75924ad45b14795e4e41a580143bad82cab4361d601a714576c"
+  },
+  "scored_0573": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "1afeb3cd0c2edc0ad41b87e6d02acead4ae3da298ea5e4e8e8f04f1ad25eb2cc",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "0f706a78d31aa0dc4083428d1b26dd4a69f45859f5669b480b9ac3f17bd39bed",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f8e27a8ad3b18786d0534f9983c4468cbb739e7e0d5706d82c13ea7eb6bd7478",
+     "intersection_forbidden_sha256": "fab776b7eb3d7a735fcac47fdae6ee663b6ccb6a43b0e13d702cb3b131f54239"
+    }
+   ],
+   "entire_replay_sha256": "6daa7254a21b9c02f2bc8c158be37ba5fb4a824b16f69cbfd7e558abb071b067"
+  },
+  "scored_0576": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "ecd27dcc4bb6dbbce41e9d76edfadc24d3b159c6e88791519170f4914e962609",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "c4b3840bf9e6983e97fd59fe1ef8d3e18a1dac1004fa5f5666815500afc36ef2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a6f9b6cad97c7048fd24bf303fa93d8028a0d7317b51b75a97506698ca93aa2a",
+     "intersection_forbidden_sha256": "094a0d2d554fc56215d6c4eb131543438bfdbb32e7c47af7a6290239296fadfe"
+    }
+   ],
+   "entire_replay_sha256": "ea751f88054fac75ff478b3c7148ef866671952bf847500fa3f42ada7af10d9c"
+  },
+  "scored_0582": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "7d34ff8ab359e2e5fe0d59906e1c07be9bc9e87a50c7291157859129f9ddaf8e",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "e97a1f507eac258e7d57069ef8a2890cffb7eb1b2420825ee066d0ba5614ddd5",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a690aa169cb1483071df9d940b13cdfa76346f6e5d5bbeb0284d7aa19bf774c0",
+     "intersection_forbidden_sha256": "2e55597679b15a416da1871b70ceb06624d0a6076bc60dd6a1651330f0ef0308"
+    }
+   ],
+   "entire_replay_sha256": "6677853f7f7fe67c72f921bbf1f6b53ae7f0b0074698aaa874006c0ec0e7d644"
+  },
+  "scored_0585": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "f578a248ca6698f133a25c326b313df1d8c0df6d87b84ac9d5d5e4a4b0468196",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "5ec0d07200a9aeb13560b22ef9bb95e584ed563d108f1a929dd87861c714300e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "29e77444e81a927385d072f9c7b7cb2be3df093ec2c5a8e0012b9d8aa55bb87d",
+     "intersection_forbidden_sha256": "b4fd047d4c3e8867c8e3d70d3422b25762b36ce4205487d54c60cbd675dde3b5"
+    }
+   ],
+   "entire_replay_sha256": "22bbcbd26aaa7971326cabba9f97f7edab9b6bad2ec4b05b0e9461b51cd73ced"
+  },
+  "scored_0587": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "dee0d013d512980cfac3509d16600211f68f0817270fe14a2df6608c9a727d3e",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "172d1888669af2d09f7d62f47412182dab5bd7ba310bffe8169f61d8b0ad35f6",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "70d9484d56d0f66ba9521ca5639f0b5a37f8866bf4672a6ab03d270a40266a21",
+     "intersection_forbidden_sha256": "6670d5df21e255ed7ba6f43c4e379ab8d5239bdde6db18652d04ecc8bc6cb1ae"
+    }
+   ],
+   "entire_replay_sha256": "7153dd787d12a08dac45cbb664b4187ab82cdb9a2410dfe36deb2c9467f78002"
+  },
+  "scored_0593": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "82e0c8dd16fc18f54a9d11c3dfb44fa269b1868fc9db66cf301f3ba238a9d0e4",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "f66b5392f6dd7106fadddccc1737021198fe2a7e55d2dc75d573d21794f5641d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "35370603d3e090fbaf84436fc48b4b7bf020430d1c13ef238a0cd96187a9f285",
+     "intersection_forbidden_sha256": "d082ebda1049e89ed6f781efe8dcc35ef65798da0612923d5830a4029c6dc024"
+    }
+   ],
+   "entire_replay_sha256": "9e6285f9dae2b6adc3368269150968974afb8ed631eac6dea53f18c83641579d"
+  },
+  "scored_0606": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "6e7074a9434c7de16cc011207943aabfa85cb5d731da532ffd1bd15c09fed0ff",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "2ba861a280284455e4b34b0bc8ca337243d8b0df96addb2cd5371c6e7c54d9c3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "371cf1bdcfefd73c6e86a4904e6000ce31b1a1f69420c6efe4a1298f17678aad",
+     "intersection_forbidden_sha256": "6c276a3b1ea286ee438dab796b22242e14024789efa4a2f433cb4b166808348a"
+    }
+   ],
+   "entire_replay_sha256": "3379147e60dc811b504b2d5542a3d32bba1ac6554098d404c3eebc4eb3203e5c"
+  },
+  "scored_0608": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "6112acf0854f54c8bdf68094fb2547151d335cfeb24157428b5020c12445e94b",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "9c41b6faaa562ddf2a03fdffcffa74db41682aca5e3d33c466e210fa1a734873",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "30e03d4f9b1dcb3b061e90dad14b7ef730493c7ff42891bc25e09624de7d58b6",
+     "intersection_forbidden_sha256": "025a9373e77473fd0d66c76e36fd62946fd0c33362d819b8d198a9a834c429aa"
+    }
+   ],
+   "entire_replay_sha256": "847ac87262f689dfd1fa2d980dc56b241c78f971e82189811a68fd5509e81939"
+  },
+  "scored_0610": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "9d2462ee6f000ff0fcf94fa8a67ec57fcd7eca7c75712326857560f2ecc489d1",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "8b8adb29b920661d8eb98bee062505b0fbb6ce7d6732e84763dfa66a83d994f6",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5cc5702b2504104897a9dbd3c7db094370d4c879044011cedb790ff2456b2efe",
+     "intersection_forbidden_sha256": "15ed31f8bba2f5ba2b6cad2e197f09fe85d5b5b7deac5cebddaf36f5fd93e69c"
+    }
+   ],
+   "entire_replay_sha256": "688b40b707a9324285b17fd42576892c9982d2bc7e727d2e819ec1b7673f3dbb"
+  },
+  "scored_0612": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "bbf4b82fef4de0887207efd9b5d07a58a8140f29e20a4feb395cbcc9323e60c8",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "a92ddc3071f81b15da92e6d5b48cedaeda20d883410374e4bbf28fbe6c77ddd8",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "3275830db5a376c4ccfc3ab8574d190e1c1993f700c97f1f115534a07998bda2",
+     "intersection_forbidden_sha256": "247d2ce22ab5384a9ccb3bec831a398f519d0c261fd1f1fc0a36deec0608a07e"
+    }
+   ],
+   "entire_replay_sha256": "a1bbc5c9032fd49b7fa73b97548a85241820d76c78100e7e3fad1156d4c7a70d"
+  },
+  "scored_0628": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "f91567f1ecc532aa1918cd34530256afbe14bb565f721813ae73250ebaf85bbc",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "dff7cbd2de27e9cc33c896034f9a8242e40e4659ce1aa65b697c94087a22e49c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0ea4c59b08b339f439f95e05c2929f84da5af020bcd1a171352937706da5850b",
+     "intersection_forbidden_sha256": "5bd76350d61775e09f11badeb560929c6e439edba1e0b4696c3ce0ffba39dc70"
+    }
+   ],
+   "entire_replay_sha256": "1d142bf22d6243994ed636e3996d5bcc917959312a83d2af75e6ff9b22350364"
+  },
+  "scored_0638": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4624db960795cfeacc299afed2abd6257548f768e00626c271922b9e10b073fc",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "67d737d9f752dca537a7cd3732b4f7f94409ed234407f364faeaa415e02b46ee",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "dc884c11b41414770f11717d45a58c5fe9686bd9e02c1db8e5570a35d97358a2",
+     "intersection_forbidden_sha256": "00141566cf61362a86f74e74df0a429ab275a88e01c612620b38eb861d82d712"
+    }
+   ],
+   "entire_replay_sha256": "f8f9aca88825f0364986f9c891ebe4a223e4ac5e096fe2a91d9ea9d6d2a349f5"
+  },
+  "scored_0645": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "fbf9fc93f006c1105ac28e15e466bf76ff22a19862b45cd4e4731afd76482ccb",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "b1a64a7bca81edde17dadb8b0a0f7d24cbfb0e727b8fad5e030e6fb25ca732b0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "def20cb6aeec2c1db29af63f97b25e569cc80fe23fd32b188b1c19eb8f3e07e3",
+     "intersection_forbidden_sha256": "b252c0a0391bcce6884b3651d579e56ed605e1bbb294f70101582209a8f09f5a"
+    }
+   ],
+   "entire_replay_sha256": "6136f220b3d44c87e99fbd93b68976ade0fdf36c9625efea6d27adbac5dc0faa"
+  },
+  "scored_0647": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "744c54a882942ade0e2669ce1db12f37f726c729cee56b6b125896a3cf2a68e0",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "afebd22d6877fc9c20d3bb50c19910f51381ee79ac381cc211ceb69dac71cd46",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "92ba6ed16978eddd23115de2c368cfbb5919591638e789b2fc707bd20653397c",
+     "intersection_forbidden_sha256": "7ac9887f3acab331883cbda684181a9627f851160e41e5b043fdb28897f656ef"
+    }
+   ],
+   "entire_replay_sha256": "008bb506a28c28f131a0ef2ed4232e52ee816ca3c8b72f5cb9cacf46dfa2eb51"
+  },
+  "scored_0655": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "56e92a60c8b488e1b7adac3098cb8359864a35bbf436985dc7ba84f42584ea0f",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "1452efc26f170d0f9e1c12bf8a78cdde0ccd37637d1ec9de4930dfe8a9359be3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "80d0ef5d0c0b4f89ec8f3e19e3907ac87b786a83b8604c7ff807848c1e33ebf1",
+     "intersection_forbidden_sha256": "54364171f0e7df7f2991c30522db7274a5a02fe5650db9f9d133cbc2e09cdf89"
+    }
+   ],
+   "entire_replay_sha256": "5ec4ab882d6d1a071dbbab101ecff031667aeb32281f58a1129feaffb52d4bb0"
+  },
+  "scored_0659": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "b109b6bdd787176202ec2b120bb94e0c179d9730c987352023760e3247fb262f",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "8200cb2cb052996a14da747430a6df30ee201452e0b5dd1400f4640e775a9854",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "aff066cee48d62a3487eb7c2feb000f03173a7b71cf7249f8c84f01c372a4a9a",
+     "intersection_forbidden_sha256": "4dcdadae871d691b9334b98a7fb0f757307b9e1b9f4b69970e8e92a49326a974"
+    }
+   ],
+   "entire_replay_sha256": "c54301790010ae8035cf83593c2c0580f5e14058a3e3035c4afaf921f1bd4aed"
+  },
+  "scored_0660": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5b2c9f176881d0c6cc7e2accf7e35118fc5547f312dc91e8fd735780e79d0f39",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "ab00b5f468ef5d6a339a1384b78e23cd5f3e3461628475f54a7fd9a808ba3f58",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "32c5fc6ba69be5f044a748a8c2623ff0fae688f97026cfb2dd647c9ec71638ba",
+     "intersection_forbidden_sha256": "d860f732f55937f48ecb06f1b68fc69a7b63f6759d95c80313cd34c83740a0c3"
+    }
+   ],
+   "entire_replay_sha256": "30bd22b8d46249f069de91629a310609b8f70c9bee1e55a1ca808065dc6118a4"
+  },
+  "scored_0667": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "233ec4c887e205893a6065ace2412d1f85deebd7e7b36383562e3ee50c63ecee",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "a371080a0f2397bd55b0aa45328620ca391b0a5192f355bd9fd7e8bfcfb40c52",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0b4898e7fb4d0b14b39febda1e0a1f9bf6aa3475d14a7d0bcce076af0a088fc2",
+     "intersection_forbidden_sha256": "7018840e7b2390b84f5f24b8d01f808e07058004a992327b2d9a5fdf238ba2c2"
+    }
+   ],
+   "entire_replay_sha256": "7ace3c17311f5fd84ac460f5f62828777023ea00440e6c15e169d6a9a5da12bf"
+  },
+  "scored_0670": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "acd5f284df731a47ae026ed0e0d2af87cf9959f20786054f24b8f0a240ad6375",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "64e3c7ba6e9b2d2a7a7d986326bfa482dc5c1f95c3f6fa206fdbf4c9bf57d5e7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "63af6574bc7c105a79efe3faaffc852a1912547b4ee20b10aef56070967835b0",
+     "intersection_forbidden_sha256": "b4d8bf8b111998116f2e1c6f98c0454656fc07e644693870394c1d1eb1e5dd9e"
+    }
+   ],
+   "entire_replay_sha256": "af5fb71183890b8c80fabccb3ac20fcd9f973128204d1d5fed45ecc34183b5bc"
+  },
+  "scored_0672": {
+   "prior": 17,
+   "lower": 18,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "e2e2d28bcda89d5e6e5e3756c84d7ca9c0421ae978d9e8ee035392dcecc40d84",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "0abd5936b4ca4cd64f881f3d8fd306841cb7c151cde512ebedf9872b143a08eb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5d715836de099e26e545ef509494ba1436d0eec906a45bec777b30105c3bcef6",
+     "intersection_forbidden_sha256": "9957cbd9bdc4e90bcc57a5c81507c50875f4bb7126fd7028889be645ce083b24"
+    }
+   ],
+   "entire_replay_sha256": "eb70e86ccf62b06d40c16f232a3e93f097d60e4ad0ef7638e376e629063e874f"
+  },
+  "scored_0677": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "d3bd0c830ce379ae17aa5877f54a21948546835be2a59d35b395371aacb72114",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "d44eff49237e4887166373d90bf1ead3e2af093932181c1a3b6a0e47014a0758",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7339bc317d376c27d63e6f7b8867069d36b29309d3839f192a349ee69705e584",
+     "intersection_forbidden_sha256": "6512de44b089add498642ce843263935ce17211345dfd3c0ba7b0c004090027a"
+    }
+   ],
+   "entire_replay_sha256": "7f8674b7c09ea1441f882023d61160c94cdbaa59f8a7502fedefdd9546172e90"
+  },
+  "scored_0689": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5bb0c5774449bae1c17caec7942b147bc7491d8819175697fa23f57054dd9310",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "5906e2da20f498496eee75d8256c607bc495b6d8151a52217a5dfa9d57b2c18a",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "59077bbf326d37706ab2df110ad9cb1f5fc4f036044003cc56e6f9c239cc4323",
+     "intersection_forbidden_sha256": "b2eaef65df3eb38cfe3c928def035c44352641341b50ee18d9280a27f29ca90d"
+    }
+   ],
+   "entire_replay_sha256": "350e9c285b1a3fffa2fc340ebdfd8d5b99283e71668d0d9922a8c9b28edaf889"
+  },
+  "scored_0690": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "e770956413640eca545385de68cce9f0a91c5bbddcddcbb36e822d4027932e2c",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "edd3d1874e50257673624ae3cb8abd98b30f0f343050916e5819f97febe76175",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "286c1973410c44a462091b4eece8b5e0e00ab679a8f9c64cbebd2a2ca9f81d3c",
+     "intersection_forbidden_sha256": "c36a4ea0b3f29a5c2b0f6391a7ff3a4b306eafe628bc5ffc85b4b86b24ed97c1"
+    }
+   ],
+   "entire_replay_sha256": "3f4183d527cd556ed5e131e9b90c948ed6429baa4f576ac120ca5a039f157450"
+  },
+  "scored_0692": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "08307d37e8f8f99a1e1347367af368e88745161f13543ff5be076c2d00a50383",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "9f280d5b7744da717ce7d560b3e24f00ab851e1f0f9e3fb4f500ee527557d67d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "bd9335006f3f0e97e34242e66bbcc9794952031b7fe85c56ccc68792ce293b07",
+     "intersection_forbidden_sha256": "bc22427fd3b6082e57fc5343a5d202d191afc92effd7f83f87d80995c24ac290"
+    }
+   ],
+   "entire_replay_sha256": "f5cd79ec5b081317a247643343819bf2d282e73900c7df67d4176163062984f2"
+  },
+  "scored_0699": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "787fa90d39002edb8bf6f2a45cebb93e6be4c78d5c428e76756f0a035fe2ab3d",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "15cbdf704831c4906e9999eb3838eb8ebef43e06767ebdb2645a15312c1d17dd",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "44b5132f4b340db721e8b45f4f0c3822ffd649e658832b2946f14115cc620fe4",
+     "intersection_forbidden_sha256": "9a5a04354314e0cb91e10eceaa808d07958477409308a6c0373e42bf10e9654b"
+    }
+   ],
+   "entire_replay_sha256": "a2d946739712c8a034bf92d522b7f09c7538000ab35b25beac8116a0e34bda65"
+  },
+  "scored_0702": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "4b45e25de102af8557da96b9f7bd41c4f9d4866e613b90652f741d4fa4e76863",
+     "leaves": 13,
+     "ordinary": 0,
+     "inherited": 13,
+     "individual": 0,
+     "checked_leaves_sha256": "2b272f220ef86235f2ebbd5dd10ca8660828bcbfff5f28d75f5bd02060465a04",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "d5be2bd12ee86764fb37bb964988a0cb30b74db52cd41f76d437b92e6a3104b2",
+     "intersection_forbidden_sha256": "235fe66535a82252b2f4e8bed5fd10ca462c0ca546f53c58dd9cf931620fa659"
+    }
+   ],
+   "entire_replay_sha256": "2ce40f40138256f939d4296a4e613f7ab15f1e30880f1a607701c76f9b0efe23"
+  },
+  "scored_0714": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "bd7567b2be69bdb10a9a81fd01d8a6de0ea63880b265061f6f4891d2c13cc296",
+     "leaves": 31,
+     "ordinary": 0,
+     "inherited": 31,
+     "individual": 0,
+     "checked_leaves_sha256": "0e562ff27ce6a37d6d487c17f0375f11fdcfc0ea4c99526219df214618c35687",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c57a19f8bff61c0b643bc0805bb6a1ceda906d8032a19b9a8d3b023e1b8221b9",
+     "intersection_forbidden_sha256": "ea88b73457244d6df65a07f74507580473747f3e79fd29655be993da12c64ef1"
+    }
+   ],
+   "entire_replay_sha256": "c007ec4c4e89d9de6d52f126ade97b05e5f9c3609b5db58d58c21f0876c13e01"
+  },
+  "scored_0724": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4012d7477070a3ca17a089d821e7d6657137fe3afc966d10e35d889abf141ba6",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "d1f242e4844b263d36b5744c10574245e2b441462cad3e633085cfdbe8e7d188",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "cb8bde53362aca419a81cc89a8a8fdc4e1a41d28ce4341d9bbd1b1db0cf0bebb",
+     "intersection_forbidden_sha256": "41de6bb40f43fe1515563f45fd676f086cfa39bee80f52cbe87b028ca1240c44"
+    }
+   ],
+   "entire_replay_sha256": "a44e7ff27b7c5ca7f8e86f269cd8c69c83c401a9c562f7f3a8260253f047bdf5"
+  },
+  "scored_0729": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "35e20e70e3a333a9171741fca9485e33a118d8ec1af342cc2003cb330070cb4f",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "af30415b2f04e422f4d23fec2f6ddf38768b9f06a0efa6b16f4589363985b51d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b4c315ca4882ea465cea8a72e333fe89ffd7a5154fbf0e2636071c4de5494a72",
+     "intersection_forbidden_sha256": "df1128c11905c364bcb1556c53fc7c66a48aa0c98eb4bf66009eb2bc6c4a0435"
+    }
+   ],
+   "entire_replay_sha256": "225a0ca2b2670b7e5194c576158822cee4abf8eb4a4afb0e67743781282d5ec6"
+  },
+  "scored_0733": {
+   "prior": 22,
+   "lower": 23,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "026df3fc278f4f798ac806dd8102bd4ffbc5e1dc5839271b9060de3585b2ca3f",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "2bc465a0242168dfc5cb22fd1acd9d3673ae939c2ddb1774716b5feb2e1ae8cf",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a56684022d207ca4bfa49034bc4fde191d66f7b2de0c5f18925783e400a11082",
+     "intersection_forbidden_sha256": "432291f03743cb890abdc3e63b5961028cd3d1ad80e7cc4af13892d13e9ac70d"
+    }
+   ],
+   "entire_replay_sha256": "039e2c1fa09178313bee1117c872da632b614d5a1b765c7b7d0a508ad3962f1d"
+  },
+  "scored_0744": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "254b2adfc12f5aca95815e9e52ad33a8763af3aec6ec24aaaf11c6644876ddaa",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "a46d5ef5630d4aca7e8e38b6f674f4b829557b1079c5123775e51976e4b738e8",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "767c4dac1e41d4ae7b421d561d0b9152be139f9600e40cb8b6201948ece7a991",
+     "intersection_forbidden_sha256": "027433dd69585c68d04345de469e1435ec6c876834c57c0bc25a71cb427c3fc2"
+    }
+   ],
+   "entire_replay_sha256": "9fd04128f7257b662f679ccb0579b0ddd4495a231771757b036862e7c2e86920"
+  },
+  "scored_0745": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "0f81a67852621a17a749d85dbba1464a07ea5e6e58a055b4701b3d1b258824b1",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "d2d885e7ee356285ba518e9dabcfa0e8c73031aaab5bc198634f71cd2051703e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b6a953fe89fb262023714cf14b3968a42902d8d716fb14d75ab0b7920f50ff73",
+     "intersection_forbidden_sha256": "dc32e1b503d188329c0367d77b8f6ce81e03a75f9b3ee9568003274287d9cfb5"
+    }
+   ],
+   "entire_replay_sha256": "fb778c7f517f4530a3fef157ae9444b2b95fc36d9677a81f546877b5e17eb41f"
+  },
+  "scored_0748": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "f8de0b62819203a9ca009d7b829ad53fbff816e78249af72e162c9cb056f97f5",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "b9a445f89049822eec4a18180b82ed4694f09966c60110343e7442b18783a246",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "43a0fa0d21fd5b0018e13a525fd399e45fb234b12206fd5aa58ff6d9b407eb0f",
+     "intersection_forbidden_sha256": "0127a07aa490e40dc4a7df9373439ba789311a77d60ed1c923f09254fd846f2a"
+    }
+   ],
+   "entire_replay_sha256": "2f1e57ead4c199cab3815d1bc096992e5ee108d96675ae02a7f1d3e3702267bf"
+  },
+  "scored_0750": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "3a6ea6af4a0db5d9a2c46be158121bdabc21c1eab239f584e83a20fb2879e592",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "39643c7afdc079490c2317d92294a0950f26bdf03c0a34bdc9f5b5c38277192d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b92ec5c8b9f7bbe7d071a592d5d86f90b662613e936ac001b9dfee12d27866b6",
+     "intersection_forbidden_sha256": "05b57818e7779d73775eb3f33e8072010f84a5487f50b428ea833f40ff83cce8"
+    }
+   ],
+   "entire_replay_sha256": "cc2a590c50d36ac36a321493e07a9a5aba54f42d2d2e5acc38a8d4c539b225a6"
+  },
+  "scored_0762": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "57b192071fa41117f244ff98a546eb1397e8df4f130416e99fa5b9b8aca13275",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "3c2eef257ec94396864ae9b96b8cb82feb8aab7fef160880eaa9f99fd510ac37",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7212f5cd02a8955e1fe405c1483658c775fd76a6a25e73a32159f8d8f9288c8b",
+     "intersection_forbidden_sha256": "2387b393e0e0a789dd9e525349b872445b125dc83c25c44e2c34aa9ab95d7e15"
+    }
+   ],
+   "entire_replay_sha256": "f1e4c9e1b491e8471d405c4434c176159d77fdfbd890baf51e3de8308abcd30e"
+  },
+  "scored_0763": {
+   "prior": 22,
+   "lower": 23,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "31403403cd865c7d816db69eb673a6b4df16d4763005f71d1a127c67ebf321a8",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "b5d14c4e965b605edc1143c9989d52be5b1f5daf7989ea08508041ecd67ffb84",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9758129a51aef2e2d00bcd839126f8f27f2aa875c7d32c17d099863e40915e75",
+     "intersection_forbidden_sha256": "2e6ffd564fa21714d301c323e72e22554320fdce5114c6656e3a1378f8a7f2ca"
+    }
+   ],
+   "entire_replay_sha256": "92ec96d477d5dbe999aeb224a554b291e317d25c1d73d93fe394455e86ae37be"
+  },
+  "scored_0765": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "46181fedfc8356572d0c318e5e811ebe564deea64515b6b5202dac43c01311c6",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "43bbddf2ae96916693429a7b676be17922432d4a08497ea744be414a34af0545",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6dbbf80d037a0f33f161f9b25eff0180404a459e7dd255ad890f34b52c3c86e7",
+     "intersection_forbidden_sha256": "e4781c48502dd84cb37ff0d293d032baa9a71923e1d11437eaa600185418e0f6"
+    }
+   ],
+   "entire_replay_sha256": "bcf5170bd5e4783284f663429ea93446bd257923ac91d68cfc197e4ca787e427"
+  },
+  "scored_0774": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "ffbf3ca2f545ca58aac2e6c89c2dc0a5a83be8b331ea54f18e4b257f3e57f7cd",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "c30105d47c91fa8d7f9d6a153fd5117dc1c2365a087c454a9618e3978b32cb68",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "881ed6a27cc5af112776f336a8cef29138c72a3c5b00d2bc9a1e937b5f78de20",
+     "intersection_forbidden_sha256": "01327f53f3df3f9762ef98985de40be63c7160379a2c3cd1504d8fcca68b53f1"
+    }
+   ],
+   "entire_replay_sha256": "46b601b93ffbdb2f6a37099a6f08164c887ae47055bd0fc7b46d5fea3387528c"
+  },
+  "scored_0780": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "725a92283c39eda347dfdda99fa0124ca0d60fb2b5a2bbd52f3a13cb8b15418a",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "3ce66ea32d9ca0a3c67e9013c621fa1abc4821e035287d105e5e8628043a0723",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "572e1f357b911d7e4c4f382c016d27e1633db16651c35c50230ba965cf2c75ac",
+     "intersection_forbidden_sha256": "1dde3980f9f5d4868713578410dabfeca1066e93ded6c3d2aec9c7be07b13879"
+    }
+   ],
+   "entire_replay_sha256": "fc355ed94a0cf1359ea83d6cb05f910663f62241551fba21c55303a3834f6b6f"
+  },
+  "scored_0781": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "20f3172e5cce9b2e26b13352b822b9991e6fef6e41ad7a7c7d45180982a4cda3",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "f4be385ce2e65a09eaa1e570dc00750d54d2c9a2f639cb4cf25ff7b6ee5162f2",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "03bdabe7e4e62c1e167b3ae69d90def3cda2af03b0db332d83dc1737cd9f1bb3",
+     "intersection_forbidden_sha256": "f8734dffa50faf8bde73f89490cdd05cdaad117b9168730c80530cd437204ff3"
+    }
+   ],
+   "entire_replay_sha256": "1c96202027601ef76ed081bf6778ef6fb0248f1648e0ae4c5a12ebf5c7ea01ed"
+  },
+  "scored_0784": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "30e3a2da539afe302369521504bc0d6db3ebd4c583aaebbcf29b43e82b211cb0",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "0f88a19066e3ef0b9395522014176779e90673e2f179528d7b336b5fc70a31b0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "bb718c0da72b4e874662a9799fc22cb2f95c01f930bc355be5d8873f9f9e0bb7",
+     "intersection_forbidden_sha256": "69c0e80ffca804ab7a49ef51529812e943ab15b06a0896c908feba7a4190a88a"
+    }
+   ],
+   "entire_replay_sha256": "2b127118052ea5648a41ce417129ea36be66da9abb7b6acc53df38a906d54c82"
+  },
+  "scored_0786": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "efb7181057a3564cdc2a3eb406da8c2e08e182f87742f8dd15b4de60e1bb3b06",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "549bccfd72153b0bba0a4ee5328506b1d475f33c7952721d68be0080d2092f74",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ccf442a12d53f757d32dde92be82b7b1c9429ca4c356206e6e81f03d40afea8b",
+     "intersection_forbidden_sha256": "25943d96db185b8f9d4eef4491a8662954330930952a2aea4c5bdeec05e320b0"
+    }
+   ],
+   "entire_replay_sha256": "a6a12d53d1081c2fef999a1616f207aadc3f8f479cdab6ffc17bfe6a2b927e21"
+  },
+  "scored_0790": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "93f94561d5f01be792217f8e4ef84a9c61388d11b5e0c58578022341722554c6",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "ababd53a10a7a795fab3bfb5d97ddcc4caa41b0f350c446b1931d36186574740",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4f0c47da71f14b370bc98b6c632fc79340efd63db616e158c2846f2a497fbf26",
+     "intersection_forbidden_sha256": "4b1cc994f9fb27cae30e3dee204c642874e1d39f13cc942af4eea9fd5c2ded4a"
+    }
+   ],
+   "entire_replay_sha256": "026b3a157c7f20b980f6becdd41a9410fe155939715597388fe7a4565e424c29"
+  },
+  "scored_0791": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "26dec9faa34f6408890767586300e780d53449af8ff2d86e6ee0dd637a0b90b7",
+     "leaves": 2,
+     "ordinary": 0,
+     "inherited": 2,
+     "individual": 0,
+     "checked_leaves_sha256": "5f6925f0d3a93bbbb78ecf64eec93fbe22d27d628906614113ca4c905dffc84b",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f27ae46af56ffa7313cbbdad592697ba32a650256120f823f2f0f9f0f61a1076",
+     "intersection_forbidden_sha256": "43652d8cac7f2f4049f3dba04cc9a7c60eda57fa709b6bab820d24e75fd67d79"
+    }
+   ],
+   "entire_replay_sha256": "78f42c2dc2287e661c5c1fc10e58e13abc589544fb297d6cbd5e34a14c968ed4"
+  },
+  "scored_0793": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "fc5824f8702428fa9ddf3c97181a54218a1cac89f568a2470e2734d158aaebf3",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "f6522a37e098e274df32e0885e19135c7526cf37ff978550e57c915070d6c8e3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fa927aa0a730bfb63c4219aaf4f4a41317c8a221538ea5fe467956ff128b66c4",
+     "intersection_forbidden_sha256": "770652d59e04f83a1a8df26938b0b73afab6e9b9cca947863af7c89e72b70115"
+    }
+   ],
+   "entire_replay_sha256": "6b7493237f3a79db4a4ccf0a62ccf83c5fa49f120608ee7d0a52de38a6c2aa6d"
+  },
+  "scored_0796": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "e1ff9607dd47fcb135827a3e3631c5257a1c5ace655cb965fcd59f9df3dec8da",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "8fe52c74d6bc79bcbf03743e695b85f31a94cf5c144510be756bdaaa24b7462e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "15524e515e904603503ee2c0f8e46d9193bf965c0a7448211bc17252d05d61e0",
+     "intersection_forbidden_sha256": "6479a4da21c1ced757a59e340fe19816ab79b4d295de2c5228edd86995f61954"
+    }
+   ],
+   "entire_replay_sha256": "f3cd519412d87ba49bbd10310f0b5d949f4a6c526a012d01e1207d1aff0fc8e3"
+  },
+  "scored_0797": {
+   "prior": 18,
+   "lower": 19,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "1c8ba8f6390b53396c3b9bfe55356ed600773bac064b1f6ba3633ad2172ee176",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "ce7875739e58c99b10867783e07841abf30c667b418b3b7293e160aad3098645",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7fd4eb47f17997ad831fb30cec77fa95dbee4577f6aac20c2377f96820ff19e3",
+     "intersection_forbidden_sha256": "620bc850af6e1889ecf652b3733c93ab1edd2b103690a5fbcd66149c68bd9059"
+    }
+   ],
+   "entire_replay_sha256": "6b305a93cb0a4b2cc430427b60fda52fd9a2e9d75e25a214699546d93f33d397"
+  },
+  "scored_0799": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "afc1f7a3291c5a0e11bb03852919f3deea5986cc3a02ddec630c4b86707209a6",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "6ae3baf820e2349390db36c0733e586f7eb21ccc1200452fe00fac7e18f612ea",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f3035f6153bfd68b97f9b79a57003541804ed4f62ce154bc21a6c4d6db93c2c6",
+     "intersection_forbidden_sha256": "2f19439ce1f3ea12d156f2c3ba0b7f41744f9c7750c995fc7305d6a5ddb6a337"
+    }
+   ],
+   "entire_replay_sha256": "3a7058d485c78cdd6d837bba1a2e373dbe65e9e37eb5f10b26cf04e54db15093"
+  },
+  "scored_0808": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "148919e32e2fbe4c4b8aefa68bbe9cdb6fd3403f7cb0be074bfb18b07dba7855",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "78c88c5cddc85579faca95fea157774bb1c7cb88c028f86dbae9256d92579b02",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "09acc99c2e19047aa25d812f2a0e305ff04d4fa674da958fa726df1ae3e131f4",
+     "intersection_forbidden_sha256": "0728e8628786e08c0e48493cca96045723f8a7bf2f1a51fc28bb51b29de7ace2"
+    }
+   ],
+   "entire_replay_sha256": "65708dd5547989349cf23095f367fce38347cc7449a061673e18cb51a71e0403"
+  },
+  "scored_0813": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "2219b85640cd08ddd126186e1d075b8e81aa91cb0726356e0764b481f5940599",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "1490921561b6092d0a8094fa2e14887e34afe6a44ebea1c908f7605eaa2230a9",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "56dccf1cd0e7355d7a0e08711061cee11c84ed178b050d396cd091c577bbc130",
+     "intersection_forbidden_sha256": "47074bb9b26ba39b0da286ceca7de6c35fe3b7c2dffd7bae07dfa5b17cf298a9"
+    }
+   ],
+   "entire_replay_sha256": "97c109c2f09ee608e8992b8ca8758409f384d922315605dea923ea0eb1917bcd"
+  },
+  "scored_0823": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "1e207bee4f13824a3e8c0310b3a335e7357c12edd2c0625a14f4085a5b7ee5b4",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "a45955c54dafb39e79963498c9b679bc407d5d26596a04696ea92aebdadd748c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e4efc6f1ca7cc609b68357a538416c213fd5d532283f0453ce8ec07e2fa2db86",
+     "intersection_forbidden_sha256": "369e24fdd83a9dc3c32bcb52f0ea26b17f642277010c1ba16726115c65c27159"
+    }
+   ],
+   "entire_replay_sha256": "a3a671c3ba5ea7fde6b178d9733a0ca750b007fe0c3434e3feeb977c62f5194d"
+  },
+  "scored_0824": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "15d89078d840aba52baa115097d6cb4d2656ce7ce8f3fe7c03a4e755784f9cc8",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "ef7fd6d6f7e54c69aebd0d71ab2023284ad99433ad3cd49ee38fe7375474d720",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "efe95ffa654ee9d30e560fab8e1b8a1a7470d479e6f6f462f6d3693b84a59576",
+     "intersection_forbidden_sha256": "0159e4693fd318df20d659c58949654730e85fe5a1e0e1f8b3dab757f788529b"
+    }
+   ],
+   "entire_replay_sha256": "3d44ea122aef684ef2f2bf562bdc712a7d1e30ce05cc35b12d0c6948e7f001bc"
+  },
+  "scored_0829": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "3515b90b9d392d52d684b9d073e56abbde6c99f58a67c50d5d4eb268dfee228b",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "3f6d29eb1fd0e98022165bb6e6efceec82384a7dc2b3c363e88a5bca7a6f85c0",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "e79e6d332cd830ee232f2e6e3f1767cc5ad30425302a028b50006ae3c18cba0b",
+     "intersection_forbidden_sha256": "f10e4298d13d568053946e8de152eca4d982bce80b081b7cf57a7d4ffa34c180"
+    }
+   ],
+   "entire_replay_sha256": "4b99610bc6f3fbc8bb2b13211fa624adde5059a078d8c170d8fd7d6271726dc0"
+  },
+  "scored_0832": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "1adfa4a3cb6a82b20a0e2e5e31a0f3e7cbdf9f1f33c175746cf4392907002678",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "5f3ee5f2e2c74bffd7cc0613691b253110a059cfaaf05c6f94dad540499ffefc",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b161526285ad40ea0b4db6d1a6d7013333ecb9e20cc8d9d9dc13e469d3ab6213",
+     "intersection_forbidden_sha256": "fd0c74cd363987ba0f15cafda10951c695e77f251ecda498bd93ea9690aaf191"
+    }
+   ],
+   "entire_replay_sha256": "91f28dcf117d5d7339a08f6c5998a0f47c3c7e38d5cd4ac06ca96a38c91b779c"
+  },
+  "scored_0836": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "c473f12fdf71f5723e7f891aba7ec0174592b9eefcba43058f4c80f34efa33e9",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "973b62d946bfeac8d4783b1d22834c0d3b95c0f790a65676d393996cad8a2327",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "b2c6886dd9c956b3d497399f009d89c6bda9f05342e167e45e17d393ae8a8819",
+     "intersection_forbidden_sha256": "499a418afc662732f93d6d9d8f114450479b5e4ae76a05c5988b6b6cfcaa09cc"
+    }
+   ],
+   "entire_replay_sha256": "06fe1876354f098ee07449177c0ce49844483bb095d3d4afa7cc54db869cec57"
+  },
+  "scored_0839": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "3e1f7d7f11194966c7dec0b4caf15ce0885f7c7207e0069c9fca1760459d9ee7",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "e18bdcc40bdcdf84d0d760b8e446edb5f52a4345044323fbf2403d8b99e5171b",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c7e51dc9791cbf1230b310930a05507150aa5911160a7719e56a33e3a11fe66d",
+     "intersection_forbidden_sha256": "ebc55aef9b9835413cf55f980478d4cc6a900da36acdc3fd01457b166e4e291a"
+    }
+   ],
+   "entire_replay_sha256": "06d7bb2bfbbad519f28af6565b658d338d72fd4a5dd65fb751ab9ed7143f050e"
+  },
+  "scored_0840": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "dd69a678b2b42f4786b276e903a66a4e9c1320a6a0c34b42dfc6c7aba245afd5",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "6ea43c36669c2c4f49aab57f7e9d9d923894c0fc6c8bc349b2da76ea5d8b7007",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "eec6a12ec2b4525abb1cbecb597bbf23c75ca381c9f7d6172fb889a6c7abd115",
+     "intersection_forbidden_sha256": "9272c00d9c9691ae3cbdc3b08496e8227a5129a4ec85c2cc754937912eb6203f"
+    }
+   ],
+   "entire_replay_sha256": "d9d4815da7bdee58b770aa2aad0be3a2436681acea260b09406a6beff1628760"
+  },
+  "scored_0843": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "76e67dbafeb86697e7c18142de347c3b8aeabb31cc6a627b9f6aec0bbc01252c",
+     "leaves": 3,
+     "ordinary": 0,
+     "inherited": 3,
+     "individual": 0,
+     "checked_leaves_sha256": "7093a04375f27d93544c03decbcd56242bff9751f817b794b38b20712792cd35",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a9756ff91917bcb0b215ddc6a1f3cee5331b7213bf35fb1ef390432f0e165640",
+     "intersection_forbidden_sha256": "f99f40d4680abdbcece422793b768ffa16db916270dbf789c6e59e3a5c7e9eb5"
+    }
+   ],
+   "entire_replay_sha256": "eb9cc7ad9bfcf7792f60aa41a00ae6448181ceb1ef3af9e58639ed5d16e7ff67"
+  },
+  "scored_0845": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "0500c3f8c866ea6d01cf15e710d944156afd3b261c28d4ea356b82b007b62e1f",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "8577b0038ca01d155cc5e1d1626520ce052eb253319d60601c1537817c5e5a8e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "807492ded8e34870aa440bfb15c809624bc881ceb35b003a9871c5b53e07d79a",
+     "intersection_forbidden_sha256": "e955d584fdcd1735d9bad049c605c0881b7834b4e6e59f7cb447f14519b08ac7"
+    }
+   ],
+   "entire_replay_sha256": "963aee4f93848b09b9eef17b4913e7ad3525227854813d9d8cdea787e21195e9"
+  },
+  "scored_0847": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "2d95ff30b12cafdf89a3ece737d047dcb6f4980e8320c4818135d4a95e8c8b11",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "b04aa5bea751d474871f065fe6447ab2879712a65b74f6b51d35194e7162a991",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "85ee4c259bea11f4dfc5ce5190d7ee925f25677266c693f1e037af62051ae4bc",
+     "intersection_forbidden_sha256": "73fa9c0d5b208c887558a3ad083826bfc6c113effee7bf580eed11158080f3e3"
+    }
+   ],
+   "entire_replay_sha256": "46362000a799edc2b933a6574252b2a3fc523f4908f0392a7a207cc1ecd877ac"
+  },
+  "scored_0848": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "8b18fdd2085809c84038e321a91b72ec5504b8cc1476834065943e0a974d8bea",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "cbb1beccc1f03b0f2622369e7698cec8821bc4fb21e2786df11d69e2ee5c53cb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "62bc9a8c21e0edefd8c50049b0d09ddf6815edcbe2793efbb3852c21f69440e4",
+     "intersection_forbidden_sha256": "b289b78edd2270a5c2152f1cff98f066637029298929fb244b8b97ea26e25231"
+    }
+   ],
+   "entire_replay_sha256": "31b774c232ead0e0ce8690e7cefdba840d08d137d3030502766ee74c0a01e7a4"
+  },
+  "scored_0853": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "d46642e9b3fbc66447c3605c9aa8dfa7c197313cefa6dd63bce5800545bcd248",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "ebb7b3c48083d7fdc2dac64176d45c9fa7a60b18fa7dda2113496fa20fa1b0de",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "5d80212e1b7f8be468af76f594645d33c7fd225ea0cc22e58074ee46769a2d93",
+     "intersection_forbidden_sha256": "a6a9d48896bf4746ebe27c6beedf736671e9c54ce16c99f2802fd82d1045337d"
+    }
+   ],
+   "entire_replay_sha256": "cb79d8841c724ce0353d2976f3358405a24a738b3c5c680a26a0c753e1bed2f4"
+  },
+  "scored_0854": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "c4c4ddbad96b984b9ea9515b84f6c3b184ae2a0176b193ffae9e87095aab84a4",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "0bab870aca957063afaf3685d9774d4fcae814c6c1e0d9903bc47ad0d62b271e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "1b0e6cdf140912a54c08e5ec6f6c91442966437cb0df958ba8fcb7035bebdb1e",
+     "intersection_forbidden_sha256": "0fa0cc18606babdd68b5e84a9849c1a3aeb0617312c692d8330330b05e5e08a0"
+    }
+   ],
+   "entire_replay_sha256": "36e772731b5f87f8afbef43c9a44f7c4e6e3c00ace533efa2106989f06efd96c"
+  },
+  "scored_0859": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "26d5d116a59c1b4c81c144f1675e728f04080c13a50ebccd038e85596b68ad5d",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "ad9831511fff30e5803f676ca1b006c5614b26f54396cd7ffb360c9660e45030",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a95e05810b31b226ee50a535c1e34186977b3ef2b8c3b1bcf06f3f43b6ef87a4",
+     "intersection_forbidden_sha256": "b5b2883e7f1c792f806d138b706c28f9d9e71a0f8c6f3304d5c6d431fc61b16f"
+    }
+   ],
+   "entire_replay_sha256": "f61bfa5c3fec642243b9acc4d8b231ab3b6ad33539002f7e55d6d9ad89295d07"
+  },
+  "scored_0865": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5c715be72268bfc457d48c06fb328d40aeb7d37a7c72808141cdcec15f47ade6",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "60c353e626d92dd707c933bbb3784d66dce9503f0bf17f954d66e1d768ffa0af",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fcce5aa99a5dad5f8e880e39d66f52a94509bad6d5944508b32ea4bb683445ad",
+     "intersection_forbidden_sha256": "cfe02bedbecaad6573b82cea85efcb7c80d0984d01941cf055499b4edbf91a78"
+    }
+   ],
+   "entire_replay_sha256": "555fbb0bb7022d132ccac59160d8fc1315aeb904ac5ac29423729dfabc896360"
+  },
+  "scored_0875": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "520d133ff1d90fe5f149f2605dde3cef880255b7e3d06f9af04de997d9ac62e3",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "d17910afc79a3c6b8e87cf779fcb91d767b6e5914a3fb6850f8b21f3ffa305cb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4616e9efb842272ccf0966c7c1fbfafc9157a7bc90bd66b3e65713a5ae11460f",
+     "intersection_forbidden_sha256": "e2d59b48e15b641c12b7d469f5a16a5602722ee9d7933acb7accf500bcf0d869"
+    }
+   ],
+   "entire_replay_sha256": "3544497b3199fa23de8164a7508006238abd76cccafa37533ab93f845decd152"
+  },
+  "scored_0876": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "94e1668ee266de74e4996f6c038719ebd7c0c1c7e861c8e5ca219fa66587f890",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "b1ea5ad77d7f2b99e9501ec4d6fea95940ea2ba5c8a7e9fb0196c5fcb0bad963",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "bb3dbf2a49cf9ab9de093c3d58b27b0b2087585240fc3fbd5d4210dcc6d0f9d7",
+     "intersection_forbidden_sha256": "f19ebd8a6e90999fb1a0992eaf509247379846616e85c83dc88d551aa689f659"
+    }
+   ],
+   "entire_replay_sha256": "209eb330f7eb2400526c0551003257333e5c4c4c1d1b747c26d7ee6da9d773a5"
+  },
+  "scored_0878": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4d1153a67e8244ecb318b9138da02a890d3aa89424cf3d4a15f7b33f806347b5",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "e7d78a1607b8b7b004383e89ff2c018f9b532b6ec4d6fa4915b13405b95a7e7a",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6333486e4e7b0dd891c4dd7ddfb825152bf852f2b912da8705fbf1c255e01504",
+     "intersection_forbidden_sha256": "7345ed267ea8316b3bb85959f40559e9c8bdc2099fcb4fc4a4da0a8104eabbdc"
+    }
+   ],
+   "entire_replay_sha256": "1039746ba72bb553a1d0f45a5d9096bd566811cdda3e9491c9e7e3d3a23e3421"
+  },
+  "scored_0885": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "78ae129a6a0221b64ddfe4ee83f4adb3cf0398c441a83eafc014fbf44b66e385",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "6d328bf53896cfd0e6d2ea1c2e94fa1974a64b8d58628eb0c69f94cfcd73ed99",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7413230a9d4a086fafbce5278a8ed78ec0946255c1ed2df5b81df581bf62e023",
+     "intersection_forbidden_sha256": "3c57c4e52943fa38bc79675d74b1efc6806ad07e307f812a16d9590fca3d28f6"
+    }
+   ],
+   "entire_replay_sha256": "af1cbd90fd5ef730329888876b704086c5bf89d44b6c0d6c7a451cc774674754"
+  },
+  "scored_0896": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "4497356a355a0a6c2123a06daa8ceb9c24b3bf4467b7f1dbc6864a412d4e582a",
+     "leaves": 5,
+     "ordinary": 3,
+     "inherited": 2,
+     "individual": 0,
+     "checked_leaves_sha256": "f91cf2a8ced023064b39e52f488b394b4c2114481a96207365f358eb794f50f1",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "bfa90f106be3ad23f37058649ab03a162c567ed106d85e03bf43f4abc934c4eb",
+     "intersection_forbidden_sha256": "52b35f3b30fc4f649e2bc4e7ca3137ee3f30202c0af0eb675112c25246097871"
+    }
+   ],
+   "entire_replay_sha256": "6ddd199613fa6028eb4d0538850ae405722f703ed4f23033387b3165d184d3c0"
+  },
+  "scored_0905": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "99f6ee61871880af450d1818cba15e55af4d479db2033e4e47b844a33dbb6e06",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "075193e8f8e641ae5091731da789d249bab773d064d202097b4ccf25f62094bb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0ded6205620e2529abad44149a3321656bedbbd819e3dd872c69d36c603d79ad",
+     "intersection_forbidden_sha256": "ad2d3a2164eb81d2337a4e3448c19dc368d5481fe0f3281b3d122721ad6b20c1"
+    }
+   ],
+   "entire_replay_sha256": "f525f603dcac1f77ccdaa59f6a7ac206cf8f85be8e90d7a8f2525d977711ae4b"
+  },
+  "scored_0906": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "26b12d062c492dd8ed4130a954e490d03c4fd301ed02dc16e64945e4424c542a",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "be7820a33db2768b916d8bbd11f990e974400a281d0d45f46cd99bbc45c069a9",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "dc0b769e645a9200324504461efe439f30d7f79402df90cb5e1fb519fe8e0b2e",
+     "intersection_forbidden_sha256": "c1e4e6b8e30c557df44f43e0dd30aafb935c42383fe550dacc490bd2d352a5da"
+    }
+   ],
+   "entire_replay_sha256": "efa3e5a0565ef1be3d9556664a2cebfd8b0c57f9aeccc33686c7c46dc94ff0a4"
+  },
+  "scored_0916": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "b844000701a42a5e01877168883cc34df5ccfae382a9f181760fe4aa9c868303",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "243b54623dbc4b25746b3db5e88f475d1c0aff2aa31f4e07aa85560eb9ab1021",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a7329b4c4b04527c6dedc993d7b00b2219c8c819ff471d7a6980f93b7ed5a8d5",
+     "intersection_forbidden_sha256": "83d4e7fcb935f17ab174e02ff2088455570911b071880aaeb5f6bd33a4f801e5"
+    }
+   ],
+   "entire_replay_sha256": "6510c2c831240bd02e6103a2f57de9454534868a617495cedb145431d817ae64"
+  },
+  "scored_0917": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "63b0695e32c05426ee1ce6536fa71a13ed14eedebfc95200e75e7fb1dd0a3e02",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "a28a87fcdde2fb76e1b9ff530d7009888998a1671a96aa905ec5886170a923ff",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "23c8ae901dd941022dd6ede57e7e0955ed1f1cf35d4c13325edb21247a811e10",
+     "intersection_forbidden_sha256": "29559aa9f9761b6f4f8a7bf0417254e62f070328cd17b78310361fec4b60ac65"
+    }
+   ],
+   "entire_replay_sha256": "2d2bb8ca695f251998d2c385e8fecc0eea5a6bd845a45bc837ded7275328b6f7"
+  },
+  "scored_0935": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6cd6da5d625f7c8928bfcdc02ca06dbf099cba441bed148e637527e9c2a71b59",
+     "leaves": 31,
+     "ordinary": 0,
+     "inherited": 31,
+     "individual": 0,
+     "checked_leaves_sha256": "2cb6c39a17fd0c30351258c0d0c9a6dbf30f4548ac926f085018cf5fb96f033f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "af6b0b50ced2f301512ae9d8fed38eb798a8d76ce8eaae945df92dd600523a76",
+     "intersection_forbidden_sha256": "2f612875fb7a4da468053ba79328e7d284e3a1ddeef7e0e66275c4592c2d9691"
+    }
+   ],
+   "entire_replay_sha256": "6a4c06f1f1183018d563f43e26ea7f871cc4fea8ec9d5dc8014d5280d6787976"
+  },
+  "scored_0939": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5defac09ba54b7bcbaf1c22a59ace6cad7b19d9cae51ca148710af51b6bfb9bf",
+     "leaves": 10,
+     "ordinary": 5,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "4189d654c8741e2c0a6c85a3039646a61d09c6922dba01af34be5cf4086b26b3",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "602aabda157d638dc56865c0f3dc1d31df2a7a3ac0c42ef004979b07d84b3d5a",
+     "intersection_forbidden_sha256": "5bc99c7ce0dc77daa3428955b0900437cac7510bf4397b625519d2430cb1f050"
+    }
+   ],
+   "entire_replay_sha256": "80adcda94fd27d5fd17a9d5b93842b45ee78913797af2b29edca7a69dcf2627f"
+  },
+  "scored_0940": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "8f1fa5d336b538c0ca85d6ac212e492fefc3f922d4b9e3b6ddc2b899877cfcd7",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "1cab337b99f8c8c2d09358827cfa3fe967d7c1021b8a14c72cca771aa5656cc9",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fb9fff55599960ba392dea3ccf3734809bcf7f3f2dc2968a56b7a0801c890740",
+     "intersection_forbidden_sha256": "094562fa01c18f57de871234dda0a433291d2059072eb5e9fe7949e54b9b3369"
+    }
+   ],
+   "entire_replay_sha256": "8ab5ce2b8411ff49c0dfc94f9a17bb9b45e8aa42b9959fa92e75b12718ca24be"
+  },
+  "scored_0941": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "954f827daa5384ec938bdc0d2f8e569fb030fd061fe7d57a87d8f29f823fd7ec",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "592f191a6af0ad86669d0de9019bc6e3f7c49188ff2beb4f6353c45885217d7d",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "6e92b550667519b0e1b6f0ed20bfebcd8acdae418d1a7ae7d6aafb5ad7b0e890",
+     "intersection_forbidden_sha256": "f4c5e677fa9d36ac03806d27655bed9ab092644ddc2c5bac6fb0e99b0b73ef1d"
+    }
+   ],
+   "entire_replay_sha256": "2b25ba0dae5d2d6d9f0e339c99cb32f412059bedacb770e67124db02f2ca2c98"
+  },
+  "scored_0948": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6fb16ae5cede57d66977f9a8c73f5fcc7995a3a434c9247b2c8663354e832fb4",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "89f34b4e55b190f5cad377580e7f2e2307ebb2295cdafa152597317a766305af",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "14fe73c2e58be85d1133d9c128fd00b525bbb7876e36570b04f94c1ff16a1e2c",
+     "intersection_forbidden_sha256": "20d58bbf171a99f70ebc4af88a9760550894fd0bf80133d2a0112de2075cb1bc"
+    }
+   ],
+   "entire_replay_sha256": "af9bf1286fc5ee7d9f17538c7826028547315948587d46221f12624f652ee00e"
+  },
+  "scored_0956": {
+   "prior": 42,
+   "lower": 43,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6c387c1801551417433ac3f4d4496bc44c5fb010e22753116e747992e78249b4",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "20098bddc3c56c66f1a267db376095f50acc3dd9c14cfde085039b3584dfe9e7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "7aa842d85509f68f6681e331bec9ffc8b59027637b05346dbeb8b0b17008d165",
+     "intersection_forbidden_sha256": "351c3abd3923c4235992e894517cee593f2243a6bb0bcde21189c1c1818905bf"
+    }
+   ],
+   "entire_replay_sha256": "4cdcc9f058ba4bae438aba4c92199019f13dd7fea65f96dfdb6d9a30cc208712"
+  },
+  "scored_0959": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "2c3dc837d0f373c3c0566566378147aaae6b7034f162de769a5cc9e1c2b00770",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "6256bf726b1ad101b42d26f81a0f7e8850c222132ce2115fc3a4b17530cbe78f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "36e05e9b31e17fc7f57c73cf20fa44e12b7c9b6187eedbd90d30186e34551dae",
+     "intersection_forbidden_sha256": "552bd4b0ff38e737a3c05b11083f135676b303928c109e126bb8ca43e4030d46"
+    }
+   ],
+   "entire_replay_sha256": "9e7f740c271f9e9cfe64c07e0efd090fb7de6234cfe71f6e6aa9628c6a9112b1"
+  },
+  "scored_0964": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "0425aa56cd56144195890177c443e1b878de1b2a511a95be63786c7badf47bf8",
+     "leaves": 11,
+     "ordinary": 0,
+     "inherited": 11,
+     "individual": 0,
+     "checked_leaves_sha256": "efb0c396aba3580e1e6f97a5b083ad7ce3d8486f5ccfe82f9aa2e3a77454d74c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "87cc8021cd77c48cc1cc36d1fed46192d6c9396b2f5033945e81ebe6dfff27de",
+     "intersection_forbidden_sha256": "3eb4d0f2b8bf71b585b6655f5c3c943d7ed01dcc9d858c4de3b9085b2cce00df"
+    }
+   ],
+   "entire_replay_sha256": "a5a667c93b2a38e8e01b4c4a78df7c06e6f5868b91c883db46f30e8eed8265f4"
+  },
+  "scored_0965": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "c24ceac3119e78bfeca06d71e740c8ad9b50555bd9756c0ad880ed27d0375cd3",
+     "leaves": 7,
+     "ordinary": 0,
+     "inherited": 7,
+     "individual": 0,
+     "checked_leaves_sha256": "e618ae1483386733bb3bca960a780805fbda7eeb9e07fe1ca6462207c6ec2885",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "f03d62746db9778ab1c2be76ceacaef4cbbbeebae6b30138e3924a8063d93062",
+     "intersection_forbidden_sha256": "0f94d6ab686b99e42934891b28698759018048019bd88dab172c8834de21c6d2"
+    }
+   ],
+   "entire_replay_sha256": "d8d211ea39e597784ddfca05dbc397a05e65defee07bf7bff038e122517c8f8d"
+  },
+  "scored_0968": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "f2830094ad2ba54d6036c70968a03a7a94bb62da412a43ba3ba181ad8b34bf92",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "07303bdc86471c807535a478230a1b8198b12d500c2aaf1700a3754cc681dee7",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "ea28ee34e58111c263fab243c5ee58faecaec450d3c110bab327d562cc31f79b",
+     "intersection_forbidden_sha256": "e657f7ed79c7397d1a2b275dfc07eca3aca19b10281d3673bbfccfd3abf76cf3"
+    }
+   ],
+   "entire_replay_sha256": "6880252445c2c44a4dfbedd83b2cd95970df027ea8ff0f43cfa2a3b2d7d0c14c"
+  },
+  "scored_0969": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "ea75f76e7d5f99631f8189080df81f7cb8f96854810c7851c8c854486abcb7c1",
+     "leaves": 9,
+     "ordinary": 0,
+     "inherited": 9,
+     "individual": 0,
+     "checked_leaves_sha256": "ac1e82c1678e8e25f0cf64426d9c69eeb4b5d3e50e12477be6d67846a502ac4e",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "dc1a9836866fd62c8c5b18d078958195a8d5a32d3ef7b9406012d3ef0954c67f",
+     "intersection_forbidden_sha256": "b5b021f27de23cd4c0be77d7038c716763a39f93274ecf451a3a196f4ace4f41"
+    }
+   ],
+   "entire_replay_sha256": "6513442089b6941b6ad572191c629b92e8093972dffa447abb7dcab1dbd9a365"
+  },
+  "scored_0970": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "02cb5a956adca88639340b6a99820394e5ed08cd3131e45981c527f7a14be478",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "d9e73afb154f2f92677f1082d3105d8cd71830ef4eff817976feec751c5f8011",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "3b902737ffcec5308852e90432bffbb1f301bf65bcf7f5e78f88a36b1a58f6c6",
+     "intersection_forbidden_sha256": "86077320b7c093bbd1f8a42c32bf079c512ef31d0a47fa8032975d91586aa697"
+    }
+   ],
+   "entire_replay_sha256": "cc044a9820f825169780c5b902f1d38476bd8a6d59d8393be6f1a98f653a5b2b"
+  },
+  "scored_0974": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "9b967cdcd18679161356db197a9cb5b46686dabc6c3cb22e8a22e492288396c8",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "e3776b08878c28f27694b51ee537d43c69a109e7f02d3c719557de782539df28",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "a277d5f9d2e5c02cd0809c9f7989712ac552b7fd1420a6cff1eba92f95f238c3",
+     "intersection_forbidden_sha256": "3e498e945f9d712f32cd6a57dafe4d37dda5b88866f959bc06c415bd8f1d9a46"
+    }
+   ],
+   "entire_replay_sha256": "a33d7a13f8808b1c44f7247f1b6dce8b37dcd50c5c51f46ae061e94951a156de"
+  },
+  "scored_0977": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "05984d0f22bf0cadcce43689577c4085bbb15c76c9d16eeb11811ede55e122fc",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "186ac05fb2eedf686cc2486ed8bd39c43593b2a57805504e7f1c2327620749ca",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "9edbac49bb1ae3678f4c08587e9b62a02bbedb3521180739a15be1acad255834",
+     "intersection_forbidden_sha256": "9a3c6b4b2a5ad6f7ada332686ea3c3f2002e7540bbe8dfc2efcc5b9e711d32ee"
+    }
+   ],
+   "entire_replay_sha256": "ce6abc71b9020e1f3e401104a2484aea535774f002257997f20e1711c5fb9e3f"
+  },
+  "scored_0978": {
+   "prior": 40,
+   "lower": 41,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "5703cc82df414c3062a7574929c6bb020046a7b5e6f089505b0d51a4b267bff3",
+     "leaves": 4,
+     "ordinary": 0,
+     "inherited": 4,
+     "individual": 0,
+     "checked_leaves_sha256": "963307510575ef6bfa946ad6574f07c7d2e7752017f84b80280a635b3b6d58dc",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4248530c1356cae35b1fad1e7860b7c38322169ced765597ac9da63889457cdb",
+     "intersection_forbidden_sha256": "a147271421baf476d0b688857c6eb4ae42711630add58ec108afc4476989460f"
+    }
+   ],
+   "entire_replay_sha256": "11f43638284183eebf3fcb156f243d4ca5436d294a7a941d09270ca38178ac70"
+  },
+  "scored_0979": {
+   "prior": 38,
+   "lower": 39,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "c4984e9eb4b23df44de097fa5992860471854356dbd361171c82db0bbad35f5f",
+     "leaves": 6,
+     "ordinary": 0,
+     "inherited": 6,
+     "individual": 0,
+     "checked_leaves_sha256": "85fc36e4195546b358f22e50c221600037a67335d86c4b5e2a0dea958977755f",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "c1a84e0cec1e9cd1f7c073ae18da3dc030260af723ad6d5115509f8410a92429",
+     "intersection_forbidden_sha256": "1c85b6f20f28b23e12d5073c99fc1112f4c596e11030bf369e268f6ef2aeb307"
+    }
+   ],
+   "entire_replay_sha256": "2f4a264825c146cb504ea36203bfb8c405b5bc64c733dcfb59d47b9de058cb01"
+  },
+  "scored_0982": {
+   "prior": 44,
+   "lower": 45,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "a627ca282e47aac5cda5a390ed38e16722138aac98d6142b53ab5e13fb5f0e02",
+     "leaves": 14,
+     "ordinary": 0,
+     "inherited": 14,
+     "individual": 0,
+     "checked_leaves_sha256": "72a985cc8adc848723be04023b22cdd7cefb5de63063faaf2f77592c51674b61",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "25879410c49bcc161ec133960dd07e350b1abb884b1430ab2f82ab9b263a2ef8",
+     "intersection_forbidden_sha256": "214d48d060d69b22c0ed5cd4b5c1d4bdcae1851f00c4568005a26379fca75063"
+    }
+   ],
+   "entire_replay_sha256": "418a06734f26a0c7219ecb6e772e223ee7c7a6e67b0ea41647c5b8f876c98093"
+  },
+  "scored_0986": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "2b70f407c1dda80eecbcc9f67175a759b3d81c7f89efa6a56ca88abcb6bf06ee",
+     "leaves": 8,
+     "ordinary": 0,
+     "inherited": 8,
+     "individual": 0,
+     "checked_leaves_sha256": "0085511ffe2e588ca7b9bfd6f49f93f46e07e5a3e8b929abd0b4f0cad5211d5c",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "0be160974e20f135710e2fdb2d068eb019b075706f1a3f7d1639e6661827a11b",
+     "intersection_forbidden_sha256": "d49e337ed8211567a67900d707928f606abe130ead18a71987e2bb50f82b0f53"
+    }
+   ],
+   "entire_replay_sha256": "8c7752582e142dd58a3fd43e023af37db8c5bc6f5ece2cf288afc042fb28d32c"
+  },
+  "scored_0991": {
+   "prior": 39,
+   "lower": 40,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6945c5bb30f6958065e8c9c2008f28cf4403a8dc66a064ad98a2067573655fd0",
+     "leaves": 5,
+     "ordinary": 0,
+     "inherited": 5,
+     "individual": 0,
+     "checked_leaves_sha256": "c836b31d1a02983afea79e7a379e6705c07f889b09da74d8208dbada1787d549",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "4069289b3bfac91a58fc431e5bd41eb27c942181c2998ee72a33795d54b09d4a",
+     "intersection_forbidden_sha256": "debbe695f3399ca3ccb3c0013cc196f1e8fdad7ab8559d46c7564d9a162ccf68"
+    }
+   ],
+   "entire_replay_sha256": "df670efb9b36a1cf540d2d1dafb216f441546f2db8e3e4dc1418a0618d79ecef"
+  },
+  "scored_0992": {
+   "prior": 41,
+   "lower": 42,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d42119cf362e72ca.json.gz",
+     "tree_sha256": "6cf6be6451d7a4044411c6f26e7e00da55ad969509c3960e5153601684ae2f0e",
+     "leaves": 11,
+     "ordinary": 0,
+     "inherited": 11,
+     "individual": 0,
+     "checked_leaves_sha256": "afdfc50b599bfe4a46b903f2cfc656ae2e518c03ddd07e3d4defc5a02d2ceb8a",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "11b081474f54644b94a6336799c45b38b99a2f5d076bb9e7320d1a2e349b559d",
+     "intersection_forbidden_sha256": "9458c8be8cf2b900966c4d22a2bee860bf01b0cf3eaf3ed82ad8517f5a4dfed1"
+    }
+   ],
+   "entire_replay_sha256": "defd0e7e79979d262d8fd0663314e96f49c43ed0d686475d8618d9d658043e40"
+  },
+  "scored_0998": {
+   "prior": 43,
+   "lower": 44,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "5c64fd765925c9759daa7a9b388a87419a89d298e32c0e87440f14546b3c2079",
+     "leaves": 2,
+     "ordinary": 0,
+     "inherited": 2,
+     "individual": 0,
+     "checked_leaves_sha256": "909c2938c58397bc54c269a2465b7813afa1a39ede1f3b772e528162d4243ddb",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "8e2b4f50b2e2d808b15f60d9cc6bd384c1a6eb30becf20bfac068e88ff001d39",
+     "intersection_forbidden_sha256": "076aaca886d84c369c6142eb1193044a40147724b21a99030e9cadc80f5c07db"
+    }
+   ],
+   "entire_replay_sha256": "3e33e2469c2fc42f6ef82c91b703bd54280eaf91653de069a6436ae0106aad5f"
+  },
+  "scored_1000": {
+   "prior": 45,
+   "lower": 46,
+   "winning_trees": [
+    {
+     "pack": "conditioned-d822fe4329c19e58.json.gz",
+     "tree_sha256": "93a575952dde4f8b334499db1a4ba80dd61e54245b0d6e92c2efb5e777ea59b6",
+     "leaves": 12,
+     "ordinary": 0,
+     "inherited": 12,
+     "individual": 0,
+     "checked_leaves_sha256": "324696d1e2c24f9dcecc9ae8fceb13e31fa7a39c7fa2c2e6a8a905b112b47637",
+     "common_mobius": "ABSENT",
+     "common_ordered": "ABSENT",
+     "union_labels_sha256": "fa65f420e3b6c41b9063a1a5434e555ab9ee3469b479060b71551c20ef2ad6d1",
+     "intersection_forbidden_sha256": "483ca04383f646fbde7d431d39c8bea5c6c69c4af3fd240094d24fe9b977fe72"
+    }
+   ],
+   "entire_replay_sha256": "1af5898e4cbce0b02a2ed322021b7fd2457f9e66b6e1c5311c35243194f8b9ec"
+  }
+ }
+}
