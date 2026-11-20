@@ -43,6 +43,8 @@ python -B elf.py data/puzzles.csv public-assisted/submission.csv
 
 [已对照的方案与收益](collaboration/methods.md) · [用第 334 题重跑因数分解](collaboration/factor/README.md) · [组合改写的真实案例](collaboration/polish/)
 
+本机网关可以持续派发片段改写，给出通过整数解释器的候选。[运行及成果交接](collaboration/model-rewrite/README.md)
+
 `virtual.cpp` 借用 Tony Li 和 konbu17 的整数索引、初始算式与依赖图表示。新搜索器逐轮选择目标，用刚得到的中间值更新可用算式。它比较多个目标对同一中间值的需求，估计目标顺序对后续计算的影响，并把整张图重新编译到 48 个寄存器。以下是一个独立实验示例。在仓库根目录的 PowerShell 中运行，先将本机 MinGW-w64 的 `g++` 加入 PATH。输出是一份新候选。
 
 ```powershell
