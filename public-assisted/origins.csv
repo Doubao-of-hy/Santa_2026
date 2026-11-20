@@ -3,9 +3,9 @@ scored_0001,work/heritage/scale-hard.csv,"Nilanjan_Saha123, Best-of-Public Elf O
 scored_0002,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",245
 scored_0003,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",196
 scored_0004,Asterios v99,"Ertugrul Ozer, Deep Cone & Joint Scaffold Optimizer",212
-scored_0005,Asterios v99,"suka, Verified Portfolio Programs dataset",48
-scored_0006,work/creative/resume-135077/accepted-134478/shorter.csv,"wang Jakie, Kaggle 371736767, Apache-2.0 | Asterios v113 — Atakan Aldemir, Joint Recipes for Large Puzzles (scaffold exchange)",111
-scored_0007,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,527",133
+scored_0005,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",47
+scored_0006,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",110
+scored_0007,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",132
 scored_0008,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",109
 scored_0009,local from official inputs,Generated from official inputs,28
 scored_0010,Asterios v99,"Pratham Jain, Exact Portfolio Frontier",180
@@ -25,7 +25,7 @@ scored_0023,work/virtual/carry-135348/release-target.csv,"Pratham Jain, Santa 20
 scored_0024,local from official inputs,Generated from official inputs,29
 scored_0025,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",117
 scored_0026,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",181
-scored_0027,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",110
+scored_0027,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",109
 scored_0028,Asterios v99,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",119
 scored_0029,local from official inputs,Generated from official inputs,38
 scored_0030,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",191
@@ -89,9 +89,9 @@ scored_0087,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0088,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",202
 scored_0089,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",120
 scored_0090,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",182
-scored_0091,local from official inputs,Generated from official inputs,24
+scored_0091,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",23
 scored_0092,local from official inputs,Generated from official inputs,34
-scored_0093,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",107
+scored_0093,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",106
 scored_0094,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",252
 scored_0095,Asterios v99,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large Puzzles",33
 scored_0096,Asterios v99,"suka, Verified Portfolio Programs dataset",173
@@ -99,7 +99,7 @@ scored_0097,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0098,Asterios v99,"suka, Verified Portfolio Programs dataset",182
 scored_0099,local from official inputs,Generated from official inputs,120
 scored_0100,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",120
-scored_0101,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",124
+scored_0101,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",123
 scored_0102,local from official inputs,Generated from official inputs,117
 scored_0103,local from official inputs,Generated from official inputs,40
 scored_0104,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",227
@@ -187,7 +187,7 @@ scored_0185,work/gpu/lineage-trusted.csv,"Roman Rozen, Santa 2026 | IceFire Stro
 scored_0186,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",108
 scored_0187,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",93
 scored_0188,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",96
-scored_0189,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,311",116
+scored_0189,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",115
 scored_0190,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",126
 scored_0191,local from official inputs,Generated from official inputs,104
 scored_0192,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",115
@@ -223,7 +223,7 @@ scored_0221,work/heritage/global-diversity/short-holdout-wins.csv,"Ertugrul Ozer
 scored_0222,Asterios v99,"suka, Verified Portfolio Programs dataset",33
 scored_0223,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",201
 scored_0224,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",178
-scored_0225,Asterios v99,"suka, Verified Portfolio Programs dataset",111
+scored_0225,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",110
 scored_0226,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",120
 scored_0227,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,527",113
 scored_0228,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,561",102
@@ -278,7 +278,7 @@ scored_0276,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0277,local from official inputs,Generated from official inputs,111
 scored_0278,Asterios v99,"suka, Verified Portfolio Programs dataset",82
 scored_0279,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",256
-scored_0280,local from official inputs,Generated from official inputs,112
+scored_0280,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",111
 scored_0281,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",177
 scored_0282,work/heritage/global-diversity/short-holdout-wins.csv,"Rishabh Bafna, Optimal Verified Programs dataset",44
 scored_0283,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",212
@@ -308,7 +308,7 @@ scored_0306,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithm
 scored_0307,Asterios v113,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",96
 scored_0308,local from official inputs,Generated from official inputs,30
 scored_0309,local from official inputs,Generated from official inputs,112
-scored_0310,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",114
+scored_0310,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",111
 scored_0311,Asterios v113,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,556",104
 scored_0312,work/gpu/schedule-trusted.csv,"Rishabh Bafna, Optimal Verified Programs dataset",245
 scored_0313,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137738]",172
@@ -345,7 +345,7 @@ scored_0343,work/creative/frontier-134285/retained-183/public-shorter.csv,"Wang 
 scored_0344,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",160
 scored_0345,Asterios v99,"Hanif Noer Rofiq, Elf Calculator Verified Portfolio",198
 scored_0346,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",168
-scored_0347,local from official inputs,Generated from official inputs,99
+scored_0347,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",98
 scored_0348,local from official inputs,Generated from official inputs,3
 scored_0349,Asterios v99,"suka, Verified Portfolio Programs dataset",183
 scored_0350,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",54
@@ -405,7 +405,7 @@ scored_0403,Asterios v99,"Rishabh Bafna, Optimal Verified Programs dataset",230
 scored_0404,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",102
 scored_0405,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",269
 scored_0406,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",115
-scored_0407,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",156
+scored_0407,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",155
 scored_0408,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",164
 scored_0409,local from official inputs,Generated from official inputs,21
 scored_0410,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",179
@@ -464,7 +464,7 @@ scored_0462,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0463,Asterios v115,"E-Max AI, Santa 2026 | Public Frontier | Score 134,503",105
 scored_0464,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",77
 scored_0465,local from official inputs,Generated from official inputs,111
-scored_0466,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",185
+scored_0466,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",184
 scored_0467,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",95
 scored_0468,Asterios v99,"suka, Verified Portfolio Programs dataset",154
 scored_0469,Asterios v99,"Bikram Basnet, Arithmetic Graph Rewrites",85
@@ -484,7 +484,7 @@ scored_0482,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithm
 scored_0483,Asterios v99,"Bikram Basnet, Arithmetic Graph Rewrites",166
 scored_0484,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",132
 scored_0485,local from official inputs,Generated from official inputs,2
-scored_0486,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",104
+scored_0486,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",103
 scored_0487,local from official inputs,Generated from official inputs,26
 scored_0488,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",142
 scored_0489,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",147
@@ -553,7 +553,7 @@ scored_0551,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0552,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",215
 scored_0553,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",128
 scored_0554,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",96
-scored_0555,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",109
+scored_0555,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",108
 scored_0556,Asterios v99,"Pratham Jain, Exact Portfolio Frontier",27
 scored_0557,work/virtual/collective-135077/fresh134324/shorter.csv,"Wang Jakie, original incremental recipe search (Apache-2.0), Kaggle kernel 371736767; E-Max AI (RoyalAceCat) external parent crossover implemented in GoodPJW v10 (Apache-2.0). Input programs: 62378d6 public / Asterios v119 — Ertuğrul Özer, Santa 2026 | Starter Notebook! | 472b715 public / Asterios v113 — wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",108
 scored_0558,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",120
@@ -586,7 +586,7 @@ scored_0584,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0585,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",176
 scored_0586,Asterios v99,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large Puzzles",86
 scored_0587,Asterios v99,"prvsiyan, Santa is not happy",151
-scored_0588,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",135
+scored_0588,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",134
 scored_0589,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,527",85
 scored_0590,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",108
 scored_0591,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",127
@@ -605,7 +605,7 @@ scored_0603,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [1
 scored_0604,local from official inputs,Generated from official inputs,106
 scored_0605,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",163
 scored_0606,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",159
-scored_0607,Asterios v119,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",110
+scored_0607,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",108
 scored_0608,Asterios v121,"E-Max AI, Santa 2026 | Public Frontier | Score 134,318",149
 scored_0609,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",148
 scored_0610,work/creative/ladder/portfolio-atlas.csv,"asterios-v80: Ertuğrul Özer, Santa 2026 | Starter Notebook! | Local: Official-input local generation | Prior credited GitHub snapshot: Hanif v15 and its listed authors",265
@@ -616,16 +616,16 @@ scored_0614,local from official inputs,Generated from official inputs,20
 scored_0615,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [135867]",113
 scored_0616,Asterios v99,"E-Max AI, Santa 2026 Public Frontier 136078",114
 scored_0617,work/creative/market/exact-offset-all.csv,"E-Max AI, Santa 2026 Public Frontier 136057",90
-scored_0618,work/creative/resume-135077/accepted-134478/shorter.csv,"wang Jakie, Kaggle 371736767, Apache-2.0 | Asterios v113 — suka, Verified Portfolio Programs dataset",108
+scored_0618,local from official inputs,Generated from official inputs,108
 scored_0619,local from official inputs,Generated from official inputs,118
 scored_0620,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",32
 scored_0621,Asterios v99,"suka, Verified Portfolio Programs dataset",171
 scored_0622,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",165
 scored_0623,work/creative/resume-135077/release-union-134430/shorter.csv,"Hanif Noer Rofiq, Santa 2026 Elf Calculator - Peephole Programs, Kaggle release 23. Its portfolio credits Asterios Panoras, Ertuğrul Özer, RoyalAceCat, Wang Jakie, goodpjw2008 and earlier contributors in Hanif-v23-NOTICE.md; the release does not provide row-specific attribution.",75
-scored_0624,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",108
+scored_0624,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",106
 scored_0625,work/gpu/frontier-trusted.csv,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large Puzzles",97
 scored_0626,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",167
-scored_0627,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",113
+scored_0627,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",112
 scored_0628,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",202
 scored_0629,work/virtual/portfolio-135289/assisted-wide-all.csv,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137844]",154
 scored_0630,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",25
@@ -644,7 +644,7 @@ scored_0642,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",120
 scored_0643,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",125
 scored_0644,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",141
 scored_0645,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",195
-scored_0646,Asterios v121,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",124
+scored_0646,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",123
 scored_0647,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",208
 scored_0648,Asterios v113,"E-Max AI, Santa 2026 Crossover Stage 134618",96
 scored_0649,work/virtual/siblings-135106/assisted-retry-f0.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",118
@@ -670,7 +670,7 @@ scored_0668,work/creative/resume-135077/release-union-134430/shorter.csv,"Hanif 
 scored_0669,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,556",108
 scored_0670,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",177
 scored_0671,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",191
-scored_0672,Asterios v99,konbu17 dataset (wide planning + re-allocation),56
+scored_0672,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",55
 scored_0673,Asterios v99,konbu17 dataset (graph recombination),168
 scored_0674,Asterios v113,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,556",104
 scored_0675,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",117
@@ -728,7 +728,7 @@ scored_0726,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",147
 scored_0727,local from official inputs,Generated from official inputs,77
 scored_0728,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",255
 scored_0729,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",274
-scored_0730,local from official inputs,Generated from official inputs,107
+scored_0730,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",106
 scored_0731,Asterios v113,"Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",123
 scored_0732,work/creative/frontier-134285/good11/wins.csv,"goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",112
 scored_0733,Asterios v99,konbu17 dataset (suffix re-solve),95
@@ -747,7 +747,7 @@ scored_0745,Asterios v99,konbu17 dataset (wide planning + re-allocation),183
 scored_0746,local from official inputs,Generated from official inputs,115
 scored_0747,Asterios v99,konbu17 dataset (graph recombination),156
 scored_0748,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",227
-scored_0749,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",92
+scored_0749,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",89
 scored_0750,Asterios v99,"Roman Rozen, Santa 2026 | IceFire Strong Start",109
 scored_0751,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",206
 scored_0752,work/creative/resume-135077/four-source-134389-to-134385/shorter.csv,"Alex Chilton (Rudolph), Kaggle dataset release 67 (CC0), a verified public portfolio. The dataset credits Georgy Mamarin, Best-of-Public Elf Optimizer, Verified Best Programs, Atakan Aldemir, Public Merge, Hanif Noer Rofiq and Rudolph. Original authors were not listed per row in this release.",95
@@ -879,7 +879,7 @@ scored_0877,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and M
 scored_0878,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [135867]",160
 scored_0879,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",105
 scored_0880,local from official inputs,Generated from official inputs,36
-scored_0881,work/gpu/walk-trusted.csv,"suka, Verified Portfolio Programs dataset",86
+scored_0881,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",84
 scored_0882,local from official inputs,Generated from official inputs,23
 scored_0883,local from official inputs,Generated from official inputs,7
 scored_0884,local from official inputs,Generated from official inputs,108
@@ -891,7 +891,7 @@ scored_0889,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | L
 scored_0890,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",91
 scored_0891,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",110
 scored_0892,local from official inputs,Generated from official inputs,16
-scored_0893,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137822]",128
+scored_0893,work/creative/frontier-134285/new-134113/wins.csv,"goodpjw2008 DAG-LNS Programs dataset v12 and notebook session 371867712; uses Wang Jakie's search with seeded crossover credited to E-Max AI, and public inputs listed in GoodPJW-v12-public-sources.json.",127
 scored_0894,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",112
 scored_0895,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",122
 scored_0896,Asterios v115,"E-Max AI, Santa 2026 | Public Frontier | Score 134,503",132
@@ -940,7 +940,7 @@ scored_0938,local from official inputs,Generated from official inputs,102
 scored_0939,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",232
 scored_0940,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",128
 scored_0941,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",232
-scored_0942,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",112
+scored_0942,work/creative/frontier-134285/new-134113/wins.csv,"E-Max AI (royalacecat), diverse graph-pool search session 371866321, including Wang Jakie's arithmetic graph search, Roman Rozen's public union and the credited public input banks.",111
 scored_0943,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",88
 scored_0944,work/creative/frontier-134285/matched-134115/wins.csv,"Exact tape in Roman Rozen's IceFire session 371861819 and bikrambasnet1's Arithmetic Graph Rewrites session 371860204. The latter credits konbu17, the public portfolios listed in Roman-Bikram-sources.json, earlier Wang Jakie search and other upstream authors. Exact origin before the published portfolio is not specified per row.",211
 scored_0945,work/gpu/lineage-trusted.csv,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",28

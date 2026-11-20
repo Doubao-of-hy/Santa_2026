@@ -1,0 +1,126 @@
+{
+  "base": "8b7e582859b0d73471ee8a8540706020ee7796c8",
+  "base_sha256": "f8382e450a4ba59bb3cc5ef5a328b66f4e125b0f40facab6ee02ccf8ee289563",
+  "previous": 134113,
+  "programs": 1000,
+  "verified_total": 134079,
+  "verified_sha256": "f8c3cad0aa223da07e1d73ab31ad6b83d11af03ad1f2030386a0365a81bdbcd9",
+  "changes": {
+    "GoodPJW dataset v12": {
+      "scored_0005": 1,
+      "scored_0006": 1,
+      "scored_0007": 1,
+      "scored_0027": 1,
+      "scored_0091": 1,
+      "scored_0093": 1,
+      "scored_0101": 1,
+      "scored_0189": 1,
+      "scored_0225": 1,
+      "scored_0280": 1,
+      "scored_0310": 3,
+      "scored_0347": 1,
+      "scored_0407": 1,
+      "scored_0466": 1,
+      "scored_0486": 1,
+      "scored_0555": 1,
+      "scored_0588": 1,
+      "scored_0607": 2,
+      "scored_0624": 2,
+      "scored_0627": 1,
+      "scored_0646": 1,
+      "scored_0672": 1,
+      "scored_0730": 1,
+      "scored_0749": 3,
+      "scored_0881": 2,
+      "scored_0893": 1
+    },
+    "E-Max AI diverse pool": {
+      "scored_0942": 1
+    }
+  },
+  "good_programs": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/12",
+  "good_run": {
+    "ref": "goodpjw2008/santa-2026-lns-cp-sat-recombine-lb-134-092",
+    "session": 371867712,
+    "source": "https://www.kaggle.com/code/goodpjw2008/santa-2026-lns-cp-sat-recombine-lb-134-092?scriptVersionId=371867712",
+    "score": 134092,
+    "sha256": "0247aa4baeca835f24658adc44dfab990b83fe1694108a88499c73ed8646cc71",
+    "notebook_sha256": "65b4ee45080d136d5ac3e54d118cb2fe5664b17a8f963860331758d6a4185d54",
+    "data_sources": [
+      {
+        "sourceType": "competition",
+        "sourceId": 177055
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22507897
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371862730
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371861819
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371860621
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371860204
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371849485
+      }
+    ],
+    "files": [
+      "elfopt",
+      "submission.csv",
+      "submission_live_merge.csv"
+    ]
+  },
+  "good_archive_sha256": "213e0c1cacef163a0297f8fa7d453fdb0a5c80c11356f90e11f3ecb549b1e104",
+  "good_frontier": 134125,
+  "good_total": 134092,
+  "good_member_hashes": {
+    "our_programs.csv": "0247aa4baeca835f24658adc44dfab990b83fe1694108a88499c73ed8646cc71",
+    "public_frontier.csv": "3474795eaf57e5831717b3489995e4a465d96740c5d08c759675bbdeb6b3cdda",
+    "ladder.json": "ab97e9ba04453a86ec262d80f6d6ab167b42c844bbd339218bf8413669a454e1",
+    "wangjakie_strategies/NOTICE.md": "84956ff605a07d25f4b9f663d143cd30d7acd4d95aa5f6e6c0405b6c7c535e4d"
+  },
+  "emax_run": {
+    "ref": "royalacecat/santa-2026-public-frontier-score-134-124",
+    "session": 371866321,
+    "source": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-134-124?scriptVersionId=371866321",
+    "score": 134124,
+    "sha256": "c3c0e91f72d0e6ce6e24365624b1ef5e6a4d99ff54076e77d0c7a397bfedffec",
+    "notebook_sha256": "dc26ca95d6c704db506cbd07956492c24f48d24d0176431bcdc846e5cad1c68c",
+    "data_sources": [
+      {
+        "sourceType": "competition",
+        "sourceId": 177055
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22507686
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22507509
+      }
+    ],
+    "files": [
+      "search_bin/anneal_diverse",
+      "submission.csv"
+    ]
+  },
+  "emax_inputs": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134124/versions/1",
+  "emax_archive_sha256": "c96014befd64d344be66adc98d7e15adf4ce8398f92918148d2ad0a1e2e4d699",
+  "official_export_sha256": "47f4a6ae8a07173d6c147ce7b1e0851217c4f3bcd9fa7452c716ec866a5f9249",
+  "equally_short_independent_replacements": {
+    "scored_0618": 108
+  }
+}

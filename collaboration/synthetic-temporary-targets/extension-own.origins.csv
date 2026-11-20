@@ -1,0 +1,7 @@
+id,source,upstream_source,instructions
+scored_0084,synthetic intermediate search,work/gpu/bridge-next-141441/engine/results/best-independent.csv,41
+scored_0085,synthetic intermediate search,work/virtual/lifetimes-135161/own-revisit-value-exchange.csv,93
+scored_0140,synthetic intermediate search,work/gpu/graft-walk-independent.csv,167
+scored_0324,synthetic intermediate search,work/creative/scc-e24a8e5-140813/bank-production-win.csv,184
+scored_0618,synthetic intermediate search,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,108
+scored_0734,synthetic intermediate search,work/virtual/bank-135324/own-dev.csv,148

@@ -1,0 +1,9 @@
+{
+  "source": "https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/24",
+  "archive_sha256": "c610deea986f4ee0da86fccafd3d43fcf929012fee712316c60bc3a7f515d6f4",
+  "reference_steps": 134079,
+  "upstream": 135806,
+  "gains": {},
+  "source_programs_sha256": "2b1fe83468d89dbe55907b9c84fed8b0b335c82fe67b5b40d7a5e67fc129b65e",
+  "source_attribution_sha256": "a4f288669b1eae1a2a21268c6750854b2b9d6316948c901c04f95d29633a7b55"
+}

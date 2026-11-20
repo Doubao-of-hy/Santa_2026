@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 00:02
+
+公开辅助候选为 **134,079**。与前一版相比，GoodPJW 发布的 26 道题省 33 条，E-Max AI 的第 942 题再省 1 条。独立搜索另在 6 道题省 9 条，独立候选为 **140,675**。两份候选均已完整回放。00:02 榜首 128,330，相差 5,749 条，尚未提交。[本轮 27 道](collaboration/frontier-134285/public-134079/README.md) · [独立搜索](collaboration/synthetic-temporary-targets/README.md)
+
 ## 北京时间 11 月 20 日 23:52
 
 公开辅助候选 **134,113**，独立候选 **140,684**。与上一份 134,175 条的程序相比，47 道题的公开成果省 60 条，另由独立搜索在第 697 题省 2 条。两份候选均已重放；与 23:31 官方榜首 128,330 相差 5,783 条。另在 47 道题各证明了一条新的下界，全题已复核下界为 **37,968**。[公开程序的逐题来源](collaboration/frontier-134285/roman-134125/README.md) · [独立新增方案](collaboration/synthetic-temporary-targets/README.md) · [证明汇总](collaboration/evidence/combined-membership.json)
