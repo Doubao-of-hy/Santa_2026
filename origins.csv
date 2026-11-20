@@ -50,7 +50,7 @@ scored_0048,work/virtual/resume-135077/official-fresh-3.csv,153
 scored_0049,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,162
 scored_0050,work/virtual/guided-142434/small-twoply.csv,27
 scored_0051,work/virtual/lifetimes-135161/schedule.csv,303
-scored_0052,work/creative/resume-135077/anneal-independent-full35/shorter.csv,119
+scored_0052,work/virtual/resume-135077/polish2-own-remaining.csv,117
 scored_0053,work/creative/own-good-reproduced/wins.csv,110
 scored_0054,work/gpu/graft-walk-independent.csv,202
 scored_0055,work/creative/ladder/lns-local.csv,83
@@ -126,7 +126,7 @@ scored_0124,work/creative/resume-135077/anneal-independent-diverse-full105/short
 scored_0125,work/creative/resume-135077/anneal-independent-full35/shorter.csv,99
 scored_0126,original-172868,4
 scored_0127,work/virtual/resume-135077/wang-second.csv,97
-scored_0128,work/virtual/resume-135077/wang-second.csv,120
+scored_0128,work/virtual/resume-135077/polish2-own-remaining.csv,116
 scored_0129,work/heritage/deep-own-wins.csv,291
 scored_0130,work/creative/resume-135077/anneal-independent-full35/shorter.csv,23
 scored_0131,work/virtual/bank-135324/own-full-native.csv,99
@@ -175,7 +175,7 @@ scored_0173,work/gpu/coop-independent.csv,191
 scored_0174,work/virtual/portfolio-135289/own-wide-all.csv,144
 scored_0175,work/creative/frontier-135161/own/best-shorter.csv,92
 scored_0176,work/virtual/resume-135077/wang-second.csv,102
-scored_0177,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,112
+scored_0177,work/virtual/resume-135077/polish2-own-remaining.csv,111
 scored_0178,work/virtual/resume-135077/wang-second.csv,114
 scored_0179,work/virtual/collective-135077/first-independent.csv,226
 scored_0180,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,89
@@ -455,7 +455,7 @@ scored_0453,work/virtual/resume-135077/wang-second.csv,110
 scored_0454,work/virtual/bank-135324/own-full-native.csv,219
 scored_0455,work/gpu/bridge-36731/wide-first-release/wins.csv,27
 scored_0456,work/creative/own-good/part3-wins.csv,127
-scored_0457,work/creative/resume-135077/anneal-independent-full35/shorter.csv,119
+scored_0457,work/virtual/resume-135077/polish2-own-remaining.csv,117
 scored_0458,work/gpu/walk-independent.csv,157
 scored_0459,work/creative/ladder/lns-local.csv,88
 scored_0460,work/heritage/scale-own-wins.csv,171
@@ -475,7 +475,7 @@ scored_0473,work/gpu/witness-dfs/own-blind.csv,24
 scored_0474,work/creative/resume-135077/anneal-independent-full35/shorter.csv,88
 scored_0475,work/virtual/portfolio-135289/own-all.csv,199
 scored_0476,work/heritage/scale-own-wins.csv,209
-scored_0477,work/virtual/resume-135077/wang-second.csv,132
+scored_0477,work/virtual/resume-135077/polish2-own-remaining.csv,131
 scored_0478,work/virtual/portfolio-135289/own-all.csv,81
 scored_0479,work/virtual/resume-135077/wang-second.csv,125
 scored_0480,work/virtual/resume-135077/wang-second.csv,157
@@ -508,7 +508,7 @@ scored_0506,work/creative/ladder/branch-local.csv,127
 scored_0507,work/gpu/overlap-independent.csv,176
 scored_0508,work/heritage/deep-own-wins.csv,214
 scored_0509,work/virtual/lifetimes-135161/own-direct-all.csv,123
-scored_0510,work/creative/resume-135077/anneal-independent-full35/shorter.csv,91
+scored_0510,work/virtual/resume-135077/polish2-own-remaining.csv,90
 scored_0511,work/heritage/deep-own-wins.csv,262
 scored_0512,work/creative/resume-135077/anneal-independent-full35/shorter.csv,124
 scored_0513,work/virtual/portfolio-135289/own-all.csv,159
@@ -622,7 +622,7 @@ scored_0620,work/creative/own-good/cumulative-wins.csv,34
 scored_0621,work/virtual/portfolio-135289/own-wide-all.csv,179
 scored_0622,work/virtual/repeated-135211/own-full.csv,172
 scored_0623,work/heritage/path-relink/own-wins.csv,79
-scored_0624,work/virtual/resume-135077/wang-second.csv,121
+scored_0624,work/virtual/resume-135077/polish2-own-remaining.csv,120
 scored_0625,work/creative/own-good/part2-wins.csv,99
 scored_0626,work/creative/resume-135077/anneal-independent-full35/shorter.csv,174
 scored_0627,work/virtual/portfolio-135289/own-wide-all.csv,121
@@ -664,7 +664,7 @@ scored_0662,work/heritage/scale-own-wins.csv,176
 scored_0663,work/gpu/lineage-independent.csv,187
 scored_0664,work/heritage/scale-own-wins.csv,217
 scored_0665,work/virtual/resume-135077/wang-second.csv,95
-scored_0666,work/virtual/resume-135077/wang-second.csv,156
+scored_0666,work/virtual/resume-135077/polish2-own-remaining.csv,155
 scored_0667,work/creative/resume-135077/anneal-independent-full35/shorter.csv,120
 scored_0668,work/virtual/resume-135077/wang-second.csv,105
 scored_0669,work/virtual/lifetimes-135161/polish/own-wins.csv,110
@@ -744,7 +744,7 @@ scored_0742,work/virtual/portfolio-135289/own-wide-hold.csv,195
 scored_0743,work/creative/resume-135077/anneal-independent-full35/shorter.csv,109
 scored_0744,work/creative/family-gap/difference-full.csv,295
 scored_0745,work/creative/carry-gpu/full-own-wins.csv,188
-scored_0746,work/virtual/resume-135077/wang-second.csv,121
+scored_0746,work/virtual/resume-135077/polish2-own-remaining.csv,119
 scored_0747,work/creative/frontier-135161/own/best-shorter.csv,163
 scored_0748,work/gpu/forced-active-independent.csv,240
 scored_0749,work/virtual/resume-135077/wang-second.csv,94
@@ -869,7 +869,7 @@ scored_0867,work/virtual/resume-135077/wang-second.csv,91
 scored_0868,work/creative/resume-135077/anneal-independent-full35/shorter.csv,28
 scored_0869,work/creative/own-good-reproduced/wins.csv,103
 scored_0870,work/gpu/forced-active-independent.csv,213
-scored_0871,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,115
+scored_0871,work/virtual/resume-135077/polish2-own-remaining.csv,113
 scored_0872,work/heritage/path-relink/all-own-wins.csv,110
 scored_0873,work/creative/ladder/lns-local.csv,38
 scored_0874,work/gen/splice-bridges.csv,27
@@ -953,7 +953,7 @@ scored_0951,work/creative/resume-135077/anneal-independent-full35/shorter.csv,93
 scored_0952,work/virtual/bank-135324/own-neutral-full.csv,219
 scored_0953,work/virtual/portfolio-135289/own-wide-all.csv,184
 scored_0954,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,77
-scored_0955,work/virtual/resume-135077/wang-second.csv,88
+scored_0955,work/virtual/resume-135077/polish2-own-remaining.csv,87
 scored_0956,work/virtual/lifetimes-135161/own-direct-all.csv,230
 scored_0957,work/creative/ladder/lns-local.csv,29
 scored_0958,work/virtual/resume-135077/wang-second.csv,26
@@ -970,7 +970,7 @@ scored_0968,work/virtual/lifetimes-135161/polish/own-wins.csv,168
 scored_0969,work/virtual/portfolio-135289/own-retire-hold.csv,159
 scored_0970,work/virtual/lifetimes-135161/own-broad-all.csv,238
 scored_0971,work/gen/atlas-continued.csv,18
-scored_0972,work/virtual/resume-135077/wang-second.csv,128
+scored_0972,work/virtual/resume-135077/polish2-own-remaining.csv,123
 scored_0973,work/virtual/portfolio-135289/own-wide-all.csv,117
 scored_0974,work/virtual/bank-135324/own-full-native.csv,246
 scored_0975,work/creative/resume-135077/anneal-independent-full35/shorter.csv,110

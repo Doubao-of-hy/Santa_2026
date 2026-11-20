@@ -1,0 +1,18 @@
+{
+  "id": "scored_0680",
+  "new_empty_workdir": true,
+  "puzzle_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "baseline_commit": "98e392cc24e2fb68ecbf649e400d506205273372",
+  "first_and_repeat_patch": "bf3ba449227ae6515a9c129682981dda1067848bb8cb78475d7a0b25e41f17c9",
+  "first_and_repeat_raw_row": "bf3ba449227ae6515a9c129682981dda1067848bb8cb78475d7a0b25e41f17c9",
+  "isolated_full_score": 141025,
+  "isolated_full_sha256": "fe665aac080c4e97e0eaa915b3f9a4fccfb3682c6e61a8dbf5d1ce38e45105ed",
+  "hashed_native_cpp": {
+    "new_notebook_cell": "353fb2826bd043e16db77b407f7c68ffcb229e9c0b7ed5c2a09505e7f005477d",
+    "local_rudolph": "9c8fc78f435bc64deab1ba3eca49816a5781cacc77133f997f98837a851db45f"
+  },
+  "matching_compiles": {
+    "rudolph.exe": "68bf5ccadd45b5d02cf82cb7b6f0f05db8b325f4975028cdf83f720116800c86",
+    "good-evals.exe": "e015321f93fad3513c17257216620f3858cd50ea0b68c7356231b7c440c7be65"
+  }
+}

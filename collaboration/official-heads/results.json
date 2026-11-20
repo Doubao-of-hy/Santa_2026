@@ -1,0 +1,497 @@
+{
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "commit": "98e392cc24e2fb68ecbf649e400d506205273372",
+  "baseline_hashes": {
+    "own": "f5616d88bf4ff7320dc64c43e5dcb56fe0831937644f9b554390357c4a50ffe8",
+    "assisted": "3a2561cd6c79e073c7ad4320a8132c9e21f71bf5a68704057c63ffcb3b496488"
+  },
+  "independent_before": 141026,
+  "independent_after": 141019,
+  "candidate_sha256": "6c0e5e4e0b33ae031c8732dbadd3c7265c44c3fb8ce8b5359438eff9a7141478",
+  "wins_sha256": "28d929383923c43fed0bc68c13cc89757a46e75a6b0b74a04d164af9fe2bb5b6",
+  "wins": {
+    "scored_0048": {
+      "before": 156,
+      "after": 153,
+      "source": "common/scored_0048.csv"
+    },
+    "scored_0680": {
+      "before": 212,
+      "after": 211,
+      "source": "head-pilot/scored_0680-random.csv"
+    },
+    "scored_0324": {
+      "before": 190,
+      "after": 187,
+      "source": "head-pilot/scored_0324-random-confirmed.csv"
+    }
+  },
+  "tables": {
+    "common": [
+      {
+        "id": "scored_0012",
+        "independent": 193,
+        "assisted": 180,
+        "raw": 196,
+        "mixed": 196,
+        "after": 196
+      },
+      {
+        "id": "scored_0048",
+        "independent": 156,
+        "assisted": 143,
+        "raw": 160,
+        "mixed": 160,
+        "after": 153
+      },
+      {
+        "id": "scored_0324",
+        "independent": 190,
+        "assisted": 178,
+        "raw": 194,
+        "mixed": 193,
+        "after": 191
+      },
+      {
+        "id": "scored_0332",
+        "independent": 159,
+        "assisted": 146,
+        "raw": 163,
+        "mixed": 163,
+        "after": 160
+      },
+      {
+        "id": "scored_0382",
+        "independent": 152,
+        "assisted": 143,
+        "raw": 157,
+        "mixed": 157,
+        "after": 154
+      },
+      {
+        "id": "scored_0407",
+        "independent": 169,
+        "assisted": 157,
+        "raw": 175,
+        "mixed": 174,
+        "after": 174
+      },
+      {
+        "id": "scored_0482",
+        "independent": 195,
+        "assisted": 182,
+        "raw": 200,
+        "mixed": 200,
+        "after": 200
+      },
+      {
+        "id": "scored_0504",
+        "independent": 199,
+        "assisted": 186,
+        "raw": 205,
+        "mixed": 205,
+        "after": 205
+      },
+      {
+        "id": "scored_0573",
+        "independent": 196,
+        "assisted": 178,
+        "raw": 200,
+        "mixed": 200,
+        "after": 200
+      },
+      {
+        "id": "scored_0680",
+        "independent": 212,
+        "assisted": 193,
+        "raw": 213,
+        "mixed": 213,
+        "after": 212
+      },
+      {
+        "id": "scored_0756",
+        "independent": 160,
+        "assisted": 153,
+        "raw": 165,
+        "mixed": 165,
+        "after": 163
+      },
+      {
+        "id": "scored_0969",
+        "independent": 159,
+        "assisted": 147,
+        "raw": 164,
+        "mixed": 164,
+        "after": 163
+      }
+    ],
+    "screen": [
+      {
+        "id": "scored_0020",
+        "independent": 265,
+        "assisted": 241,
+        "raw": 272,
+        "mixed": 267,
+        "after": 267
+      },
+      {
+        "id": "scored_0054",
+        "independent": 202,
+        "assisted": 194,
+        "raw": 209,
+        "mixed": 207,
+        "after": 207
+      },
+      {
+        "id": "scored_0073",
+        "independent": 132,
+        "assisted": 124,
+        "raw": 135,
+        "mixed": 135,
+        "after": 134
+      },
+      {
+        "id": "scored_0089",
+        "independent": 134,
+        "assisted": 121,
+        "raw": 139,
+        "mixed": 139,
+        "after": 138
+      },
+      {
+        "id": "scored_0101",
+        "independent": 134,
+        "assisted": 124,
+        "raw": 139,
+        "mixed": 139,
+        "after": 138
+      },
+      {
+        "id": "scored_0142",
+        "independent": 130,
+        "assisted": 121,
+        "raw": 135,
+        "mixed": 135,
+        "after": 131
+      },
+      {
+        "id": "scored_0275",
+        "independent": 153,
+        "assisted": 145,
+        "raw": 160,
+        "mixed": 159,
+        "after": 153
+      },
+      {
+        "id": "scored_0297",
+        "independent": 134,
+        "assisted": 124,
+        "raw": 139,
+        "mixed": 139,
+        "after": 139
+      },
+      {
+        "id": "scored_0329",
+        "independent": 137,
+        "assisted": 125,
+        "raw": 143,
+        "mixed": 143,
+        "after": 139
+      },
+      {
+        "id": "scored_0337",
+        "independent": 130,
+        "assisted": 118,
+        "raw": 136,
+        "mixed": 136,
+        "after": 134
+      },
+      {
+        "id": "scored_0343",
+        "independent": 124,
+        "assisted": 112,
+        "raw": 129,
+        "mixed": 129,
+        "after": 126
+      },
+      {
+        "id": "scored_0353",
+        "independent": 156,
+        "assisted": 145,
+        "raw": 163,
+        "mixed": 163,
+        "after": 160
+      },
+      {
+        "id": "scored_0372",
+        "independent": 125,
+        "assisted": 118,
+        "raw": 131,
+        "mixed": 131,
+        "after": 129
+      },
+      {
+        "id": "scored_0508",
+        "independent": 214,
+        "assisted": 201,
+        "raw": 221,
+        "mixed": 221,
+        "after": 221
+      },
+      {
+        "id": "scored_0588",
+        "independent": 149,
+        "assisted": 135,
+        "raw": 155,
+        "mixed": 155,
+        "after": 154
+      },
+      {
+        "id": "scored_0601",
+        "independent": 127,
+        "assisted": 120,
+        "raw": 132,
+        "mixed": 132,
+        "after": 130
+      },
+      {
+        "id": "scored_0612",
+        "independent": 281,
+        "assisted": 257,
+        "raw": 288,
+        "mixed": 288,
+        "after": 288
+      },
+      {
+        "id": "scored_0615",
+        "independent": 120,
+        "assisted": 113,
+        "raw": 126,
+        "mixed": 126,
+        "after": 121
+      },
+      {
+        "id": "scored_0621",
+        "independent": 179,
+        "assisted": 171,
+        "raw": 186,
+        "mixed": 186,
+        "after": 185
+      },
+      {
+        "id": "scored_0624",
+        "independent": 121,
+        "assisted": 108,
+        "raw": 124,
+        "mixed": 124,
+        "after": 123
+      },
+      {
+        "id": "scored_0642",
+        "independent": 129,
+        "assisted": 120,
+        "raw": 136,
+        "mixed": 136,
+        "after": 131
+      },
+      {
+        "id": "scored_0740",
+        "independent": 144,
+        "assisted": 131,
+        "raw": 151,
+        "mixed": 150,
+        "after": 146
+      },
+      {
+        "id": "scored_0833",
+        "independent": 137,
+        "assisted": 122,
+        "raw": 143,
+        "mixed": 142,
+        "after": 139
+      },
+      {
+        "id": "scored_0835",
+        "independent": 122,
+        "assisted": 112,
+        "raw": 129,
+        "mixed": 129,
+        "after": 125
+      },
+      {
+        "id": "scored_0850",
+        "independent": 188,
+        "assisted": 175,
+        "raw": 195,
+        "mixed": 194,
+        "after": 193
+      },
+      {
+        "id": "scored_0996",
+        "independent": 140,
+        "assisted": 125,
+        "raw": 146,
+        "mixed": 146,
+        "after": 145
+      }
+    ],
+    "pilot": [
+      {
+        "id": "scored_0680",
+        "independent": 212,
+        "assisted": 193,
+        "random": 213,
+        "random-finished": 213,
+        "random-confirmed": 212,
+        "adaptive": 213,
+        "adaptive-finished": 213,
+        "adaptive-confirmed": 212
+      },
+      {
+        "id": "scored_0012",
+        "independent": 193,
+        "assisted": 180,
+        "random": 196,
+        "random-finished": 196,
+        "random-confirmed": 196,
+        "adaptive": 195,
+        "adaptive-finished": 194,
+        "adaptive-confirmed": 194
+      },
+      {
+        "id": "scored_0573",
+        "independent": 196,
+        "assisted": 178,
+        "random": 200,
+        "random-finished": 200,
+        "random-confirmed": 200,
+        "adaptive": 198,
+        "adaptive-finished": 197,
+        "adaptive-confirmed": 197
+      },
+      {
+        "id": "scored_0324",
+        "independent": 190,
+        "assisted": 178,
+        "random": 193,
+        "random-finished": 191,
+        "random-confirmed": 191,
+        "adaptive": 192,
+        "adaptive-finished": 192,
+        "adaptive-confirmed": 190
+      }
+    ],
+    "head-pilot": [
+      {
+        "id": "scored_0680",
+        "independent": 212,
+        "assisted": 193,
+        "random": 211,
+        "random-confirmed": 211,
+        "directed": 213,
+        "directed-confirmed": 212
+      },
+      {
+        "id": "scored_0012",
+        "independent": 193,
+        "assisted": 180,
+        "random": 196,
+        "random-confirmed": 196,
+        "directed": 196,
+        "directed-confirmed": 196
+      },
+      {
+        "id": "scored_0573",
+        "independent": 196,
+        "assisted": 178,
+        "random": 197,
+        "random-confirmed": 196,
+        "directed": 196,
+        "directed-confirmed": 196
+      },
+      {
+        "id": "scored_0324",
+        "independent": 190,
+        "assisted": 178,
+        "random": 189,
+        "random-confirmed": 187,
+        "directed": 193,
+        "directed-confirmed": 191
+      }
+    ],
+    "head-holdout": [
+      {
+        "id": "scored_0048",
+        "independent": 156,
+        "assisted": 143,
+        "random": 160,
+        "random-confirmed": 153,
+        "directed": 160,
+        "directed-confirmed": 153
+      },
+      {
+        "id": "scored_0332",
+        "independent": 159,
+        "assisted": 146,
+        "random": 163,
+        "random-confirmed": 160,
+        "directed": 161,
+        "directed-confirmed": 161
+      },
+      {
+        "id": "scored_0482",
+        "independent": 195,
+        "assisted": 182,
+        "random": 200,
+        "random-confirmed": 200,
+        "directed": 198,
+        "directed-confirmed": 198
+      },
+      {
+        "id": "scored_0969",
+        "independent": 159,
+        "assisted": 147,
+        "random": 163,
+        "random-confirmed": 161,
+        "directed": 164,
+        "directed-confirmed": 163
+      },
+      {
+        "id": "scored_0382",
+        "independent": 152,
+        "assisted": 143,
+        "random": 155,
+        "random-confirmed": 154,
+        "directed": 157,
+        "directed-confirmed": 154
+      },
+      {
+        "id": "scored_0756",
+        "independent": 160,
+        "assisted": 153,
+        "random": 165,
+        "random-confirmed": 163,
+        "directed": 165,
+        "directed-confirmed": 163
+      },
+      {
+        "id": "scored_0504",
+        "independent": 199,
+        "assisted": 186,
+        "random": 205,
+        "random-confirmed": 205,
+        "directed": 205,
+        "directed-confirmed": 205
+      },
+      {
+        "id": "scored_0407",
+        "independent": 169,
+        "assisted": 157,
+        "random": 174,
+        "random-confirmed": 174,
+        "directed": 174,
+        "directed-confirmed": 174
+      }
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "puzzle": "scored_0882",
+  "helpers": 10,
+  "first": 11,
+  "first_parts": 24,
+  "second": 4,
+  "second_parts": 32,
+  "third_parts": 24,
+  "group_width": 16,
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "engine_sha256": "71dca8b89c358900e7312c23768d1dfcd13f2e8e6473850f82a7a3c3c999ec28",
+  "previous_parent": {
+    "status": "UNKNOWN",
+    "budget": 120000000,
+    "nodes": 120000000
+  },
+  "decision": "UNSAT",
+  "complete_thirds": 24,
+  "counted_nodes": 134090359,
+  "terminal_candidates": 122,
+  "records": [
+    {
+      "third": 0,
+      "initial_status": "UNSAT",
+      "initial_nodes": 5450059,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        5450059,
+        3,
+        3116659,
+        3078941,
+        790657,
+        783877,
+        11428004
+      ],
+      "stdout_lf_sha256": "a0e187dd83bdd9f2a917c99f056ab26aa37adaab73e5e2c9d3a64f720226f802"
+    },
+    {
+      "third": 1,
+      "initial_status": "UNSAT",
+      "initial_nodes": 5067779,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        5067779,
+        0,
+        2940357,
+        2897516,
+        694925,
+        684599,
+        10004688
+      ],
+      "stdout_lf_sha256": "15a8c46d1cc76cd51e27d10a37e4046aa8b38961d5a621c812bc1b2210a06627"
+    },
+    {
+      "third": 2,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4010222,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4010222,
+        0,
+        2491009,
+        2463863,
+        596590,
+        591488,
+        8605972
+      ],
+      "stdout_lf_sha256": "528a2b1c968ca08d8d17e73231fda1d18021d941835913e6dbc2d99f3a9ec9d8"
+    },
+    {
+      "third": 3,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4846596,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4846596,
+        0,
+        2717234,
+        2682297,
+        656191,
+        651075,
+        9463364
+      ],
+      "stdout_lf_sha256": "1d02dbd6c97315230d9c7ddd34354088988abfbf9a7211c1aba0904a45ff4c01"
+    },
+    {
+      "third": 4,
+      "initial_status": "UNKNOWN",
+      "initial_nodes": 8000000,
+      "attempts": [
+        {
+          "budget": 20000000,
+          "status": "UNKNOWN",
+          "nodes": 20000000
+        },
+        {
+          "budget": 45000000,
+          "status": "UNSAT",
+          "nodes": 20765239
+        }
+      ],
+      "budget": 45000000,
+      "status": "UNSAT",
+      "metrics": [
+        20765239,
+        33,
+        4761315,
+        4521291,
+        534897,
+        529673,
+        7802506
+      ],
+      "stdout_lf_sha256": "a3ee77075629cfa3ea8f798414dbf4afacaa63a9fcd99aac9801357e9f4e73d6"
+    },
+    {
+      "third": 5,
+      "initial_status": "UNSAT",
+      "initial_nodes": 5264807,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        5264807,
+        0,
+        2856622,
+        2824159,
+        597909,
+        592223,
+        8565669
+      ],
+      "stdout_lf_sha256": "f7fb8d20875bdde0f4323a1bc7e6f00061d807e73bc5155737f86f429e2f3658"
+    },
+    {
+      "third": 6,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4536763,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4536763,
+        78,
+        2716918,
+        2661322,
+        554784,
+        533072,
+        7913859
+      ],
+      "stdout_lf_sha256": "50bc72306eabc28dcfd5eb3be26e52bc86064d6ebbc25af1b0cbdb52923ef3d3"
+    },
+    {
+      "third": 7,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3557896,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3557896,
+        0,
+        2418685,
+        2394886,
+        626763,
+        620895,
+        9019541
+      ],
+      "stdout_lf_sha256": "0791f3bb55e993f3a78850b04ed1efdc0a966b1b8d55fe321997c3bbd0a8c8cf"
+    },
+    {
+      "third": 8,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4133401,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4133401,
+        8,
+        2186249,
+        2149199,
+        561231,
+        555351,
+        8040220
+      ],
+      "stdout_lf_sha256": "f8d8112afaabf3352659a1992662df71fafba0f00d31aed3265d42056eb34696"
+    },
+    {
+      "third": 9,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3996153,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3996153,
+        0,
+        2323350,
+        2294829,
+        585504,
+        581337,
+        8405889
+      ],
+      "stdout_lf_sha256": "9aa0ef32a78da886abd74d5677ba1cae462bec05e059286cd53f0050bd423f49"
+    },
+    {
+      "third": 10,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3308579,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3308579,
+        0,
+        2221162,
+        2202323,
+        544468,
+        541909,
+        7839895
+      ],
+      "stdout_lf_sha256": "abf36d883359d319a2220cb25b652b5379f72494585b144c5fbd1348885384af"
+    },
+    {
+      "third": 11,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3660895,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3660895,
+        0,
+        1989632,
+        1969343,
+        469683,
+        465366,
+        6724250
+      ],
+      "stdout_lf_sha256": "676c9de46e1521ed3d7e46379bd8924332ff19a0b2d0831144206432242ebb19"
+    },
+    {
+      "third": 12,
+      "initial_status": "UNSAT",
+      "initial_nodes": 6150153,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        6150153,
+        0,
+        3764732,
+        3738909,
+        390426,
+        387917,
+        5646791
+      ],
+      "stdout_lf_sha256": "3281bf13166687f0655a0eb86642472221c6c7dfd9fbb89a3497f8badedba948"
+    },
+    {
+      "third": 13,
+      "initial_status": "UNKNOWN",
+      "initial_nodes": 8000000,
+      "attempts": [
+        {
+          "budget": 20000000,
+          "status": "UNSAT",
+          "nodes": 13839029
+        }
+      ],
+      "budget": 20000000,
+      "status": "UNSAT",
+      "metrics": [
+        13839029,
+        0,
+        5835276,
+        5767861,
+        861985,
+        858442,
+        12489881
+      ],
+      "stdout_lf_sha256": "26efc6294d598e3634f8819cd07275489f4600d4f2d42d3454aec186284b2662"
+    },
+    {
+      "third": 14,
+      "initial_status": "UNSAT",
+      "initial_nodes": 2760334,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        2760334,
+        0,
+        2056648,
+        2041355,
+        523885,
+        521123,
+        7530496
+      ],
+      "stdout_lf_sha256": "3617e39d95b73643acb3504a75fd1785a92dcf78e422eb14d8aa2322224b4a2a"
+    },
+    {
+      "third": 15,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4255937,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4255937,
+        0,
+        2086504,
+        2044309,
+        494162,
+        490341,
+        7103567
+      ],
+      "stdout_lf_sha256": "14535aabd386996f9cc578677c09fb31b687b58d4d0b2c01fb63dd060d799154"
+    },
+    {
+      "third": 16,
+      "initial_status": "UNSAT",
+      "initial_nodes": 2792719,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        2792719,
+        0,
+        1752251,
+        1731380,
+        483587,
+        480109,
+        6917867
+      ],
+      "stdout_lf_sha256": "83e3db63a20bee5a9fdc831fcc3dbe92997c6a98ec998a913b16925068344107"
+    },
+    {
+      "third": 17,
+      "initial_status": "UNKNOWN",
+      "initial_nodes": 8000000,
+      "attempts": [
+        {
+          "budget": 20000000,
+          "status": "UNSAT",
+          "nodes": 11086744
+        }
+      ],
+      "budget": 20000000,
+      "status": "UNSAT",
+      "metrics": [
+        11086744,
+        0,
+        5126474,
+        5050689,
+        876259,
+        873022,
+        12655469
+      ],
+      "stdout_lf_sha256": "6ecdbbbcba950635938c330edb23ef4ce6b068e6818384e69564316255ee348a"
+    },
+    {
+      "third": 18,
+      "initial_status": "UNSAT",
+      "initial_nodes": 2119749,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        2119749,
+        0,
+        1408172,
+        1393182,
+        389257,
+        386327,
+        5526251
+      ],
+      "stdout_lf_sha256": "de7d0345fe6cd60283c433acbdc75d1b7508edbf24105f964db85059754d7f25"
+    },
+    {
+      "third": 19,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3423635,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3423635,
+        0,
+        2557914,
+        2544202,
+        291476,
+        289914,
+        4183415
+      ],
+      "stdout_lf_sha256": "ded47c828b93bbb51391619e720d6cb2f401a1d14c6f9fdadba2a874ce0203fb"
+    },
+    {
+      "third": 20,
+      "initial_status": "UNSAT",
+      "initial_nodes": 4382069,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        4382069,
+        0,
+        1823673,
+        1784221,
+        427638,
+        424294,
+        6079978
+      ],
+      "stdout_lf_sha256": "377c9368009ee1d5c61d003aefc073c508ef735b2e6da6310aabd787d7fdf56a"
+    },
+    {
+      "third": 21,
+      "initial_status": "UNSAT",
+      "initial_nodes": 3795506,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        3795506,
+        0,
+        1689575,
+        1659943,
+        355915,
+        354065,
+        5066652
+      ],
+      "stdout_lf_sha256": "9fda4e90874bd847a2fa5fee6505d90c59f94cea6744cc066a7506304e1c74fc"
+    },
+    {
+      "third": 22,
+      "initial_status": "UNSAT",
+      "initial_nodes": 2025254,
+      "budget": 8000000,
+      "status": "UNSAT",
+      "metrics": [
+        2025254,
+        0,
+        1250211,
+        1236398,
+        345460,
+        343182,
+        4904777
+      ],
+      "stdout_lf_sha256": "adc6ef1848e042b56d917881b4fed224bb660fa6247720b5995f749ebba2ce4d"
+    },
+    {
+      "third": 23,
+      "initial_status": "UNKNOWN",
+      "initial_nodes": 8000000,
+      "attempts": [
+        {
+          "budget": 20000000,
+          "status": "UNSAT",
+          "nodes": 8860841
+        }
+      ],
+      "budget": 20000000,
+      "status": "UNSAT",
+      "metrics": [
+        8860841,
+        0,
+        4295937,
+        4240511,
+        704138,
+        701812,
+        10141842
+      ],
+      "stdout_lf_sha256": "1e38515ef2ffb40b670f876403ac9043af556457ff8155b629d7596050205319"
+    }
+  ]
+}

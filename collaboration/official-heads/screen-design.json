@@ -1,0 +1,33 @@
+{
+  "commit": "98e392cc24e2fb68ecbf649e400d506205273372",
+  "prior_raw_sha256": "91453abf036867d16293df3467b1e5211df7432153dca3c6a70e9bbe8147fb1b",
+  "criteria": "all with >=15 goals, >=120 independent steps, >=7 gap to assisted and prior raw <=7 above independent. Excludes both earlier splits.",
+  "ids": [
+    "0624",
+    "0073",
+    "0089",
+    "0343",
+    "0101",
+    "0297",
+    "0142",
+    "0601",
+    "0833",
+    "0996",
+    "0588",
+    "0329",
+    "0337",
+    "0372",
+    "0615",
+    "0020",
+    "0612",
+    "0508",
+    "0740",
+    "0850",
+    "0353",
+    "0835",
+    "0642",
+    "0054",
+    "0275",
+    "0621"
+  ]
+}
