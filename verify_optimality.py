@@ -23,9 +23,12 @@ def native_input(puzzle, helpers, node_limit):
     )
 
 
-def query(binary, puzzle, helpers, node_limit, shard, total):
+def query(binary, puzzle, helpers, node_limit, shard, total, subshard=None, subshards=1):
+    arguments = [binary, str(shard), str(total)]
+    if subshard is not None:
+        arguments.extend((str(subshard), str(subshards)))
     output = subprocess.run(
-        [binary, str(shard), str(total)],
+        arguments,
         input=native_input(puzzle, helpers, node_limit),
         text=True,
         check=True,
@@ -78,7 +81,10 @@ def main():
             )
             if audit.stdout.strip() != "OK":
                 raise ValueError("Pair coverage audit failed")
-            shards = len(row["shard_nodes"])
+            subshards = row.get("subshards", 1)
+            shards = row.get("root_shards", len(row["shard_nodes"]))
+            if shards * subshards != len(row["shard_nodes"]):
+                raise ValueError("Invalid shard coverage receipt")
             jobs = [
                 pool.submit(
                     query,
@@ -88,7 +94,10 @@ def main():
                     row["max_nodes_per_shard"],
                     i,
                     shards,
+                    None if subshards == 1 else j,
+                    subshards,
                 )
+                for j in range(subshards)
                 for i in range(shards)
             ]
             result = [job.result() for job in jobs]

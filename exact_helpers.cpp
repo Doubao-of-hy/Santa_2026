@@ -1,6 +1,7 @@
 // Exhaustive helper-budget decision search, in the permanent-value relaxation.
 // A completed unsuccessful search rules out every machine program of that length.
 #include <algorithm>
+#include <array>
 #include <string>
 #include <chrono>
 #include <cmath>
@@ -26,7 +27,12 @@ struct Search {
     std::vector<Mask> dense_unary, dense_goals;
     std::vector<Values> partners;
     std::unordered_map<Num, Values> exceptional;
-    unsigned shard = 0, shards = 1;
+    unsigned shard = 0, shards = 1, shard_two = 0, shards_two = 1;
+    bool elsewhere(std::size_t depth, unsigned& index) const {
+        if (depth == 0) return index++ % shards != shard;
+        if (depth == 1) return index++ % shards_two != shard_two;
+        return false;
+    }
     using Wide = __int128_t;
     static Num isqrt(Wide n) {
         Num r = static_cast<Num>(std::sqrt(static_cast<long double>(n)));
@@ -187,7 +193,8 @@ struct Search {
         }
     }
     using Shortlists = std::unordered_map<Mask, Values>;
-    bool last_possible(Num first, Mask missing, const Set& forbidden, Shortlists& cache) const {
+    template <class Forbidden>
+    bool last_possible(Num first, Mask missing, const Forbidden& forbidden, Shortlists& cache) const {
         if (!missing) return true;
         auto covers = [&](Num last) {
             if (last == first || forbidden.count(last)) return false;
@@ -264,7 +271,7 @@ struct Search {
         unsigned index = 0;
         for (Num v : options) {
             if (known.count(v) || forbidden.count(v)) continue;
-            if (helpers.empty() && index++ % shards != shard) {
+            if (elsewhere(helpers.size(), index)) {
                 forbidden.insert(v);
                 excluded_here.push_back(v);
                 continue;
@@ -328,15 +335,136 @@ struct Search {
         return visit(active, seen, initial_supported, helpers, banned, budget);
     }
 };
+// Exact same search with an incremental bitmap for one-step outputs.
+// At these limits the bitmap is 1 KiB and arithmetic fits in 32 bits.
+struct DenseSearch : Search {
+    static constexpr Num dense_limit = 8191;
+    using Bitmap = std::array<uint64_t, 128>;
+    struct DenseSet {
+        std::array<uint8_t, dense_limit + 1> bits{};
+        bool count(Num v) const { return bits[v] != 0; }
+        void insert(Num v) { bits[v] = 1; }
+        void erase(Num v) { bits[v] = 0; }
+    };
+    template <class F>
+    void dense_ops(unsigned a, unsigned b, F emit) const {
+        if (a + b <= unsigned(limit)) emit(a + b);
+        if (a * b <= unsigned(limit)) emit(a * b);
+        if (a < b) std::swap(a, b);
+        if (a > b) emit(a - b);
+        if (a % b == 0) emit(a / b);
+    }
+    // Before entry bits contains the reachable non-active values of the
+    // parent. Only the newly appended active values introduce new pairs.
+    void close_dense(Values& active, Mask& seen, std::size_t start, Bitmap& bits) const {
+        for (std::size_t i = start; i < active.size(); ++i) {
+            Mask next = 0;
+            for (std::size_t j = 0; j <= i; ++j) {
+                const auto a = active[i], b = active[j];
+                dense_ops(a, b, [&](Num v) {
+                    bits[v >> 6] |= uint64_t(1) << (v & 63);
+                    if (v != a && v != b)
+                        next |= dense_goals[v];
+                });
+            }
+            next &= ~seen;
+            while (next) {
+                int index = __builtin_ctzll(next);
+                active.push_back(goals[index]);
+                seen |= Mask(1) << index;
+                next &= next - 1;
+            }
+        }
+        for (Num v : active)
+            bits[v >> 6] &= ~(uint64_t(1) << (v & 63));
+    }
+    bool visit_dense(const Values& active, Mask seen, Mask supported, Values& helpers,
+                     DenseSet& forbidden, unsigned remaining, const Bitmap& bits) {
+        if (seen == all) {
+            witness = active;
+            return true;
+        }
+        if (!remaining) return false;
+        if (nodes == max_nodes) {
+            interrupted = true;
+            return false;
+        }
+        ++nodes;
+        Values excluded_here;
+        Shortlists cache;
+        unsigned index = 0;
+        for (Num block = 0; block <= (limit >> 6); ++block) {
+            for (uint64_t word = bits[block]; word; word &= word - 1) {
+                Num v = (block << 6) + __builtin_ctzll(word);
+                if (forbidden.count(v)) continue;
+                if (elsewhere(helpers.size(), index)) {
+                    forbidden.insert(v);
+                    excluded_here.push_back(v);
+                    continue;
+                }
+                Mask sup = supported | (remaining == 1 ? support(v, helpers) : current(v));
+                if (remaining == 2 && !last_possible(v, all & ~sup, forbidden, cache)) continue;
+                if (remaining == 1) {
+                    ++last_candidates;
+                    if (sup != all) continue;
+                }
+                Values next = active;
+                next.push_back(v);
+                Mask covered = seen;
+                Bitmap next_bits = bits;
+                close_dense(next, covered, active.size(), next_bits);
+                std::vector<Edit> edits;
+                if (remaining > 2) extend_index(v, edits);
+                helpers.push_back(v);
+                bool found = visit_dense(next, covered, sup, helpers, forbidden,
+                                         remaining - 1, next_bits);
+                helpers.pop_back();
+                undo_index(edits);
+                if (found || interrupted) return found;
+                forbidden.insert(v);
+                excluded_here.push_back(v);
+            }
+        }
+        for (Num v : excluded_here) forbidden.erase(v);
+        return false;
+    }
+    bool run_dense(unsigned budget) {
+        Values active;
+        Mask seen = 0;
+        for (Num v : seeds)
+            if (std::find(active.begin(), active.end(), v) == active.end()) {
+                active.push_back(v);
+                auto it = goal_bit.find(v);
+                if (it != goal_bit.end()) seen |= it->second;
+            }
+        Bitmap bits{};
+        close_dense(active, seen, 0, bits);
+        Values helpers;
+        DenseSet forbidden;
+        return visit_dense(active, seen, initial_supported, helpers, forbidden, budget, bits);
+    }
+};
+
 int main(int argc, char** argv) {
-    Search s;
+    DenseSearch s;
+    bool force_original = false;
+    if (argc >= 2 && std::string(argv[1]) == "--original") {
+        force_original = true;
+        --argc;
+        ++argv;
+    }
     unsigned ns, nt, budget;
     bool audit = argc == 2 && std::string(argv[1]) == "--audit-pairs";
-    if (argc != 1 && argc != 3 && !audit) return 2;
-    if (argc == 3) {
+    if (argc != 1 && argc != 3 && argc != 5 && !audit) return 2;
+    if (argc == 3 || argc == 5) {
         s.shard = std::stoul(argv[1]);
         s.shards = std::stoul(argv[2]);
         if (!s.shards || s.shard >= s.shards) return 2;
+        if (argc == 5) {
+            s.shard_two = std::stoul(argv[3]);
+            s.shards_two = std::stoul(argv[4]);
+            if (!s.shards_two || s.shard_two >= s.shards_two) return 2;
+        }
     }
     if (!(std::cin >> s.limit >> ns >> nt >> budget >> s.max_nodes) || s.limit < 1 ||
         s.limit > 1000000000000000000LL || ns == 0 || nt > 64 || budget > 4096)
@@ -348,13 +476,17 @@ int main(int argc, char** argv) {
     }
     std::sort(s.goals.begin(), s.goals.end());
     s.goals.erase(std::unique(s.goals.begin(), s.goals.end()), s.goals.end());
+    // The second partition uses the ordinary completed-branch exclusion
+    // invariant, so do not split the last-two shortcut branches.
+    if (argc == 5 && budget < 4) return 2;
     s.prepare();
     if (audit) {
         if (!s.audit_pairs()) return 3;
         std::cout << "OK\n";
         return 0;
     }
-    bool found = s.run(budget);
+    bool found = !force_original && s.limit <= DenseSearch::dense_limit
+        ? s.run_dense(budget) : s.run(budget);
     std::cout << (found           ? "FOUND"
                   : s.interrupted ? "UNKNOWN"
                                   : "UNSAT")
