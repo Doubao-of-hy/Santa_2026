@@ -1,0 +1,152 @@
+{
+  "original_sha256": "3ce862dde4261fce05159e1f5c438d13e568c0283c72de7bab23e81526501642",
+  "unique_excluded": 15504,
+  "retries": [
+    {
+      "index": 59,
+      "selected": [
+        25,
+        37,
+        48,
+        325,
+        350
+      ],
+      "engine": "generic",
+      "cap": 16000000,
+      "stdin_sha256": "81ea1d3df833adc4714aa7b834590d6355bfff7329f1cdef83792fa41c5b8da0",
+      "source_sha256": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c",
+      "status": "UNSAT",
+      "nodes": 3032854,
+      "terminals": 3581192,
+      "counters": [
+        3032854,
+        3581192
+      ],
+      "stdout_lf_sha256": "ef8d039beff64031ee74945a1d00e3b8ce7e619ddd8405502c3cb4c035fbef62",
+      "receipt_sha256": "8b864ee3a0532b40bc600c228e917b53c87d8627bb69b3e36ef6b44729755e71"
+    },
+    {
+      "index": 88,
+      "selected": [
+        25,
+        37,
+        48,
+        350,
+        13956
+      ],
+      "engine": "generic",
+      "cap": 16000000,
+      "stdin_sha256": "b728e901ad5a8393c6e5adcec153d95af2b1d35f2691a95febc13108ee46b0e0",
+      "source_sha256": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c",
+      "status": "UNSAT",
+      "nodes": 2901118,
+      "terminals": 2204322,
+      "counters": [
+        2901118,
+        2204322
+      ],
+      "stdout_lf_sha256": "427664ccf8b9535213d5c50874cdfbd2b357e90bcb7ae96787ae46061485198f",
+      "receipt_sha256": "2e7599dca9df28d5a7027ad8fc53626b2e729ff6601919a10149d81963f4a22a"
+    },
+    {
+      "index": 452,
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        329
+      ],
+      "engine": "generic",
+      "cap": 16000000,
+      "stdin_sha256": "ee08de4dac7e312f20d394cb1428665e18e2512825a2b157295fa7fcc03a2320",
+      "source_sha256": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c",
+      "status": "UNSAT",
+      "nodes": 330857,
+      "terminals": 830993,
+      "counters": [
+        330857,
+        830993
+      ],
+      "stdout_lf_sha256": "f681317e82b70dbb2c3bedfef21dc155e9968aa901ea9ac32de4da4e3f8434d6",
+      "receipt_sha256": "dff148a424165407d6df26c94552a21f3a1d4d2c3c3bc60e3870959a1d053ee6"
+    },
+    {
+      "index": 453,
+      "selected": [
+        25,
+        37,
+        300,
+        325,
+        350
+      ],
+      "engine": "generic",
+      "cap": 16000000,
+      "stdin_sha256": "1fc2f69a3761ac55b7e92f0c7fe2ce3038f2d50b9447327d157a5f971d858d2f",
+      "source_sha256": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c",
+      "status": "UNSAT",
+      "nodes": 2757286,
+      "terminals": 2415618,
+      "counters": [
+        2757286,
+        2415618
+      ],
+      "stdout_lf_sha256": "a58ddac413dd35554f230bb877bb476bb7d833d97468ebf05cd93eb3fe9a0670",
+      "receipt_sha256": "ec926c81fefc7b00184a1deb21bce3cb93b77266bbc181dab79dd1a461c73d16"
+    },
+    {
+      "index": 482,
+      "selected": [
+        25,
+        37,
+        300,
+        350,
+        13956
+      ],
+      "engine": "generic",
+      "cap": 16000000,
+      "stdin_sha256": "184dc34da4c2354f388a47e474489158ba898886b8a3e2ac560fa3c1333c4e28",
+      "source_sha256": "84bf9b28d15990a7e40a0628bcfcec320b74ee577599f739c44f1701d1735448",
+      "binary_sha256": "1dc76b35ca020fd71c818a4523bd73e92fdb96345a19221ff972e531f661752c",
+      "status": "UNSAT",
+      "nodes": 2877389,
+      "terminals": 1717632,
+      "counters": [
+        2877389,
+        1717632
+      ],
+      "stdout_lf_sha256": "da7ad2d266e7ad34b56ef33b03f416f8534fec4bbd2d0bab45968c9df756c15d",
+      "receipt_sha256": "34c2b3d119d500e94641ae88f02e93c4ad2d0a3dfc1bd7a283b28d55c73bbbb7"
+    },
+    {
+      "index": 482,
+      "selected": [
+        25,
+        37,
+        300,
+        350,
+        13956
+      ],
+      "engine": "star",
+      "cap": 16000000,
+      "stdin_sha256": "184dc34da4c2354f388a47e474489158ba898886b8a3e2ac560fa3c1333c4e28",
+      "source_sha256": "40a1f6044cd961f32881a6b6cf6fea8b2ff18e23d8ae444247121ea5ff780caf",
+      "binary_sha256": "2ffb5673bd04269d84372b1234f3d637819b281bf5cf586d66abf486b4184222",
+      "status": "UNSAT",
+      "nodes": 2877389,
+      "terminals": 45,
+      "counters": [
+        2877389,
+        45,
+        0,
+        0
+      ],
+      "stdout_lf_sha256": "2bbcfd2ba6ba6f399a89bdda5bb2208e40dd5bb52128c08d10f90e943f139631",
+      "receipt_sha256": "334b3d6d0734a8df1c6388b87b0156054e0fee73af5fd1b7c10fb0c012e4ed85"
+    }
+  ]
+}

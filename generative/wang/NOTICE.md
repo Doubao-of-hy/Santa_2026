@@ -1,0 +1,9 @@
+# Wang Jakie arithmetic graph search
+
+The C++ implementation comes from Wang Jakie's Kaggle notebook version 5. Its Apache License 2.0 appears in LICENSE.txt. The fixed notebook URL, SHA-256, and original source hashes are in license-receipt.json. Six original headers and anneal.cpp are reproduced unmodified. The local anneal_seeded.cpp change initializes the crossover pool from additional validated tapes. replay_search.py provides the local input adapter and verifies the output using two repository interpreters.
+
+The original algorithm perturbs an arithmetic graph, temporarily accepts longer candidates, reconstructs small subgraphs, and crosses graphs generated during search. The seeded variant also considers explicitly supplied alternate programs. The seven original C++ files include no puzzle-specific programs. Standard C++20 is used here for the library membership method.
+
+Build anneal.cpp and anneal_seeded.cpp separately with g++ -O3 -std=c++20 -static, naming the binaries anneal and anneal_seeded. From the repository run replay_search.py with the puzzle CSV, frozen baseline CSV, an output CSV, and --binary-dir pointing at those binaries. With no manifest the default run uses a single parent, 35 rounds, and seed offset 737049 plus the puzzle index. An optional --recipes CSV reconstructs a selection of winners from their exact starting tapes and recorded seeds. --jobs changes the number of concurrent instances. Equal-length outputs retain the input tape.
+
+[Published notebook by Wang Jakie, version 5](https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767)

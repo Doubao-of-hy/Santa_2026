@@ -1,0 +1,27 @@
+{
+  "source": "https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767",
+  "id": 371736767,
+  "author": "wang Jakie",
+  "license": "Apache 2.0",
+  "evidence": "Pinned Kaggle page, Version 5 of 5, License heading with Apache 2.0 link.",
+  "notebook_sha256": "0acd4ddb657152b6f16f22354987da142b97033693584656dbce7cf6d4819e2c",
+  "extraction": "Python AST literal assignments NATIVE_FILES only, cells 15 and 16; no notebook cells executed.",
+  "files": {
+    "anneal.cpp": "0e4ec5db401e7b0642c93d3499634e8790dd78efa02f6ab689cf8be23e6befbb",
+    "baseline_mask.cpp": "a3f5385fd0cec1a1902e70f47d2de0ac0115869a2f171a761b4353f651ec2e59",
+    "cache_lookup.inc": "37a48bf4043e7c408f7e24c6a0a4917e9acde6cd133c881aa63339d641b3b591",
+    "cache_perturb.inc": "8cb736e327b7cbfc6c94607a30aac11f17b54ff653c77d33d0ba207def02c392",
+    "common.inc": "2b876924774e19a9ba1ba1ed52351eb5485895be6759e3720b0d5091a50a61d6",
+    "compact.inc": "4132404aca1128d1e6c47eac6977a7a1577932a4438697eebc9e162ada5f3238",
+    "compact_mask.cpp": "bb6c7a0711b4db50d3995706677d08fa80d70cbfee7b9a0504b47f963308c2a1",
+    "compact_rotate.cpp": "d2507768fa70f83f9f3bdb69218ef8e4bcec91ca100e1319956c91b94012c4cb",
+    "cross.inc": "7a742c6c5faca1727c57ec092b80d6eb7bb616d2c1ab2bc747cfc0789ea246bb",
+    "fast_perturb.inc": "5a2154f2e18db8888dd1de10684fb409015b01627b5f7817fbe4856a1a050cb2",
+    "incremental.cpp": "7a0d5327d0883e04c80c42761d7ec53e6cc3fbc45b36e0700bf5b1900dc09e8f",
+    "main.inc": "7e514496bf56d073908cf137ebc9a6290826a422486316ef8f66577915625b52",
+    "neutral.inc": "37f0eb32fa83f0b7d3d0a5262fa96253e824a7467c125c3e219c66a8187d4027",
+    "quartet.cpp": "99b210b8531090df731b42748e5dcd311e1cc01094cd6f38fe075e981fb379a5",
+    "recipe_lookup.inc": "6eab4d783e02989a2b6027bdfeeea0c1f55a2000d0b75fe3eee376fe20a323a3",
+    "states.inc": "a317af6a77ca1b2de3ec1c9a61e6604b3f9427e2b331d0b1e34fca5859b8d67e"
+  }
+}

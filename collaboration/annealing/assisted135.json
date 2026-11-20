@@ -1,0 +1,31 @@
+{
+ "utc": "2026-11-20T12:07:31.900575+00:00",
+ "admitted": 7,
+ "savings": 8,
+ "verified": 134500,
+ "baseline_sha256": "d085ddea227a1cecc88dd4360afae3916b3156877027d1ea5d75ffcaf439712f",
+ "sha256": "4d3bd8e654756be3fbba370c2b56ec11907fb330937209581cf705480f43166e",
+ "recomputed_all": true,
+ "replaced_unclear_lineage": {
+  "scored_0954": [
+   "Asterios v113",
+   "Asterios v99"
+  ],
+  "scored_0125": [
+   "Asterios v113",
+   "Asterios v99",
+   "previous project 135077"
+  ]
+ },
+ "skipped_unlicensed_or_unreproduced": [],
+ "rows": {
+  "scored_0079": 1,
+  "scored_0125": 2,
+  "scored_0383": 1,
+  "scored_0653": 1,
+  "scored_0696": 1,
+  "scored_0923": 1,
+  "scored_0954": 1
+ },
+ "inputs_sha256": "f2b53467bd56db775974eb7a97e0fc4f52da69c55ae31fff4ae22594a324a9a0"
+}

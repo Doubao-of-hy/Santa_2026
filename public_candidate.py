@@ -87,7 +87,7 @@ def main():
             prior={r["id"]:r for r in csv.DictReader(f)}
         last=read_submission(old)
         for p in puzzles:
-            if len(last[p.id])<len(programs[p.id]):
+            if len(last[p.id])<=len(programs[p.id]):
                 programs[p.id]=last[p.id]
                 origins[p.id]=prior[p.id]["source"]
                 credits[p.id]=prior[p.id].get("upstream_source","Hanif v15 and its listed authors")
