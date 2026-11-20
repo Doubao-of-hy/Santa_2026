@@ -1,0 +1,84 @@
+{
+ "frozen": "243776e870fd4602df8d05340f69ee146cd7339a",
+ "base": 140734,
+ "submission_sha256": "afd1997bd72b8e7b884b45f939f3bbbf7bfcbdae1330e0f674e6abe40ca75f85",
+ "origins_sha256": "a5420543865b9a84f0b9d6866eca49bf9fcbf08dce4255f1577ba2bd0a87886b",
+ "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "old_study_design_sha256": "f6c0f27081b8f02596b3185bb115d917d497412cbddc84b51243fd1dc1f1fede",
+ "A": {
+  "source": "Atakan Aldemir v30, Kaggle 371505096; v15 whole-graph dependency as documented in the prior trial",
+  "configuration": [
+   4,
+   14,
+   4,
+   6,
+   13,
+   257
+  ],
+  "binary_sha256": "e84a271b2bfedb671f530b85b962e667c211d80023ec09c7ccb524b403ad2b75"
+ },
+ "W": {
+  "source": "Wang Jakie original incremental, Kaggle 371736767; single tape only",
+  "rounds": 360,
+  "seed_rule": "6417300 + integer scored suffix",
+  "binary_sha256": "4997071325bce5949026e84126526278025047ec024c7b0559aaff3911380eb0"
+ },
+ "groups": [
+  {
+   "positive": "scored_0535",
+   "matched": "scored_0484",
+   "positive_length": 144,
+   "matched_length": 143
+  },
+  {
+   "positive": "scored_0577",
+   "matched": "scored_0383",
+   "positive_length": 132,
+   "matched_length": 131
+  },
+  {
+   "positive": "scored_0827",
+   "matched": "scored_0324",
+   "positive_length": 184,
+   "matched_length": 186
+  },
+  {
+   "positive": "scored_0274",
+   "matched": "scored_0778",
+   "positive_length": 138,
+   "matched_length": 138
+  },
+  {
+   "positive": "scored_0573",
+   "matched": "scored_0030",
+   "positive_length": 195,
+   "matched_length": 195
+  },
+  {
+   "positive": "scored_0904",
+   "matched": "scored_0604",
+   "positive_length": 108,
+   "matched_length": 108
+  },
+  {
+   "positive": "scored_0807",
+   "matched": "scored_0164",
+   "positive_length": 130,
+   "matched_length": 130
+  },
+  {
+   "positive": "scored_0627",
+   "matched": "scored_0284",
+   "positive_length": 118,
+   "matched_length": 118
+  }
+ ],
+ "design": "Paired replication across eight prior Atakan improvers and eight distinct previously tested unshortened rows with unchanged physical tape on the new release. Pair by nearest frozen length, then number of targets and largest target bitlength, then a salted stable hash, with rarest exact-length winner matched first. These are outcome-selected and matched groups, not a random population estimate.",
+ "arms": [
+  "A then W",
+  "W then A",
+  "A from frozen and W from frozen, take shortest"
+ ],
+ "cost": "Every arm uses exactly one A budget and one W budget per row. Reuse identical method, settings, seeds and input bytes across paths or prior experiments; equal scores alone are not a reuse criterion. Record actual invocations and logical allocation separately.",
+ "outcome": "Score and exact physical tape of each initial and intermediate stage. Claim a sequential advantage only if a chain beats the per-row independently-started best. Use one shortest fully checked row per ID; ties prefer separate starts to avoid unnecessary ancestry. This experiment ends after the fixed 16 rows."
+}

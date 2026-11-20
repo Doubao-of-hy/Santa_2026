@@ -1,0 +1,32 @@
+[
+ {
+  "config": "1 22 7 8 0 9173",
+  "steps": 117,
+  "matches_v120_tape": false,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ },
+ {
+  "config": "4 22 7 8 0 9173",
+  "steps": 117,
+  "matches_v120_tape": false,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ },
+ {
+  "config": "4 32 7 8 6 610478",
+  "steps": 117,
+  "matches_v120_tape": false,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ },
+ {
+  "config": "5 38 7 9 7 239171",
+  "steps": 117,
+  "matches_v120_tape": false,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ },
+ {
+  "config": "5 42 8 9 5 17731",
+  "steps": 117,
+  "matches_v120_tape": false,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ }
+]

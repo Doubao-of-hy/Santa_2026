@@ -1,0 +1,32 @@
+{
+ "kernel": 371328068,
+ "id": "scored_0185",
+ "config": [
+  "1",
+  "22",
+  "7",
+  "8",
+  "0",
+  "9173"
+ ],
+ "published_control": [
+  148,
+  146
+ ],
+ "replay": {
+  "arm": "v15-author-control",
+  "id": "scored_0185",
+  "before": 148,
+  "after": 146,
+  "counters": {
+   "expanded": 22,
+   "improving_branches": 2,
+   "equal_branches": 20,
+   "joint_children": 20,
+   "peak_width": 1,
+   "fused_children": 0
+  },
+  "seconds": 7.061
+ },
+ "official_puzzle_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428"
+}

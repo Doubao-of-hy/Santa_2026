@@ -1,0 +1,180 @@
+{
+ "baseline": 8,
+ "graph": 8,
+ "lengths": {
+  "single": 8,
+  "joint": 6
+ },
+ "stats": {
+  "private_roots": 8,
+  "cross_branch_pairs": 16,
+  "global_affine_witnesses": 1,
+  "screened_pairs": 1,
+  "grounded_witnesses": 1,
+  "single_offers": 2,
+  "joint_offers": 1,
+  "single_acyclic_offers": 2,
+  "single_minimum_graph": 8,
+  "union_acyclic_offers": 3,
+  "union_minimum_graph": 6
+ },
+ "witness": {
+  "single": [],
+  "joint": [
+   {
+    "before": 8,
+    "after": 6,
+    "pair": [
+     212309,
+     353803
+    ],
+    "slopes": [
+     3,
+     5
+    ],
+    "scale": 70747,
+    "intercept": 68
+   }
+  ]
+ },
+ "tapes": {
+  "parent": [
+   [
+    "+",
+    7,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    8,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    0
+   ]
+  ],
+  "single": [
+   [
+    "+",
+    7,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    8,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    1,
+    0,
+    0
+   ]
+  ],
+  "joint": [
+   [
+    "*",
+    6,
+    5,
+    0
+   ],
+   [
+    "*",
+    1,
+    0,
+    1
+   ],
+   [
+    "+",
+    4,
+    3,
+    3
+   ],
+   [
+    "+",
+    1,
+    3,
+    1
+   ],
+   [
+    "*",
+    2,
+    0,
+    0
+   ],
+   [
+    "+",
+    0,
+    3,
+    0
+   ]
+  ]
+ }
+}

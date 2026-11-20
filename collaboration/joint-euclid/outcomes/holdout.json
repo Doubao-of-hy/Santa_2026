@@ -1,0 +1,131 @@
+{
+ "design_sha256": "cf805a4889ba8d5e69614bb95f8af3b72f3d52eb333339b3db0ddf4703c36627",
+ "rows": {
+  "scored_0275": {
+   "baseline": 145,
+   "graph": 145,
+   "stats": {
+    "cuts": 24,
+    "states": 2090
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 145,
+    "ladder": 145
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.184
+  },
+  "scored_0603": {
+   "baseline": 120,
+   "graph": 120,
+   "stats": {
+    "cuts": 24,
+    "states": 2021
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 120,
+    "ladder": 120
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.145
+  },
+  "scored_0239": {
+   "baseline": 170,
+   "graph": 170,
+   "stats": {
+    "cuts": 24,
+    "states": 2014
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 170,
+    "ladder": 170
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.23
+  },
+  "scored_0764": {
+   "baseline": 194,
+   "graph": 194,
+   "stats": {
+    "cuts": 24,
+    "states": 2164
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 194,
+    "ladder": 194
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.32
+  },
+  "scored_0762": {
+   "baseline": 273,
+   "graph": 273,
+   "stats": {
+    "cuts": 24,
+    "states": 1974
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 273,
+    "ladder": 273
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.626
+  },
+  "scored_0998": {
+   "baseline": 204,
+   "graph": 204,
+   "stats": {
+    "cuts": 24,
+    "states": 2123
+   },
+   "minimum_graph": {
+    "one": null,
+    "deep": null
+   },
+   "lengths": {
+    "one": 204,
+    "ladder": 204
+   },
+   "witness": {
+    "one": null,
+    "ladder": null
+   },
+   "seconds": 0.383
+  }
+ }
+}

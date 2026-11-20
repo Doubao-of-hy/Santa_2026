@@ -1,0 +1,142 @@
+{
+ "design_sha256": "be24d736dcfd05db6b5d9292955567ce9fb29ecf12bdb3ccf6b6836ac7e25cca",
+ "rows": {
+  "scored_0948": {
+   "baseline": 132,
+   "graph": 132,
+   "lengths": {
+    "single": 132,
+    "joint": 132
+   },
+   "stats": {
+    "private_roots": 45,
+    "cross_branch_pairs": 948,
+    "screened_pairs": 0,
+    "single_offers": 0,
+    "joint_offers": 0,
+    "single_acyclic_offers": 0,
+    "union_acyclic_offers": 0
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.027
+  },
+  "scored_0226": {
+   "baseline": 120,
+   "graph": 120,
+   "lengths": {
+    "single": 120,
+    "joint": 120
+   },
+   "stats": {
+    "private_roots": 50,
+    "cross_branch_pairs": 1186,
+    "screened_pairs": 0,
+    "single_offers": 0,
+    "joint_offers": 0,
+    "single_acyclic_offers": 0,
+    "union_acyclic_offers": 0
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.036
+  },
+  "scored_0986": {
+   "baseline": 170,
+   "graph": 170,
+   "lengths": {
+    "single": 170,
+    "joint": 170
+   },
+   "stats": {
+    "private_roots": 50,
+    "cross_branch_pairs": 1172,
+    "global_affine_witnesses": 3,
+    "screened_pairs": 2,
+    "grounded_witnesses": 2,
+    "single_offers": 4,
+    "joint_offers": 2,
+    "single_acyclic_offers": 4,
+    "single_minimum_graph": 173,
+    "union_acyclic_offers": 6,
+    "union_minimum_graph": 173
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.059
+  },
+  "scored_0680": {
+   "baseline": 193,
+   "graph": 193,
+   "lengths": {
+    "single": 193,
+    "joint": 193
+   },
+   "stats": {
+    "private_roots": 50,
+    "cross_branch_pairs": 1177,
+    "global_affine_witnesses": 33,
+    "screened_pairs": 33,
+    "single_offers": 0,
+    "joint_offers": 0,
+    "single_acyclic_offers": 0,
+    "union_acyclic_offers": 0
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.344
+  },
+  "scored_0476": {
+   "baseline": 207,
+   "graph": 207,
+   "lengths": {
+    "single": 207,
+    "joint": 207
+   },
+   "stats": {
+    "private_roots": 50,
+    "cross_branch_pairs": 1185,
+    "screened_pairs": 0,
+    "single_offers": 0,
+    "joint_offers": 0,
+    "single_acyclic_offers": 0,
+    "union_acyclic_offers": 0
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.064
+  },
+  "scored_0592": {
+   "baseline": 204,
+   "graph": 204,
+   "lengths": {
+    "single": 204,
+    "joint": 204
+   },
+   "stats": {
+    "private_roots": 50,
+    "cross_branch_pairs": 1173,
+    "screened_pairs": 0,
+    "single_offers": 0,
+    "joint_offers": 0,
+    "single_acyclic_offers": 0,
+    "union_acyclic_offers": 0
+   },
+   "witness": {
+    "single": [],
+    "joint": []
+   },
+   "seconds": 0.055
+  }
+ }
+}

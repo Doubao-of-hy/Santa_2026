@@ -1,0 +1,19 @@
+{
+ "purpose": "Non-scoring lineage diagnostic on 0506. Only the Asterios v119 physical program is input. Test the five author-reported v15 winning profiles with the v15 kernel against the exact v120 normalized tape, then report strict hash equality, score equality and best length separately. An exact match would show compatibility, not publisher command exclusivity; a failure cannot rule out a distinct merged input or budget. No candidate enters either scoring arm.",
+ "puzzle": "scored_0506",
+ "v119": {
+  "length": 117,
+  "program_sha256": "0f294c3863a6af5fefb2b483e362acf789c33a169a53a5d7244ac3b2327ed72f"
+ },
+ "v120": {
+  "length": 114,
+  "program_sha256": "64237953e9e625dc8078157b08092af75bd916f0da0045b9854c726252992f12"
+ },
+ "v15_configs": [
+  "1 22 7 8 0 9173",
+  "4 22 7 8 0 9173",
+  "4 32 7 8 6 610478",
+  "5 38 7 9 7 239171",
+  "5 42 8 9 5 17731"
+ ]
+}

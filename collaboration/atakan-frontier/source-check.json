@@ -1,0 +1,47 @@
+{
+ "originator": "Atakan Aldemir",
+ "kernel": "https://www.kaggle.com/code/atakanaldemir/santa-2026-joint-recipes-for-large-puzzles",
+ "package_urls": {
+  "v15": "https://www.kaggle.com/kernels/scriptcontent/371328068/download",
+  "v30": "https://www.kaggle.com/kernels/scriptcontent/371505096/download"
+ },
+ "distributor_name": "Asterios Panoras",
+ "distributor_version": 120,
+ "distributor_archive_sha256": "a42ca92bf329059164d859c4724c39b24c744584ad40c692dd8b4e42c3dde307",
+ "distributor_link": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/120",
+ "distributor_source": {
+  "scored_0506": {
+   "before": 117,
+   "after": 114,
+   "release_credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set"
+  }
+ },
+ "release_file_specifies_optimizer_run_or_flags": false,
+ "v15_source_matches_published_repository_checkout": true,
+ "v30_attribution_and_access": "Original public Kaggle notebook for the same Atakan kernel. No third-party source is rehosted in the research package.",
+ "v30_dependency": "v30 OFFLINE_SOURCE does not include elf_whole_graph.cpp required transitively by elf_multiplier_lanes.cpp. Used Atakan v15 implementation, hash recorded. v14 separately exports the same dependency. v29 and v30 frontier translation units independently checked byte-identical.",
+ "prior_local_full_run": {
+  "engine": "atakan-frontier",
+  "rows": 1000,
+  "configuration": [
+   "2",
+   "6",
+   "4",
+   "6",
+   "4",
+   "257"
+  ],
+  "instructions": 155011,
+  "input_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "own_intermediate_trace_sha256": "c546aeb6887d093d16bdbb995b5a21cc94fc89f2bffa8a385d784f55ba3b049c",
+  "source_sha256": {
+   "atakan_v15/elf_multiplier_frontier.cpp": "f5afdfad99478f58b5c3b1c1ff7671d47156c86369f24d0d75c62e29720f81b5",
+   "atakan_v15/elf_global_schedule.cpp": "36d6e43daeb84e849a38195f12310dfdb0704c7983495761c2e94674e8ff39a2",
+   "atakan_v15/elf_multiplier_lanes.cpp": "8603e434793c72d46536a7361b07b41ee124ed21082de543bd1964cc5bc9fcc4",
+   "atakan_v15/elf_whole_graph.cpp": "f229a12f4274af7774dcfaf5309a4d18fcc93b1b53f9a923f4a76e5f3631d352",
+   "atakan_v15/elf_window.cpp": "393c46382e85c9fe78267abdb35dd2403f6c1014ffb694802df8e54e005f67a3",
+   "atakan_v15/santa_factor64.h": "75467477a9633b33249b895967690d6a5032d6c14e0b14fc16c34731c26c3918"
+  }
+ },
+ "distributor_source_csv_sha256": "afe52599de87e748ef57e9afeb1b475053222b7c31698a495b9494fa3ad674fd"
+}

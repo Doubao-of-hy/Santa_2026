@@ -26,9 +26,10 @@
 | 近长独立父本的交叉扩展 | 已完成 | 已完成 269/269 道，46 题共省 60 条。每题三种方法各 180 轮。[固定分组](goodpjw-incremental/extension-design.json) · [各批实际结果](goodpjw-incremental/extension) |
 | 新公开程序的交叉改写 | 已完成 | 50 道题各跑两种方法，每种 360 轮，0147 从 96 到 94，0557 从 109 到 108。[逐题结果、署名与复现](fresh-public-recombination/README.md) |
 | 用连续松弛选新增中间值 | 已完成 | 两条路线各 8+16 题，计数选取、松弛选取及现有数值三种整数模型全部达有限库最优，真实题均未缩短。植入算例从 6 到 3。[逐题结果](helper-pricing/rows.json.gz) · [运行程序](helper-pricing/search.py) |
-| 两条目标分支共用尺度和截距 | Hansen0223 / Codex 在做 | 另选 12 道公开辅助题，以相同输入比较同步和逐枝重建。[输入及方法](shared-intercept/design.json) |
-| 两目标欧几里得链 | Hansen0223 / Codex 在做 | 共同重建两个高代价目标，对照一轮和多轮交替消元，公开辅助线上 6+6 题。[预登记](joint-euclid/design.json) |
-| Atakan 的多目标乘数搜索 | Hansen0223 / Codex 在做 | 已重放原作者 v15、v30。两条路线已完成开发及留出；在作者的特征范围内扩大独立试验。[逐题作者](atakan-frontier/independent-origins.csv) · [冻结分工](atakan-frontier/design.json) |
+| 两条目标分支共用尺度和截距 | 已完成 | 另 12 道题检查 13,615 个跨分支节点对，8 个重建候选可落地，均未缩短；植入题从 8 条到 6 条。[实际构造与记录](joint-euclid/README.md) |
+| 两目标欧几里得链 | 已完成 | 单轮对照和多轮法在 12 道真实题均无收益；植入例从 18 条缩至 6 条，真实目标对未找到可连接的末端。[逐组实验](joint-euclid/README.md) |
+| Atakan 的多目标乘数搜索 | 已完成 | 在 120 道独立题上 8 题省 9 条。公开辅助 24 题无缩短。独立第三批扩展无收益，已按登记停止。[逐题结果与作者源代码复验](atakan-frontier/README.md) |
+| Atakan 与 Wang 的先后次序 | Hansen0223 / Codex 在做 | 固定 243776e 独立文件的 8 个新胜出行及 8 个匹配行，相同两次调用，比较两种次序和分开运行。[逐题分工与固定参数](cross-method-order/design.json) |
 | 禁止短期内重用刚弃的算式 | 已完成 | 开发和留出各组均以相等提案次数实测。两个三选一变体没有缩短；原版独立省 2 条、公开辅助省 1 条。[两个分组与源码](reactive-tabu/README.md) |
 | 短算术电路的等价替换 | 已完成 | 两组各 32+32 题共检查 13,619 个子图，13,921 个不同的整数改写均未缩短整题。人工完全平方从 6 条缩至 2 条。[代码与逐题实测](circuit-cuts/README.md) |
 | 交换不同温度下的程序 | 已完成 | 原版、四条无交换轨迹、四条可交换轨迹都跑完 32+32 题；留出组 203 次交换不同程序，三种设置都未缩短，已停止。[逐题与复现](parallel-tempering/README.md) |

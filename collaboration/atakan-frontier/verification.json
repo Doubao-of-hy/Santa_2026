@@ -1,0 +1,197 @@
+{
+ "independent": {
+  "frozen": 140745,
+  "verified": 140736,
+  "programs_sha256": "d9a6ecc017459d878cb13d0e1d55f1c43d982a29829a046a0e6ae06183b97621",
+  "replayed_rows": 1000,
+  "trial_count": 360,
+  "by_split_and_arm": {
+   "1": {
+    "v15-4": {
+     "trials": 32,
+     "wins": 2,
+     "saved": 2,
+     "seconds": 86.832
+    },
+    "v30-4": {
+     "trials": 32,
+     "wins": 2,
+     "saved": 2,
+     "seconds": 85.828
+    },
+    "v30-13": {
+     "trials": 32,
+     "wins": 3,
+     "saved": 3,
+     "seconds": 145.35
+    }
+   },
+   "2": {
+    "v15-4": {
+     "trials": 32,
+     "wins": 3,
+     "saved": 4,
+     "seconds": 51.365
+    },
+    "v30-4": {
+     "trials": 32,
+     "wins": 3,
+     "saved": 4,
+     "seconds": 50.967
+    },
+    "v30-13": {
+     "trials": 32,
+     "wins": 3,
+     "saved": 4,
+     "seconds": 77.867
+    }
+   },
+   "3": {
+    "v15-4": {
+     "trials": 32,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 72.514
+    },
+    "v30-4": {
+     "trials": 32,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 72.747
+    },
+    "v30-13": {
+     "trials": 32,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 120.883
+    }
+   },
+   "dev": {
+    "v15-4": {
+     "trials": 8,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 17.407
+    },
+    "v30-4": {
+     "trials": 8,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 17.423
+    },
+    "v30-13": {
+     "trials": 8,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 25.458
+    }
+   },
+   "hold": {
+    "v15-4": {
+     "trials": 16,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 30.864
+    },
+    "v30-4": {
+     "trials": 16,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 30.784
+    },
+    "v30-13": {
+     "trials": 16,
+     "wins": 1,
+     "saved": 1,
+     "seconds": 52.64
+    }
+   }
+  },
+  "wins": {
+   "scored_0274": [
+    139,
+    138
+   ],
+   "scored_0535": [
+    145,
+    144
+   ],
+   "scored_0573": [
+    196,
+    195
+   ],
+   "scored_0577": [
+    133,
+    132
+   ],
+   "scored_0627": [
+    119,
+    118
+   ],
+   "scored_0807": [
+    132,
+    130
+   ],
+   "scored_0827": [
+    185,
+    184
+   ],
+   "scored_0904": [
+    109,
+    108
+   ]
+  },
+  "winners_csv_sha256": "6956ab9a369ce2b91e70b383687a0328c80c35f9ebbc319f2f0147307b5b3b61"
+ },
+ "public": {
+  "frozen": 134311,
+  "verified": 134311,
+  "programs_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+  "replayed_rows": 1000,
+  "trial_count": 72,
+  "by_split_and_arm": {
+   "dev": {
+    "v15-4": {
+     "trials": 8,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 17.314
+    },
+    "v30-4": {
+     "trials": 8,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 17.171
+    },
+    "v30-13": {
+     "trials": 8,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 30.422
+    }
+   },
+   "hold": {
+    "v15-4": {
+     "trials": 16,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 31.847
+    },
+    "v30-4": {
+     "trials": 16,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 31.158
+    },
+    "v30-13": {
+     "trials": 16,
+     "wins": 0,
+     "saved": 0,
+     "seconds": 42.357
+    }
+   }
+  },
+  "wins": {},
+  "winners_csv_sha256": "30124725c57ef75a50fea9057d56163c564615ad6aed7a1848c512b6c71816c5"
+ }
+}

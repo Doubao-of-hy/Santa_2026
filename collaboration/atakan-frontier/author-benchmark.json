@@ -1,0 +1,28 @@
+{
+ "kernel": 371328068,
+ "cases": 238,
+ "v14": 138769,
+ "v15": 138681,
+ "savings": 88,
+ "runs": {
+  "frontier-v15-full": {
+   "total": 138702,
+   "changed": 47,
+   "base": 138769,
+   "stored_winner_configs": {
+    "5 42 8 9 5 17731": 24,
+    "1 22 7 8 0 9173": 15,
+    "4 22 7 8 0 9173": 8
+   }
+  },
+  "frontier-v15-lattice": {
+   "total": 138695,
+   "changed": 53,
+   "base": 138769,
+   "stored_winner_configs": {
+    "4 32 7 8 6 610478": 32,
+    "5 38 7 9 7 239171": 21
+   }
+  }
+ }
+}
