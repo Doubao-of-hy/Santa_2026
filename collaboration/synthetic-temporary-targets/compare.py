@@ -110,23 +110,33 @@ def run(task):
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--puzzles',type=Path,required=True);ap.add_argument('--out',type=Path,required=True)
-    ap.add_argument('--exe',type=Path);ap.add_argument('--phase',choices=('freeze','development','holdout'),required=True)
+    ap.add_argument('--exe',type=Path);ap.add_argument('--phase',choices=('freeze','development','holdout','freeze-extension','extension'),required=True)
     ap.add_argument('--replay-only',action='store_true');ap.add_argument('--jobs',type=int,default=5)
     a=ap.parse_args();a.out.mkdir(exist_ok=True,parents=True);ps=read_puzzles(a.puzzles);pm={p.id:p for p in ps}
     lanes={lane:snapshot(lane) for lane in ('own','public')};sel=a.out/'selection.json.gz'
-    if a.phase=='freeze':
+    if a.phase in ('freeze','freeze-extension'):
         chosen={};size=cfg['development']+cfg['holdout']
-        for lane,(table,ledger) in lanes.items():
+        extend=a.phase=='freeze-extension'
+        count=size+96 if extend else size
+        for lane in (('own',) if extend else lanes):
+            table,ledger=lanes[lane]
             batch=[]
             for p in sorted(ps,key=lambda p:hashed((cfg['salt'],lane,p.id))):
                 if len(p.targets)<8 or len(table[p.id])<35:continue
                 case=choose(p,table[p.id],lane)
                 if case:
                     case['credit']=ledger[p.id];batch.append(case)
-                if len(batch)==size:break
-            assert len(batch)==size;chosen[lane]=batch
+                if len(batch)==count:break
+            assert len(batch)==count
+            if extend:
+                assert batch[:size]==get(HERE/'selection.json.gz')[lane]
+            chosen[lane]=batch[size:] if extend else batch
+        if extend:sel=a.out/'extension-selection.json.gz'
         put(sel,chosen);print(sha256(sel),flush=True);return
-    selected=get(sel);rows={lane:(cases[:cfg['development']] if a.phase=='development' else cases[cfg['development']:]) for lane,cases in selected.items()}
+    if a.phase=='extension':
+        rows=get(a.out/'extension-selection.json.gz')
+    else:
+        selected=get(sel);rows={lane:(cases[:cfg['development']] if a.phase=='development' else cases[cfg['development']:]) for lane,cases in selected.items()}
     path=a.out/(a.phase+'.json.gz')
     if not a.replay_only:
         jobs=[(pm[c['id']],lane,lanes[lane][0][c['id']],c,a.exe.resolve()) for lane,cases in rows.items() for c in cases]
