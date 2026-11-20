@@ -43,7 +43,7 @@ def main():
     parser.add_argument("--binary-dir", type=Path, required=True)
     parser.add_argument("--allow-different-parents", action="store_true", help="Replay credited manifests assembled from multiple baseline versions")
     parser.add_argument("--recipes", type=Path, help="Override specified rows using ranked, credited parents")
-    parser.add_argument("--mode", choices=("anneal", "incremental", "anneal_diverse"), default="anneal")
+    parser.add_argument("--mode", choices=("anneal", "incremental", "anneal_diverse", "compact_rotate"), default="anneal")
     parser.add_argument("--rounds", type=int, default=35)
     parser.add_argument("--seed-offset", type=int, default=737049)
     parser.add_argument("--jobs", type=int, default=1)
@@ -61,7 +61,7 @@ def main():
             for row in csv.DictReader(source):
                 key = row["id"]
                 params = (row["mode"], int(row["rounds"]), int(row["seed"]))
-                if key not in baseline or params[0] not in {"anneal", "anneal_seeded", "incremental", "anneal_diverse"}:
+                if key not in baseline or params[0] not in {"anneal", "anneal_seeded", "incremental", "anneal_diverse", "compact_rotate"}:
                     raise ValueError(f"Unsupported manifest row {key}")
                 mode, rounds, seed, parents = settings.setdefault(key, (*params, []))
                 if (mode, rounds, seed) != params or int(row["rank"]) != len(parents):

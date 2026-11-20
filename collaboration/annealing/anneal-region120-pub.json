@@ -1,0 +1,18 @@
+{
+ "utc": "2026-11-20T12:47:02.636694+00:00",
+ "rows": 180,
+ "total": 134487,
+ "verified": 134487,
+ "baseline_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+ "combined_sha256": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+ "source": "https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767",
+ "rows_with_alternative_traces": 175,
+ "modes": {
+  "region_anneal": {
+   "wins": 0,
+   "savings": 0,
+   "CPU_wall_seconds_sum": 601.25
+  }
+ },
+ "strictly_improved": {}
+}

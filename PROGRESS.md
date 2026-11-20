@@ -1,8 +1,14 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日留出题与配对比较
+
+当前独立解 **140,937** 条、公开辅助解 **134,402** 条。独立线在前一版基础上，0048 和 0324 合计再省 5 条，另外两道留出题 0741 和 0890 各省 1 条。0048 仅用普通生成器启动及同样的后续改写也能获得 153 条。0324、0680 在这组实验中通过随机挑选、按成本生成辅助值取得改进。[重新生成的逐题对照与结果](collaboration/evidence/random-dictionary-results.json) · [冻结留出题](collaboration/wang-polish/README.md)
+
+在有过近期改进的题上再搜索，0186、0427、0923、0985 各缩短一条。与上一份公开辅助提交相比总计省 4 条。按官方榜单快照比较，有 113 支队伍优于这份本地候选，0 队同分，距榜首 128,330 条还有 6,072 条。[父本、算式和验证](collaboration/annealing/active-pairs.json) · [排名对照](collaboration/evidence/rank-134402.json)
+
 ## 11 月 20 日多样性搜索及第 117 版
 
-独立候选已降到 **140,944** 条，公开辅助候选降到 **134,406** 条。前一份已发布的 140,000 级独立表为 141,026，保持不同形态算式的搜索在 65 题省 80 条，另有两道独立题 0324 和 0680 各省 1 条。后两题的程序从官方初值重新生成，使用随机挑选的低成本辅助数作为开头，所有辅助数的生成成本均计入结果。[独立退火核验](collaboration/annealing/independent105.json) · [全新生成的两个程序](collaboration/evidence/random-dictionary-wins.csv)
+独立候选已降到 **140,944** 条，公开辅助候选降到 **134,406** 条。前一份已发布的 140,000 级独立表为 141,026，保持不同形态算式的搜索在 65 题省 80 条，另有两道独立题 0324 和 0680 各省 1 条。后两题的程序从官方初值重新生成，使用随机挑选的低成本辅助数作为开头，所有辅助数的生成成本均计入结果。[独立退火核验](collaboration/annealing/independent105.json) · [从零生成路线的逐题程序](collaboration/evidence/random-dictionary-wins.csv)
 
 公开辅助线合并第 117 版时，5 道题使 134,414 再减 6 条。四种改写的 48 题开发对照在早先冻结的父本上省了 6 条，其中 2 条继续缩短当前候选。两份整表均经过两套解释器实际回放。[第 117 版记录](collaboration/evidence/release-v117.json) · [各题上游作者](collaboration/evidence/asterios-v117-sources.csv) · [四种改写](collaboration/wang-polish/README.md)
 

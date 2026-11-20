@@ -46,7 +46,7 @@ scored_0044,work/virtual/resume-135077/wang-second.csv,81
 scored_0045,work/creative/frontier-135161/own/best-shorter.csv,167
 scored_0046,work/gpu/frontier-independent.csv,30
 scored_0047,work/virtual/portfolio-135289/own-all.csv,178
-scored_0048,work/creative/ladder/lns-local.csv,156
+scored_0048,work/virtual/resume-135077/official-fresh-3.csv,153
 scored_0049,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,162
 scored_0050,work/virtual/guided-142434/small-twoply.csv,27
 scored_0051,work/virtual/lifetimes-135161/schedule.csv,303
@@ -322,7 +322,7 @@ scored_0320,work/gen/atakan-frontier-full.csv,28
 scored_0321,work/creative/family-gap/difference-full.csv,294
 scored_0322,work/gpu/walk-independent.csv,185
 scored_0323,work/creative/resume-135077/anneal-independent-full35/shorter.csv,120
-scored_0324,work/virtual/collective-135077/freshR/preliminary/wins.csv,189
+scored_0324,work/virtual/resume-135077/official-fresh-3.csv,187
 scored_0325,work/virtual/resume-135077/wang-second.csv,104
 scored_0326,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,125
 scored_0327,work/creative/carry-gpu/full-own-wins.csv,115
@@ -739,7 +739,7 @@ scored_0737,work/virtual/resume-135077/wang-second.csv,115
 scored_0738,work/creative/resume-135077/anneal-independent-full35/shorter.csv,103
 scored_0739,work/virtual/portfolio-135289/own-all.csv,158
 scored_0740,work/virtual/repeated-135211/own-full.csv,144
-scored_0741,work/creative/resume-135077/anneal-independent-full35/shorter.csv,119
+scored_0741,work/virtual/resume-135077/polish2-own-holdout.csv,118
 scored_0742,work/virtual/portfolio-135289/own-wide-hold.csv,195
 scored_0743,work/creative/resume-135077/anneal-independent-full35/shorter.csv,109
 scored_0744,work/creative/family-gap/difference-full.csv,295
@@ -888,7 +888,7 @@ scored_0886,work/creative/resume-135077/anneal-independent-diverse-full105/short
 scored_0887,original-172868,3
 scored_0888,work/virtual/resume-135077/wang-second.csv,117
 scored_0889,work/gpu/lineage-independent.csv,115
-scored_0890,work/virtual/resume-135077/wang-second.csv,98
+scored_0890,work/virtual/resume-135077/polish2-own-holdout.csv,97
 scored_0891,work/gpu/walk-independent.csv,116
 scored_0892,work/virtual/whole-135358/guided.csv,16
 scored_0893,work/virtual/resume-135077/wang-second.csv,132
