@@ -11,3 +11,5 @@
 对 47 道近期出现改进的题和 47 道长度、初值数量、目标数量相近的对照题使用同一计算预算。前组四题各省一条，对照组无改进。每个入选程序均从实际父本重新运行，并按原署名保存。另测同时重建多个目标，在独立 96 题省 1 条，公开辅助 180 题没有缩短，已停止扩展。[四项改进回执](active-pairs.json) · [重跑种子和父程序](active-pairs-recipes.csv) · [父程序署名](active-pairs-origins.csv) · [独立多目标试验](anneal-region75-own.json) · [公开多目标试验](anneal-region120-pub.json)
 
 使用历史图结构预测下一题能否缩短。先去掉 49 道已知改善题，再冻结预测靠前的 100 题和 100 道长度匹配的对照。相同预算下两组各省 2 条和 1 条；这三项改进都通过完整回放。这次前瞻差距只有一条。[固定分组](prospective-100-pairs.json) · [早期交叉验证](rank-validation.json) · [前瞻结果](prospective-replay.json) · [复跑输入](prospective-recipes.csv)
+
+在 256 题上比较只用一种独立父程序与增加 Rudolph、konbu 的独立生成程序。用于生成这些父程序的输入只含官方初值及目标。单父本合计省 26 条，多父本合计省 21 条，逐题选优共省 35 条。与仓库当时的独立上界逐题合并，140,914 降到 140,879 条。[同预算结果与基线指纹](own-portfolio160.json) · [逐题来源](own-portfolio160-origins.csv)

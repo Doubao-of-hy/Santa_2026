@@ -1,0 +1,53 @@
+{
+ "utc": "2026-11-20T13:02:00.868801+00:00",
+ "rows": 256,
+ "total": 140946,
+ "verified": 140911,
+ "baseline_sha256": "edfba112833db257cd8cb214560e06ed6dceb8e6df7f59ac38f399ca0f756bba",
+ "combined_sha256": "62508f795b5d7ddab12413fe057436186a7bcffca2414bb4f478ec0b82b452b9",
+ "source": "https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767",
+ "rows_with_alternative_traces": 241,
+ "modes": {
+  "anneal": {
+   "wins": 22,
+   "savings": 26,
+   "CPU_wall_seconds_sum": 279.34
+  },
+  "anneal_seeded": {
+   "wins": 16,
+   "savings": 21,
+   "CPU_wall_seconds_sum": 289.15
+  }
+ },
+ "strictly_improved": {
+  "scored_0547": 1,
+  "scored_0169": 2,
+  "scored_0787": 1,
+  "scored_0205": 1,
+  "scored_0326": 1,
+  "scored_0760": 1,
+  "scored_0274": 1,
+  "scored_0652": 1,
+  "scored_0525": 3,
+  "scored_0007": 1,
+  "scored_0495": 2,
+  "scored_0302": 1,
+  "scored_0920": 1,
+  "scored_0833": 1,
+  "scored_0707": 1,
+  "scored_0607": 1,
+  "scored_0286": 1,
+  "scored_0772": 1,
+  "scored_0433": 1,
+  "scored_0816": 1,
+  "scored_0973": 1,
+  "scored_0185": 1,
+  "scored_0824": 1,
+  "scored_0639": 3,
+  "scored_0964": 1,
+  "scored_0361": 1,
+  "scored_0967": 1,
+  "scored_0846": 1,
+  "scored_0295": 1
+ }
+}

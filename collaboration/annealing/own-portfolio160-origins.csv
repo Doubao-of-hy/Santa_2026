@@ -1,0 +1,30 @@
+id,source,upstream_source,instructions
+scored_0007,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",147
+scored_0169,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",105
+scored_0185,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",148
+scored_0205,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",137
+scored_0274,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: ",139
+scored_0286,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",137
+scored_0295,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",131
+scored_0302,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: ",118
+scored_0326,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",124
+scored_0361,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",129
+scored_0433,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: ",137
+scored_0495,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: , own previous 141241: ",96
+scored_0525,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: ",120
+scored_0547,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",113
+scored_0607,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",114
+scored_0639,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",103
+scored_0652,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",97
+scored_0707,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, own previous 141435: ",89
+scored_0760,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, Rudolph individually generated from official inputs: ",114
+scored_0772,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",117
+scored_0787,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",107
+scored_0816,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",106
+scored_0824,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",143
+scored_0833,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",136
+scored_0846,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",100
+scored_0920,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",150
+scored_0964,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",214
+scored_0967,local Wang recipe-DAG annealing anneal,"wang Jakie Apache-2.0 kernel 371736767, independent 140946",112
+scored_0973,local Wang recipe-DAG annealing anneal_seeded,"wang Jakie Apache-2.0 kernel 371736767, independent 140946, Rudolph individually generated from official inputs: , konbu individually generated from official inputs: ",116

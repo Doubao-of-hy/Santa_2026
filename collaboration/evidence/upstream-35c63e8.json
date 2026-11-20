@@ -1,0 +1,204 @@
+{
+  "upstream": "35c63e842c1df9d19fcfae116014f50ff5df421b",
+  "completed_at": "2026-11-20T21:02:54+08:00",
+  "execution": {
+    "puzzles": 1000,
+    "certified_lower": 36767,
+    "replayed_upper": 141240,
+    "second_replayed_upper": 134487,
+    "external_stronger_replayed": [
+      "scored_0024",
+      "scored_0056",
+      "scored_0065",
+      "scored_0134",
+      "scored_0137",
+      "scored_0181",
+      "scored_0211",
+      "scored_0221",
+      "scored_0222",
+      "scored_0237",
+      "scored_0241",
+      "scored_0271",
+      "scored_0272",
+      "scored_0282",
+      "scored_0368",
+      "scored_0376",
+      "scored_0409",
+      "scored_0492",
+      "scored_0584",
+      "scored_0635",
+      "scored_0656",
+      "scored_0701",
+      "scored_0810",
+      "scored_0818",
+      "scored_0866",
+      "scored_0897",
+      "scored_0908",
+      "scored_0913",
+      "scored_0922",
+      "scored_0928",
+      "scored_0945",
+      "scored_0971",
+      "scored_0981"
+    ],
+    "proved_optimal": 20,
+    "proved_optimal_ids": [
+      "scored_0061",
+      "scored_0126",
+      "scored_0149",
+      "scored_0289",
+      "scored_0301",
+      "scored_0348",
+      "scored_0365",
+      "scored_0399",
+      "scored_0485",
+      "scored_0490",
+      "scored_0537",
+      "scored_0597",
+      "scored_0600",
+      "scored_0676",
+      "scored_0721",
+      "scored_0798",
+      "scored_0883",
+      "scored_0887",
+      "scored_0892",
+      "scored_0931"
+    ],
+    "scored_0882": [
+      22,
+      23
+    ],
+    "analytic_recalculation": false
+  },
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "binary_sha256": "5c03943589b5c3b7b99fa5f54ea79e425efa28bba3257f093bba7d9d22932878",
+  "local_manifest_sha256": "7103f42ab4da2c9ed02c566dd99c8767c39f43629bc0f3610e6b1ccf10eee2d0",
+  "external_bounds_sha256": "f88b5d1217aa298d4bb03cb8012af568b4c6798ad34290fdb9a1adebc7ec5b50",
+  "lower_projection_sha256": "fb2e8ba01616c07b0f23e245a5e20895ca7b5e5cc05341a63e591deac326434d",
+  "previous_receipt": "upstream-d642a22.json",
+  "previous_receipt_sha256": "1e939ebc74ec6d5748cd7ff54c79d500429418974d37aeb75ef628ed27ec4028",
+  "previous_certified_lower": 36751,
+  "incremental_gain": 16,
+  "incremental_decisions": 16,
+  "witness_snapshot": "eb25706372f30d01e896b35ba289a414055e31d1",
+  "witness_file_sha256": [
+    "1d88949b5bee69375eaa2158fa65952ee614beea9168c3c73ad06c3e1709ff3f",
+    "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8"
+  ],
+  "shards": 239,
+  "nodes": 1927093004,
+  "receipts": {
+    "proofs_ext/decisions.d/scored_0024_h8.json": {
+      "sha256": "8ca8464ead8ab693653985d30a27918ac2db7d2d49fdaa5d86217327c9b641c8",
+      "shards": 15,
+      "nodes": 104093293,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "f74b3a13d47f3b08c4fbb3d0a87fc8a54e50679bb0803bc95a73bda156dca9e4"
+    },
+    "proofs_ext/decisions.d/scored_0056_h8.json": {
+      "sha256": "907de0aa1069f4df89b281c50bdfc2599b413f0264c0086ba07e524ef2c471e3",
+      "shards": 23,
+      "nodes": 451952664,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "f61998aed4c2bcf72171fa532ceef3ef9a6af967a3913e423f177de228ed89bd"
+    },
+    "proofs_ext/decisions.d/scored_0065_h8.json": {
+      "sha256": "79bfc57bad94dfc61c93aed0358f2bbb42545ae508201774b5f03592e66e582e",
+      "shards": 16,
+      "nodes": 136067808,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "ee32365b739d8b6d116d3231f38ba6486ec7c7b02d0ca3372f5fdc6f0fedcbda"
+    },
+    "proofs_ext/decisions.d/scored_0134_h8.json": {
+      "sha256": "3e78caffe97277151b93027fb8ffad2e92d398b241080c7b3d76445bbd1be184",
+      "shards": 8,
+      "nodes": 13794776,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "c04d26c31c8e7fbd3dd986a612a17a4aa90eda3f3c6139a724fe9a2426fad7d1"
+    },
+    "proofs_ext/decisions.d/scored_0137_h8.json": {
+      "sha256": "a5097991925fe1f537ca485e4e64e61692c899f6e0530f670a2483699e9e79dc",
+      "shards": 16,
+      "nodes": 68616121,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "173606113ff6e5c68b7ae3c5c009b7fbbddf92c922e4f2b40a2c848bbb651df1"
+    },
+    "proofs_ext/decisions.d/scored_0181_h8.json": {
+      "sha256": "ff5c60f0bacb306e1a8e5f6ff18b2ba7a8290d54d68fbd2340070a3e76f1599d",
+      "shards": 8,
+      "nodes": 10562731,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "8dddcce91ce3240a711d966c8952b2bd689218679e12bd8448019635c577def1"
+    },
+    "proofs_ext/decisions.d/scored_0222_h8.json": {
+      "sha256": "59d09f27f8f00b31f096aa57b905bb9faed9ea740bbb4fd1c669f9ba6042a6f4",
+      "shards": 20,
+      "nodes": 342961947,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "61402025f84dea90579e9bc7c0aef6bb6d59e07da8ed13a00cbcb701775e47a7"
+    },
+    "proofs_ext/decisions.d/scored_0237_h7.json": {
+      "sha256": "2fbc8fea922b6d9aae9bfbabfa3f2614d8635fa4a898d3d446099e72cc020282",
+      "shards": 32,
+      "nodes": 37870418,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "a305ea07db2358668820563b40683fbc77188e42ab4382597d7902fcb2899b15"
+    },
+    "proofs_ext/decisions.d/scored_0376_h8.json": {
+      "sha256": "5dac22e7a20aeb9416dd97d55c7aec50d2312727ae09f7da00c6a98a90efc6e1",
+      "shards": 13,
+      "nodes": 57165428,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "4c497ae1c4defb988a49458c89ab9b106e02f1a477785e7e3e7ddeab825c72c1"
+    },
+    "proofs_ext/decisions.d/scored_0409_h8.json": {
+      "sha256": "fd246f37bb6b04130863d9110a2a4c880b0a6daf1f68a5f75390b8650f7a9933",
+      "shards": 15,
+      "nodes": 113605232,
+      "terminal_candidates": 5972,
+      "shard_replay_sha256": "bedab576bfca0e71a364b2025cfb77898b086a7ddc83a710c930d3f5d01cea70"
+    },
+    "proofs_ext/decisions.d/scored_0818_h8.json": {
+      "sha256": "e4237bd464f88c93964b5248e860d7801883445f6c5c0d855945ac88a4029501",
+      "shards": 12,
+      "nodes": 59800060,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "0c28dc89ee4bfb52660378fc7c180040aea96f8a3d7841e564a4fee7a67c9d4c"
+    },
+    "proofs_ext/decisions.d/scored_0866_h8.json": {
+      "sha256": "71bed957fd1d43a3141e848baa5eec0eaff6e936257c580d78e4bbc8d42dcf46",
+      "shards": 8,
+      "nodes": 13509235,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "078c4be76535f7088fcffc01e1e53634a949566d5ab6c57da82964e524252f73"
+    },
+    "proofs_ext/decisions.d/scored_0908_h8.json": {
+      "sha256": "1583774318701ebb2633e674e0c0b730d69430d7a0c00abe1aadb2b343638d52",
+      "shards": 16,
+      "nodes": 119069746,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "5aa186bc5446193641554b2ba0c328bb94ea687b1ffedcfd9185c652ed5bef9f"
+    },
+    "proofs_ext/decisions.d/scored_0928_h8.json": {
+      "sha256": "6a7bd9825de11ac6eae5568ecf38f2b443a3f172d39a1c48e20ed90ddd1b63a2",
+      "shards": 8,
+      "nodes": 14167428,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "3fbf4a3649fbbe109aa3c7d61d23d84ab55b0985cda17defe974a329d9a8bff0"
+    },
+    "proofs_ext/decisions.d/scored_0971_h8.json": {
+      "sha256": "411452bf66e9357d8c36eabb4f5e9e7abbfb1ad31ed41a2655ba9fcfac28a1d7",
+      "shards": 21,
+      "nodes": 369583511,
+      "terminal_candidates": 41710,
+      "shard_replay_sha256": "ad9868190c32166823ea05466c8d61878514c3997ee9d5a7d0b2b9b18fc611a1"
+    },
+    "proofs_ext/decisions.d/scored_0981_h8.json": {
+      "sha256": "763b09d8ae783c79277b70151688e1c20fa60cd6c018df2910f832ee4864a0d4",
+      "shards": 8,
+      "nodes": 14272606,
+      "terminal_candidates": 0,
+      "shard_replay_sha256": "88e660c96c014bf3d14a70fd7b6e007ae9feed4d1fb03e48888a0b80c9c5f59c"
+    }
+  }
+}
