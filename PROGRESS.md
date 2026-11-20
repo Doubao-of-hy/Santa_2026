@@ -1,5 +1,10 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 20 日 23:13
+
+Asterios Panoras 的第 125 版收录了重跑 Atakan Aldemir 优化器所得的第 791 题。该题从 148 条减为 137 条，公开辅助候选更新为 **134,183**，较 23:11 的官方榜首 128,330 多 5,853 条。两套解释器均已验证。独立候选仍为 **140,722**。[逐题贡献与原始版本](collaboration/frontier-134285/asterios125-audit.json)
+
+
 ## 北京时间 11 月 20 日 23:05
 
 GoodPJW 第 11 版的完整导出为 134,203 条。逐题与原有解比较，67 道题共省 91 条，公开辅助候选降至 **134,194**；两套解释器重放了全部 1,000 题。独立候选为 **140,722**。按 22:57 官方榜首 128,330 对照，差 5,864 条。两份候选均为本地成绩。[逐题缩短与校验](collaboration/frontier-134285/good11-audit.json) · [上游作者](collaboration/frontier-134285/good11-origins.csv) · [本轮独立对照](collaboration/target-partition/README.md)

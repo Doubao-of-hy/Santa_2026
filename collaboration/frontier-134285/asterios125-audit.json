@@ -1,0 +1,39 @@
+{
+  "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+  "version": 125,
+  "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/125",
+  "score": 134189,
+  "license": "Apache 2.0",
+  "description": "**Every verified program for the 1,000 scored puzzles of Santa 2026 - The Elf Calculator, with its source, plus the data and tools behind our analysis notebook.** Updated in place: one documented change per version (see `history.csv`).\n\nAnalysis notebook: https://www.kaggle.com/code/asteriospanoras/santa-2026-where-instructions-go-what-fails\n\n## Files\n- `puzzles.csv`, `practice_puzzles.csv` - the official competition data, included unchanged so a notebook needs only this dataset (competition rules: data access and use Open Source).\n- `best_programs.csv` - `id`, `instructions`, `source`, `program` (JSON list of `[op, i, j, d]`). Every program replays correctly under the competition rules; total 141,339 in version 1. To submit, write `id,program` with a CSV writer.\n- `experiments.csv` - twelve ideas we tested on the best public programs: how, how many puzzles, the result and why it failed.\n- `headroom_independent_build.csv` - cost of building each remaining target on its own vs the published programs (20 puzzles).\n- `practice_structure_costs.csv` - for every practice target, the exact cost (<= 4) from the starting values plus the smaller targets.\n- `public_lineage.csv` - the public scores of day one, each recomputed from the notebook output.\n- `history.csv` - one line per version.\n- `elf_tools/` - our exact verifier, DAG-aware exact searches (depth 4 and 5), cone re-synthesis, joint-cut and suffix passes, and an extended suffix rebuilder in C++.\n\n## Sources and license\nThe programs are public work released under the Apache License 2.0, re-verified here; `source` names the origin of each one:\nTony Li (Elf Calculator With Register Reuse), konbu17 (Wider Dictionary + Portfolio and its dataset), Elias T.-H. Shieh (Verified Best Programs and dataset), Mizero Lucky Gall and thisray (credited in those datasets), Nilanjan_Saha123 (Best-of-Public Elf Optimizer), Atakan Aldemir (Joint Recipes for Large Puzzles), Angel Jacinto Sanchez Ruiz (Public Merge) and Sargis Khachatryan (Cross-Trace MILP). `elf_tools/elf_suffix_ext.cpp` is based on Nilanjan_Saha123's suffix rebuilder. This dataset is released under the Apache License 2.0.\n",
+  "version_notes": "134,189: public merge + ledger steps",
+  "raw": "best_programs.csv",
+  "raw_sha256": "5db184fa2eb36413efc64d2b0027ff441e5e09bfd9548c9abf971efc8a2cb895",
+  "normalized_sha256": "2976469f23740aea9dc62dac637d73b2d61780e5a8d6b3a89008a0cc9fd31cb8",
+  "archive": "4cbe00439cb97569559ed375fcde2851da4dc1e1e4830fc2f521875f889a10fa",
+  "archive_bytes": 815154,
+  "storage_path": "https://storage.googleapis.com:443/kaggle-data-sets/13468494/22505706/bundle/archive.zip",
+  "dataset_version_id": 22505706,
+  "metadata_version": 125,
+  "utc": "2026-11-20T15:13:52.242761+00:00",
+  "version_evidence": "The SDK catalog identifies version 125, Apache 2.0, and the exact compressed size. The fixed-version download provides the immutable archive. The publisher version note gives 134,189, confirmed by two full replays. The internal history uses an earlier label.",
+  "baseline_score": 134194,
+  "frozen_commit": "95bc3b3595bfc5ca3c0b0cd023814eb854ca5c7a",
+  "winners": {
+    "scored_0791": {
+      "before": 148,
+      "after": 137,
+      "source": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set"
+    }
+  },
+  "complete_rows": 1000,
+  "combined": 134183,
+  "combined_sha256": "a645cc95b02544eb6a973987df2c6e0115b02121fd444556f094f774fd10e183",
+  "history_head": {
+    "version": "v123",
+    "date_utc": "2026-11-20",
+    "total": "134189",
+    "delta": "-100",
+    "change": "newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer",
+    "credit": "Sung Heo, goodpjw2008"
+  }
+}

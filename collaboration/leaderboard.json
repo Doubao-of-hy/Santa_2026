@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-20T14:57:23.907220+00:00",
+  "checked_at": "2026-11-20T15:11:35.707227+00:00",
   "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
   "request": {
     "competitionId": 177055
   },
-  "teams": 1833,
+  "teams": 1836,
   "top": [
     {
       "rank": 1,
@@ -57,5 +57,5 @@
       "teamId": 17384923
     }
   ],
-  "full_response_file_sha256": "831883c8814f87f253b8d0ae37a5cf877e02ff8b84d632b7c88f7a06719676df"
+  "full_response_file_sha256": "a5d4e2d967f465bd793ba9573a82942a583b1464ca8f983899df3703bceb22b5"
 }
