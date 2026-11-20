@@ -18,13 +18,13 @@ from elf import read_puzzles
 from lower_bounds import incidence
 
 
-def queue(max_budget, puzzles_path, bounds_path, gaps_path):
+def queue(max_budget, puzzles_path, bounds_path, gaps_path, max_limit):
     puzzles = read_puzzles(puzzles_path)
     certified = {r["id"]: int(r["certified_lower"]) for r in csv.DictReader(open(bounds_path))}
     upper = {r["id"]: int(r["replayed_upper"]) for r in csv.DictReader(open(gaps_path))}
     items = []
     for p in puzzles:
-        if p.limit <= 128:
+        if p.limit <= 128 or p.limit > max_limit:
             continue
         required, unsupported, *_ = incidence(p)
         if not unsupported:
@@ -43,6 +43,7 @@ def queue(max_budget, puzzles_path, bounds_path, gaps_path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--max-budget", type=int, default=4)
+    ap.add_argument("--max-limit", type=int, default=1_000_000_000)
     ap.add_argument("--node-limit", type=int, default=400_000_000)
     ap.add_argument("--jobs", type=int, default=16)
     ap.add_argument("--binary", type=Path, default=ROOT / "work/proofs/exact_helpers.exe")
@@ -51,7 +52,7 @@ def main():
     done = 0
     for budget, unsupported, limit, pid in queue(
         args.max_budget, ROOT / "data/puzzles.csv", ROOT / "proofs_ext/bounds.csv",
-        ROOT / "proofs_ext/gaps.csv",
+        ROOT / "proofs_ext/gaps.csv", args.max_limit,
     ):
         print(f"=== {pid} budget {budget} unsupported {unsupported} limit {limit}", flush=True)
         result = subprocess.run(
@@ -65,8 +66,8 @@ def main():
             break
         # prove.py prints INCONCLUSIVE / FOUND without recording; detect via receipt.
         if not (ROOT / "proofs_ext/decisions.d" / f"{pid}_h{budget}.json").exists():
-            print("no new receipt; stopping")
-            break
+            print("inconclusive or FOUND; skipping to next puzzle", flush=True)
+            continue
         done += 1
         if args.limit and done >= args.limit:
             break
