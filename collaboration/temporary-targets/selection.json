@@ -1,0 +1,4122 @@
+{
+ "own": [
+  {
+   "id": "scored_0718",
+   "candidates": 13,
+   "base_sha256": "ba8c7b894bf6fde96b7b8b6f29dcdd45fe2fac7a3447065abdb133c8d49089d2",
+   "ranked": {
+    "value": 403778373600,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      403778373600,
+      "-",
+      403778375000,
+      1400
+     ]
+    ],
+    "donor_sha256": "c0983d8ebed39ddf9b82522bad20dc106c53a83131146b9d71f77975e4f0fa6d",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 591524150,
+    "rank": [
+     9,
+     3,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3380138,
+      "*",
+      177902,
+      19
+     ],
+     [
+      591524150,
+      "*",
+      175,
+      3380138
+     ]
+    ],
+    "donor_sha256": "c0983d8ebed39ddf9b82522bad20dc106c53a83131146b9d71f77975e4f0fa6d",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0453",
+   "candidates": 16,
+   "base_sha256": "035400a3c2086a8091d4e717cbf0ae0e739023a3706033e364d14463e03c3296",
+   "ranked": {
+    "value": 560,
+    "rank": [
+     22,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      560,
+      "*",
+      8,
+      70
+     ]
+    ],
+    "donor_sha256": "22b252d0c80c1591086ccceac8f2bc3acdb164b09087f1c192c1a0fad180defc",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 893770811,
+    "rank": [
+     6,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      893770811,
+      "-",
+      893770816,
+      5
+     ]
+    ],
+    "donor_sha256": "22b252d0c80c1591086ccceac8f2bc3acdb164b09087f1c192c1a0fad180defc",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0277",
+   "candidates": 11,
+   "base_sha256": "ecc6f37039af5d10d3948a17e76fe624bfad08e15be53a9c68f862004989df62",
+   "ranked": {
+    "value": 138,
+    "rank": [
+     15,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      138,
+      "+",
+      78,
+      60
+     ]
+    ],
+    "donor_sha256": "042e40c11bcbebb81bce60092198a7fd0f21c99c39d48b9c114a1a4ea01c580d",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 3639,
+    "rank": [
+     4,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3639,
+      "-",
+      3645,
+      6
+     ]
+    ],
+    "donor_sha256": "042e40c11bcbebb81bce60092198a7fd0f21c99c39d48b9c114a1a4ea01c580d",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0545",
+   "candidates": 18,
+   "base_sha256": "7d608af7704e63bbe2952eb9aa06e618c031fb533b3c43c94ec3827f8dc3a2e4",
+   "ranked": {
+    "value": 5,
+    "rank": [
+     22,
+     5,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      5,
+      "-",
+      17,
+      12
+     ]
+    ],
+    "donor_sha256": "9c2f4b2af73a3bdfb2e61b38c21040ccf885838db8140fd172b771ccf366943b",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   },
+   "random": {
+    "value": 120166580,
+    "rank": [
+     6,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      120166580,
+      "*",
+      60083290,
+      2
+     ]
+    ],
+    "donor_sha256": "9c2f4b2af73a3bdfb2e61b38c21040ccf885838db8140fd172b771ccf366943b",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0890",
+   "candidates": 7,
+   "base_sha256": "672e18244096613898fda59c1374c09762250ff8df5682de746480af098a76e7",
+   "ranked": {
+    "value": 594065,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      594065,
+      "+",
+      419896,
+      174169
+     ]
+    ],
+    "donor_sha256": "db0ff7d6098cba07f9434408f1b612609a7c77238b192c955ea2d07a7a6c7fb4",
+    "credit": "work/virtual/resume-135077/polish2-own-holdout.csv"
+   },
+   "random": {
+    "value": 2109,
+    "rank": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      2109,
+      "*",
+      3,
+      703
+     ]
+    ],
+    "donor_sha256": "db0ff7d6098cba07f9434408f1b612609a7c77238b192c955ea2d07a7a6c7fb4",
+    "credit": "work/virtual/resume-135077/polish2-own-holdout.csv"
+   }
+  },
+  {
+   "id": "scored_0927",
+   "candidates": 19,
+   "base_sha256": "44b0137052494a2ebf0ef910e99290681c526ee15ebc5cf0809f76a9bf9be215",
+   "ranked": {
+    "value": 26936822,
+    "rank": [
+     15,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      26936822,
+      "-",
+      26936826,
+      4
+     ]
+    ],
+    "donor_sha256": "50751382fa16134b72e08a9fb3d28f4b686c1fa58b3a415255e2c71955892b55",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 108,
+    "rank": [
+     9,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      108,
+      "-",
+      144,
+      36
+     ]
+    ],
+    "donor_sha256": "50751382fa16134b72e08a9fb3d28f4b686c1fa58b3a415255e2c71955892b55",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0955",
+   "candidates": 11,
+   "base_sha256": "5b6a17cbc71e27a4bb2badd697c22390f81d4c7ddd58b974c52a2906efc856f7",
+   "ranked": {
+    "value": 4913,
+    "rank": [
+     15,
+     5,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      4913,
+      "*",
+      289,
+      17
+     ]
+    ],
+    "donor_sha256": "199d7f3dcc7972370c1e29dbdfb53799787e1846a3a340a43fb5a243a0cbcd20",
+    "credit": "work/virtual/resume-135077/polish2-own-remaining.csv"
+   },
+   "random": {
+    "value": 7643192,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      7643192,
+      "-",
+      7694047,
+      50855
+     ]
+    ],
+    "donor_sha256": "199d7f3dcc7972370c1e29dbdfb53799787e1846a3a340a43fb5a243a0cbcd20",
+    "credit": "work/virtual/resume-135077/polish2-own-remaining.csv"
+   }
+  },
+  {
+   "id": "scored_0232",
+   "candidates": 15,
+   "base_sha256": "81f1360992f16c9aa8fae70b3f8dd06a29ef8c3f54f9e88dbf2eb1f2a1beae83",
+   "ranked": {
+    "value": 398959,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "d3317ba",
+     "own"
+    ],
+    "patch": [
+     [
+      398959,
+      "+",
+      267751,
+      131208
+     ]
+    ],
+    "donor_sha256": "fe03ffff5e2171b72389514642f1be5d2241b2ed3e059c914db4b91912fd129a",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   },
+   "random": {
+    "value": 9906822728,
+    "rank": [
+     9,
+     3,
+     -2
+    ],
+    "origin": [
+     "d3317ba",
+     "own"
+    ],
+    "patch": [
+     [
+      32611216,
+      "+",
+      392292,
+      32218924
+     ],
+     [
+      9906822728,
+      "+",
+      9874211512,
+      32611216
+     ]
+    ],
+    "donor_sha256": "fe03ffff5e2171b72389514642f1be5d2241b2ed3e059c914db4b91912fd129a",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   }
+  },
+  {
+   "id": "scored_0972",
+   "candidates": 9,
+   "base_sha256": "8a31051e4513526a56b7dc23819aa6d49a9cf218af6bd1d65ed8cc73e7699eec",
+   "ranked": {
+    "value": 64,
+    "rank": [
+     18,
+     3,
+     -1
+    ],
+    "origin": [
+     "d3317ba",
+     "own"
+    ],
+    "patch": [
+     [
+      64,
+      "+",
+      51,
+      13
+     ]
+    ],
+    "donor_sha256": "447c7ea8ebeb4b44815cb8908fbe3cfca87084c7bf59c71571d54ad6e0582ad9",
+    "credit": "work/virtual/resume-135077/polish2-own-remaining.csv"
+   },
+   "random": {
+    "value": 5878122,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "d3317ba",
+     "own"
+    ],
+    "patch": [
+     [
+      5878122,
+      "+",
+      405,
+      5877717
+     ]
+    ],
+    "donor_sha256": "447c7ea8ebeb4b44815cb8908fbe3cfca87084c7bf59c71571d54ad6e0582ad9",
+    "credit": "work/virtual/resume-135077/polish2-own-remaining.csv"
+   }
+  },
+  {
+   "id": "scored_0354",
+   "candidates": 12,
+   "base_sha256": "e7124f9d3163db86ab3d6e6354bcd7ce93d3396c904a092564491495131ff2b4",
+   "ranked": {
+    "value": 3589184595271,
+    "rank": [
+     15,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3589184595271,
+      "+",
+      3589184595157,
+      114
+     ]
+    ],
+    "donor_sha256": "d29a0ccab906c4e1c15839b3ce309dc1c6c764f59cdcd4472f12df3ff19c29ff",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 236478,
+    "rank": [
+     4,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      236478,
+      "-",
+      236592,
+      114
+     ]
+    ],
+    "donor_sha256": "d29a0ccab906c4e1c15839b3ce309dc1c6c764f59cdcd4472f12df3ff19c29ff",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0135",
+   "candidates": 14,
+   "base_sha256": "6ba1710d4e6d79750e6378a6cab566d830b192e97a9e29a068e66defddb7075c",
+   "ranked": {
+    "value": 70226920,
+    "rank": [
+     14,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      70226920,
+      "+",
+      69885616,
+      341304
+     ]
+    ],
+    "donor_sha256": "254fcf451e8d626866dbc265b9c5c5ec26ecf164c57dc6e1aed1785e9540552a",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 1285238392,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1285238392,
+      "-",
+      1337375680,
+      52137288
+     ]
+    ],
+    "donor_sha256": "254fcf451e8d626866dbc265b9c5c5ec26ecf164c57dc6e1aed1785e9540552a",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0379",
+   "candidates": 10,
+   "base_sha256": "4a1da19bdbbb53c887c7125a501fa59123e38d7411769567fbed8b2bd8caae1f",
+   "ranked": {
+    "value": 984,
+    "rank": [
+     20,
+     5,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      984,
+      "+",
+      972,
+      12
+     ]
+    ],
+    "donor_sha256": "91f12d0bc4224f9e0e705cdee2310aa34af772edd4e9b3f670148085a6d79b50",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 138774,
+    "rank": [
+     -4,
+     0,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      118122,
+      "+",
+      59061,
+      59061
+     ],
+     [
+      138774,
+      "+",
+      118122,
+      20652
+     ]
+    ],
+    "donor_sha256": "91f12d0bc4224f9e0e705cdee2310aa34af772edd4e9b3f670148085a6d79b50",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0072",
+   "candidates": 13,
+   "base_sha256": "9beedf059a217756921ad9c5d35246d8e14fd8ca78aed618da089830f0d1eea6",
+   "ranked": {
+    "value": 51,
+    "rank": [
+     17,
+     6,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      66,
+      "-",
+      96,
+      30
+     ],
+     [
+      51,
+      "-",
+      66,
+      15
+     ]
+    ],
+    "donor_sha256": "41b3784728d9a2368272fb62b5edb5d7c7a45d10869e80a57754c18cd0bcc48e",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 1322139084750,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1322139084750,
+      "*",
+      9793622850,
+      135
+     ]
+    ],
+    "donor_sha256": "41b3784728d9a2368272fb62b5edb5d7c7a45d10869e80a57754c18cd0bcc48e",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0188",
+   "candidates": 12,
+   "base_sha256": "93030483ab28209d6779007e9a97a25d99d63d2623e927f466b47eb7e4562103",
+   "ranked": {
+    "value": 1244993642,
+    "rank": [
+     16,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1244993642,
+      "+",
+      1244921724,
+      71918
+     ]
+    ],
+    "donor_sha256": "be5aa1df7a5292c5bd534a08584afd4d2de2775f1370899db43f35f3314a8781",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 1320371,
+    "rank": [
+     6,
+     3,
+     -3
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      16604,
+      "-",
+      27740,
+      11136
+     ],
+     [
+      813596,
+      "*",
+      16604,
+      49
+     ],
+     [
+      1320371,
+      "+",
+      506775,
+      813596
+     ]
+    ],
+    "donor_sha256": "be5aa1df7a5292c5bd534a08584afd4d2de2775f1370899db43f35f3314a8781",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0809",
+   "candidates": 19,
+   "base_sha256": "066dbbec2b7454e22ac5a3f147253ca139551dc85b846cde35bd63f23d4dfa5e",
+   "ranked": {
+    "value": 300,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      300,
+      "*",
+      12,
+      25
+     ]
+    ],
+    "donor_sha256": "46bf7310797450022728af290641e8790fd490eaff77ffb049b6a0fe5239a8ba",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   },
+   "random": {
+    "value": 24334,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      24334,
+      "-",
+      24720,
+      386
+     ]
+    ],
+    "donor_sha256": "46bf7310797450022728af290641e8790fd490eaff77ffb049b6a0fe5239a8ba",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0577",
+   "candidates": 6,
+   "base_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+   "ranked": {
+    "value": 52,
+    "rank": [
+     9,
+     3,
+     -1
+    ],
+    "origin": [
+     "aca4989",
+     "own"
+    ],
+    "patch": [
+     [
+      52,
+      "-",
+      17984,
+      17932
+     ]
+    ],
+    "donor_sha256": "7eca37eb8f2528d0abeccd5a701be0fddad0e1bc3273cb86fe20d69471a7a544",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   },
+   "random": {
+    "value": 22680000000,
+    "rank": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     "aca4989",
+     "own"
+    ],
+    "patch": [
+     [
+      22680000000,
+      "*",
+      324000000,
+      70
+     ]
+    ],
+    "donor_sha256": "7eca37eb8f2528d0abeccd5a701be0fddad0e1bc3273cb86fe20d69471a7a544",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0542",
+   "candidates": 13,
+   "base_sha256": "7e4d23da370f795bc1b3ad1d7fe396cf107dc2a731bf25e92bc5c94070a65d6c",
+   "ranked": {
+    "value": 10,
+    "rank": [
+     19,
+     3,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      8,
+      "+",
+      4,
+      4
+     ],
+     [
+      10,
+      "+",
+      8,
+      2
+     ]
+    ],
+    "donor_sha256": "93298fd07e39a99e63cdc631944aa89e9db0135b148c62c53c2f95d2a1f9acc6",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 17850006,
+    "rank": [
+     9,
+     3,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      17849984,
+      "-",
+      28837284,
+      10987300
+     ],
+     [
+      17850006,
+      "+",
+      22,
+      17849984
+     ]
+    ],
+    "donor_sha256": "93298fd07e39a99e63cdc631944aa89e9db0135b148c62c53c2f95d2a1f9acc6",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0436",
+   "candidates": 20,
+   "base_sha256": "1710ef133e116172bee0e4de8d8ad8229d48eb2c27b52b29cc785a355bc6a9bf",
+   "ranked": {
+    "value": 14,
+    "rank": [
+     21,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      14,
+      "+",
+      5,
+      9
+     ]
+    ],
+    "donor_sha256": "941aa9350620b21381b84e6956ea12591893f40e885166a33f4e998e7dee92fb",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 1226237828736466,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1226237828736466,
+      "-",
+      1226237828736942,
+      476
+     ]
+    ],
+    "donor_sha256": "941aa9350620b21381b84e6956ea12591893f40e885166a33f4e998e7dee92fb",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0599",
+   "candidates": 11,
+   "base_sha256": "27c82e673f47f406e4e807124e5aa01e73223dea9ebf4490dd32843e3bafb210",
+   "ranked": {
+    "value": 2672,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      2672,
+      "-",
+      2760,
+      88
+     ]
+    ],
+    "donor_sha256": "0069280b2c9969d48dca0eac0d86f4cb0aef787a59a3b313522c72700e99f1fc",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 350227231806,
+    "rank": [
+     9,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      350227231806,
+      "-",
+      350227240734,
+      8928
+     ]
+    ],
+    "donor_sha256": "0069280b2c9969d48dca0eac0d86f4cb0aef787a59a3b313522c72700e99f1fc",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0492",
+   "candidates": 10,
+   "base_sha256": "4b0794e1a800ce198159e72e4435b5f6dd3b213dac9760ef4f11e07a48c437b8",
+   "ranked": {
+    "value": 133041,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      133041,
+      "-",
+      387072,
+      254031
+     ]
+    ],
+    "donor_sha256": "9655402e9fca5f257eb8b27f91cba4399e8adde0e44d75d63c5e66408d8036bd",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 3408,
+    "rank": [
+     11,
+     3,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3280,
+      "+",
+      3152,
+      128
+     ],
+     [
+      3408,
+      "+",
+      3280,
+      128
+     ]
+    ],
+    "donor_sha256": "9655402e9fca5f257eb8b27f91cba4399e8adde0e44d75d63c5e66408d8036bd",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0807",
+   "candidates": 53,
+   "base_sha256": "77209f5e00a78d5c0dbe53e5b664313e03ba1c36a7060da13e25910bf4b07da2",
+   "ranked": {
+    "value": 2,
+    "rank": [
+     36,
+     7,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      2,
+      "/",
+      38,
+      19
+     ]
+    ],
+    "donor_sha256": "29ee51e4c074cb76b3f4208b0422cd81ab258264dd8050a90e7a2f708336beea",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 15,
+    "rank": [
+     10,
+     3,
+     -2
+    ],
+    "origin": [
+     "aca4989",
+     "own"
+    ],
+    "patch": [
+     [
+      30,
+      "+",
+      20,
+      10
+     ],
+     [
+      15,
+      "-",
+      45,
+      30
+     ]
+    ],
+    "donor_sha256": "8a739759d1fe076522cd64dcb25beee9e3e9620bcd9d6622ed28206a2f6082e8",
+    "credit": "work/virtual/good10-wang-269/results/batch-05/winners.csv"
+   }
+  },
+  {
+   "id": "scored_0022",
+   "candidates": 13,
+   "base_sha256": "1fda6f86c438d4a7f1b1835f26d08c01b4b8662afe6cf01e9e8bf67a397319b6",
+   "ranked": {
+    "value": 7,
+    "rank": [
+     26,
+     5,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      7,
+      "-",
+      31,
+      24
+     ]
+    ],
+    "donor_sha256": "512f8578e2e47fe75a7b37a8d8c31b2f2b580f80a33a347d6dfa440f4771f35c",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   },
+   "random": {
+    "value": 2348544,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      2348544,
+      "-",
+      13345200,
+      10996656
+     ]
+    ],
+    "donor_sha256": "512f8578e2e47fe75a7b37a8d8c31b2f2b580f80a33a347d6dfa440f4771f35c",
+    "credit": "work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0591",
+   "candidates": 16,
+   "base_sha256": "22269413763dc426a7698b6e3952af876cc3a4f447ff8347e038ea43cfb478bb",
+   "ranked": {
+    "value": 66805683,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      66805683,
+      "-",
+      118696396,
+      51890713
+     ]
+    ],
+    "donor_sha256": "da0748b0e31f0f98608682d0317fabd9e8c14bb6b5966e6b72dfd8cb6e577d4c",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 6142877,
+    "rank": [
+     3,
+     1,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      2313961,
+      "-",
+      3085303,
+      771342
+     ],
+     [
+      6142877,
+      "+",
+      3828916,
+      2313961
+     ]
+    ],
+    "donor_sha256": "da0748b0e31f0f98608682d0317fabd9e8c14bb6b5966e6b72dfd8cb6e577d4c",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0304",
+   "candidates": 17,
+   "base_sha256": "2ef3f39b0d0c931b599f1ce52cc4bd3908de71e46f673afe5542ec5a1820ff8a",
+   "ranked": {
+    "value": 307,
+    "rank": [
+     17,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      307,
+      "+",
+      182,
+      125
+     ]
+    ],
+    "donor_sha256": "7bc86b95db57339063c6b3784a5435019ac617cd0e84ab372be7a4e44be3e4ec",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 6890619010,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      6890619010,
+      "*",
+      93245,
+      73898
+     ]
+    ],
+    "donor_sha256": "7bc86b95db57339063c6b3784a5435019ac617cd0e84ab372be7a4e44be3e4ec",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0806",
+   "candidates": 13,
+   "base_sha256": "35d5dd0bffb7d5c6e754bfa2d39705519605fbf8b07de34fb5cdac3c67dc8984",
+   "ranked": {
+    "value": 1930,
+    "rank": [
+     18,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1930,
+      "+",
+      1884,
+      46
+     ]
+    ],
+    "donor_sha256": "dcf2a8de2b066b7c117c7f39e2b29eae763a12cb30893d5494e06a39ff554117",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 141155,
+    "rank": [
+     9,
+     3,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      141088,
+      "+",
+      133552,
+      7536
+     ],
+     [
+      141155,
+      "+",
+      141088,
+      67
+     ]
+    ],
+    "donor_sha256": "dcf2a8de2b066b7c117c7f39e2b29eae763a12cb30893d5494e06a39ff554117",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0077",
+   "candidates": 15,
+   "base_sha256": "0da5ad15ef1f61ebe26b38b678c5bdb2e58e2800906bc7df924843808b867ff8",
+   "ranked": {
+    "value": 16,
+    "rank": [
+     19,
+     5,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "+",
+      8,
+      8
+     ]
+    ],
+    "donor_sha256": "db9d0d8aabe732b676f3b9d4842d8a04180cc633e2ef651428d192b33eaeb669",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 10753536,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      10753536,
+      "*",
+      21003,
+      512
+     ]
+    ],
+    "donor_sha256": "db9d0d8aabe732b676f3b9d4842d8a04180cc633e2ef651428d192b33eaeb669",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0951",
+   "candidates": 13,
+   "base_sha256": "e60c0850fe3f7c12dc37e85ed51b99178de9bcacd86308dc190c7f130fc5c3f1",
+   "ranked": {
+    "value": 21255,
+    "rank": [
+     27,
+     7,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      21255,
+      "+",
+      20924,
+      331
+     ]
+    ],
+    "donor_sha256": "1a90b278ca50dd3da8d9dd008d6f137fb387f891e28747998e882692c749bdf9",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 14245,
+    "rank": [
+     7,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      14245,
+      "-",
+      20909,
+      6664
+     ]
+    ],
+    "donor_sha256": "1a90b278ca50dd3da8d9dd008d6f137fb387f891e28747998e882692c749bdf9",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0185",
+   "candidates": 22,
+   "base_sha256": "b84f0ecc8e734ae94097736034c70b36fa719994d5251ca933db59f27d89ac5c",
+   "ranked": {
+    "value": 11,
+    "rank": [
+     29,
+     7,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      11,
+      "+",
+      4,
+      7
+     ]
+    ],
+    "donor_sha256": "44953f12195adf11837fadf78d62822028a4a4d0c91287bfdc7c852a92057a51",
+    "credit": "work/creative/resume-135077/anneal-own-port160/shorter.csv"
+   },
+   "random": {
+    "value": 29849700395389,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      29849700395389,
+      "-",
+      29849700395397,
+      8
+     ]
+    ],
+    "donor_sha256": "44953f12195adf11837fadf78d62822028a4a4d0c91287bfdc7c852a92057a51",
+    "credit": "work/creative/resume-135077/anneal-own-port160/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0894",
+   "candidates": 16,
+   "base_sha256": "c02f87f98db0cf6f163ca093855cd73ffc82c95ea4039fc5fdb2e4e09086320d",
+   "ranked": {
+    "value": 8,
+    "rank": [
+     38,
+     9,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      8,
+      "+",
+      6,
+      2
+     ]
+    ],
+    "donor_sha256": "d4cc1b2a39632ea57cf31af73a29df64bd4ebbcb921698969392f745abda0693",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 23561344,
+    "rank": [
+     5,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      23561344,
+      "+",
+      23561313,
+      31
+     ]
+    ],
+    "donor_sha256": "d4cc1b2a39632ea57cf31af73a29df64bd4ebbcb921698969392f745abda0693",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0772",
+   "candidates": 17,
+   "base_sha256": "6e84db52dd0a0ce9bb208c963a883f7e9fabfc413f61cee1fc64fa688838ebd5",
+   "ranked": {
+    "value": 3810500,
+    "rank": [
+     15,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3810500,
+      "+",
+      3806388,
+      4112
+     ]
+    ],
+    "donor_sha256": "43b0011411aa4d584f34f26f7afe4939f49c32766c625b53537d533a39f2c68e",
+    "credit": "work/creative/resume-135077/anneal-own-port160/shorter.csv"
+   },
+   "random": {
+    "value": 534836,
+    "rank": [
+     14,
+     4,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      534836,
+      "+",
+      534829,
+      7
+     ]
+    ],
+    "donor_sha256": "43b0011411aa4d584f34f26f7afe4939f49c32766c625b53537d533a39f2c68e",
+    "credit": "work/creative/resume-135077/anneal-own-port160/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0406",
+   "candidates": 26,
+   "base_sha256": "915f3ea437da793f6ce4a76932958852c43db3681b8ac1956a9784e3b8d40078",
+   "ranked": {
+    "value": 11026,
+    "rank": [
+     14,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      11026,
+      "*",
+      298,
+      37
+     ]
+    ],
+    "donor_sha256": "c0591639626254ba9e3fa292265ba0df7f662f4614fa5287a723d1f7c13ed88d",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 2155500021432,
+    "rank": [
+     5,
+     3,
+     -3
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      296,
+      "*",
+      148,
+      2
+     ],
+     [
+      1806789624,
+      "+",
+      1806789328,
+      296
+     ],
+     [
+      2155500021432,
+      "*",
+      1806789624,
+      1193
+     ]
+    ],
+    "donor_sha256": "c0591639626254ba9e3fa292265ba0df7f662f4614fa5287a723d1f7c13ed88d",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0919",
+   "candidates": 13,
+   "base_sha256": "2385481cdf228e31fa27a94f342c5ca5245c553b6065b3d49534f6900fb12f98",
+   "ranked": {
+    "value": 1779,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      1779,
+      "-",
+      1860,
+      81
+     ]
+    ],
+    "donor_sha256": "0c3b15887b09f7ba0d2e2cce6007835539197979f598d846a0bb3d8074766224",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 103943420568,
+    "rank": [
+     2,
+     1,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3997823868,
+      "*",
+      47774,
+      83682
+     ],
+     [
+      103943420568,
+      "*",
+      3997823868,
+      26
+     ]
+    ],
+    "donor_sha256": "0c3b15887b09f7ba0d2e2cce6007835539197979f598d846a0bb3d8074766224",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0247",
+   "candidates": 21,
+   "base_sha256": "10f8b1d741e61bfe0fae5db6bb351df500ee8870083fd6ff5d208a34e956c428",
+   "ranked": {
+    "value": 73,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      73,
+      "+",
+      57,
+      16
+     ]
+    ],
+    "donor_sha256": "071ac210493ceeaafab3b6a4a276d17e348855a82dba73b0354751b902948e3e",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 88875,
+    "rank": [
+     -2,
+     2,
+     -4
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      30,
+      "-",
+      34,
+      4
+     ],
+     [
+      106650,
+      "*",
+      17775,
+      6
+     ],
+     [
+      3555,
+      "/",
+      106650,
+      30
+     ],
+     [
+      88875,
+      "/",
+      315950625,
+      3555
+     ]
+    ],
+    "donor_sha256": "071ac210493ceeaafab3b6a4a276d17e348855a82dba73b0354751b902948e3e",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0441",
+   "candidates": 18,
+   "base_sha256": "b4b46b8fa87d41a195e1e540187b0b890afe4ab3df47635f0d33cc89b2e24325",
+   "ranked": {
+    "value": 18426785632,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      18426785632,
+      "+",
+      16855219840,
+      1571565792
+     ]
+    ],
+    "donor_sha256": "ab47cfb3bc9a2e0d5bfb263cd33facf97ed0ccf18588ef1760dbc413684077b9",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 982685408265537,
+    "rank": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      982685408265537,
+      "-",
+      982685408651184,
+      385647
+     ]
+    ],
+    "donor_sha256": "ab47cfb3bc9a2e0d5bfb263cd33facf97ed0ccf18588ef1760dbc413684077b9",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0604",
+   "candidates": 17,
+   "base_sha256": "f4fb770f3466b13f348125c59550e6d48649f8a40fbf3df15239254a8c5ef77b",
+   "ranked": {
+    "value": 18586339782,
+    "rank": [
+     18,
+     6,
+     -2
+    ],
+    "origin": [
+     "aca4989",
+     "own"
+    ],
+    "patch": [
+     [
+      87,
+      "-",
+      128,
+      41
+     ],
+     [
+      18586339782,
+      "/",
+      1617011561034,
+      87
+     ]
+    ],
+    "donor_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "credit": "work/creative/own-good/cumulative-wins.csv"
+   },
+   "random": {
+    "value": 2149,
+    "rank": [
+     16,
+     5,
+     -2
+    ],
+    "origin": [
+     "aca4989",
+     "own"
+    ],
+    "patch": [
+     [
+      3193,
+      "+",
+      3168,
+      25
+     ],
+     [
+      2149,
+      "-",
+      3193,
+      1044
+     ]
+    ],
+    "donor_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "credit": "work/creative/own-good/cumulative-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0590",
+   "candidates": 21,
+   "base_sha256": "864e1bab8a45f6ceb55de9687f7058f38e8faab4462ef31e9055e804c1e8a2d7",
+   "ranked": {
+    "value": 284,
+    "rank": [
+     22,
+     6,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      284,
+      "-",
+      288,
+      4
+     ]
+    ],
+    "donor_sha256": "fed0431848fc6e9ac226dabf1b27a6e7713529c89d73725667173c675aabbeed",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 884448,
+    "rank": [
+     1,
+     1,
+     -2
+    ],
+    "origin": [
+     "62378d6",
+     "own"
+    ],
+    "patch": [
+     [
+      3071,
+      "+",
+      3067,
+      4
+     ],
+     [
+      884448,
+      "*",
+      3071,
+      288
+     ]
+    ],
+    "donor_sha256": "fed0431848fc6e9ac226dabf1b27a6e7713529c89d73725667173c675aabbeed",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  }
+ ],
+ "public": [
+  {
+   "id": "scored_0745",
+   "candidates": 37,
+   "base_sha256": "3da65cf101144fe3b8bab0b2ea1cd30718ffe744165d98544e3ebe498092305b",
+   "ranked": {
+    "value": 65,
+    "rank": [
+     18,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      65,
+      "+",
+      64,
+      1
+     ]
+    ],
+    "donor_sha256": "63955e6fee759a15d4b29b3786d833cef5261b78cced38cec18d6307628974db",
+    "credit": "work/creative/carry-gpu/full-own-wins.csv"
+   },
+   "random": {
+    "value": 112775,
+    "rank": [
+     -4,
+     0,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      65,
+      "+",
+      64,
+      1
+     ],
+     [
+      112775,
+      "*",
+      65,
+      1735
+     ]
+    ],
+    "donor_sha256": "63955e6fee759a15d4b29b3786d833cef5261b78cced38cec18d6307628974db",
+    "credit": "work/creative/carry-gpu/full-own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0448",
+   "candidates": 50,
+   "base_sha256": "fdc4c7c2cd87b8cabeb8b57112a75872638cd4b9e80215e5b5299de5c1eb7f8b",
+   "ranked": {
+    "value": 65,
+    "rank": [
+     9,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      65,
+      "+",
+      1,
+      64
+     ]
+    ],
+    "donor_sha256": "480998061a3f8121f2a153ff5025f8b322a0e5ecf98bbfeffcfde0c7baf34dad",
+    "credit": "work/virtual/bank-135324/own-repeat.csv"
+   },
+   "random": {
+    "value": 389,
+    "rank": [
+     -6,
+     0,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      7,
+      "-",
+      8,
+      1
+     ],
+     [
+      19,
+      "+",
+      3,
+      16
+     ],
+     [
+      133,
+      "*",
+      7,
+      19
+     ],
+     [
+      389,
+      "+",
+      133,
+      256
+     ]
+    ],
+    "donor_sha256": "480998061a3f8121f2a153ff5025f8b322a0e5ecf98bbfeffcfde0c7baf34dad",
+    "credit": "work/virtual/bank-135324/own-repeat.csv"
+   }
+  },
+  {
+   "id": "scored_0265",
+   "candidates": 40,
+   "base_sha256": "2c67b16ffe14f8a3cf3c610fa3ebc5629750842528c31d5f045202b9408e0816",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     223,
+     2,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      13,
+      13
+     ]
+    ],
+    "donor_sha256": "4b6cca4d270cdb43a52b27004dc09331e68518176e10a13f0a281c7483bbc12d",
+    "credit": "work/heritage/deep-own-wins.csv"
+   },
+   "random": {
+    "value": 16,
+    "rank": [
+     9,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "*",
+      4,
+      4
+     ]
+    ],
+    "donor_sha256": "4b6cca4d270cdb43a52b27004dc09331e68518176e10a13f0a281c7483bbc12d",
+    "credit": "work/heritage/deep-own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0411",
+   "candidates": 38,
+   "base_sha256": "be2c4d84442c2f12b54fb7438e23cc687f194809a1db77bf321785e9ffb68524",
+   "ranked": {
+    "value": 3,
+    "rank": [
+     12,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      3,
+      "+",
+      2,
+      1
+     ]
+    ],
+    "donor_sha256": "4b0ab14a1ae64200a3bbdc8b269e47fe3bf12d4b6eaf85b6585c305169bd7a2c",
+    "credit": "work/virtual/portfolio-135289/own-wide-all.csv"
+   },
+   "random": {
+    "value": 65546,
+    "rank": [
+     -12,
+     0,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      256,
+      "*",
+      32,
+      8
+     ],
+     [
+      65536,
+      "*",
+      256,
+      256
+     ],
+     [
+      3,
+      "+",
+      2,
+      1
+     ],
+     [
+      7,
+      "+",
+      4,
+      3
+     ],
+     [
+      65539,
+      "+",
+      65536,
+      3
+     ],
+     [
+      65546,
+      "+",
+      65539,
+      7
+     ]
+    ],
+    "donor_sha256": "4b0ab14a1ae64200a3bbdc8b269e47fe3bf12d4b6eaf85b6585c305169bd7a2c",
+    "credit": "work/virtual/portfolio-135289/own-wide-all.csv"
+   }
+  },
+  {
+   "id": "scored_0723",
+   "candidates": 36,
+   "base_sha256": "7ed49303246fec5d711ee70fa494880a8be4c2d1d1d2809bd64fcf0c17067bb8",
+   "ranked": {
+    "value": 24250,
+    "rank": [
+     22,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      24250,
+      "+",
+      16977,
+      7273
+     ]
+    ],
+    "donor_sha256": "9e39a29427b16fe68d5f253d78ace36f965cd51281d9c312425b1a3527f0113b",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   },
+   "random": {
+    "value": 65,
+    "rank": [
+     2,
+     3,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      8,
+      "+",
+      4,
+      4
+     ],
+     [
+      13,
+      "-",
+      21,
+      8
+     ],
+     [
+      5,
+      "-",
+      13,
+      8
+     ],
+     [
+      65,
+      "*",
+      5,
+      13
+     ]
+    ],
+    "donor_sha256": "9e39a29427b16fe68d5f253d78ace36f965cd51281d9c312425b1a3527f0113b",
+    "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0366",
+   "candidates": 36,
+   "base_sha256": "6ee4601c4233fc0a37f6169241b6e52d215ecc67eae989bb168450b24dde85ca",
+   "ranked": {
+    "value": 9,
+    "rank": [
+     18,
+     4,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      9,
+      "-",
+      15,
+      6
+     ]
+    ],
+    "donor_sha256": "1f4092d82a8c18b406a190a928053bbf9c64e589efd00e51207402e7ac6c93f7",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 19712,
+    "rank": [
+     -10,
+     0,
+     -5
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "-",
+      22,
+      6
+     ],
+     [
+      44,
+      "+",
+      22,
+      22
+     ],
+     [
+      77,
+      "+",
+      44,
+      33
+     ],
+     [
+      256,
+      "*",
+      16,
+      16
+     ],
+     [
+      19712,
+      "*",
+      256,
+      77
+     ]
+    ],
+    "donor_sha256": "1f4092d82a8c18b406a190a928053bbf9c64e589efd00e51207402e7ac6c93f7",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0037",
+   "candidates": 29,
+   "base_sha256": "74fe2b8700c0c0fcd54246d25dc3eb0dc3379775fded233a1a09251e0ae814e4",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     225,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      9,
+      9
+     ]
+    ],
+    "donor_sha256": "884c6b18e8f77ec483ef98794fb2dfbec2e16e8f6779411ec2c549fbd0e52fc9",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   },
+   "random": {
+    "value": 8930,
+    "rank": [
+     -12,
+     0,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      9,
+      9
+     ],
+     [
+      225,
+      "*",
+      9,
+      25
+     ],
+     [
+      226,
+      "+",
+      1,
+      225
+     ],
+     [
+      245,
+      "+",
+      19,
+      226
+     ],
+     [
+      470,
+      "+",
+      225,
+      245
+     ],
+     [
+      8930,
+      "*",
+      19,
+      470
+     ]
+    ],
+    "donor_sha256": "884c6b18e8f77ec483ef98794fb2dfbec2e16e8f6779411ec2c549fbd0e52fc9",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   }
+  },
+  {
+   "id": "scored_0983",
+   "candidates": 37,
+   "base_sha256": "ab1c246209bee3a2cc7aa63b783cff4ad172fe0ed8d9d062f759e03c06f476e0",
+   "ranked": {
+    "value": 4,
+    "rank": [
+     25,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      4,
+      "+",
+      2,
+      2
+     ]
+    ],
+    "donor_sha256": "786b2980c3559b0ca22249d27414e474707c52591c75d493444beb14b34d01c7",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   },
+   "random": {
+    "value": 94850503,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      94850503,
+      "-",
+      94850514,
+      11
+     ]
+    ],
+    "donor_sha256": "786b2980c3559b0ca22249d27414e474707c52591c75d493444beb14b34d01c7",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   }
+  },
+  {
+   "id": "scored_0492",
+   "candidates": 10,
+   "base_sha256": "4b0794e1a800ce198159e72e4435b5f6dd3b213dac9760ef4f11e07a48c437b8",
+   "ranked": {
+    "value": 133041,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "public"
+    ],
+    "patch": [
+     [
+      133041,
+      "-",
+      387072,
+      254031
+     ]
+    ],
+    "donor_sha256": "9655402e9fca5f257eb8b27f91cba4399e8adde0e44d75d63c5e66408d8036bd",
+    "credit": "Generated from official inputs"
+   },
+   "random": {
+    "value": 879,
+    "rank": [
+     4,
+     1,
+     -1
+    ],
+    "origin": [
+     "62378d6",
+     "public"
+    ],
+    "patch": [
+     [
+      879,
+      "*",
+      293,
+      3
+     ]
+    ],
+    "donor_sha256": "9655402e9fca5f257eb8b27f91cba4399e8adde0e44d75d63c5e66408d8036bd",
+    "credit": "Generated from official inputs"
+   }
+  },
+  {
+   "id": "scored_0281",
+   "candidates": 24,
+   "base_sha256": "bb358840df0683dd0d244fe0c6f8b4cc59956c5672a9bfd0e676c67dffd43a2c",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     207,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      3,
+      3
+     ]
+    ],
+    "donor_sha256": "457e22b6f648549380f990bf4ba6ba55ca82df562182a23c9835c70a3596fa3d",
+    "credit": "work/creative/own-good/part2-wins.csv"
+   },
+   "random": {
+    "value": 1195,
+    "rank": [
+     7,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1195,
+      "+",
+      1109,
+      86
+     ]
+    ],
+    "donor_sha256": "457e22b6f648549380f990bf4ba6ba55ca82df562182a23c9835c70a3596fa3d",
+    "credit": "work/creative/own-good/part2-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0945",
+   "candidates": 11,
+   "base_sha256": "dd23cacd8fffb0076972d02f44acc781a9c9388b43562611d5defcf5b67bfb26",
+   "ranked": {
+    "value": 1536,
+    "rank": [
+     27,
+     7,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1536,
+      "+",
+      15,
+      1521
+     ]
+    ],
+    "donor_sha256": "510d973e1fd4a404f323ff19b251eb57e4b2093d57b42d79cbe1610767f18a19",
+    "credit": "work/virtual/whole-135358/sparse.csv"
+   },
+   "random": {
+    "value": 2360,
+    "rank": [
+     9,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      2360,
+      "*",
+      4,
+      590
+     ]
+    ],
+    "donor_sha256": "510d973e1fd4a404f323ff19b251eb57e4b2093d57b42d79cbe1610767f18a19",
+    "credit": "work/virtual/whole-135358/sparse.csv"
+   }
+  },
+  {
+   "id": "scored_0778",
+   "candidates": 47,
+   "base_sha256": "e92f862a8cb70be9e2cdc7ec22cb1a8ab1a41f29fa1be15148e874b44131dbdc",
+   "ranked": {
+    "value": 49,
+    "rank": [
+     16,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      49,
+      "*",
+      7,
+      7
+     ]
+    ],
+    "donor_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "credit": "work/creative/own-good/cumulative-wins.csv"
+   },
+   "random": {
+    "value": 26267,
+    "rank": [
+     -10,
+     0,
+     -5
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      23,
+      "+",
+      16,
+      7
+     ],
+     [
+      324,
+      "*",
+      18,
+      18
+     ],
+     [
+      81,
+      "/",
+      324,
+      4
+     ],
+     [
+      26244,
+      "*",
+      81,
+      324
+     ],
+     [
+      26267,
+      "+",
+      23,
+      26244
+     ]
+    ],
+    "donor_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "credit": "work/creative/own-good/cumulative-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0543",
+   "candidates": 41,
+   "base_sha256": "86ecf6894f1a5b12b392f01dfc2127b2883015bae31e6f8c72c8e700cd01f9aa",
+   "ranked": {
+    "value": 73984,
+    "rank": [
+     19,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      73984,
+      "*",
+      272,
+      272
+     ]
+    ],
+    "donor_sha256": "db489bdbac36c39a4300beebc38051a54837d044ae470f92b61081207bb9bfb0",
+    "credit": "work/gpu/lineage-independent.csv"
+   },
+   "random": {
+    "value": 1133866135,
+    "rank": [
+     -4,
+     0,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      52579,
+      "-",
+      52643,
+      64
+     ],
+     [
+      1133866135,
+      "*",
+      21565,
+      52579
+     ]
+    ],
+    "donor_sha256": "db489bdbac36c39a4300beebc38051a54837d044ae470f92b61081207bb9bfb0",
+    "credit": "work/gpu/lineage-independent.csv"
+   }
+  },
+  {
+   "id": "scored_0843",
+   "candidates": 34,
+   "base_sha256": "dbc92490a42b16ebc708583592a89ab6a214c4627323d6c33dac54cc1f71dd60",
+   "ranked": {
+    "value": 22410756,
+    "rank": [
+     11,
+     6,
+     -5
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      10,
+      "+",
+      8,
+      2
+     ],
+     [
+      74,
+      "+",
+      10,
+      64
+     ],
+     [
+      4736,
+      "*",
+      74,
+      64
+     ],
+     [
+      4734,
+      "-",
+      4736,
+      2
+     ],
+     [
+      22410756,
+      "*",
+      4734,
+      4734
+     ]
+    ],
+    "donor_sha256": "c486208b46e9d99455c915c1eda74490ab48279823ff913e276108290bfd9a4b",
+    "credit": "work/virtual/portfolio-135289/own-wide-all.csv"
+   },
+   "random": {
+    "value": 10240,
+    "rank": [
+     -6,
+     0,
+     -3
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1024,
+      "*",
+      16,
+      64
+     ],
+     [
+      10,
+      "+",
+      8,
+      2
+     ],
+     [
+      10240,
+      "*",
+      10,
+      1024
+     ]
+    ],
+    "donor_sha256": "c486208b46e9d99455c915c1eda74490ab48279823ff913e276108290bfd9a4b",
+    "credit": "work/virtual/portfolio-135289/own-wide-all.csv"
+   }
+  },
+  {
+   "id": "scored_0781",
+   "candidates": 58,
+   "base_sha256": "967186efa8e2250ffebbe1f41d0771b6a44bf145a07562ab77c68b09f0d52362",
+   "ranked": {
+    "value": 5,
+    "rank": [
+     13,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      5,
+      "+",
+      4,
+      1
+     ]
+    ],
+    "donor_sha256": "80b8f1b2b65ae61d20b876ed0deb78afdaaca4ef70530d0985098af01bd5fd47",
+    "credit": "work/heritage/deep-own-wins.csv"
+   },
+   "random": {
+    "value": 6025,
+    "rank": [
+     -1,
+     0,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      5,
+      "+",
+      4,
+      1
+     ],
+     [
+      6025,
+      "*",
+      5,
+      1205
+     ]
+    ],
+    "donor_sha256": "80b8f1b2b65ae61d20b876ed0deb78afdaaca4ef70530d0985098af01bd5fd47",
+    "credit": "work/heritage/deep-own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0463",
+   "candidates": 40,
+   "base_sha256": "1d74da93f9b2bcc0c34c6416ad7a9c0d987c98ee26eecc8542aab7a347f5d195",
+   "ranked": {
+    "value": 91925,
+    "rank": [
+     26,
+     7,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      21,
+      "-",
+      26,
+      5
+     ],
+     [
+      91925,
+      "-",
+      91946,
+      21
+     ]
+    ],
+    "donor_sha256": "21108df821354adac90fea890dc7d83a2a150028f2124ebb1a3dd4c21b925a9b",
+    "credit": "work/gpu/walk-independent.csv"
+   },
+   "random": {
+    "value": 173112,
+    "rank": [
+     7,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      173112,
+      "+",
+      173087,
+      25
+     ]
+    ],
+    "donor_sha256": "21108df821354adac90fea890dc7d83a2a150028f2124ebb1a3dd4c21b925a9b",
+    "credit": "work/gpu/walk-independent.csv"
+   }
+  },
+  {
+   "id": "scored_0059",
+   "candidates": 30,
+   "base_sha256": "bb58d1984237615301f4eb921de3313c0b828fb6c5395db03f0bc0b8346fb5a5",
+   "ranked": {
+    "value": 33,
+    "rank": [
+     21,
+     7,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      33,
+      "+",
+      4,
+      29
+     ]
+    ],
+    "donor_sha256": "7469dcedc5b318524614a930a95d026943ff91f298e8f06607a32a6975b2dbae",
+    "credit": "work/gpu/graft-walk-independent.csv"
+   },
+   "random": {
+    "value": 65536,
+    "rank": [
+     -8,
+     0,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      128,
+      "*",
+      8,
+      16
+     ],
+     [
+      1024,
+      "*",
+      128,
+      8
+     ],
+     [
+      4096,
+      "*",
+      1024,
+      4
+     ],
+     [
+      65536,
+      "*",
+      4096,
+      16
+     ]
+    ],
+    "donor_sha256": "7469dcedc5b318524614a930a95d026943ff91f298e8f06607a32a6975b2dbae",
+    "credit": "work/gpu/graft-walk-independent.csv"
+   }
+  },
+  {
+   "id": "scored_0298",
+   "candidates": 37,
+   "base_sha256": "bfac1e66670fa447cd375377683f199de7e4668cf001c2ccda1cc6b20e0d663d",
+   "ranked": {
+    "value": 420863,
+    "rank": [
+     13,
+     3,
+     -1
+    ],
+    "origin": [
+     "d3317ba",
+     "public"
+    ],
+    "patch": [
+     [
+      420863,
+      "-",
+      585300,
+      164437
+     ]
+    ],
+    "donor_sha256": "9e5e8732423acdf89bce408485b6d12351ba8c5b275be962998e017d1e0dd323",
+    "credit": "suka, Verified Portfolio Programs dataset"
+   },
+   "random": {
+    "value": 267200,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "d3317ba",
+     "public"
+    ],
+    "patch": [
+     [
+      267200,
+      "*",
+      4175,
+      64
+     ]
+    ],
+    "donor_sha256": "9e5e8732423acdf89bce408485b6d12351ba8c5b275be962998e017d1e0dd323",
+    "credit": "suka, Verified Portfolio Programs dataset"
+   }
+  },
+  {
+   "id": "scored_0369",
+   "candidates": 41,
+   "base_sha256": "7b40330357d3f7fd2140b3aa75b3a9a7482b1d565adefa6eedb701f485be2bdc",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     261,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      2,
+      2
+     ]
+    ],
+    "donor_sha256": "60b6569606372dfb8f9e5a38f3e352916db7e9524418b5b328f4d51ab50e7f19",
+    "credit": "work/creative/own-good/part2-wins.csv"
+   },
+   "random": {
+    "value": 22,
+    "rank": [
+     11,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      22,
+      "-",
+      24,
+      2
+     ]
+    ],
+    "donor_sha256": "60b6569606372dfb8f9e5a38f3e352916db7e9524418b5b328f4d51ab50e7f19",
+    "credit": "work/creative/own-good/part2-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0743",
+   "candidates": 44,
+   "base_sha256": "a88fbc93317d3e46db89075062ecdc748ef13f81453c15b5ac5775b1ca05a8bb",
+   "ranked": {
+    "value": 2,
+    "rank": [
+     19,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      2,
+      "-",
+      17,
+      15
+     ]
+    ],
+    "donor_sha256": "61448e576418f7e1b51985fa5477f33ed96237128be3f77ffc26331b2bb31366",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   },
+   "random": {
+    "value": 306,
+    "rank": [
+     17,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      306,
+      "+",
+      17,
+      289
+     ]
+    ],
+    "donor_sha256": "61448e576418f7e1b51985fa5477f33ed96237128be3f77ffc26331b2bb31366",
+    "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0682",
+   "candidates": 64,
+   "base_sha256": "e0f9baa07a2cfc5eb0a5632ca1caf18ad54719dc5e6b01ce46b6b1bcd768c290",
+   "ranked": {
+    "value": 71,
+    "rank": [
+     9,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      71,
+      "-",
+      1012,
+      941
+     ]
+    ],
+    "donor_sha256": "92d3516536e788a64db4a3a63956762b8c835171279069cc9aa21f25adb7eba8",
+    "credit": "work/gen/atlas-expanded.csv"
+   },
+   "random": {
+    "value": 484,
+    "rank": [
+     -2,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      484,
+      "-",
+      1425,
+      941
+     ]
+    ],
+    "donor_sha256": "92d3516536e788a64db4a3a63956762b8c835171279069cc9aa21f25adb7eba8",
+    "credit": "work/gen/atlas-expanded.csv"
+   }
+  },
+  {
+   "id": "scored_0948",
+   "candidates": 25,
+   "base_sha256": "ec85d1078dbde28414f0a2b513da9cc47e3106459f4edb233cc74603d35bb9d4",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     171,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      3,
+      3
+     ]
+    ],
+    "donor_sha256": "f525371498371b823b53235973e08c21287c798bf3bdec2c799936d2c3a144de",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 4351875,
+    "rank": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      4351875,
+      "*",
+      174075,
+      25
+     ]
+    ],
+    "donor_sha256": "f525371498371b823b53235973e08c21287c798bf3bdec2c799936d2c3a144de",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0924",
+   "candidates": 33,
+   "base_sha256": "6a9fa0414757a6053650c304e6cba3449077f7c4fc46113363ba0dcb003042fd",
+   "ranked": {
+    "value": 423,
+    "rank": [
+     17,
+     4,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      423,
+      "*",
+      141,
+      3
+     ]
+    ],
+    "donor_sha256": "63497b270b6492f5e6c7ad06eefdfb8851df912e55816a037cafce95edc03d3b",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 1562141,
+    "rank": [
+     11,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1562141,
+      "-",
+      1562624,
+      483
+     ]
+    ],
+    "donor_sha256": "63497b270b6492f5e6c7ad06eefdfb8851df912e55816a037cafce95edc03d3b",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0444",
+   "candidates": 68,
+   "base_sha256": "0494ba7b33245af1a4837ccb4ad978efa8588c9184dd6b9502e4bb5ffc3ed125",
+   "ranked": {
+    "value": 16,
+    "rank": [
+     19,
+     6,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "*",
+      2,
+      8
+     ]
+    ],
+    "donor_sha256": "45aafc97a6739d64241d130122df4c0e6e3da13bc1d6de6d1be96f35f89fc3e1",
+    "credit": "work/virtual/carry-135348/own-full-deep.csv"
+   },
+   "random": {
+    "value": 15578,
+    "rank": [
+     -12,
+     0,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      32,
+      "*",
+      4,
+      8
+     ],
+     [
+      16800,
+      "*",
+      32,
+      525
+     ],
+     [
+      1743,
+      "+",
+      339,
+      1404
+     ],
+     [
+      521,
+      "-",
+      525,
+      4
+     ],
+     [
+      1222,
+      "-",
+      1743,
+      521
+     ],
+     [
+      15578,
+      "-",
+      16800,
+      1222
+     ]
+    ],
+    "donor_sha256": "45aafc97a6739d64241d130122df4c0e6e3da13bc1d6de6d1be96f35f89fc3e1",
+    "credit": "work/virtual/carry-135348/own-full-deep.csv"
+   }
+  },
+  {
+   "id": "scored_0478",
+   "candidates": 28,
+   "base_sha256": "01d819800681f1d83a351e167724f125ea532720d8b6683fded8b723eea693f3",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     90,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      42,
+      42
+     ]
+    ],
+    "donor_sha256": "93721d8c63e992f0da2704753557ce78f431288e3edba64b725b43fe6dc66ad1",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   },
+   "random": {
+    "value": 78,
+    "rank": [
+     -2,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      78,
+      "-",
+      120,
+      42
+     ]
+    ],
+    "donor_sha256": "93721d8c63e992f0da2704753557ce78f431288e3edba64b725b43fe6dc66ad1",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   }
+  },
+  {
+   "id": "scored_0803",
+   "candidates": 45,
+   "base_sha256": "13afec0827f0ab3e33d4d89fb5a9d3e80abff2356bef79dc5e4933f69e7295b5",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     154,
+     0,
+     -3
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      36,
+      "*",
+      6,
+      6
+     ],
+     [
+      4,
+      "-",
+      36,
+      32
+     ],
+     [
+      1,
+      "/",
+      4,
+      4
+     ]
+    ],
+    "donor_sha256": "d312fe90e062ad193c81b78c8cf951ecb56fa7c2ff4eff4ba8dc9aeedfabae55",
+    "credit": "work/heritage/deep-own-wins.csv"
+   },
+   "random": {
+    "value": 1664100,
+    "rank": [
+     -5,
+     1,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      36,
+      "*",
+      6,
+      6
+     ],
+     [
+      1296,
+      "*",
+      36,
+      36
+     ],
+     [
+      1290,
+      "-",
+      1296,
+      6
+     ],
+     [
+      1664100,
+      "*",
+      1290,
+      1290
+     ]
+    ],
+    "donor_sha256": "d312fe90e062ad193c81b78c8cf951ecb56fa7c2ff4eff4ba8dc9aeedfabae55",
+    "credit": "work/heritage/deep-own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0780",
+   "candidates": 54,
+   "base_sha256": "0cf6c86fefa3fa908a5d90db4ddd38c27236e865e4203f7982e60264c9a2d8b8",
+   "ranked": {
+    "value": 16,
+    "rank": [
+     18,
+     4,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "*",
+      4,
+      4
+     ]
+    ],
+    "donor_sha256": "c66b5206ca1fa398cd5b897512bf2ffa3ae76db80398f527ce9df485b39de491",
+    "credit": "work/gpu/forced-active-independent.csv"
+   },
+   "random": {
+    "value": 59295,
+    "rank": [
+     -6,
+     0,
+     -3
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      128,
+      "*",
+      32,
+      4
+     ],
+     [
+      67,
+      "-",
+      195,
+      128
+     ],
+     [
+      59295,
+      "*",
+      67,
+      885
+     ]
+    ],
+    "donor_sha256": "c66b5206ca1fa398cd5b897512bf2ffa3ae76db80398f527ce9df485b39de491",
+    "credit": "work/gpu/forced-active-independent.csv"
+   }
+  },
+  {
+   "id": "scored_0849",
+   "candidates": 50,
+   "base_sha256": "45a584b9deeb25cbab2b6aefb0380990624c0964d5823c58a11510110b3c12f9",
+   "ranked": {
+    "value": 24,
+    "rank": [
+     19,
+     6,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      64,
+      "*",
+      32,
+      2
+     ],
+     [
+      4,
+      "+",
+      2,
+      2
+     ],
+     [
+      96,
+      "+",
+      64,
+      32
+     ],
+     [
+      24,
+      "/",
+      96,
+      4
+     ]
+    ],
+    "donor_sha256": "e13cd1ecfb5fb4aa656479260b4506420e3804657361edc979eaa45f15d43847",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   },
+   "random": {
+    "value": 19746725,
+    "rank": [
+     -12,
+     0,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      240,
+      "-",
+      256,
+      16
+     ],
+     [
+      4320,
+      "*",
+      240,
+      18
+     ],
+     [
+      19906560,
+      "*",
+      4608,
+      4320
+     ],
+     [
+      159840,
+      "*",
+      37,
+      4320
+     ],
+     [
+      159835,
+      "-",
+      159840,
+      5
+     ],
+     [
+      19746725,
+      "-",
+      19906560,
+      159835
+     ]
+    ],
+    "donor_sha256": "e13cd1ecfb5fb4aa656479260b4506420e3804657361edc979eaa45f15d43847",
+    "credit": "work/virtual/lifetimes-135161/own-broad-all.csv"
+   }
+  },
+  {
+   "id": "scored_0544",
+   "candidates": 54,
+   "base_sha256": "53441d0bf15ab5e7d1f1a000e10236aba3a16b2a585bdab32c805b99f04488a7",
+   "ranked": {
+    "value": 107271,
+    "rank": [
+     5,
+     3,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      783,
+      "/",
+      1566,
+      2
+     ],
+     [
+      107271,
+      "+",
+      783,
+      106488
+     ]
+    ],
+    "donor_sha256": "bc96ebb9a8df74e87354507c1e95148032e50449782566c7c66a556d63568487",
+    "credit": "work/virtual/bank-135324/own-neutral-hold.csv"
+   },
+   "random": {
+    "value": 4096,
+    "rank": [
+     -4,
+     0,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      64,
+      "*",
+      8,
+      8
+     ],
+     [
+      4096,
+      "*",
+      64,
+      64
+     ]
+    ],
+    "donor_sha256": "bc96ebb9a8df74e87354507c1e95148032e50449782566c7c66a556d63568487",
+    "credit": "work/virtual/bank-135324/own-neutral-hold.csv"
+   }
+  },
+  {
+   "id": "scored_0248",
+   "candidates": 45,
+   "base_sha256": "f7b28e1deab6a1d954a5c340167afb8fb62dbe535455a6a3f739fa573e87ab73",
+   "ranked": {
+    "value": 2281,
+    "rank": [
+     5,
+     3,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1038,
+      "-",
+      1350,
+      312
+     ],
+     [
+      2281,
+      "+",
+      1038,
+      1243
+     ]
+    ],
+    "donor_sha256": "4ab11b17abc814b9916e3ceefc16c2b96f6cf124f04539ec9fa1c7e78ffbb0cb",
+    "credit": "work/virtual/bank-135324/own-neutral-full.csv"
+   },
+   "random": {
+    "value": 254257,
+    "rank": [
+     -12,
+     0,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1038,
+      "-",
+      1350,
+      312
+     ],
+     [
+      2388,
+      "+",
+      1038,
+      1350
+     ],
+     [
+      107,
+      "-",
+      1350,
+      1243
+     ],
+     [
+      255516,
+      "*",
+      2388,
+      107
+     ],
+     [
+      1259,
+      "-",
+      1670,
+      411
+     ],
+     [
+      254257,
+      "-",
+      255516,
+      1259
+     ]
+    ],
+    "donor_sha256": "4ab11b17abc814b9916e3ceefc16c2b96f6cf124f04539ec9fa1c7e78ffbb0cb",
+    "credit": "work/virtual/bank-135324/own-neutral-full.csv"
+   }
+  },
+  {
+   "id": "scored_0827",
+   "candidates": 31,
+   "base_sha256": "c9164c57737c87a7fbc21db345cbace2c3830e5dd232668c7a7aada775131e88",
+   "ranked": {
+    "value": 42871,
+    "rank": [
+     12,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      42871,
+      "+",
+      24613,
+      18258
+     ]
+    ],
+    "donor_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "credit": "work/virtual/reactive-134311/accepted/independent-shorter.csv"
+   },
+   "random": {
+    "value": 192049473,
+    "rank": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      192049473,
+      "*",
+      30723,
+      6251
+     ]
+    ],
+    "donor_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "credit": "work/virtual/reactive-134311/accepted/independent-shorter.csv"
+   }
+  },
+  {
+   "id": "scored_0491",
+   "candidates": 50,
+   "base_sha256": "ad8a1a676cb0ec51e1f7c007705cbeca627ce69750dd54663b44cca8244e7994",
+   "ranked": {
+    "value": 16,
+    "rank": [
+     19,
+     3,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      16,
+      "+",
+      2,
+      14
+     ]
+    ],
+    "donor_sha256": "f9e8bcd3234ebf0f453e5b6d61d58cca0b3a136c4d753c95c2f707c5a8797847",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   },
+   "random": {
+    "value": 980,
+    "rank": [
+     -4,
+     0,
+     -3
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      31,
+      "+",
+      2,
+      29
+     ],
+     [
+      961,
+      "*",
+      31,
+      31
+     ],
+     [
+      980,
+      "+",
+      19,
+      961
+     ]
+    ],
+    "donor_sha256": "f9e8bcd3234ebf0f453e5b6d61d58cca0b3a136c4d753c95c2f707c5a8797847",
+    "credit": "work/virtual/portfolio-135289/own-all.csv"
+   }
+  },
+  {
+   "id": "scored_0579",
+   "candidates": 29,
+   "base_sha256": "7f021488e2e00aa3e13952d56491d3c77637573001dbd504cb10c63b6cf8e222",
+   "ranked": {
+    "value": 5,
+    "rank": [
+     9,
+     1,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      5,
+      "+",
+      2,
+      3
+     ]
+    ],
+    "donor_sha256": "af318a39bf1c1fbc28a3178a3feee27621ca8c6b8be56fd2f80da25052398be2",
+    "credit": "work/heritage/deep-own-wins.csv"
+   },
+   "random": {
+    "value": 316558705848,
+    "rank": [
+     -3,
+     3,
+     -6
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      5,
+      "+",
+      2,
+      3
+     ],
+     [
+      11,
+      "+",
+      5,
+      6
+     ],
+     [
+      1182,
+      "+",
+      11,
+      1171
+     ],
+     [
+      562632,
+      "*",
+      476,
+      1182
+     ],
+     [
+      562639,
+      "+",
+      7,
+      562632
+     ],
+     [
+      316558705848,
+      "*",
+      562632,
+      562639
+     ]
+    ],
+    "donor_sha256": "af318a39bf1c1fbc28a3178a3feee27621ca8c6b8be56fd2f80da25052398be2",
+    "credit": "work/heritage/deep-own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0660",
+   "candidates": 43,
+   "base_sha256": "bfc445aa0551d92ea522f62fd045b40ee0bf71308f5cd635e1b5c2a710043717",
+   "ranked": {
+    "value": 31,
+    "rank": [
+     27,
+     9,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      32,
+      "*",
+      4,
+      8
+     ],
+     [
+      31,
+      "-",
+      32,
+      1
+     ]
+    ],
+    "donor_sha256": "37eb66d65817d1cc60d26b3179e8246353e7c7aa7f864eb48d9eb54794b01f91",
+    "credit": "work/heritage/path-relink/own-wins.csv"
+   },
+   "random": {
+    "value": 31510,
+    "rank": [
+     -8,
+     0,
+     -4
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      7,
+      "-",
+      8,
+      1
+     ],
+     [
+      30848,
+      "*",
+      16,
+      1928
+     ],
+     [
+      31503,
+      "+",
+      655,
+      30848
+     ],
+     [
+      31510,
+      "+",
+      7,
+      31503
+     ]
+    ],
+    "donor_sha256": "37eb66d65817d1cc60d26b3179e8246353e7c7aa7f864eb48d9eb54794b01f91",
+    "credit": "work/heritage/path-relink/own-wins.csv"
+   }
+  },
+  {
+   "id": "scored_0288",
+   "candidates": 33,
+   "base_sha256": "5322bf4c47d17a9786e05999b4afd92473f41356838752083093f33ef0d556d2",
+   "ranked": {
+    "value": 90,
+    "rank": [
+     18,
+     4,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      90,
+      "*",
+      9,
+      10
+     ]
+    ],
+    "donor_sha256": "badf4850dc06684c44d035b9baf4c521ee7a678e382089f1a98419f734c93306",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   },
+   "random": {
+    "value": 8674,
+    "rank": [
+     8,
+     2,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      8674,
+      "-",
+      8914,
+      240
+     ]
+    ],
+    "donor_sha256": "badf4850dc06684c44d035b9baf4c521ee7a678e382089f1a98419f734c93306",
+    "credit": "work/virtual/resume-135077/wang-second.csv"
+   }
+  },
+  {
+   "id": "scored_0949",
+   "candidates": 48,
+   "base_sha256": "afa19654a72fa858338c018faa3d0f3f33f0c2dee9619af49fddc04d891d6f52",
+   "ranked": {
+    "value": 1,
+    "rank": [
+     143,
+     9,
+     -1
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      1,
+      "/",
+      12,
+      12
+     ]
+    ],
+    "donor_sha256": "3047624e2eea7e912d0be6074efbac420632ae790b4b090899dc478d1097b896",
+    "credit": "work/virtual/steiner-own-full.csv"
+   },
+   "random": {
+    "value": 32468,
+    "rank": [
+     -4,
+     0,
+     -2
+    ],
+    "origin": [
+     "a933464ecfa9c726de0f91824f75400bbae3282f",
+     "own"
+    ],
+    "patch": [
+     [
+      312,
+      "*",
+      26,
+      12
+     ],
+     [
+      32468,
+      "-",
+      32780,
+      312
+     ]
+    ],
+    "donor_sha256": "3047624e2eea7e912d0be6074efbac420632ae790b4b090899dc478d1097b896",
+    "credit": "work/virtual/steiner-own-full.csv"
+   }
+  }
+ ]
+}
