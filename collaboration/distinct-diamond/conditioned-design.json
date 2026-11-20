@@ -1,0 +1,8 @@
+{
+  "base": "b6f68c1c72b3d3333f07198ece619143201a66b4",
+  "baseline": 37512,
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "method": "Replay all previously certified first-helper partitions, reusing their exact finite branch coverage. At each leaf price the ordinary and diamond-free helper bounds. Inherit a diamond absence certificate from the union of required labels and intersection of forbidden helpers; otherwise independently test individual leaves. Require both arithmetic oracles to prove absence and every branch to meet the same threshold. Return each row's strongest fully closed tree, with UNKNOWN never accepted.",
+  "pilot": "The original 12 stratified conditioned-tree puzzles, excluding tight bounds.",
+  "extension": "All remaining nontight puzzles with archived first-helper trees in lexicographic order, after at least one new pilot certificate. Verify all strictly improving claims with a separate traversal and capacity evaluator."
+}

@@ -1,0 +1,286 @@
+{
+  "frozen_utc": "2026-11-20T14:43:03.812169+00:00",
+  "commit": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+  "previous": "2894c28cb72f232d043dba22fe294212b5a38984",
+  "baseline": 134285,
+  "baseline_sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "input_bundle_sha256": "10c8c18e9e81c32543a5bdb7bfa0990c0a5442dc995c7ff6673f94050dfe6f0f",
+  "cases": {
+    "scored_0189": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 116,
+          "sha256": "aea8bc78226c99c778f1a4bc34cdb4a3dadc3afff54e5b1dcc3fb5d2fe819d85"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 116,
+          "sha256": "aea8bc78226c99c778f1a4bc34cdb4a3dadc3afff54e5b1dcc3fb5d2fe819d85"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "Generated from official inputs",
+          "length": 117,
+          "sha256": "03070625708dc249bbc1ed1be42d37aabb8100e79ef082b7834078317f33260a"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,582",
+          "length": 117,
+          "sha256": "6bac9c1c2f62f3b871bc4903a2882843532935b8b8e40e73c48801473ddef910"
+        }
+      ],
+      "distinct_tapes": 3,
+      "seed_first": 83011789,
+      "seed_increment": 1009
+    },
+    "scored_0286": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 115,
+          "sha256": "d8cdf1eecdafa6299adc6ab164940f26feb4821d842c4844dba50bafc0ad3550"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 115,
+          "sha256": "d8cdf1eecdafa6299adc6ab164940f26feb4821d842c4844dba50bafc0ad3550"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "E-Max AI, Santa 2026 Crossover Stage 134618",
+          "length": 117,
+          "sha256": "07b9383b0e5b10277635e1eb6ec86f5b9f1ed839f5b898c93379bf814847ce80"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "E-Max AI, Santa 2026 Crossover Stage 134618",
+          "length": 117,
+          "sha256": "07b9383b0e5b10277635e1eb6ec86f5b9f1ed839f5b898c93379bf814847ce80"
+        }
+      ],
+      "distinct_tapes": 2,
+      "seed_first": 83011886,
+      "seed_increment": 1009
+    },
+    "scored_0383": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 130,
+          "sha256": "f6c0cf7e40511387a6bdc994f05ddf7166a7e69dd0e80019962184c9cf767e1f"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+          "length": 130,
+          "sha256": "f6c0cf7e40511387a6bdc994f05ddf7166a7e69dd0e80019962184c9cf767e1f"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "Generated from official inputs",
+          "length": 131,
+          "sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",
+          "length": 131,
+          "sha256": "a2164e6139c4dc0bdfaf4a6cb139dec0b180aadba7cc09dd5078afe288ba3c6e"
+        }
+      ],
+      "distinct_tapes": 3,
+      "seed_first": 83011983,
+      "seed_increment": 1009
+    },
+    "scored_0519": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+          "length": 87,
+          "sha256": "e5a861de4945c37452a47205faaa6c26787fb771864ec17beb326579399795c6"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+          "length": 87,
+          "sha256": "e5a861de4945c37452a47205faaa6c26787fb771864ec17beb326579399795c6"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+          "length": 88,
+          "sha256": "b82e7b30eeb01da38eb29d7040f48e6464ca4ff52041804eabcaa6f78efa19d9"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+          "length": 88,
+          "sha256": "b82e7b30eeb01da38eb29d7040f48e6464ca4ff52041804eabcaa6f78efa19d9"
+        }
+      ],
+      "distinct_tapes": 2,
+      "seed_first": 83012119,
+      "seed_increment": 1009
+    },
+    "scored_0707": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+          "length": 83,
+          "sha256": "529ae4a0a5646d96ab3c5305362ac75615a0faea2ec2d9234a469380802d235b"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+          "length": 83,
+          "sha256": "529ae4a0a5646d96ab3c5305362ac75615a0faea2ec2d9234a469380802d235b"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "length": 88,
+          "sha256": "c9545744336f1035aaf2f5febef61e6e740e98740094c91c0ed18b8719ae63c0"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+          "length": 88,
+          "sha256": "36d2e4b6af84798133cce3b213388affb9726fa84637208e8416c2e671233bdc"
+        }
+      ],
+      "distinct_tapes": 3,
+      "seed_first": 83012307,
+      "seed_increment": 1009
+    },
+    "scored_0716": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+          "length": 116,
+          "sha256": "945f2661d54e215c783d7d400019f66f8467e6224c41e53dc1fa1eb3ff25bbb0"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+          "length": 116,
+          "sha256": "945f2661d54e215c783d7d400019f66f8467e6224c41e53dc1fa1eb3ff25bbb0"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "Generated from official inputs",
+          "length": 117,
+          "sha256": "9c5d139e6e2ef3e1523ae2c3f30d64644c65be9ebc80b46dc8c7179e7fac8a4d"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+          "length": 117,
+          "sha256": "9c5d139e6e2ef3e1523ae2c3f30d64644c65be9ebc80b46dc8c7179e7fac8a4d"
+        }
+      ],
+      "distinct_tapes": 2,
+      "seed_first": 83012316,
+      "seed_increment": 1009
+    },
+    "scored_0767": {
+      "sources": [
+        {
+          "tag": "current",
+          "origin": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+          "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+          "length": 102,
+          "sha256": "da1f1ba880c07a7d83439b01d3864be2748158d5bb9101e3a725d888bf145ff7"
+        },
+        {
+          "tag": "v123",
+          "origin": "Asterios v123",
+          "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+          "length": 102,
+          "sha256": "da1f1ba880c07a7d83439b01d3864be2748158d5bb9101e3a725d888bf145ff7"
+        },
+        {
+          "tag": "previous",
+          "origin": "2894c28cb72f232d043dba22fe294212b5a38984",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+          "length": 104,
+          "sha256": "676cd0ed17bb0d2bf246be3fc58b33df585b789dda9fe049045b7a7a50083c59"
+        },
+        {
+          "tag": "v121",
+          "origin": "Asterios v121",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+          "length": 104,
+          "sha256": "676cd0ed17bb0d2bf246be3fc58b33df585b789dda9fe049045b7a7a50083c59"
+        }
+      ],
+      "distinct_tapes": 2,
+      "seed_first": 83012367,
+      "seed_increment": 1009
+    }
+  },
+  "primary": "All seven official v123 winners against the immediately previous submission.",
+  "allowlist": "Current Git 86b3f5c, previous public file before 87202f9, Asterios v121 and v123. Deduplicate exact tapes in that order. Record every credited occurrence.",
+  "engine": "Wang Jakie v5 incremental with E-Max AI retained static donor pool, locally implemented. Every arm uses identical Wang executable and restart seeds. A starts from current with all other distinct allowed parent tapes. B runs Atakan v30 on current once, then Wang from its output with same unchanged donors, excluding exact duplicates. C starts Wang from current alone. All arms restart from their own original inputs each time with independent seeds and retain best complete result.",
+  "budget": "24 seconds monotonic wall per arm per puzzle. B includes Atakan (max 12s) and gives remaining time to Wang. Each fresh Wang call uses 240 rounds, seed = 83011600 + numeric suffix + 1009 * zero-based restart. Last unfinished process is killed; only finished candidates count. Arm order rotates cyclically by sorted ID rank; at most 3 simultaneously active row workers. Compiling, provenance I/O and full replays are outside the budget.",
+  "Atakan": {
+    "configuration": [
+      4,
+      14,
+      4,
+      6,
+      13,
+      257
+    ],
+    "v30_files": {
+      "elf_multiplier_frontier.cpp": "d906ad96f799ec9367fecddccb516bccd72aee66e0fdb7bcdb15d4c5aa72c1e6",
+      "elf_multiplier_lanes.cpp": "575f8a0ab80bf7da45edd37bfefb11ea74288db7fefabd48feaa51db91359340",
+      "elf_global_schedule.cpp": "36d6e43daeb84e849a38195f12310dfdb0704c7983495761c2e94674e8ff39a2",
+      "elf_window.cpp": "393c46382e85c9fe78267abdb35dd2403f6c1014ffb694802df8e54e005f67a3",
+      "santa_factor64.h": "75467477a9633b33249b895967690d6a5032d6c14e0b14fc16c34731c26c3918"
+    },
+    "inherited_v15_files": {
+      "elf_whole_graph.cpp": "f229a12f4274af7774dcfaf5309a4d18fcc93b1b53f9a923f4a76e5f3631d352"
+    }
+  },
+  "Wang": {
+    "binary_sha256": "2c21af8a0b0f51156c6cd47120a65c40511bb3514844604f2fd430b75b14b8ec",
+    "source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295"
+  },
+  "extension": "If two distinct rows shorten or one saves at least three, extend to seven previously untested IDs. Within source-title author family of each winner rank by whether v121 differs from current, then nearest baseline length and ID. Cycle through winners taking one neighbor at a time. Exclude rows with all allowed inputs identical. Otherwise stop.",
+  "metric": "Strict physical gains only, with per-arm and joint 1000-row double replay and inherited source attribution."
+}
