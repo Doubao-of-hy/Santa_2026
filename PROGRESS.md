@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日两种搜索的执行次序
+
+独立程序 **140,727** 条，公开辅助程序 **134,298** 条，均已用两种解释器重放全部 1,000 题。独立试验的 4 题省 7 条，其中 0627 只有先用 Atakan 再用 Wang 才达到 115。公开辅助另外 4 题的父本均有署名，0079 是本地搜索得到的另一份同长程序。[执行次序与程序](collaboration/cross-method-order/README.md) · [公开源复现](collaboration/retained-pool/v42-audit.json) · [完整分数与逐题变动](collaboration/evidence/ordered-search-v42-merge.json)
+
 ## 11 月 20 日的多方法整题重放
 
 独立文件达到 **140,734** 条，公开辅助文件达到 **134,303** 条。原版 Wang 增量搜索在新对照中改善独立 0228、0746 及公开辅助 0164。第 740 题用两份有署名的旧程序重建了 E-Max AI 的保留父本方法。另有 8 道独立题来自 Atakan 两个原版乘数搜索的复跑。所有成果以两种解释器逐题校验。[合并前后的逐题长度](collaboration/evidence/trajectory-frontier-merge.json) · [三种搜索的完整对照](collaboration/reactive-tabu/README.md)

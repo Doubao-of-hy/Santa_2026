@@ -1,0 +1,62 @@
+{
+ "baseline": "243776e",
+ "pure": {
+  "old": 140734,
+  "new": 140727,
+  "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+  "changed": {
+   "scored_0535": {
+    "before": 144,
+    "after": 143
+   },
+   "scored_0604": {
+    "before": 108,
+    "after": 106
+   },
+   "scored_0627": {
+    "before": 118,
+    "after": 115
+   },
+   "scored_0807": {
+    "before": 130,
+    "after": 129
+   }
+  }
+ },
+ "assisted": {
+  "old": 134303,
+  "new": 134298,
+  "sha256": "0853c5032610e6c1bbd4f90d727c19a45182cbf4fd8b82576295c38dda262856",
+  "changed": {
+   "scored_0079": {
+    "before": 133,
+    "after": 132
+   },
+   "scored_0305": {
+    "before": 121,
+    "after": 120
+   },
+   "scored_0604": {
+    "before": 107,
+    "after": 106
+   },
+   "scored_0871": {
+    "before": 112,
+    "after": 111
+   },
+   "scored_0955": {
+    "before": 82,
+    "after": 81
+   }
+  }
+ },
+ "board": {
+  "observed": "2026-11-20T13:52:59.258926+00:00",
+  "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+  "teams": 1800,
+  "strictly_better": 123,
+  "tied": 0,
+  "first": 128330,
+  "gap": 5968
+ }
+}

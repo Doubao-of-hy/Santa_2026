@@ -1,0 +1,122 @@
+{
+  "score": 134306,
+  "cases": {
+    "scored_0871": {
+      "before": 113,
+      "input_length": 112,
+      "after": 111,
+      "mode": "incremental",
+      "seed": 491789,
+      "rounds": 900,
+      "skipped_unknown_inputs": [],
+      "source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,318",
+          "sha256": "a9762e30ca07b2c86da09d2d3d620e3c396bf0ea5102fd6f6afe7920c95a48b2"
+        },
+        {
+          "role": "atakan",
+          "origin": "work\\creative\\asterios-v10\\best_programs.csv",
+          "credit": "Elias T.-H. Shieh dataset (our search and Mizero's peephole pass)",
+          "sha256": "0e61e5ed3d8fb0a1596dffbb213b9700265bf6fa797314fac1d2673c14bce835"
+        },
+        {
+          "role": "Our_v22_public",
+          "origin": "work\\creative\\resume-135077\\asterios113\\best_programs.csv",
+          "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137738]",
+          "sha256": "8e885fb52e450b55df5be1a88138e0d7defa58670a784ec31ab2e2ee96064f21"
+        },
+        {
+          "role": "Ozer_1612_public",
+          "origin": "work\\creative\\public-refresh-134321\\asterios120\\best_programs.csv",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "sha256": "26ce85fdbe4c334362458bb70e828f3121deacac29225a2cd6673c54616cee44"
+        }
+      ],
+      "matches_v42_output": true
+    },
+    "scored_0305": {
+      "before": 121,
+      "input_length": 121,
+      "after": 120,
+      "mode": "incremental-oldest",
+      "seed": 491224,
+      "rounds": 900,
+      "skipped_unknown_inputs": [],
+      "source_sha256": "61fef3cb5f7ead7c2d4d1204eefd8f78b4430ca61f612f894de7c227f9fb5ccf",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "sha256": "614774e89cb4e8696fb2713db440853c76ed905faeb2f9ec32db0359c197dfed"
+        },
+        {
+          "role": "10_prvsiyan",
+          "origin": "work\\creative\\asterios-v10\\best_programs.csv",
+          "credit": "Ertugrul Ozer, Starter Notebook",
+          "sha256": "7eca32acf9c99de9883ea4fb497e5bfa653eb17801f21df9a067ffe665b5fb2e"
+        }
+      ],
+      "matches_v42_output": true
+    },
+    "scored_0955": {
+      "before": 82,
+      "input_length": 82,
+      "after": 81,
+      "mode": "anneal",
+      "seed": 491875,
+      "rounds": 900,
+      "skipped_unknown_inputs": [],
+      "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+          "sha256": "26bbc8ec8b3acbd83ca46be49fa57bd0832ab3be004cbd85e53fee8eb3804450"
+        },
+        {
+          "role": "10_prvsiyan",
+          "origin": "work\\creative\\asterios-v10\\best_programs.csv",
+          "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator",
+          "sha256": "901d83044df32bcbf5075f0e4915130cf512ba303b76b5b730cd448ee7b5d106"
+        }
+      ],
+      "matches_v42_output": true
+    },
+    "scored_0079": {
+      "before": 133,
+      "input_length": 133,
+      "after": 132,
+      "mode": "oldest",
+      "seed": 490999,
+      "rounds": 900,
+      "skipped_unknown_inputs": [
+        "Additional_public_1_1557"
+      ],
+      "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+      "attributed_inputs": [
+        {
+          "role": "base",
+          "origin": "work\\creative\\notebook-frontier-134311\\asterios121\\best_programs.csv",
+          "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+          "sha256": "e2ee7dc177f6e0d3a6c03ab2e64bbd187ef574d56a1f2a5041a4da0672982fed"
+        },
+        {
+          "role": "Our_v22_public",
+          "origin": "work\\creative\\resume-135077\\asterios113\\best_programs.csv",
+          "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+          "sha256": "9632919963862de056f1944b0670a17097448f3a8ea99968d3c13270c1825f97"
+        }
+      ],
+      "matches_v42_output": false
+    }
+  },
+  "double_replayed_rows": 1000,
+  "output_sha256": "3be28f33348a6641cb9991a885a7b2d353a37efcbf83677715010d022b6e941e",
+  "sparse_sha256": "6c869802809a71a280d6eeced4dbe00725b09658e3b5af0f79349cbd3eec3ec8"
+}

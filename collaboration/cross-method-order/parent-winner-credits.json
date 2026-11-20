@@ -1,0 +1,42 @@
+{
+ "scored_0535": {
+  "parent": {
+   "id": "scored_0535",
+   "source": "Local independent Atakan frontier replay",
+   "upstream_source": "Atakan Aldemir multiplier frontier v15 style 4, kernel 371328068; frozen parent work/creative/resume-135077/independent-final-140814/shorter.csv",
+   "instructions": "144"
+  },
+  "receipt": "243776e:collaboration/atakan-frontier/independent-origins.csv",
+  "receipt_sha256": "06e995814e9c038d1e7beb63792b33f4d1bb048f3025da81cf9f135dcd8b992b"
+ },
+ "scored_0627": {
+  "parent": {
+   "id": "scored_0627",
+   "source": "Local independent Atakan frontier replay",
+   "upstream_source": "Atakan Aldemir multiplier frontier v15 style 4, kernel 371328068; frozen parent work/virtual/good10-wang-269/results/batch-01/winners.csv",
+   "instructions": "118"
+  },
+  "receipt": "243776e:collaboration/atakan-frontier/independent-origins.csv",
+  "receipt_sha256": "06e995814e9c038d1e7beb63792b33f4d1bb048f3025da81cf9f135dcd8b992b"
+ },
+ "scored_0807": {
+  "parent": {
+   "id": "scored_0807",
+   "source": "Local independent Atakan frontier replay",
+   "upstream_source": "Atakan Aldemir multiplier frontier v15 style 4, kernel 371328068; frozen parent work/virtual/good10-wang-269/results/batch-05/winners.csv",
+   "instructions": "130"
+  },
+  "receipt": "243776e:collaboration/atakan-frontier/independent-origins.csv",
+  "receipt_sha256": "06e995814e9c038d1e7beb63792b33f4d1bb048f3025da81cf9f135dcd8b992b"
+ },
+ "scored_0604": {
+  "parent": {
+   "id": "scored_0604",
+   "source": "Local single-parent GoodPJW v5 group 8",
+   "upstream_source": "Independent program from official inputs, work/virtual/portfolio-135289/own.csv (b48d77686ef903da); goodpjw2008, Santa 2026 DAG-LNS programs v5, Apache-2.0 (algorithm)",
+   "instructions": "108"
+  },
+  "receipt": "work/creative/own-good/cumulative-wins.origins.csv",
+  "receipt_sha256": "bacb7b98fa0e53943726d02a4564405bc4ee39353a2e4290625b175b05bbf658"
+ }
+}

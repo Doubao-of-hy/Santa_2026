@@ -1,0 +1,295 @@
+{
+  "utc": "2026-11-20T14:17:11.547254+00:00",
+  "cutoff_utc": "2026-11-20T14:11:03.141313+00:00",
+  "prior_commit": "aca4989fad3a364af53362841790b7e65d935f12",
+  "prior_instructions": 134311,
+  "prior_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+  "first_catalog_distinct_notebooks": 108,
+  "sources": {
+    "asterios121": {
+      "accepted": {
+        "scored_0395": [
+          85,
+          84
+        ],
+        "scored_0457": [
+          113,
+          112
+        ],
+        "scored_0608": [
+          150,
+          149
+        ],
+        "scored_0646": [
+          126,
+          124
+        ],
+        "scored_0871": [
+          113,
+          112
+        ]
+      },
+      "sparse_sha256": "0851f014b66993882c5d4eb4d0002500d2168ea548c790f1631624885b60c3d5",
+      "audit_sha256": "a1125072628707a676b69c8c84241105585039310e704ddb98585028622b7775"
+    },
+    "reproduction": {
+      "accepted": {
+        "scored_0740": [
+          131,
+          130
+        ]
+      },
+      "sparse_sha256": "68cb9800ec8b95352b756d890580c40435c0f3bfecc1ecb25aede1498aa959a7",
+      "audit_sha256": "ac47ecb82df60019e6bab8bf3f5c850901d6f589de0c08a5cfa71d2ae91186cb"
+    },
+    "reproduction-v42": {
+      "accepted": {
+        "scored_0079": [
+          133,
+          132
+        ],
+        "scored_0305": [
+          121,
+          120
+        ],
+        "scored_0871": [
+          112,
+          111
+        ],
+        "scored_0955": [
+          82,
+          81
+        ]
+      },
+      "sparse_sha256": "6c869802809a71a280d6eeced4dbe00725b09658e3b5af0f79349cbd3eec3ec8",
+      "audit_sha256": "c70d4da9204be1c99a6048d8d91fe2663c110fc5783867ddce9a8a4ab3624e4b"
+    },
+    "substitutes": {
+      "accepted": {},
+      "sparse_sha256": "30124725c57ef75a50fea9057d56163c564615ad6aed7a1848c512b6c71816c5",
+      "audit_sha256": "f7ca5a5e26425c3aead56e1fad57882ed4c74ea8c4d605484990250b2e1f0be5"
+    }
+  },
+  "official_notebook_output_measurements": {
+    "Roman v150": {
+      "immutable_notebook_version": 371828419,
+      "instructions": 134318,
+      "rows": 1000,
+      "program_file_sha256": "49a8ad5fc612b1872c0f3db36ef7ae3ffaeac154a49aa278007bce543886392a",
+      "strict_against_134311": {
+        "scored_0395": [
+          85,
+          84
+        ],
+        "scored_0457": [
+          113,
+          112
+        ],
+        "scored_0608": [
+          150,
+          149
+        ],
+        "scored_0871": [
+          113,
+          112
+        ]
+      }
+    },
+    "Roman v151": {
+      "immutable_notebook_version": 371831280,
+      "instructions": 134311,
+      "rows": 1000,
+      "program_file_sha256": "72c51fd43a94a4e960e3a1cc4f47b193d51230395bb8fb837f83e7fc7f11fd6f",
+      "strict_against_134311": {
+        "scored_0189": [
+          117,
+          116
+        ],
+        "scored_0286": [
+          117,
+          115
+        ],
+        "scored_0383": [
+          131,
+          130
+        ],
+        "scored_0395": [
+          85,
+          84
+        ],
+        "scored_0457": [
+          113,
+          112
+        ],
+        "scored_0608": [
+          150,
+          149
+        ],
+        "scored_0740": [
+          131,
+          130
+        ],
+        "scored_0871": [
+          113,
+          112
+        ]
+      }
+    },
+    "E-Max AI v41": {
+      "immutable_notebook_version": 371829955,
+      "instructions": 134311,
+      "rows": 1000,
+      "program_file_sha256": "667a3739ad1c3f1c1b10a94f6f16b41a66cb2366e6dbea110ce154909f58c33a",
+      "strict_against_134311": {
+        "scored_0189": [
+          117,
+          116
+        ],
+        "scored_0286": [
+          117,
+          115
+        ],
+        "scored_0383": [
+          131,
+          130
+        ],
+        "scored_0395": [
+          85,
+          84
+        ],
+        "scored_0457": [
+          113,
+          112
+        ],
+        "scored_0608": [
+          150,
+          149
+        ],
+        "scored_0740": [
+          131,
+          130
+        ],
+        "scored_0871": [
+          113,
+          112
+        ]
+      }
+    },
+    "E-Max AI v42": {
+      "immutable_notebook_version": 371833506,
+      "instructions": 134305,
+      "rows": 1000,
+      "program_file_sha256": "df6120ba96caa7f46ce78a873e2425e13aadd71a301101152625c561f7da923f",
+      "strict_against_134311": {
+        "scored_0079": [
+          133,
+          132
+        ],
+        "scored_0189": [
+          117,
+          116
+        ],
+        "scored_0286": [
+          117,
+          115
+        ],
+        "scored_0305": [
+          121,
+          120
+        ],
+        "scored_0383": [
+          131,
+          130
+        ],
+        "scored_0395": [
+          85,
+          84
+        ],
+        "scored_0457": [
+          113,
+          112
+        ],
+        "scored_0608": [
+          150,
+          149
+        ],
+        "scored_0646": [
+          126,
+          124
+        ],
+        "scored_0740": [
+          131,
+          130
+        ],
+        "scored_0871": [
+          113,
+          111
+        ],
+        "scored_0955": [
+          82,
+          81
+        ]
+      }
+    },
+    "Sung Heo v14": {
+      "immutable_notebook_version": 371816995,
+      "instructions": 134451,
+      "rows": 1000,
+      "program_file_sha256": "6ea48c2e47f3c0b9de01995fad4c19be18a120e70046e3905ffc2f8788feeb8a",
+      "strict_against_134311": {}
+    }
+  },
+  "note": "v41/42 figures are directly measured from immutable Kaggle notebook outputs. The included deltas come from the Apache-2.0 Asterios release and separate local runs on explicitly attributed donor programs. The holdout-independent lane is not involved.",
+  "new_method": "E-Max AI (RoyalAceCat) retains up to four initially supplied donor graphs when deleting candidates from the working pool. One variant draws a removable candidate from the oldest five unprotected graphs. Reimplemented from the method description on the Apache-2.0 Wang v5 engine, using credited tapes only.",
+  "local_verification": "elf plus independent_score over all 1000 official scored rows.",
+  "official_links": {
+    "v121": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/121",
+    "E-Max AI v41": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-134-311?scriptVersionId=371829955",
+    "E-Max AI v42": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-134-305?scriptVersionId=371833506",
+    "Roman v151": "https://www.kaggle.com/code/romanrozen/santa-2026-icefire-strong-start?scriptVersionId=371831280",
+    "Wang v5": "https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp?scriptVersionId=371736767"
+  },
+  "actual_accepted": {
+    "scored_0079": [
+      133,
+      132
+    ],
+    "scored_0305": [
+      121,
+      120
+    ],
+    "scored_0395": [
+      85,
+      84
+    ],
+    "scored_0457": [
+      113,
+      112
+    ],
+    "scored_0608": [
+      150,
+      149
+    ],
+    "scored_0646": [
+      126,
+      124
+    ],
+    "scored_0740": [
+      131,
+      130
+    ],
+    "scored_0871": [
+      113,
+      111
+    ],
+    "scored_0955": [
+      82,
+      81
+    ]
+  },
+  "score": 134300,
+  "rows": 1000,
+  "sha256": "9a067cfc8e7adbe370860817e7410dcaf71c142a56cf45fbb95d06ca1091d995",
+  "patch_sha256": "145754740f128f78d7bc40cdc735eccea645022bff367adb8e6559db64e5867d",
+  "origins_sha256": "43280d1424b70a6d34fd71ea04559ac904fa3bd67930d3418b790685923c1742"
+}

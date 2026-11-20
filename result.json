@@ -1,7 +1,7 @@
 {
   "puzzles": 1000,
-  "instructions": 140734,
-  "sha256": "afd1997bd72b8e7b884b45f939f3bbbf7bfcbdae1330e0f674e6abe40ca75f85",
+  "instructions": 140727,
+  "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
   "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
   "longest_program": 303,
   "arithmetic_lower_bound": 36731,
@@ -81,14 +81,14 @@
     "work/virtual/lifetimes-135161/own-composition-gpu.csv": 3,
     "work/virtual/lifetimes-135161/own-broad-hold.csv": 2,
     "work/virtual/whole-135358/guided.csv": 4,
-    "work/creative/own-good/cumulative-wins.csv": 16,
+    "work/creative/own-good/cumulative-wins.csv": 15,
     "work/virtual/reactive-134311/results/pure-holdout.csv": 2,
     "work/gpu/domain-independent.csv": 3,
     "work/creative/forward/independent-replayed-0237.csv": 1,
     "work/gpu/orbit-extension/own-all.csv": 4,
     "work/gpu/bridge-36731/construct/sparse-0250-1293-20.csv": 1,
     "work/creative/market/own-offset-all.csv": 1,
-    "work/virtual/reactive-134311/accepted/independent-shorter.csv": 8,
+    "work/virtual/reactive-134311/accepted/independent-shorter.csv": 5,
     "work/virtual/good10-wang-269/results/batch-01/winners.csv": 3,
     "work/virtual/whole-135358/focus.csv": 1,
     "work/creative/own-good/part4-wins.csv": 10,
@@ -110,6 +110,7 @@
     "work/gen/matrix-atlas.csv": 5,
     "work/virtual/siblings-135106/own-exact-f0.csv": 2,
     "work/gpu/witness-dfs/own-blind.csv": 1,
+    "work/virtual/collective-135077/order140734/shorter.csv": 4,
     "work/virtual/registers-135078/own-wins.csv": 1,
     "work/gpu/901-independent/transfer/primary-wins.csv": 1,
     "work/virtual/bank-135324/own-hold-alt.csv": 2,
@@ -167,7 +168,7 @@
     "independent_full_replay": true,
     "median_program": 127.0,
     "p90_program": 232,
-    "submission_bytes": 2261902,
+    "submission_bytes": 2261971,
     "kaggle_submission_status": "local_only"
   },
   "benchmarks": {
@@ -204,7 +205,7 @@
         "selected_puzzles": 1
       }
     },
-    "current_reduction_from_sample_percent": 90.5572,
+    "current_reduction_from_sample_percent": 90.5576,
     "latest_official_leaderboard": {
       "url": "https://www.kaggle.com/competitions/santa-2026/leaderboard",
       "checked_at": "2026-11-20T13:52:59.258926+00:00",
@@ -3414,6 +3415,20 @@
           "adopted_programs_sha256": "abea6d149d19424ee6d6879e6050f05cd8c392bd66e8bc7c00dc2e9a544ad4b2"
         }
       }
+    },
+    {
+      "utc": "2026-11-20T14:17:17+00:00",
+      "previous_sha256": "afd1997bd72b8e7b884b45f939f3bbbf7bfcbdae1330e0f674e6abe40ca75f85",
+      "score": 140727,
+      "sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+      "adopted": {
+        "work/virtual/collective-135077/order140734/shorter.csv": {
+          "rows": 4,
+          "saved": 7,
+          "snapshot_size": 4,
+          "adopted_programs_sha256": "ed644893d2395836945768e620693bea4dfdf2f2ea375c583cc6ab0c8c5e19d0"
+        }
+      }
     }
   ],
   "target_count_lower_bound": 26898,
@@ -3439,7 +3454,7 @@
     "proofs/local/proofs/helper-wave9.json": "53a624a2b7e0e7b6d796268167444ae3411fc481b9ae8e1863882b1a57f711c2",
     "proofs/local/proofs/conditioned-bounds.json": "d8b36d8b48df1bf120c81cf2787f84668491a5d829e7b958a29dc06516f23113"
   },
-  "combined_arithmetic_lower_bound": 36767,
+  "combined_arithmetic_lower_bound": 36768,
   "combined_exact_puzzles": 20,
   "combined_exact_steps": 128
 }

@@ -1,0 +1,30 @@
+{
+ "frozen": "243776e870fd4602df8d05340f69ee146cd7339a",
+ "before": 140734,
+ "after": 140727,
+ "merged_sha256": "8daa3e136df0e3274481fb55d0db162e1fb96544076509a169f14a906e4b37fd",
+ "sequential_advantage": 1,
+ "cases": 16,
+ "wins": {
+  "scored_0535": [
+   144,
+   143
+  ],
+  "scored_0604": [
+   108,
+   106
+  ],
+  "scored_0627": [
+   118,
+   115
+  ],
+  "scored_0807": [
+   130,
+   129
+  ]
+ },
+ "stages_sha256": "e913ff6fc8ca28ae2df924f7cca2028449584349455b4a3fe79d32608ffbe3ff",
+ "origins_sha256": "f3b3ee98da384012227816b944015c8661dab5cb6d3721fd6369b8a162e6c105",
+ "new_calls": 29,
+ "prior_reuse": 8
+}

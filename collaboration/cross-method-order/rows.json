@@ -1,0 +1,786 @@
+{
+ "scored_0030": {
+  "before": 195,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "output_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "steps": 195,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "output_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "steps": 195,
+    "execution": "new launch",
+    "seconds": 2.9
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "output_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "steps": 195,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "output_sha256": "4e740c073cb4a57587f9391789de52d051166cf49c9ec7ab201b2f3551a38681",
+    "steps": 195,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 195,
+  "sequence_advantage": 0
+ },
+ "scored_0164": {
+  "before": 130,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "output_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "steps": 130,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "output_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "steps": 130,
+    "execution": "new launch",
+    "seconds": 2.408
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "output_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "steps": 130,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "output_sha256": "56ebc31dbd38f0f7372d1ee77f46bb210fd90eebe6286cc7c8f39aea07c6200a",
+    "steps": 130,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 130,
+  "sequence_advantage": 0
+ },
+ "scored_0274": {
+  "before": 138,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "output_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "steps": 138,
+    "execution": "new launch",
+    "seconds": 2.962
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "output_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "steps": 138,
+    "execution": "new launch",
+    "seconds": 2.456
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "output_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "steps": 138,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "output_sha256": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+    "steps": 138,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 138,
+  "sequence_advantage": 0
+ },
+ "scored_0284": {
+  "before": 118,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "output_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "steps": 118,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "output_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "steps": 118,
+    "execution": "new launch",
+    "seconds": 2.185
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "output_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "steps": 118,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "output_sha256": "2fdb3fe5be8ea82ac0db4e859c132daed237cbc8bf697ebdb2cf27516b13ed58",
+    "steps": 118,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 118,
+  "sequence_advantage": 0
+ },
+ "scored_0324": {
+  "before": 186,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "output_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "steps": 186,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "output_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "steps": 186,
+    "execution": "new launch",
+    "seconds": 2.561
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "output_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "steps": 186,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "output_sha256": "c4ee6daf8cb938250cb4ce6790ae17c188316058b3ddc6ffee4b293a860a90c0",
+    "steps": 186,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 186,
+  "sequence_advantage": 0
+ },
+ "scored_0383": {
+  "before": 131,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "output_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "steps": 131,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "output_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "steps": 131,
+    "execution": "new launch",
+    "seconds": 2.606
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "output_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "steps": 131,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "output_sha256": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+    "steps": 131,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 131,
+  "sequence_advantage": 0
+ },
+ "scored_0484": {
+  "before": 143,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "output_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "steps": 143,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "output_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "steps": 143,
+    "execution": "new launch",
+    "seconds": 3.756
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "output_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "steps": 143,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "output_sha256": "caae7457d61e8930bc6d74f2c6539a2932263142b99b40b4a9a27ea507d52cb4",
+    "steps": 143,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 143,
+  "sequence_advantage": 0
+ },
+ "scored_0535": {
+  "before": 144,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "a94a4680209c9f2180aadcde4c004fa7b2326f47b3efb316df969427da52284c",
+    "output_sha256": "53ac989cbadc519ce8f848171e3a0fe4069f8a937705c7e1a38279129c5504e3",
+    "steps": 143,
+    "execution": "new launch",
+    "seconds": 5.059
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "a94a4680209c9f2180aadcde4c004fa7b2326f47b3efb316df969427da52284c",
+    "output_sha256": "055f97e06a7be54fc12034e1ed308c48020db2a74b03fe3b907b89c6a6d537d2",
+    "steps": 143,
+    "execution": "new launch",
+    "seconds": 3.08
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "53ac989cbadc519ce8f848171e3a0fe4069f8a937705c7e1a38279129c5504e3",
+    "output_sha256": "53ac989cbadc519ce8f848171e3a0fe4069f8a937705c7e1a38279129c5504e3",
+    "steps": 143,
+    "execution": "new launch",
+    "seconds": 2.726
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "055f97e06a7be54fc12034e1ed308c48020db2a74b03fe3b907b89c6a6d537d2",
+    "output_sha256": "055f97e06a7be54fc12034e1ed308c48020db2a74b03fe3b907b89c6a6d537d2",
+    "steps": 143,
+    "execution": "new launch",
+    "seconds": 4.338
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 143,
+  "sequence_advantage": 0
+ },
+ "scored_0573": {
+  "before": 195,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "output_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "steps": 195,
+    "execution": "new launch",
+    "seconds": 7.982
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "output_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "steps": 195,
+    "execution": "new launch",
+    "seconds": 2.248
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "output_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "steps": 195,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "output_sha256": "790f0d87bb158404255d747f91535186f0b07784f1957e9973e50f2b365c2f87",
+    "steps": 195,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 195,
+  "sequence_advantage": 0
+ },
+ "scored_0577": {
+  "before": 132,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "output_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "steps": 132,
+    "execution": "new launch",
+    "seconds": 2.507
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "output_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "steps": 132,
+    "execution": "new launch",
+    "seconds": 3.043
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "output_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "steps": 132,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "output_sha256": "c57522d9a5afd11e927e2a2f860d131d590e4228c781a8ff08556464f47ab7c5",
+    "steps": 132,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 132,
+  "sequence_advantage": 0
+ },
+ "scored_0604": {
+  "before": 108,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "output_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "steps": 108,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "output_sha256": "f4fb770f3466b13f348125c59550e6d48649f8a40fbf3df15239254a8c5ef77b",
+    "steps": 106,
+    "execution": "new launch",
+    "seconds": 2.015
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "a6df912bd5bfc21aef3e7c73fd13d96c906048cc5e2a474f5ecddf5c6e409806",
+    "output_sha256": "f4fb770f3466b13f348125c59550e6d48649f8a40fbf3df15239254a8c5ef77b",
+    "steps": 106,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "f4fb770f3466b13f348125c59550e6d48649f8a40fbf3df15239254a8c5ef77b",
+    "output_sha256": "f4fb770f3466b13f348125c59550e6d48649f8a40fbf3df15239254a8c5ef77b",
+    "steps": 106,
+    "execution": "new launch",
+    "seconds": 1.128
+   }
+  ],
+  "separate_selected": "W",
+  "selected": "separate",
+  "after": 106,
+  "sequence_advantage": 0
+ },
+ "scored_0627": {
+  "before": 118,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "8c8d63bbcfbfcd73cc83f26d8b55904c388b59a8714029d7399b4a6b42d5db0f",
+    "output_sha256": "fda76ef2b55cef8d75359d9e43f0754c494bf310b4c837bd5e34d508a7714d10",
+    "steps": 116,
+    "execution": "new launch",
+    "seconds": 1.747
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "8c8d63bbcfbfcd73cc83f26d8b55904c388b59a8714029d7399b4a6b42d5db0f",
+    "output_sha256": "8c8d63bbcfbfcd73cc83f26d8b55904c388b59a8714029d7399b4a6b42d5db0f",
+    "steps": 118,
+    "execution": "new launch",
+    "seconds": 1.897
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "fda76ef2b55cef8d75359d9e43f0754c494bf310b4c837bd5e34d508a7714d10",
+    "output_sha256": "38e7d1829ef225a9fff6622e568aa41be6e09173eef20b89a3acb864cfff08ca",
+    "steps": 115,
+    "execution": "new launch",
+    "seconds": 2.374
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "8c8d63bbcfbfcd73cc83f26d8b55904c388b59a8714029d7399b4a6b42d5db0f",
+    "output_sha256": "fda76ef2b55cef8d75359d9e43f0754c494bf310b4c837bd5e34d508a7714d10",
+    "steps": 116,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "AW",
+  "after": 115,
+  "sequence_advantage": 1
+ },
+ "scored_0778": {
+  "before": 138,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "output_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "steps": 138,
+    "execution": "prior registered Atakan run",
+    "seconds": 0
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "output_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "steps": 138,
+    "execution": "new launch",
+    "seconds": 2.167
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "output_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "steps": 138,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "output_sha256": "d9adfff3228d6a92f39c91b2c5b74fbcedaf7a5459d0e24391ae6da1dff937b7",
+    "steps": 138,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 138,
+  "sequence_advantage": 0
+ },
+ "scored_0807": {
+  "before": 130,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "ba9bef3884d127884f70009d97e468d20d0f43ef553dfcdef099dea6a66ac3ba",
+    "output_sha256": "ba9bef3884d127884f70009d97e468d20d0f43ef553dfcdef099dea6a66ac3ba",
+    "steps": 130,
+    "execution": "new launch",
+    "seconds": 3.917
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "ba9bef3884d127884f70009d97e468d20d0f43ef553dfcdef099dea6a66ac3ba",
+    "output_sha256": "77209f5e00a78d5c0dbe53e5b664313e03ba1c36a7060da13e25910bf4b07da2",
+    "steps": 129,
+    "execution": "new launch",
+    "seconds": 2.41
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "ba9bef3884d127884f70009d97e468d20d0f43ef553dfcdef099dea6a66ac3ba",
+    "output_sha256": "77209f5e00a78d5c0dbe53e5b664313e03ba1c36a7060da13e25910bf4b07da2",
+    "steps": 129,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "77209f5e00a78d5c0dbe53e5b664313e03ba1c36a7060da13e25910bf4b07da2",
+    "output_sha256": "77209f5e00a78d5c0dbe53e5b664313e03ba1c36a7060da13e25910bf4b07da2",
+    "steps": 129,
+    "execution": "new launch",
+    "seconds": 3.035
+   }
+  ],
+  "separate_selected": "W",
+  "selected": "separate",
+  "after": 129,
+  "sequence_advantage": 0
+ },
+ "scored_0827": {
+  "before": 184,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "output_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "steps": 184,
+    "execution": "new launch",
+    "seconds": 10.49
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "output_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "steps": 184,
+    "execution": "new launch",
+    "seconds": 2.309
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "output_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "steps": 184,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "output_sha256": "e6de82e049f51807379216a46bef4e327bf28ce52b1960672b0aa455c3b3e49d",
+    "steps": 184,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 184,
+  "sequence_advantage": 0
+ },
+ "scored_0904": {
+  "before": 108,
+  "stages": [
+   {
+    "label": "A",
+    "method": "A",
+    "input": "parent",
+    "input_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "output_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "steps": 108,
+    "execution": "new launch",
+    "seconds": 1.298
+   },
+   {
+    "label": "W",
+    "method": "W",
+    "input": "parent",
+    "input_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "output_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "steps": 108,
+    "execution": "new launch",
+    "seconds": 1.72
+   },
+   {
+    "label": "AW",
+    "method": "W",
+    "input": "A",
+    "input_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "output_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "steps": 108,
+    "execution": "reused W",
+    "seconds": 0
+   },
+   {
+    "label": "WA",
+    "method": "A",
+    "input": "W",
+    "input_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "output_sha256": "3b8d410af970c4c51bed2ecf5ac9faffe36f06855baf1e8c19e09a013434ea47",
+    "steps": 108,
+    "execution": "reused A",
+    "seconds": 0
+   }
+  ],
+  "separate_selected": "A",
+  "selected": "separate",
+  "after": 108,
+  "sequence_advantage": 0
+ }
+}

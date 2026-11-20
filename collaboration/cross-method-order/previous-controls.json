@@ -1,0 +1,138 @@
+{
+ "independent:scored_0284:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0284",
+  "before": 118,
+  "after": 118,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 146,
+   "joint_children": 201,
+   "peak_width": 4,
+   "fused_children": 148
+  },
+  "seconds": 2.408,
+  "lane": "independent",
+  "phase": "1"
+ },
+ "independent:scored_0030:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0030",
+  "before": 195,
+  "after": 195,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 100,
+   "joint_children": 142,
+   "peak_width": 4,
+   "fused_children": 101
+  },
+  "seconds": 11.91,
+  "lane": "independent",
+  "phase": "1"
+ },
+ "independent:scored_0164:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0164",
+  "before": 130,
+  "after": 130,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 142,
+   "joint_children": 187,
+   "peak_width": 4,
+   "fused_children": 140
+  },
+  "seconds": 3.094,
+  "lane": "independent",
+  "phase": "1"
+ },
+ "independent:scored_0484:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0484",
+  "before": 143,
+  "after": 143,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 139,
+   "joint_children": 159,
+   "peak_width": 4,
+   "fused_children": 127
+  },
+  "seconds": 3.051,
+  "lane": "independent",
+  "phase": "1"
+ },
+ "independent:scored_0604:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0604",
+  "before": 108,
+  "after": 108,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 130,
+   "joint_children": 180,
+   "peak_width": 4,
+   "fused_children": 144
+  },
+  "seconds": 1.455,
+  "lane": "independent",
+  "phase": "2"
+ },
+ "independent:scored_0324:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0324",
+  "before": 186,
+  "after": 186,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 122,
+   "joint_children": 161,
+   "peak_width": 4,
+   "fused_children": 57
+  },
+  "seconds": 10.565,
+  "lane": "independent",
+  "phase": "3"
+ },
+ "independent:scored_0383:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0383",
+  "before": 131,
+  "after": 131,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 132,
+   "joint_children": 175,
+   "peak_width": 4,
+   "fused_children": 120
+  },
+  "seconds": 2.373,
+  "lane": "independent",
+  "phase": "3"
+ },
+ "independent:scored_0778:v30-13": {
+  "arm": "v30-13",
+  "id": "scored_0778",
+  "before": 138,
+  "after": 138,
+  "counters": {
+   "expanded": 14,
+   "improving_branches": 0,
+   "equal_branches": 152,
+   "joint_children": 192,
+   "peak_width": 4,
+   "fused_children": 173
+  },
+  "seconds": 2.816,
+  "lane": "independent",
+  "phase": "3"
+ }
+}
