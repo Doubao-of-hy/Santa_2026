@@ -9,5 +9,11 @@
  "equations": 692296416,
  "identities": 0,
  "distinctly_labelled_grounded_triangles": 4784397,
- "excluded_budget_larger_than_first_screened": 0
+ "excluded_budget_larger_than_first_screened": 0,
+ "portable_cli_rechecked": true,
+ "portable_cli_output": "validated 622 dual certificates; gains 622",
+ "portable_cli_exit_code": 0,
+ "primary_reference_commit": "2894c28cb72f232d043dba22fe294212b5a38984",
+ "prior_capacity_commit": "6824dffc90d4d60b80e02516edfcce816a850636",
+ "certified_total": 37504
 }
