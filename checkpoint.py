@@ -60,6 +60,76 @@ def atomic_text(path, contents):
     os.replace(temp,path)
 
 
+def certified_bounds(root, data, programs, puzzles):
+    local_proofs = root / "proofs/local/proofs/domain-bounds.csv"
+    path = local_proofs if local_proofs.is_file() else root / "proofs/domain-bounds.csv"
+    if not path.exists():
+        return {}
+    receipt = json.loads(path.with_suffix(".json").read_text(encoding="utf8"))
+    if (receipt["puzzles_sha256"] != sha256(data)
+            or receipt["certificate_sha256"] != sha256(path)
+            or receipt["previous_certificate_sha256"] != sha256(path.parent / "bounds.csv")):
+        raise ValueError("Domain certificate or upstream proof has changed")
+    with path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if len(rows) != len(programs) or {r["id"] for r in rows} != programs.keys():
+        raise ValueError("Domain certificate is missing or duplicates puzzles")
+    bounds = {row["id"]: int(row["certified_lower"]) for row in rows}
+    if sum(bounds.values()) != receipt["certified_lower"]:
+        raise ValueError("Domain certificate total mismatch")
+    additional = {}
+    for wave in sorted(path.parent.glob("helper-wave*.json")):
+        proof = json.loads(wave.read_text(encoding="utf8"))
+        if proof["puzzles_sha256"] != receipt["puzzles_sha256"]:
+            raise ValueError("Helper decisions used different puzzles")
+        partitions = {(i, j) for i in range(proof["shards"]) for j in range(proof["subshards"])}
+        if not partitions:
+            raise ValueError("Empty partition")
+        for pid, decision in proof["instances"].items():
+            if decision["status"] != "UNSAT":
+                continue
+            branches = decision["branches"]
+            if (len(branches) != len(partitions)
+                    or {(b["first"], b["second"]) for b in branches} != partitions
+                    or any(b["status"] != "UNSAT" for b in branches)
+                    or sum(b["nodes"] for b in branches) != decision["nodes"]):
+                raise ValueError(f"Incomplete proof for {pid}")
+            for branch in branches:
+                if "children" in branch:
+                    children=branch["children"]
+                    if (len(children) != proof["third_shards"]
+                            or {c["third"] for c in children} != set(range(proof["third_shards"]))
+                            or any(c["status"] != "UNSAT" for c in children)
+                            or sum(c["nodes"] for c in children) != branch["nodes"]):
+                        raise ValueError(f"Incomplete refined branch for {pid}")
+            puzzle = puzzles[pid]
+            lower = len(set(puzzle.targets) - set(puzzle.seeds)) + decision["helpers"] + 1
+            if lower != decision["certified_lower"]:
+                raise ValueError(f"Incorrect helper bound for {pid}")
+            bounds[pid] = max(bounds[pid], lower)
+        additional[wave.relative_to(root).as_posix()] = sha256(wave)
+    conditioned = path.parent / 'conditioned-bounds.json'
+    if conditioned.exists():
+        from conditioned_certificate import read_index
+        strengthened, _ = read_index(conditioned, receipt['puzzles_sha256'])
+        for pid, lower in strengthened.items():
+            bounds[pid] = max(bounds[pid], lower)
+        additional[conditioned.relative_to(root).as_posix()] = sha256(conditioned)
+    total = exact = exact_steps = 0
+    for row in rows:
+        lower = bounds[row["id"]]
+        feasible = min(len(programs[row["id"]]), int(row["verified_upper"]))
+        if not 0 <= lower <= feasible:
+            raise ValueError(f"Contradictory bounds for {row['id']}")
+        total += lower
+        if lower == feasible:
+            exact += 1
+            exact_steps += lower
+    return {"arithmetic_lower_bound": total, "exact_puzzles": exact, "exact_steps": exact_steps,
+            "lower_bound_certificate": path.relative_to(root).as_posix(),
+            "exhaustive_bound_certificates": additional}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("inputs",nargs="+",type=Path)
@@ -79,7 +149,7 @@ def main():
     board_path=root/"work/leaderboard.json"
     board_changed=False
     lower_path=root/"work/virtual/certificates.json"
-    if lower_path.exists():
+    if lower_path.exists() and not any((root / n).exists() for n in ("proofs/domain-bounds.csv", "proofs/local/proofs/domain-bounds.csv")):
         lower=json.loads(lower_path.read_text(encoding="utf8"))
         if lower["puzzles_sha256"]!=sha256(data) or lower["certificate_csv_sha256"]!=sha256(lower_path.with_suffix(".csv")):
             raise ValueError("lower bound certificate mismatch")
@@ -122,6 +192,10 @@ def main():
         if changed:
             adopted[label]={"rows":changed,"saved":delta,"snapshot_size":len(snapshot),
                             "adopted_programs_sha256":used.hexdigest()}
+    bounds = certified_bounds(root, data, programs, by_id)
+    if any(evidence.get(k) != v for k, v in bounds.items()):
+        evidence.update(bounds)
+        board_changed = True
     if not adopted:
         if board_changed:
             atomic_text(details,json.dumps(evidence,indent=2,ensure_ascii=False)+"\n")

@@ -9,7 +9,7 @@
 #include <vector>
 using namespace std;
 using I=long long;
-constexpr int top=512;
+constexpr int top=2048;
 using Set=bitset<top+1>;
 struct Edge {int v;char op;I a,b;};
 
@@ -25,14 +25,16 @@ struct State {Set known,near;vector<int> values;};
 struct Solver {
     int cap,upper,limit,states=0,complete=-1; bool exhausted=false,found=false;
     Set goals;vector<I> anchors;vector<int> small_seeds,chosen,best;
-    vector<Set> static_near;
+    mutable vector<Set> static_near;
+    mutable vector<unsigned char> indexed;
     vector<array<uint16_t,5>> table;
-    unordered_set<uint64_t> seen;
+    set<array<uint16_t,6>> seen;
 
     void init(){
-        table.resize((cap+1)*(cap+1));static_near.resize(cap+1);
+        static_near.resize(cap+1);indexed.resize(cap+1);
+        if(cap>512)return;
+        table.resize((cap+1)*(cap+1));
         for(int v=1;v<=cap;v++){
-            for(I x:anchors)combine(v,x,cap,[&](int h,char,I,I){static_near[v].set(h);});
             for(int w=1;w<=v;w++){
                 auto &out=table[v*(cap+1)+w];int n=0;
                 combine(v,w,cap,[&](int h,char,I,I){out[n++]=h;});
@@ -41,7 +43,15 @@ struct Solver {
         }
     }
     void add(State&s,int v)const{
+        if(!indexed[v]){
+            for(I x:anchors)combine(v,x,cap,[&](int h,char,I,I){static_near[v].set(h);});
+            indexed[v]=1;
+        }
         s.known.set(v);s.near|=static_near[v];s.values.push_back(v);
+        if(table.empty()){
+            for(int w:s.values)combine(v,w,cap,[&](int h,char,I,I){s.near.set(h);});
+            return;
+        }
         for(int w:s.values){auto &out=table[v*(cap+1)+w];
             for(int h:out){if(!h)break;s.near.set(h);}}
     }
@@ -49,10 +59,9 @@ struct Solver {
         for(;;){Set update=s.near&goals&~s.known;if(update.none())return;
             for(int v=update._Find_first();v<=cap;v=update._Find_next(v))add(s,v);}
     }
-    uint64_t key()const{
-        // Up to six values in [1,512] fit exactly in ten bits apiece.
-        vector<int> sorted=chosen;sort(sorted.begin(),sorted.end());uint64_t k=0;
-        for(int v:sorted)k=(k<<10)|uint64_t(v);return k;
+    array<uint16_t,6> key()const{
+        array<uint16_t,6> k{};copy(chosen.begin(),chosen.end(),k.begin());
+        sort(k.begin(),k.begin()+chosen.size());return k;
     }
     bool explore(const State& s,int remaining){
         if((goals&~s.known).none()){best=chosen;return true;}

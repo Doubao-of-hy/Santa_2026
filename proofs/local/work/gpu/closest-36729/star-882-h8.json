@@ -1,0 +1,801 @@
+{
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "shards": 8,
+  "subshards": 8,
+  "node_limit_per_shard": 120000000,
+  "incremental": true,
+  "pair_bound": true,
+  "mode": "star",
+  "binaries": {
+    "scored_0882": {
+      "file": "work/gpu/closest-36729/star.exe",
+      "sha256": "5956ae6cc457545fa842c52a35774cd14572b3fdc0fae7e38cfa0cd19106dcfa",
+      "flag": "star"
+    }
+  },
+  "task_helpers": {
+    "scored_0882": 8
+  },
+  "instances": {
+    "scored_0882": {
+      "helpers": 8,
+      "status": "UNSAT",
+      "total_branches": 64,
+      "finished": 64,
+      "unknown": 0,
+      "nodes": 16094486,
+      "terminal_candidates": 0,
+      "certified_lower": 21,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 333828,
+          "terminals": 0,
+          "diagnostics": [
+            316524,
+            316378
+          ],
+          "seconds": 2.19691
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 301320,
+          "terminals": 0,
+          "diagnostics": [
+            284908,
+            284772
+          ],
+          "seconds": 2.05769
+        },
+        {
+          "first": 0,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 228759,
+          "terminals": 0,
+          "diagnostics": [
+            220458,
+            220429
+          ],
+          "seconds": 1.22959
+        },
+        {
+          "first": 0,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 221664,
+          "terminals": 0,
+          "diagnostics": [
+            214342,
+            214321
+          ],
+          "seconds": 1.20466
+        },
+        {
+          "first": 0,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 205799,
+          "terminals": 0,
+          "diagnostics": [
+            198450,
+            198427
+          ],
+          "seconds": 1.34812
+        },
+        {
+          "first": 0,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 194294,
+          "terminals": 0,
+          "diagnostics": [
+            187789,
+            187773
+          ],
+          "seconds": 1.00678
+        },
+        {
+          "first": 0,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 188324,
+          "terminals": 0,
+          "diagnostics": [
+            178395,
+            178304
+          ],
+          "seconds": 1.22204
+        },
+        {
+          "first": 0,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 230209,
+          "terminals": 0,
+          "diagnostics": [
+            220344,
+            220291
+          ],
+          "seconds": 1.40062
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 294356,
+          "terminals": 0,
+          "diagnostics": [
+            273403,
+            273241
+          ],
+          "seconds": 2.0697
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 218577,
+          "terminals": 0,
+          "diagnostics": [
+            210884,
+            210867
+          ],
+          "seconds": 1.42953
+        },
+        {
+          "first": 1,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 215099,
+          "terminals": 0,
+          "diagnostics": [
+            200644,
+            200543
+          ],
+          "seconds": 1.51752
+        },
+        {
+          "first": 1,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 210969,
+          "terminals": 0,
+          "diagnostics": [
+            200455,
+            200372
+          ],
+          "seconds": 1.37339
+        },
+        {
+          "first": 1,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 213687,
+          "terminals": 0,
+          "diagnostics": [
+            198797,
+            198729
+          ],
+          "seconds": 1.94492
+        },
+        {
+          "first": 1,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 241734,
+          "terminals": 0,
+          "diagnostics": [
+            224684,
+            224638
+          ],
+          "seconds": 1.64805
+        },
+        {
+          "first": 1,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 155457,
+          "terminals": 0,
+          "diagnostics": [
+            149879,
+            149870
+          ],
+          "seconds": 1.05386
+        },
+        {
+          "first": 1,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 175018,
+          "terminals": 0,
+          "diagnostics": [
+            165351,
+            165288
+          ],
+          "seconds": 1.31466
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 261810,
+          "terminals": 0,
+          "diagnostics": [
+            253089,
+            253069
+          ],
+          "seconds": 1.39539
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 233470,
+          "terminals": 0,
+          "diagnostics": [
+            226012,
+            225996
+          ],
+          "seconds": 1.52588
+        },
+        {
+          "first": 2,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 241759,
+          "terminals": 0,
+          "diagnostics": [
+            227097,
+            226975
+          ],
+          "seconds": 1.5838
+        },
+        {
+          "first": 2,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 213615,
+          "terminals": 0,
+          "diagnostics": [
+            207220,
+            207213
+          ],
+          "seconds": 1.19021
+        },
+        {
+          "first": 2,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 255136,
+          "terminals": 0,
+          "diagnostics": [
+            245065,
+            245021
+          ],
+          "seconds": 1.59977
+        },
+        {
+          "first": 2,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 299112,
+          "terminals": 0,
+          "diagnostics": [
+            282888,
+            282788
+          ],
+          "seconds": 2.3118
+        },
+        {
+          "first": 2,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 221869,
+          "terminals": 0,
+          "diagnostics": [
+            213730,
+            213703
+          ],
+          "seconds": 1.55525
+        },
+        {
+          "first": 2,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 160514,
+          "terminals": 0,
+          "diagnostics": [
+            155308,
+            155299
+          ],
+          "seconds": 0.86449
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 272994,
+          "terminals": 0,
+          "diagnostics": [
+            247787,
+            247508
+          ],
+          "seconds": 1.79556
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 233512,
+          "terminals": 0,
+          "diagnostics": [
+            222951,
+            222894
+          ],
+          "seconds": 1.62332
+        },
+        {
+          "first": 3,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 280032,
+          "terminals": 0,
+          "diagnostics": [
+            251217,
+            250870
+          ],
+          "seconds": 1.88564
+        },
+        {
+          "first": 3,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 284632,
+          "terminals": 0,
+          "diagnostics": [
+            259622,
+            259351
+          ],
+          "seconds": 2.28118
+        },
+        {
+          "first": 3,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 393970,
+          "terminals": 0,
+          "diagnostics": [
+            331499,
+            330754
+          ],
+          "seconds": 4.42528
+        },
+        {
+          "first": 3,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 172719,
+          "terminals": 0,
+          "diagnostics": [
+            165935,
+            165907
+          ],
+          "seconds": 1.17284
+        },
+        {
+          "first": 3,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 231488,
+          "terminals": 0,
+          "diagnostics": [
+            209079,
+            208793
+          ],
+          "seconds": 1.77386
+        },
+        {
+          "first": 3,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 179921,
+          "terminals": 0,
+          "diagnostics": [
+            168894,
+            168790
+          ],
+          "seconds": 1.15582
+        },
+        {
+          "first": 4,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 235557,
+          "terminals": 0,
+          "diagnostics": [
+            226958,
+            226930
+          ],
+          "seconds": 1.34725
+        },
+        {
+          "first": 4,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 258474,
+          "terminals": 0,
+          "diagnostics": [
+            244555,
+            244461
+          ],
+          "seconds": 1.74842
+        },
+        {
+          "first": 4,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 337335,
+          "terminals": 0,
+          "diagnostics": [
+            313275,
+            313058
+          ],
+          "seconds": 2.09586
+        },
+        {
+          "first": 4,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 208277,
+          "terminals": 0,
+          "diagnostics": [
+            198095,
+            198027
+          ],
+          "seconds": 1.29796
+        },
+        {
+          "first": 4,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 234630,
+          "terminals": 0,
+          "diagnostics": [
+            223761,
+            223698
+          ],
+          "seconds": 1.51626
+        },
+        {
+          "first": 4,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 171570,
+          "terminals": 0,
+          "diagnostics": [
+            165621,
+            165605
+          ],
+          "seconds": 1.05565
+        },
+        {
+          "first": 4,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 187920,
+          "terminals": 0,
+          "diagnostics": [
+            180938,
+            180911
+          ],
+          "seconds": 1.09454
+        },
+        {
+          "first": 4,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 170342,
+          "terminals": 0,
+          "diagnostics": [
+            163618,
+            163592
+          ],
+          "seconds": 1.24471
+        },
+        {
+          "first": 5,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 362490,
+          "terminals": 0,
+          "diagnostics": [
+            301400,
+            300616
+          ],
+          "seconds": 2.49297
+        },
+        {
+          "first": 5,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 360426,
+          "terminals": 0,
+          "diagnostics": [
+            331533,
+            331287
+          ],
+          "seconds": 2.61989
+        },
+        {
+          "first": 5,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 268308,
+          "terminals": 0,
+          "diagnostics": [
+            236815,
+            236532
+          ],
+          "seconds": 2.36853
+        },
+        {
+          "first": 5,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 384082,
+          "terminals": 0,
+          "diagnostics": [
+            359818,
+            359629
+          ],
+          "seconds": 2.77572
+        },
+        {
+          "first": 5,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 305171,
+          "terminals": 0,
+          "diagnostics": [
+            231884,
+            230971
+          ],
+          "seconds": 3.47387
+        },
+        {
+          "first": 5,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 203880,
+          "terminals": 0,
+          "diagnostics": [
+            190290,
+            190156
+          ],
+          "seconds": 1.52732
+        },
+        {
+          "first": 5,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 257992,
+          "terminals": 0,
+          "diagnostics": [
+            227914,
+            227565
+          ],
+          "seconds": 1.94401
+        },
+        {
+          "first": 5,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 196251,
+          "terminals": 0,
+          "diagnostics": [
+            175313,
+            175235
+          ],
+          "seconds": 1.46407
+        },
+        {
+          "first": 6,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 423805,
+          "terminals": 0,
+          "diagnostics": [
+            391534,
+            391288
+          ],
+          "seconds": 3.11892
+        },
+        {
+          "first": 6,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 468483,
+          "terminals": 0,
+          "diagnostics": [
+            428248,
+            427851
+          ],
+          "seconds": 3.17241
+        },
+        {
+          "first": 6,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 488712,
+          "terminals": 0,
+          "diagnostics": [
+            459124,
+            458872
+          ],
+          "seconds": 3.14453
+        },
+        {
+          "first": 6,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 400242,
+          "terminals": 0,
+          "diagnostics": [
+            373492,
+            373332
+          ],
+          "seconds": 2.72806
+        },
+        {
+          "first": 6,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 380355,
+          "terminals": 0,
+          "diagnostics": [
+            323056,
+            322452
+          ],
+          "seconds": 3.33453
+        },
+        {
+          "first": 6,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 344185,
+          "terminals": 0,
+          "diagnostics": [
+            325737,
+            325651
+          ],
+          "seconds": 2.48574
+        },
+        {
+          "first": 6,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 306241,
+          "terminals": 0,
+          "diagnostics": [
+            284172,
+            283933
+          ],
+          "seconds": 1.97826
+        },
+        {
+          "first": 6,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 323563,
+          "terminals": 0,
+          "diagnostics": [
+            296211,
+            295930
+          ],
+          "seconds": 2.23112
+        },
+        {
+          "first": 7,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 236662,
+          "terminals": 0,
+          "diagnostics": [
+            217349,
+            217261
+          ],
+          "seconds": 1.5735
+        },
+        {
+          "first": 7,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 153923,
+          "terminals": 0,
+          "diagnostics": [
+            148184,
+            148165
+          ],
+          "seconds": 0.83767
+        },
+        {
+          "first": 7,
+          "second": 2,
+          "status": "UNSAT",
+          "nodes": 154406,
+          "terminals": 0,
+          "diagnostics": [
+            148323,
+            148299
+          ],
+          "seconds": 0.85397
+        },
+        {
+          "first": 7,
+          "second": 3,
+          "status": "UNSAT",
+          "nodes": 146114,
+          "terminals": 0,
+          "diagnostics": [
+            139361,
+            139324
+          ],
+          "seconds": 0.91056
+        },
+        {
+          "first": 7,
+          "second": 4,
+          "status": "UNSAT",
+          "nodes": 128239,
+          "terminals": 0,
+          "diagnostics": [
+            123304,
+            123283
+          ],
+          "seconds": 0.75892
+        },
+        {
+          "first": 7,
+          "second": 5,
+          "status": "UNSAT",
+          "nodes": 125929,
+          "terminals": 0,
+          "diagnostics": [
+            121051,
+            121038
+          ],
+          "seconds": 0.78098
+        },
+        {
+          "first": 7,
+          "second": 6,
+          "status": "UNSAT",
+          "nodes": 142319,
+          "terminals": 0,
+          "diagnostics": [
+            136102,
+            136081
+          ],
+          "seconds": 0.90692
+        },
+        {
+          "first": 7,
+          "second": 7,
+          "status": "UNSAT",
+          "nodes": 162956,
+          "terminals": 0,
+          "diagnostics": [
+            143466,
+            143289
+          ],
+          "seconds": 1.19853
+        }
+      ]
+    }
+  }
+}

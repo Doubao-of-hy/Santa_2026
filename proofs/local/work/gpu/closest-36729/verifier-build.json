@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "exact_helpers.cpp": "97742f6843cbe13efe1dfa55bca55aba14429aba8b5c44cc0897da209b1496a5",
+    "exact_frontier.hpp": "93c8cea517121c539dc6cd3873f925ad7af93a5a3fd693ba9cb18c33dae66e2a",
+    "work/gpu/closest-36729/verify3.inc": "05e1c2ab7cebf0da15e43c0d73e34e430578b72ad627fc78e1e8165836fde8fa",
+    "work/gpu/closest-36729/generic_verifier.cpp": "bc0a9bcdae751581ca62a641853b44a0e87f102de5c3f826febaa635cf460d9d",
+    "work/gpu/closest-36729/build_verifier.py": "4b7342b6685b7a1696caa47b1936d1f320f9519b7a02fedea6d58cfa2a603103"
+  },
+  "binary_sha256": "9d12555090993f86eff72ca4d6edf7375c75b7ce3f1e65c5d298f8c5518482a5",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-static",
+    "-Wl,--no-insert-timestamp"
+  ]
+}

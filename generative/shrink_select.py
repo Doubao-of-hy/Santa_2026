@@ -11,11 +11,41 @@ import sys
 
 from component_select import bank,canonical
 from graph import active_graph,first_recipes
-from parallel_solve import compile_best
+from parallel_solve import arithmetic,compile_best
 from elf import check,read_puzzles,read_submission,sha256,write_submission
 
 
-def run_one(p,tapes,models,exe,rounds,capacity):
+def connect_helpers(p,ways,original,order):
+    # A helper from an equal-length rewrite of one branch can shorten another
+    # branch when paired with a value available in one operation.
+    helpers=set(ways)-original
+    if not helpers:return
+    single={}
+    for i,a in enumerate(order):
+        for b in order[:i+1]:
+            for v,r in arithmetic(a,b,p.limit):
+                if v not in original and v not in (a,b):single.setdefault(v,canonical(r))
+    proposals={}
+    for output in sorted(original-set(p.seeds)):
+        for h in helpers:
+            candidates=[(output-h,("+",h,output-h)),(h-output,("-",h,h-output))]
+            if output<=p.limit-h:candidates.append((output+h,("-",output+h,h)))
+            if output%h==0:candidates.append((output//h,("*",h,output//h)))
+            if h%output==0:candidates.append((h//output,("/",h,h//output)))
+            if output<=p.limit//h:candidates.append((output*h,("/",output*h,h)))
+            for x,r in candidates:
+                if x not in single or x in ways or output in single[x][1:]:continue
+                proposals.setdefault(x,set()).add((output,canonical(r)))
+    # Prefer values that open more than one independently feasible binding.
+    candidates=sorted(proposals,key=lambda x:(-len({o for o,_ in proposals[x]}),
+                                              -len(proposals[x]),x))
+    for x in candidates[:max(70,min(300,len(order)))]:
+        ways[x]={single[x]}
+        for output,r in proposals[x]:ways[output].add(r)
+
+
+def run_one(p,tapes,models,exe,rounds,capacity,patches=(),connect=False,component_seconds=0,
+            close_pairs=True):
     tapes=sorted(dict.fromkeys(tapes),key=len)
     graphs=[active_graph(p,first_recipes(p,t)) for t in tapes]
     if models:
@@ -30,6 +60,21 @@ def run_one(p,tapes,models,exe,rounds,capacity):
         for v,rs in extra.items():ways.setdefault(v,set()).update(rs)
     for graph in graphs:
         for v,r in graph.items():ways.setdefault(v,set()).add(canonical(r))
+    if patches:
+        original=set(ways)|set(p.seeds)
+        for patch in patches:
+            for v,r in patch.items():ways.setdefault(v,set()).add(canonical(r))
+        if close_pairs:
+            values=sorted(set(ways)|set(p.seeds))
+            for i,a in enumerate(values):
+                for b in values[:i+1]:
+                    for v,r in arithmetic(a,b,p.limit):
+                        if a in original and b in original and v in original:continue
+                        if v in ways and v not in (a,b) and len(ways[v])<45:
+                            ways[v].add(canonical(r))
+        if connect:
+            order=list(dict.fromkeys((*p.seeds,*(v for g in graphs for v in g))))
+            connect_helpers(p,ways,original,order)
     values=sorted(set(p.seeds)|set(ways));ids={v:i for i,v in enumerate(values)}
     edges=[(v,*r) for v,rs in ways.items() for r in sorted(rs) if r[1] in ids and r[2] in ids]
     codes={edge:i for i,edge in enumerate(edges)}
@@ -53,6 +98,11 @@ def run_one(p,tapes,models,exe,rounds,capacity):
         shortest=min(shortest,size)
         found=compile_best(p,hint,active)
         if found is not None and len(found)<len(best):best=found;accepted+=1
+    if component_seconds>0:
+        from component_select import solve
+        primary=active_graph(p,first_recipes(p,best))
+        _,selected,_=solve(p,[best],2,component_seconds,(primary,ways))
+        if len(selected)<len(best):best=selected;accepted+=1
     check(p,best)
     return p.id,best,[len(ways),len(edges),count,len(tapes[0])-shortest,accepted]
 

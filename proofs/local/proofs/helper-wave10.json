@@ -1,0 +1,463 @@
+{
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "binary_sha256": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+  "shards": 8,
+  "subshards": 2,
+  "node_limit_per_shard": 400000000,
+  "incremental": true,
+  "pair_bound": true,
+  "frontier": "sparse reversible ordered 64-value blocks, native puzzle limits",
+  "source_receipt_sha256": "4c6956c32f1bcc3ba3866583a871bb337ab14ecb310892df36f1dfa96cfc2a9e",
+  "upstream": {
+    "repository": "Hansen0223/Santa_2026",
+    "commit": "f3af241d1049493f0fc70df4716366ac603d1b28",
+    "parent": "d1f2c350c23f7c92fe9a04ac406a39915edbde92",
+    "commit_url": "https://github.com/Hansen0223/Santa_2026/commit/f3af241d1049493f0fc70df4716366ac603d1b28",
+    "receipts": {
+      "scored_0272": {
+        "path": "proofs_ext/decisions.d/scored_0272_h4.json",
+        "raw_url": "https://raw.githubusercontent.com/Hansen0223/Santa_2026/f3af241d1049493f0fc70df4716366ac603d1b28/proofs_ext/decisions.d/scored_0272_h4.json",
+        "git_blob": "ac4c97e32b811ce76f74847bae9885eda09e4827",
+        "sha256": "116008450f6c2aa6a580bbff8047905cfc3ecb85b18dec620452e9507ebc4f33"
+      },
+      "scored_0388": {
+        "path": "proofs_ext/decisions.d/scored_0388_h4.json",
+        "raw_url": "https://raw.githubusercontent.com/Hansen0223/Santa_2026/f3af241d1049493f0fc70df4716366ac603d1b28/proofs_ext/decisions.d/scored_0388_h4.json",
+        "git_blob": "a384e166436a71c283e572ed845b43b41128e579",
+        "sha256": "4d3adcdf2de5a778dd50e97770d3d68449335135e8e89b2ebef7818d5586082b"
+      },
+      "scored_0971": {
+        "path": "proofs_ext/decisions.d/scored_0971_h4.json",
+        "raw_url": "https://raw.githubusercontent.com/Hansen0223/Santa_2026/f3af241d1049493f0fc70df4716366ac603d1b28/proofs_ext/decisions.d/scored_0971_h4.json",
+        "git_blob": "dcb6e3fa1f3b52fdce07dd91941e7475899b4ac5",
+        "sha256": "ab9445ca2153be105d350d271417d5182e6e7cec8f47c54340d1db9210716dfe"
+      }
+    }
+  },
+  "previous_table_sha256": "007534ba109d108c128776ab004e7cea05ced865e228cb362c973e4a6e928a1c",
+  "instances": {
+    "scored_0272": {
+      "helpers": 4,
+      "status": "UNSAT",
+      "finished": 16,
+      "unknown": 0,
+      "total_branches": 16,
+      "nodes": 587,
+      "terminal_candidates": 0,
+      "certified_lower": 12,
+      "previous_certified_lower": 12,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 42,
+          "terminals": 0,
+          "peak_sparse_blocks": 8
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 39,
+          "terminals": 0,
+          "peak_sparse_blocks": 8
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 8
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 37,
+          "terminals": 0,
+          "peak_sparse_blocks": 8
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 39,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 37,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 37,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 37,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 35,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 5,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 36,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 5,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 35,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 6,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 34,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 6,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 32,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 7,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 36,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 7,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 35,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        }
+      ]
+    },
+    "scored_0388": {
+      "helpers": 4,
+      "status": "UNSAT",
+      "finished": 16,
+      "unknown": 0,
+      "total_branches": 16,
+      "nodes": 683,
+      "terminal_candidates": 0,
+      "certified_lower": 12,
+      "previous_certified_lower": 11,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 54,
+          "terminals": 0,
+          "peak_sparse_blocks": 11
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 53,
+          "terminals": 0,
+          "peak_sparse_blocks": 11
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 51,
+          "terminals": 0,
+          "peak_sparse_blocks": 11
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 48,
+          "terminals": 0,
+          "peak_sparse_blocks": 11
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 40,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 39,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 42,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 41,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 42,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 40,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 5,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 41,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 5,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 6,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 6,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 7,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 40,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 7,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 38,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        }
+      ]
+    },
+    "scored_0971": {
+      "helpers": 4,
+      "status": "UNSAT",
+      "finished": 16,
+      "unknown": 0,
+      "total_branches": 16,
+      "nodes": 493,
+      "terminal_candidates": 0,
+      "certified_lower": 11,
+      "previous_certified_lower": 10,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 35,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 34,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 36,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 34,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 37,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 36,
+          "terminals": 0,
+          "peak_sparse_blocks": 10
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 36,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 35,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 33,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 4,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 32,
+          "terminals": 0,
+          "peak_sparse_blocks": 9
+        },
+        {
+          "first": 5,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 25,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        },
+        {
+          "first": 5,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 24,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        },
+        {
+          "first": 6,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 24,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        },
+        {
+          "first": 6,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 24,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        },
+        {
+          "first": 7,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 24,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        },
+        {
+          "first": 7,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 24,
+          "terminals": 0,
+          "peak_sparse_blocks": 7
+        }
+      ]
+    }
+  }
+}

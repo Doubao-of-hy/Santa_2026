@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "build.json": "e0c7b1e9fdbcf35b0ede9fae8367db581b94a73fbf840986044e86668122e738",
+    "dense_groups.hpp": "3fdd05445d0b088fc250e33aed0af786d4c266f8d9fe5ab5689a03c9e3dda312",
+    "sparse_groups.hpp": "98faa03f8d1f3373e2e8d572cb3b0ef02243880cf73d35a1459296f65a9fad97",
+    "three.inc": "0b394a534cf9480098377001b0062891d60dd2c54c203826bc2f124c7b886ca5",
+    "groups.inc": "244cfe96ff8d41a65745aca71ae6652c36a647a2200708ebee15895035fa195e",
+    "groups.cpp": "258a8be56540868ba90325cfe818fee503ebe0f2acf4ce239b9616f59bc70def",
+    "build_groups.py": "dbdeaf0e8478b132b7d41d77264083049bc7941c16ad68f17af5e4913c17db9c"
+  },
+  "binary_sha256": "d0187c7ba6f37def82747f664a680c9f972d729442f10a210dc49b9c72b60c30",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-static",
+    "-Wl,--no-insert-timestamp"
+  ]
+}

@@ -1,0 +1,6560 @@
+{
+  "protocol_sha256": "77bb5f971ac9616e0ef0df0871ba527b96f9f9af624d239895c8cc0ffd6a6b5f",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "binary_sha256": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f",
+  "stage": "first",
+  "parent_wave_sha256": null,
+  "shards": 4,
+  "subshards": 2,
+  "node_limit_per_shard": 8000,
+  "incremental": true,
+  "pair_bound": true,
+  "complete_stage": true,
+  "instances": {
+    "scored_0409": {
+      "helpers": 5,
+      "previous_certified_lower": 14,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 5132,
+      "terminal_candidates": 0,
+      "certified_lower": 15,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 681,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 623,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 701,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 692,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 680,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 622,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 576,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 557,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        }
+      ]
+    },
+    "scored_0882": {
+      "helpers": 5,
+      "previous_certified_lower": 17,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 13471,
+      "terminal_candidates": 0,
+      "certified_lower": 18,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1769,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1638,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1705,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1663,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2030,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1930,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1457,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1279,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        }
+      ]
+    },
+    "scored_0701": {
+      "helpers": 5,
+      "previous_certified_lower": 13,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 66
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        }
+      ]
+    },
+    "scored_0050": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 50586,
+      "terminal_candidates": 0,
+      "certified_lower": 19,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 7065,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 6432,
+          "terminals": 0,
+          "peak_sparse_blocks": 31
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 7667,
+          "terminals": 0,
+          "peak_sparse_blocks": 29
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 6704,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 7135,
+          "terminals": 0,
+          "peak_sparse_blocks": 32
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 7293,
+          "terminals": 0,
+          "peak_sparse_blocks": 38
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 4360,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3930,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        }
+      ]
+    },
+    "scored_0368": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0635": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 58
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        }
+      ]
+    },
+    "scored_0560": {
+      "helpers": 7,
+      "previous_certified_lower": 20,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        }
+      ]
+    },
+    "scored_0271": {
+      "helpers": 7,
+      "previous_certified_lower": 20,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        }
+      ]
+    },
+    "scored_0121": {
+      "helpers": 7,
+      "previous_certified_lower": 22,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 79
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 77
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 80
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 81
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 75
+        }
+      ]
+    },
+    "scored_0084": {
+      "helpers": 8,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        }
+      ]
+    },
+    "scored_0877": {
+      "helpers": 8,
+      "previous_certified_lower": 25,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 41
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 46
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 66
+        }
+      ]
+    },
+    "scored_0252": {
+      "helpers": 8,
+      "previous_certified_lower": 22,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 74
+        }
+      ]
+    },
+    "scored_0913": {
+      "helpers": 5,
+      "previous_certified_lower": 16,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 3249,
+      "terminal_candidates": 0,
+      "certified_lower": 17,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 561,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 498,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 340,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 317,
+          "terminals": 0,
+          "peak_sparse_blocks": 11
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 396,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 381,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 385,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 371,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0388": {
+      "helpers": 5,
+      "previous_certified_lower": 12,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 17406,
+      "terminal_candidates": 0,
+      "certified_lower": 13,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2452,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2377,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2367,
+          "terminals": 0,
+          "peak_sparse_blocks": 41
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2162,
+          "terminals": 0,
+          "peak_sparse_blocks": 40
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1974,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1931,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2125,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2018,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        }
+      ]
+    },
+    "scored_0874": {
+      "helpers": 6,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        }
+      ]
+    },
+    "scored_0237": {
+      "helpers": 6,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        }
+      ]
+    },
+    "scored_0584": {
+      "helpers": 6,
+      "previous_certified_lower": 20,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 66
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 67
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 67
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        }
+      ]
+    },
+    "scored_0654": {
+      "helpers": 7,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 29
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 27
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 31
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 42
+        }
+      ]
+    },
+    "scored_0296": {
+      "helpers": 7,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0005": {
+      "helpers": 7,
+      "previous_certified_lower": 23,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 54
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 67
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 70
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 72
+        }
+      ]
+    },
+    "scored_0021": {
+      "helpers": 8,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0299": {
+      "helpers": 8,
+      "previous_certified_lower": 22,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 44
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 53
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        }
+      ]
+    },
+    "scored_0253": {
+      "helpers": 8,
+      "previous_certified_lower": 25,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 58
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 72
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 83
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 76
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 82
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 81
+        }
+      ]
+    },
+    "scored_0656": {
+      "helpers": 5,
+      "previous_certified_lower": 17,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 7181,
+      "terminal_candidates": 0,
+      "certified_lower": 18,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 987,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 920,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1030,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1005,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 825,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 753,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 849,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 812,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0971": {
+      "helpers": 5,
+      "previous_certified_lower": 11,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 10805,
+      "terminal_candidates": 0,
+      "certified_lower": 12,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1463,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1380,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1324,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1257,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1386,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1336,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1356,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1303,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0818": {
+      "helpers": 6,
+      "previous_certified_lower": 12,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 5,
+      "nodes": 61426,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 29
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 33
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 6827,
+          "terminals": 0,
+          "peak_sparse_blocks": 28
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 7145,
+          "terminals": 0,
+          "peak_sparse_blocks": 28
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 28
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 7454,
+          "terminals": 0,
+          "peak_sparse_blocks": 28
+        }
+      ]
+    },
+    "scored_0515": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0773": {
+      "helpers": 6,
+      "previous_certified_lower": 14,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 66
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 70
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 74
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 76
+        }
+      ]
+    },
+    "scored_0962": {
+      "helpers": 7,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 28
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        }
+      ]
+    },
+    "scored_0282": {
+      "helpers": 7,
+      "previous_certified_lower": 20,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 12
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        }
+      ]
+    },
+    "scored_0350": {
+      "helpers": 7,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 72
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 67
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        }
+      ]
+    },
+    "scored_0137": {
+      "helpers": 8,
+      "previous_certified_lower": 24,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 35
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 46
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 44
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 58
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 54
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        }
+      ]
+    },
+    "scored_0763": {
+      "helpers": 8,
+      "previous_certified_lower": 22,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 44
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 47
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        }
+      ]
+    },
+    "scored_0898": {
+      "helpers": 8,
+      "previous_certified_lower": 25,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 48
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        }
+      ]
+    },
+    "scored_0926": {
+      "helpers": 5,
+      "previous_certified_lower": 12,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 27221,
+      "terminal_candidates": 0,
+      "certified_lower": 13,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3561,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3365,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3545,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3436,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3372,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3185,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3416,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3341,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        }
+      ]
+    },
+    "scored_0024": {
+      "helpers": 6,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        }
+      ]
+    },
+    "scored_0630": {
+      "helpers": 6,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0292": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 62
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 75
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 76
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 75
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 78
+        }
+      ]
+    },
+    "scored_0866": {
+      "helpers": 7,
+      "previous_certified_lower": 14,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        }
+      ]
+    },
+    "scored_0672": {
+      "helpers": 7,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 37
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 39
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 45
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 47
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 50
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 48
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        }
+      ]
+    },
+    "scored_0478": {
+      "helpers": 7,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 67
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 66
+        }
+      ]
+    },
+    "scored_0797": {
+      "helpers": 8,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 31
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 42
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 42
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 41
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 54
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 47
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 57
+        }
+      ]
+    },
+    "scored_0911": {
+      "helpers": 8,
+      "previous_certified_lower": 26,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 62
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 72
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 81
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 83
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 79
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 84
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 86
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 82
+        }
+      ]
+    },
+    "scored_0945": {
+      "helpers": 5,
+      "previous_certified_lower": 18,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 8733,
+      "terminal_candidates": 0,
+      "certified_lower": 19,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1130,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1052,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1215,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1139,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1097,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1049,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1065,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 986,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        }
+      ]
+    },
+    "scored_0134": {
+      "helpers": 6,
+      "previous_certified_lower": 14,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 21949,
+      "terminal_candidates": 0,
+      "certified_lower": 15,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2767,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2508,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3136,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2851,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2948,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2791,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2531,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2417,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        }
+      ]
+    },
+    "scored_0056": {
+      "helpers": 6,
+      "previous_certified_lower": 13,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        }
+      ]
+    },
+    "scored_0541": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 55
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 62
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 60
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        }
+      ]
+    },
+    "scored_0181": {
+      "helpers": 7,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        }
+      ]
+    },
+    "scored_0989": {
+      "helpers": 7,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 59
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 62
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 68
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 65
+        }
+      ]
+    },
+    "scored_0733": {
+      "helpers": 8,
+      "previous_certified_lower": 22,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 37
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 54
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 53
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 63
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 64
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 61
+        }
+      ]
+    },
+    "scored_0867": {
+      "helpers": 8,
+      "previous_certified_lower": 21,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 56
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 69
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 73
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 76
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 71
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 75
+        }
+      ]
+    },
+    "scored_0272": {
+      "helpers": 5,
+      "previous_certified_lower": 12,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 13686,
+      "terminal_candidates": 0,
+      "certified_lower": 13,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1818,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1721,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1723,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1694,
+          "terminals": 0,
+          "peak_sparse_blocks": 27
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1687,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1594,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1763,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1686,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        }
+      ]
+    },
+    "scored_0981": {
+      "helpers": 6,
+      "previous_certified_lower": 13,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 22993,
+      "terminal_candidates": 0,
+      "certified_lower": 14,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3049,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2804,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3292,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3072,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3125,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2831,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2488,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2332,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        }
+      ]
+    },
+    "scored_0720": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 27
+        }
+      ]
+    },
+    "scored_0858": {
+      "helpers": 7,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        }
+      ]
+    },
+    "scored_0241": {
+      "helpers": 5,
+      "previous_certified_lower": 15,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 15640,
+      "terminal_candidates": 0,
+      "certified_lower": 16,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2198,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2048,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1898,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1862,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1791,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1973,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1870,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        }
+      ]
+    },
+    "scored_0376": {
+      "helpers": 6,
+      "previous_certified_lower": 12,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 7,
+      "nodes": 63595,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 7595,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        }
+      ]
+    },
+    "scored_0019": {
+      "helpers": 6,
+      "previous_certified_lower": 12,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0928": {
+      "helpers": 7,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        }
+      ]
+    },
+    "scored_0810": {
+      "helpers": 5,
+      "previous_certified_lower": 18,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 11428,
+      "terminal_candidates": 0,
+      "certified_lower": 19,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1623,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1547,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1445,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1351,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1412,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1373,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1388,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1289,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        }
+      ]
+    },
+    "scored_0822": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        }
+      ]
+    },
+    "scored_0556": {
+      "helpers": 6,
+      "previous_certified_lower": 14,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0559": {
+      "helpers": 7,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 26
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 27
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 30
+        }
+      ]
+    },
+    "scored_0922": {
+      "helpers": 5,
+      "previous_certified_lower": 11,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 14791,
+      "terminal_candidates": 0,
+      "certified_lower": 12,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2117,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2015,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1863,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1766,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1788,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1700,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1811,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1731,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        }
+      ]
+    },
+    "scored_0233": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 23561,
+      "terminal_candidates": 0,
+      "certified_lower": 19,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3219,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2934,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3111,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3046,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3420,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2848,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2546,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2437,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        }
+      ]
+    },
+    "scored_0583": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0029": {
+      "helpers": 7,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        }
+      ]
+    },
+    "scored_0868": {
+      "helpers": 5,
+      "previous_certified_lower": 18,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 25656,
+      "terminal_candidates": 0,
+      "certified_lower": 19,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3404,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3287,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3326,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3179,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3332,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3179,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3063,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2886,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        }
+      ]
+    },
+    "scored_0863": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 15420,
+      "terminal_candidates": 0,
+      "certified_lower": 18,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1540,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1727,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 1684,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1382,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2527,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 1820,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2657,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2083,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        }
+      ]
+    },
+    "scored_0620": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0103": {
+      "helpers": 7,
+      "previous_certified_lower": 19,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        }
+      ]
+    },
+    "scored_0461": {
+      "helpers": 5,
+      "previous_certified_lower": 16,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 22066,
+      "terminal_candidates": 0,
+      "certified_lower": 17,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2959,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2776,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2677,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2547,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2870,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2749,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 2822,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 2666,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        }
+      ]
+    },
+    "scored_0908": {
+      "helpers": 6,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        }
+      ]
+    },
+    "scored_0222": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        }
+      ]
+    },
+    "scored_0425": {
+      "helpers": 5,
+      "previous_certified_lower": 11,
+      "status": "UNSAT",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 0,
+      "nodes": 26934,
+      "terminal_candidates": 0,
+      "certified_lower": 12,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3755,
+          "terminals": 0,
+          "peak_sparse_blocks": 25
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3615,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3354,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3209,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3491,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3286,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNSAT",
+          "nodes": 3163,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNSAT",
+          "nodes": 3061,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        }
+      ]
+    },
+    "scored_0065": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        }
+      ]
+    },
+    "scored_0897": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        }
+      ]
+    },
+    "scored_0777": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        }
+      ]
+    },
+    "scored_0396": {
+      "helpers": 6,
+      "previous_certified_lower": 16,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0066": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0211": {
+      "helpers": 6,
+      "previous_certified_lower": 18,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 22
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 24
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 23
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 21
+        }
+      ]
+    },
+    "scored_0492": {
+      "helpers": 6,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        }
+      ]
+    },
+    "scored_0221": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 20
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 19
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 17
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 18
+        }
+      ]
+    },
+    "scored_0548": {
+      "helpers": 6,
+      "previous_certified_lower": 15,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 13
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 14
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 15
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 16
+        }
+      ]
+    },
+    "scored_0914": {
+      "helpers": 6,
+      "previous_certified_lower": 17,
+      "status": "INCOMPLETE",
+      "finished": 8,
+      "total_branches": 8,
+      "unknown": 8,
+      "nodes": 64000,
+      "terminal_candidates": 0,
+      "certified_lower": null,
+      "branches": [
+        {
+          "first": 0,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 43
+        },
+        {
+          "first": 0,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 44
+        },
+        {
+          "first": 1,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 48
+        },
+        {
+          "first": 1,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 49
+        },
+        {
+          "first": 2,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 2,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 51
+        },
+        {
+          "first": 3,
+          "second": 0,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        },
+        {
+          "first": 3,
+          "second": 1,
+          "status": "UNKNOWN",
+          "nodes": 8000,
+          "terminals": 0,
+          "peak_sparse_blocks": 52
+        }
+      ]
+    }
+  }
+}

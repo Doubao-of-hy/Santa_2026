@@ -1,0 +1,45 @@
+{
+  "scope": "Arithmetic completeness of terminal and two-helper relaxations, incremental membership and undo, canonical shard exclusions, and agreement of early pruning under node limits.",
+  "seed": 520261120,
+  "fingerprints": {
+    "audit-snapshot/exact_helpers.cpp": "a9234e7628359e0a8845a0b4857b2abd88c7632a8be062afa2546a09f9eb1811",
+    "audit-snapshot/exact_frontier.hpp": "93c8cea517121c539dc6cd3873f925ad7af93a5a3fd693ba9cb18c33dae66e2a",
+    "audit-frontier.cpp": "d4cb93479e1121b09387171ade1a82d45ee30dba8171ed294e7af544a91a25b0",
+    "audit-frontier.exe": "663d97d3842d2ced24ce7892fe6693181b23dcf5c2ba283107a09fb1f0d40cad"
+  },
+  "metrics": {
+    "domains": 171,
+    "checks": 1277,
+    "with_four": 9155,
+    "cover_yes": 8605,
+    "cover_no": 550,
+    "rolls": 1106,
+    "zero_to_two": 97,
+    "finish": 22485,
+    "finish_yes": 4316,
+    "finish_with_ban": 17988,
+    "shards": 4484,
+    "negative_shards": 1113,
+    "bfs": 1145,
+    "bfs_yes": 984,
+    "pruning_active": 549,
+    "unique_pair": 13813,
+    "two_joint": 3050,
+    "one_joint": 5039,
+    "tight_odd": 578,
+    "tight_even": 1325,
+    "high_bit": 911,
+    "only_penultimate": 37,
+    "capped_pairs": 1500,
+    "capped_unknown": 234,
+    "distinct_ban_rejections": 1193
+  },
+  "notes": [
+    "Unpruned BFS enumerates reachable states by the number of distinct non-target helpers, using independently implemented arithmetic and closure. Whole-instance decisions and original-vs-optimized per-shard decisions are checked separately.",
+    "Terminal checks run over reachable prefixes and five synthetic ban patterns, including banning all actual final-step winners and all other values.",
+    "Two-helper coverage checks need only avoid false negatives. A positive relaxed test need not have a reachable pair. Cases include a 64-target mask and the maximum dense-domain bound.",
+    "Dynamic membership tests compare full reversible tables with their pre-extension copies, including every partners row. Two 0-to-1-to-many updates to a value in one extension are explicitly counted.",
+    "For 1500 capped searches early versus late pair pruning must agree on status, interruption and charged nodes, including individual shard marks.",
+    "Validated by code inspection and finite differential testing, not an exhaustive proof over all inputs."
+  ]
+}

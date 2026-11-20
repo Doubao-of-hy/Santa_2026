@@ -12,9 +12,9 @@ from elf import check, read_puzzles, read_submission
 from graph import active_graph, compile_graph
 
 
-def generate(puzzle, exe, options):
+def generate(puzzle, exe, options, anchors=()):
     line=" ".join(map(str,(puzzle.id,puzzle.limit,len(puzzle.seeds),len(puzzle.targets),
-                           *puzzle.seeds,*puzzle.targets,0)))
+                           *puzzle.seeds,*puzzle.targets,len(anchors),*anchors)))
     result=subprocess.run([str(exe),*options],input=line+"\n",capture_output=True,text=True)
     if result.returncode:
         raise RuntimeError(f"{puzzle.id} failed: {result.returncode} {result.stderr}")
@@ -29,7 +29,7 @@ def generate(puzzle, exe, options):
     if next(rows,None) is not None:
         raise ValueError("trailing planner output")
     count=len(active_graph(puzzle,graph))
-    program=compile_graph(puzzle,graph,attempts=8,recompute=True,schedule_width=10)
+    program=compile_graph(puzzle,graph,attempts=8,recompute=True,schedule_width=12 if anchors else 10)
     if program is None:
         raise ValueError(f"{pid} could not compile its arithmetic graph")
     check(puzzle,program)
@@ -52,6 +52,8 @@ def main():
     ap.add_argument("--seed",type=int,default=397)
     ap.add_argument("--bilinear",type=int,default=0)
     ap.add_argument("--joint",type=int,default=0)
+    ap.add_argument("--anchor-file",type=Path,
+                    help="JSON object mapping puzzle IDs to ordered speculative anchors")
     args=ap.parse_args()
     puzzles=read_puzzles(args.puzzles)
     random.Random(args.seed).shuffle(puzzles)
@@ -68,7 +70,16 @@ def main():
     exe=args.exe.resolve()
     flags=(args.output.with_suffix(".settings.json"))
     from hashlib import sha256
+    anchor_bytes=args.anchor_file.read_bytes() if args.anchor_file else None
+    anchors=json.loads(anchor_bytes) if anchor_bytes is not None else {}
+    if (not isinstance(anchors,dict) or any(
+        not isinstance(i,str) or not isinstance(values,list) or len(values)>64
+        or any(type(v) is not int or v<1 for v in values)
+        for i,values in anchors.items())):
+        raise ValueError("invalid anchor file format")
     settings=dict(executable=sha256(exe.read_bytes()).hexdigest(),options=options)
+    if anchor_bytes is not None:
+        settings["anchors"]=sha256(anchor_bytes).hexdigest()
     if existing and (not flags.exists() or json.loads(flags.read_text())!=settings):
         raise ValueError("incompatible output checkpoint")
     flags.write_text(json.dumps(settings),encoding="utf8")
@@ -92,7 +103,7 @@ def main():
             out.writerow(("id","program"))
         if not metrics.tell():
             audit.writerow(("id","graph","instructions","baseline","search"))
-        futures=[pool.submit(generate,p,exe,options) for p in unchanged]
+        futures=[pool.submit(generate,p,exe,options,anchors.get(p.id,())) for p in unchanged]
         for task in as_completed(futures):
             pid,program,graph,trace=task.result()
             reference=len(baseline[pid]) if pid in baseline else None

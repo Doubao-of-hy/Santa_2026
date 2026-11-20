@@ -1,0 +1,65 @@
+{
+  "random_seed": 121667,
+  "counts": {
+    "brute_cases": 1062,
+    "decisions": 2614,
+    "inconclusive": 2124,
+    "tested_at_or_above_true_optimum": 2124,
+    "certified": 490,
+    "rooted_capacity_leaves": 0,
+    "multi_value_groups": 11,
+    "replayed_leaf_checks": 515,
+    "tampered_proofs_rejected": 3
+  },
+  "examples": [
+    {
+      "cap": 3,
+      "seeds": [
+        1
+      ],
+      "targets": [
+        3
+      ],
+      "optimum": 2,
+      "certified": 2
+    },
+    {
+      "cap": 3,
+      "seeds": [
+        1
+      ],
+      "targets": [
+        1,
+        3
+      ],
+      "optimum": 2,
+      "certified": 2
+    },
+    {
+      "cap": 3,
+      "seeds": [
+        2
+      ],
+      "targets": [
+        3
+      ],
+      "optimum": 2,
+      "certified": 2
+    },
+    {
+      "cap": 3,
+      "seeds": [
+        2
+      ],
+      "targets": [
+        2,
+        3
+      ],
+      "optimum": 2,
+      "certified": 2
+    }
+  ],
+  "source_sha256": "9d30c1498ea547c09329b8bab05a754d16ea451a8702bf9169d7d18534bf54ae",
+  "solver_sha256": "f3675cdd36c96a5b3a004df14af97b6f97778366dd28273defc4525238f225d3",
+  "checker_sha256": "38dc9d0fd898635e50f3983c4c752c4cd6768e2fa99d102cb00a9b98616b3da8"
+}

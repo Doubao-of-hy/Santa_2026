@@ -1,0 +1,43 @@
+{
+  "sources": {
+    "parent": {
+      "json": "E:\\Codex\\Santa2026\\work\\virtual\\wave4.json",
+      "sha256": "2e409f417249b8067b0c508ba04ecff71dec39f2bfc52a9a07642056e14c992c",
+      "binary_sha256": "fac9fc5f0a3d86f646af3da134071f203dc2406a31fd75ceaa9475562d0a4ad4",
+      "verified_sql_records": 121,
+      "verified_sql_sha256": "70d08b792ecf081dc1326f8ef4a64201f1d50a687e15a8f84c23836578607639"
+    },
+    "refined": {
+      "json": "E:\\Codex\\Santa2026\\work\\virtual\\wave4-refined.json",
+      "sha256": "01fc3a9c2d154f4f2107d135204743817ae79fadcb921a48e50190a563475485",
+      "binary_sha256": "3c07d54e25710145c894a332df93661b03956f9386be537142cc22c074739582",
+      "parent_sha256": "10ba95d28a63201f356db4bb1f67927a2b849090eb25ac0e1b259f4e6dba25d5",
+      "reconstructed_parent_sha256": "10ba95d28a63201f356db4bb1f67927a2b849090eb25ac0e1b259f4e6dba25d5",
+      "verified_sql_records": 144,
+      "verified_sql_sha256": "3f4306926960a1e918873997aad1ddf62ce38b544ed0eb61af2400b05e43ae15"
+    },
+    "local": {
+      "sqlite": "E:\\Codex\\Santa2026\\work\\heritage\\wave4-reverse.sqlite",
+      "binary_sha256": "ea07259774821a1f9fdabe7ef091682e0273a0cad69c30fd9ed5f71b20fe05ba",
+      "mode": "--pair-bound"
+    }
+  },
+  "script_sha256": "0fe7efb1e264d5e5b81a12956e5fd43ca83ea57662041b71e7ae365c4a88ca3b",
+  "rejected_corruptions": [
+    "scored_0289: wrong aggregate/status",
+    "duplicate or out-of-range partition",
+    "refined status inconsistent with children",
+    "report disagrees with sqlite",
+    "could not reconstruct exact historical parent snapshot",
+    "scored_0289: invalid lower bound",
+    "local evidence checksum mismatch"
+  ],
+  "concurrency_and_witness_checks": [
+    "same part cannot be claimed twice",
+    "parent and child claims exclude one another",
+    "distinct children can run together",
+    "complete child retained across budgets",
+    "unfinished child supports higher-budget retry",
+    "positive native witness replayed before and after storage"
+  ]
+}

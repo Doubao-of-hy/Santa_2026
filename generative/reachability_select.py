@@ -74,11 +74,11 @@ def sources_of_cycles(missing,allowed,selected):
     return [g for i,g in enumerate(groups) if i not in incoming]
 
 
-def solve_free(p,programs,trials,seconds):
+def solve_free(p,programs,trials,seconds,candidate_bank=None):
     from component_select import bank
     programs=sorted(dict.fromkeys(programs),key=len)
     best=programs[0];original=first_recipes(p,best)
-    primary,ways=bank(p,programs)
+    primary,ways=candidate_bank if candidate_bank is not None else bank(p,programs)
     seeds=set(p.seeds)
     # The value cap in the candidate bank may truncate some donor-only cones.
     available=set(seeds)

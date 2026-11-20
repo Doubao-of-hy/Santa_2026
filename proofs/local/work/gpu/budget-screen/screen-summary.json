@@ -1,0 +1,491 @@
+{
+  "initial_all_1000_lower_sum": 36642,
+  "final_all_1000_lower_sum": 36729,
+  "selected_puzzles": 85,
+  "improvement_histogram": {
+    "0": 28,
+    "1": 31,
+    "2": 22,
+    "3": 4
+  },
+  "feasible_optima_in_selected": 0,
+  "stages": [
+    {
+      "file": "first.json",
+      "sha256": "1442caae784ec2f7201e67fd1291672dc503fd8f1fea7a215eaee149eff6cf90",
+      "puzzles": 85,
+      "full_unsat": 20,
+      "found": 0,
+      "incomplete": 65,
+      "positive_cells": 160,
+      "nodes_all": 4514929
+    },
+    {
+      "file": "second.json",
+      "sha256": "8759a65fc2f471eb03d382f15141329575fdb66ee9a006f2f7daedc66a982c1c",
+      "puzzles": 16,
+      "full_unsat": 2,
+      "found": 0,
+      "incomplete": 14,
+      "positive_cells": 16,
+      "nodes_all": 2978382
+    },
+    {
+      "file": "wide.json",
+      "sha256": "1a99920bb19147e862734565e4bffb49929c64f37ba2de75cfb2a9c24a168fab",
+      "puzzles": 85,
+      "full_unsat": 53,
+      "found": 0,
+      "incomplete": 32,
+      "positive_cells": 424,
+      "nodes_all": 63807469
+    },
+    {
+      "file": "raise.json",
+      "sha256": "6650e75c2363047ad2ba2de00cd03e8d68c62f7a087d7b6d3a222a3158415058",
+      "puzzles": 41,
+      "full_unsat": 3,
+      "found": 0,
+      "incomplete": 38,
+      "positive_cells": 24,
+      "nodes_all": 127682658
+    },
+    {
+      "file": "focus.json",
+      "sha256": "1a0de967f5c612056a40a0bf07e5c0ab07cc45856297efc3f01a2b66be216c64",
+      "puzzles": 9,
+      "full_unsat": 9,
+      "found": 0,
+      "incomplete": 0,
+      "positive_cells": 288,
+      "nodes_all": 63421751
+    }
+  ],
+  "selected_rows": {
+    "scored_0409": {
+      "initial_lower": 14,
+      "final_lower": 17,
+      "frozen_feasible_upper": 21
+    },
+    "scored_0882": {
+      "initial_lower": 17,
+      "final_lower": 20,
+      "frozen_feasible_upper": 23
+    },
+    "scored_0701": {
+      "initial_lower": 13,
+      "final_lower": 14,
+      "frozen_feasible_upper": 27
+    },
+    "scored_0050": {
+      "initial_lower": 18,
+      "final_lower": 20,
+      "frozen_feasible_upper": 26
+    },
+    "scored_0368": {
+      "initial_lower": 18,
+      "final_lower": 19,
+      "frozen_feasible_upper": 28
+    },
+    "scored_0635": {
+      "initial_lower": 16,
+      "final_lower": 16,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0560": {
+      "initial_lower": 20,
+      "final_lower": 21,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0271": {
+      "initial_lower": 20,
+      "final_lower": 20,
+      "frozen_feasible_upper": 40
+    },
+    "scored_0121": {
+      "initial_lower": 22,
+      "final_lower": 22,
+      "frozen_feasible_upper": 46
+    },
+    "scored_0084": {
+      "initial_lower": 19,
+      "final_lower": 19,
+      "frozen_feasible_upper": 39
+    },
+    "scored_0877": {
+      "initial_lower": 25,
+      "final_lower": 25,
+      "frozen_feasible_upper": 55
+    },
+    "scored_0252": {
+      "initial_lower": 22,
+      "final_lower": 22,
+      "frozen_feasible_upper": 66
+    },
+    "scored_0913": {
+      "initial_lower": 16,
+      "final_lower": 18,
+      "frozen_feasible_upper": 25
+    },
+    "scored_0388": {
+      "initial_lower": 12,
+      "final_lower": 15,
+      "frozen_feasible_upper": 18
+    },
+    "scored_0874": {
+      "initial_lower": 19,
+      "final_lower": 21,
+      "frozen_feasible_upper": 27
+    },
+    "scored_0237": {
+      "initial_lower": 19,
+      "final_lower": 20,
+      "frozen_feasible_upper": 29
+    },
+    "scored_0584": {
+      "initial_lower": 20,
+      "final_lower": 20,
+      "frozen_feasible_upper": 45
+    },
+    "scored_0654": {
+      "initial_lower": 19,
+      "final_lower": 20,
+      "frozen_feasible_upper": 30
+    },
+    "scored_0296": {
+      "initial_lower": 18,
+      "final_lower": 18,
+      "frozen_feasible_upper": 41
+    },
+    "scored_0005": {
+      "initial_lower": 23,
+      "final_lower": 23,
+      "frozen_feasible_upper": 48
+    },
+    "scored_0021": {
+      "initial_lower": 19,
+      "final_lower": 19,
+      "frozen_feasible_upper": 40
+    },
+    "scored_0299": {
+      "initial_lower": 22,
+      "final_lower": 22,
+      "frozen_feasible_upper": 92
+    },
+    "scored_0253": {
+      "initial_lower": 25,
+      "final_lower": 25,
+      "frozen_feasible_upper": 78
+    },
+    "scored_0656": {
+      "initial_lower": 17,
+      "final_lower": 19,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0971": {
+      "initial_lower": 11,
+      "final_lower": 14,
+      "frozen_feasible_upper": 18
+    },
+    "scored_0818": {
+      "initial_lower": 12,
+      "final_lower": 14,
+      "frozen_feasible_upper": 21
+    },
+    "scored_0515": {
+      "initial_lower": 16,
+      "final_lower": 17,
+      "frozen_feasible_upper": 27
+    },
+    "scored_0773": {
+      "initial_lower": 14,
+      "final_lower": 14,
+      "frozen_feasible_upper": 43
+    },
+    "scored_0962": {
+      "initial_lower": 18,
+      "final_lower": 19,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0282": {
+      "initial_lower": 20,
+      "final_lower": 20,
+      "frozen_feasible_upper": 45
+    },
+    "scored_0350": {
+      "initial_lower": 18,
+      "final_lower": 18,
+      "frozen_feasible_upper": 54
+    },
+    "scored_0137": {
+      "initial_lower": 24,
+      "final_lower": 24,
+      "frozen_feasible_upper": 54
+    },
+    "scored_0763": {
+      "initial_lower": 22,
+      "final_lower": 22,
+      "frozen_feasible_upper": 92
+    },
+    "scored_0898": {
+      "initial_lower": 25,
+      "final_lower": 25,
+      "frozen_feasible_upper": 80
+    },
+    "scored_0926": {
+      "initial_lower": 12,
+      "final_lower": 14,
+      "frozen_feasible_upper": 20
+    },
+    "scored_0024": {
+      "initial_lower": 19,
+      "final_lower": 21,
+      "frozen_feasible_upper": 29
+    },
+    "scored_0630": {
+      "initial_lower": 15,
+      "final_lower": 16,
+      "frozen_feasible_upper": 26
+    },
+    "scored_0292": {
+      "initial_lower": 16,
+      "final_lower": 16,
+      "frozen_feasible_upper": 52
+    },
+    "scored_0866": {
+      "initial_lower": 14,
+      "final_lower": 15,
+      "frozen_feasible_upper": 27
+    },
+    "scored_0672": {
+      "initial_lower": 17,
+      "final_lower": 17,
+      "frozen_feasible_upper": 56
+    },
+    "scored_0478": {
+      "initial_lower": 19,
+      "final_lower": 19,
+      "frozen_feasible_upper": 80
+    },
+    "scored_0797": {
+      "initial_lower": 18,
+      "final_lower": 18,
+      "frozen_feasible_upper": 75
+    },
+    "scored_0911": {
+      "initial_lower": 26,
+      "final_lower": 26,
+      "frozen_feasible_upper": 83
+    },
+    "scored_0945": {
+      "initial_lower": 18,
+      "final_lower": 20,
+      "frozen_feasible_upper": 28
+    },
+    "scored_0134": {
+      "initial_lower": 14,
+      "final_lower": 16,
+      "frozen_feasible_upper": 26
+    },
+    "scored_0056": {
+      "initial_lower": 13,
+      "final_lower": 14,
+      "frozen_feasible_upper": 25
+    },
+    "scored_0541": {
+      "initial_lower": 16,
+      "final_lower": 16,
+      "frozen_feasible_upper": 54
+    },
+    "scored_0181": {
+      "initial_lower": 16,
+      "final_lower": 17,
+      "frozen_feasible_upper": 30
+    },
+    "scored_0989": {
+      "initial_lower": 19,
+      "final_lower": 19,
+      "frozen_feasible_upper": 82
+    },
+    "scored_0733": {
+      "initial_lower": 22,
+      "final_lower": 22,
+      "frozen_feasible_upper": 95
+    },
+    "scored_0867": {
+      "initial_lower": 21,
+      "final_lower": 21,
+      "frozen_feasible_upper": 87
+    },
+    "scored_0272": {
+      "initial_lower": 12,
+      "final_lower": 14,
+      "frozen_feasible_upper": 22
+    },
+    "scored_0981": {
+      "initial_lower": 13,
+      "final_lower": 15,
+      "frozen_feasible_upper": 26
+    },
+    "scored_0720": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 29
+    },
+    "scored_0858": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 32
+    },
+    "scored_0241": {
+      "initial_lower": 15,
+      "final_lower": 17,
+      "frozen_feasible_upper": 25
+    },
+    "scored_0376": {
+      "initial_lower": 12,
+      "final_lower": 14,
+      "frozen_feasible_upper": 25
+    },
+    "scored_0019": {
+      "initial_lower": 12,
+      "final_lower": 13,
+      "frozen_feasible_upper": 24
+    },
+    "scored_0928": {
+      "initial_lower": 15,
+      "final_lower": 16,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0810": {
+      "initial_lower": 18,
+      "final_lower": 20,
+      "frozen_feasible_upper": 29
+    },
+    "scored_0822": {
+      "initial_lower": 17,
+      "final_lower": 19,
+      "frozen_feasible_upper": 30
+    },
+    "scored_0556": {
+      "initial_lower": 14,
+      "final_lower": 15,
+      "frozen_feasible_upper": 27
+    },
+    "scored_0559": {
+      "initial_lower": 15,
+      "final_lower": 16,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0922": {
+      "initial_lower": 11,
+      "final_lower": 13,
+      "frozen_feasible_upper": 22
+    },
+    "scored_0233": {
+      "initial_lower": 18,
+      "final_lower": 20,
+      "frozen_feasible_upper": 32
+    },
+    "scored_0583": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 30
+    },
+    "scored_0029": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 38
+    },
+    "scored_0868": {
+      "initial_lower": 18,
+      "final_lower": 20,
+      "frozen_feasible_upper": 29
+    },
+    "scored_0863": {
+      "initial_lower": 17,
+      "final_lower": 19,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0620": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 33
+    },
+    "scored_0103": {
+      "initial_lower": 19,
+      "final_lower": 19,
+      "frozen_feasible_upper": 42
+    },
+    "scored_0461": {
+      "initial_lower": 16,
+      "final_lower": 18,
+      "frozen_feasible_upper": 28
+    },
+    "scored_0908": {
+      "initial_lower": 15,
+      "final_lower": 17,
+      "frozen_feasible_upper": 31
+    },
+    "scored_0222": {
+      "initial_lower": 16,
+      "final_lower": 17,
+      "frozen_feasible_upper": 33
+    },
+    "scored_0425": {
+      "initial_lower": 11,
+      "final_lower": 13,
+      "frozen_feasible_upper": 23
+    },
+    "scored_0065": {
+      "initial_lower": 18,
+      "final_lower": 19,
+      "frozen_feasible_upper": 37
+    },
+    "scored_0897": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0777": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0396": {
+      "initial_lower": 16,
+      "final_lower": 17,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0066": {
+      "initial_lower": 18,
+      "final_lower": 19,
+      "frozen_feasible_upper": 37
+    },
+    "scored_0211": {
+      "initial_lower": 18,
+      "final_lower": 19,
+      "frozen_feasible_upper": 38
+    },
+    "scored_0492": {
+      "initial_lower": 15,
+      "final_lower": 16,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0221": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 37
+    },
+    "scored_0548": {
+      "initial_lower": 15,
+      "final_lower": 16,
+      "frozen_feasible_upper": 35
+    },
+    "scored_0914": {
+      "initial_lower": 17,
+      "final_lower": 18,
+      "frozen_feasible_upper": 39
+    }
+  }
+}

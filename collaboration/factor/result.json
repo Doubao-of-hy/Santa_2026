@@ -1,0 +1,28 @@
+{
+ "complete": true,
+ "elapsed": 3.7286865999922156,
+ "source": "dcf0c5d70ff5e514d595982a08fe2f37bde03d89343fc5c479f96dc158deb26e",
+ "native_source": "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44",
+ "native": "a3535e504ef018555d9fec9c1fe6e4aacaf856448027caa4d5558739445817c0",
+ "ids": "1311beee5533ea0a75e1dc6ab45f992695aa3b114ec526687e5a0ffff3b90eff",
+ "parent": "1f239452d6d5748102f1fb5c814fd25e6fb4ba3d67cbcd2912558be71069ea0c",
+ "parameters": {
+  "cuts": 36,
+  "offsets": 64,
+  "nout": 32,
+  "linked": false,
+  "select": false
+ },
+ "rows": {
+  "scored_0334": {
+   "cuts": 36,
+   "factor_pairs": 177457,
+   "generated": 84,
+   "linked": 0,
+   "retained": 75,
+   "greedy": 246,
+   "parent": 249,
+   "best": 246
+  }
+ }
+}

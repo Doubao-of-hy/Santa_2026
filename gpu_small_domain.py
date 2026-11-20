@@ -13,11 +13,12 @@ from gpu_schedule import schedule_like
 from graph import active_graph,compile_graph,first_recipes
 
 
-def regions(p,graph):
+def regions(p,graph,wide_goals=False):
     users=defaultdict(set)
     for v,(_,a,b) in graph.items():users[a].add(v);users[b].add(v)
     plans={}
-    for cap in (64,128,256,512):
+    for cap in ((64,128,256,512,1024,2048) if wide_goals else (64,128,256,512)):
+        cap=min(cap,p.limit)
         available=set(p.seeds);small=[]
         for v,(_,a,b) in graph.items():
             if v<=cap and a in available and b in available:small.append(v);available.add(v)
@@ -33,11 +34,12 @@ def regions(p,graph):
     return list(plans.values())
 
 
-def optimize(p,pg,exe,budget):
-    graph=active_graph(p,first_recipes(p,pg));cases=regions(p,graph);stat=Counter()
+def optimize(p,pg,exe,budget,ceiling=0,wide_goals=False):
+    graph=active_graph(p,first_recipes(p,pg));cases=regions(p,graph,wide_goals);stat=Counter()
     if not cases:return pg,stat
     lines=[]
     for cap,inputs,goals,ub,_ in cases:
+        cap=min(p.limit,max(cap,ceiling))
         lines.append(' '.join(map(str,(p.id,cap,len(inputs),len(goals),ub,budget,*inputs,*goals))))
     finished=subprocess.run([str(exe)],input='\n'.join(lines)+'\n',text=True,capture_output=True,check=True)
     stream=iter(finished.stdout.splitlines());choices=[]
@@ -73,18 +75,20 @@ def main():
     ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--budget',type=int,default=15000)
     ap.add_argument('--rows',type=int,default=0);ap.add_argument('--ids',type=Path)
     ap.add_argument('--exe',type=Path,default=Path('work/gpu/small-domain.exe'))
+    ap.add_argument('--helper-ceiling',type=int,default=0,choices=(0,512,1024,2048))
+    ap.add_argument('--wide-goals',action='store_true')
     a=ap.parse_args();pg=read_submission(a.base);ps=read_puzzles(a.data);exe=a.exe.resolve()
     ids=set(pg) if not a.ids else set(a.ids.read_text().split())&set(pg)
     cases=[]
     for p in ps:
         if p.id not in ids:continue
-        choices=regions(p,active_graph(p,first_recipes(p,pg[p.id])))
+        choices=regions(p,active_graph(p,first_recipes(p,pg[p.id])),a.wide_goals)
         if choices:cases.append((max(z[3] for z in choices),p))
     cases.sort(key=lambda z:(-z[0],z[1].id));ps=[p for _,p in cases];
     if a.rows:ps=ps[:a.rows]
     out={};t0=perf_counter();stats=Counter()
     with ThreadPoolExecutor(a.jobs) as pool:
-        for p,(best,stat) in zip(ps,pool.map(lambda row:optimize(row,pg[row.id],exe,a.budget),ps)):
+        for p,(best,stat) in zip(ps,pool.map(lambda row:optimize(row,pg[row.id],exe,a.budget,a.helper_ceiling,a.wide_goals),ps)):
             out[p.id]=best;stats.update(stat)
             if len(out)==1 or len(out)%16==0 or len(out)==len(ps):
                 write_submission(a.output,[x for x in ps if x.id in out],out)

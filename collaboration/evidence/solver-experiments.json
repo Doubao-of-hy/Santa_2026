@@ -1,0 +1,427 @@
+{
+  "scope": "Locally verified historical experiments, 2026-11-20. Smaller instruction counts are better. Each run has its own fixed input.",
+  "source_releases": {
+    "asterios_v96": {
+      "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/96",
+      "license": "Apache 2.0",
+      "archive": "5bd214b35c63f02a008e93dbfc2926e9fd4a7eed12993be13e72f6d49d32a48c",
+      "raw": "best_programs.csv",
+      "raw_sha256": "021ef5fccb46ecf07d5e141759cef479b0bae4640562e8212dc2ad7ff4246eb4",
+      "normalized_sha256": "fb7dc6883346d1029bdb524efdbc8dc0612f268c0fdf364ec304b9a7aecaf075",
+      "score": 135806
+    },
+    "arsen_v15": {
+      "url": "https://www.kaggle.com/datasets/arsen123/santa-2026-original-dictionary-solver-source/versions/15",
+      "archive_sha256": "7522e5193c3e969b1fe363897078ff2744713e8acce0ba46a0bb68dcf9562755",
+      "scope": "Apache-2.0 for original code and documents listed in release_manifest.json",
+      "copyright": "Copyright 2026 the original-source contributors on Kaggle account arsen123.",
+      "code_version": "d52c95d138cd08078232b05e8385167a22931d371b2bb7aadfbf3b319f2c1ee3",
+      "recombine2026.py_sha256": "43c0fc702350b367bdb15048167c6a63f4b26db900d5790f9f0790f0e10ba204",
+      "recipe_milp.py_sha256": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb"
+    },
+    "goodpjw_v5": {
+      "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/5",
+      "license": "Apache 2.0",
+      "archive_sha256": "1ce3d4399135df1673c05857039954766306faa021d27e4a0d2098ec3266da46",
+      "elfopt.cpp_sha256": "16f12d4963acfe795f89f9632e941fb1aea9d8d8de55ac958a45b17a02881db2"
+    }
+  },
+  "single_parent_runs": {
+    "goodpjw_independent": {
+      "parent_sha256": "b48d77686ef903da8119596163dcd52199950effd67e044e9f837d30c79152e8",
+      "parent_score": 142219,
+      "full_sha256": "df29fc039a75fcd6c68e340a8b690909226153f152fdf60841be5c8fdacd1813",
+      "score": 141890,
+      "patch_sha256": "f4053367d011ae0bf9c7ed6fe79b87928fa6aa4d2636dc870f7718052936e852",
+      "changed_rows": 218,
+      "rows_verified": 1000
+    },
+    "goodpjw_public_assisted": {
+      "parent_sha256": "4af4f9db216c81434de56625e030b25355bb8c361c5a32c06d2253f925561ed0",
+      "parent_score": 135222,
+      "full_sha256": "7ff9f1a73819202b961bddbd984c599db16eaded2c42fa6c8592c6ef7c99e7e8",
+      "score": 135167,
+      "patch_sha256": "657d36e9900c207d08315d662efed01acb1019973bec84aca7587082f5dfc739",
+      "changed_rows": 42,
+      "rows_verified": 1000
+    },
+    "arsen_independent": {
+      "parent_score": 141613,
+      "score": 141555,
+      "changed_rows": 51,
+      "full_sha256": "62b9a8863e93c358f40bd0bdfce2dea7d76e0b0f87f41c6d264246515a3848a6",
+      "program_patch_sha256": "6056ce6995b4e0481791a18b783288f046b48184dfdfecf26b85e104b5d4c181",
+      "origins_patch_sha256": "ebd07fef1301eccaca28bd5a54a59ddee9e75b919e24b38b2351555f706a6ab5",
+      "gains_by_puzzle": {
+        "scored_0017": 1,
+        "scored_0021": 1,
+        "scored_0045": 1,
+        "scored_0063": 3,
+        "scored_0092": 1,
+        "scored_0102": 2,
+        "scored_0150": 1,
+        "scored_0154": 1,
+        "scored_0175": 1,
+        "scored_0180": 1,
+        "scored_0193": 2,
+        "scored_0206": 1,
+        "scored_0245": 1,
+        "scored_0278": 1,
+        "scored_0288": 1,
+        "scored_0318": 1,
+        "scored_0330": 1,
+        "scored_0341": 1,
+        "scored_0361": 1,
+        "scored_0377": 2,
+        "scored_0383": 1,
+        "scored_0384": 1,
+        "scored_0394": 2,
+        "scored_0451": 1,
+        "scored_0477": 1,
+        "scored_0551": 1,
+        "scored_0570": 1,
+        "scored_0599": 1,
+        "scored_0602": 1,
+        "scored_0616": 1,
+        "scored_0646": 1,
+        "scored_0669": 2,
+        "scored_0678": 1,
+        "scored_0715": 1,
+        "scored_0716": 1,
+        "scored_0717": 1,
+        "scored_0718": 1,
+        "scored_0737": 1,
+        "scored_0747": 1,
+        "scored_0750": 1,
+        "scored_0789": 1,
+        "scored_0794": 1,
+        "scored_0840": 1,
+        "scored_0861": 1,
+        "scored_0888": 1,
+        "scored_0909": 1,
+        "scored_0942": 1,
+        "scored_0976": 1,
+        "scored_0979": 1,
+        "scored_0985": 1,
+        "scored_0994": 1
+      },
+      "rows_verified": 1000,
+      "parent_sha256": "f309a81f2ade82cc4617afe6bc2fb7a563cebb66801bac4fef2c0c936f78ff6a",
+      "first_pass": {
+        "0": {
+          "wins": 7,
+          "gain": 7
+        },
+        "24": {
+          "wins": 17,
+          "gain": 20
+        },
+        "paid24": {
+          "wins": 48,
+          "gain": 51
+        }
+      }
+    },
+    "arsen_public_assisted": {
+      "parent_score": 135161,
+      "score": 135138,
+      "changed_rows": 20,
+      "full_sha256": "341b014ebccac100bc7174f779e6a2e6c538a26d5a5ea7b09d9dae816886e022",
+      "program_patch_sha256": "31bef310b5145e17a6e664ad9c96144b2fb9b0653ffdffa869407c379e8ef0a8",
+      "origins_patch_sha256": "f7f8cac41d98891d2835228dbee70afd3cfe3ad04651fedc0d7da3a6a40852aa",
+      "gains_by_puzzle": {
+        "scored_0041": 1,
+        "scored_0092": 1,
+        "scored_0156": 2,
+        "scored_0161": 1,
+        "scored_0176": 1,
+        "scored_0323": 1,
+        "scored_0383": 1,
+        "scored_0394": 2,
+        "scored_0416": 2,
+        "scored_0646": 1,
+        "scored_0667": 1,
+        "scored_0675": 1,
+        "scored_0684": 1,
+        "scored_0716": 1,
+        "scored_0788": 1,
+        "scored_0792": 1,
+        "scored_0888": 1,
+        "scored_0942": 1,
+        "scored_0976": 1,
+        "scored_0985": 1
+      },
+      "rows_verified": 1000,
+      "parent_sha256": "defcb1211feb459dabbd2c1ef20677fbec9908324490aea2e08f479326df282f",
+      "first_pass": {
+        "0": {
+          "checked": 1000,
+          "wins": 2,
+          "gain": 2
+        },
+        "24": {
+          "checked": 1000,
+          "wins": 7,
+          "gain": 9
+        },
+        "96": {
+          "checked": 160,
+          "wins": 0,
+          "gain": 0
+        },
+        "paid24": {
+          "checked": 1000,
+          "wins": 17,
+          "gain": 17
+        },
+        "paid8": {
+          "checked": 160,
+          "wins": 0,
+          "gain": 0
+        }
+      }
+    }
+  },
+  "retained_neighborhoods": {
+    "own": {
+      "parent_score": 141669,
+      "score": 141667,
+      "decision_counts": {
+        "UNSAT": 27025,
+        "UNKNOWN": 700,
+        "FOUND": 2
+      },
+      "conditional_entire_neighborhood_unsat": 92,
+      "global_optima_reached": [],
+      "checked_by_two_vms": 1000,
+      "parent_sha256": "2e9826b1483246d261017483dc0ccf2a7261b2e379c5d47111cddb5c20f0d297",
+      "selected_puzzles": [
+        "scored_0005",
+        "scored_0019",
+        "scored_0021",
+        "scored_0024",
+        "scored_0091",
+        "scored_0113",
+        "scored_0134",
+        "scored_0181",
+        "scored_0211",
+        "scored_0212",
+        "scored_0221",
+        "scored_0282",
+        "scored_0289",
+        "scored_0300",
+        "scored_0368",
+        "scored_0376",
+        "scored_0387",
+        "scored_0461",
+        "scored_0566",
+        "scored_0584",
+        "scored_0614",
+        "scored_0711",
+        "scored_0720",
+        "scored_0818",
+        "scored_0822",
+        "scored_0828",
+        "scored_0858",
+        "scored_0901",
+        "scored_0908",
+        "scored_0926",
+        "scored_0928",
+        "scored_0957",
+        "scored_0962",
+        "scored_0971"
+      ],
+      "wins": {
+        "scored_0021": [
+          43,
+          42
+        ],
+        "scored_0221": [
+          38,
+          37
+        ]
+      },
+      "fully_exhausted_all_subsets_without_witness": {
+        "drop_3_allow_2": [
+          "scored_0019",
+          "scored_0024",
+          "scored_0091",
+          "scored_0113",
+          "scored_0212",
+          "scored_0289",
+          "scored_0368",
+          "scored_0376",
+          "scored_0387",
+          "scored_0461",
+          "scored_0566",
+          "scored_0614",
+          "scored_0711",
+          "scored_0720",
+          "scored_0818",
+          "scored_0822",
+          "scored_0901",
+          "scored_0926",
+          "scored_0971"
+        ],
+        "drop_4_allow_3": [
+          "scored_0212",
+          "scored_0289",
+          "scored_0387",
+          "scored_0614",
+          "scored_0901",
+          "scored_0926",
+          "scored_0971"
+        ]
+      }
+    },
+    "assisted": {
+      "parent_score": 135161,
+      "score": 135161,
+      "decision_counts": {
+        "UNSAT": 26046,
+        "UNKNOWN": 574
+      },
+      "conditional_entire_neighborhood_unsat": 95,
+      "global_optima_reached": [],
+      "checked_by_two_vms": 1000,
+      "parent_sha256": "defcb1211feb459dabbd2c1ef20677fbec9908324490aea2e08f479326df282f",
+      "selected_puzzles": [
+        "scored_0005",
+        "scored_0019",
+        "scored_0021",
+        "scored_0024",
+        "scored_0091",
+        "scored_0113",
+        "scored_0134",
+        "scored_0181",
+        "scored_0211",
+        "scored_0212",
+        "scored_0221",
+        "scored_0282",
+        "scored_0289",
+        "scored_0300",
+        "scored_0368",
+        "scored_0376",
+        "scored_0387",
+        "scored_0461",
+        "scored_0566",
+        "scored_0584",
+        "scored_0614",
+        "scored_0711",
+        "scored_0720",
+        "scored_0818",
+        "scored_0822",
+        "scored_0828",
+        "scored_0858",
+        "scored_0901",
+        "scored_0908",
+        "scored_0926",
+        "scored_0928",
+        "scored_0957",
+        "scored_0962",
+        "scored_0971"
+      ],
+      "wins": {},
+      "fully_exhausted_all_subsets_without_witness": {
+        "drop_3_allow_2": [
+          "scored_0024",
+          "scored_0091",
+          "scored_0113",
+          "scored_0134",
+          "scored_0212",
+          "scored_0289",
+          "scored_0368",
+          "scored_0376",
+          "scored_0387",
+          "scored_0461",
+          "scored_0566",
+          "scored_0614",
+          "scored_0711",
+          "scored_0720",
+          "scored_0818",
+          "scored_0822",
+          "scored_0901",
+          "scored_0926",
+          "scored_0962",
+          "scored_0971"
+        ],
+        "drop_4_allow_3": [
+          "scored_0091",
+          "scored_0212",
+          "scored_0289",
+          "scored_0566",
+          "scored_0614",
+          "scored_0901",
+          "scored_0971"
+        ]
+      }
+    }
+  },
+  "equal_length_independent_crossover": {
+    "frozen_parent_sha256": "f2b791ab952705538cdd39e63b241d8166db675b67c12f534c8c04904fdf60de",
+    "frozen_parent_score": 141494,
+    "winners": [],
+    "puzzles": {
+      "scored_0021": {
+        "length": 42,
+        "current_hash": "5ea41eb9536a8da53e3a4356324a00135122efaaff7a5fb5414338c5ef937578",
+        "retained_hash": "3861b6203f616679f31e3ae5ba6f4bb935f0bfaf522343b7a10dd10f9098ff26",
+        "intermediate_values_identical": true,
+        "different_canonical_recipes": {
+          "current_only": 2,
+          "retained_only": 2
+        },
+        "recombined_hash": "66af4da493a4e296ace94b09f495edfa3551f5c166f7640cc91469ccf01e615e",
+        "shortest_after_search": 42
+      },
+      "scored_0221": {
+        "length": 37,
+        "current_hash": "c1e7f1d85cb6ee4877204e5053c8aba03860bc0bfff649053c2f28654414cd56",
+        "retained_hash": "951c0f6b550d3ee50fe18e3894ac5a6dde4ed4f60209b7a8498bd5107c844981",
+        "intermediate_values_identical": true,
+        "different_canonical_recipes": {
+          "current_only": 0,
+          "retained_only": 0
+        },
+        "recombined_hash": "b26e36c8aa998b98a5875ddb1a6a6fa8306d33275addade4ac057248284765e1",
+        "shortest_after_search": 37
+      }
+    }
+  },
+  "controls": {
+    "construction_trials": {
+      "puzzles": 32,
+      "assisted_parent_total": 4322,
+      "independent_parent_total": 4524,
+      "robsartin_horner_valid": 32,
+      "robsartin_horner_total": 9829,
+      "maroofiums_two_step_valid": 0,
+      "priyanshu_v6_one_parent_total": 4322,
+      "priyanshu_v6_two_parents_total": 4322
+    },
+    "retained_small_domain_sanity": {
+      "cases": 140,
+      "by_budget_status": {
+        "(2, 'FOUND')": 53,
+        "(3, 'FOUND')": 67,
+        "(2, 'UNSAT')": 17,
+        "(3, 'UNSAT')": 3
+      },
+      "physically_replayed_found": 120,
+      "long_witness": {
+        "augmented_physical": true,
+        "naive_registers": 51,
+        "peak_ordered_registers": 2,
+        "original_len": 50
+      }
+    },
+    "rudolph_v51": {
+      "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/51",
+      "license": "CC0",
+      "program_sha256": "44f462f298f3f47a1a4e0491420e068c77bfb02edc34500e1e01c7a82cb28aae",
+      "score": 135806,
+      "verified_rows": 1000,
+      "strictly_shorter_than_135161": 0
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-20T03:35:13+00:00",
+  "source_commit": "cf2b1e74713ec68f3f235f8ed8904674c02fcf7b",
+  "binary_sha256": "b4633da050a4e8098e7068a99e1dbb4542f23523ce6a94ce5b6fcb970cd9fca0",
+  "source_cpp_sha256": "35c1393201426af08098faa90c85d378cd67b6d97da82a171428d258c4d3e97a",
+  "verifier_sha256": "3c73c951ee5c72bad4b2fcd20db2fa971e0dca7215864236e45393af4cb69e75",
+  "decisions_sha256": "040bc753478b25ff5a946411fbe0423d2f91424cebf1fbb6336c91d65d58cf18",
+  "table_sha256": "f168c8ba41d1ae4653ad87059bd469396ab86bfa863f2a5c930173bf7a556add",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "historical_candidate_sha256": "d96b73973ec5add77aabea0293ce999ce3f2e35af09431e8fc41de3916ac2ef3",
+  "historical_replayed_steps": 137442,
+  "upstream_certified_lower": 33588,
+  "tight_puzzles": 18,
+  "verified_decisions": [
+    {
+      "id": "scored_0892",
+      "helpers": 7,
+      "shards": 34,
+      "nodes": 74700636,
+      "status": "UNSAT"
+    },
+    {
+      "id": "scored_0399",
+      "helpers": 9,
+      "shards": 128,
+      "nodes": 8584597358,
+      "status": "UNSAT"
+    },
+    {
+      "id": "scored_0149",
+      "helpers": 7,
+      "shards": 8,
+      "nodes": 3739625,
+      "status": "UNSAT"
+    },
+    {
+      "id": "scored_0901",
+      "helpers": 7,
+      "shards": 8,
+      "nodes": 3165092,
+      "status": "UNSAT"
+    }
+  ]
+}

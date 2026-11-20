@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "canonical_encoding": "UTF-8 compact JSON arrays (no spaces). Puzzle array is [id, starting_values, targets, value_limit, registers].",
+  "parent_track": "Independent programs constructed from official puzzle inputs. All four passes received a single program for the same puzzle.",
+  "frozen_full_parent_sha256": "f2b791ab952705538cdd39e63b241d8166db675b67c12f534c8c04904fdf60de",
+  "frozen_parent_total": 141494,
+  "recorded_result_patch_sha256": "e7675042cbc2000a74107fb2748650e276fbe613c3ab270d5841f77513903475",
+  "official_csv_lf_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85",
+  "programs_csv_sha256": "c99b5c3cf6fb051654f8810e66b5a6159d7a8dc69ea90501608bb1b20cf9426e",
+  "cases": {
+    "scored_0710": {
+      "puzzle_fingerprint": "01301d840aa80439b185c6c5eb0c9e5f0a9e2db52591be1db52747f995f08b37",
+      "independent_parent": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc",
+      "parent_provenance": {
+        "path": "work/virtual/lifetimes-135161/own-composition-gpu.csv",
+        "artifact_sha256": "c842dc8cfc265dda76348bc8570e80d2917701add13800eb1b76f3d61e6c002b",
+        "matching_row_sha256": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc"
+      },
+      "single_outputs": {
+        "group": "c0145a059a22f0087f8f3cd6575515eb29c7189eb0251da037b94c423a9e5c72",
+        "exchange": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc",
+        "factor": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc",
+        "paid": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc"
+      },
+      "accepted_chain": [
+        {
+          "method": "group",
+          "input": "25e5274876aaaf1a3b28a346ce2827e700c37f9a2d94ad15ec7ce3329cad1cfc",
+          "output": "c0145a059a22f0087f8f3cd6575515eb29c7189eb0251da037b94c423a9e5c72"
+        },
+        {
+          "method": "exchange",
+          "input": "c0145a059a22f0087f8f3cd6575515eb29c7189eb0251da037b94c423a9e5c72",
+          "output": "7d3c9910ec7356b2df2b71ad161e99efb7dc58169f475912049e2547aec2a74c"
+        },
+        {
+          "method": "paid",
+          "input": "7d3c9910ec7356b2df2b71ad161e99efb7dc58169f475912049e2547aec2a74c",
+          "output": "4524339316b55f75b6d4b588706993a8b61044eb384f210fa2499f25d056fd11"
+        }
+      ],
+      "published_result": "4524339316b55f75b6d4b588706993a8b61044eb384f210fa2499f25d056fd11",
+      "seed": 53561
+    },
+    "scored_0789": {
+      "puzzle_fingerprint": "78173202f440b312a37e4e9991607f222dc26ff3049268284bff54b9635bcf8d",
+      "independent_parent": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b",
+      "parent_provenance": {
+        "path": "work/virtual/lifetimes-135161/own-composition-factor.csv",
+        "artifact_sha256": "489fefc1be99a3aaaa6d46c1e527c77877644ac784041fc509d1918cbdcc3cd9",
+        "matching_row_sha256": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b"
+      },
+      "single_outputs": {
+        "group": "0bcb62d6f0e60db45509d0e6c9c01b1d8b037e79c548fe6451a510b937039432",
+        "exchange": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b",
+        "factor": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b",
+        "paid": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b"
+      },
+      "accepted_chain": [
+        {
+          "method": "group",
+          "input": "ac6b045ca4f1cfd5e8a4fb41750d5fa6197510e3f582378d1dba63746b6e655b",
+          "output": "0bcb62d6f0e60db45509d0e6c9c01b1d8b037e79c548fe6451a510b937039432"
+        },
+        {
+          "method": "exchange",
+          "input": "0bcb62d6f0e60db45509d0e6c9c01b1d8b037e79c548fe6451a510b937039432",
+          "output": "b1f393f9a5d7a589440a8eba81f7bfa50ae66ea4688acf79579530c03e456b81"
+        },
+        {
+          "method": "group",
+          "input": "b1f393f9a5d7a589440a8eba81f7bfa50ae66ea4688acf79579530c03e456b81",
+          "output": "5905209f18648f1e4cdc667e5e92cec5a79414901241ae8654619456d3b51f89"
+        }
+      ],
+      "published_result": "5905209f18648f1e4cdc667e5e92cec5a79414901241ae8654619456d3b51f89",
+      "seed": 59328
+    }
+  }
+}

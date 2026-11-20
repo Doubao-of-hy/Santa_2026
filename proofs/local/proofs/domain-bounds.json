@@ -1,0 +1,15 @@
+{
+  "rows": 1000,
+  "domain_total": 35775,
+  "certified_lower": 35795,
+  "upper": 135651,
+  "proved_optimal": 18,
+  "improved_rows": 975,
+  "max_domain": 3500,
+  "depth": 4,
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "upper_sha256": "ccc9b7686cb287eaf630a38d096ddc5393829a0c89bd431e883e120e349f597b",
+  "certificate_sha256": "70f91f5a2c5a8ee898d94b6890e308016e2c472132eb8cb8374c78fb4abc17a5",
+  "previous_certificate_sha256": "f168c8ba41d1ae4653ad87059bd469396ab86bfa863f2a5c930173bf7a556add",
+  "rooted_helper_components": true
+}

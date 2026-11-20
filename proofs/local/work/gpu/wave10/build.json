@@ -1,0 +1,19 @@
+{
+  "compiler": "g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 16.2.0",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-static",
+    "-Wl,--no-insert-timestamp"
+  ],
+  "frozen_sources": {
+    "exact_frontier.hpp": "93c8cea517121c539dc6cd3873f925ad7af93a5a3fd693ba9cb18c33dae66e2a",
+    "exact_helpers.cpp": "97742f6843cbe13efe1dfa55bca55aba14429aba8b5c44cc0897da209b1496a5",
+    "work/gpu/sparse_reachable.hpp": "5a91fd03c03988591723d170bb542839ae00f0f87d574d215a3ded0fba215e2a",
+    "work/gpu/sparse_frontier_driver.cpp": "41a9d6d8b5fe1a444fa487efa217940b95b4f89cfd7fe8b9355fde3957d5d0b2",
+    "work/gpu/sparse_frontier.hpp": "012f0cc7a0fd0c47d05b889259f4012b01299b7d5129388c2cff62f698aa4db3",
+    "work/gpu/build_sparse_frontier.py": "de7550dfd6fe52dc11fa48e9fa6c4d5d9bd63af216c3bcb17b76e9f4142ff5ac"
+  },
+  "generated_driver_sha256": "2e65a5f62b30b7d847c8eeb5bc003ad47237cb85ac43a7b8aabb720523c43dec",
+  "binary_sha256": "2c7188c232b967c96c5e4496720b190ca4d01fb4ec7e7c96517502f62dae6b9f"
+}

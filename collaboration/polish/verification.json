@@ -1,0 +1,49 @@
+{
+  "checkout_initially_clean": true,
+  "base_commit": "0209b0cabe1e1af7f7803eba8c3cf34c0c1163d5",
+  "copied_project_files": {
+    "README.md": "55b8ef4763d126859a52cd8396d0d4d8a1f208834c5880a7632c8a2b8a848f42",
+    "replay.py": "99af5c9d76714adfa7d23a6d5b8ae13e9d1164ccb23c8575eabf2b362fce5c85",
+    "manifest.json": "891a044bbf3b787859b295374563b0e09eb7d0ca302fdb784ef525025b568d42",
+    "programs.csv": "c99b5c3cf6fb051654f8810e66b5a6159d7a8dc69ea90501608bb1b20cf9426e"
+  },
+  "runtime": "3.13.7",
+  "same_cases_from_official_zip_and_csv": true,
+  "official_lf_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85",
+  "repository_interpreter_check": {
+    "valid_distinct_recorded_programs": 8,
+    "sum_of_their_executed_lengths": 984,
+    "full_repository_submission_score": 146435,
+    "full_submission_bytes_sha256": "896ec81abfb737879fd10eaa9be102d604e2a2e2ce348a083ce688e54efb7094"
+  },
+  "fresh_engine_sha256": "567ac6f379cd5cb05a69969d41b403c0a41f5afcc5c8fcd1790614f43c043e8b",
+  "case_totals": {
+    "parent": 249,
+    "best_solo": 247,
+    "chain": 243,
+    "extra_over_best_solo": 4
+  },
+  "fresh_group_searches": [
+    {
+      "id": "scored_0710",
+      "input_steps": 121,
+      "regenerated_steps": 120,
+      "recorded_steps": 120,
+      "same_physical_instructions": true
+    },
+    {
+      "id": "scored_0789",
+      "input_steps": 128,
+      "regenerated_steps": 127,
+      "recorded_steps": 127,
+      "same_physical_instructions": true
+    },
+    {
+      "id": "scored_0789",
+      "input_steps": 126,
+      "regenerated_steps": 125,
+      "recorded_steps": 125,
+      "same_physical_instructions": true
+    }
+  ]
+}

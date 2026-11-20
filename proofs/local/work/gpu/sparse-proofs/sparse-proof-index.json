@@ -1,0 +1,391 @@
+{
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "sparse_binary_sha256": "ff9eac81c0b3b2ebf51b6e7a53f2660f86f40661278918497b3b3f590f108792",
+  "original_binary_sha256": "e1de356a733550470e4a5ece3ff1a77bd023b6874fc9f804d05fee144d3552c6",
+  "source_archive_sha256": "5986c6cf67322d10640301cc7af08fee76b8c0aaf9eeac58f113085fcecd5dbb",
+  "fixed_shard_parity_sha256": "b374c34a41d0eb9004a00eba6b783443eadb2fc75512732fec1ab3972d683d23",
+  "direct_state_audit_count_sha256": "f1b85aede552b65cb68f61a71f861598cab56138a2122e1598e555667dc07404",
+  "unchanged_generic_replay_sha256": "1eb8c321509f5334e57037909f7e869e932663e89564294592d1f55062322ca6",
+  "per_batch": {
+    "0566-h9.json": {
+      "sha256": "c4c20b51729a84cd666644c5c986a8caed624b4e83c40b21373e89d191c2b24a",
+      "rows": 1,
+      "shards_per_row": 128,
+      "nodes": 494300132
+    },
+    "similar-sparse-next.json": {
+      "sha256": "9d1f40ddac94012bf2735c8ad21edf6e99f27fa85a7aee8d7bf51a5cb5638686",
+      "rows": 31,
+      "shards_per_row": 8,
+      "nodes": 1765605
+    },
+    "similar-sparse-deeper.json": {
+      "sha256": "3675d3d0474b52a2abdc0f93caac9808a6d6f1104cce9217288775dd60dc2390",
+      "rows": 34,
+      "shards_per_row": 32,
+      "nodes": 62277908
+    },
+    "similar-sparse-next-priority.json": {
+      "sha256": "53a624a2b7e0e7b6d796268167444ae3411fc481b9ae8e1863882b1a57f711c2",
+      "rows": 24,
+      "shards_per_row": 32,
+      "nodes": 245824134
+    }
+  },
+  "instances": {
+    "scored_0009": {
+      "lower": 18,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 8767031,
+      "domain_limit": 9727874659,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 3
+    },
+    "scored_0014": {
+      "lower": 14,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 3051205,
+      "domain_limit": 6817815,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 3
+    },
+    "scored_0046": {
+      "lower": 16,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 10148493,
+      "domain_limit": 193997878,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 3
+    },
+    "scored_0091": {
+      "lower": 17,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 12699527,
+      "domain_limit": 17067003,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 3
+    },
+    "scored_0092": {
+      "lower": 18,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 15155079,
+      "domain_limit": 4000051,
+      "partitions": 32,
+      "previous_lower": 16,
+      "gain": 2
+    },
+    "scored_0095": {
+      "lower": 16,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 3801383,
+      "domain_limit": 369988032,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 2
+    },
+    "scored_0124": {
+      "lower": 15,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 14750438,
+      "domain_limit": 12318286,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 4
+    },
+    "scored_0130": {
+      "lower": 14,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 12107627,
+      "domain_limit": 5318132,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 3
+    },
+    "scored_0151": {
+      "lower": 18,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 14507273,
+      "domain_limit": 79853547,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 3
+    },
+    "scored_0196": {
+      "lower": 15,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 4206048,
+      "domain_limit": 457124566,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 3
+    },
+    "scored_0250": {
+      "lower": 14,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 15599610,
+      "domain_limit": 68922566,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 3
+    },
+    "scored_0300": {
+      "lower": 18,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 1993605,
+      "domain_limit": 360732967,
+      "partitions": 32,
+      "previous_lower": 16,
+      "gain": 2
+    },
+    "scored_0308": {
+      "lower": 19,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 16219323,
+      "domain_limit": 74626798,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 4
+    },
+    "scored_0320": {
+      "lower": 18,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 5488608,
+      "domain_limit": 91622929,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 3
+    },
+    "scored_0393": {
+      "lower": 16,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 10121180,
+      "domain_limit": 22612971,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 4
+    },
+    "scored_0401": {
+      "lower": 14,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 1758878,
+      "domain_limit": 57339097,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 2
+    },
+    "scored_0419": {
+      "lower": 14,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 2082813,
+      "domain_limit": 35009914,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 3
+    },
+    "scored_0443": {
+      "lower": 16,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 12648177,
+      "domain_limit": 42811649,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 3
+    },
+    "scored_0455": {
+      "lower": 15,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 6325172,
+      "domain_limit": 192808802,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 2
+    },
+    "scored_0472": {
+      "lower": 18,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 12261073,
+      "domain_limit": 160811076,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 4
+    },
+    "scored_0473": {
+      "lower": 17,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 2019197,
+      "domain_limit": 45336063,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 3
+    },
+    "scored_0487": {
+      "lower": 15,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 9067918,
+      "domain_limit": 42559920,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 2
+    },
+    "scored_0564": {
+      "lower": 15,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 2738410,
+      "domain_limit": 76329128,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 3
+    },
+    "scored_0566": {
+      "lower": 17,
+      "source": "0566-h9.json",
+      "helpers": 9,
+      "nodes": 494300132,
+      "domain_limit": 5182581,
+      "partitions": 128,
+      "previous_lower": 16,
+      "gain": 1
+    },
+    "scored_0611": {
+      "lower": 17,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 16331071,
+      "domain_limit": 4941976170,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 4
+    },
+    "scored_0637": {
+      "lower": 19,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 13339652,
+      "domain_limit": 83640914,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 4
+    },
+    "scored_0650": {
+      "lower": 16,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 9840398,
+      "domain_limit": 64075403,
+      "partitions": 32,
+      "previous_lower": 13,
+      "gain": 3
+    },
+    "scored_0828": {
+      "lower": 17,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 3885103,
+      "domain_limit": 59721860,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 3
+    },
+    "scored_0851": {
+      "lower": 19,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 14354767,
+      "domain_limit": 1718368540,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 4
+    },
+    "scored_0873": {
+      "lower": 18,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 9572649,
+      "domain_limit": 69405446,
+      "partitions": 32,
+      "previous_lower": 16,
+      "gain": 2
+    },
+    "scored_0880": {
+      "lower": 18,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 8,
+      "nodes": 10248727,
+      "domain_limit": 44346343,
+      "partitions": 32,
+      "previous_lower": 15,
+      "gain": 3
+    },
+    "scored_0910": {
+      "lower": 16,
+      "source": "similar-sparse-deeper.json",
+      "helpers": 7,
+      "nodes": 3727452,
+      "domain_limit": 17162813,
+      "partitions": 32,
+      "previous_lower": 14,
+      "gain": 2
+    },
+    "scored_0937": {
+      "lower": 15,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 16158418,
+      "domain_limit": 202720729,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 3
+    },
+    "scored_0957": {
+      "lower": 15,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 2569368,
+      "domain_limit": 12944559,
+      "partitions": 32,
+      "previous_lower": 12,
+      "gain": 3
+    },
+    "scored_0958": {
+      "lower": 14,
+      "source": "similar-sparse-next-priority.json",
+      "helpers": 7,
+      "nodes": 3782607,
+      "domain_limit": 6939871,
+      "partitions": 32,
+      "previous_lower": 11,
+      "gain": 3
+    }
+  },
+  "puzzles_improved": 35,
+  "unique_total_lower_bound_increase": 102,
+  "compiler": "MinGW-w64 x86_64 UCRT POSIX SEH g++ 16.2.0, -O3 -std=c++17 -static",
+  "scope": "Against the recorded project proof set. Negative conclusions require all partition pairs. Seeding and node-limit interruptions never count as UNSAT."
+}

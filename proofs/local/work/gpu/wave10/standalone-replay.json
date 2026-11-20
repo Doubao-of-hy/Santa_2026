@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "0a1bdf2f1ceee3edad4fb029431ab2d45fc9b95327434177407a1a870d8ebce9",
+  "fresh_two_executable_build": true,
+  "portable_reference": {
+    "verified": {
+      "scored_0272": 12,
+      "scored_0388": 12,
+      "scored_0971": 11
+    },
+    "local_cells": 48,
+    "upstream_cells": 71
+  },
+  "fresh_sparse_internal_audit_cells": 48
+}

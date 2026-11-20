@@ -1,0 +1,8283 @@
+{
+ "verifier_sha256": "9d12555090993f86eff72ca4d6edf7375c75b7ce3f1e65c5d298f8c5518482a5",
+ "original_sha256": "e1de356a733550470e4a5ece3ff1a77bd023b6874fc9f804d05fee144d3552c6",
+ "four_ablation_sha256": "c853c3070890ff7ca635d17e963abb71385aedc3a0e5ffa99c8520b40cd8990d",
+ "fixed_cases": {
+  "small-domain-audit.json": "c69afd4d3cbe4bd0b0bc663a55aa85c64f9d12169085cdf08f768a4d12a18867",
+  "bounded-stress.json": "a4f440b9817318445a2bdfc09d74aaaa1acf588e22169a68fc3ba3083bf9479b"
+ },
+ "summary": {
+  "count": 1082,
+  "decisions": {
+   "UNSAT": 405,
+   "FOUND": 677
+  },
+  "four_ablation_inputs": 98,
+  "four_triggered": 19,
+  "four_rejected": 8
+ },
+ "rows": [
+  {
+   "id": "tiny_0",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_0",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_0",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_0",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_1",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_1",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_1",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_1",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_2",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_2",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_2",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_2",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_3",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_3",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_3",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_3",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_4",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_4",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_4",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_4",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_5",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_5",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_5",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_5",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_6",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_6",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_6",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_6",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_7",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_7",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_7",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_7",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_8",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_8",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_8",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_8",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_9",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_9",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_9",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_9",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_10",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_10",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_10",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_10",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_11",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_11",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_11",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_11",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_12",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_12",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_12",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_12",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_13",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_13",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_13",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_13",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_14",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_14",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_14",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_14",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_15",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_15",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_15",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_15",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_16",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_16",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_16",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_16",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_17",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_17",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_17",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_17",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_18",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_18",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_18",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_18",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_19",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_19",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_19",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_19",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_20",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_20",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_20",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_20",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_21",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_21",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_21",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_21",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_22",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_22",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_22",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_22",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_23",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_23",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_23",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_23",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_24",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_24",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_24",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_24",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_25",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_25",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_25",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_25",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_26",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_26",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_26",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_26",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_27",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_27",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_27",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_27",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_28",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_28",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_28",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_28",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_29",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_29",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_29",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_29",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_30",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_30",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_30",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_30",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_31",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_31",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_31",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_31",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_32",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_32",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_32",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_32",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_33",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_33",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_33",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_33",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_34",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_34",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_34",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_34",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_35",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_35",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_35",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_35",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_36",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_36",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_36",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_36",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_37",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_37",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_37",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_37",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_38",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_38",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_38",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_38",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_39",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_39",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_39",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_39",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_40",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_40",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_40",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_40",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_41",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_41",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_41",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_41",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_42",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_42",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_42",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_42",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_43",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_43",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_43",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_43",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_44",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_44",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_44",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_44",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_45",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_45",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_45",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_45",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_46",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_46",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_46",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_46",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_47",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_47",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_47",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_47",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_48",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_48",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_48",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_48",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_49",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_49",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_49",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_49",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_50",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_50",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_50",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_50",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_51",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_51",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_51",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_51",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_52",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_52",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_52",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_52",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_53",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_53",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_53",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_53",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_54",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_54",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_54",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_54",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_55",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_55",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_55",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_55",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_56",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_56",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_56",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_56",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_57",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_57",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_57",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_57",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_58",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_58",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_58",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_58",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_59",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_59",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_59",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_59",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_60",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_60",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_60",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_60",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_61",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_61",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_61",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_61",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_62",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_62",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_62",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_62",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_63",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_63",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_63",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_63",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_64",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_64",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_64",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_64",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_65",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_65",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_65",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_65",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_66",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_66",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_66",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_66",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_67",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_67",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_67",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_67",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_68",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_68",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_68",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_68",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_69",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_69",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_69",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_69",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_70",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_70",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_70",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_70",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_71",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_71",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_71",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_71",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_72",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_72",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_72",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_72",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_73",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_73",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_73",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_73",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_74",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_74",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_74",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_74",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_75",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_75",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_75",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_75",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_76",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_76",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_76",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_76",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_77",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_77",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_77",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_77",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_78",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_78",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_78",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_78",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_79",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_79",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_79",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_79",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_80",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_80",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_80",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_80",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_81",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_81",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_81",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_81",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_82",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_82",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_82",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_82",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_83",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_83",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_83",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_83",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_84",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_84",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_84",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_84",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_85",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_85",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_85",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_85",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_86",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_86",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_86",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_86",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_87",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_87",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_87",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_87",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_88",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_88",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_88",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_88",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_89",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_89",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_89",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_89",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_90",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_90",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_90",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_90",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_91",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_91",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_91",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_91",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_92",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_92",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_92",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_92",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_93",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_93",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_93",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_93",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_94",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_94",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_94",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_94",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_95",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_95",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_95",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_95",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_96",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_96",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_96",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_96",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_97",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_97",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_97",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_97",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_98",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_98",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_98",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_98",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_99",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_99",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_99",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_99",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_100",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_100",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_100",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_100",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_101",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_101",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_101",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_101",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_102",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_102",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_102",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_102",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_103",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_103",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_103",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_103",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_104",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_104",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_104",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_104",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_105",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_105",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_105",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_105",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_106",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_106",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_106",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_106",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_107",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_107",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_107",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_107",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_108",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_108",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_108",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_108",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_109",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_109",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_109",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_109",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_110",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_110",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_110",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_110",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_111",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_111",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_111",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_111",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_112",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_112",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_112",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_112",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_113",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_113",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_113",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_113",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_114",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_114",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_114",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_114",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_115",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_115",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_115",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_115",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_116",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_116",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_116",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_116",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_117",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_117",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_117",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_117",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_118",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_118",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_118",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_118",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_119",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_119",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_119",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_119",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_120",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_120",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_120",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_120",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_121",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_121",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_121",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_121",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_122",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_122",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_122",
+   "helpers": 2,
+   "status": "UNSAT",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_122",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_123",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_123",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_123",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_123",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_124",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_124",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_124",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_124",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_125",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_125",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_125",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_125",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_126",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_126",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_126",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_126",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_127",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_127",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_127",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_127",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_128",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_128",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_128",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_128",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_129",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_129",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_129",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_129",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_130",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_130",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_130",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_130",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_131",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_131",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_131",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_131",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_132",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_132",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_132",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_132",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_133",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_133",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_133",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_133",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_134",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_134",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_134",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_134",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_135",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_135",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_135",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_135",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_136",
+   "helpers": 0,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_136",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_136",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_136",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_137",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_137",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_137",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_137",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_138",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_138",
+   "helpers": 1,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_138",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_138",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_139",
+   "helpers": 0,
+   "status": "UNSAT",
+   "nodes": 0,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_139",
+   "helpers": 1,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_139",
+   "helpers": 2,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "tiny_139",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "finite-bfs"
+  },
+  {
+   "id": "plant_0",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_1",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 37,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_2",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_3",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 137,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_4",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 11,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_5",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 37,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_6",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_7",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 79,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_8",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_9",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_10",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 146,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_11",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_12",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_13",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_14",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 16,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_15",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 282,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_16",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_17",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 126,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_18",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_19",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 200,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_20",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_21",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 3079,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_22",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 21,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_23",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 84,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_24",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_25",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_26",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 28,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_27",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 22,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_28",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_29",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_30",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_31",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 205,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_32",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_33",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 67,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_34",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 143,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_35",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 37,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_36",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_37",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 31,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_38",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 23,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_39",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_40",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_41",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_42",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 37,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_43",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_44",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 18,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_45",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 448,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_46",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 26,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_47",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 45,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_48",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_49",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 29,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_50",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_51",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 50,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_52",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_53",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 119,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_54",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_55",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 24,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_56",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 16,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_57",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 271,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_58",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 17,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_59",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 216,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_60",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_61",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_62",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_63",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 160,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_64",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 13,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_65",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3961,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_66",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_67",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_68",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_69",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 33,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_70",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_71",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 36,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_72",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_73",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 39,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_74",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_75",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 29,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_76",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 25,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_77",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 72,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_78",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_79",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 413,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_80",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_81",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9031,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_82",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_83",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 335,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_84",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_85",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 54,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_86",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_87",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 36,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_88",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_89",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 113,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_90",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_91",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 90,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_92",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 31,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_93",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 33,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_94",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_95",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 374,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_96",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 25,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_97",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 25,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_98",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 15,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_99",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_100",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 14,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_101",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_102",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 96,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_103",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 39,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_104",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_105",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_106",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 11,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_107",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 6346,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_108",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_109",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 122,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_110",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_111",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_112",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_113",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 555,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_114",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_115",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 294,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_116",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 13,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_117",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_118",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 32,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_119",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 52,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_120",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 17,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_121",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 95,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_122",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_123",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 213,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_124",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 10,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_125",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 319,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_126",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_127",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 81,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_128",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_129",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 44,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_130",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 12,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_131",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 262,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_132",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_133",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 34,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_134",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 25,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_135",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 225,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_136",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_137",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 302,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_138",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_139",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 501,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_140",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_141",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 25,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_142",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_143",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_144",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_145",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 278,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_146",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 22,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_147",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 23,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_148",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_149",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 127,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_150",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_151",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 700,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_152",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_153",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 36,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_154",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_155",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 755,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_156",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_157",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 32,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_158",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_159",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 2406,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_160",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_161",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_162",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 32,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_163",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 36,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_164",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_165",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4157,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_166",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_167",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 13,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_168",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_169",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 59,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_170",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_171",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 257,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_172",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 17,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_173",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_174",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_175",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_176",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_177",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_178",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_179",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_180",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_181",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4564,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_182",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_183",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 15,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_184",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_185",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 16,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_186",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_187",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 23,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_188",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 42,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_189",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 173,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_190",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 85,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_191",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7532,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_192",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_193",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 17,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_194",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 12,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_195",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 24,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_196",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 14,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_197",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5965,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_198",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_199",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 114,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_200",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 0,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_201",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 46,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_202",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_203",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_204",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_205",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 156,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_206",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 30,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_207",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 60,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_208",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_209",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 69,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_210",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 21,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_211",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 31,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_212",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_213",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 44,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_214",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 10,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_215",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 399,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_216",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 24,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_217",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 42320,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "plant_218",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "plant_219",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "planted-edit"
+  },
+  {
+   "id": "band_0",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_1",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 17,
+   "kind": "band"
+  },
+  {
+   "id": "band_2",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 24,
+   "kind": "band"
+  },
+  {
+   "id": "band_3",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 111,
+   "kind": "band"
+  },
+  {
+   "id": "band_4",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_5",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 13,
+   "kind": "band"
+  },
+  {
+   "id": "band_6",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 18,
+   "kind": "band"
+  },
+  {
+   "id": "band_7",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_8",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 21,
+   "kind": "band"
+  },
+  {
+   "id": "band_9",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_10",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 38,
+   "kind": "band"
+  },
+  {
+   "id": "band_11",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 18,
+   "kind": "band"
+  },
+  {
+   "id": "band_12",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_13",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_14",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_15",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 26,
+   "kind": "band"
+  },
+  {
+   "id": "band_16",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_17",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_18",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 19,
+   "kind": "band"
+  },
+  {
+   "id": "band_19",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_20",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_21",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 15,
+   "kind": "band"
+  },
+  {
+   "id": "band_22",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 17,
+   "kind": "band"
+  },
+  {
+   "id": "band_23",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_24",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 11,
+   "kind": "band"
+  },
+  {
+   "id": "band_25",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_26",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_27",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_28",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_29",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 43,
+   "kind": "band"
+  },
+  {
+   "id": "band_30",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_31",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 15,
+   "kind": "band"
+  },
+  {
+   "id": "band_32",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 11,
+   "kind": "band"
+  },
+  {
+   "id": "band_33",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 38,
+   "kind": "band"
+  },
+  {
+   "id": "band_34",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 84,
+   "kind": "band"
+  },
+  {
+   "id": "band_35",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_36",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 33,
+   "kind": "band"
+  },
+  {
+   "id": "band_37",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 21,
+   "kind": "band"
+  },
+  {
+   "id": "band_38",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_39",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_40",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_41",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 27,
+   "kind": "band"
+  },
+  {
+   "id": "band_42",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_43",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 20,
+   "kind": "band"
+  },
+  {
+   "id": "band_44",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_45",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_46",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_47",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_48",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_49",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 95,
+   "kind": "band"
+  },
+  {
+   "id": "band_50",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 40,
+   "kind": "band"
+  },
+  {
+   "id": "band_51",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 40,
+   "kind": "band"
+  },
+  {
+   "id": "band_52",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 14,
+   "kind": "band"
+  },
+  {
+   "id": "band_53",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 20,
+   "kind": "band"
+  },
+  {
+   "id": "band_54",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_55",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 70,
+   "kind": "band"
+  },
+  {
+   "id": "band_56",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 12,
+   "kind": "band"
+  },
+  {
+   "id": "band_57",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 14,
+   "kind": "band"
+  },
+  {
+   "id": "band_58",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_59",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 14,
+   "kind": "band"
+  },
+  {
+   "id": "band_60",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_61",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 68,
+   "kind": "band"
+  },
+  {
+   "id": "band_62",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 27,
+   "kind": "band"
+  },
+  {
+   "id": "band_63",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 27,
+   "kind": "band"
+  },
+  {
+   "id": "band_64",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_65",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_66",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 11,
+   "kind": "band"
+  },
+  {
+   "id": "band_67",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 22,
+   "kind": "band"
+  },
+  {
+   "id": "band_68",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_69",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_70",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 13,
+   "kind": "band"
+  },
+  {
+   "id": "band_71",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_72",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 21,
+   "kind": "band"
+  },
+  {
+   "id": "band_73",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 6,
+   "kind": "band"
+  },
+  {
+   "id": "band_74",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_75",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 11,
+   "kind": "band"
+  },
+  {
+   "id": "band_76",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_77",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_78",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_79",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 42,
+   "kind": "band"
+  },
+  {
+   "id": "band_80",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_81",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_82",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 22,
+   "kind": "band"
+  },
+  {
+   "id": "band_83",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_84",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_85",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 58,
+   "kind": "band"
+  },
+  {
+   "id": "band_86",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_87",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_88",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_89",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 44,
+   "kind": "band"
+  },
+  {
+   "id": "band_90",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_91",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_92",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_93",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 76,
+   "kind": "band"
+  },
+  {
+   "id": "band_94",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 13,
+   "kind": "band"
+  },
+  {
+   "id": "band_95",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_96",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 24,
+   "kind": "band"
+  },
+  {
+   "id": "band_97",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_98",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_99",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_100",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_101",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_102",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 36,
+   "kind": "band"
+  },
+  {
+   "id": "band_103",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 5,
+   "kind": "band"
+  },
+  {
+   "id": "band_104",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 25,
+   "kind": "band"
+  },
+  {
+   "id": "band_105",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 10,
+   "kind": "band"
+  },
+  {
+   "id": "band_106",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_107",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_108",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_109",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_110",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 18,
+   "kind": "band"
+  },
+  {
+   "id": "band_111",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_112",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_113",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_114",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 9,
+   "kind": "band"
+  },
+  {
+   "id": "band_115",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_116",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_117",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_118",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_119",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 42,
+   "kind": "band"
+  },
+  {
+   "id": "band_120",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 7,
+   "kind": "band"
+  },
+  {
+   "id": "band_121",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 20,
+   "kind": "band"
+  },
+  {
+   "id": "band_122",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_123",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 12,
+   "kind": "band"
+  },
+  {
+   "id": "band_124",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 11,
+   "kind": "band"
+  },
+  {
+   "id": "band_125",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 39,
+   "kind": "band"
+  },
+  {
+   "id": "band_126",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 8,
+   "kind": "band"
+  },
+  {
+   "id": "band_127",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 16,
+   "kind": "band"
+  },
+  {
+   "id": "band_128",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "band"
+  },
+  {
+   "id": "band_129",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 51,
+   "kind": "band"
+  },
+  {
+   "id": "known_0",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_1",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_2",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 17,
+   "kind": "planted"
+  },
+  {
+   "id": "known_3",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_4",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "known_5",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 11,
+   "kind": "planted"
+  },
+  {
+   "id": "known_6",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_7",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_8",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_9",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_10",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_11",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_12",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "known_13",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_14",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_15",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_16",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 15,
+   "kind": "planted"
+  },
+  {
+   "id": "known_17",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_18",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_19",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_20",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9,
+   "kind": "planted"
+  },
+  {
+   "id": "known_21",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_22",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_23",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 31,
+   "kind": "planted"
+  },
+  {
+   "id": "known_24",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "known_25",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 26,
+   "kind": "planted"
+  },
+  {
+   "id": "known_26",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 26,
+   "kind": "planted"
+  },
+  {
+   "id": "known_27",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted"
+  },
+  {
+   "id": "known_28",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "known_29",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "known_30",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_31",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_32",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "planted"
+  },
+  {
+   "id": "known_33",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "known_34",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_35",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 13,
+   "kind": "planted"
+  },
+  {
+   "id": "known_36",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_37",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_38",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_39",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 5,
+   "kind": "planted"
+  },
+  {
+   "id": "known_40",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_41",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 21,
+   "kind": "planted"
+  },
+  {
+   "id": "known_42",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_43",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_44",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_45",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 19,
+   "kind": "planted"
+  },
+  {
+   "id": "known_46",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "known_47",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "planted"
+  },
+  {
+   "id": "known_48",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_49",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_50",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 4,
+   "kind": "planted"
+  },
+  {
+   "id": "known_51",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_52",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_53",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_54",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_55",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_56",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_57",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_58",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_59",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_60",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_61",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_62",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 49,
+   "kind": "planted"
+  },
+  {
+   "id": "known_63",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_64",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 2,
+   "kind": "planted"
+  },
+  {
+   "id": "known_65",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_66",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_67",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_68",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_69",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_70",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_71",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_72",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_73",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted"
+  },
+  {
+   "id": "known_74",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_75",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 6,
+   "kind": "planted"
+  },
+  {
+   "id": "known_76",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 1,
+   "kind": "planted"
+  },
+  {
+   "id": "known_77",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_78",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_79",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_80",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_81",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 31,
+   "kind": "planted"
+  },
+  {
+   "id": "known_82",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 21,
+   "kind": "planted"
+  },
+  {
+   "id": "known_83",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_84",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_85",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_86",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_87",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_88",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 9,
+   "kind": "planted"
+  },
+  {
+   "id": "known_89",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_90",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 18,
+   "kind": "planted"
+  },
+  {
+   "id": "known_91",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 7,
+   "kind": "planted"
+  },
+  {
+   "id": "known_92",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 11,
+   "kind": "planted"
+  },
+  {
+   "id": "known_93",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 26,
+   "kind": "planted"
+  },
+  {
+   "id": "known_94",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_95",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 23,
+   "kind": "planted"
+  },
+  {
+   "id": "known_96",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_97",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_98",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "known_99",
+   "helpers": 3,
+   "status": "FOUND",
+   "nodes": 3,
+   "kind": "planted"
+  },
+  {
+   "id": "spaced_0",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_1",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_2",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_3",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_4",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_5",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_6",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_7",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_8",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_9",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_10",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_11",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_12",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_13",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_14",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_15",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_16",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_17",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_18",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_19",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_20",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_21",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_22",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_23",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_24",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_25",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_26",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_27",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_28",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_29",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_30",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_31",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_32",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_33",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_34",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_35",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_36",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_37",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_38",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_39",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_40",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_41",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_42",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_43",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_44",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_45",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_46",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_47",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_48",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_49",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_50",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_51",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_52",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_53",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_54",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_55",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_56",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_57",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_58",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_59",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_60",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_61",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_62",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_63",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_64",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_65",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_66",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_67",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_68",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_69",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_70",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  },
+  {
+   "id": "spaced_71",
+   "helpers": 3,
+   "status": "UNSAT",
+   "nodes": 1,
+   "kind": "spaced"
+  }
+ ],
+ "four_cases": [
+  {
+   "id": "plant_0",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_4",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_8",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_12",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_16",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_20",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_24",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_28",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_32",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_36",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_40",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_44",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_48",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_52",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_56",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_60",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_64",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_68",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_72",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_76",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_80",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_84",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_88",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_92",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_96",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_100",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_104",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_108",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_112",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_116",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_120",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_124",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_128",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_132",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_136",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_140",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_144",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_148",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_152",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_156",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_160",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_164",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_168",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_172",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_176",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_180",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_184",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_188",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_192",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_196",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_200",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_204",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_208",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_212",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "plant_216",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_0",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_4",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_8",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_12",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_16",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_20",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_24",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_28",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_32",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_36",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_40",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_44",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_48",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_52",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_56",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_60",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_64",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_68",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_72",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_76",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_80",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_84",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_88",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_92",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "known_96",
+   "result": "FOUND",
+   "inputs": "planted",
+   "four_tests": 0,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_0",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_4",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_8",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_12",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_16",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_20",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_24",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_28",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_32",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_36",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_40",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_44",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_48",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_52",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  },
+  {
+   "id": "spaced_56",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_60",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_64",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 1
+  },
+  {
+   "id": "spaced_68",
+   "result": "UNSAT",
+   "inputs": "spaced",
+   "four_tests": 1,
+   "four_rejections": 0
+  }
+ ]
+}

@@ -22,12 +22,14 @@ def main():
     ap.add_argument("--mixed-repair",nargs=2,action="append",default=[],type=Path,
                     metavar=("PROGRAMS","ORIGINS"),
                     help="Rewrite of a credited snapshot, with frozen per-row upstream credits")
-    ap.add_argument("--reference",type=Path,default=Path("work/creative/asterios-v13"),
+    ap.add_argument("--reference",type=Path,
                     help="Versioned arithmetic-program release with audit.json and original row credits")
     args=ap.parse_args()
     root=Path(__file__).resolve().parent
     hanif=root/"work/reference/hanif-v15"
-    source=args.reference.resolve()
+    prior_report=root/"public-assisted/result.json"
+    version_used=json.loads(prior_report.read_text(encoding="utf8"))["source_version"] if prior_report.exists() else 13
+    source=(args.reference or root/"work/creative"/f"asterios-v{version_used}").resolve()
     audit=json.loads((source/"audit.json").read_text(encoding="utf8"))
     if audit["license"]!="Apache 2.0" or not audit["description"].count("programs"):
         raise ValueError("unexpected release metadata")
@@ -113,19 +115,27 @@ def main():
     shutil.copyfile(hanif/"LICENSE.txt",dest/"LICENSE.txt")
     shutil.copyfile(hanif/"NOTICE.md",dest/"Hanif-v15-NOTICE.md")
     shutil.copyfile(source/"history.csv",dest/"Asterios-history.csv")
+    portfolio_url="https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/23"
+    portfolio_rows=[pid for pid,credit in credits.items() if "Pratham Jain" in credit]
+    portfolio_note=(
+        "\nPratham Jain's portfolio documents mixed upstream licensing and keeps the original "
+        "terms for its inputs. Its row-attribution table credits the intermediate contributors. "
+        f"[Portfolio documentation]({portfolio_url})\n" if portfolio_rows else "")
     (dest/"NOTICE.md").write_text(
         f"# Attribution\n\n{version} is a collection verified and published by Asterios Panoras. "
         f"The original dataset identifies the contributors to each program in its source column. "
         f"The same credits are retained in origins.csv for selected {version} rows.\n\n"
         +audit["description"].split("## Sources and license")[-1].strip()+"\n\n"
         +f"[Original publication]({audit['url']})\n\n"
-        +"Earlier local rewrites also used Asterios v8 and v10. Contributors are "
+        +"Earlier local rewrites also used Asterios v8, v10 and v13. Contributors are "
         +"listed in Asterios-history.csv and origins.csv. "
         +"[Version 8](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/8) "
-        +"[Version 10](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/10)\n\n"
+        +"[Version 10](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/10) "
+        +"[Version 13](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/13)\n\n"
         +"Local changes include selecting shorter complete programs and resynthesizing arithmetic. "
         +"The contributed Hanif v15 program lineage is recorded in Hanif-v15-NOTICE.md. "
-        +"The local solver source credits are under ../generative/NOTICE.md.\n",encoding="utf8")
+        +"The local solver source credits are under ../generative/NOTICE.md.\n"
+        +portfolio_note,encoding="utf8")
     with (dest/"origins.csv").open("w",encoding="utf8",newline="") as f:
         out=csv.writer(f);out.writerow(("id","source","upstream_source","instructions"))
         out.writerows((p.id,origins[p.id],credits[p.id],len(programs[p.id])) for p in puzzles)
@@ -136,6 +146,8 @@ def main():
             "archive_history_label":release_history[-1]["version"],
             "catalog_metadata_version":audit["metadata_version"],
             "source_program_license":"Apache-2.0","source_steps":original,
+            "source_program_license_scope":"License stated by the release publisher. Upstream portfolio inputs retain their original terms.",
+            "mixed_portfolio_attribution":{"documentation":portfolio_url,"selected_or_derived_rows":sorted(portfolio_rows)},
             "source_archive_sha256":audit["archive"],"original_credited_csv_sha256":sha256(raw),
             "source_file_sha256":sha256(base),"reduction_from_source":original-total,
             "row_origins":dict(Counter(origins.values())),"independently_replayed":True,

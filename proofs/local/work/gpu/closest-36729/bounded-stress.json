@@ -1,0 +1,10196 @@
+{
+ "checker_sha256": "9b8255fadd4ec262522de61512ef7d2321ce753c2bda67708a157d6d772c7d99",
+ "summary": {
+  "band": {
+   "total": 130,
+   "decisions": {
+    "UNSAT": 126,
+    "FOUND": 4
+   },
+   "triggered": 66,
+   "rejected": 18
+  },
+  "planted": {
+   "total": 100,
+   "decisions": {
+    "FOUND": 100
+   },
+   "triggered": 2,
+   "rejected": 0
+  },
+  "spaced": {
+   "total": 72,
+   "decisions": {
+    "UNSAT": 72
+   },
+   "triggered": 72,
+   "rejected": 72
+  }
+ },
+ "rows": [
+  {
+   "id": "band_0",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    298,
+    372,
+    383,
+    384,
+    389,
+    390,
+    403,
+    455
+   ],
+   "limit": 470,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_1",
+   "kind": "band",
+   "seeds": [
+    3,
+    4,
+    5
+   ],
+   "targets": [
+    235,
+    270,
+    276,
+    281,
+    285,
+    299,
+    312,
+    370
+   ],
+   "limit": 388,
+   "bfs": false,
+   "generic": [
+    17,
+    79
+   ],
+   "star": [
+    17,
+    3,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_2",
+   "kind": "band",
+   "seeds": [
+    2,
+    3,
+    6
+   ],
+   "targets": [
+    254,
+    272,
+    280,
+    294,
+    298,
+    299,
+    319,
+    345
+   ],
+   "limit": 359,
+   "bfs": false,
+   "generic": [
+    24,
+    197
+   ],
+   "star": [
+    24,
+    20,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_3",
+   "kind": "band",
+   "seeds": [
+    6,
+    7,
+    10
+   ],
+   "targets": [
+    165,
+    179,
+    183,
+    188,
+    190,
+    193,
+    195,
+    235,
+    237,
+    239,
+    242
+   ],
+   "limit": 255,
+   "bfs": false,
+   "generic": [
+    111,
+    1677
+   ],
+   "star": [
+    111,
+    212,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_4",
+   "kind": "band",
+   "seeds": [
+    6,
+    8,
+    9
+   ],
+   "targets": [
+    210,
+    240,
+    247,
+    267,
+    292,
+    324,
+    328
+   ],
+   "limit": 330,
+   "bfs": false,
+   "generic": [
+    18,
+    70
+   ],
+   "star": [
+    18,
+    4,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_5",
+   "kind": "band",
+   "seeds": [
+    2,
+    3,
+    4
+   ],
+   "targets": [
+    193,
+    216,
+    223,
+    266,
+    287,
+    288,
+    295,
+    301,
+    302,
+    308
+   ],
+   "limit": 318,
+   "bfs": false,
+   "generic": [
+    13,
+    57
+   ],
+   "star": [
+    13,
+    2,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_6",
+   "kind": "band",
+   "seeds": [
+    3,
+    5
+   ],
+   "targets": [
+    199,
+    203,
+    219,
+    229,
+    230,
+    253,
+    256,
+    270,
+    273,
+    278
+   ],
+   "limit": 279,
+   "bfs": false,
+   "generic": [
+    18,
+    121
+   ],
+   "star": [
+    18,
+    20,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_7",
+   "kind": "band",
+   "seeds": [
+    3,
+    5,
+    7
+   ],
+   "targets": [
+    277,
+    281,
+    310,
+    312,
+    317,
+    350,
+    390,
+    424,
+    437,
+    438
+   ],
+   "limit": 441,
+   "bfs": false,
+   "generic": [
+    15,
+    0
+   ],
+   "star": [
+    15,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_8",
+   "kind": "band",
+   "seeds": [
+    4,
+    7,
+    10
+   ],
+   "targets": [
+    272,
+    315,
+    321,
+    328,
+    378,
+    399,
+    409,
+    429,
+    434
+   ],
+   "limit": 442,
+   "bfs": false,
+   "generic": [
+    21,
+    140
+   ],
+   "star": [
+    21,
+    4,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_9",
+   "kind": "band",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    211,
+    212,
+    226,
+    238,
+    261,
+    269,
+    280,
+    281,
+    301,
+    314,
+    340
+   ],
+   "limit": 348,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_10",
+   "kind": "band",
+   "seeds": [
+    5,
+    6,
+    8
+   ],
+   "targets": [
+    188,
+    195,
+    205,
+    215,
+    222,
+    237,
+    260,
+    263,
+    265,
+    271,
+    294
+   ],
+   "limit": 301,
+   "bfs": false,
+   "generic": [
+    38,
+    397
+   ],
+   "star": [
+    38,
+    32,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_11",
+   "kind": "band",
+   "seeds": [
+    4,
+    10
+   ],
+   "targets": [
+    132,
+    159,
+    179,
+    189,
+    192,
+    193,
+    205,
+    207,
+    211,
+    216
+   ],
+   "limit": 216,
+   "bfs": false,
+   "generic": [
+    18,
+    149
+   ],
+   "star": [
+    18,
+    22,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_12",
+   "kind": "band",
+   "seeds": [
+    5,
+    6
+   ],
+   "targets": [
+    142,
+    157,
+    159,
+    165,
+    185,
+    200,
+    206,
+    210,
+    214,
+    228,
+    235
+   ],
+   "limit": 237,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_13",
+   "kind": "band",
+   "seeds": [
+    2,
+    10
+   ],
+   "targets": [
+    206,
+    238,
+    266,
+    280,
+    284,
+    289,
+    294
+   ],
+   "limit": 300,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_14",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    196,
+    204,
+    214,
+    218,
+    231,
+    249,
+    274,
+    286,
+    288,
+    297,
+    299
+   ],
+   "limit": 309,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_15",
+   "kind": "band",
+   "seeds": [
+    6,
+    9,
+    10
+   ],
+   "targets": [
+    120,
+    126,
+    130,
+    137,
+    138,
+    161,
+    169,
+    182
+   ],
+   "limit": 199,
+   "bfs": false,
+   "generic": [
+    26,
+    351
+   ],
+   "star": [
+    26,
+    30,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_16",
+   "kind": "band",
+   "seeds": [
+    2,
+    8
+   ],
+   "targets": [
+    279,
+    283,
+    287,
+    298,
+    328,
+    339,
+    385,
+    436
+   ],
+   "limit": 448,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_17",
+   "kind": "band",
+   "seeds": [
+    2,
+    3,
+    7
+   ],
+   "targets": [
+    279,
+    285,
+    302,
+    312,
+    353,
+    373,
+    433
+   ],
+   "limit": 445,
+   "bfs": false,
+   "generic": [
+    10,
+    0
+   ],
+   "star": [
+    10,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_18",
+   "kind": "band",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    189,
+    211,
+    215,
+    238,
+    240,
+    242,
+    255,
+    257,
+    270,
+    273
+   ],
+   "limit": 286,
+   "bfs": false,
+   "generic": [
+    19,
+    132
+   ],
+   "star": [
+    19,
+    15,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_19",
+   "kind": "band",
+   "seeds": [
+    2,
+    6,
+    8
+   ],
+   "targets": [
+    325,
+    346,
+    347,
+    362,
+    376,
+    396,
+    441
+   ],
+   "limit": 453,
+   "bfs": false,
+   "generic": [
+    11,
+    0
+   ],
+   "star": [
+    11,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_20",
+   "kind": "band",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    219,
+    224,
+    226,
+    236,
+    247,
+    260,
+    290
+   ],
+   "limit": 290,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_21",
+   "kind": "band",
+   "seeds": [
+    2,
+    5,
+    9
+   ],
+   "targets": [
+    200,
+    207,
+    212,
+    220,
+    240,
+    289,
+    290,
+    313,
+    316,
+    322,
+    324
+   ],
+   "limit": 330,
+   "bfs": false,
+   "generic": [
+    15,
+    44
+   ],
+   "star": [
+    15,
+    7,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_22",
+   "kind": "band",
+   "seeds": [
+    4,
+    5,
+    8
+   ],
+   "targets": [
+    218,
+    231,
+    241,
+    272,
+    288,
+    299,
+    307
+   ],
+   "limit": 331,
+   "bfs": false,
+   "generic": [
+    17,
+    63
+   ],
+   "star": [
+    17,
+    1,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_23",
+   "kind": "band",
+   "seeds": [
+    5,
+    8,
+    10
+   ],
+   "targets": [
+    165,
+    168,
+    190,
+    197,
+    209,
+    223,
+    237,
+    251,
+    253,
+    260
+   ],
+   "limit": 262,
+   "bfs": false,
+   "generic": [
+    16,
+    25
+   ],
+   "star": [
+    16,
+    2,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_24",
+   "kind": "band",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    212,
+    213,
+    223,
+    248,
+    260,
+    309,
+    310
+   ],
+   "limit": 322,
+   "bfs": false,
+   "generic": [
+    11,
+    42
+   ],
+   "star": [
+    11,
+    2,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_25",
+   "kind": "band",
+   "seeds": [
+    2,
+    5
+   ],
+   "targets": [
+    151,
+    154,
+    157,
+    167,
+    171,
+    196,
+    213,
+    232
+   ],
+   "limit": 236,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_26",
+   "kind": "band",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    273,
+    276,
+    281,
+    296,
+    299,
+    310,
+    330,
+    371,
+    381
+   ],
+   "limit": 403,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_27",
+   "kind": "band",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    199,
+    217,
+    219,
+    252,
+    257,
+    279,
+    288
+   ],
+   "limit": 322,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_28",
+   "kind": "band",
+   "seeds": [
+    2,
+    8
+   ],
+   "targets": [
+    227,
+    230,
+    261,
+    307,
+    310,
+    331,
+    355,
+    359
+   ],
+   "limit": 376,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_29",
+   "kind": "band",
+   "seeds": [
+    2,
+    7,
+    9
+   ],
+   "targets": [
+    223,
+    227,
+    228,
+    229,
+    259,
+    260,
+    263,
+    287,
+    289
+   ],
+   "limit": 291,
+   "bfs": false,
+   "generic": [
+    43,
+    460
+   ],
+   "star": [
+    43,
+    36,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_30",
+   "kind": "band",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    158,
+    180,
+    182,
+    184,
+    206,
+    221,
+    228,
+    241,
+    253,
+    256,
+    259
+   ],
+   "limit": 260,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_31",
+   "kind": "band",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    120,
+    124,
+    125,
+    139,
+    147,
+    181,
+    182,
+    183,
+    186
+   ],
+   "limit": 189,
+   "bfs": false,
+   "generic": [
+    15,
+    104
+   ],
+   "star": [
+    15,
+    11,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_32",
+   "kind": "band",
+   "seeds": [
+    2,
+    10
+   ],
+   "targets": [
+    203,
+    205,
+    217,
+    228,
+    232,
+    261,
+    280,
+    313
+   ],
+   "limit": 331,
+   "bfs": false,
+   "generic": [
+    11,
+    42
+   ],
+   "star": [
+    11,
+    1,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_33",
+   "kind": "band",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    175,
+    194,
+    200,
+    214,
+    220,
+    227,
+    256
+   ],
+   "limit": 257,
+   "bfs": false,
+   "generic": [
+    38,
+    342
+   ],
+   "star": [
+    38,
+    24,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_34",
+   "kind": "band",
+   "seeds": [
+    4,
+    6,
+    7
+   ],
+   "targets": [
+    154,
+    155,
+    160,
+    162,
+    171,
+    179,
+    183,
+    195,
+    204,
+    223,
+    242
+   ],
+   "limit": 252,
+   "bfs": false,
+   "generic": [
+    84,
+    1287
+   ],
+   "star": [
+    84,
+    113,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_35",
+   "kind": "band",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    241,
+    252,
+    274,
+    284,
+    287,
+    329,
+    331,
+    336,
+    385
+   ],
+   "limit": 399,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_36",
+   "kind": "band",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    198,
+    206,
+    218,
+    233,
+    248,
+    255,
+    260
+   ],
+   "limit": 262,
+   "bfs": false,
+   "generic": [
+    33,
+    302
+   ],
+   "star": [
+    33,
+    22,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_37",
+   "kind": "band",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    278,
+    302,
+    310,
+    344,
+    362,
+    394,
+    404
+   ],
+   "limit": 436,
+   "bfs": false,
+   "generic": [
+    21,
+    163
+   ],
+   "star": [
+    21,
+    20,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_38",
+   "kind": "band",
+   "seeds": [
+    3,
+    8
+   ],
+   "targets": [
+    176,
+    190,
+    203,
+    205,
+    217,
+    235,
+    259,
+    261,
+    265,
+    273,
+    284
+   ],
+   "limit": 289,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_39",
+   "kind": "band",
+   "seeds": [
+    2,
+    5
+   ],
+   "targets": [
+    247,
+    288,
+    293,
+    297,
+    302,
+    314,
+    316,
+    323,
+    372,
+    387,
+    404
+   ],
+   "limit": 406,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_40",
+   "kind": "band",
+   "seeds": [
+    3,
+    5
+   ],
+   "targets": [
+    273,
+    302,
+    303,
+    309,
+    335,
+    354,
+    363,
+    385,
+    431
+   ],
+   "limit": 432,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_41",
+   "kind": "band",
+   "seeds": [
+    4,
+    8,
+    10
+   ],
+   "targets": [
+    154,
+    166,
+    177,
+    186,
+    194,
+    197,
+    203,
+    221,
+    244,
+    248
+   ],
+   "limit": 256,
+   "bfs": false,
+   "generic": [
+    27,
+    235
+   ],
+   "star": [
+    27,
+    17,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_42",
+   "kind": "band",
+   "seeds": [
+    7,
+    10
+   ],
+   "targets": [
+    229,
+    235,
+    258,
+    277,
+    292,
+    311,
+    314,
+    322,
+    331,
+    345,
+    349
+   ],
+   "limit": 373,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_43",
+   "kind": "band",
+   "seeds": [
+    5,
+    6,
+    7
+   ],
+   "targets": [
+    185,
+    194,
+    208,
+    219,
+    231,
+    240,
+    242,
+    260,
+    263,
+    272
+   ],
+   "limit": 278,
+   "bfs": false,
+   "generic": [
+    20,
+    138
+   ],
+   "star": [
+    20,
+    9,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_44",
+   "kind": "band",
+   "seeds": [
+    2,
+    9
+   ],
+   "targets": [
+    274,
+    285,
+    307,
+    312,
+    313,
+    318,
+    337,
+    401,
+    416
+   ],
+   "limit": 441,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_45",
+   "kind": "band",
+   "seeds": [
+    8,
+    9
+   ],
+   "targets": [
+    250,
+    261,
+    267,
+    274,
+    291,
+    292,
+    307,
+    361,
+    371,
+    377
+   ],
+   "limit": 391,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_46",
+   "kind": "band",
+   "seeds": [
+    4,
+    5,
+    8
+   ],
+   "targets": [
+    231,
+    238,
+    254,
+    256,
+    281,
+    285,
+    296,
+    314,
+    360
+   ],
+   "limit": 371,
+   "bfs": false,
+   "generic": [
+    16,
+    50
+   ],
+   "star": [
+    16,
+    2,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_47",
+   "kind": "band",
+   "seeds": [
+    2,
+    5,
+    7
+   ],
+   "targets": [
+    206,
+    213,
+    237,
+    251,
+    279,
+    298,
+    301,
+    310
+   ],
+   "limit": 340,
+   "bfs": false,
+   "generic": [
+    16,
+    89
+   ],
+   "star": [
+    16,
+    8,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_48",
+   "kind": "band",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    242,
+    260,
+    287,
+    325,
+    341,
+    382,
+    383,
+    388
+   ],
+   "limit": 396,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_49",
+   "kind": "band",
+   "seeds": [
+    5,
+    6,
+    10
+   ],
+   "targets": [
+    127,
+    129,
+    133,
+    134,
+    155,
+    169,
+    174,
+    176,
+    179,
+    205
+   ],
+   "limit": 207,
+   "bfs": false,
+   "generic": [
+    95,
+    1344
+   ],
+   "star": [
+    95,
+    156,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_50",
+   "kind": "band",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    288,
+    290,
+    311,
+    316,
+    324,
+    354,
+    356
+   ],
+   "limit": 361,
+   "bfs": false,
+   "generic": [
+    40,
+    556
+   ],
+   "star": [
+    40,
+    39,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_51",
+   "kind": "band",
+   "seeds": [
+    4,
+    7,
+    9
+   ],
+   "targets": [
+    156,
+    161,
+    163,
+    164,
+    195,
+    227,
+    232
+   ],
+   "limit": 260,
+   "bfs": false,
+   "generic": [
+    40,
+    451
+   ],
+   "star": [
+    40,
+    14,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_52",
+   "kind": "band",
+   "seeds": [
+    2,
+    6,
+    7
+   ],
+   "targets": [
+    296,
+    373,
+    395,
+    445,
+    452,
+    458,
+    461
+   ],
+   "limit": 470,
+   "bfs": false,
+   "generic": [
+    14,
+    22
+   ],
+   "star": [
+    14,
+    1,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_53",
+   "kind": "band",
+   "seeds": [
+    4,
+    8,
+    10
+   ],
+   "targets": [
+    296,
+    324,
+    331,
+    403,
+    431,
+    441,
+    453
+   ],
+   "limit": 457,
+   "bfs": false,
+   "generic": [
+    20,
+    152
+   ],
+   "star": [
+    20,
+    4,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_54",
+   "kind": "band",
+   "seeds": [
+    2,
+    3
+   ],
+   "targets": [
+    221,
+    223,
+    240,
+    266,
+    269,
+    303,
+    321,
+    322,
+    358,
+    362
+   ],
+   "limit": 366,
+   "bfs": false,
+   "generic": [
+    7,
+    7
+   ],
+   "star": [
+    7,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_55",
+   "kind": "band",
+   "seeds": [
+    2,
+    7,
+    8
+   ],
+   "targets": [
+    157,
+    160,
+    161,
+    162,
+    165,
+    178,
+    191,
+    199,
+    209,
+    210,
+    247
+   ],
+   "limit": 262,
+   "bfs": false,
+   "generic": [
+    70,
+    917
+   ],
+   "star": [
+    70,
+    93,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_56",
+   "kind": "band",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    124,
+    142,
+    149,
+    151,
+    154,
+    158,
+    174,
+    194,
+    200
+   ],
+   "limit": 204,
+   "bfs": false,
+   "generic": [
+    12,
+    60
+   ],
+   "star": [
+    12,
+    10,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_57",
+   "kind": "band",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    174,
+    175,
+    183,
+    188,
+    236,
+    254,
+    264,
+    265,
+    276,
+    277,
+    278
+   ],
+   "limit": 289,
+   "bfs": false,
+   "generic": [
+    14,
+    77
+   ],
+   "star": [
+    14,
+    2,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_58",
+   "kind": "band",
+   "seeds": [
+    4,
+    7,
+    8
+   ],
+   "targets": [
+    140,
+    143,
+    144,
+    154,
+    165,
+    166,
+    176,
+    190
+   ],
+   "limit": 193,
+   "bfs": true,
+   "generic": [
+    8,
+    87
+   ],
+   "star": [
+    8,
+    11,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "band_59",
+   "kind": "band",
+   "seeds": [
+    2,
+    9,
+    10
+   ],
+   "targets": [
+    218,
+    235,
+    250,
+    251,
+    254,
+    279,
+    292,
+    311,
+    336
+   ],
+   "limit": 349,
+   "bfs": false,
+   "generic": [
+    14,
+    0
+   ],
+   "star": [
+    14,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_60",
+   "kind": "band",
+   "seeds": [
+    3,
+    7
+   ],
+   "targets": [
+    222,
+    227,
+    251,
+    286,
+    291,
+    299,
+    311,
+    316,
+    322,
+    325
+   ],
+   "limit": 361,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_61",
+   "kind": "band",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    182,
+    184,
+    192,
+    194,
+    236,
+    239,
+    242,
+    248,
+    249,
+    258
+   ],
+   "limit": 289,
+   "bfs": false,
+   "generic": [
+    68,
+    665
+   ],
+   "star": [
+    68,
+    39,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_62",
+   "kind": "band",
+   "seeds": [
+    8,
+    9
+   ],
+   "targets": [
+    132,
+    133,
+    139,
+    143,
+    149,
+    151,
+    168
+   ],
+   "limit": 187,
+   "bfs": false,
+   "generic": [
+    27,
+    211
+   ],
+   "star": [
+    27,
+    18,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_63",
+   "kind": "band",
+   "seeds": [
+    3,
+    6,
+    8
+   ],
+   "targets": [
+    281,
+    292,
+    293,
+    297,
+    360,
+    398,
+    401
+   ],
+   "limit": 446,
+   "bfs": false,
+   "generic": [
+    27,
+    246
+   ],
+   "star": [
+    27,
+    14,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_64",
+   "kind": "band",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    270,
+    313,
+    334,
+    366,
+    371,
+    393,
+    399,
+    403
+   ],
+   "limit": 425,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_65",
+   "kind": "band",
+   "seeds": [
+    5,
+    6
+   ],
+   "targets": [
+    317,
+    319,
+    324,
+    329,
+    335,
+    373,
+    412,
+    438
+   ],
+   "limit": 448,
+   "bfs": false,
+   "generic": [
+    9,
+    16
+   ],
+   "star": [
+    9,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_66",
+   "kind": "band",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    188,
+    195,
+    209,
+    215,
+    225,
+    230,
+    249
+   ],
+   "limit": 281,
+   "bfs": false,
+   "generic": [
+    11,
+    27
+   ],
+   "star": [
+    11,
+    2,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_67",
+   "kind": "band",
+   "seeds": [
+    4,
+    7,
+    8
+   ],
+   "targets": [
+    229,
+    269,
+    271,
+    272,
+    299,
+    319,
+    327
+   ],
+   "limit": 382,
+   "bfs": false,
+   "generic": [
+    22,
+    159
+   ],
+   "star": [
+    22,
+    5,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_68",
+   "kind": "band",
+   "seeds": [
+    4,
+    8,
+    9
+   ],
+   "targets": [
+    228,
+    246,
+    249,
+    337,
+    338,
+    343,
+    354,
+    367
+   ],
+   "limit": 377,
+   "bfs": false,
+   "generic": [
+    14,
+    0
+   ],
+   "star": [
+    14,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_69",
+   "kind": "band",
+   "seeds": [
+    4,
+    10
+   ],
+   "targets": [
+    235,
+    245,
+    269,
+    288,
+    315,
+    345,
+    362,
+    364
+   ],
+   "limit": 364,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_70",
+   "kind": "band",
+   "seeds": [
+    2,
+    4,
+    9
+   ],
+   "targets": [
+    281,
+    291,
+    309,
+    311,
+    316,
+    344,
+    350,
+    369,
+    375,
+    433,
+    441
+   ],
+   "limit": 464,
+   "bfs": false,
+   "generic": [
+    13,
+    18
+   ],
+   "star": [
+    13,
+    1,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_71",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    259,
+    267,
+    273,
+    277,
+    313,
+    324,
+    325,
+    327,
+    365,
+    372
+   ],
+   "limit": 384,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_72",
+   "kind": "band",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    233,
+    238,
+    247,
+    255,
+    309,
+    326,
+    327
+   ],
+   "limit": 339,
+   "bfs": false,
+   "generic": [
+    21,
+    182
+   ],
+   "star": [
+    21,
+    14,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_73",
+   "kind": "band",
+   "seeds": [
+    2,
+    3
+   ],
+   "targets": [
+    206,
+    220,
+    248,
+    278,
+    280,
+    291,
+    303,
+    305
+   ],
+   "limit": 320,
+   "bfs": false,
+   "generic": [
+    6,
+    0
+   ],
+   "star": [
+    6,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_74",
+   "kind": "band",
+   "seeds": [
+    7,
+    10
+   ],
+   "targets": [
+    152,
+    153,
+    161,
+    165,
+    172,
+    182,
+    183,
+    186,
+    187,
+    196
+   ],
+   "limit": 238,
+   "bfs": true,
+   "generic": [
+    9,
+    105
+   ],
+   "star": [
+    9,
+    59,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "band_75",
+   "kind": "band",
+   "seeds": [
+    7,
+    9
+   ],
+   "targets": [
+    174,
+    186,
+    199,
+    214,
+    215,
+    223,
+    242,
+    262
+   ],
+   "limit": 267,
+   "bfs": false,
+   "generic": [
+    11,
+    21
+   ],
+   "star": [
+    11,
+    4,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_76",
+   "kind": "band",
+   "seeds": [
+    2,
+    4,
+    8
+   ],
+   "targets": [
+    249,
+    251,
+    295,
+    335,
+    348,
+    353,
+    360,
+    377,
+    397,
+    398,
+    403
+   ],
+   "limit": 413,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_77",
+   "kind": "band",
+   "seeds": [
+    4,
+    9,
+    10
+   ],
+   "targets": [
+    190,
+    201,
+    218,
+    219,
+    234,
+    242,
+    254,
+    280
+   ],
+   "limit": 292,
+   "bfs": false,
+   "generic": [
+    16,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_78",
+   "kind": "band",
+   "seeds": [
+    4,
+    8
+   ],
+   "targets": [
+    205,
+    232,
+    234,
+    243,
+    248,
+    250,
+    252,
+    264,
+    281,
+    314,
+    323
+   ],
+   "limit": 329,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_79",
+   "kind": "band",
+   "seeds": [
+    7,
+    10
+   ],
+   "targets": [
+    189,
+    190,
+    239,
+    247,
+    248,
+    250,
+    254,
+    255,
+    257
+   ],
+   "limit": 270,
+   "bfs": false,
+   "generic": [
+    42,
+    426
+   ],
+   "star": [
+    42,
+    100,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_80",
+   "kind": "band",
+   "seeds": [
+    4,
+    8
+   ],
+   "targets": [
+    274,
+    282,
+    284,
+    287,
+    300,
+    358,
+    373,
+    421,
+    449
+   ],
+   "limit": 452,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_81",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    141,
+    145,
+    171,
+    175,
+    179,
+    187,
+    196,
+    199,
+    213
+   ],
+   "limit": 224,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_82",
+   "kind": "band",
+   "seeds": [
+    3,
+    9
+   ],
+   "targets": [
+    312,
+    322,
+    340,
+    343,
+    352,
+    355,
+    425
+   ],
+   "limit": 447,
+   "bfs": false,
+   "generic": [
+    22,
+    182
+   ],
+   "star": [
+    22,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_83",
+   "kind": "band",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    254,
+    259,
+    276,
+    296,
+    365,
+    406,
+    407,
+    409,
+    416
+   ],
+   "limit": 424,
+   "bfs": false,
+   "generic": [
+    9,
+    12
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_84",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    279,
+    285,
+    302,
+    348,
+    369,
+    378,
+    414,
+    416,
+    418,
+    425,
+    446
+   ],
+   "limit": 450,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_85",
+   "kind": "band",
+   "seeds": [
+    3,
+    5,
+    7
+   ],
+   "targets": [
+    248,
+    260,
+    261,
+    265,
+    271,
+    275,
+    316
+   ],
+   "limit": 349,
+   "bfs": false,
+   "generic": [
+    58,
+    734
+   ],
+   "star": [
+    58,
+    54,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_86",
+   "kind": "band",
+   "seeds": [
+    7,
+    9
+   ],
+   "targets": [
+    301,
+    309,
+    381,
+    394,
+    412,
+    442,
+    469
+   ],
+   "limit": 475,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_87",
+   "kind": "band",
+   "seeds": [
+    2,
+    3,
+    8
+   ],
+   "targets": [
+    212,
+    223,
+    239,
+    253,
+    259,
+    269,
+    273,
+    290,
+    291
+   ],
+   "limit": 331,
+   "bfs": false,
+   "generic": [
+    11,
+    0
+   ],
+   "star": [
+    11,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_88",
+   "kind": "band",
+   "seeds": [
+    3,
+    9,
+    10
+   ],
+   "targets": [
+    278,
+    281,
+    283,
+    341,
+    356,
+    357,
+    376,
+    389
+   ],
+   "limit": 409,
+   "bfs": false,
+   "generic": [
+    16,
+    48
+   ],
+   "star": [
+    16,
+    1,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_89",
+   "kind": "band",
+   "seeds": [
+    7,
+    8,
+    10
+   ],
+   "targets": [
+    234,
+    236,
+    273,
+    283,
+    307,
+    321,
+    353
+   ],
+   "limit": 386,
+   "bfs": false,
+   "generic": [
+    44,
+    533
+   ],
+   "star": [
+    44,
+    47,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_90",
+   "kind": "band",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    347,
+    357,
+    394,
+    395,
+    403,
+    410,
+    449,
+    450
+   ],
+   "limit": 461,
+   "bfs": false,
+   "generic": [
+    8,
+    11
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_91",
+   "kind": "band",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    260,
+    263,
+    284,
+    306,
+    323,
+    336,
+    357,
+    424
+   ],
+   "limit": 432,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_92",
+   "kind": "band",
+   "seeds": [
+    5,
+    7
+   ],
+   "targets": [
+    146,
+    149,
+    155,
+    161,
+    183,
+    206,
+    217,
+    241
+   ],
+   "limit": 241,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_93",
+   "kind": "band",
+   "seeds": [
+    3,
+    4,
+    6
+   ],
+   "targets": [
+    201,
+    278,
+    288,
+    291,
+    294,
+    300,
+    304
+   ],
+   "limit": 336,
+   "bfs": true,
+   "generic": [
+    76,
+    1127
+   ],
+   "star": [
+    76,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "band_94",
+   "kind": "band",
+   "seeds": [
+    2,
+    8,
+    9
+   ],
+   "targets": [
+    264,
+    302,
+    330,
+    371,
+    372,
+    392,
+    399
+   ],
+   "limit": 412,
+   "bfs": false,
+   "generic": [
+    13,
+    0
+   ],
+   "star": [
+    13,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_95",
+   "kind": "band",
+   "seeds": [
+    2,
+    3,
+    8
+   ],
+   "targets": [
+    283,
+    310,
+    322,
+    345,
+    365,
+    382,
+    389
+   ],
+   "limit": 414,
+   "bfs": false,
+   "generic": [
+    11,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_96",
+   "kind": "band",
+   "seeds": [
+    6,
+    7,
+    9
+   ],
+   "targets": [
+    183,
+    189,
+    213,
+    241,
+    243,
+    245,
+    255,
+    264,
+    275,
+    286
+   ],
+   "limit": 302,
+   "bfs": false,
+   "generic": [
+    24,
+    185
+   ],
+   "star": [
+    24,
+    7,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_97",
+   "kind": "band",
+   "seeds": [
+    4,
+    6,
+    9
+   ],
+   "targets": [
+    283,
+    309,
+    324,
+    378,
+    385,
+    401,
+    408,
+    411,
+    444,
+    446
+   ],
+   "limit": 466,
+   "bfs": false,
+   "generic": [
+    16,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_98",
+   "kind": "band",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    132,
+    133,
+    155,
+    163,
+    170,
+    172,
+    176,
+    192,
+    209,
+    211
+   ],
+   "limit": 212,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_99",
+   "kind": "band",
+   "seeds": [
+    5,
+    7
+   ],
+   "targets": [
+    294,
+    337,
+    358,
+    378,
+    403,
+    412,
+    415,
+    417,
+    423,
+    428,
+    446
+   ],
+   "limit": 456,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_100",
+   "kind": "band",
+   "seeds": [
+    5,
+    7
+   ],
+   "targets": [
+    202,
+    236,
+    245,
+    251,
+    267,
+    296,
+    320,
+    335
+   ],
+   "limit": 337,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_101",
+   "kind": "band",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    283,
+    328,
+    330,
+    347,
+    374,
+    412,
+    416
+   ],
+   "limit": 419,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_102",
+   "kind": "band",
+   "seeds": [
+    5,
+    8
+   ],
+   "targets": [
+    120,
+    154,
+    160,
+    163,
+    170,
+    176,
+    184,
+    200
+   ],
+   "limit": 200,
+   "bfs": false,
+   "generic": [
+    36,
+    655
+   ],
+   "star": [
+    36,
+    85,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_103",
+   "kind": "band",
+   "seeds": [
+    2,
+    4
+   ],
+   "targets": [
+    152,
+    155,
+    159,
+    180,
+    183,
+    189,
+    199,
+    210,
+    240
+   ],
+   "limit": 248,
+   "bfs": false,
+   "generic": [
+    5,
+    0
+   ],
+   "star": [
+    5,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_104",
+   "kind": "band",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    211,
+    213,
+    217,
+    244,
+    246,
+    285,
+    304,
+    305,
+    311
+   ],
+   "limit": 313,
+   "bfs": false,
+   "generic": [
+    25,
+    176
+   ],
+   "star": [
+    25,
+    3,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_105",
+   "kind": "band",
+   "seeds": [
+    2,
+    4,
+    6
+   ],
+   "targets": [
+    335,
+    337,
+    342,
+    368,
+    372,
+    390,
+    406,
+    446,
+    467
+   ],
+   "limit": 473,
+   "bfs": false,
+   "generic": [
+    10,
+    19
+   ],
+   "star": [
+    10,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_106",
+   "kind": "band",
+   "seeds": [
+    3,
+    10
+   ],
+   "targets": [
+    124,
+    142,
+    167,
+    172,
+    179,
+    181,
+    187,
+    194
+   ],
+   "limit": 208,
+   "bfs": false,
+   "generic": [
+    10,
+    18
+   ],
+   "star": [
+    10,
+    1,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_107",
+   "kind": "band",
+   "seeds": [
+    5,
+    10
+   ],
+   "targets": [
+    278,
+    281,
+    286,
+    291,
+    314,
+    325,
+    353,
+    422
+   ],
+   "limit": 423,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_108",
+   "kind": "band",
+   "seeds": [
+    5,
+    6,
+    8
+   ],
+   "targets": [
+    296,
+    324,
+    345,
+    350,
+    354,
+    391,
+    436,
+    456
+   ],
+   "limit": 470,
+   "bfs": false,
+   "generic": [
+    16,
+    0
+   ],
+   "star": [
+    16,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_109",
+   "kind": "band",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    147,
+    156,
+    159,
+    167,
+    173,
+    197,
+    205,
+    206
+   ],
+   "limit": 231,
+   "bfs": false,
+   "generic": [
+    12,
+    65
+   ],
+   "star": [
+    12,
+    9,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_110",
+   "kind": "band",
+   "seeds": [
+    4,
+    5,
+    9
+   ],
+   "targets": [
+    185,
+    199,
+    227,
+    233,
+    241,
+    259,
+    278
+   ],
+   "limit": 295,
+   "bfs": false,
+   "generic": [
+    18,
+    108
+   ],
+   "star": [
+    18,
+    5,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_111",
+   "kind": "band",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    237,
+    243,
+    254,
+    259,
+    288,
+    303,
+    319,
+    321,
+    360
+   ],
+   "limit": 375,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    8,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_112",
+   "kind": "band",
+   "seeds": [
+    2,
+    9
+   ],
+   "targets": [
+    276,
+    310,
+    311,
+    367,
+    382,
+    397,
+    432
+   ],
+   "limit": 459,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_113",
+   "kind": "band",
+   "seeds": [
+    2,
+    5
+   ],
+   "targets": [
+    317,
+    347,
+    363,
+    365,
+    380,
+    410,
+    462
+   ],
+   "limit": 464,
+   "bfs": false,
+   "generic": [
+    8,
+    13
+   ],
+   "star": [
+    8,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_114",
+   "kind": "band",
+   "seeds": [
+    8,
+    10
+   ],
+   "targets": [
+    177,
+    200,
+    205,
+    220,
+    231,
+    232,
+    237,
+    241,
+    254
+   ],
+   "limit": 262,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_115",
+   "kind": "band",
+   "seeds": [
+    2,
+    4,
+    10
+   ],
+   "targets": [
+    128,
+    133,
+    149,
+    157,
+    169,
+    180,
+    181,
+    185,
+    189,
+    197,
+    199
+   ],
+   "limit": 205,
+   "bfs": true,
+   "generic": [
+    16,
+    196
+   ],
+   "star": [
+    16,
+    44,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "band_116",
+   "kind": "band",
+   "seeds": [
+    5,
+    7,
+    10
+   ],
+   "targets": [
+    285,
+    308,
+    362,
+    380,
+    395,
+    397,
+    413,
+    440,
+    453,
+    470
+   ],
+   "limit": 472,
+   "bfs": false,
+   "generic": [
+    15,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_117",
+   "kind": "band",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    239,
+    241,
+    244,
+    253,
+    262,
+    271,
+    281,
+    288,
+    308,
+    309
+   ],
+   "limit": 395,
+   "bfs": false,
+   "generic": [
+    10,
+    28
+   ],
+   "star": [
+    10,
+    4,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_118",
+   "kind": "band",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    232,
+    246,
+    252,
+    274,
+    283,
+    308,
+    310,
+    352,
+    365,
+    384
+   ],
+   "limit": 384,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_119",
+   "kind": "band",
+   "seeds": [
+    5,
+    6,
+    9
+   ],
+   "targets": [
+    188,
+    193,
+    196,
+    206,
+    251,
+    254,
+    258
+   ],
+   "limit": 260,
+   "bfs": false,
+   "generic": [
+    42,
+    503
+   ],
+   "star": [
+    42,
+    21,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_120",
+   "kind": "band",
+   "seeds": [
+    4,
+    8
+   ],
+   "targets": [
+    263,
+    316,
+    352,
+    356,
+    377,
+    379,
+    398,
+    402,
+    404,
+    423
+   ],
+   "limit": 435,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    7,
+    0,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_121",
+   "kind": "band",
+   "seeds": [
+    8,
+    9,
+    10
+   ],
+   "targets": [
+    191,
+    195,
+    199,
+    218,
+    221,
+    222,
+    233,
+    248,
+    257,
+    265,
+    281
+   ],
+   "limit": 305,
+   "bfs": false,
+   "generic": [
+    20,
+    151
+   ],
+   "star": [
+    20,
+    13,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_122",
+   "kind": "band",
+   "seeds": [
+    3,
+    6,
+    10
+   ],
+   "targets": [
+    249,
+    277,
+    317,
+    326,
+    348,
+    366,
+    386
+   ],
+   "limit": 412,
+   "bfs": false,
+   "generic": [
+    16,
+    18
+   ],
+   "star": [
+    16,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_123",
+   "kind": "band",
+   "seeds": [
+    5,
+    7
+   ],
+   "targets": [
+    292,
+    306,
+    312,
+    319,
+    382,
+    407,
+    420,
+    426
+   ],
+   "limit": 473,
+   "bfs": false,
+   "generic": [
+    12,
+    52
+   ],
+   "star": [
+    12,
+    4,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_124",
+   "kind": "band",
+   "seeds": [
+    6,
+    8
+   ],
+   "targets": [
+    173,
+    174,
+    202,
+    212,
+    222,
+    228,
+    242,
+    251,
+    264
+   ],
+   "limit": 277,
+   "bfs": false,
+   "generic": [
+    11,
+    30
+   ],
+   "star": [
+    11,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_125",
+   "kind": "band",
+   "seeds": [
+    3,
+    8,
+    10
+   ],
+   "targets": [
+    195,
+    196,
+    202,
+    232,
+    245,
+    251,
+    260,
+    261
+   ],
+   "limit": 323,
+   "bfs": false,
+   "generic": [
+    39,
+    517
+   ],
+   "star": [
+    39,
+    30,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_126",
+   "kind": "band",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    146,
+    150,
+    151,
+    171,
+    176,
+    192,
+    203,
+    214
+   ],
+   "limit": 230,
+   "bfs": false,
+   "generic": [
+    8,
+    10
+   ],
+   "star": [
+    8,
+    1,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_127",
+   "kind": "band",
+   "seeds": [
+    2,
+    6,
+    9
+   ],
+   "targets": [
+    256,
+    257,
+    260,
+    294,
+    311,
+    345,
+    360,
+    394,
+    402,
+    407,
+    409
+   ],
+   "limit": 419,
+   "bfs": false,
+   "generic": [
+    16,
+    49
+   ],
+   "star": [
+    16,
+    5,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_128",
+   "kind": "band",
+   "seeds": [
+    5,
+    8
+   ],
+   "targets": [
+    163,
+    172,
+    183,
+    191,
+    192,
+    194,
+    209,
+    224,
+    231,
+    241,
+    254
+   ],
+   "limit": 259,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    9,
+    0,
+    1,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "band_129",
+   "kind": "band",
+   "seeds": [
+    3,
+    5
+   ],
+   "targets": [
+    172,
+    186,
+    190,
+    191,
+    193,
+    213,
+    223,
+    228,
+    251,
+    256,
+    262
+   ],
+   "limit": 283,
+   "bfs": false,
+   "generic": [
+    51,
+    521
+   ],
+   "star": [
+    51,
+    46,
+    0,
+    0
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "known_0",
+   "kind": "planted",
+   "seeds": [
+    6,
+    18,
+    20
+   ],
+   "targets": [
+    340,
+    342,
+    348,
+    358,
+    380,
+    386,
+    398,
+    720,
+    726,
+    732,
+    738,
+    744,
+    756
+   ],
+   "limit": 1120,
+   "bfs": true,
+   "generic": [
+    3,
+    12
+   ],
+   "star": [
+    3,
+    12,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_1",
+   "kind": "planted",
+   "seeds": [
+    5,
+    11,
+    16
+   ],
+   "targets": [
+    165,
+    170,
+    182,
+    186,
+    192,
+    197,
+    203,
+    352,
+    357,
+    362
+   ],
+   "limit": 568,
+   "bfs": true,
+   "generic": [
+    3,
+    8
+   ],
+   "star": [
+    3,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_2",
+   "kind": "planted",
+   "seeds": [
+    15,
+    17,
+    19
+   ],
+   "targets": [
+    304,
+    308,
+    319,
+    355,
+    359,
+    663,
+    676,
+    678
+   ],
+   "limit": 1009,
+   "bfs": true,
+   "generic": [
+    17,
+    316
+   ],
+   "star": [
+    17,
+    29,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_3",
+   "kind": "planted",
+   "seeds": [
+    3,
+    13,
+    16
+   ],
+   "targets": [
+    195,
+    198,
+    214,
+    227,
+    234,
+    237,
+    422,
+    432,
+    442,
+    624
+   ],
+   "limit": 664,
+   "bfs": true,
+   "generic": [
+    7,
+    108
+   ],
+   "star": [
+    7,
+    15,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_4",
+   "kind": "planted",
+   "seeds": [
+    13,
+    15,
+    21
+   ],
+   "targets": [
+    300,
+    302,
+    307,
+    309,
+    317,
+    341,
+    343,
+    349,
+    630,
+    643,
+    645,
+    656
+   ],
+   "limit": 985,
+   "bfs": true,
+   "generic": [
+    4,
+    50
+   ],
+   "star": [
+    4,
+    30,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_5",
+   "kind": "planted",
+   "seeds": [
+    13,
+    16,
+    20
+   ],
+   "targets": [
+    304,
+    317,
+    323,
+    349,
+    352,
+    356,
+    640,
+    666,
+    669
+   ],
+   "limit": 1000,
+   "bfs": true,
+   "generic": [
+    11,
+    239
+   ],
+   "star": [
+    11,
+    70,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_6",
+   "kind": "planted",
+   "seeds": [
+    3,
+    7,
+    10
+   ],
+   "targets": [
+    60,
+    63,
+    67,
+    74,
+    76,
+    140,
+    143,
+    146,
+    150,
+    210,
+    231
+   ],
+   "limit": 250,
+   "bfs": true,
+   "generic": [
+    3,
+    12
+   ],
+   "star": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_7",
+   "kind": "planted",
+   "seeds": [
+    3,
+    7,
+    14
+   ],
+   "targets": [
+    84,
+    91,
+    102,
+    104,
+    115,
+    196,
+    199,
+    202,
+    203,
+    210,
+    294,
+    303,
+    315
+   ],
+   "limit": 334,
+   "bfs": true,
+   "generic": [
+    3,
+    22
+   ],
+   "star": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_8",
+   "kind": "planted",
+   "seeds": [
+    4,
+    14,
+    17
+   ],
+   "targets": [
+    225,
+    228,
+    235,
+    246,
+    248,
+    255,
+    256,
+    269,
+    490,
+    494
+   ],
+   "limit": 754,
+   "bfs": true,
+   "generic": [
+    7,
+    116
+   ],
+   "star": [
+    7,
+    40,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_9",
+   "kind": "planted",
+   "seeds": [
+    5,
+    19,
+    21
+   ],
+   "targets": [
+    378,
+    380,
+    383,
+    397,
+    413,
+    420,
+    423,
+    425,
+    439,
+    808,
+    817,
+    836
+   ],
+   "limit": 1237,
+   "bfs": true,
+   "generic": [
+    3,
+    10
+   ],
+   "star": [
+    3,
+    10,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_10",
+   "kind": "planted",
+   "seeds": [
+    5,
+    13,
+    21
+   ],
+   "targets": [
+    257,
+    260,
+    265,
+    283,
+    294,
+    299,
+    307,
+    546,
+    564,
+    572
+   ],
+   "limit": 859,
+   "bfs": true,
+   "generic": [
+    7,
+    111
+   ],
+   "star": [
+    7,
+    20,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_11",
+   "kind": "planted",
+   "seeds": [
+    15,
+    17,
+    19
+   ],
+   "targets": [
+    306,
+    308,
+    319,
+    321,
+    325,
+    353,
+    359,
+    646,
+    663,
+    676,
+    678,
+    680
+   ],
+   "limit": 1009,
+   "bfs": true,
+   "generic": [
+    3,
+    6
+   ],
+   "star": [
+    3,
+    6,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_12",
+   "kind": "planted",
+   "seeds": [
+    8,
+    13,
+    16
+   ],
+   "targets": [
+    192,
+    200,
+    205,
+    234,
+    237,
+    416,
+    432,
+    437,
+    442
+   ],
+   "limit": 664,
+   "bfs": true,
+   "generic": [
+    5,
+    74
+   ],
+   "star": [
+    5,
+    32,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_13",
+   "kind": "planted",
+   "seeds": [
+    5,
+    15,
+    20
+   ],
+   "targets": [
+    280,
+    285,
+    295,
+    310,
+    325,
+    330,
+    605,
+    620
+   ],
+   "limit": 940,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_14",
+   "kind": "planted",
+   "seeds": [
+    13,
+    14,
+    19
+   ],
+   "targets": [
+    247,
+    260,
+    261,
+    267,
+    293,
+    294,
+    298,
+    299,
+    532,
+    545,
+    546,
+    559
+   ],
+   "limit": 838,
+   "bfs": true,
+   "generic": [
+    3,
+    37
+   ],
+   "star": [
+    3,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_15",
+   "kind": "planted",
+   "seeds": [
+    10,
+    14,
+    16
+   ],
+   "targets": [
+    210,
+    218,
+    220,
+    222,
+    228,
+    248,
+    252,
+    254,
+    448,
+    458,
+    462,
+    472,
+    476
+   ],
+   "limit": 712,
+   "bfs": true,
+   "generic": [
+    3,
+    11
+   ],
+   "star": [
+    3,
+    11,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_16",
+   "kind": "planted",
+   "seeds": [
+    3,
+    12,
+    14
+   ],
+   "targets": [
+    156,
+    174,
+    183,
+    192,
+    194,
+    336,
+    360,
+    504
+   ],
+   "limit": 544,
+   "bfs": true,
+   "generic": [
+    15,
+    317
+   ],
+   "star": [
+    15,
+    27,
+    1,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_17",
+   "kind": "planted",
+   "seeds": [
+    4,
+    8,
+    15
+   ],
+   "targets": [
+    109,
+    112,
+    113,
+    116,
+    132,
+    136,
+    143,
+    240,
+    244,
+    248,
+    256
+   ],
+   "limit": 400,
+   "bfs": true,
+   "generic": [
+    3,
+    19
+   ],
+   "star": [
+    3,
+    19,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_18",
+   "kind": "planted",
+   "seeds": [
+    3,
+    11,
+    12
+   ],
+   "targets": [
+    120,
+    121,
+    123,
+    124,
+    131,
+    138,
+    140,
+    144,
+    155,
+    270,
+    275,
+    278
+   ],
+   "limit": 436,
+   "bfs": true,
+   "generic": [
+    3,
+    40
+   ],
+   "star": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_19",
+   "kind": "planted",
+   "seeds": [
+    8,
+    11,
+    19
+   ],
+   "targets": [
+    190,
+    198,
+    201,
+    206,
+    212,
+    225,
+    228,
+    231,
+    236,
+    239,
+    434,
+    437
+   ],
+   "limit": 667,
+   "bfs": true,
+   "generic": [
+    3,
+    6
+   ],
+   "star": [
+    3,
+    6,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_20",
+   "kind": "planted",
+   "seeds": [
+    3,
+    12,
+    18
+   ],
+   "targets": [
+    198,
+    204,
+    210,
+    225,
+    246,
+    438,
+    456,
+    684
+   ],
+   "limit": 688,
+   "bfs": true,
+   "generic": [
+    9,
+    153
+   ],
+   "star": [
+    9,
+    20,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_21",
+   "kind": "planted",
+   "seeds": [
+    4,
+    11,
+    13
+   ],
+   "targets": [
+    130,
+    132,
+    139,
+    141,
+    150,
+    151,
+    156,
+    158,
+    160,
+    167,
+    294,
+    297,
+    301
+   ],
+   "limit": 469,
+   "bfs": true,
+   "generic": [
+    3,
+    19
+   ],
+   "star": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_22",
+   "kind": "planted",
+   "seeds": [
+    13,
+    14,
+    16
+   ],
+   "targets": [
+    210,
+    211,
+    221,
+    222,
+    223,
+    225,
+    250,
+    252,
+    448,
+    461,
+    475
+   ],
+   "limit": 712,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_23",
+   "kind": "planted",
+   "seeds": [
+    9,
+    12,
+    13
+   ],
+   "targets": [
+    143,
+    144,
+    147,
+    155,
+    174,
+    178,
+    181,
+    312,
+    324,
+    330,
+    336
+   ],
+   "limit": 508,
+   "bfs": true,
+   "generic": [
+    31,
+    1187
+   ],
+   "star": [
+    31,
+    88,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_24",
+   "kind": "planted",
+   "seeds": [
+    3,
+    7,
+    20
+   ],
+   "targets": [
+    120,
+    127,
+    150,
+    160,
+    167,
+    280,
+    294,
+    441
+   ],
+   "limit": 460,
+   "bfs": true,
+   "generic": [
+    5,
+    78
+   ],
+   "star": [
+    5,
+    4,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_25",
+   "kind": "planted",
+   "seeds": [
+    14,
+    16,
+    17
+   ],
+   "targets": [
+    255,
+    258,
+    269,
+    271,
+    274,
+    300,
+    544,
+    576
+   ],
+   "limit": 856,
+   "bfs": true,
+   "generic": [
+    26,
+    721
+   ],
+   "star": [
+    26,
+    57,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_26",
+   "kind": "planted",
+   "seeds": [
+    8,
+    12,
+    19
+   ],
+   "targets": [
+    209,
+    217,
+    221,
+    252,
+    255,
+    464,
+    476,
+    480
+   ],
+   "limit": 724,
+   "bfs": true,
+   "generic": [
+    26,
+    507
+   ],
+   "star": [
+    26,
+    100,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_27",
+   "kind": "planted",
+   "seeds": [
+    6,
+    16,
+    21
+   ],
+   "targets": [
+    320,
+    346,
+    348,
+    357,
+    358,
+    363,
+    368,
+    694
+   ],
+   "limit": 1048,
+   "bfs": true,
+   "generic": [
+    6,
+    98
+   ],
+   "star": [
+    6,
+    19,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_28",
+   "kind": "planted",
+   "seeds": [
+    9,
+    16,
+    19
+   ],
+   "targets": [
+    297,
+    301,
+    311,
+    322,
+    339,
+    608,
+    617,
+    624,
+    626,
+    633,
+    640
+   ],
+   "limit": 952,
+   "bfs": true,
+   "generic": [
+    4,
+    48
+   ],
+   "star": [
+    4,
+    48,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_29",
+   "kind": "planted",
+   "seeds": [
+    6,
+    13,
+    20
+   ],
+   "targets": [
+    246,
+    253,
+    254,
+    279,
+    280,
+    520,
+    532,
+    533,
+    539,
+    546
+   ],
+   "limit": 820,
+   "bfs": true,
+   "generic": [
+    5,
+    57
+   ],
+   "star": [
+    5,
+    16,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_30",
+   "kind": "planted",
+   "seeds": [
+    10,
+    11,
+    13
+   ],
+   "targets": [
+    133,
+    140,
+    141,
+    142,
+    144,
+    156,
+    163,
+    165,
+    167,
+    286,
+    296
+   ],
+   "limit": 469,
+   "bfs": true,
+   "generic": [
+    3,
+    6
+   ],
+   "star": [
+    3,
+    6,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_31",
+   "kind": "planted",
+   "seeds": [
+    6,
+    9,
+    12
+   ],
+   "targets": [
+    96,
+    99,
+    102,
+    105,
+    111,
+    123,
+    129,
+    216
+   ],
+   "limit": 364,
+   "bfs": true,
+   "generic": [
+    3,
+    5
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_32",
+   "kind": "planted",
+   "seeds": [
+    11,
+    12,
+    13
+   ],
+   "targets": [
+    143,
+    144,
+    145,
+    154,
+    155,
+    169,
+    178,
+    179,
+    323,
+    336
+   ],
+   "limit": 508,
+   "bfs": true,
+   "generic": [
+    1,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_33",
+   "kind": "planted",
+   "seeds": [
+    6,
+    9,
+    13
+   ],
+   "targets": [
+    104,
+    110,
+    114,
+    132,
+    135,
+    136,
+    234,
+    240,
+    243
+   ],
+   "limit": 391,
+   "bfs": true,
+   "generic": [
+    4,
+    32
+   ],
+   "star": [
+    4,
+    10,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_34",
+   "kind": "planted",
+   "seeds": [
+    6,
+    13,
+    20
+   ],
+   "targets": [
+    247,
+    253,
+    254,
+    267,
+    280,
+    286,
+    293,
+    520,
+    526,
+    532,
+    533,
+    539,
+    546
+   ],
+   "limit": 820,
+   "bfs": true,
+   "generic": [
+    3,
+    9
+   ],
+   "star": [
+    3,
+    9,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_35",
+   "kind": "planted",
+   "seeds": [
+    13,
+    16,
+    20
+   ],
+   "targets": [
+    300,
+    304,
+    307,
+    313,
+    323,
+    340,
+    349,
+    356,
+    640,
+    656,
+    666,
+    672
+   ],
+   "limit": 1000,
+   "bfs": true,
+   "generic": [
+    13,
+    342
+   ],
+   "star": [
+    13,
+    31,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_36",
+   "kind": "planted",
+   "seeds": [
+    4,
+    6,
+    12
+   ],
+   "targets": [
+    60,
+    64,
+    66,
+    74,
+    80,
+    84,
+    88,
+    154
+   ],
+   "limit": 256,
+   "bfs": true,
+   "generic": [
+    3,
+    3
+   ],
+   "star": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_37",
+   "kind": "planted",
+   "seeds": [
+    7,
+    10,
+    21
+   ],
+   "targets": [
+    196,
+    199,
+    200,
+    207,
+    213,
+    230,
+    231,
+    241,
+    420,
+    427,
+    434,
+    437
+   ],
+   "limit": 670,
+   "bfs": true,
+   "generic": [
+    3,
+    12
+   ],
+   "star": [
+    3,
+    12,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_38",
+   "kind": "planted",
+   "seeds": [
+    6,
+    7,
+    13
+   ],
+   "targets": [
+    84,
+    92,
+    103,
+    104,
+    105,
+    110,
+    111,
+    182,
+    188,
+    189,
+    194,
+    195,
+    196
+   ],
+   "limit": 313,
+   "bfs": true,
+   "generic": [
+    3,
+    4
+   ],
+   "star": [
+    3,
+    4,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_39",
+   "kind": "planted",
+   "seeds": [
+    3,
+    16,
+    19
+   ],
+   "targets": [
+    288,
+    291,
+    301,
+    326,
+    336,
+    611,
+    614,
+    624,
+    627
+   ],
+   "limit": 952,
+   "bfs": true,
+   "generic": [
+    5,
+    61
+   ],
+   "star": [
+    5,
+    61,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_40",
+   "kind": "planted",
+   "seeds": [
+    8,
+    13,
+    20
+   ],
+   "targets": [
+    240,
+    247,
+    252,
+    253,
+    265,
+    280,
+    288,
+    533,
+    546
+   ],
+   "limit": 820,
+   "bfs": true,
+   "generic": [
+    3,
+    25
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_41",
+   "kind": "planted",
+   "seeds": [
+    11,
+    13,
+    17
+   ],
+   "targets": [
+    208,
+    210,
+    215,
+    238,
+    243,
+    245,
+    249,
+    453,
+    468
+   ],
+   "limit": 703,
+   "bfs": true,
+   "generic": [
+    21,
+    410
+   ],
+   "star": [
+    21,
+    21,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_42",
+   "kind": "planted",
+   "seeds": [
+    9,
+    13,
+    16
+   ],
+   "targets": [
+    192,
+    195,
+    201,
+    205,
+    212,
+    224,
+    226,
+    234,
+    237,
+    425,
+    429,
+    438,
+    442
+   ],
+   "limit": 664,
+   "bfs": true,
+   "generic": [
+    3,
+    21
+   ],
+   "star": [
+    3,
+    21,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_43",
+   "kind": "planted",
+   "seeds": [
+    7,
+    8,
+    10
+   ],
+   "targets": [
+    70,
+    72,
+    73,
+    78,
+    79,
+    81,
+    90,
+    94,
+    95,
+    96,
+    97,
+    174,
+    176
+   ],
+   "limit": 280,
+   "bfs": true,
+   "generic": [
+    3,
+    5
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_44",
+   "kind": "planted",
+   "seeds": [
+    10,
+    13,
+    21
+   ],
+   "targets": [
+    260,
+    262,
+    263,
+    265,
+    270,
+    276,
+    294,
+    546,
+    556,
+    566
+   ],
+   "limit": 859,
+   "bfs": true,
+   "generic": [
+    3,
+    11
+   ],
+   "star": [
+    3,
+    11,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_45",
+   "kind": "planted",
+   "seeds": [
+    3,
+    8,
+    19
+   ],
+   "targets": [
+    133,
+    136,
+    144,
+    147,
+    157,
+    168,
+    171,
+    174,
+    304,
+    307,
+    310,
+    320,
+    480
+   ],
+   "limit": 496,
+   "bfs": true,
+   "generic": [
+    19,
+    518
+   ],
+   "star": [
+    19,
+    26,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_46",
+   "kind": "planted",
+   "seeds": [
+    15,
+    18,
+    20
+   ],
+   "targets": [
+    340,
+    355,
+    357,
+    363,
+    380,
+    390,
+    393,
+    396,
+    398,
+    753
+   ],
+   "limit": 1120,
+   "bfs": true,
+   "generic": [
+    4,
+    49
+   ],
+   "star": [
+    4,
+    32,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_47",
+   "kind": "planted",
+   "seeds": [
+    9,
+    11,
+    12
+   ],
+   "targets": [
+    120,
+    121,
+    123,
+    129,
+    130,
+    131,
+    144,
+    153,
+    273,
+    275,
+    282,
+    284,
+    286
+   ],
+   "limit": 436,
+   "bfs": true,
+   "generic": [
+    2,
+    0
+   ],
+   "star": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_48",
+   "kind": "planted",
+   "seeds": [
+    10,
+    19,
+    20
+   ],
+   "targets": [
+    360,
+    361,
+    370,
+    371,
+    379,
+    389,
+    418,
+    789
+   ],
+   "limit": 1180,
+   "bfs": true,
+   "generic": [
+    3,
+    11
+   ],
+   "star": [
+    3,
+    11,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_49",
+   "kind": "planted",
+   "seeds": [
+    9,
+    11,
+    21
+   ],
+   "targets": [
+    210,
+    220,
+    221,
+    222,
+    229,
+    233,
+    251,
+    253,
+    261,
+    473,
+    482
+   ],
+   "limit": 733,
+   "bfs": true,
+   "generic": [
+    3,
+    10
+   ],
+   "star": [
+    3,
+    10,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_50",
+   "kind": "planted",
+   "seeds": [
+    12,
+    13,
+    20
+   ],
+   "targets": [
+    252,
+    253,
+    261,
+    285,
+    293,
+    520,
+    532,
+    533,
+    544,
+    546
+   ],
+   "limit": 820,
+   "bfs": true,
+   "generic": [
+    4,
+    48
+   ],
+   "star": [
+    4,
+    48,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_51",
+   "kind": "planted",
+   "seeds": [
+    12,
+    17,
+    19
+   ],
+   "targets": [
+    318,
+    347,
+    352,
+    357,
+    646,
+    658,
+    670,
+    675,
+    680
+   ],
+   "limit": 1009,
+   "bfs": true,
+   "generic": [
+    3,
+    25
+   ],
+   "star": [
+    3,
+    4,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_52",
+   "kind": "planted",
+   "seeds": [
+    4,
+    10,
+    19
+   ],
+   "targets": [
+    171,
+    180,
+    184,
+    186,
+    196,
+    209,
+    210,
+    213,
+    384,
+    394,
+    400
+   ],
+   "limit": 610,
+   "bfs": true,
+   "generic": [
+    3,
+    21
+   ],
+   "star": [
+    3,
+    6,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_53",
+   "kind": "planted",
+   "seeds": [
+    8,
+    12,
+    20
+   ],
+   "targets": [
+    220,
+    228,
+    232,
+    244,
+    256,
+    260,
+    272,
+    488,
+    496,
+    500
+   ],
+   "limit": 760,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_54",
+   "kind": "planted",
+   "seeds": [
+    10,
+    12,
+    14
+   ],
+   "targets": [
+    164,
+    170,
+    182,
+    188,
+    190,
+    192,
+    194,
+    336,
+    346,
+    356,
+    358,
+    360
+   ],
+   "limit": 544,
+   "bfs": true,
+   "generic": [
+    3,
+    9
+   ],
+   "star": [
+    3,
+    9,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_55",
+   "kind": "planted",
+   "seeds": [
+    5,
+    8,
+    14
+   ],
+   "targets": [
+    98,
+    104,
+    106,
+    107,
+    109,
+    122,
+    125,
+    128,
+    224,
+    232,
+    237,
+    240
+   ],
+   "limit": 376,
+   "bfs": true,
+   "generic": [
+    3,
+    10
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_56",
+   "kind": "planted",
+   "seeds": [
+    4,
+    8,
+    21
+   ],
+   "targets": [
+    147,
+    151,
+    155,
+    160,
+    164,
+    184,
+    189,
+    193,
+    197,
+    340,
+    348
+   ],
+   "limit": 544,
+   "bfs": true,
+   "generic": [
+    3,
+    21
+   ],
+   "star": [
+    3,
+    21,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_57",
+   "kind": "planted",
+   "seeds": [
+    3,
+    10,
+    16
+   ],
+   "targets": [
+    144,
+    154,
+    157,
+    166,
+    186,
+    320,
+    326,
+    510
+   ],
+   "limit": 520,
+   "bfs": true,
+   "generic": [
+    7,
+    145
+   ],
+   "star": [
+    7,
+    1,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_58",
+   "kind": "planted",
+   "seeds": [
+    8,
+    12,
+    14
+   ],
+   "targets": [
+    154,
+    162,
+    164,
+    166,
+    182,
+    188,
+    192,
+    336,
+    344,
+    352,
+    356,
+    360
+   ],
+   "limit": 544,
+   "bfs": true,
+   "generic": [
+    3,
+    13
+   ],
+   "star": [
+    3,
+    13,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_59",
+   "kind": "planted",
+   "seeds": [
+    5,
+    12,
+    13
+   ],
+   "targets": [
+    143,
+    163,
+    169,
+    173,
+    180,
+    312,
+    324,
+    336
+   ],
+   "limit": 508,
+   "bfs": true,
+   "generic": [
+    3,
+    22
+   ],
+   "star": [
+    3,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_60",
+   "kind": "planted",
+   "seeds": [
+    7,
+    12,
+    21
+   ],
+   "targets": [
+    238,
+    243,
+    245,
+    247,
+    266,
+    271,
+    273,
+    276,
+    285,
+    511,
+    518,
+    523,
+    528
+   ],
+   "limit": 796,
+   "bfs": true,
+   "generic": [
+    3,
+    9
+   ],
+   "star": [
+    3,
+    9,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_61",
+   "kind": "planted",
+   "seeds": [
+    5,
+    6,
+    19
+   ],
+   "targets": [
+    109,
+    124,
+    125,
+    126,
+    133,
+    228,
+    233,
+    234,
+    238,
+    239
+   ],
+   "limit": 382,
+   "bfs": true,
+   "generic": [
+    3,
+    20
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_62",
+   "kind": "planted",
+   "seeds": [
+    3,
+    15,
+    16
+   ],
+   "targets": [
+    227,
+    228,
+    246,
+    258,
+    259,
+    270,
+    271,
+    480,
+    495
+   ],
+   "limit": 760,
+   "bfs": true,
+   "generic": [
+    49,
+    1043
+   ],
+   "star": [
+    49,
+    240,
+    1,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_63",
+   "kind": "planted",
+   "seeds": [
+    3,
+    7,
+    15
+   ],
+   "targets": [
+    93,
+    98,
+    101,
+    119,
+    120,
+    210,
+    216,
+    217,
+    315,
+    324,
+    336
+   ],
+   "limit": 355,
+   "bfs": true,
+   "generic": [
+    7,
+    84
+   ],
+   "star": [
+    7,
+    15,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_64",
+   "kind": "planted",
+   "seeds": [
+    5,
+    8,
+    9
+   ],
+   "targets": [
+    64,
+    69,
+    71,
+    75,
+    81,
+    82,
+    86,
+    88,
+    144,
+    149,
+    154,
+    157
+   ],
+   "limit": 256,
+   "bfs": true,
+   "generic": [
+    2,
+    0
+   ],
+   "star": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_65",
+   "kind": "planted",
+   "seeds": [
+    8,
+    12,
+    17
+   ],
+   "targets": [
+    187,
+    196,
+    199,
+    228,
+    408,
+    420,
+    424,
+    428,
+    432
+   ],
+   "limit": 652,
+   "bfs": true,
+   "generic": [
+    3,
+    24
+   ],
+   "star": [
+    3,
+    24,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_66",
+   "kind": "planted",
+   "seeds": [
+    4,
+    16,
+    17
+   ],
+   "targets": [
+    255,
+    260,
+    280,
+    289,
+    304,
+    305,
+    560,
+    564
+   ],
+   "limit": 856,
+   "bfs": true,
+   "generic": [
+    3,
+    8
+   ],
+   "star": [
+    3,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_67",
+   "kind": "planted",
+   "seeds": [
+    4,
+    6,
+    17
+   ],
+   "targets": [
+    85,
+    96,
+    98,
+    100,
+    104,
+    110,
+    114,
+    119,
+    123,
+    125,
+    204,
+    208,
+    216
+   ],
+   "limit": 346,
+   "bfs": true,
+   "generic": [
+    3,
+    19
+   ],
+   "star": [
+    3,
+    4,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_68",
+   "kind": "planted",
+   "seeds": [
+    13,
+    18,
+    21
+   ],
+   "targets": [
+    360,
+    370,
+    375,
+    383,
+    399,
+    404,
+    414,
+    756,
+    769,
+    774,
+    782,
+    792
+   ],
+   "limit": 1174,
+   "bfs": true,
+   "generic": [
+    3,
+    26
+   ],
+   "star": [
+    3,
+    26,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_69",
+   "kind": "planted",
+   "seeds": [
+    5,
+    15,
+    20
+   ],
+   "targets": [
+    280,
+    290,
+    295,
+    310,
+    320,
+    325,
+    335,
+    600,
+    605,
+    610,
+    615,
+    620
+   ],
+   "limit": 940,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_70",
+   "kind": "planted",
+   "seeds": [
+    8,
+    15,
+    17
+   ],
+   "targets": [
+    240,
+    246,
+    253,
+    262,
+    271,
+    272,
+    278,
+    285,
+    287,
+    510,
+    518,
+    525,
+    540
+   ],
+   "limit": 805,
+   "bfs": true,
+   "generic": [
+    3,
+    9
+   ],
+   "star": [
+    3,
+    9,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_71",
+   "kind": "planted",
+   "seeds": [
+    12,
+    14,
+    17
+   ],
+   "targets": [
+    221,
+    226,
+    233,
+    236,
+    255,
+    264,
+    267,
+    269,
+    488,
+    502
+   ],
+   "limit": 754,
+   "bfs": true,
+   "generic": [
+    3,
+    23
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_72",
+   "kind": "planted",
+   "seeds": [
+    10,
+    14,
+    16
+   ],
+   "targets": [
+    208,
+    210,
+    218,
+    220,
+    244,
+    250,
+    252,
+    254,
+    448,
+    458,
+    462,
+    468,
+    472
+   ],
+   "limit": 712,
+   "bfs": true,
+   "generic": [
+    3,
+    24
+   ],
+   "star": [
+    3,
+    24,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_73",
+   "kind": "planted",
+   "seeds": [
+    5,
+    16,
+    20
+   ],
+   "targets": [
+    304,
+    305,
+    309,
+    316,
+    330,
+    340,
+    341,
+    345,
+    352,
+    640,
+    656,
+    672
+   ],
+   "limit": 1000,
+   "bfs": true,
+   "generic": [
+    6,
+    87
+   ],
+   "star": [
+    6,
+    39,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_74",
+   "kind": "planted",
+   "seeds": [
+    3,
+    5,
+    6
+   ],
+   "targets": [
+    24,
+    25,
+    27,
+    28,
+    29,
+    32,
+    36,
+    60,
+    66,
+    68,
+    99,
+    105
+   ],
+   "limit": 130,
+   "bfs": true,
+   "generic": [
+    3,
+    14
+   ],
+   "star": [
+    3,
+    14,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_75",
+   "kind": "planted",
+   "seeds": [
+    4,
+    10,
+    21
+   ],
+   "targets": [
+    199,
+    206,
+    218,
+    224,
+    230,
+    231,
+    235,
+    430,
+    434
+   ],
+   "limit": 670,
+   "bfs": true,
+   "generic": [
+    6,
+    91
+   ],
+   "star": [
+    6,
+    33,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_76",
+   "kind": "planted",
+   "seeds": [
+    10,
+    18,
+    19
+   ],
+   "targets": [
+    323,
+    324,
+    334,
+    350,
+    361,
+    371,
+    378,
+    379,
+    684,
+    702,
+    712,
+    720
+   ],
+   "limit": 1066,
+   "bfs": true,
+   "generic": [
+    1,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_77",
+   "kind": "planted",
+   "seeds": [
+    9,
+    18,
+    20
+   ],
+   "targets": [
+    340,
+    349,
+    351,
+    358,
+    380,
+    387,
+    389,
+    396,
+    398,
+    720,
+    729,
+    738,
+    747
+   ],
+   "limit": 1120,
+   "bfs": true,
+   "generic": [
+    3,
+    11
+   ],
+   "star": [
+    3,
+    11,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_78",
+   "kind": "planted",
+   "seeds": [
+    11,
+    14,
+    21
+   ],
+   "targets": [
+    273,
+    280,
+    283,
+    284,
+    297,
+    316,
+    322,
+    326,
+    329,
+    588,
+    599,
+    602,
+    616
+   ],
+   "limit": 922,
+   "bfs": true,
+   "generic": [
+    3,
+    23
+   ],
+   "star": [
+    3,
+    23,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_79",
+   "kind": "planted",
+   "seeds": [
+    4,
+    8,
+    13
+   ],
+   "targets": [
+    91,
+    95,
+    99,
+    116,
+    117,
+    125,
+    208,
+    216,
+    224
+   ],
+   "limit": 352,
+   "bfs": true,
+   "generic": [
+    3,
+    18
+   ],
+   "star": [
+    3,
+    18,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_80",
+   "kind": "planted",
+   "seeds": [
+    7,
+    11,
+    18
+   ],
+   "targets": [
+    180,
+    187,
+    191,
+    194,
+    202,
+    220,
+    227,
+    396,
+    403,
+    407,
+    410
+   ],
+   "limit": 634,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_81",
+   "kind": "planted",
+   "seeds": [
+    10,
+    11,
+    17
+   ],
+   "targets": [
+    180,
+    181,
+    186,
+    204,
+    207,
+    374,
+    384,
+    396
+   ],
+   "limit": 601,
+   "bfs": true,
+   "generic": [
+    31,
+    887
+   ],
+   "star": [
+    31,
+    61,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_82",
+   "kind": "planted",
+   "seeds": [
+    15,
+    18,
+    20
+   ],
+   "targets": [
+    342,
+    345,
+    355,
+    380,
+    393,
+    396,
+    398,
+    720,
+    738,
+    750,
+    756
+   ],
+   "limit": 1120,
+   "bfs": true,
+   "generic": [
+    21,
+    461
+   ],
+   "star": [
+    21,
+    23,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_83",
+   "kind": "planted",
+   "seeds": [
+    12,
+    14,
+    21
+   ],
+   "targets": [
+    273,
+    282,
+    285,
+    287,
+    296,
+    322,
+    327,
+    329,
+    588,
+    600,
+    614,
+    616
+   ],
+   "limit": 922,
+   "bfs": true,
+   "generic": [
+    3,
+    25
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_84",
+   "kind": "planted",
+   "seeds": [
+    6,
+    16,
+    18
+   ],
+   "targets": [
+    270,
+    282,
+    298,
+    306,
+    582,
+    588,
+    592,
+    608
+   ],
+   "limit": 904,
+   "bfs": true,
+   "generic": [
+    7,
+    121
+   ],
+   "star": [
+    7,
+    21,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_85",
+   "kind": "planted",
+   "seeds": [
+    4,
+    13,
+    15
+   ],
+   "targets": [
+    180,
+    182,
+    184,
+    191,
+    204,
+    210,
+    212,
+    214,
+    221,
+    223,
+    390,
+    394,
+    403
+   ],
+   "limit": 625,
+   "bfs": true,
+   "generic": [
+    3,
+    8
+   ],
+   "star": [
+    3,
+    8,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_86",
+   "kind": "planted",
+   "seeds": [
+    6,
+    14,
+    16
+   ],
+   "targets": [
+    210,
+    214,
+    218,
+    236,
+    240,
+    244,
+    246,
+    252,
+    448,
+    454,
+    460,
+    476
+   ],
+   "limit": 712,
+   "bfs": true,
+   "generic": [
+    3,
+    9
+   ],
+   "star": [
+    3,
+    9,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_87",
+   "kind": "planted",
+   "seeds": [
+    3,
+    9,
+    21
+   ],
+   "targets": [
+    171,
+    183,
+    195,
+    201,
+    210,
+    213,
+    381,
+    384,
+    390,
+    396,
+    594
+   ],
+   "limit": 607,
+   "bfs": true,
+   "generic": [
+    3,
+    20
+   ],
+   "star": [
+    3,
+    20,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_88",
+   "kind": "planted",
+   "seeds": [
+    13,
+    15,
+    16
+   ],
+   "targets": [
+    225,
+    227,
+    242,
+    268,
+    269,
+    270,
+    495,
+    506
+   ],
+   "limit": 760,
+   "bfs": true,
+   "generic": [
+    9,
+    231
+   ],
+   "star": [
+    9,
+    12,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_89",
+   "kind": "planted",
+   "seeds": [
+    3,
+    6,
+    10
+   ],
+   "targets": [
+    50,
+    53,
+    54,
+    56,
+    57,
+    69,
+    72,
+    73,
+    76,
+    120,
+    132
+   ],
+   "limit": 220,
+   "bfs": true,
+   "generic": [
+    3,
+    7
+   ],
+   "star": [
+    3,
+    1,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_90",
+   "kind": "planted",
+   "seeds": [
+    3,
+    6,
+    17
+   ],
+   "targets": [
+    88,
+    122,
+    125,
+    204,
+    210,
+    213,
+    216,
+    315,
+    324
+   ],
+   "limit": 346,
+   "bfs": true,
+   "generic": [
+    18,
+    364
+   ],
+   "star": [
+    18,
+    47,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_91",
+   "kind": "planted",
+   "seeds": [
+    8,
+    12,
+    21
+   ],
+   "targets": [
+    231,
+    239,
+    243,
+    256,
+    272,
+    281,
+    285,
+    512
+   ],
+   "limit": 796,
+   "bfs": true,
+   "generic": [
+    7,
+    142
+   ],
+   "star": [
+    7,
+    23,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_92",
+   "kind": "planted",
+   "seeds": [
+    15,
+    20,
+    21
+   ],
+   "targets": [
+    400,
+    405,
+    414,
+    441,
+    450,
+    460,
+    461,
+    840
+   ],
+   "limit": 1300,
+   "bfs": true,
+   "generic": [
+    11,
+    549
+   ],
+   "star": [
+    11,
+    53,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_93",
+   "kind": "planted",
+   "seeds": [
+    5,
+    6,
+    20
+   ],
+   "targets": [
+    115,
+    119,
+    121,
+    132,
+    145,
+    245,
+    246,
+    250
+   ],
+   "limit": 400,
+   "bfs": true,
+   "generic": [
+    26,
+    463
+   ],
+   "star": [
+    26,
+    72,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_94",
+   "kind": "planted",
+   "seeds": [
+    8,
+    15,
+    20
+   ],
+   "targets": [
+    280,
+    285,
+    292,
+    293,
+    316,
+    320,
+    600,
+    608,
+    615,
+    616,
+    623,
+    630
+   ],
+   "limit": 940,
+   "bfs": true,
+   "generic": [
+    3,
+    26
+   ],
+   "star": [
+    3,
+    26,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_95",
+   "kind": "planted",
+   "seeds": [
+    11,
+    14,
+    18
+   ],
+   "targets": [
+    241,
+    248,
+    249,
+    274,
+    277,
+    280,
+    281,
+    284,
+    504,
+    526,
+    529,
+    532
+   ],
+   "limit": 796,
+   "bfs": true,
+   "generic": [
+    23,
+    428
+   ],
+   "star": [
+    23,
+    65,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_96",
+   "kind": "planted",
+   "seeds": [
+    7,
+    10,
+    11
+   ],
+   "targets": [
+    106,
+    107,
+    109,
+    113,
+    121,
+    128,
+    220,
+    230,
+    237,
+    240
+   ],
+   "limit": 370,
+   "bfs": true,
+   "generic": [
+    3,
+    5
+   ],
+   "star": [
+    3,
+    5,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_97",
+   "kind": "planted",
+   "seeds": [
+    6,
+    9,
+    17
+   ],
+   "targets": [
+    136,
+    142,
+    145,
+    147,
+    150,
+    168,
+    170,
+    176,
+    312,
+    315,
+    318
+   ],
+   "limit": 499,
+   "bfs": true,
+   "generic": [
+    3,
+    20
+   ],
+   "star": [
+    3,
+    20,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_98",
+   "kind": "planted",
+   "seeds": [
+    11,
+    13,
+    14
+   ],
+   "targets": [
+    168,
+    179,
+    180,
+    184,
+    204,
+    207,
+    208,
+    209,
+    364,
+    375,
+    377,
+    388
+   ],
+   "limit": 586,
+   "bfs": true,
+   "generic": [
+    3,
+    19
+   ],
+   "star": [
+    3,
+    19,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "known_99",
+   "kind": "planted",
+   "seeds": [
+    8,
+    11,
+    18
+   ],
+   "targets": [
+    187,
+    190,
+    191,
+    195,
+    201,
+    214,
+    216,
+    220,
+    224,
+    396,
+    407,
+    412,
+    418
+   ],
+   "limit": 634,
+   "bfs": true,
+   "generic": [
+    3,
+    21
+   ],
+   "star": [
+    3,
+    3,
+    0,
+    0
+   ],
+   "decision": "FOUND"
+  },
+  {
+   "id": "spaced_0",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    8
+   ],
+   "targets": [
+    864,
+    910,
+    979,
+    1005,
+    1031,
+    1080,
+    1146,
+    1197,
+    1223,
+    1271,
+    1321,
+    1416
+   ],
+   "limit": 1557,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_1",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    1141,
+    1169,
+    1193,
+    1286,
+    1410,
+    1549,
+    1578,
+    1646,
+    1764,
+    1886,
+    1984,
+    2033
+   ],
+   "limit": 2071,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_2",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    1352,
+    1370,
+    1514,
+    1639,
+    1807,
+    1830,
+    2095,
+    2189,
+    2210,
+    2240,
+    2329,
+    2454
+   ],
+   "limit": 2530,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_3",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    938,
+    1053,
+    1077,
+    1150,
+    1200,
+    1222,
+    1340,
+    1436,
+    1460,
+    1533,
+    1582,
+    1658
+   ],
+   "limit": 1705,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_4",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    921,
+    998,
+    1192,
+    1263,
+    1354,
+    1432,
+    1450,
+    1477,
+    1503,
+    1525,
+    1593,
+    1691
+   ],
+   "limit": 1730,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_5",
+   "kind": "spaced",
+   "seeds": [
+    8,
+    9
+   ],
+   "targets": [
+    1086,
+    1158,
+    1182,
+    1207,
+    1229,
+    1421,
+    1495,
+    1570,
+    1592,
+    1733,
+    1762,
+    1904
+   ],
+   "limit": 2102,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_6",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    1078,
+    1121,
+    1265,
+    1360,
+    1556,
+    1629,
+    1677,
+    1727,
+    1751,
+    1822,
+    1843,
+    1871
+   ],
+   "limit": 1985,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_7",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    993,
+    1022,
+    1141,
+    1164,
+    1259,
+    1477,
+    1499,
+    1616,
+    1640,
+    1688,
+    1717,
+    1838
+   ],
+   "limit": 1921,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_8",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    1449,
+    1519,
+    1548,
+    1665,
+    1829,
+    2045,
+    2124,
+    2144,
+    2216,
+    2315,
+    2334,
+    2361
+   ],
+   "limit": 2586,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_9",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    1219,
+    1268,
+    1286,
+    1412,
+    1503,
+    1745,
+    1793,
+    1869,
+    1886,
+    1913,
+    2012,
+    2127
+   ],
+   "limit": 2269,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_10",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    920,
+    971,
+    995,
+    1022,
+    1112,
+    1163,
+    1284,
+    1307,
+    1332,
+    1475,
+    1523,
+    1592
+   ],
+   "limit": 1630,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_11",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    9
+   ],
+   "targets": [
+    942,
+    967,
+    991,
+    1016,
+    1140,
+    1305,
+    1356,
+    1493,
+    1663,
+    1686,
+    1710,
+    1739
+   ],
+   "limit": 1771,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_12",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    922,
+    1069,
+    1142,
+    1183,
+    1209,
+    1258,
+    1375,
+    1426,
+    1522,
+    1549,
+    1598,
+    1645
+   ],
+   "limit": 1727,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_13",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    835,
+    858,
+    882,
+    933,
+    981,
+    1025,
+    1124,
+    1218,
+    1414,
+    1439,
+    1488,
+    1581
+   ],
+   "limit": 1603,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_14",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    896,
+    985,
+    1014,
+    1129,
+    1157,
+    1274,
+    1322,
+    1351,
+    1376,
+    1395,
+    1542,
+    1661
+   ],
+   "limit": 1714,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_15",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    8
+   ],
+   "targets": [
+    1194,
+    1485,
+    1558,
+    1602,
+    1822,
+    1943,
+    1986,
+    2034,
+    2108,
+    2134,
+    2203,
+    2253
+   ],
+   "limit": 2274,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_16",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    9
+   ],
+   "targets": [
+    1139,
+    1158,
+    1204,
+    1283,
+    1373,
+    1424,
+    1615,
+    1643,
+    1715,
+    1736,
+    1784,
+    1926
+   ],
+   "limit": 2201,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_17",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    1074,
+    1126,
+    1412,
+    1507,
+    1556,
+    1656,
+    1676,
+    1774,
+    1820,
+    1870,
+    1892,
+    2058
+   ],
+   "limit": 2083,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_18",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    885,
+    904,
+    931,
+    980,
+    1004,
+    1098,
+    1150,
+    1194,
+    1290,
+    1361,
+    1410,
+    1463
+   ],
+   "limit": 1600,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_19",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    8
+   ],
+   "targets": [
+    1279,
+    1330,
+    1473,
+    1545,
+    1734,
+    1949,
+    2001,
+    2051,
+    2072,
+    2146,
+    2214,
+    2309
+   ],
+   "limit": 2392,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_20",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    873,
+    895,
+    919,
+    1014,
+    1086,
+    1113,
+    1235,
+    1301,
+    1354,
+    1473,
+    1495,
+    1588
+   ],
+   "limit": 1672,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_21",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    1134,
+    1247,
+    1347,
+    1467,
+    1541,
+    1566,
+    1635,
+    1680,
+    1703,
+    1801,
+    1829,
+    1922
+   ],
+   "limit": 2047,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_22",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    5
+   ],
+   "targets": [
+    1059,
+    1088,
+    1210,
+    1229,
+    1299,
+    1326,
+    1371,
+    1515,
+    1592,
+    1785,
+    1810,
+    1928
+   ],
+   "limit": 2055,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_23",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    911,
+    981,
+    1029,
+    1106,
+    1154,
+    1173,
+    1199,
+    1341,
+    1441,
+    1462,
+    1555,
+    1633
+   ],
+   "limit": 1751,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_24",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    5
+   ],
+   "targets": [
+    1280,
+    1448,
+    1472,
+    1541,
+    1641,
+    1734,
+    1780,
+    1809,
+    1827,
+    2070,
+    2163,
+    2239
+   ],
+   "limit": 2342,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_25",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    9
+   ],
+   "targets": [
+    1219,
+    1291,
+    1437,
+    1479,
+    1502,
+    1698,
+    1985,
+    2107,
+    2133,
+    2155,
+    2180,
+    2299
+   ],
+   "limit": 2316,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_26",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    1290,
+    1340,
+    1506,
+    1626,
+    1677,
+    1750,
+    1791,
+    1841,
+    1960,
+    2037,
+    2060,
+    2103
+   ],
+   "limit": 2126,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_27",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    1176,
+    1197,
+    1222,
+    1269,
+    1488,
+    1513,
+    1535,
+    1725,
+    1772,
+    1795,
+    2012,
+    2108
+   ],
+   "limit": 2279,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_28",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    9
+   ],
+   "targets": [
+    1220,
+    1388,
+    1486,
+    1816,
+    1841,
+    1890,
+    1916,
+    2084,
+    2109,
+    2154,
+    2271,
+    2343
+   ],
+   "limit": 2367,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_29",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    9
+   ],
+   "targets": [
+    957,
+    1027,
+    1149,
+    1172,
+    1239,
+    1363,
+    1413,
+    1434,
+    1457,
+    1485,
+    1653,
+    1768
+   ],
+   "limit": 1789,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_30",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    6
+   ],
+   "targets": [
+    1020,
+    1070,
+    1097,
+    1169,
+    1190,
+    1211,
+    1264,
+    1286,
+    1522,
+    1669,
+    1693,
+    1715
+   ],
+   "limit": 1877,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_31",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    8
+   ],
+   "targets": [
+    934,
+    985,
+    1129,
+    1195,
+    1221,
+    1315,
+    1340,
+    1368,
+    1394,
+    1464,
+    1534,
+    1631
+   ],
+   "limit": 1654,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_32",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    1310,
+    1506,
+    1605,
+    1770,
+    1794,
+    2011,
+    2132,
+    2151,
+    2222,
+    2294,
+    2322,
+    2397
+   ],
+   "limit": 2460,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_33",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    974,
+    1065,
+    1140,
+    1162,
+    1233,
+    1264,
+    1308,
+    1357,
+    1429,
+    1668,
+    1720,
+    1836
+   ],
+   "limit": 1875,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_34",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    3
+   ],
+   "targets": [
+    1015,
+    1034,
+    1087,
+    1106,
+    1202,
+    1278,
+    1421,
+    1497,
+    1540,
+    1683,
+    1828,
+    1852
+   ],
+   "limit": 1957,
+   "bfs": false,
+   "generic": [
+    6,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_35",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    8
+   ],
+   "targets": [
+    1227,
+    1369,
+    1400,
+    1518,
+    1543,
+    1635,
+    1659,
+    1781,
+    1828,
+    1976,
+    2041,
+    2091
+   ],
+   "limit": 2338,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_36",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    958,
+    1029,
+    1054,
+    1173,
+    1198,
+    1221,
+    1272,
+    1297,
+    1341,
+    1370,
+    1559,
+    1585
+   ],
+   "limit": 1654,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_37",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    7
+   ],
+   "targets": [
+    1204,
+    1345,
+    1515,
+    1660,
+    1735,
+    1827,
+    1849,
+    2092,
+    2114,
+    2144,
+    2209,
+    2260
+   ],
+   "limit": 2338,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_38",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    1337,
+    1383,
+    1554,
+    1843,
+    1865,
+    1913,
+    1938,
+    2059,
+    2079,
+    2178,
+    2297,
+    2467
+   ],
+   "limit": 2552,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_39",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    9
+   ],
+   "targets": [
+    1203,
+    1510,
+    1561,
+    1676,
+    1727,
+    1798,
+    1946,
+    1965,
+    2066,
+    2087,
+    2114,
+    2206
+   ],
+   "limit": 2232,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_40",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    8
+   ],
+   "targets": [
+    1071,
+    1123,
+    1146,
+    1168,
+    1215,
+    1286,
+    1314,
+    1432,
+    1479,
+    1621,
+    1647,
+    1718
+   ],
+   "limit": 1928,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_41",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    782,
+    811,
+    977,
+    1148,
+    1191,
+    1264,
+    1293,
+    1310,
+    1386,
+    1410,
+    1432,
+    1455
+   ],
+   "limit": 1501,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_42",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    1181,
+    1303,
+    1394,
+    1705,
+    1753,
+    1804,
+    1879,
+    1902,
+    1972,
+    2095,
+    2187,
+    2236
+   ],
+   "limit": 2291,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_43",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    1153,
+    1199,
+    1268,
+    1460,
+    1484,
+    1536,
+    1581,
+    1677,
+    1795,
+    1820,
+    1894,
+    2083
+   ],
+   "limit": 2182,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_44",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    4
+   ],
+   "targets": [
+    1165,
+    1191,
+    1315,
+    1384,
+    1551,
+    1576,
+    1624,
+    1796,
+    1819,
+    1841,
+    1888,
+    1937
+   ],
+   "limit": 1979,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_45",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    908,
+    1123,
+    1176,
+    1196,
+    1225,
+    1249,
+    1271,
+    1322,
+    1390,
+    1414,
+    1534,
+    1581
+   ],
+   "limit": 1654,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_46",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    1237,
+    1265,
+    1333,
+    1499,
+    1526,
+    1691,
+    1788,
+    1906,
+    1954,
+    2051,
+    2177,
+    2244
+   ],
+   "limit": 2357,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_47",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    1121,
+    1455,
+    1506,
+    1532,
+    1626,
+    1650,
+    1671,
+    1766,
+    1820,
+    1866,
+    1958,
+    1983
+   ],
+   "limit": 2028,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_48",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    5
+   ],
+   "targets": [
+    1160,
+    1186,
+    1303,
+    1571,
+    1710,
+    1762,
+    1780,
+    1808,
+    1900,
+    1930,
+    1952,
+    2027
+   ],
+   "limit": 2153,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_49",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    5
+   ],
+   "targets": [
+    899,
+    974,
+    1025,
+    1072,
+    1092,
+    1236,
+    1332,
+    1354,
+    1405,
+    1478,
+    1527,
+    1670
+   ],
+   "limit": 1732,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_50",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    1259,
+    1520,
+    1546,
+    1640,
+    1785,
+    1811,
+    1832,
+    1878,
+    1978,
+    1999,
+    2216,
+    2240
+   ],
+   "limit": 2443,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_51",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    7
+   ],
+   "targets": [
+    959,
+    1170,
+    1217,
+    1269,
+    1342,
+    1391,
+    1415,
+    1487,
+    1510,
+    1604,
+    1626,
+    1678
+   ],
+   "limit": 1746,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_52",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    1120,
+    1262,
+    1412,
+    1480,
+    1532,
+    1605,
+    1720,
+    1793,
+    1867,
+    1913,
+    1982,
+    2059
+   ],
+   "limit": 2173,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_53",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    1061,
+    1132,
+    1178,
+    1256,
+    1397,
+    1448,
+    1473,
+    1639,
+    1709,
+    1737,
+    1808,
+    1947
+   ],
+   "limit": 2004,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_54",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    8
+   ],
+   "targets": [
+    1185,
+    1205,
+    1252,
+    1353,
+    1401,
+    1563,
+    1663,
+    1781,
+    1876,
+    1953,
+    2097,
+    2261
+   ],
+   "limit": 2292,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_55",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    9
+   ],
+   "targets": [
+    832,
+    928,
+    954,
+    981,
+    1029,
+    1125,
+    1169,
+    1194,
+    1341,
+    1459,
+    1508,
+    1580
+   ],
+   "limit": 1597,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_56",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    9
+   ],
+   "targets": [
+    1027,
+    1096,
+    1145,
+    1168,
+    1290,
+    1338,
+    1389,
+    1407,
+    1503,
+    1531,
+    1821,
+    1864
+   ],
+   "limit": 1982,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_57",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    987,
+    1063,
+    1205,
+    1279,
+    1350,
+    1393,
+    1470,
+    1513,
+    1610,
+    1754,
+    1779,
+    1808
+   ],
+   "limit": 1859,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_58",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    4
+   ],
+   "targets": [
+    1271,
+    1346,
+    1396,
+    1415,
+    1558,
+    1684,
+    1775,
+    1826,
+    1925,
+    1968,
+    2112,
+    2328
+   ],
+   "limit": 2428,
+   "bfs": false,
+   "generic": [
+    5,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_59",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    1373,
+    1443,
+    1511,
+    1706,
+    1727,
+    1972,
+    2019,
+    2066,
+    2088,
+    2281,
+    2330,
+    2428
+   ],
+   "limit": 2478,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_60",
+   "kind": "spaced",
+   "seeds": [
+    3,
+    6
+   ],
+   "targets": [
+    911,
+    935,
+    958,
+    1029,
+    1054,
+    1221,
+    1412,
+    1484,
+    1510,
+    1553,
+    1630,
+    1724
+   ],
+   "limit": 1745,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_61",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    9
+   ],
+   "targets": [
+    1192,
+    1234,
+    1383,
+    1475,
+    1547,
+    1575,
+    1840,
+    1886,
+    1960,
+    2127,
+    2172,
+    2225
+   ],
+   "limit": 2261,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_62",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    8
+   ],
+   "targets": [
+    1009,
+    1083,
+    1101,
+    1176,
+    1251,
+    1321,
+    1396,
+    1418,
+    1606,
+    1654,
+    1677,
+    1799
+   ],
+   "limit": 1947,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_63",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    8
+   ],
+   "targets": [
+    869,
+    918,
+    963,
+    989,
+    1038,
+    1086,
+    1109,
+    1155,
+    1234,
+    1256,
+    1281,
+    1473
+   ],
+   "limit": 1574,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_64",
+   "kind": "spaced",
+   "seeds": [
+    6,
+    9
+   ],
+   "targets": [
+    845,
+    917,
+    970,
+    1113,
+    1132,
+    1180,
+    1354,
+    1443,
+    1492,
+    1521,
+    1570,
+    1589
+   ],
+   "limit": 1622,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_65",
+   "kind": "spaced",
+   "seeds": [
+    4,
+    6
+   ],
+   "targets": [
+    1187,
+    1233,
+    1254,
+    1421,
+    1494,
+    1616,
+    1665,
+    1689,
+    1710,
+    1855,
+    1877,
+    1951
+   ],
+   "limit": 2058,
+   "bfs": false,
+   "generic": [
+    9,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_66",
+   "kind": "spaced",
+   "seeds": [
+    8,
+    9
+   ],
+   "targets": [
+    1008,
+    1034,
+    1124,
+    1173,
+    1267,
+    1340,
+    1460,
+    1511,
+    1654,
+    1724,
+    1748,
+    1819
+   ],
+   "limit": 1846,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_67",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    7
+   ],
+   "targets": [
+    898,
+    922,
+    973,
+    999,
+    1089,
+    1116,
+    1355,
+    1381,
+    1427,
+    1479,
+    1572,
+    1619
+   ],
+   "limit": 1728,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_68",
+   "kind": "spaced",
+   "seeds": [
+    5,
+    6
+   ],
+   "targets": [
+    1283,
+    1377,
+    1643,
+    1742,
+    2051,
+    2120,
+    2269,
+    2289,
+    2312,
+    2336,
+    2388,
+    2411
+   ],
+   "limit": 2496,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_69",
+   "kind": "spaced",
+   "seeds": [
+    2,
+    6
+   ],
+   "targets": [
+    976,
+    1103,
+    1122,
+    1147,
+    1264,
+    1414,
+    1463,
+    1631,
+    1679,
+    1720,
+    1797,
+    1844
+   ],
+   "limit": 1889,
+   "bfs": false,
+   "generic": [
+    7,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_70",
+   "kind": "spaced",
+   "seeds": [
+    7,
+    8
+   ],
+   "targets": [
+    1682,
+    1755,
+    1919,
+    1942,
+    2112,
+    2258,
+    2329,
+    2425,
+    2447,
+    2496,
+    2524,
+    2541
+   ],
+   "limit": 2571,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  },
+  {
+   "id": "spaced_71",
+   "kind": "spaced",
+   "seeds": [
+    8,
+    9
+   ],
+   "targets": [
+    1142,
+    1207,
+    1310,
+    1334,
+    1550,
+    1694,
+    1717,
+    1886,
+    1953,
+    2029,
+    2054,
+    2077
+   ],
+   "limit": 2111,
+   "bfs": false,
+   "generic": [
+    8,
+    0
+   ],
+   "star": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "decision": "UNSAT"
+  }
+ ]
+}

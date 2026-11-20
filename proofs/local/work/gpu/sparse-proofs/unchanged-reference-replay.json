@@ -1,0 +1,192 @@
+{
+  "original_binary_sha256": "e1de356a733550470e4a5ece3ff1a77bd023b6874fc9f804d05fee144d3552c6",
+  "source_sha256": "d40bb0ca0cee9b328c5f7fb3b641eb9ad11e35f77c6ef20314260a150bfea3e7",
+  "rows": [
+    {
+      "decision_record": "0566-h9.json",
+      "id": "scored_0566",
+      "helpers": 9,
+      "partition": [
+        0,
+        8,
+        11,
+        16,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          2580873,
+          0
+        ],
+        "sequence": null,
+        "seconds": 22.45932
+      },
+      "sparse": {
+        "first": 0,
+        "second": 11,
+        "status": "UNSAT",
+        "nodes": 2580873,
+        "terminals": 0,
+        "peak_sparse_blocks": 62,
+        "seconds": 4.6722
+      }
+    },
+    {
+      "decision_record": "similar-sparse-next.json",
+      "id": "scored_0092",
+      "helpers": 6,
+      "partition": [
+        2,
+        4,
+        0,
+        2,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          54047,
+          0
+        ],
+        "sequence": null,
+        "seconds": 0.41381
+      },
+      "sparse": {
+        "first": 2,
+        "second": 0,
+        "status": "UNSAT",
+        "nodes": 54047,
+        "terminals": 0,
+        "peak_sparse_blocks": 32,
+        "seconds": 0.16593
+      }
+    },
+    {
+      "decision_record": "similar-sparse-next.json",
+      "id": "scored_0472",
+      "helpers": 4,
+      "partition": [
+        0,
+        4,
+        1,
+        2,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          71,
+          0
+        ],
+        "sequence": null,
+        "seconds": 0.00978
+      },
+      "sparse": {
+        "first": 0,
+        "second": 1,
+        "status": "UNSAT",
+        "nodes": 71,
+        "terminals": 0,
+        "peak_sparse_blocks": 10,
+        "seconds": 0.01327
+      }
+    },
+    {
+      "decision_record": "similar-sparse-deeper.json",
+      "id": "scored_0393",
+      "helpers": 7,
+      "partition": [
+        0,
+        8,
+        0,
+        4,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          11546,
+          0
+        ],
+        "sequence": null,
+        "seconds": 0.08146
+      },
+      "sparse": {
+        "first": 0,
+        "second": 0,
+        "status": "UNSAT",
+        "nodes": 11546,
+        "terminals": 0,
+        "peak_sparse_blocks": 21,
+        "seconds": 0.02866
+      }
+    },
+    {
+      "decision_record": "similar-sparse-deeper.json",
+      "id": "scored_0637",
+      "helpers": 7,
+      "partition": [
+        3,
+        8,
+        0,
+        4,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          18230,
+          0
+        ],
+        "sequence": null,
+        "seconds": 0.13236
+      },
+      "sparse": {
+        "first": 3,
+        "second": 0,
+        "status": "UNSAT",
+        "nodes": 18230,
+        "terminals": 0,
+        "peak_sparse_blocks": 29,
+        "seconds": 0.05754
+      }
+    },
+    {
+      "decision_record": "0566-h9.json",
+      "id": "scored_0566",
+      "helpers": 9,
+      "partition": [
+        3,
+        8,
+        8,
+        16,
+        0,
+        1
+      ],
+      "reference": {
+        "status": "UNSAT",
+        "counts": [
+          4108977,
+          0
+        ],
+        "sequence": null,
+        "seconds": 35.13556
+      },
+      "sparse": {
+        "first": 3,
+        "second": 8,
+        "status": "UNSAT",
+        "nodes": 4108977,
+        "terminals": 0,
+        "peak_sparse_blocks": 72,
+        "seconds": 7.22454
+      }
+    }
+  ]
+}

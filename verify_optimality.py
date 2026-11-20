@@ -23,9 +23,12 @@ def native_input(puzzle, helpers, node_limit):
     )
 
 
-def query(binary, puzzle, helpers, node_limit, shard, total):
+def query(binary, puzzle, helpers, node_limit, shard, total, subshard=None, subshards=1):
+    arguments = [binary, str(shard), str(total)]
+    if subshard is not None:
+        arguments.extend((str(subshard), str(subshards)))
     output = subprocess.run(
-        [binary, str(shard), str(total)],
+        arguments,
         input=native_input(puzzle, helpers, node_limit),
         text=True,
         check=True,
@@ -52,6 +55,8 @@ def main():
     ap.add_argument("submission", type=Path)
     ap.add_argument("--binary", type=Path, required=True)
     ap.add_argument("--jobs", type=int, default=4)
+    ap.add_argument("--match-snapshot", action="store_true",
+                    help="Also require every program length to match the historical upper-bound table")
     args = ap.parse_args()
     if args.jobs < 1:
         ap.error("Expected a positive worker count")
@@ -78,7 +83,10 @@ def main():
             )
             if audit.stdout.strip() != "OK":
                 raise ValueError("Pair coverage audit failed")
-            shards = len(row["shard_nodes"])
+            subshards = row.get("subshards", 1)
+            shards = row.get("root_shards", len(row["shard_nodes"]))
+            if shards * subshards != len(row["shard_nodes"]):
+                raise ValueError("Invalid shard coverage receipt")
             jobs = [
                 pool.submit(
                     query,
@@ -88,7 +96,10 @@ def main():
                     row["max_nodes_per_shard"],
                     i,
                     shards,
+                    None if subshards == 1 else j,
+                    subshards,
                 )
+                for j in range(subshards)
                 for i in range(shards)
             ]
             result = [job.result() for job in jobs]
@@ -103,15 +114,13 @@ def main():
             print(p.id, "lower", bounds[p.id], "upper", len(programs[p.id]), flush=True)
     with (PROOFS / "bounds.csv").open(newline="") as f:
         published = list(csv.DictReader(f))
-    expected = [
-        (p.id, str(analytic[p.id]), str(bounds[p.id]), str(len(programs[p.id])))
-        for p in puzzles
-    ]
-    if expected != [
-        (r["id"], r["prefix_lower"], r["certified_lower"], r["verified_upper"])
-        for r in published
-    ]:
+    expected = [(p.id, str(analytic[p.id]), str(bounds[p.id])) for p in puzzles]
+    if expected != [(r["id"], r["prefix_lower"], r["certified_lower"]) for r in published]:
         raise ValueError("Per-puzzle table differs")
+    if any(int(r["certified_lower"]) > int(r["verified_upper"]) for r in published):
+        raise ValueError("Inconsistent historical upper bound")
+    if args.match_snapshot and any(int(r["verified_upper"]) != len(programs[r["id"]]) for r in published):
+        raise ValueError("The replayed programs differ in length from the historical snapshot")
     if any(bounds[p.id] > len(programs[p.id]) for p in puzzles):
         raise ValueError("Inconsistent bounds")
     print(

@@ -1,0 +1,777 @@
+{
+  "input_sha256": "b374c34a41d0eb9004a00eba6b783443eadb2fc75512732fec1ab3972d683d23",
+  "diagnostic_source_sha256": "5a63e492b14938401ea042a766e1e1d6fb961f1970d26daea7cd690e3f446e93",
+  "instrumented_binary_sha256": "c9911ca089257cb54ef7112a2513269078afa1df8e32d7122387074eda0b7e22",
+  "reconstructed_states": 9805,
+  "reported_search_nodes": 11646,
+  "rows": [
+    {
+      "id": "planted_800",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 23
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 77
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 113
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 158
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 33
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 81
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 54
+    },
+    {
+      "id": "planted_800",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 64
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 103
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 109
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 142
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 146
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 35
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 38
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 36
+    },
+    {
+      "id": "planted_801",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 37
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 165
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 239
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 895
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 1039
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 15
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 13
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 17
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 14
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 622
+    },
+    {
+      "id": "planted_802",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 737
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 11
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 10
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 10
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 9
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 7
+    },
+    {
+      "id": "planted_803",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 5
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 21
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 20
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 16
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 14
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 50
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 46
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 49
+    },
+    {
+      "id": "planted_804",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 45
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 167
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 134
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 427
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 655
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 208
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 168
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 511
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 250
+    },
+    {
+      "id": "planted_805",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 549
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 296
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 248
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 72
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        1,
+        2
+      ],
+      "audited": 173
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2
+      ],
+      "audited": 205
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "audited": 108
+    },
+    {
+      "id": "planted_806",
+      "shard": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "audited": 178
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        0,
+        8,
+        1,
+        4,
+        0,
+        3
+      ],
+      "audited": 20
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        1,
+        8,
+        0,
+        4,
+        1,
+        3
+      ],
+      "audited": 27
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        2,
+        8,
+        3,
+        4,
+        2,
+        3
+      ],
+      "audited": 14
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        3,
+        8,
+        2,
+        4,
+        0,
+        3
+      ],
+      "audited": 15
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        4,
+        8,
+        1,
+        4,
+        1,
+        3
+      ],
+      "audited": 20
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        5,
+        8,
+        0,
+        4,
+        2,
+        3
+      ],
+      "audited": 17
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        6,
+        8,
+        3,
+        4,
+        0,
+        3
+      ],
+      "audited": 13
+    },
+    {
+      "id": "scored_0566",
+      "shard": [
+        7,
+        8,
+        2,
+        4,
+        1,
+        3
+      ],
+      "audited": 12
+    }
+  ]
+}

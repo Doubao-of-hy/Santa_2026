@@ -1,0 +1,28 @@
+{
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "independent_full_sha256": "f309a81f2ade82cc4617afe6bc2fb7a563cebb66801bac4fef2c0c936f78ff6a",
+  "independent_ledger_sha256": "ce1b6172c7f6a9f8c561de6b6d8e03da471bc84e6cdbce7b6f8b3693d89c8bb7",
+  "archived_rows_sha256": "7ae5aeaec24b04999c015fcd151c3810b7a32c4f1026d1e9597e65c1f740fbee",
+  "origins": {
+    "scored_0388": {
+      "id": "scored_0388",
+      "source": "work/heritage/mobius-own-wins.csv",
+      "instructions": "18"
+    },
+    "scored_0409": {
+      "id": "scored_0409",
+      "source": "work/gpu/suffix-neighbors.csv",
+      "instructions": "21"
+    },
+    "scored_0472": {
+      "id": "scored_0472",
+      "source": "work/creative/ladder/lns-local.csv",
+      "instructions": "21"
+    },
+    "scored_0882": {
+      "id": "scored_0882",
+      "source": "work/virtual/whole-135358/guided.csv",
+      "instructions": "23"
+    }
+  }
+}

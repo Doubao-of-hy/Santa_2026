@@ -13,7 +13,7 @@ from elf import check, read_puzzles, read_submission, sha256
 from graph import active_graph, compile_graph, first_recipes
 
 
-def cones(puzzle, original, count):
+def cones(puzzle, original, count, order="size", skip=0):
     graph=active_graph(puzzle,original)
     users=Counter(arg for _,a,b in graph.values() for arg in {a,b})
     goals=set(puzzle.targets)
@@ -36,7 +36,12 @@ def cones(puzzle, original, count):
         atoms=sorted(free,key=lambda x:(x not in puzzle.seeds,-users[x],x))
         merit=removed + 1.0*(pivot in goals)+min(2,users[pivot]*0.3)
         cases.append((merit,pivot,removed,atoms))
-    return sorted(cases,reverse=True)[:count]
+    ranked=sorted(cases,reverse=True)[skip:]
+    if order=="density":
+        # A large removable branch helps, and exact matches become more likely
+        # when a candidate integer occupies fewer bits.
+        ranked.sort(key=lambda x: (12*x[2]-max(24,x[1].bit_length()),x[0]),reverse=True)
+    return ranked[:count]
 
 
 def apply_patches(p,baseline,raw,patches):
@@ -61,9 +66,10 @@ def apply_patches(p,baseline,raw,patches):
     return best
 
 
-def optimize(p,baseline,exe,radius,bound,centers,cuts,hubs=False):
+def optimize(p,baseline,exe,radius,bound,centers,cuts,hubs=False,cut_order="size",skip_cuts=0,
+             bank_exe=None,alternatives=12,slack=1,connect=False,component_seconds=0):
     raw=first_recipes(p,baseline)
-    regions=cones(p,raw,cuts)
+    regions=cones(p,raw,cuts,cut_order,skip_cuts)
     if not regions: return p.id,baseline,0,0
     if hubs:
         live=active_graph(p,raw)
@@ -76,9 +82,11 @@ def optimize(p,baseline,exe,radius,bound,centers,cuts,hubs=False):
         inp="\n".join(lines)+"\n"
         options=[str(radius),str(cuts)]
     else:
-        inp="".join(" ".join(map(str,(p.limit,pivot,budget,len(atoms),*atoms)))+"\n"
+        extra_budget=slack+1 if bank_exe else 0
+        inp="".join(" ".join(map(str,(p.limit,pivot,budget+extra_budget,len(atoms),*atoms)))+"\n"
                     for _,pivot,budget,atoms in regions)
         options=[str(radius),str(bound),str(centers)]
+        if bank_exe:options.append(str(alternatives))
     result=subprocess.run([exe,*options],input=inp,capture_output=True,encoding="ascii")
     if result.returncode: raise RuntimeError(f"{p.id}: {result.returncode} {result.stderr}")
     stream=iter(result.stdout.splitlines())
@@ -103,6 +111,14 @@ def optimize(p,baseline,exe,radius,bound,centers,cuts,hubs=False):
                 n=int(next(stream))
                 patches.append((budget-n,pivot,read_graph(n)))
     if next(stream,None) is not None:raise ValueError("trailing patch")
+    if bank_exe and patches:
+        import sys
+        sys.path.insert(0,str(Path(__file__).resolve().parent/"generative"))
+        from shrink_select import run_one
+        strict=apply_patches(p,baseline,raw,[q for q in patches if q[0]>0])
+        _,result,_=run_one(p,[baseline,strict],None,bank_exe,85,0,[q[2] for q in patches],
+                          connect,component_seconds)
+        return p.id,result,tested,len(patches)
     return p.id,apply_patches(p,baseline,raw,patches),tested,len(patches)
 
 
@@ -113,6 +129,13 @@ def main():
     ap.add_argument("--ids",type=Path)
     ap.add_argument("--structured",action="store_true")
     ap.add_argument("--hubs",action="store_true")
+    ap.add_argument("--cut-order",choices=("size","density"),default="size")
+    ap.add_argument("--skip-cuts",type=int,default=0)
+    ap.add_argument("--bank-exe",type=Path)
+    ap.add_argument("--alternatives",type=int,default=12)
+    ap.add_argument("--slack",type=int,default=1)
+    ap.add_argument("--connect-helpers",action="store_true")
+    ap.add_argument("--component-seconds",type=float,default=0)
     for k,d in (("radius",1536),("bound",541),("centers",48),("cuts",20),
                 ("rows",0),("jobs",2),("seed",105)):
         ap.add_argument("--"+k,type=int,default=d)
@@ -131,6 +154,16 @@ def main():
     config=dict(input=sha256(a.input),exe=sha256(a.exe),radius=a.radius,bound=a.bound,
                 centers=a.centers,cuts=a.cuts)
     if a.hubs:config["hubs"]=True
+    if a.cut_order!="size":config["cut_order"]=a.cut_order
+    if a.skip_cuts:config["skip_cuts"]=a.skip_cuts
+    if a.bank_exe:
+        if a.hubs or a.slack<0 or a.alternatives<1:raise ValueError("invalid patch bank options")
+        config.update(bank=sha256(a.bank_exe),alternatives=a.alternatives,slack=a.slack)
+        if a.connect_helpers:
+            config.update(connect_helpers=sha256(Path(__file__).parent/"generative"/"shrink_select.py"))
+        if a.component_seconds:
+            config.update(component_seconds=a.component_seconds)
+    elif a.connect_helpers or a.component_seconds:raise ValueError("joint solving requires --bank-exe")
     if stored and config!=json.loads(sig.read_text()):raise ValueError("checkpoint mismatch")
     sig.write_text(json.dumps(config),encoding="utf8")
     rows={p.id:p for p in data}
@@ -143,7 +176,9 @@ def main():
         out=csv.writer(stream,lineterminator="\n")
         if not stream.tell():out.writerow(("id","program"))
         futures=[pool.submit(optimize,p,incumbent[p.id],str(a.exe.resolve()),a.radius,
-                             a.bound,a.centers,a.cuts,a.hubs) for p in tasks]
+                             a.bound,a.centers,a.cuts,a.hubs,a.cut_order,a.skip_cuts,
+                             str(a.bank_exe.resolve()) if a.bank_exe else None,
+                             a.alternatives,a.slack,a.connect_helpers,a.component_seconds) for p in tasks]
         for i,job in enumerate(as_completed(futures),len(stored)+1):
             pid,program,regions,variants=job.result()
             gain+=len(incumbent[pid])-len(program)

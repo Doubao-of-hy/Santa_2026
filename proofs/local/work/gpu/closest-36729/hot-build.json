@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "groups-build.json": "5cda719a187ed11fb0871108a70f5ef1047af87dbf8841fb43ba7f826a436a2f",
+    "hot.inc": "331782dc19a7c4949d8fc1d2eec3c2306045e9a4452c27d4de12620f3983ea8f",
+    "hot_three.inc": "319d5826f8517e4170133557c58f56825812c40f9f627c213ce0e2accd459123",
+    "hot_dense.hpp": "1dd9709ac5bafee34c0ec4fc82cddb4c72e62ea9be8deff6dd4283baa3c56191",
+    "hot.cpp": "4493ce4dcae5ad65f4fb554156f00bf342eb588537ccd9ccc70168bc5dbe1d8d",
+    "build_hot.py": "cd4cf1a1a97b2423212b6f90e4e67803976532748a435b6cb36b04c494f3fbe0"
+  },
+  "binary_sha256": "71dca8b89c358900e7312c23768d1dfcd13f2e8e6473850f82a7a3c3c999ec28",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-static",
+    "-Wl,--no-insert-timestamp"
+  ]
+}

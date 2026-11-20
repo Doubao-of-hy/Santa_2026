@@ -233,8 +233,33 @@ public:
       p(p),bank(p.limit,1800000),rng(seed),budget(budget),width(width),refresh(refresh),discount(discount),
       bilinear_mode(bilinear),products(bank,110,bilinear>1?3:0),joint_effort(joint),joint_rng(seed+103) {}
 
-    void solve() {
+    void solve(const vector<Int>& anchors) {
         p.setup();
+        if(!anchors.empty()) {
+            auto base=p.starts;
+            base.insert(base.end(),p.palette.begin(),p.palette.end());
+            shared_core::LiveBank scout(p.limit,175000);
+            scout.extend(base);
+            int remaining=19;
+            for(Int a:anchors) {
+                if(p.defs.count(a) || a<2 || a>p.limit) continue;
+                TargetSearch finder(scout,6,min(23,remaining+4),.22,3);
+                Plan plan=finder.run(a);
+                if(plan.empty()) continue;
+                unordered_set<Int> charged(p.starts.begin(),p.starts.end());
+                charged.insert(p.order.begin(),p.order.end());
+                auto cone=shared_core::unpaid_cone(a,plan,p,charged);
+                if(cone.empty() || int(cone.size())>min(remaining,12)) continue;
+                shared_core::commit(p,cone);
+                p.palette.push_back(a);
+                vector<Int> growth;
+                for(auto e:cone) growth.push_back(e.out);
+                scout.extend(growth);
+                remaining-=cone.size();
+                if(remaining<=2) break;
+            }
+            cerr<<" anchors-budget="<<(19-remaining);
+        }
         paid.insert(p.starts.begin(),p.starts.end());
         int bit=0;
         for(Int v:p.order) {
@@ -299,11 +324,14 @@ int main(int argc,char **argv) {
         p.starts.resize(ns);p.targets.resize(nt);
         for(auto &v:p.starts) cin>>v;
         for(auto &v:p.targets) cin>>v;
-        int n;cin>>n;
-        if(n) throw runtime_error("fresh program generator accepts only puzzle inputs");
+        int n;
+        if(!(cin>>n) || n<0 || n>64) throw runtime_error("invalid anchor count");
+        vector<Int> anchors(n);
+        for(Int &v:anchors)
+            if(!(cin>>v) || v<1 || v>limit) throw runtime_error("invalid anchor");
         cerr<<id;
         creative::Planner(p,leaves,width,refresh,target_credit,seed^uint32_t(hash<string>{}(id)),
-                          argc>6?stoi(argv[6]):0,argc>7?stoi(argv[7]):0).solve();
+                          argc>6?stoi(argv[6]):0,argc>7?stoi(argv[7]):0).solve(anchors);
         cerr<<"\n";
         cout<<id<<' '<<p.order.size()<<'\n';
         for(Int v:p.order) {auto [a,b]=p.args.at(v);cout<<v<<' '<<p.defs.at(v).op<<' '<<a<<' '<<b<<'\n';}

@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "exact_helpers.cpp": "97742f6843cbe13efe1dfa55bca55aba14429aba8b5c44cc0897da209b1496a5",
+    "exact_frontier.hpp": "93c8cea517121c539dc6cd3873f925ad7af93a5a3fd693ba9cb18c33dae66e2a",
+    "work/gpu/sparse_frontier.hpp": "012f0cc7a0fd0c47d05b889259f4012b01299b7d5129388c2cff62f698aa4db3",
+    "work/gpu/sparse_reachable.hpp": "5a91fd03c03988591723d170bb542839ae00f0f87d574d215a3ded0fba215e2a",
+    "work/gpu/closest-36729/three.inc": "0b394a534cf9480098377001b0062891d60dd2c54c203826bc2f124c7b886ca5",
+    "work/gpu/closest-36729/star.cpp": "fd1ebeac409df10a332e2de7c69b243f7838df7caf590d6def1aae61cbf3e61e",
+    "work/gpu/closest-36729/dense_star.hpp": "b33e067601c75f16b6d78137a5799dbebb22d43eee2cea87c0d6f91a795f2fb6",
+    "work/gpu/closest-36729/sparse_star.hpp": "1fbcfefd77535f663ad2d4149834cbf94314f4fbebffdc3a9904c5710ffee595",
+    "work/gpu/closest-36729/build.py": "fcd8ea7aaed81d4dd542af5a6b72a5ae5c521e1582cc1d1388c55f4025809204"
+  },
+  "binary_sha256": "5956ae6cc457545fa842c52a35774cd14572b3fdc0fae7e38cfa0cd19106dcfa",
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-static",
+    "-Wl,--no-insert-timestamp"
+  ]
+}

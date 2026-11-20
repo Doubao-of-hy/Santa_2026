@@ -1,0 +1,14 @@
+{
+  "author": "Arsen Zakaryan (arsen123)",
+  "version": 15,
+  "url": "https://www.kaggle.com/datasets/arsen123/santa-2026-original-dictionary-solver-source/versions/15",
+  "license": "Apache-2.0",
+  "unmodified_files": {
+    "recombine2026.py": "43c0fc702350b367bdb15048167c6a63f4b26db900d5790f9f0790f0e10ba204",
+    "recipe_milp.py": "03bfe51dc6ad465ec682c7efcc4c9afb477f7ff555c147d43eeb07c2b52cefeb",
+    "run_solver.py": "62d8add684d82a30c890376191c46025b24021ec6561e0158b1402ce8d0e1795",
+    "LICENSE": "96c9bea04402213f96562e696342a9ff5684502ca0a8d6cf28edd6547f969070",
+    "LICENSE2026": "96c9bea04402213f96562e696342a9ff5684502ca0a8d6cf28edd6547f969070"
+  },
+  "local_addition": "paid_helpers.py by Hansen0223 / Codex"
+}

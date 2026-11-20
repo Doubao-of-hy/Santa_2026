@@ -2,9 +2,9 @@
 
 [当前分工、已完成的实验和正在搜索的题号](collaboration/STATUS.md)
 
-截至 2026 年 11 月 19 日暂停时，从官方输入独立生成的版本为 **146,435 条**，使用公开许可算式的版本为 **137,442 条**。两份提交均已在本地重放全部 1,000 道计分题，尚未提交 Kaggle。各阶段的得分、方法取舍和距离榜首的差距见[进展记录](PROGRESS.md)。
+独立生成的候选为 **141,475 条**，结合公开算式的候选为 **135,106 条**。两份文件各经两套解释器重放全部 1,000 题。北京时间 11 月 20 日 15:23，官方榜首为 128,831 条，本地最短候选相差 6,275 条，尚未提交 Kaggle。[独立程序](submission.csv) · [公开辅助程序](public-assisted/submission.csv) · [榜单快照](collaboration/leaderboard.json)
 
-每道题从给定的初始值出发，在 48 个寄存器中使用加、减、乘和整除生成全部目标值。程序中的值必须始终为正整数并且不超过题目上限。提交文件包含 `id` 和 `program` 两列，每题最多 4,096 条指令。总分是全部程序的指令数之和，越低越好。截至 11 月 20 日，17 道计分题已有最优性证明，合计 73 条。其中包括 16 道小值域题，以及已证明恰需 16 条指令的 `scored_0892`。[证明与复核命令](proofs/README.md)
+每道题从给定的初始值出发，在 48 个寄存器中使用加、减、乘和整除生成全部目标值。程序中的值必须始终为正整数并且不超过题目上限。提交文件包含 `id` 和 `program` 两列，每题最多 4,096 条指令。总分是全部程序的指令数之和，越低越好。当前共有 19 题已证最短，合计 112 条。[逐题证明与运行分工](collaboration/proof-status.md)
 
 ## 校验与复跑
 
@@ -31,15 +31,17 @@ python -B elf.py data/puzzles.csv public-assisted/submission.csv
 - 部分题可以从目标值的近似平方和近似乘积恢复一组整数。求解器利用它们的乘法表构造多个目标，同时比较把偏差加在乘法之前或之后的指令数。`matrix_scan.py` 只接收题目数据，`matrix_construct.py` 可基于恢复的整数重新生成完整的算式。设计算式时仍须支付构造这些整数的成本。
 - 独立整数解释器检查 CSV 编码、题目 ID、寄存器索引、无余数除法、值域和目标覆盖。输入寄存器先读取，随后写回目标寄存器。已经生成的目标值被覆盖后仍计为已完成。
 
-11 月 19 日的计数下界为 33,331。加入前两步辅助数的取值约束与四题的穷举后，11 月 20 日的全体总下界为 **33,586**。[最新逐题上下界](proofs/bounds.csv)
+所有题的已证下界之和为 **36,731 条**。仓库保留其他开发者的逐题证明，复核时可合并各来源对同一道题的最强结论。[本轮证明与复核命令](collaboration/proof-status.md) · [早期逐题上下界](proofs/bounds.csv) · [其他开发者的证明](proofs_ext)
 
 原计数方法如下。对每个目标，先检查给定初值或其他目标能否直接产生它，再计算固定数量的额外中间值最多能覆盖多少个剩余目标。对于两个中间值可以产生多个目标的情况，用和、差、积、整商的所有成对方程精确列举例外。逐题证书同时记录当时可行解的长度。用当前提交运行 `python -B lower_bounds.py data/puzzles.csv public-assisted/submission.csv bounds-current.csv` 可另存一份采用当前可行解的对照表。[逐题证书](work/virtual/certificates.csv) · [证书与输入哈希](work/virtual/certificates.json)
 
 当前主文件中的程序由求解器从官方输入生成，或由这些程序进一步缩短。公开求解器的作者、版本、许可证和本地改动记录在 `generative/NOTICE.md`。每次主文件更新时，`checkpoint.py` 对完整 CSV 进行两次独立重放，并把每题所用来源写入 `origins.csv`。当前总分、文件哈希和历次改进见 `result.json`。实际排名由 Kaggle 提交后的榜单确定。[官方排行榜](https://www.kaggle.com/competitions/santa-2026/leaderboard)
 
-公开辅助候选以 Asterios Panoras 在 Kaggle 发布的第 **13** 版汇总为起点。原版重放为 138,356 条，本地逐题择优后再省 **914 条**。部分改写还参考了 Asterios 第 8、10 版及 Hanif 第 15 版。逐题作者与来源、原版哈希、许可和本地改动均随提交保留。[公开辅助结果](public-assisted/result.json) · [逐题署名](public-assisted/origins.csv) · [来源声明](public-assisted/NOTICE.md) · [Kaggle 第 13 版](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/13)
+公开辅助候选以 Asterios Panoras 汇总的第 **96** 版为基准。原版重放为 135,806 条，本地逐题择短后省 **700 条**。每题的公开来源、历史许可及本地修改随程序一起发布。[公开辅助结果](public-assisted/result.json) · [逐题署名](public-assisted/origins.csv) · [来源说明](public-assisted/NOTICE.md) · [Kaggle 第 96 版](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/96)
 
 ## 持续优化
+
+[已对照的方案与收益](collaboration/methods.md) · [用第 334 题重跑因数分解](collaboration/factor/README.md) · [组合改写的真实案例](collaboration/polish/)
 
 `virtual.cpp` 借用 Tony Li 和 konbu17 的整数索引、初始算式与依赖图表示。新搜索器逐轮选择目标，用刚得到的中间值更新可用算式。它比较多个目标对同一中间值的需求，估计目标顺序对后续计算的影响，并把整张图重新编译到 48 个寄存器。以下是一个独立实验示例。在仓库根目录的 PowerShell 中运行，先将本机 MinGW-w64 的 `g++` 加入 PATH。输出是一份新候选。
 

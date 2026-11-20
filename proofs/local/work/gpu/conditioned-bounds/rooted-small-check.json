@@ -1,0 +1,76 @@
+{
+  "seed": 5729,
+  "counts": {
+    "complete_bfs_cases": 110,
+    "relaxed_envelope_vs_bfs": 1760,
+    "positive_rooted_capacity": 193,
+    "zero_capacity_with_goal_outside": 101,
+    "zero_capacity_all_goals_in_envelope": 1466,
+    "rooted_leaves_in_replayed_trees": 6,
+    "forged_capacity_rejected": 1
+  },
+  "explicit_capacity_leaf_case": {
+    "seeds": [
+      8
+    ],
+    "targets": [
+      4,
+      6,
+      8,
+      14,
+      19,
+      21
+    ],
+    "cap": 22,
+    "brute_shortest": 8,
+    "proof": {
+      "previous_lower": 7,
+      "tested_instruction_budget": 7,
+      "mandatory_target_instructions": 5,
+      "required_helpers_to_certify": 3,
+      "new_lower": 8,
+      "status": "CERTIFIED",
+      "tree": {
+        "kind": "partition",
+        "active_count": 1,
+        "active_sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8",
+        "next_count": 2,
+        "next_sha256": "126c278e11574b04b2250c3150b86539fe7677b4bbe1428759a4bac120b397c5",
+        "groups": [
+          {
+            "values": [
+              1
+            ],
+            "proof": {
+              "kind": "rooted_capacity",
+              "k": 0,
+              "h": 2,
+              "domain_count": 2,
+              "domain_sha256": "36e14c427273a293459e81254a6d266ef95f0f8ebddfd9cfc3b82664c37eca63"
+            }
+          },
+          {
+            "values": [
+              16
+            ],
+            "proof": {
+              "kind": "rooted_capacity",
+              "k": 0,
+              "h": 2,
+              "domain_count": 2,
+              "domain_sha256": "5e7b15b182ea3441808250d1ba923012fe907939ca057d4fe2ac3ef9a07969b0"
+            }
+          }
+        ]
+      },
+      "statistics": {
+        "relaxations": 4,
+        "capacity_calls": 3,
+        "envelope_queries": 1,
+        "truncated_envelopes": 0,
+        "conditioning_depth_seen": 1
+      }
+    }
+  },
+  "source_sha256": "5185b7aca301116636e979c8f0fffa7951947d131526a843325fee707f8545d9"
+}
