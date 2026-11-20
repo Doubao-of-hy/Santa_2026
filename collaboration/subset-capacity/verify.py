@@ -74,7 +74,7 @@ def choose_targets(base,goals,cap):
         if all(not other(t,b,cap)&base[1] for b in base[1]):u.add(t)
     return u
 
-def capacity(allowed,all_targets,chosen,cap,h,brute=False):
+def capacity(allowed,all_targets,chosen,cap,h,brute=False,pair_limit=None):
     base=set(allowed)|all_targets
     if brute:
         helpers=set(range(1,cap+1))-base
@@ -126,6 +126,8 @@ def capacity(allowed,all_targets,chosen,cap,h,brute=False):
             degrees[a]+=v;degrees[b]+=v;bonuses.append(v)
     def top(xs,n):return sum(sorted(xs,reverse=True)[:n])
     pairs=h*(h-1)//2
+    if pair_limit is not None:
+        pairs=min(pairs,pair_limit)
     u=top(cap1.values(),h);d=top(degrees.values(),h)
     ab=top(bonuses,pairs);mix=top([2*cap1.get(v,0)+degrees[v] for v in cap1.keys()|degrees.keys()],h)
     maximum=pairs+min(u+min(ab,d//2),mix//2)

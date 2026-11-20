@@ -1,0 +1,11 @@
+{
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "base_total": 37512,
+  "searched": 680,
+  "verified_rows": 404,
+  "covered_leaves": 4098,
+  "diamond_leaves": 4035,
+  "gain": 404,
+  "combined_lower": 37916,
+  "certificate_sha256": "91dac397f43f2eba0c3f1922292e24878a76692b53b9ef3c7c7397f10c142948"
+}

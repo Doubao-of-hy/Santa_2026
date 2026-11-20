@@ -13,7 +13,7 @@ import subprocess
 import sys
 
 
-def capacities(p, allowed):
+def capacities(p, allowed, edge_limit=None):
     from domain_bounds import operands, unary_capacity
     from lower_bounds import values, double_witnesses
     base = allowed | set(p.targets)
@@ -60,7 +60,7 @@ def capacities(p, allowed):
     def required(turan):
         for h in range(len(unsupported) + 2):
             simple = h * (h - 1) // 2
-            pair_cap = min(simple, h * h // 3) if turan else simple
+            pair_cap = min(simple, (edge_limit(h) if edge_limit else h * h // 3)) if turan else simple
             if capacity(h, pair_cap) >= len(unsupported):
                 return h
         raise AssertionError

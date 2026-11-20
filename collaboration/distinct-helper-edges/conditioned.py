@@ -39,7 +39,7 @@ def evidence(labels,forbidden,limit):
                 mobius_counts=s,ordered_counts=other,mobius_witness=w,ordered_witness=w2)
 
 
-def check_tree(p,record,prior):
+def check_tree(p,record,prior,capacity_fn=capacities,oracle=evidence):
     from conditioned_certificate import frontier
     from domain_bounds import domains
     goal=set(p.targets)
@@ -65,7 +65,7 @@ def check_tree(p,record,prior):
         spec=SimpleNamespace(seeds=tuple(sorted(closed)),targets=p.targets,limit=p.limit)
         allowed=closed if k==0 else dict(domains(spec,k,record["cap"]))[k]
         assert len(allowed)==node["domain_count"] and stamp(allowed)==node["domain_sha256"]
-        s,original,upper=capacities(spec,allowed)
+        s,original,upper=capacity_fn(spec,allowed)
         assert original==node["h"] and original>0 and s
         base=missing+len(path)+k
         assert base+original>=record["lower"]
@@ -88,7 +88,7 @@ def check_tree(p,record,prior):
         def prove(s,f):
             pair=stamp(s),stamp(f)
             if pair not in cached:
-                cached[pair]=evidence(s,f,p.limit)
+                cached[pair]=oracle(s,f,p.limit)
             return cached[pair]
         shared=prove(union,common)
         permitted=shared["mobius"]==shared["ordered"]=="ABSENT"
