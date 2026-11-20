@@ -1,0 +1,146 @@
+{
+  "own": [
+    {
+      "id": "scored_0005",
+      "original": 52,
+      "births_including_seeds": 59,
+      "distinct_results": 52,
+      "recompiled": 52
+    },
+    {
+      "id": "scored_0121",
+      "original": 46,
+      "births_including_seeds": 54,
+      "distinct_results": 46,
+      "recompiled": 46
+    },
+    {
+      "id": "scored_0137",
+      "original": 55,
+      "births_including_seeds": 58,
+      "distinct_results": 55,
+      "recompiled": 55
+    },
+    {
+      "id": "scored_0292",
+      "original": 55,
+      "births_including_seeds": 62,
+      "distinct_results": 55,
+      "recompiled": 55
+    },
+    {
+      "id": "scored_0350",
+      "original": 57,
+      "births_including_seeds": 64,
+      "distinct_results": 57,
+      "recompiled": 57
+    },
+    {
+      "id": "scored_0541",
+      "original": 55,
+      "births_including_seeds": 61,
+      "distinct_results": 55,
+      "recompiled": 55
+    },
+    {
+      "id": "scored_0584",
+      "original": 48,
+      "births_including_seeds": 54,
+      "distinct_results": 48,
+      "recompiled": 48
+    },
+    {
+      "id": "scored_0672",
+      "original": 57,
+      "births_including_seeds": 61,
+      "distinct_results": 57,
+      "recompiled": 57
+    },
+    {
+      "id": "scored_0773",
+      "original": 44,
+      "births_including_seeds": 51,
+      "distinct_results": 44,
+      "recompiled": 44
+    },
+    {
+      "id": "scored_0877",
+      "original": 56,
+      "births_including_seeds": 60,
+      "distinct_results": 56,
+      "recompiled": 56
+    }
+  ],
+  "assisted": [
+    {
+      "id": "scored_0005",
+      "original": 48,
+      "births_including_seeds": 55,
+      "distinct_results": 48,
+      "recompiled": 48
+    },
+    {
+      "id": "scored_0121",
+      "original": 46,
+      "births_including_seeds": 54,
+      "distinct_results": 46,
+      "recompiled": 46
+    },
+    {
+      "id": "scored_0137",
+      "original": 54,
+      "births_including_seeds": 57,
+      "distinct_results": 54,
+      "recompiled": 54
+    },
+    {
+      "id": "scored_0292",
+      "original": 52,
+      "births_including_seeds": 59,
+      "distinct_results": 52,
+      "recompiled": 52
+    },
+    {
+      "id": "scored_0350",
+      "original": 54,
+      "births_including_seeds": 61,
+      "distinct_results": 54,
+      "recompiled": 54
+    },
+    {
+      "id": "scored_0541",
+      "original": 54,
+      "births_including_seeds": 60,
+      "distinct_results": 54,
+      "recompiled": 54
+    },
+    {
+      "id": "scored_0584",
+      "original": 45,
+      "births_including_seeds": 51,
+      "distinct_results": 45,
+      "recompiled": 45
+    },
+    {
+      "id": "scored_0672",
+      "original": 56,
+      "births_including_seeds": 60,
+      "distinct_results": 56,
+      "recompiled": 56
+    },
+    {
+      "id": "scored_0773",
+      "original": 43,
+      "births_including_seeds": 50,
+      "distinct_results": 43,
+      "recompiled": 43
+    },
+    {
+      "id": "scored_0877",
+      "original": 55,
+      "births_including_seeds": 59,
+      "distinct_results": 55,
+      "recompiled": 55
+    }
+  ]
+}

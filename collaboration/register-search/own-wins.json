@@ -1,0 +1,115 @@
+{
+  "lane": "own",
+  "parents_sha256": "58b48b2f9a52cd4850fc1dad73681ceda207496d3a6a84498864c8c676a1726b",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "binary_sha256": "5a1064c8c47f12c72a18772a646af3cf1cc6c1f350a81e2c5c97f69ab0e53ef5",
+  "wins_sha256": "942f7dd806e97b8d2e15688f5bd5480bf8e928f56aca5ac01b518679477d8693",
+  "rows": [
+    {
+      "id": "scored_0005",
+      "before": 52,
+      "recompiled": 52,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 52,
+      "visited": 56,
+      "verified": 52
+    },
+    {
+      "id": "scored_0121",
+      "before": 46,
+      "recompiled": 46,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 46,
+      "visited": 49,
+      "verified": 46
+    },
+    {
+      "id": "scored_0137",
+      "before": 55,
+      "recompiled": 55,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 55,
+      "visited": 59,
+      "verified": 55
+    },
+    {
+      "id": "scored_0292",
+      "before": 55,
+      "recompiled": 55,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 55,
+      "visited": 62,
+      "verified": 55
+    },
+    {
+      "id": "scored_0350",
+      "before": 57,
+      "recompiled": 57,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 57,
+      "visited": 65,
+      "verified": 57
+    },
+    {
+      "id": "scored_0541",
+      "before": 55,
+      "recompiled": 55,
+      "native_wins": [
+        {
+          "iteration": 28,
+          "virtual_steps": 54,
+          "physical_steps": 54
+        }
+      ],
+      "iterations": 96,
+      "native_best": 54,
+      "visited": 63,
+      "verified": 54
+    },
+    {
+      "id": "scored_0584",
+      "before": 48,
+      "recompiled": 48,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 48,
+      "visited": 65,
+      "verified": 48
+    },
+    {
+      "id": "scored_0672",
+      "before": 57,
+      "recompiled": 57,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 57,
+      "visited": 52,
+      "verified": 57
+    },
+    {
+      "id": "scored_0773",
+      "before": 44,
+      "recompiled": 44,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 44,
+      "visited": 44,
+      "verified": 44
+    },
+    {
+      "id": "scored_0877",
+      "before": 56,
+      "recompiled": 56,
+      "native_wins": [],
+      "iterations": 96,
+      "native_best": 56,
+      "visited": 38,
+      "verified": 56
+    }
+  ]
+}
