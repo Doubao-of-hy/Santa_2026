@@ -1,0 +1,43 @@
+{
+  "small": {
+    "helper_sets": 20996,
+    "capacity_checks": 600,
+    "domains": 120
+  },
+  "base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "claims_sha256": "4eb9a1e34931fc92f637f13552013bfadcfab56a934b1264e5c4617d41566ad5",
+  "examined": 64,
+  "wins": {
+    "scored_0954": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 75
+    },
+    "scored_0884": {
+      "previous": 42,
+      "certified_lower": 43,
+      "verified_leaves": 167
+    },
+    "scored_0521": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 164
+    },
+    "scored_0665": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 119
+    },
+    "scored_0739": {
+      "previous": 41,
+      "certified_lower": 42,
+      "verified_leaves": 178
+    },
+    "scored_0760": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 155
+    }
+  }
+}

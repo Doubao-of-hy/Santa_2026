@@ -1,6 +1,8 @@
 # 最短程序证明与分片协作
 
-1,000 题的已证总下界为 **37,921 条**，其中 **20 题**的可行程序达到下界，合计 128 条。第 149 题的可行程序为 16 条，第 882 题仍在 22 至 23 条之间。表中逐题保留最强证明的来源以及两个完整回放的上界。[逐题 CSV](puzzle-bounds.csv) · [证明复核](../proofs/local/README.md)
+1,000 题的已证总下界为 **37,968 条**，其中 **20 题**的可行程序达到下界，合计 128 条。第 149 题的可行程序为 16 条，第 882 题仍在 22 至 23 条之间。表中逐题保留最强证明的来源以及两个完整回放的上界。[逐题 CSV](puzzle-bounds.csv) · [证明复核](../proofs/local/README.md)
+
+已在 622 道题完成按辅助数是否存在的分支检验，47 道题各提高 1 条。逐题合并下界为 37,968。[证明和重放](conditional-helper-membership/README.md) · [合并回执](evidence/combined-membership.json)
 
 已归档的首个辅助数条件树覆盖 680 道尚有差距的题。对 4,098 个叶子复核后，404 道各多证实 1 条，合并后共 37,916 条。外部提交在第 92、221、868、914、922 题上各多证明一步，和这 404 题没有重合。133 个分片已逐个重放，共 1,855,656,326 个节点，合并后的下界为 37,921。[外部证明重放](distinct-diamond/external-replayed.json) · [合并回执](evidence/combined-conditioned-external.json) [逐题证书](distinct-diamond/conditioned.md) · [本次合并回执](evidence/conditioned-37916.json)
 

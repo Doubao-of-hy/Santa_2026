@@ -1,0 +1,53 @@
+{
+  "small": {
+    "helper_sets": 20996,
+    "capacity_checks": 600,
+    "domains": 120
+  },
+  "base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "claims_sha256": "8c88eeb453dc0ac9c656acb52b3467732fcfc6d5295b1c379fff408e76da5566",
+  "examined": 64,
+  "wins": {
+    "scored_0497": {
+      "previous": 41,
+      "certified_lower": 42,
+      "verified_leaves": 172
+    },
+    "scored_0366": {
+      "previous": 40,
+      "certified_lower": 41,
+      "verified_leaves": 158
+    },
+    "scored_0888": {
+      "previous": 41,
+      "certified_lower": 42,
+      "verified_leaves": 177
+    },
+    "scored_0047": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 75
+    },
+    "scored_0260": {
+      "previous": 42,
+      "certified_lower": 43,
+      "verified_leaves": 86
+    },
+    "scored_0942": {
+      "previous": 41,
+      "certified_lower": 42,
+      "verified_leaves": 190
+    },
+    "scored_0951": {
+      "previous": 38,
+      "certified_lower": 39,
+      "verified_leaves": 162
+    },
+    "scored_0662": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 80
+    }
+  }
+}

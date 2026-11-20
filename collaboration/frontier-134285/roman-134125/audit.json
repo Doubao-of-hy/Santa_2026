@@ -1,0 +1,246 @@
+{
+  "base": "138be6dbe448ef824afe87ba7b17a02e2f21e8a5",
+  "base_steps": 134175,
+  "roman_total": 134125,
+  "bikram_total": 134130,
+  "merged": 134115,
+  "sha256": "adbc588080eae9507ce4678f3d83ae43afcba234312ab523a6d16a6cbb74e187",
+  "origins": {
+    "scored_0002": {
+      "published_match": "bikrambasnet1",
+      "before": 246,
+      "after": 245
+    },
+    "scored_0030": {
+      "published_match": "bikrambasnet1",
+      "before": 192,
+      "after": 191
+    },
+    "scored_0031": {
+      "published_match": "bikrambasnet1",
+      "before": 247,
+      "after": 246
+    },
+    "scored_0057": {
+      "published_match": "bikrambasnet1",
+      "before": 214,
+      "after": 213
+    },
+    "scored_0067": {
+      "published_match": "bikrambasnet1",
+      "before": 257,
+      "after": 256
+    },
+    "scored_0094": {
+      "published_match": "bikrambasnet1",
+      "before": 253,
+      "after": 252
+    },
+    "scored_0111": {
+      "published_match": "bikrambasnet1",
+      "before": 210,
+      "after": 209
+    },
+    "scored_0165": {
+      "published_match": "bikrambasnet1",
+      "before": 242,
+      "after": 241
+    },
+    "scored_0168": {
+      "published_match": "bikrambasnet1",
+      "before": 265,
+      "after": 264
+    },
+    "scored_0170": {
+      "published_match": "bikrambasnet1",
+      "before": 222,
+      "after": 221
+    },
+    "scored_0183": {
+      "published_match": "bikrambasnet1",
+      "before": 276,
+      "after": 274
+    },
+    "scored_0235": {
+      "published_match": "bikrambasnet1",
+      "before": 201,
+      "after": 200
+    },
+    "scored_0254": {
+      "published_match": "bikrambasnet1",
+      "before": 211,
+      "after": 209
+    },
+    "scored_0257": {
+      "published_match": "bikrambasnet1",
+      "before": 197,
+      "after": 196
+    },
+    "scored_0263": {
+      "published_match": "bikrambasnet1",
+      "before": 224,
+      "after": 222
+    },
+    "scored_0335": {
+      "published_match": "bikrambasnet1",
+      "before": 185,
+      "after": 184
+    },
+    "scored_0343": {
+      "published_match": "E-Max AI",
+      "before": 112,
+      "after": 111
+    },
+    "scored_0369": {
+      "published_match": "bikrambasnet1",
+      "before": 232,
+      "after": 230
+    },
+    "scored_0424": {
+      "published_match": "bikrambasnet1",
+      "before": 207,
+      "after": 206
+    },
+    "scored_0428": {
+      "published_match": "bikrambasnet1",
+      "before": 205,
+      "after": 202
+    },
+    "scored_0440": {
+      "published_match": "bikrambasnet1",
+      "before": 186,
+      "after": 185
+    },
+    "scored_0445": {
+      "published_match": "bikrambasnet1",
+      "before": 232,
+      "after": 230
+    },
+    "scored_0446": {
+      "published_match": "bikrambasnet1",
+      "before": 244,
+      "after": 243
+    },
+    "scored_0476": {
+      "published_match": "bikrambasnet1",
+      "before": 207,
+      "after": 206
+    },
+    "scored_0580": {
+      "published_match": "bikrambasnet1",
+      "before": 218,
+      "after": 216
+    },
+    "scored_0581": {
+      "published_match": "bikrambasnet1",
+      "before": 249,
+      "after": 248
+    },
+    "scored_0609": {
+      "published_match": "bikrambasnet1",
+      "before": 149,
+      "after": 148
+    },
+    "scored_0612": {
+      "published_match": "bikrambasnet1",
+      "before": 257,
+      "after": 256
+    },
+    "scored_0628": {
+      "published_match": "bikrambasnet1",
+      "before": 203,
+      "after": 202
+    },
+    "scored_0647": {
+      "published_match": "bikrambasnet1",
+      "before": 209,
+      "after": 208
+    },
+    "scored_0725": {
+      "published_match": "bikrambasnet1",
+      "before": 213,
+      "after": 211
+    },
+    "scored_0751": {
+      "published_match": "bikrambasnet1",
+      "before": 207,
+      "after": 206
+    },
+    "scored_0771": {
+      "published_match": "bikrambasnet1",
+      "before": 258,
+      "after": 257
+    },
+    "scored_0779": {
+      "published_match": "bikrambasnet1",
+      "before": 114,
+      "after": 113
+    },
+    "scored_0781": {
+      "published_match": "bikrambasnet1",
+      "before": 244,
+      "after": 242
+    },
+    "scored_0793": {
+      "published_match": "bikrambasnet1",
+      "before": 205,
+      "after": 204
+    },
+    "scored_0801": {
+      "published_match": "E-Max AI",
+      "before": 101,
+      "after": 100
+    },
+    "scored_0808": {
+      "published_match": "bikrambasnet1",
+      "before": 248,
+      "after": 247
+    },
+    "scored_0820": {
+      "published_match": "bikrambasnet1",
+      "before": 216,
+      "after": 213
+    },
+    "scored_0849": {
+      "published_match": "bikrambasnet1",
+      "before": 192,
+      "after": 191
+    },
+    "scored_0941": {
+      "published_match": "bikrambasnet1",
+      "before": 233,
+      "after": 232
+    },
+    "scored_0944": {
+      "published_match": "bikrambasnet1",
+      "before": 212,
+      "after": 211
+    },
+    "scored_0965": {
+      "published_match": "bikrambasnet1",
+      "before": 194,
+      "after": 192
+    },
+    "scored_0970": {
+      "published_match": "bikrambasnet1",
+      "before": 233,
+      "after": 232
+    },
+    "scored_0992": {
+      "published_match": "bikrambasnet1",
+      "before": 260,
+      "after": 259
+    },
+    "scored_0993": {
+      "published_match": "bikrambasnet1",
+      "before": 217,
+      "after": 216
+    },
+    "scored_1000": {
+      "published_match": "bikrambasnet1",
+      "before": 230,
+      "after": 229
+    }
+  },
+  "full_rows": 1000
+}

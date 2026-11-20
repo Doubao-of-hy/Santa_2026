@@ -1,0 +1,187 @@
+{
+  "publisher": {
+    "ref": "romanrozen/santa-2026-icefire-strong-start",
+    "session": 371861819,
+    "source": "https://www.kaggle.com/code/romanrozen/santa-2026-icefire-strong-start?scriptVersionId=371861819",
+    "score": 134125,
+    "sha256": "68b2fa720cb959063aea84de02cf2e5f31460203302935fd5577eb05031e23e9",
+    "notebook_sha256": "e921d0fe480121e74b10bb2fe258ac933e0bd670c9cebf15474d1429787117b5",
+    "data_sources": [
+      {
+        "sourceType": "competition",
+        "sourceId": 177055
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371860204
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371861177
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371859155
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371850533
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371849485
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371845692
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371826310
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371821642
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371818421
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371812841
+      },
+      {
+        "sourceType": "kernelVersion",
+        "sourceId": 371859290
+      }
+    ],
+    "files": [
+      "submission.csv"
+    ]
+  },
+  "arithmetic_rewrites": {
+    "ref": "bikrambasnet1/santa-2026-arithmetic-graph-rewrites",
+    "session": 371860204,
+    "source": "https://www.kaggle.com/code/bikrambasnet1/santa-2026-arithmetic-graph-rewrites?scriptVersionId=371860204",
+    "score": 134130,
+    "sha256": "9396d1289ad7be9c4c7531df5d5d78cd79bd31b5a0b5d7cdc8ddb9685e85edd4",
+    "notebook_sha256": "62e9ca57d3916f489d3092f41f68b66aee92bf8688a64ffafaad80fb96d85901",
+    "data_sources": [
+      {
+        "sourceType": "competition",
+        "sourceId": 177055
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22390041
+      }
+    ],
+    "files": [
+      "submission.csv"
+    ]
+  },
+  "public_frontier": {
+    "official_source": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-134-183",
+    "session_in_listing": 371861177,
+    "session_in_output_url": 371861177,
+    "raw_sha256": "35f389e8e36d9418b6aa4a04cb9024d7f8484c4b5f5b9cb22c142cc779424843",
+    "verified_total": 134183,
+    "wins": {
+      "scored_0343": 1,
+      "scored_0801": 1
+    },
+    "count": 1000
+  },
+  "credited_links": [
+    {
+      "label": "Arithmetic Graph Rewrites",
+      "url": "https://www.kaggle.com/code/bikrambasnet1/santa-2026-arithmetic-graph-rewrites"
+    },
+    {
+      "label": "Asterios program bank and per-puzzle lineage",
+      "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments"
+    },
+    {
+      "label": "Best-of-Public Elf Optimizer",
+      "url": "https://www.kaggle.com/code/nilanjansaha123/best-of-public-elf-optimizer"
+    },
+    {
+      "label": "CUDA Arithmetic Bridge Search",
+      "url": "https://www.kaggle.com/code/lightningv08/santa-2026-cuda-arithmetic-bridge-search"
+    },
+    {
+      "label": "Dataset",
+      "url": "https://www.kaggle.com/datasets/konbu17/santa-2026-elf-calculator-programs"
+    },
+    {
+      "label": "Elf Calculator With Register Reuse",
+      "url": "https://www.kaggle.com/code/tonylica/elf-calculator-with-register-reuse"
+    },
+    {
+      "label": "Fast Validator, EDA & SOTA Baseline",
+      "url": "https://www.kaggle.com/code/amanatar/santa-2026-fast-validator-eda-sota-baseline"
+    },
+    {
+      "label": "IceFire Strong Start",
+      "url": "https://www.kaggle.com/code/romanrozen/santa-2026-icefire-strong-start"
+    },
+    {
+      "label": "Joint Recipes for Large Puzzles",
+      "url": "https://www.kaggle.com/code/atakanaldemir/santa-2026-joint-recipes-for-large-puzzles"
+    },
+    {
+      "label": "Kaggle Santa 2026",
+      "url": "https://www.kaggle.com/competitions/santa-2026"
+    },
+    {
+      "label": "Public Frontier",
+      "url": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-134-190"
+    },
+    {
+      "label": "Public Merge",
+      "url": "https://www.kaggle.com/code/sacuscreed/public-merge"
+    },
+    {
+      "label": "Shared Intermediates & CUDA Cofactors",
+      "url": "https://www.kaggle.com/code/lightningv08/santa-2026-shared-intermediates-cuda-cofactors"
+    },
+    {
+      "label": "The Elf Calculator X-Ray",
+      "url": "https://www.kaggle.com/code/lucifer19/santa-2026-the-elf-calculator-x-ray"
+    },
+    {
+      "label": "Upstream notebook and credits",
+      "url": "https://www.kaggle.com/code/konbu17/santa-2026-wider-dictionary-portfolio-163k"
+    },
+    {
+      "label": "Verified Best Programs",
+      "url": "https://www.kaggle.com/code/b05204047elias/verified-best-programs-142-856"
+    },
+    {
+      "label": "Verified Best-of Merge",
+      "url": "https://www.kaggle.com/code/kmmmvs/santa-2026-verified-best-of-merge"
+    },
+    {
+      "label": "Verified Portfolio",
+      "url": "https://www.kaggle.com/code/hanifnoerrofiq/santa-2026-elf-calculator-verified-portfolio"
+    },
+    {
+      "label": "Version 1",
+      "url": "https://www.kaggle.com/code/bikrambasnet1/santa-2026-arithmetic-graph-rewrites?scriptVersionId=371088174"
+    },
+    {
+      "label": "Version 14 and upstream credits",
+      "url": "https://www.kaggle.com/code/bikrambasnet1/santa-2026-arithmetic-graph-rewrites?scriptVersionId=371731376"
+    },
+    {
+      "label": "Why the First Target Costs 3x More",
+      "url": "https://www.kaggle.com/code/georgymamarin/santa-2026-why-the-first-target-costs-3x-more"
+    },
+    {
+      "label": "Wider Dictionary + Portfolio",
+      "url": "https://www.kaggle.com/code/konbu17/santa-2026-wider-dictionary-portfolio-163k"
+    }
+  ],
+  "attribution": "Roman Rozen invites readers to merge the published output with their own after replay. All adopted programs match a bank attached to that exact run. The notebook reports zero further reduction after merging the inputs. Upstream program terms and attributions are retained."
+}

@@ -1,0 +1,23 @@
+{
+  "small": {
+    "helper_sets": 20996,
+    "capacity_checks": 600,
+    "domains": 120
+  },
+  "base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "claims_sha256": "999c6abbbd97ac108c3dfcad3fafcb2e8c1c43ccea908a7196f4cc1fa22b8d7a",
+  "examined": 64,
+  "wins": {
+    "scored_0310": {
+      "previous": 42,
+      "certified_lower": 43,
+      "verified_leaves": 10
+    },
+    "scored_0613": {
+      "previous": 39,
+      "certified_lower": 40,
+      "verified_leaves": 568
+    }
+  }
+}

@@ -77,7 +77,9 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--puzzles',required=True,type=Path)
     ap.add_argument('--claims',required=True,type=Path);ap.add_argument('--output',required=True,type=Path)
     ap.add_argument('--jobs',type=int,default=4);a=ap.parse_args()
-    ds=json.loads((HERE/'design.json').read_bytes());claim= json.loads(a.claims.read_bytes())
+    raw_claim=a.claims.read_bytes()
+    if a.claims.suffix=='.gz':raw_claim=gzip.decompress(raw_claim)
+    ds=json.loads((HERE/'design.json').read_bytes());claim=json.loads(raw_claim)
     src=(REPO/ds['claims']).read_bytes();assert sha(src)==ds['claims_sha256']
     prior=json.loads(gzip.decompress(src));original=a.puzzles.read_bytes();assert sha(original)==prior['design']['official_sha256']
     raw=subprocess.check_output(['git','show',ds['base']+':collaboration/puzzle-bounds.csv'],cwd=REPO)
@@ -95,6 +97,6 @@ def main():
     assert [r['id'] for r in claim['rows']]==ids and claim['base']==ds['base']
     wins=[(puzzles[r['id']],r,poolclaims[r['id']],int(bs[r['id']]['certified_lower'])) for r in claim['rows'] if r['tree']]
     with ProcessPoolExecutor(a.jobs) as ex:result=dict(ex.map(verify_one,wins))
-    out=dict(small=small(),base=ds['base'],official_sha256=sha(original),claims_sha256=sha(a.claims.read_bytes()),examined=len(ids),wins=result)
+    out=dict(small=small(),base=ds['base'],official_sha256=sha(original),claims_sha256=sha(raw_claim),examined=len(ids),wins=result)
     a.output.write_bytes((json.dumps(out,indent=2)+'\n').encode());print(out['small'],len(result),flush=True)
 if __name__=='__main__':main()

@@ -1,0 +1,12 @@
+{
+  "small": {
+    "helper_sets": 20996,
+    "capacity_checks": 600,
+    "domains": 120
+  },
+  "base": "174bdc2561bb2df0eaa3aa4db5c1e3e9c7c7291f",
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "claims_sha256": "24ed213bc3a9feb75463be259f4024cc0b12cfd705bd2210087b6a378c50047e",
+  "examined": 14,
+  "wins": {}
+}
