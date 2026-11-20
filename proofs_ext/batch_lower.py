@@ -91,12 +91,18 @@ def main():
     ap.add_argument("--binary", type=Path, default=ROOT / "work/proofs/exact_helpers.exe")
     ap.add_argument("--limit", type=int, default=0, help="stop after this many proofs (0 = all)")
     ap.add_argument("--collab", type=Path, default=ROOT / "collaboration/puzzle-bounds.csv")
+    ap.add_argument("--skip", default="",
+                    help="comma-separated id_hN stems to skip (known expensive grids)")
     args = ap.parse_args()
+    skip = {s.strip() for s in args.skip.split(",") if s.strip()}
     done = 0
     for budget, limit, opts, pid, missing, floor, upper in queue(
         ROOT / "data/puzzles.csv", args.collab, ROOT / "proofs_ext/bounds.csv",
         args.max_limit, args.max_budget, args.max_opts,
     ):
+        if f"{pid}_h{budget}" in skip:
+            print(f"=== {pid} h{budget} skipped by request", flush=True)
+            continue
         print(f"=== {pid} h{budget} opts {opts} limit {limit} floor {floor} upper {upper}", flush=True)
         result = None
         for attempt in range(4):
