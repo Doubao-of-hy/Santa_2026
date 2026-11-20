@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-20T14:48:06.303560+00:00",
+  "design_sha256": "c6ed14070cc021e3ce26b95d4e9d6f32cdb15fa45c759caff314c2ec6f3d48ac",
+  "input_sha256": "10c8c18e9e81c32543a5bdb7bfa0990c0a5442dc995c7ff6673f94050dfe6f0f",
+  "parent": "86b3f5c4bf6f3d5b15827c9aeabe12dcf341613b",
+  "before": 134285,
+  "Atakan_binary": "e84a271b2bfedb671f530b85b962e667c211d80023ec09c7ccb524b403ad2b75",
+  "Wang_binary": "2c21af8a0b0f51156c6cd47120a65c40511bb3514844604f2fd430b75b14b8ec",
+  "score": {
+    "A": {
+      "score": 134285,
+      "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+      "winners": {},
+      "double_replayed": 1000
+    },
+    "B": {
+      "score": 134285,
+      "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+      "winners": {},
+      "double_replayed": 1000
+    },
+    "C": {
+      "score": 134285,
+      "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+      "winners": {},
+      "double_replayed": 1000
+    },
+    "union": {
+      "score": 134285,
+      "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+      "winners": {},
+      "double_replayed": 1000
+    }
+  },
+  "runs": {
+    "A": {
+      "completed_wang": 118,
+      "completed_atakan": 0,
+      "wall_seconds": 168.0845
+    },
+    "B": {
+      "completed_wang": 111,
+      "completed_atakan": 7,
+      "wall_seconds": 168.0777
+    },
+    "C": {
+      "completed_wang": 125,
+      "completed_atakan": 0,
+      "wall_seconds": 168.0855
+    }
+  }
+}

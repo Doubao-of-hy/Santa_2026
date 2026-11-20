@@ -1,0 +1,5 @@
+id,source,upstream_source,instructions
+scored_0459,Local target partition / whole,"work/creative/ladder/lns-local.csv; Wang Jakie (incremental solver, Apache-2.0)",86
+scored_0816,Local target partition / whole,"work/creative/resume-135077/anneal-own-port160/shorter.csv; Wang Jakie (incremental solver, Apache-2.0)",105
+scored_0972,Local target partition / whole,"work/virtual/resume-135077/polish2-own-remaining.csv; Wang Jakie (incremental solver, Apache-2.0)",122
+scored_0232,Local target partition / whole,"work/virtual/lifetimes-135161/own-broad-all.csv; Wang Jakie (incremental solver, Apache-2.0)",168

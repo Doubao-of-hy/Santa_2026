@@ -1,0 +1,41 @@
+{
+  "revision": "b6f68c1c72b3d3333f07198ece619143201a66b4",
+  "history": [
+    "23c055416c9c57448db24867e094f8664622b488",
+    "98e392cc24e2fb68ecbf649e400d506205273372",
+    "9fb7f45e1f6e590fb81d28ab1929fff6240cd256",
+    "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d"
+  ],
+  "groups": {
+    "development": [
+      "scored_0614",
+      "scored_0696",
+      "scored_0769",
+      "scored_0569",
+      "scored_0756",
+      "scored_0483",
+      "scored_0257",
+      "scored_0015"
+    ],
+    "holdout": [
+      "scored_0425",
+      "scored_0635",
+      "scored_0199",
+      "scored_0943",
+      "scored_0554",
+      "scored_0178",
+      "scored_0683",
+      "scored_0354",
+      "scored_0704",
+      "scored_0433",
+      "scored_0850",
+      "scored_0678",
+      "scored_0204",
+      "scored_0526",
+      "scored_0373",
+      "scored_0857"
+    ]
+  },
+  "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "scope": "Both provenance lanes. Freeze current parent, older same-lane parents and (assisted only) the current independent parent. Use all arithmetic recipes on the union of the values from these parents. Compare a standard rank model with a helper-only minimum hitting-set approach. The latter repeatedly asks whether targets are generatable, treating all targets as enabled but starting from official seeds; an ungenerated target produces cuts by maximizing the values permitted without reaching it. Compare at 3 seconds per arm excluding common bank construction; run single-thread per worker. Only physically replayed legal shorter tapes count. Include positive synergy and unsupported-cycle controls; finite bank infeasibility is local to this bank."
+}

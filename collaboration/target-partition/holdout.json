@@ -1,0 +1,35 @@
+{
+  "frozen": "b6f68c1c72b3d3333f07198ece619143201a66b4",
+  "group": "holdout",
+  "results": {
+    "independent": {
+      "before": 140727,
+      "after": 140722,
+      "sha256": "f0778d8b7f895e2bf16b38ff97273d5f86239cd1d74778354432f830a3a19b22",
+      "savings": {
+        "whole": 5,
+        "random": 4,
+        "minimum_shared": 4
+      },
+      "strictly_better_than_whole": 0,
+      "winners": [
+        "scored_0459",
+        "scored_0816",
+        "scored_0972",
+        "scored_0232"
+      ]
+    },
+    "assisted": {
+      "before": 134285,
+      "after": 134285,
+      "sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+      "savings": {
+        "whole": 0,
+        "random": 0,
+        "minimum_shared": 0
+      },
+      "strictly_better_than_whole": 0,
+      "winners": []
+    }
+  }
+}

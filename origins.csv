@@ -230,7 +230,7 @@ scored_0228,work/virtual/reactive-134311/results/pure-holdout.csv,104
 scored_0229,work/virtual/portfolio-135289/own-wide-all.csv,152
 scored_0230,work/heritage/deep-own-wins.csv,222
 scored_0231,work/virtual/bank-135324/own-full-native.csv,187
-scored_0232,work/virtual/lifetimes-135161/own-broad-all.csv,169
+scored_0232,work/virtual/target-partition-134285/holdout-independent.csv,168
 scored_0233,work/gpu/domain-independent.csv,33
 scored_0234,work/virtual/portfolio-135289/own-all.csv,190
 scored_0235,work/gpu/lineage-independent.csv,206
@@ -457,7 +457,7 @@ scored_0455,work/gpu/bridge-36731/wide-first-release/wins.csv,27
 scored_0456,work/creative/own-good/part3-wins.csv,127
 scored_0457,work/virtual/resume-135077/polish2-own-remaining.csv,117
 scored_0458,work/gpu/walk-independent.csv,157
-scored_0459,work/creative/ladder/lns-local.csv,88
+scored_0459,work/virtual/target-partition-134285/holdout-independent.csv,86
 scored_0460,work/heritage/scale-own-wins.csv,171
 scored_0461,work/gen/matrix-atlas.csv,30
 scored_0462,work/creative/resume-135077/independent-final-140814/shorter.csv,123
@@ -814,7 +814,7 @@ scored_0812,work/gen/atlas-third.csv,111
 scored_0813,work/virtual/bank-135324/own-neutral-full.csv,228
 scored_0814,work/creative/own-good/part3-wins.csv,120
 scored_0815,work/heritage/deep-own-wins.csv,212
-scored_0816,work/creative/resume-135077/anneal-own-port160/shorter.csv,106
+scored_0816,work/virtual/target-partition-134285/holdout-independent.csv,105
 scored_0817,work/virtual/resume-135077/wang-second.csv,161
 scored_0818,work/gpu/bridge-36731/construct/balance-0818-1532-21.csv,21
 scored_0819,work/virtual/portfolio-135289/own-wide-all.csv,235
@@ -970,7 +970,7 @@ scored_0968,work/virtual/lifetimes-135161/polish/own-wins.csv,168
 scored_0969,work/virtual/portfolio-135289/own-retire-hold.csv,159
 scored_0970,work/virtual/lifetimes-135161/own-broad-all.csv,238
 scored_0971,work/gen/atlas-continued.csv,18
-scored_0972,work/virtual/resume-135077/polish2-own-remaining.csv,123
+scored_0972,work/virtual/target-partition-134285/holdout-independent.csv,122
 scored_0973,work/virtual/good10-wang-269/results/batch-03/winners.csv,115
 scored_0974,work/virtual/bank-135324/own-full-native.csv,246
 scored_0975,work/virtual/good10-wang-269/results/batch-02/winners.csv,107
