@@ -1,0 +1,331 @@
+{
+ "base": "34a7042fc940dc6abb47760161110d71d3ccc6d6",
+ "cases": {
+  "scored_0362-reported": {
+   "id": "scored_0362",
+   "arm": "reported",
+   "before": 111,
+   "after": 112,
+   "mode": "anneal",
+   "seed": 491291,
+   "rounds": 1000,
+   "omitted": [
+    "Ozer_dataset_0901"
+   ],
+   "expected_program_sha256": "c561e8a181dbe3a3a78f8e8ff8138d7df9fdfdd10314fba42fa26b5794b6ccb0",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+     "sha256": "c561e8a181dbe3a3a78f8e8ff8138d7df9fdfdd10314fba42fa26b5794b6ccb0",
+     "role": "base"
+    }
+   ]
+  },
+  "scored_0362-own": {
+   "id": "scored_0362",
+   "arm": "own",
+   "before": 112,
+   "after": 112,
+   "mode": "anneal",
+   "seed": 491291,
+   "rounds": 1000,
+   "omitted": [],
+   "expected_program_sha256": "7fce6ea2558612922d571cf5a38e26ea9cdee73bb34e955e044e492fbc71a06d",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv",
+     "sha256": "7fce6ea2558612922d571cf5a38e26ea9cdee73bb34e955e044e492fbc71a06d"
+    },
+    {
+     "origin": "23c055416c9c57448db24867e094f8664622b488:submission.csv",
+     "credit": "work/heritage/scale-own-wins.csv",
+     "sha256": "653e97cdc82a8ac9fa44d62d8cd3968339e89f5e381d937fcf17bad01259fc54"
+    },
+    {
+     "origin": "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d:submission.csv",
+     "credit": "work/gen/matrix-atlas.csv",
+     "sha256": "7ac8e6d1ddf5a14a4ef8141582572d8dfa2dba1ee6f70cd8c964a20843f49891"
+    }
+   ]
+  },
+  "scored_0362-public": {
+   "id": "scored_0362",
+   "arm": "public",
+   "before": 111,
+   "after": 111,
+   "mode": "anneal",
+   "seed": 491291,
+   "rounds": 1000,
+   "omitted": [],
+   "expected_program_sha256": "d44bafd12e6d8444b201cdca9e52f6b7e58b472cfe349629ecf4941823a7b23a",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "0d49616d775f755526dd2877336835a46af991c64e16448b619bba7373d8b516",
+   "binary_sha256": "38f0a1f659b25de6959615ed11e0af8cc0deebad35796644bb92455b922582fd",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:public-assisted/submission.csv",
+     "credit": "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",
+     "sha256": "d44bafd12e6d8444b201cdca9e52f6b7e58b472cfe349629ecf4941823a7b23a"
+    },
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/creative/resume-135077/independent-final-140814/shorter.csv",
+     "sha256": "7fce6ea2558612922d571cf5a38e26ea9cdee73bb34e955e044e492fbc71a06d"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+     "sha256": "c561e8a181dbe3a3a78f8e8ff8138d7df9fdfdd10314fba42fa26b5794b6ccb0"
+    },
+    {
+     "origin": "23c055416c9c57448db24867e094f8664622b488:submission.csv",
+     "credit": "work/heritage/scale-own-wins.csv",
+     "sha256": "653e97cdc82a8ac9fa44d62d8cd3968339e89f5e381d937fcf17bad01259fc54"
+    },
+    {
+     "origin": "work/creative/asterios-v10/best_programs.csv",
+     "credit": "konbu17 dataset (graph recombination)",
+     "sha256": "5b3345d3b2543e655aa6b6c8d1e7db11b15d19c872fb11b299362eb25f767243"
+    }
+   ]
+  },
+  "scored_0501-reported": {
+   "id": "scored_0501",
+   "arm": "reported",
+   "before": 110,
+   "after": 111,
+   "mode": "incremental",
+   "seed": 491431,
+   "rounds": 1000,
+   "omitted": [],
+   "expected_program_sha256": "23f6caa8f59bbe6df26a339bab01aae6c6466e2c85ebeb341fbc7d06ede69831",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295",
+   "binary_sha256": "2c21af8a0b0f51156c6cd47120a65c40511bb3514844604f2fd430b75b14b8ec",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+     "sha256": "feaacd71295dcadcafbefe02e0547e9f8ff712a5739a0abeb346c0982d16b377",
+     "role": "base"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+     "sha256": "e85a173520ab0d7b75c6424c140d847c4a8a9504726d4f1b7d83e2932805354a",
+     "role": "Our_v22_public"
+    }
+   ]
+  },
+  "scored_0501-public": {
+   "id": "scored_0501",
+   "arm": "public",
+   "before": 110,
+   "after": 110,
+   "mode": "incremental",
+   "seed": 491431,
+   "rounds": 1000,
+   "omitted": [],
+   "expected_program_sha256": "4ce06f1da23134af61a9a74438283e8e6caf095d0110352fbd82005ffd5c7364",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295",
+   "binary_sha256": "2c21af8a0b0f51156c6cd47120a65c40511bb3514844604f2fd430b75b14b8ec",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:public-assisted/submission.csv",
+     "credit": "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier.",
+     "sha256": "4ce06f1da23134af61a9a74438283e8e6caf095d0110352fbd82005ffd5c7364"
+    },
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+     "sha256": "feaacd71295dcadcafbefe02e0547e9f8ff712a5739a0abeb346c0982d16b377"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+     "sha256": "e85a173520ab0d7b75c6424c140d847c4a8a9504726d4f1b7d83e2932805354a"
+    },
+    {
+     "origin": "work/creative/asterios-v79/best_programs.csv",
+     "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+     "sha256": "40fa6be0f8c105b34cfda5928d81521126c18144850c1fc3087ba891d19eab94"
+    },
+    {
+     "origin": "248894967985e4e6a68ec188d8387b9f43056f9b:submission.csv",
+     "credit": "work/creative/own-good/part2-wins.csv",
+     "sha256": "3a78b236e7d0a5b1734dbdd7ef65ac331771f72626dc1aa8a1eb3dc507b67c5c"
+    }
+   ]
+  },
+  "scored_0501-own": {
+   "id": "scored_0501",
+   "arm": "own",
+   "before": 112,
+   "after": 112,
+   "mode": "incremental",
+   "seed": 491431,
+   "rounds": 1000,
+   "omitted": [],
+   "expected_program_sha256": "feaacd71295dcadcafbefe02e0547e9f8ff712a5739a0abeb346c0982d16b377",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134288/versions/1",
+   "source_sha256": "7cacf520cc05d4c6eb56c6b8ba85e7407936315d72a45db922b802cfdac7c295",
+   "binary_sha256": "2c21af8a0b0f51156c6cd47120a65c40511bb3514844604f2fd430b75b14b8ec",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/creative/resume-135077/anneal-independent-full35/shorter.csv",
+     "sha256": "feaacd71295dcadcafbefe02e0547e9f8ff712a5739a0abeb346c0982d16b377"
+    },
+    {
+     "origin": "248894967985e4e6a68ec188d8387b9f43056f9b:submission.csv",
+     "credit": "work/creative/own-good/part2-wins.csv",
+     "sha256": "3a78b236e7d0a5b1734dbdd7ef65ac331771f72626dc1aa8a1eb3dc507b67c5c"
+    },
+    {
+     "origin": "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d:submission.csv",
+     "credit": "work/gen/arsen-delete-full.csv",
+     "sha256": "be5e665b084bacaf5008f21ff3dc4779b6c728289f3ecf1317fbe6b1fd5b1dc9"
+    }
+   ]
+  },
+  "scored_0064-reported": {
+   "id": "scored_0064",
+   "arm": "reported",
+   "before": 112,
+   "after": 111,
+   "mode": "oldest",
+   "seed": 490995,
+   "rounds": 1100,
+   "omitted": [
+    "Local_retained_pool_134410_eviction_compare_1555_anneal_retained"
+   ],
+   "expected_program_sha256": "6d523109d40c305801accc44b20f040c94be75a6a0e4e93d43466ae96d9ae227",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134190/versions/1",
+   "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+   "binary_sha256": "68d03ee84eed9f701802fb0b5fd72b1c6e5278da2134a2a0f77f290a78f10e58",
+   "inputs": [
+    {
+     "origin": "work/creative/public-refresh-134321/asterios120/best_programs.csv",
+     "credit": "Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",
+     "sha256": "435b45cae3727adb94748c266db5dee73cacb2703f6a73b62d53bc9c2633fa82",
+     "role": "base"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+     "sha256": "d1bbe49f62ca4f0e3c493f2e012ac6e32c16f23ca5f4e6917993767880a5d526",
+     "role": "Our_v22_public"
+    },
+    {
+     "origin": "work/creative/resume-135077/asterios119/best_programs.csv",
+     "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+     "sha256": "0ceb9a65693bf94c779d79ab8ff88c7da83f88265656cd2288b16fdd59a0f265",
+     "role": "Our_v37_public"
+    },
+    {
+     "origin": "work/creative/frontier-134285/good11/our_programs.csv",
+     "credit": "goodpjw2008, release 11 with Wang Jakie, E-Max AI and credited public sources",
+     "sha256": "be5f4d4b77a3b447dbbb9422627963aa695587871062b8100c7012cfa1750396",
+     "role": "Additional_public_1_1700"
+    }
+   ]
+  },
+  "scored_0064-public": {
+   "id": "scored_0064",
+   "arm": "public",
+   "before": 112,
+   "after": 112,
+   "mode": "oldest",
+   "seed": 490995,
+   "rounds": 1100,
+   "omitted": [],
+   "expected_program_sha256": "b4c2854d1cca2c76e2cf9142739b1fe42c6c6c248362c5f7b1bba6fdb73a54e1",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134190/versions/1",
+   "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+   "binary_sha256": "68d03ee84eed9f701802fb0b5fd72b1c6e5278da2134a2a0f77f290a78f10e58",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/virtual/resume-135077/wang-second.csv",
+     "sha256": "b4c2854d1cca2c76e2cf9142739b1fe42c6c6c248362c5f7b1bba6fdb73a54e1"
+    },
+    {
+     "origin": "work/creative/public-refresh-134321/asterios120/best_programs.csv",
+     "credit": "Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",
+     "sha256": "435b45cae3727adb94748c266db5dee73cacb2703f6a73b62d53bc9c2633fa82"
+    },
+    {
+     "origin": "work/creative/frontier-134285/good11/our_programs.csv",
+     "credit": "goodpjw2008, release 11 with Wang Jakie, E-Max AI and credited public sources",
+     "sha256": "be5f4d4b77a3b447dbbb9422627963aa695587871062b8100c7012cfa1750396"
+    },
+    {
+     "origin": "work/creative/resume-135077/asterios119/best_programs.csv",
+     "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+     "sha256": "0ceb9a65693bf94c779d79ab8ff88c7da83f88265656cd2288b16fdd59a0f265"
+    },
+    {
+     "origin": "work/creative/asterios-v113/best_programs.csv",
+     "credit": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+     "sha256": "d1bbe49f62ca4f0e3c493f2e012ac6e32c16f23ca5f4e6917993767880a5d526"
+    }
+   ]
+  },
+  "scored_0064-own": {
+   "id": "scored_0064",
+   "arm": "own",
+   "before": 112,
+   "after": 112,
+   "mode": "oldest",
+   "seed": 490995,
+   "rounds": 1100,
+   "omitted": [],
+   "expected_program_sha256": "b4c2854d1cca2c76e2cf9142739b1fe42c6c6c248362c5f7b1bba6fdb73a54e1",
+   "publication": "https://www.kaggle.com/datasets/royalacecat/santa-2026-retained-replay-inputs-134190/versions/1",
+   "source_sha256": "fef0dc8e8f8ed72efac14c1f4c0a1ecb50069517747bb30924d30bbfcf73c62f",
+   "binary_sha256": "68d03ee84eed9f701802fb0b5fd72b1c6e5278da2134a2a0f77f290a78f10e58",
+   "inputs": [
+    {
+     "origin": "34a7042fc940dc6abb47760161110d71d3ccc6d6:submission.csv",
+     "credit": "work/virtual/resume-135077/wang-second.csv",
+     "sha256": "b4c2854d1cca2c76e2cf9142739b1fe42c6c6c248362c5f7b1bba6fdb73a54e1"
+    },
+    {
+     "origin": "eb25706372f30d01e896b35ba289a414055e31d1:submission.csv",
+     "credit": "work/virtual/carry-135348/own-full-deep.csv",
+     "sha256": "d1bbe49f62ca4f0e3c493f2e012ac6e32c16f23ca5f4e6917993767880a5d526"
+    },
+    {
+     "origin": "1fb2d8cd4292b45be1bcad8c69e3a293ba62625d:submission.csv",
+     "credit": "work/virtual/matrix-wide-high.csv",
+     "sha256": "fd6b3076fb28a7baced47b41198f2ada6fdb7a4cb14c70e02ec37d92a38b45f5"
+    }
+   ]
+  }
+ },
+ "portfolios": {
+  "own": {
+   "instructions": 140722,
+   "rows": 1000,
+   "wins": {},
+   "sha256": "f0778d8b7f895e2bf16b38ff97273d5f86239cd1d74778354432f830a3a19b22"
+  },
+  "public": {
+   "instructions": 134182,
+   "rows": 1000,
+   "wins": {
+    "scored_0064": 1
+   },
+   "sha256": "74998911451d003cb3efbba0943e74a9daeeafc1a1f73bcf3171cd5bac93db78"
+  }
+ }
+}

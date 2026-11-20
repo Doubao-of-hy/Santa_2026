@@ -22,10 +22,11 @@ def main():
     ap.add_argument("--id",action="append",help="repeat to select several cases; default is all recorded cases")
     ap.add_argument("--compiler")
     ap.add_argument("--scratch",type=Path)
+    ap.add_argument("--book",type=Path,default=Path(__file__).with_name("cases.json.gz"))
     args=ap.parse_args()
     repo=args.repo.resolve();sys.path.insert(0,str(repo))
     from elf import check,read_puzzles
-    book=json.loads(gzip.decompress(Path(__file__).with_name("cases.json.gz").read_bytes()))
+    book=json.loads(gzip.decompress(args.book.read_bytes()))
     puzzles={p.id:p for p in read_puzzles(args.puzzles)}
     compiler=args.compiler or shutil.which("g++")
     if not compiler:raise SystemExit("Specify a C++17 compiler with --compiler")
@@ -39,7 +40,7 @@ def main():
         for h in headers:(work/h).write_bytes(blob(h))
         built={}
         for i in ids:
-            case=book["cases"][i];p=puzzles[i];mode=case["mode"]
+            case=book["cases"][i];p=puzzles[case.get("id",i)];mode=case["mode"]
             if mode not in built:
                 filename="incremental.cpp" if mode.startswith("incremental") else "anneal.cpp"
                 data=blob(filename)

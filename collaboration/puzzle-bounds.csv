@@ -62,7 +62,7 @@ scored_0060,41,36,41,conditioned-bounds.json,272,252,252,211,0
 scored_0061,4,4,4,domain-bounds.csv,4,4,4,0,1
 scored_0062,39,35,39,conditioned-bounds.json,153,147,147,108,0
 scored_0063,40,38,41,distinct-diamond/claims.json.gz,102,101,101,60,0
-scored_0064,42,39,43,distinct-diamond/claims.json.gz,112,112,112,69,0
+scored_0064,42,39,43,distinct-diamond/claims.json.gz,112,111,111,68,0
 scored_0065,19,21,21,proofs_ext,38,36,36,15,0
 scored_0066,19,17,19,helper-wave13.json,41,37,37,18,0
 scored_0067,41,37,42,distinct-diamond/claims.json.gz+distinct-helper-edges/conditioned-full-certificates.json,280,257,257,215,0
