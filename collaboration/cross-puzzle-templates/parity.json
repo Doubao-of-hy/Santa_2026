@@ -1,0 +1,65 @@
+[
+  {
+    "arm": "frequent",
+    "cap": 10000000,
+    "attempted": 102,
+    "valid": 48,
+    "unique": 45
+  },
+  {
+    "arm": "rare",
+    "cap": 10000000000000,
+    "attempted": 660,
+    "valid": 330,
+    "unique": 256
+  },
+  {
+    "arm": "scrambled",
+    "cap": 1000000000000000000,
+    "attempted": 126,
+    "valid": 30,
+    "unique": 30
+  },
+  {
+    "arm": "frequent",
+    "cap": 10000000,
+    "attempted": 648,
+    "valid": 486,
+    "unique": 392
+  },
+  {
+    "arm": "rare",
+    "cap": 10000000000000,
+    "attempted": 96,
+    "valid": 57,
+    "unique": 48
+  },
+  {
+    "arm": "scrambled",
+    "cap": 1000000000000000000,
+    "attempted": 660,
+    "valid": 183,
+    "unique": 171
+  },
+  {
+    "arm": "frequent",
+    "cap": 10000000,
+    "attempted": 114,
+    "valid": 75,
+    "unique": 75
+  },
+  {
+    "arm": "rare",
+    "cap": 10000000000000,
+    "attempted": 684,
+    "valid": 265,
+    "unique": 196
+  },
+  {
+    "arm": "scrambled",
+    "cap": 1000000000000000000,
+    "attempted": 114,
+    "valid": 38,
+    "unique": 34
+  }
+]

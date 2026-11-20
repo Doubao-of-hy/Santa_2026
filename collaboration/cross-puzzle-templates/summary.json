@@ -1,0 +1,162 @@
+{
+  "practice-held": {
+    "puzzles": 24,
+    "parent": 4544,
+    "old": 4526,
+    "arms": {
+      "frequent": {
+        "attempted": 330642,
+        "valid": 247067,
+        "unique": 170681,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 28,
+        "extra_candidates": 192,
+        "score": 4525
+      },
+      "rare": {
+        "attempted": 330642,
+        "valid": 135266,
+        "unique": 92411,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 17,
+        "extra_candidates": 117,
+        "score": 4525
+      },
+      "scrambled": {
+        "attempted": 330642,
+        "valid": 79301,
+        "unique": 57839,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 19,
+        "extra_candidates": 104,
+        "score": 4526
+      }
+    }
+  },
+  "scored-dev": {
+    "puzzles": 8,
+    "parent": 1325,
+    "old": 1325,
+    "arms": {
+      "frequent": {
+        "attempted": 61842,
+        "valid": 50263,
+        "unique": 39404,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 5,
+        "extra_candidates": 9,
+        "score": 1325
+      },
+      "rare": {
+        "attempted": 61842,
+        "valid": 27865,
+        "unique": 20940,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 1,
+        "parent_large_exact": 1,
+        "extra_candidates": 19,
+        "score": 1325
+      },
+      "scrambled": {
+        "attempted": 61842,
+        "valid": 16472,
+        "unique": 12895,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 0,
+        "extra_candidates": 4,
+        "score": 1325
+      }
+    }
+  },
+  "scored-held": {
+    "puzzles": 4,
+    "parent": 698,
+    "old": 698,
+    "arms": {
+      "frequent": {
+        "attempted": 122484,
+        "valid": 99480,
+        "unique": 69461,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 8,
+        "extra_candidates": 9,
+        "score": 698
+      },
+      "rare": {
+        "attempted": 122484,
+        "valid": 52142,
+        "unique": 36536,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 4,
+        "extra_candidates": 34,
+        "score": 698
+      },
+      "scrambled": {
+        "attempted": 122484,
+        "valid": 32913,
+        "unique": 23874,
+        "exact_goals": 0,
+        "large_exact_goals": 0,
+        "with_seed_edge": 0,
+        "parent_large_exact": 2,
+        "extra_candidates": 12,
+        "score": 698
+      }
+    }
+  },
+  "lift-dev": {
+    "puzzles": 8,
+    "parent": 1325,
+    "old": 1325,
+    "arms": {
+      "frequent": {
+        "attempted": 3894540,
+        "valid": 2958207,
+        "unique": 1736234,
+        "exact_goals": 3,
+        "large_exact_goals": 3,
+        "with_seed_edge": 10,
+        "parent_large_exact": 51,
+        "extra_candidates": 46,
+        "score": 1325
+      },
+      "rare": {
+        "attempted": 3894540,
+        "valid": 1551539,
+        "unique": 922120,
+        "exact_goals": 1,
+        "large_exact_goals": 1,
+        "with_seed_edge": 7,
+        "parent_large_exact": 36,
+        "extra_candidates": 144,
+        "score": 1325
+      },
+      "scrambled": {
+        "attempted": 3894540,
+        "valid": 1009319,
+        "unique": 633179,
+        "exact_goals": 1,
+        "large_exact_goals": 1,
+        "with_seed_edge": 4,
+        "parent_large_exact": 28,
+        "extra_candidates": 69,
+        "score": 1325
+      }
+    }
+  }
+}
