@@ -136,7 +136,7 @@ def main():
             winners[key] = (best_arm, best)
     if winners:
         write_submission(a.output / "wins.csv", [p for k,p in puzzles.items() if k in winners],
-                         {key:r["program"] for key,(_,r) in winners.items()})
+                         {key:tuple(tuple(s) for s in r["program"]) for key,(_,r) in winners.items()})
     paired = Counter()
     for r in whole.values():
         diff = r["arms"]["isolated"]["steps"] - r["arms"]["exchange"]["steps"]

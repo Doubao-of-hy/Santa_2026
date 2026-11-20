@@ -1,0 +1,914 @@
+{
+ "frozen_commit": "62378d6b929bb436f46cb85c2cff80764c58af2d",
+ "frozen_score": 134324,
+ "cohort": "All 50 four-source release improvements over 472b715 in 62378d6. Exclude separately acquired 0152. No length filtering on this cohort.",
+ "rows": {
+  "scored_0016": [
+   {
+    "source": "62378d6 public",
+    "length": 125,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "2f95ddf76b9c195cfe27a0a992f9bab07ba01e484eaf3dbdf9c47d67ae3f9912"
+   },
+   {
+    "source": "472b715 public",
+    "length": 127,
+    "credit": "Generated from official inputs",
+    "program_sha256": "9e8145bb6578e511425eeed3cf8f2480f61c77bee4e34fde28ce4ec748a5486e"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 127,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "4c438b5552f74e355094daa28edb6e5d460fc6e1d7f391f55febc10c9ee4ea31"
+   }
+  ],
+  "scored_0053": [
+   {
+    "source": "62378d6 public",
+    "length": 109,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "d4b21dc4623647cc9c494590ae67fce3622641e88ce2fe524e046430657683c4"
+   },
+   {
+    "source": "472b715 public",
+    "length": 110,
+    "credit": "Generated from official inputs",
+    "program_sha256": "98101e80e1e454cb3f4370e52ebded613c271e0b4039291996c7eec0923f9db0"
+   }
+  ],
+  "scored_0063": [
+   {
+    "source": "62378d6 public",
+    "length": 101,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "af4e3d14916697726204cbbeb1be656b0dc374bf9b25573eacb4d7077ab74442"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 102,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "e6c91b8acf4d0297f0193693f912e93d085c605dfbe8187bdc0335ce15956dba"
+   }
+  ],
+  "scored_0072": [
+   {
+    "source": "62378d6 public",
+    "length": 101,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "1c3333837e94d706243fc9abe6a8690e4fb80c8f4dc6f0821af7480625a7a5bc"
+   },
+   {
+    "source": "472b715 public",
+    "length": 102,
+    "credit": "Generated from official inputs",
+    "program_sha256": "41b3784728d9a2368272fb62b5edb5d7c7a45d10869e80a57754c18cd0bcc48e"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 102,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "f7186036f886f0980e9d8c6fc1a23373147827eef633e22582d821ad0c4e6a76"
+   }
+  ],
+  "scored_0089": [
+   {
+    "source": "62378d6 public",
+    "length": 120,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "871168bdff2b9e616ca6f3ee124af88dd72d3f1f699f0740ec4f88147568aade"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 121,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "358dbb83315160da7025e8dfab25a13a203cfbff36fbcaa74885f21b8b3075ea"
+   }
+  ],
+  "scored_0131": [
+   {
+    "source": "62378d6 public",
+    "length": 95,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "e259eff8ed938f4392795990187eeaa7f01a82adc5a015143fb258be41efce1b"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 96,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "b8931ac6a4376664060cc2071f82d7ecd6f094098aedc9c016aa273bebb1090c"
+   }
+  ],
+  "scored_0140": [
+   {
+    "source": "62378d6 public",
+    "length": 162,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "fd85cce7a86a668fd7c4ad26612e56da0f03b07e82b0bcd2cf8d2e94d1a2bd0f"
+   },
+   {
+    "source": "472b715 public",
+    "length": 163,
+    "credit": "Elias T.-H. Shieh dataset (our search and Mizero's peephole pass)",
+    "program_sha256": "f6fac6471d69010a7c0e2f81f94bf709234b062088f7a6a893775193e081f602"
+   }
+  ],
+  "scored_0147": [
+   {
+    "source": "62378d6 public",
+    "length": 96,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "8271f997699691f5686f45bac931c0a296fafd0225d7f9ee60d88138985c932a"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 97,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "6b145f3103ebb5bfb00b10e9cc60bc4321a93b0eb571cc47e5c75cdf0dc48697"
+   }
+  ],
+  "scored_0186": [
+   {
+    "source": "62378d6 public",
+    "length": 108,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "6209e32ffe866d68c17bafe9be6ac6b818ad789450cc1cc3b196e4401e356e8c"
+   },
+   {
+    "source": "472b715 public",
+    "length": 109,
+    "credit": "wang Jakie Kaggle 371736767 Apache-2.0 | project public 134408 — Asterios v117 credits E-Max AI, Santa 2026 | Public Frontier | Score 134,465",
+    "program_sha256": "19fd59a5b98284c28143508a670725c7970897546142e1f2316581105cbd7b1a"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 109,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "f8bdeb7e22b299b0eff653904faef5256ca83b1b8832656dcaf05045b0e474b0"
+   }
+  ],
+  "scored_0197": [
+   {
+    "source": "62378d6 public",
+    "length": 113,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "2893570451ec7aa41d6f9ddc418fdcd4350554787c304ef08284ef0adbf22d55"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 114,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "ff1393a28d029263bd7883f76582bea8af0b8e0c0fc7090cd5b293ca8e4f7468"
+   }
+  ],
+  "scored_0214": [
+   {
+    "source": "62378d6 public",
+    "length": 125,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "70e4c27fa5c772802c038380bd3197b274516ec97e79fcbc61bc451f42b735f7"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 126,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "b034e4064c7306d6e1001567648abea4ad99ba444e17b6be528981a334933bb8"
+   }
+  ],
+  "scored_0240": [
+   {
+    "source": "62378d6 public",
+    "length": 112,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "dde9747a156859d8f5c2d2164eb73bb15b2fff8edadafb51f11ab57e1130318b"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 113,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "476b8da181d421678b1790d96fb3f30f76f228ce3d0406ee5da76a12172e74e6"
+   }
+  ],
+  "scored_0304": [
+   {
+    "source": "62378d6 public",
+    "length": 121,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "97e07816856d8e2ad2b3e83578071275246a9f05f1f881c0bac7102ee27fbc63"
+   },
+   {
+    "source": "472b715 public",
+    "length": 123,
+    "credit": "Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",
+    "program_sha256": "5815486608d3fa26e0ac3d2a7aaaf1ad87c3e35b13320313d6bad223aab7ebe4"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 122,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "b77ee84b7b74e9d2d2730f88fdf72854d122dcf91808bd472b02812aaf09ca49"
+   }
+  ],
+  "scored_0310": [
+   {
+    "source": "62378d6 public",
+    "length": 114,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "f514c53461c99541deb90da0464a7ba1ecf07fa615dfa52b7a4bc93d2e5d777b"
+   },
+   {
+    "source": "472b715 public",
+    "length": 115,
+    "credit": "Generated from official inputs",
+    "program_sha256": "0bd3f0242e25514977cceb2cb42aadfce22bc29b75e8f5edada0cf4c4b963653"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 115,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "f7e93c9973c8fca163900a06933a5e1a8d8ac6ee369d2265dcfd5632b490b251"
+   }
+  ],
+  "scored_0325": [
+   {
+    "source": "62378d6 public",
+    "length": 102,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "5f87f932abef1fca6e5f9314200beb5e4d12254028fddf750c702e77e8105007"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 105,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: Roman Rozen, Santa 2026 | IceFire Strong Start",
+    "program_sha256": "e3240a636e2e26c9b7693c0a64061a846e540d671f0a86a031e1b6c7f4976c0e"
+   },
+   {
+    "source": "472b715 public",
+    "length": 104,
+    "credit": "Generated from official inputs",
+    "program_sha256": "01fa24d4b1e00201aab90f217905f0e008af211c1056e41d3a70ab4edea3a4d4"
+   }
+  ],
+  "scored_0330": [
+   {
+    "source": "62378d6 public",
+    "length": 123,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "8158e14cff08de8c6d0c5d187475e7c4bb4eb35143b4014a320fffc2f30baea9"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 124,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "f183feee1112aaf559bf9f2781ce4768d0c8a84b3cc2bd98c809c1f4684eb4ba"
+   }
+  ],
+  "scored_0354": [
+   {
+    "source": "62378d6 public",
+    "length": 115,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "ef5045d32e4acb29067a3eb0f5145c2b122d6a60f09dcac39b5b42ac8a3a9b2d"
+   },
+   {
+    "source": "472b715 public",
+    "length": 116,
+    "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+    "program_sha256": "e754b4d8966c083be99eed8e8bdaf0838d06d7cca4517faff8a3ac5ceb5f440e"
+   }
+  ],
+  "scored_0385": [
+   {
+    "source": "62378d6 public",
+    "length": 115,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "584a36f7ebd8186788c92cea89f0c3dad004284a671d405cf9b3cfc0f6fe4182"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 116,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "cc90a1738702aa979e6de1a037c3fd1bff93ae97eb840a9a1ff25faefdc36302"
+   },
+   {
+    "source": "472b715 public",
+    "length": 116,
+    "credit": "Generated from official inputs",
+    "program_sha256": "42f1f93094b6260f9326c4a389f0de1aa630dc3ab07325cabf7f0b0d16875e3a"
+   }
+  ],
+  "scored_0407": [
+   {
+    "source": "62378d6 public",
+    "length": 156,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "08c077eee3e26ad5700b4470b5e025d89cb3d19574d5efc97c8a8896178f3fdf"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 157,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "583ccd1c7e5bc147013279cf2bc6891a7b71ab260982bb2170cc1a7cfc0c8f42"
+   }
+  ],
+  "scored_0421": [
+   {
+    "source": "62378d6 public",
+    "length": 112,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "a7f9e4835d40a4bc462776c22895f53999a762f0db8e213945771e51ae0ded31"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 112,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "fb66000e75e8c39006a50100b725af7744d6c9c9c1d0546b1453e7ff09544af2"
+   },
+   {
+    "source": "472b715 public",
+    "length": 113,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,561",
+    "program_sha256": "e2432cb8117ac46a6d358e4314578e50b9318aae4c099156d4121e4e34b8c997"
+   }
+  ],
+  "scored_0427": [
+   {
+    "source": "62378d6 public",
+    "length": 117,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "c76511fdac3b4696d716ba9e021fc631e1e43f7f4562fefd5a533bca5db35593"
+   },
+   {
+    "source": "472b715 public",
+    "length": 118,
+    "credit": "wang Jakie Kaggle 371736767 Apache-2.0 | project public 134408 — wang Jakie Kaggle 371736767 Apache-2.0 | project public 134487 — Generated from official inputs",
+    "program_sha256": "3fc9fc210f76f91e862fdd7d6b79a6d990a4145aa3114db980a42f3db6c9002f"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 117,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "eca196b862dd2d04e7688ff5b596e4c40000f6143db99358f41f977e8107e3fe"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 119,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "33d57dfa17869dd34fc71960b298d5b731752d7f85e191bbd15d42a254d7393f"
+   }
+  ],
+  "scored_0436": [
+   {
+    "source": "62378d6 public",
+    "length": 108,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "cea5e7c9c32d70513a8fc933822f7f245f8317d7a7fe279880acdf2cf83f6804"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 109,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "897e02dd1d260929fc3a3a2959c59502e34d33a620ce412197439c2e51fdf96a"
+   }
+  ],
+  "scored_0464": [
+   {
+    "source": "62378d6 public",
+    "length": 77,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "b1be6e45bcc853d0c7fe9bace82b5c5e82d0303ddf237cbdaa9277ba082e18f7"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 78,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "f7b6f1679c6ac242e0b584c5e654154b52bd3c65cd098f59a1d15272dc0079bd"
+   }
+  ],
+  "scored_0495": [
+   {
+    "source": "62378d6 public",
+    "length": 95,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "7f2cfa72cd67a7d221a0ad536b419336099465cefdc3e3a577d7aa94bee7fd7d"
+   },
+   {
+    "source": "472b715 public",
+    "length": 96,
+    "credit": "Generated from official inputs",
+    "program_sha256": "1ac8f75f21ff5433040ec279b1370827c5e465b50c5982329c63c1124a2a7312"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 97,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "d50d7cedfd040d9775792b14385243dc520f96450ba201509a88133fafb09b7e"
+   }
+  ],
+  "scored_0557": [
+   {
+    "source": "62378d6 public",
+    "length": 109,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "8299ea9b1be24dca279928d54936c9689a69203dca5b6ff33d5449eeac96705f"
+   },
+   {
+    "source": "472b715 public",
+    "length": 110,
+    "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+    "program_sha256": "1317dfb56e7933dac3d583978e88b5f5b4e323d1b917640a85baeaa3f8914903"
+   }
+  ],
+  "scored_0563": [
+   {
+    "source": "62378d6 public",
+    "length": 110,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "f085bb3b49e32cd5d20e25f83ee46814add5d67c5dc26c4e0e401e1904361112"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 111,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "338d9fda243517934ebfd7e0df997e21e6779034b82db62dc23d42e107e9ee5d"
+   }
+  ],
+  "scored_0568": [
+   {
+    "source": "62378d6 public",
+    "length": 105,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "7fe7dbde3fd96a4bb2525aa0ef71b7cf42751b547a6c47db1590a20d4120b983"
+   },
+   {
+    "source": "472b715 public",
+    "length": 106,
+    "credit": "Generated from official inputs",
+    "program_sha256": "49c683d30ab0e53d9e01d32c26f0ac6c7fcb6e6083ddbb437a89b2f201d5614c"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 106,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+    "program_sha256": "1ef28fe5e8160740ac7e7c709ea9d65d9a353d1f916bef6c6b41f7c4800c7ab3"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 106,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "510ed4d63a79ea18d1b7e057a86c925c58fa42bfacac9333c97fb3c184e92204"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 105,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "d11feb232015a16b435e4a34aa7fe80ae73063f472e0baebe9feb35d8b21003d"
+   }
+  ],
+  "scored_0590": [
+   {
+    "source": "62378d6 public",
+    "length": 108,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "b0dcbf6125d1064d7b9895bbb8d0270525f397d0b2a81697def446979e42caac"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 110,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "054085c6ca0518d06ea23653451ab9ee38e122bdade533b2f6af82433502057d"
+   }
+  ],
+  "scored_0606": [
+   {
+    "source": "62378d6 public",
+    "length": 159,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "08b2feef706f3aabe8f840275bae5278e1ce75f263b8777c6534ba553bf2d35b"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 160,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "3c23f521f868e58b842d77915f7dbd8582db5e9fb0b8817c360a600ce8c09712"
+   }
+  ],
+  "scored_0607": [
+   {
+    "source": "62378d6 public",
+    "length": 110,
+    "credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+    "program_sha256": "44662fd94f66665919336cbcecd9bc980960b7a30426a805a1a7d342fa09f22c"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 111,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "5916588d38f78efe25e66fab18f907d44279708b1a8b2b6f5a1c8eeda5dd3231"
+   }
+  ],
+  "scored_0643": [
+   {
+    "source": "62378d6 public",
+    "length": 125,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "510807404da01eaec30caa732adad9b69cd044907b153fc1dd8c2a9714f5baa9"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 126,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "bb92f4050a4ac5bf3121cfea96a4b3cccc43be463d769b7c864e0781f2b1b2fb"
+   }
+  ],
+  "scored_0705": [
+   {
+    "source": "62378d6 public",
+    "length": 108,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "f6c19fed570fee8ffdb5f046ae379a34ed81d2161877790f307d28bbb73f60e2"
+   },
+   {
+    "source": "472b715 public",
+    "length": 109,
+    "credit": "Generated from official inputs",
+    "program_sha256": "e3fc2d551875d33affc7e1499555f6ab3a6c510dbc4ce53e1f421a9b5fdf781f"
+   }
+  ],
+  "scored_0713": [
+   {
+    "source": "62378d6 public",
+    "length": 99,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "d739a7ba90f06930d8e797219acabdfe415ba980e2119182966a0e4d35e92d10"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 100,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "afb7c5948a4160cc8fdccedb10a1392753e826cd5ea863adbacc74434de8cbf2"
+   }
+  ],
+  "scored_0767": [
+   {
+    "source": "62378d6 public",
+    "length": 104,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "676cd0ed17bb0d2bf246be3fc58b33df585b789dda9fe049045b7a7a50083c59"
+   },
+   {
+    "source": "472b715 public",
+    "length": 105,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,527",
+    "program_sha256": "31c97848de752e681b850d4bef8db9e98acab4a6c561d6ca2ce14b0b745f9530"
+   }
+  ],
+  "scored_0792": [
+   {
+    "source": "62378d6 public",
+    "length": 110,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "cff2eebf7ff8fe400f8df21830df2e4a330eafe616ea58fcb8e9056869afb63d"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 111,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "4b069dd7ef4e5849adcdc32032176a350c1f0224c0f70c9f55ad0beee06a564a"
+   }
+  ],
+  "scored_0794": [
+   {
+    "source": "62378d6 public",
+    "length": 116,
+    "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,439",
+    "program_sha256": "83009d463fbd9ac18009348ace5e971ba8b26277969ab4a6fce7feabf3a8ae61"
+   },
+   {
+    "source": "472b715 public",
+    "length": 117,
+    "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+    "program_sha256": "71c826d8db719a9d40c215d599b290f6a3d2f88427468cea4a619f7cf6bd626a"
+   }
+  ],
+  "scored_0821": [
+   {
+    "source": "62378d6 public",
+    "length": 97,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "b4c4430412a600ce89c6acc9b2e78f0ef5604262319365430394e2ec2a024fb4"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 98,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "8fc8a66e99a86438edd7bf0c7d93d096a39b26198448c2e690fb78ac7e5b0b9b"
+   }
+  ],
+  "scored_0833": [
+   {
+    "source": "62378d6 public",
+    "length": 121,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "de8ff28ebec8048a437f4ccd27222d638df4d3925fc5b26fb960c39655179dae"
+   },
+   {
+    "source": "472b715 public",
+    "length": 122,
+    "credit": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+    "program_sha256": "814c203a1832415eb416c6654584cd1777754d3ac4ca0a87c94fdf7ad0392ac0"
+   }
+  ],
+  "scored_0838": [
+   {
+    "source": "62378d6 public",
+    "length": 139,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "a6e7542b8cb2c9df7810fa4625e8917870cecb95975fe9dbc81e35faccfde98c"
+   },
+   {
+    "source": "472b715 public",
+    "length": 140,
+    "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+    "program_sha256": "a83a273f2eaf3e6ee1185c1b37d84b4d11607416c8bb449df1452f0783cd0b24"
+   }
+  ],
+  "scored_0852": [
+   {
+    "source": "62378d6 public",
+    "length": 121,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "1382d2a01090e13c5a259d7d6d9a23779207700f0ee88893e1c07b858c27d7d3"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 122,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "eead5b99720c50b70654c83e287dc840678f8a6101ad127c4ef4e104fc64a095"
+   }
+  ],
+  "scored_0869": [
+   {
+    "source": "62378d6 public",
+    "length": 102,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "f8b889fdab2acf34ada31976c8fb39167c999c0de359ff347d2880075288bc48"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 103,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: 守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+    "program_sha256": "b6762fe0dd0b632d3ee8c1a8ff356a77c650921fe0fb417403cb210a3c02a4d3"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 102,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "ff0f8da09ffaffb27aa2c5f4b0434db9e5e17fc6bbf459bd1e2073f52678e94f"
+   }
+  ],
+  "scored_0888": [
+   {
+    "source": "62378d6 public",
+    "length": 114,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "a5611a8bd538a9b02915596ff0fa8b51a53311786f4f1f62624daa8fedae41e3"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 117,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "6e3ad8acb2097f26923d427a30401551718ed29c50875fc72d4435f3691ff773"
+   },
+   {
+    "source": "Hanif v24",
+    "length": 115,
+    "credit": "Hanif Noer Rofiq, Kaggle release 24 (Apache-2.0); includes credited public portfolio solvers; see Hanif-v24-NOTICE.md.",
+    "program_sha256": "91a242155f2cde9a4db9bd55fb35d6675356586cbb417485416c1ef31660a3f5"
+   },
+   {
+    "source": "472b715 public",
+    "length": 117,
+    "credit": "Generated from official inputs",
+    "program_sha256": "4b2628182dae2d3b95364adc272068ab1dff43567bd88f3011b268e081577517"
+   }
+  ],
+  "scored_0890": [
+   {
+    "source": "62378d6 public",
+    "length": 91,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "53004374fd10a4e2af7f8ec5b75b0baa2a22fe9792bdba997cf7cc7aeb7f9e5c"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 92,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "eda0ea0d386c0aafe4754e073e76bd6cb9b8bf2e0301967a13a906b89cebdef4"
+   }
+  ],
+  "scored_0925": [
+   {
+    "source": "62378d6 public",
+    "length": 117,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "29e1441a10f6e0b8aca6d5b1e68a748d130ac3d4648e21db5a60d45dee07d317"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 118,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "11d3fe0ebe48c672694b3098e1bf8f713da6384348490c158dcd7acbc8feaac6"
+   },
+   {
+    "source": "472b715 public",
+    "length": 119,
+    "credit": "Generated from official inputs",
+    "program_sha256": "6b61d6408ed59c10a93c3888fc88875b4af70e61cd9cce2777044a1f9a6f85a3"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 119,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: E-Max AI, Santa 2026 | Public Frontier | Score 134,582",
+    "program_sha256": "09349f69bf7f81891ec5c10298c15f2068fa0559638c97df922d138df24825d5"
+   }
+  ],
+  "scored_0933": [
+   {
+    "source": "62378d6 public",
+    "length": 114,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "d9e4f06d28096bc4ee9873dc36b931e0d3ccc57e4314253f07ebc0b9891e7b8b"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 115,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "ea83b14b11bd4e88a60a5ae1744c0c901a714501f43ea951b7e52be76e0b2399"
+   }
+  ],
+  "scored_0940": [
+   {
+    "source": "62378d6 public",
+    "length": 128,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "cba0c9d5b5d8125945349b861d52a62a55d9ffa4dffb6ef0b007d270155e4503"
+   },
+   {
+    "source": "Asterios v119",
+    "length": 130,
+    "credit": "Asterios Panoras, Kaggle release 119 (Apache-2.0). Original row credit: 守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+    "program_sha256": "8fa53fe5ba115af088b3d59ba7cd1e50fdc52098fc0215b63c688e8e4f6061c8"
+   }
+  ],
+  "scored_0943": [
+   {
+    "source": "62378d6 public",
+    "length": 88,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "8f8c31ddafca6931d2089a5d0b002b453c7d1b0965c3be888b8e4f383cd21421"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 90,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "90ef4fb97a8189dc2c78e637b833ffddc8bf1720d1f8573527ad4e65cbd5f9ed"
+   }
+  ],
+  "scored_0961": [
+   {
+    "source": "62378d6 public",
+    "length": 109,
+    "credit": "goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",
+    "program_sha256": "e10ebdc033145bfbfc159fcc7e7c2518b9c72781bc47bda49794064eb40b3fe0"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 110,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "4e21f82225e97fd2e9305a3b2069e41176712c45cc6a462350eb0252774e1751"
+   }
+  ],
+  "scored_0978": [
+   {
+    "source": "62378d6 public",
+    "length": 105,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "fe2966ecac8f5db106eabe1cb46c4339101ae9cb1b3225a58058f45266558050"
+   },
+   {
+    "source": "472b715 public",
+    "length": 107,
+    "credit": "Generated from official inputs",
+    "program_sha256": "be64d92ffe6bc9a2b8ed715443b963f14aa3e99bcf3f62255d89ff92f29055fb"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 106,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "d149497fed67697e71f10641b77dfa8ea5854924ee79888d6a2a6400cbf3e7d4"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 105,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "976baf121f8fdb803af9a492765ef7cbaed6a956d0e070d0e8eca0a6fc5461a2"
+   }
+  ],
+  "scored_0985": [
+   {
+    "source": "62378d6 public",
+    "length": 109,
+    "credit": "Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",
+    "program_sha256": "f14a716afe295a943a64381ed2adecc4d12f38c8c8ae0dd3747989fd1ab5fd93"
+   },
+   {
+    "source": "472b715 public",
+    "length": 110,
+    "credit": "wang Jakie Kaggle 371736767 Apache-2.0 | project public 134408 — Generated from official inputs",
+    "program_sha256": "9cc8eea5a619f1d511a905a4115ed3b7c707d10d13c89f09c8152696db5806e4"
+   },
+   {
+    "source": "GoodPJW v10 public_frontier",
+    "length": 111,
+    "credit": "GoodPJW v10 public_frontier, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "c84c1e99ffcce83888cdf71f1634115ccc4eea5349579fd849cfe9c107d4b91e"
+   },
+   {
+    "source": "GoodPJW v10 our_programs",
+    "length": 110,
+    "credit": "GoodPJW v10 our_programs, by goodpjw2008. Apache-2.0. Includes public portfolio contributors, Wang Jakie and E-Max AI (RoyalAceCat). No per-row upstream author is supplied. See GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json.",
+    "program_sha256": "da41321ced9772595b13d9510954105ee2532b415ca59e999f0269281eabe72e"
+   }
+  ]
+ },
+ "program_files_sha256": {
+  "62378d6 public": "ed64bab9497244f2c8d8e83ab30b57c22b60f3b5bc9ffbe1a3b80aa3f0afee4b",
+  "GoodPJW v10 our_programs": "bb7d7c3388673c1a14e06a7d51eb11a4692c43e9f9c3c234db69e8a1a7d9fc23",
+  "GoodPJW v10 public_frontier": "fb14e9f2de5e026a9d03bbc7e105010bbeb5e8a1aa66a0c30b4afbbd3d2c1c70",
+  "Hanif v24": "42828544354bea480908a97cd81f771f85e362a03952278852ce349ef8146dcc",
+  "Asterios v119": "99ca0b41aec0f1f5eae0a5744983617a85b804a0db4f989e040e58b92e6307a8",
+  "Rudolph v68": "5f8725070315177a632db96836d8be5f6e75052cdd1a69c9e0eba40e9faad5c6",
+  "472b715 public": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035"
+ },
+ "public_origins_sha256": "1f80aa2a1f97c7570004c0b2e1a76cee45b65133ea65a0bdcd932076d6f40855",
+ "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "sources": {
+  "Asterios v119": {
+   "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/119",
+   "license": "Apache 2.0",
+   "archive_sha256": "d78c367564150ce210d9f7b89b9add20b0881c777817c65ca181494837d9e7a2",
+   "raw": "best_programs.csv",
+   "raw_sha256": "790077ed5899f72f682f4361a860325a84b9b18c17f6312b32cced86280297e0",
+   "instructions": 134437,
+   "rows": 1000
+  },
+  "Hanif v24": {
+   "url": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/24",
+   "license": "Apache 2.0",
+   "archive_sha256": "b241e2c49657455ba734a3f67a8bd6201c4171bfbdf903c9239f07919d55220c",
+   "raw": "submission.csv",
+   "raw_sha256": "969a0e4e57b2642c27c42712fab72d8177c465c349f686fd96ea31938e4fb02c",
+   "instructions": 134404,
+   "rows": 1000
+  },
+  "Rudolph v68": {
+   "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/68",
+   "license": "CC0: Public Domain",
+   "archive_sha256": "407606f3f55a2444bd1c3fbe130b21515af7e16df6607cd6ae23c10c99373ada",
+   "raw": "rudolph_programs.csv",
+   "raw_sha256": "c3ef39d42fbde44c68223589831b92e7a5b6b25d2b8c2db6daaa06ddb55c9fcf",
+   "instructions": 134404,
+   "rows": 1000
+  },
+  "GoodPJW v10 our_programs": {
+   "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10",
+   "license": "Apache 2.0",
+   "archive_sha256": "b6ba4ee1a9eaba14164934c90d9acd38af914eb7837e96b024c715ece48a995f",
+   "raw": "our_programs.csv",
+   "raw_sha256": "bc47ed454a6a6c70e02bffc82cfdcd701c1449d36b1a6177fe272f555450f97a",
+   "instructions": 134329,
+   "rows": 1000
+  },
+  "GoodPJW v10 public_frontier": {
+   "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10",
+   "license": "Apache 2.0",
+   "archive_sha256": "b6ba4ee1a9eaba14164934c90d9acd38af914eb7837e96b024c715ece48a995f",
+   "raw": "public_frontier.csv",
+   "raw_sha256": "a6b7968f63b3492c6163ffff7ffe3506f04babcb91b4309c4e05cee6c9540000",
+   "instructions": 134419,
+   "rows": 1000
+  }
+ },
+ "arms": {
+  "single": "Wang Jakie original incremental, merged public row only.",
+  "multi": "Same incremental algorithm with at most four distinct external original tapes admitted into the crossover pool, per E-Max AI and GoodPJW."
+ },
+ "donor_selection": "Among the five current credited source files and the pre-merge public row, keep at most four distinct canonical arithmetic graphs of length at most incumbent + 6, preferring maximal symmetric edge difference versus incumbent, then shortest length, then listed source order.",
+ "primary": "Count physically replayed shorter programs per arm, paired per row, and summed savings. Use one shorter valid program per row; ties go to single. Record CPU wall time separately; allocation is equal in algorithmic round counts.",
+ "budget": "360 rounds per row and arm, seed 3047830 + integer scored suffix, max_neighbors 0; all 50 rows both arms. When no alternative exists, multi is the identical-input implementation check.",
+ "binary_sha256": {
+  "single": "4997071325bce5949026e84126526278025047ec024c7b0559aaff3911380eb0",
+  "multi": "746a3b9bb8b861c8f7a7ba3508018510cc3fc2bed6917ef3851335b25a2d6ce7"
+ }
+}

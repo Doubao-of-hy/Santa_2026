@@ -1,0 +1,144 @@
+{
+  "source_sha256": "80279c2d2209bbb1086436079dc01cd0bf49b8a9bc2e4500ce5770be873c2c83",
+  "binary_sha256": "98f1c782581a074bb6eff7aecaf12c03dd8ca314bf8fe9877742d5deb216f62f",
+  "construction": "two-point field signatures, 1 through 4 connected instructions; two ordered operands for subtraction and division, one canonical order for commutative operations",
+  "sample_patterns": {
+    "sum_square": {
+      "signature": [
+        624100,
+        1926544
+      ],
+      "returned_by_depth": [
+        0,
+        1,
+        7,
+        8
+      ]
+    },
+    "shared_plus_one": {
+      "signature": [
+        624890,
+        1927932
+      ],
+      "returned_by_depth": [
+        0,
+        0,
+        2,
+        8
+      ]
+    },
+    "difference_squares": {
+      "signature": [
+        999649247,
+        874440
+      ],
+      "returned_by_depth": [
+        0,
+        0,
+        2,
+        8
+      ]
+    },
+    "x_over_y": {
+      "signature": [
+        931928694,
+        7915570
+      ],
+      "returned_by_depth": [
+        1,
+        5,
+        8,
+        8
+      ]
+    },
+    "y_over_x": {
+      "signature": [
+        606936424,
+        514370668
+      ],
+      "returned_by_depth": [
+        1,
+        5,
+        8,
+        8
+      ]
+    },
+    "y_square": {
+      "signature": [
+        380689,
+        143641
+      ],
+      "returned_by_depth": [
+        1,
+        7,
+        8,
+        8
+      ]
+    },
+    "sum": {
+      "signature": [
+        790,
+        1388
+      ],
+      "returned_by_depth": [
+        1,
+        4,
+        8,
+        8
+      ]
+    },
+    "x": {
+      "signature": [
+        173,
+        1009
+      ],
+      "returned_by_depth": [
+        2,
+        8,
+        8,
+        8
+      ]
+    },
+    "one": {
+      "signature": [
+        1,
+        1
+      ],
+      "returned_by_depth": [
+        4,
+        8,
+        8,
+        8
+      ]
+    },
+    "unreachable_control": {
+      "signature": [
+        42,
+        31415926
+      ],
+      "returned_by_depth": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "checked_tapes": 179,
+  "all_slots_and_dependencies_valid": true,
+  "all_tapes_paired_modular_replay": true,
+  "factored_and_expanded_difference_squares_valid_at_11_5": true,
+  "shared_plus_one_valid_at_11_5": true,
+  "square_sum_valid_at_11_5": true,
+  "with_and_without_constant_at_equal_length": true,
+  "duplicate_and_empty_query_checked": true,
+  "malformed_query_rejected": true,
+  "elapsed_seconds": 0.06183,
+  "independent_exhaustive_enumerator_through_depth_three": {
+    "signatures": 2357,
+    "reachable_signature_depth_pairs": 2586,
+    "returned_every_reachable_pair": true,
+    "spurious_pairs": 0,
+    "max_rows_per_signature_depth": 8
+  }
+}

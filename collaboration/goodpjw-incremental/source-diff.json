@@ -1,0 +1,117 @@
+{
+  "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/10",
+  "archive_sha256": "b6ba4ee1a9eaba14164934c90d9acd38af914eb7837e96b024c715ece48a995f",
+  "rows": {
+    "NOTICE.md": {
+      "upstream_sha256": "84956ff605a07d25f4b9f663d143cd30d7acd4d95aa5f6e6c0405b6c7c535e4d",
+      "local_sha256": "4d6afc19a73c02830d20fcb57c0337ec98e3a101f438167242991b652e8b7c3f",
+      "local_where": "repository"
+    },
+    "anneal.cpp": {
+      "upstream_sha256": "0e4ec5db401e7b0642c93d3499634e8790dd78efa02f6ab689cf8be23e6befbb",
+      "local_sha256": "0e4ec5db401e7b0642c93d3499634e8790dd78efa02f6ab689cf8be23e6befbb",
+      "local_where": "repository"
+    },
+    "anneal_seeded.cpp": {
+      "upstream_sha256": "367e72fcad6ffdedb78ea2d1250f0bff77bf8b10b60b04b61f44bbedb7c8a1ae",
+      "local_sha256": "078d138418f1a4042a0fe074882e56d048a003959ee87346d1ebf522653e175c",
+      "local_where": "repository"
+    },
+    "baseline_mask.cpp": {
+      "upstream_sha256": "a3f5385fd0cec1a1902e70f47d2de0ac0115869a2f171a761b4353f651ec2e59",
+      "local_sha256": "a3f5385fd0cec1a1902e70f47d2de0ac0115869a2f171a761b4353f651ec2e59",
+      "local_where": "original_wang_extraction"
+    },
+    "cache_lookup.inc": {
+      "upstream_sha256": "37a48bf4043e7c408f7e24c6a0a4917e9acde6cd133c881aa63339d641b3b591",
+      "local_sha256": "37a48bf4043e7c408f7e24c6a0a4917e9acde6cd133c881aa63339d641b3b591",
+      "local_where": "repository"
+    },
+    "cache_perturb.inc": {
+      "upstream_sha256": "8cb736e327b7cbfc6c94607a30aac11f17b54ff653c77d33d0ba207def02c392",
+      "local_sha256": "8cb736e327b7cbfc6c94607a30aac11f17b54ff653c77d33d0ba207def02c392",
+      "local_where": "repository"
+    },
+    "common.inc": {
+      "upstream_sha256": "2b876924774e19a9ba1ba1ed52351eb5485895be6759e3720b0d5091a50a61d6",
+      "local_sha256": "2b876924774e19a9ba1ba1ed52351eb5485895be6759e3720b0d5091a50a61d6",
+      "local_where": "repository"
+    },
+    "compact.inc": {
+      "upstream_sha256": "4132404aca1128d1e6c47eac6977a7a1577932a4438697eebc9e162ada5f3238",
+      "local_sha256": "4132404aca1128d1e6c47eac6977a7a1577932a4438697eebc9e162ada5f3238",
+      "local_where": "repository"
+    },
+    "compact_mask.cpp": {
+      "upstream_sha256": "bb6c7a0711b4db50d3995706677d08fa80d70cbfee7b9a0504b47f963308c2a1",
+      "local_sha256": "bb6c7a0711b4db50d3995706677d08fa80d70cbfee7b9a0504b47f963308c2a1",
+      "local_where": "original_wang_extraction"
+    },
+    "compact_rotate.cpp": {
+      "upstream_sha256": "d2507768fa70f83f9f3bdb69218ef8e4bcec91ca100e1319956c91b94012c4cb",
+      "local_sha256": "d2507768fa70f83f9f3bdb69218ef8e4bcec91ca100e1319956c91b94012c4cb",
+      "local_where": "repository"
+    },
+    "cross.inc": {
+      "upstream_sha256": "7a742c6c5faca1727c57ec092b80d6eb7bb616d2c1ab2bc747cfc0789ea246bb",
+      "local_sha256": "7a742c6c5faca1727c57ec092b80d6eb7bb616d2c1ab2bc747cfc0789ea246bb",
+      "local_where": "repository"
+    },
+    "fast_perturb.inc": {
+      "upstream_sha256": "5a2154f2e18db8888dd1de10684fb409015b01627b5f7817fbe4856a1a050cb2",
+      "local_sha256": "5a2154f2e18db8888dd1de10684fb409015b01627b5f7817fbe4856a1a050cb2",
+      "local_where": "repository"
+    },
+    "incremental.cpp": {
+      "upstream_sha256": "7a0d5327d0883e04c80c42761d7ec53e6cc3fbc45b36e0700bf5b1900dc09e8f",
+      "local_sha256": "7a0d5327d0883e04c80c42761d7ec53e6cc3fbc45b36e0700bf5b1900dc09e8f",
+      "local_where": "repository"
+    },
+    "incremental_seeded.cpp": {
+      "upstream_sha256": "976b6d2526149eaf73f0bc30b27bb9ff6cd9aa91c371f0ea245f8ab258f5947e",
+      "local_sha256": null,
+      "local_where": null
+    },
+    "main.inc": {
+      "upstream_sha256": "7e514496bf56d073908cf137ebc9a6290826a422486316ef8f66577915625b52",
+      "local_sha256": "7e514496bf56d073908cf137ebc9a6290826a422486316ef8f66577915625b52",
+      "local_where": "repository"
+    },
+    "neutral.inc": {
+      "upstream_sha256": "37f0eb32fa83f0b7d3d0a5262fa96253e824a7467c125c3e219c66a8187d4027",
+      "local_sha256": "37f0eb32fa83f0b7d3d0a5262fa96253e824a7467c125c3e219c66a8187d4027",
+      "local_where": "repository"
+    },
+    "quartet.cpp": {
+      "upstream_sha256": "99b210b8531090df731b42748e5dcd311e1cc01094cd6f38fe075e981fb379a5",
+      "local_sha256": "99b210b8531090df731b42748e5dcd311e1cc01094cd6f38fe075e981fb379a5",
+      "local_where": "original_wang_extraction"
+    },
+    "recipe_lookup.inc": {
+      "upstream_sha256": "6eab4d783e02989a2b6027bdfeeea0c1f55a2000d0b75fe3eee376fe20a323a3",
+      "local_sha256": "6eab4d783e02989a2b6027bdfeeea0c1f55a2000d0b75fe3eee376fe20a323a3",
+      "local_where": "repository"
+    },
+    "states.inc": {
+      "upstream_sha256": "a317af6a77ca1b2de3ec1c9a61e6604b3f9427e2b331d0b1e34fca5859b8d67e",
+      "local_sha256": "a317af6a77ca1b2de3ec1c9a61e6604b3f9427e2b331d0b1e34fca5859b8d67e",
+      "local_where": "original_wang_extraction"
+    },
+    "wj_driver.py": {
+      "upstream_sha256": "3eb37c06bfe56254e28e9cbbd1c28ea4f3187d29160c4d656ee999be18bf6d7c",
+      "local_sha256": null,
+      "local_where": null
+    },
+    "wj_schedule2.sh": {
+      "upstream_sha256": "45b942fdaa060074859452d94640f30c312c36d4ca4a09ae03530ee74d752e82",
+      "local_sha256": null,
+      "local_where": null
+    }
+  },
+  "publisher": "goodpjw2008",
+  "source_author": "wang Jakie",
+  "multi_parent_idea_credit": "E-Max AI (royalacecat), credited by the v10 publisher",
+  "license": "Apache-2.0",
+  "upstream_notice": "These C++ files are Wang Jakie's public graph-search strategies, extracted unchanged from the Kaggle notebook\n\"Santa 2026 | Arithmetic Recipe Pool and MILP\" (https://www.kaggle.com/code/wangjakie/santa-2026-arithmetic-recipe-pool-and-milp),\npublished under the Apache License 2.0. All credit for the search belongs to the original author.\nOur only changes: anneal_seeded.cpp and incremental_seeded.cpp add one line that puts the extra input tapes\n(near-length historical programs) into the crossover pool — an idea first described by E-Max AI (royalacecat).\nBuild: g++ -O3 -std=c++17 <strategy>.cpp -o <strategy>; driver: wj_driver.py in this dataset.\n",
+  "interpretation": "16 cpp/include files are byte-identical. Both anneal_seeded implementations preload the same tapes via an equivalent loop. incremental_seeded differs by one loop that preloads extra historical tapes into the crossover pool; the graph operators are unchanged."
+}

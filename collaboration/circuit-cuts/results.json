@@ -1,0 +1,1308 @@
+{
+ "hashes": {
+  "pure": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f",
+  "assisted": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035"
+ },
+ "signatures": 8989,
+ "hits": 1491,
+ "rows": [
+  {
+   "lane": "control",
+   "cohort": "planted",
+   "id": "positive",
+   "before": 6,
+   "after": 2,
+   "cuts": 2,
+   "matching_cuts": 2,
+   "smaller_graphs": 1,
+   "distinct_replacements": 2
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0030",
+   "before": 195,
+   "after": 195,
+   "cuts": 51,
+   "matching_cuts": 40,
+   "distinct_replacements": 191
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0041",
+   "before": 119,
+   "after": 119,
+   "cuts": 1556,
+   "matching_cuts": 366,
+   "distinct_replacements": 784
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0079",
+   "before": 141,
+   "after": 141,
+   "cuts": 94,
+   "matching_cuts": 62,
+   "distinct_replacements": 318
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0105",
+   "before": 155,
+   "after": 155,
+   "cuts": 43,
+   "matching_cuts": 20,
+   "distinct_replacements": 59
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0119",
+   "before": 231,
+   "after": 231,
+   "cuts": 6,
+   "matching_cuts": 6,
+   "distinct_replacements": 20
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0135",
+   "before": 95,
+   "after": 95,
+   "cuts": 3,
+   "matching_cuts": 3,
+   "distinct_replacements": 10
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0141",
+   "before": 139,
+   "after": 139,
+   "cuts": 8,
+   "matching_cuts": 7,
+   "distinct_replacements": 26
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0164",
+   "before": 130,
+   "after": 130,
+   "cuts": 9,
+   "matching_cuts": 9,
+   "distinct_replacements": 34
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0184",
+   "before": 118,
+   "after": 118,
+   "cuts": 3,
+   "matching_cuts": 3,
+   "distinct_replacements": 15
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0187",
+   "before": 95,
+   "after": 95,
+   "cuts": 17,
+   "matching_cuts": 12,
+   "distinct_replacements": 52
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0196",
+   "before": 24,
+   "after": 24,
+   "cuts": 67,
+   "matching_cuts": 32,
+   "distinct_replacements": 118
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0225",
+   "before": 119,
+   "after": 119,
+   "cuts": 29,
+   "matching_cuts": 25,
+   "distinct_replacements": 87
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0228",
+   "before": 105,
+   "after": 105,
+   "cuts": 62,
+   "matching_cuts": 36,
+   "distinct_replacements": 135
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0232",
+   "before": 169,
+   "after": 169,
+   "cuts": 212,
+   "matching_cuts": 82,
+   "distinct_replacements": 159
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0263",
+   "before": 231,
+   "after": 231,
+   "cuts": 140,
+   "matching_cuts": 53,
+   "distinct_replacements": 232
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0310",
+   "before": 115,
+   "after": 115,
+   "cuts": 8,
+   "matching_cuts": 8,
+   "distinct_replacements": 27
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0325",
+   "before": 104,
+   "after": 104,
+   "cuts": 6,
+   "matching_cuts": 6,
+   "distinct_replacements": 18
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0346",
+   "before": 174,
+   "after": 174,
+   "cuts": 82,
+   "matching_cuts": 38,
+   "distinct_replacements": 145
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0362",
+   "before": 112,
+   "after": 112,
+   "cuts": 24,
+   "matching_cuts": 22,
+   "distinct_replacements": 76
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0370",
+   "before": 280,
+   "after": 280,
+   "cuts": 83,
+   "matching_cuts": 67,
+   "distinct_replacements": 167
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0381",
+   "before": 212,
+   "after": 212,
+   "cuts": 35,
+   "matching_cuts": 30,
+   "distinct_replacements": 125
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0387",
+   "before": 23,
+   "after": 23,
+   "cuts": 24,
+   "matching_cuts": 6,
+   "distinct_replacements": 14
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0398",
+   "before": 214,
+   "after": 214,
+   "cuts": 140,
+   "matching_cuts": 80,
+   "distinct_replacements": 235
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0421",
+   "before": 114,
+   "after": 114,
+   "cuts": 10,
+   "matching_cuts": 9,
+   "distinct_replacements": 34
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0428",
+   "before": 208,
+   "after": 208,
+   "cuts": 13,
+   "matching_cuts": 13,
+   "distinct_replacements": 55
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0454",
+   "before": 219,
+   "after": 219,
+   "cuts": 476,
+   "matching_cuts": 55,
+   "distinct_replacements": 181
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0464",
+   "before": 81,
+   "after": 81,
+   "cuts": 3,
+   "matching_cuts": 3,
+   "distinct_replacements": 10
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0470",
+   "before": 278,
+   "after": 278,
+   "cuts": 372,
+   "matching_cuts": 148,
+   "distinct_replacements": 297
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0502",
+   "before": 173,
+   "after": 173,
+   "cuts": 204,
+   "matching_cuts": 52,
+   "distinct_replacements": 198
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0507",
+   "before": 176,
+   "after": 176,
+   "cuts": 295,
+   "matching_cuts": 100,
+   "distinct_replacements": 327
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0513",
+   "before": 159,
+   "after": 159,
+   "cuts": 134,
+   "matching_cuts": 62,
+   "distinct_replacements": 150
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0540",
+   "before": 176,
+   "after": 176,
+   "cuts": 63,
+   "matching_cuts": 38,
+   "distinct_replacements": 98
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0542",
+   "before": 110,
+   "after": 110,
+   "cuts": 21,
+   "matching_cuts": 16,
+   "distinct_replacements": 46
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0547",
+   "before": 113,
+   "after": 113,
+   "cuts": 44,
+   "matching_cuts": 20,
+   "distinct_replacements": 50
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0564",
+   "before": 24,
+   "after": 24,
+   "cuts": 54,
+   "matching_cuts": 30,
+   "distinct_replacements": 75
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0579",
+   "before": 168,
+   "after": 168,
+   "cuts": 106,
+   "matching_cuts": 58,
+   "distinct_replacements": 109
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0597",
+   "before": 3,
+   "after": 3,
+   "cuts": 1,
+   "matching_cuts": 1,
+   "distinct_replacements": 2
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0608",
+   "before": 160,
+   "after": 160,
+   "cuts": 554,
+   "matching_cuts": 91,
+   "distinct_replacements": 223
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0614",
+   "before": 20,
+   "after": 20,
+   "cuts": 29,
+   "matching_cuts": 10,
+   "distinct_replacements": 12
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0617",
+   "before": 93,
+   "after": 93,
+   "cuts": 2,
+   "matching_cuts": 2,
+   "distinct_replacements": 6
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0619",
+   "before": 118,
+   "after": 118,
+   "cuts": 63,
+   "matching_cuts": 61,
+   "distinct_replacements": 303
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0629",
+   "before": 162,
+   "after": 162,
+   "cuts": 8,
+   "matching_cuts": 7,
+   "distinct_replacements": 9
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0643",
+   "before": 127,
+   "after": 127,
+   "cuts": 26,
+   "matching_cuts": 16,
+   "distinct_replacements": 30
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0651",
+   "before": 126,
+   "after": 126,
+   "cuts": 16,
+   "matching_cuts": 12,
+   "distinct_replacements": 41
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0681",
+   "before": 195,
+   "after": 195,
+   "cuts": 34,
+   "matching_cuts": 22,
+   "distinct_replacements": 70
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0696",
+   "before": 82,
+   "after": 82,
+   "cuts": 27,
+   "matching_cuts": 21,
+   "distinct_replacements": 63
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0698",
+   "before": 228,
+   "after": 228,
+   "cuts": 31,
+   "matching_cuts": 25,
+   "distinct_replacements": 86
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0715",
+   "before": 128,
+   "after": 128,
+   "cuts": 762,
+   "matching_cuts": 185,
+   "distinct_replacements": 428
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0763",
+   "before": 100,
+   "after": 100,
+   "cuts": 207,
+   "matching_cuts": 32,
+   "distinct_replacements": 63
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0776",
+   "before": 232,
+   "after": 232,
+   "cuts": 108,
+   "matching_cuts": 69,
+   "distinct_replacements": 158
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0786",
+   "before": 258,
+   "after": 258,
+   "cuts": 208,
+   "matching_cuts": 97,
+   "distinct_replacements": 424
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0792",
+   "before": 115,
+   "after": 115,
+   "cuts": 4,
+   "matching_cuts": 4,
+   "distinct_replacements": 12
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0836",
+   "before": 188,
+   "after": 188,
+   "cuts": 172,
+   "matching_cuts": 82,
+   "distinct_replacements": 189
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0853",
+   "before": 187,
+   "after": 187,
+   "cuts": 136,
+   "matching_cuts": 46,
+   "distinct_replacements": 151
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0858",
+   "before": 33,
+   "after": 33,
+   "cuts": 82,
+   "matching_cuts": 39,
+   "distinct_replacements": 152
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0885",
+   "before": 173,
+   "after": 173,
+   "cuts": 175,
+   "matching_cuts": 82,
+   "distinct_replacements": 198
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0902",
+   "before": 224,
+   "after": 224,
+   "cuts": 30,
+   "matching_cuts": 27,
+   "distinct_replacements": 79
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0924",
+   "before": 111,
+   "after": 111,
+   "cuts": 0,
+   "distinct_replacements": 0
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0926",
+   "before": 20,
+   "after": 20,
+   "cuts": 3,
+   "matching_cuts": 3,
+   "distinct_replacements": 14
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0941",
+   "before": 239,
+   "after": 239,
+   "cuts": 339,
+   "matching_cuts": 64,
+   "distinct_replacements": 152
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0943",
+   "before": 94,
+   "after": 94,
+   "cuts": 4,
+   "matching_cuts": 4,
+   "distinct_replacements": 17
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0962",
+   "before": 33,
+   "after": 33,
+   "cuts": 44,
+   "matching_cuts": 13,
+   "distinct_replacements": 27
+  },
+  {
+   "lane": "pure",
+   "cohort": "development",
+   "id": "scored_0967",
+   "before": 112,
+   "after": 112,
+   "cuts": 26,
+   "matching_cuts": 15,
+   "distinct_replacements": 34
+  },
+  {
+   "lane": "pure",
+   "cohort": "holdout",
+   "id": "scored_0976",
+   "before": 97,
+   "after": 97,
+   "cuts": 6,
+   "matching_cuts": 6,
+   "distinct_replacements": 18
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0030",
+   "before": 192,
+   "after": 192,
+   "cuts": 54,
+   "matching_cuts": 43,
+   "distinct_replacements": 190
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0041",
+   "before": 117,
+   "after": 117,
+   "cuts": 283,
+   "matching_cuts": 146,
+   "distinct_replacements": 522
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0079",
+   "before": 133,
+   "after": 133,
+   "cuts": 63,
+   "matching_cuts": 29,
+   "distinct_replacements": 127
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0105",
+   "before": 152,
+   "after": 152,
+   "cuts": 10,
+   "matching_cuts": 9,
+   "distinct_replacements": 23
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0119",
+   "before": 219,
+   "after": 219,
+   "cuts": 5,
+   "matching_cuts": 5,
+   "distinct_replacements": 20
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0135",
+   "before": 92,
+   "after": 92,
+   "cuts": 60,
+   "matching_cuts": 50,
+   "distinct_replacements": 101
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0141",
+   "before": 129,
+   "after": 129,
+   "cuts": 75,
+   "matching_cuts": 51,
+   "distinct_replacements": 139
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0164",
+   "before": 120,
+   "after": 120,
+   "cuts": 28,
+   "matching_cuts": 10,
+   "distinct_replacements": 27
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0184",
+   "before": 114,
+   "after": 114,
+   "cuts": 7,
+   "matching_cuts": 7,
+   "distinct_replacements": 29
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0187",
+   "before": 93,
+   "after": 93,
+   "cuts": 63,
+   "matching_cuts": 16,
+   "distinct_replacements": 59
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0196",
+   "before": 24,
+   "after": 24,
+   "cuts": 67,
+   "matching_cuts": 32,
+   "distinct_replacements": 118
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0225",
+   "before": 111,
+   "after": 111,
+   "cuts": 7,
+   "matching_cuts": 7,
+   "distinct_replacements": 31
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0228",
+   "before": 102,
+   "after": 102,
+   "cuts": 38,
+   "matching_cuts": 29,
+   "distinct_replacements": 115
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0232",
+   "before": 166,
+   "after": 166,
+   "cuts": 96,
+   "matching_cuts": 44,
+   "distinct_replacements": 147
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0263",
+   "before": 224,
+   "after": 224,
+   "cuts": 80,
+   "matching_cuts": 26,
+   "distinct_replacements": 82
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0310",
+   "before": 115,
+   "after": 115,
+   "cuts": 8,
+   "matching_cuts": 8,
+   "distinct_replacements": 27
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0325",
+   "before": 104,
+   "after": 104,
+   "cuts": 6,
+   "matching_cuts": 6,
+   "distinct_replacements": 18
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0346",
+   "before": 168,
+   "after": 168,
+   "cuts": 35,
+   "matching_cuts": 28,
+   "distinct_replacements": 82
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0362",
+   "before": 112,
+   "after": 112,
+   "cuts": 24,
+   "matching_cuts": 22,
+   "distinct_replacements": 76
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0370",
+   "before": 260,
+   "after": 260,
+   "cuts": 110,
+   "matching_cuts": 64,
+   "distinct_replacements": 159
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0381",
+   "before": 201,
+   "after": 201,
+   "cuts": 111,
+   "matching_cuts": 70,
+   "distinct_replacements": 135
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0387",
+   "before": 23,
+   "after": 23,
+   "cuts": 24,
+   "matching_cuts": 6,
+   "distinct_replacements": 14
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0398",
+   "before": 204,
+   "after": 204,
+   "cuts": 127,
+   "matching_cuts": 71,
+   "distinct_replacements": 162
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0421",
+   "before": 113,
+   "after": 113,
+   "cuts": 43,
+   "matching_cuts": 37,
+   "distinct_replacements": 102
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0428",
+   "before": 205,
+   "after": 205,
+   "cuts": 24,
+   "matching_cuts": 23,
+   "distinct_replacements": 120
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0454",
+   "before": 205,
+   "after": 205,
+   "cuts": 555,
+   "matching_cuts": 79,
+   "distinct_replacements": 142
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0464",
+   "before": 78,
+   "after": 78,
+   "cuts": 8,
+   "matching_cuts": 6,
+   "distinct_replacements": 13
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0470",
+   "before": 254,
+   "after": 254,
+   "cuts": 157,
+   "matching_cuts": 64,
+   "distinct_replacements": 206
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0502",
+   "before": 157,
+   "after": 157,
+   "cuts": 15,
+   "matching_cuts": 10,
+   "distinct_replacements": 27
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0507",
+   "before": 165,
+   "after": 165,
+   "cuts": 247,
+   "matching_cuts": 82,
+   "distinct_replacements": 209
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0513",
+   "before": 150,
+   "after": 150,
+   "cuts": 25,
+   "matching_cuts": 20,
+   "distinct_replacements": 58
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0540",
+   "before": 169,
+   "after": 169,
+   "cuts": 50,
+   "matching_cuts": 45,
+   "distinct_replacements": 127
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0542",
+   "before": 107,
+   "after": 107,
+   "cuts": 2,
+   "matching_cuts": 2,
+   "distinct_replacements": 3
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0547",
+   "before": 110,
+   "after": 110,
+   "cuts": 273,
+   "matching_cuts": 61,
+   "distinct_replacements": 144
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0564",
+   "before": 24,
+   "after": 24,
+   "cuts": 54,
+   "matching_cuts": 30,
+   "distinct_replacements": 75
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0579",
+   "before": 164,
+   "after": 164,
+   "cuts": 45,
+   "matching_cuts": 37,
+   "distinct_replacements": 112
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0597",
+   "before": 3,
+   "after": 3,
+   "cuts": 1,
+   "matching_cuts": 1,
+   "distinct_replacements": 2
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0608",
+   "before": 150,
+   "after": 150,
+   "cuts": 424,
+   "matching_cuts": 86,
+   "distinct_replacements": 299
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0614",
+   "before": 20,
+   "after": 20,
+   "cuts": 29,
+   "matching_cuts": 10,
+   "distinct_replacements": 12
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0617",
+   "before": 90,
+   "after": 90,
+   "cuts": 0,
+   "distinct_replacements": 0
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0619",
+   "before": 118,
+   "after": 118,
+   "cuts": 63,
+   "matching_cuts": 61,
+   "distinct_replacements": 303
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0629",
+   "before": 154,
+   "after": 154,
+   "cuts": 10,
+   "matching_cuts": 10,
+   "distinct_replacements": 29
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0643",
+   "before": 126,
+   "after": 126,
+   "cuts": 53,
+   "matching_cuts": 20,
+   "distinct_replacements": 66
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0651",
+   "before": 123,
+   "after": 123,
+   "cuts": 32,
+   "matching_cuts": 22,
+   "distinct_replacements": 79
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0681",
+   "before": 193,
+   "after": 193,
+   "cuts": 63,
+   "matching_cuts": 39,
+   "distinct_replacements": 111
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0696",
+   "before": 78,
+   "after": 78,
+   "cuts": 1,
+   "matching_cuts": 1,
+   "distinct_replacements": 2
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0698",
+   "before": 225,
+   "after": 225,
+   "cuts": 18,
+   "matching_cuts": 17,
+   "distinct_replacements": 59
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0715",
+   "before": 120,
+   "after": 120,
+   "cuts": 814,
+   "matching_cuts": 150,
+   "distinct_replacements": 348
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0763",
+   "before": 92,
+   "after": 92,
+   "cuts": 96,
+   "matching_cuts": 52,
+   "distinct_replacements": 63
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0776",
+   "before": 221,
+   "after": 221,
+   "cuts": 284,
+   "matching_cuts": 87,
+   "distinct_replacements": 138
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0786",
+   "before": 242,
+   "after": 242,
+   "cuts": 84,
+   "matching_cuts": 62,
+   "distinct_replacements": 164
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0792",
+   "before": 111,
+   "after": 111,
+   "cuts": 28,
+   "matching_cuts": 25,
+   "distinct_replacements": 100
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0836",
+   "before": 181,
+   "after": 181,
+   "cuts": 281,
+   "matching_cuts": 83,
+   "distinct_replacements": 104
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0853",
+   "before": 174,
+   "after": 174,
+   "cuts": 42,
+   "matching_cuts": 24,
+   "distinct_replacements": 59
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0858",
+   "before": 32,
+   "after": 32,
+   "cuts": 47,
+   "matching_cuts": 19,
+   "distinct_replacements": 32
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0885",
+   "before": 163,
+   "after": 163,
+   "cuts": 92,
+   "matching_cuts": 35,
+   "distinct_replacements": 85
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0902",
+   "before": 209,
+   "after": 209,
+   "cuts": 107,
+   "matching_cuts": 62,
+   "distinct_replacements": 94
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0924",
+   "before": 111,
+   "after": 111,
+   "cuts": 0,
+   "distinct_replacements": 0
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0926",
+   "before": 20,
+   "after": 20,
+   "cuts": 3,
+   "matching_cuts": 3,
+   "distinct_replacements": 14
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0941",
+   "before": 233,
+   "after": 233,
+   "cuts": 453,
+   "matching_cuts": 70,
+   "distinct_replacements": 158
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0943",
+   "before": 90,
+   "after": 90,
+   "cuts": 25,
+   "matching_cuts": 22,
+   "distinct_replacements": 61
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0962",
+   "before": 31,
+   "after": 31,
+   "cuts": 76,
+   "matching_cuts": 29,
+   "distinct_replacements": 107
+  },
+  {
+   "lane": "assisted",
+   "cohort": "development",
+   "id": "scored_0967",
+   "before": 107,
+   "after": 107,
+   "cuts": 4,
+   "matching_cuts": 4,
+   "distinct_replacements": 9
+  },
+  {
+   "lane": "assisted",
+   "cohort": "holdout",
+   "id": "scored_0976",
+   "before": 96,
+   "after": 96,
+   "cuts": 16,
+   "matching_cuts": 16,
+   "distinct_replacements": 44
+  }
+ ],
+ "pure": {
+  "full_score": 140811,
+  "sha256": "f1bb3f6b2eb7f20280db2b551710aa080a09f1e0405f9cc7b13d845481ae3a5f",
+  "strict_wins": 0
+ },
+ "assisted": {
+  "full_score": 134385,
+  "sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+  "strict_wins": 0
+ }
+}
