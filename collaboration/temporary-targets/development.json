@@ -1,0 +1,71 @@
+{
+  "own": {
+    "total": {
+      "ordinary": 140718,
+      "graft_only": 140720,
+      "ranked": 140719,
+      "random": 140719,
+      "best": 140717
+    },
+    "wins": {
+      "ordinary": {
+        "scored_0927": 2,
+        "scored_0955": 1,
+        "scored_0135": 1
+      },
+      "graft_only": {
+        "scored_0927": 2
+      },
+      "ranked": {
+        "scored_0545": 1,
+        "scored_0927": 1,
+        "scored_0955": 1
+      },
+      "random": {
+        "scored_0927": 2,
+        "scored_0135": 1
+      },
+      "best": {
+        "scored_0545": 1,
+        "scored_0927": 2,
+        "scored_0955": 1,
+        "scored_0135": 1
+      }
+    },
+    "protected_exclusive": [
+      "scored_0545"
+    ],
+    "selected": {
+      "scored_0545": "ranked",
+      "scored_0927": "ordinary",
+      "scored_0955": "ordinary",
+      "scored_0135": "ordinary"
+    }
+  },
+  "public": {
+    "total": {
+      "ordinary": 134182,
+      "graft_only": 134181,
+      "ranked": 134181,
+      "random": 134182,
+      "best": 134181
+    },
+    "wins": {
+      "ordinary": {},
+      "graft_only": {
+        "scored_0492": 1
+      },
+      "ranked": {
+        "scored_0492": 1
+      },
+      "random": {},
+      "best": {
+        "scored_0492": 1
+      }
+    },
+    "protected_exclusive": [],
+    "selected": {
+      "scored_0492": "graft_only"
+    }
+  }
+}

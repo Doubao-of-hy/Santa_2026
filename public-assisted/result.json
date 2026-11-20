@@ -1,7 +1,7 @@
 {
-  "instructions": 134182,
+  "instructions": 134178,
   "puzzles": 1000,
-  "sha256": "74998911451d003cb3efbba0943e74a9daeeafc1a1f73bcf3171cd5bac93db78",
+  "sha256": "67d3b7ffa445c64b4ebb4a5baeeb84736ac44c991420fa84c768b4c28122c2e6",
   "source": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/125",
   "source_version": 125,
   "source_version_evidence": "The SDK catalog identifies version 125, Apache 2.0, and the exact compressed size. The fixed-version download provides the immutable archive. The publisher version note gives 134,189, confirmed by two full replays. The internal history uses an earlier label.",
@@ -70,7 +70,7 @@
   "source_archive_sha256": "4cbe00439cb97569559ed375fcde2851da4dc1e1e4830fc2f521875f889a10fa",
   "original_credited_csv_sha256": "5db184fa2eb36413efc64d2b0027ff441e5e09bfd9548c9abf971efc8a2cb895",
   "source_file_sha256": "2976469f23740aea9dc62dac637d73b2d61780e5a8d6b3a89008a0cc9fd31cb8",
-  "reduction_from_source": 7,
+  "reduction_from_source": 11,
   "row_origins": {
     "work/heritage/scale-hard.csv": 1,
     "work/virtual/siblings-135106/assisted-recovered-early.csv": 1,

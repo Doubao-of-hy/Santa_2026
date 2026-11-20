@@ -133,7 +133,7 @@ scored_0131,work/virtual/bank-135324/own-full-native.csv,99
 scored_0132,work/virtual/resume-135077/wang-second.csv,112
 scored_0133,work/heritage/blend-own-wins.csv,219
 scored_0134,work/virtual/siblings-135106/own-last.csv,27
-scored_0135,work/virtual/good10-wang-269/results/batch-04/winners.csv,94
+scored_0135,work/virtual/temporary-targets-134182/development-own.csv,93
 scored_0136,work/creative/own-good/part2-wins.csv,103
 scored_0137,work/creative/resume-135077/anneal-independent-full35/shorter.csv,54
 scored_0138,work/virtual/portfolio-135289/own-wide-all.csv,99
@@ -245,7 +245,7 @@ scored_0243,work/creative/own-good/part2-wins.csv,107
 scored_0244,work/heritage/deep-own-wins.csv,196
 scored_0245,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,111
 scored_0246,work/gpu/lineage-independent.csv,115
-scored_0247,work/virtual/good10-wang-269/results/batch-08/winners.csv,109
+scored_0247,work/virtual/temporary-targets-134182/holdout-own.csv,108
 scored_0248,work/virtual/bank-135324/own-neutral-full.csv,187
 scored_0249,work/virtual/lifetimes-135161/own-pressure.csv,276
 scored_0250,work/gpu/bridge-36731/construct/sparse-0250-1293-20.csv,20
@@ -302,7 +302,7 @@ scored_0300,work/creative/own-good/part2-wins.csv,40
 scored_0301,original-172868,4
 scored_0302,work/creative/resume-135077/anneal-own-port160/shorter.csv,118
 scored_0303,work/virtual/bank-135324/own-full-native.csv,209
-scored_0304,work/virtual/good10-wang-269/results/batch-09/winners.csv,128
+scored_0304,work/virtual/temporary-targets-134182/holdout-own.csv,124
 scored_0305,work/virtual/resume-135077/wang-second.csv,124
 scored_0306,work/creative/carry-gpu/full-own-wins.csv,277
 scored_0307,work/creative/own-good/cumulative-wins.csv,97
@@ -490,7 +490,7 @@ scored_0488,work/virtual/portfolio-135289/own-wide-all.csv,159
 scored_0489,work/virtual/resume-135077/wang-second.csv,153
 scored_0490,original-172868,4
 scored_0491,work/virtual/portfolio-135289/own-all.csv,199
-scored_0492,work/virtual/good10-wang-269/results/batch-06/winners.csv,33
+scored_0492,work/virtual/temporary-targets-134182/holdout-own.csv,32
 scored_0493,work/virtual/carry-135348/own-full-deep.csv,254
 scored_0494,work/heritage/scale-own-wins.csv,216
 scored_0495,work/creative/resume-135077/anneal-own-port160/shorter.csv,96
@@ -543,7 +543,7 @@ scored_0541,work/virtual/registers-135078/own-wins.csv,54
 scored_0542,work/virtual/good10-wang-269/results/batch-01/winners.csv,109
 scored_0543,work/gpu/lineage-independent.csv,102
 scored_0544,work/virtual/bank-135324/own-neutral-hold.csv,181
-scored_0545,work/virtual/good10-wang-269/results/batch-05/winners.csv,117
+scored_0545,work/virtual/temporary-targets-134182/development-own.csv,116
 scored_0546,work/virtual/portfolio-135289/own-wide-all.csv,156
 scored_0547,work/creative/resume-135077/anneal-own-port160/shorter.csv,113
 scored_0548,work/creative/own-good/pilot-wins.csv,37
@@ -805,9 +805,9 @@ scored_0803,work/heritage/deep-own-wins.csv,141
 scored_0804,work/creative/resume-135077/independent-final-140814/shorter.csv,115
 scored_0805,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,115
 scored_0806,work/virtual/good10-wang-269/results/batch-07/winners.csv,94
-scored_0807,work/virtual/collective-135077/order140734/shorter.csv,129
+scored_0807,work/virtual/temporary-targets-134182/holdout-own.csv,127
 scored_0808,work/heritage/deep-own-wins.csv,261
-scored_0809,work/virtual/good10-wang-269/results/batch-06/winners.csv,118
+scored_0809,work/virtual/temporary-targets-134182/holdout-own.csv,116
 scored_0810,work/gpu/lineage-independent.csv,30
 scored_0811,work/creative/ladder/lns-local.csv,90
 scored_0812,work/gen/atlas-third.csv,111
@@ -892,7 +892,7 @@ scored_0890,work/virtual/good10-wang-269/results/batch-02/winners.csv,96
 scored_0891,work/gpu/walk-independent.csv,116
 scored_0892,work/virtual/whole-135358/guided.csv,16
 scored_0893,work/creative/resume-135077/independent-final-140814/shorter.csv,130
-scored_0894,work/virtual/good10-wang-269/results/batch-08/winners.csv,116
+scored_0894,work/virtual/temporary-targets-134182/holdout-own.csv,113
 scored_0895,work/virtual/portfolio-135289/own-wide-all.csv,129
 scored_0896,work/virtual/resume-135077/wang-second.csv,136
 scored_0897,work/gpu/mid-orbit/tight/own-wins.csv,35
@@ -917,7 +917,7 @@ scored_0915,work/heritage/symbol-own-wins.csv,197
 scored_0916,work/heritage/symbol-own-wins.csv,238
 scored_0917,work/heritage/deep-own-wins.csv,221
 scored_0918,work/heritage/scale-own-wins.csv,220
-scored_0919,work/virtual/good10-wang-269/results/batch-04/winners.csv,121
+scored_0919,work/virtual/temporary-targets-134182/holdout-own.csv,120
 scored_0920,work/creative/resume-135077/anneal-own-port160/shorter.csv,150
 scored_0921,work/heritage/deep-own-wins.csv,174
 scored_0922,work/gen/atakan-frontier-full.csv,22
@@ -925,7 +925,7 @@ scored_0923,work/virtual/good10-wang-269/results/batch-01/winners.csv,141
 scored_0924,work/virtual/resume-135077/wang-second.csv,111
 scored_0925,work/virtual/resume-135077/wang-second.csv,119
 scored_0926,work/gpu/offset-independent.csv,20
-scored_0927,work/virtual/good10-wang-diff/results/winners.csv,123
+scored_0927,work/virtual/temporary-targets-134182/development-own.csv,121
 scored_0928,work/gpu/offset-independent.csv,32
 scored_0929,work/creative/resume-135077/independent-final-140814/shorter.csv,115
 scored_0930,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,87
@@ -953,7 +953,7 @@ scored_0951,work/virtual/good10-wang-269/results/batch-02/winners.csv,92
 scored_0952,work/virtual/bank-135324/own-neutral-full.csv,219
 scored_0953,work/virtual/portfolio-135289/own-wide-all.csv,184
 scored_0954,work/creative/resume-135077/anneal-independent-diverse-full105/shorter.csv,77
-scored_0955,work/virtual/good10-wang-269/results/batch-03/winners.csv,86
+scored_0955,work/virtual/temporary-targets-134182/development-own.csv,85
 scored_0956,work/virtual/lifetimes-135161/own-direct-all.csv,230
 scored_0957,work/creative/ladder/lns-local.csv,29
 scored_0958,work/virtual/resume-135077/wang-second.csv,26

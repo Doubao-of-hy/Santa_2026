@@ -1,0 +1,6 @@
+{
+  "parent": "a933464ecfa9c726de0f91824f75400bbae3282f",
+  "trigger": "One development and four disjoint holdout independent puzzles had a protected arm strictly beating both comparison arms. The corresponding count on the public lane was zero.",
+  "scope": "All further independent puzzles eligible under the original frozen inputs, selection and costs. Keep all four arms; chunk the remaining deterministic order into 24-puzzle batches. Stop after the last eligible independent puzzle or when a better direction supersedes this search.",
+  "transfer": "Allow independently generated strict winners to compete with the public incumbent after validation."
+}
