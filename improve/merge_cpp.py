@@ -18,6 +18,7 @@ SOURCES = [
     ("matrix", root / "improve/cpp/matrix.csv"),
     ("matrix2", root / "improve/cpp/matrix2.csv"),
     ("matrix3", root / "improve/cpp/matrix3.csv"),
+    ("vhard", root / "improve/cpp/vhard.csv"),
 ]
 best = {}
 origin = {}
