@@ -22,15 +22,17 @@ writes new candidates under `improve/`.
 
 ## Best independent candidate
 
-**`improve/submission.csv` = 136,993 instructions** (sha256
-`00e43b3dc8aed2be93f05330aa8c605264fc4622d2134302cb58114ea16094e1`), fully
-replayed on all 1,000 scored puzzles — **449 below** the repo's
+**`improve/submission.csv` = 136,991 instructions** (sha256
+`e2224fdc160fe82dd4c1b3951dc704cd7ca451fb1806367153d793c87b815551`), fully
+replayed on all 1,000 scored puzzles — **451 below** the repo's
 `public-assisted/submission.csv` (137,442), shorter on 186+ puzzles, and does not
 modify any original file. Pipeline: public merge (137,275) -> pure-Python
 `algebra_rewrite` (137,254) -> cross-donor `mix.py` (137,223) -> C++
 `virtual_search` x2 (137,108) -> `matrix_construct --anchored` hub reconstruction
-(confident-models x2 -> 137,038; broader `matrix-scored.jsonl` pass -> 136,993,
-reaching 212 puzzles the confident set never covered). `crossover_graft.py` added 0.
+(confident-models x2 -> 137,038; broader `matrix-scored.jsonl` pass -> 136,991).
+`crossover_graft.py` added 0. A focused pass on the 66 new-puzzle hub models that
+the confident set never covered (`matrix4`) added **0** — the constructive and
+matrix approaches have both saturated; this is the final candidate.
 
 Pipeline to reproduce the best candidate:
 
@@ -98,6 +100,12 @@ single passes; the remaining gap is structural, not a missing local trick.
   hardest puzzles are already at the constructive search's floor, so extra effort
   there has no headroom. Gains come from *coverage* (matrix reconstruction reaching
   new puzzles), not from re-searching the tightest ones.
+- Focused new-puzzle matrix pass (`matrix4`): of the 212 puzzles in
+  `matrix-scored.jsonl` but not `confident-models.jsonl`, only **66** qualify as hub
+  models (>=2 targets + hubs). Anchored reconstruction (variants 6, 14 workers) on
+  exactly those 66 added **0** — their incumbent programs already beat the matrix
+  routes. This confirms both constructive search and matrix reconstruction have
+  saturated; further effort on either is grinding, so the candidate is finalized.
 
 ## Conclusion on the remaining gap
 
