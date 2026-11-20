@@ -2,6 +2,10 @@
 
 ## Public-assisted checkpoint
 
+Asterios Panoras' catalog release 99 contains 1,000 physically verified programs totaling 135,761 instructions. The pinned archive is 822,881 bytes and Kaggle identifies it as dataset version ID 22485092. Its internal change ledger labels the last entry `v97`. Merging strictly shorter programs from this release into the frozen 135106 parent shortened 11 puzzles by 17 instructions, reaching 135089. The original `source` field and the local optimizer attribution are recorded for each selected puzzle. [Asterios release 99](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/99) · [Current per-puzzle origins](origins.csv) · [Release hashes and 11 improved rows](../collaboration/evidence/release-v99.json) · [All release 99 source credits](../collaboration/evidence/asterios-v99-sources.csv)
+
+## Release 96 and earlier work
+
 Asterios Panoras publishes the verified program collection and preserves each selected program's contributor in its `source` column. Release 96 contains 1,000 programs totaling 135,806 instructions. Its Kaggle metadata specifies Apache 2.0. The local candidate combines selected public programs with further arithmetic rewrites. Its `origins.csv` records the selected local source and the upstream credit for each puzzle. [Pinned Asterios release 96](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/96) · [Per-puzzle origins](origins.csv) · [License text](LICENSE.txt)
 
 The release has 67 distinct original source descriptions. The accompanying count table preserves each description verbatim, including intermediate portfolio authors and prior optimizers. Pratham Jain documents the licenses and attribution of inputs to his portfolio. The Hanif contribution has its own notice. [Release 96 source counts](../collaboration/evidence/asterios-v96-sources.csv) · [Pratham Jain release 23](https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/23) · [Hanif v15 notice](Hanif-v15-NOTICE.md)

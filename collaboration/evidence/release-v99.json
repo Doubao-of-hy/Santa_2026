@@ -1,0 +1,142 @@
+{
+  "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/99",
+  "license": "Apache 2.0",
+  "author": "Asterios Panoras",
+  "catalog_version": 99,
+  "archive_bytes": 822881,
+  "archive_sha256": "9248ddc1eb19abe778ac47587dc3fd331188df88c1dfe10a10db74ea988c91da",
+  "storage_dataset_version_id": 22485092,
+  "raw_file": "best_programs.csv",
+  "raw_sha256": "9e07c0a689996513976fb9d70053c4ee9cd44e8a5f6d5ca8116645752283d352",
+  "normalized_sha256": "010ee9ea11356a3b1a87b052f5ccfb1ca425b537f77b6ba0ca4ad0ed494fb97a",
+  "archive_history_label": "v97",
+  "archive_history_sha256": "a25884923ecc1a0648662e6417942635c07e7e5bc6ad6ef51029498bba34f3c7",
+  "score": 135761,
+  "verified_puzzles": 1000,
+  "distinct_original_source_labels": 68,
+  "source_counts_file_sha256": "75a630bf44ff3423ae2b3c7512144bf8d5dcfce9b5c5f4be7e240651f400d6e2",
+  "local_parent": {
+    "score": 135106,
+    "program_sha256": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+    "origins_sha256": "a9e4465f9826909f7aa5049cd77558c1b40b26d276cc63ac261a3d3412d3378c"
+  },
+  "merged_score": 135089,
+  "strictly_improved_rows": [
+    {
+      "id": "scored_0039",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 114,
+      "previous_length": 116,
+      "saved": 2
+    },
+    {
+      "id": "scored_0044",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 75,
+      "previous_length": 77,
+      "saved": 2
+    },
+    {
+      "id": "scored_0297",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 124,
+      "previous_length": 125,
+      "saved": 1
+    },
+    {
+      "id": "scored_0696",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 81,
+      "previous_length": 82,
+      "saved": 1
+    },
+    {
+      "id": "scored_0785",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 107,
+      "previous_length": 110,
+      "saved": 3
+    },
+    {
+      "id": "scored_0794",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 118,
+      "previous_length": 119,
+      "saved": 1
+    },
+    {
+      "id": "scored_0838",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 140,
+      "previous_length": 141,
+      "saved": 1
+    },
+    {
+      "id": "scored_0911",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 82,
+      "previous_length": 83,
+      "saved": 1
+    },
+    {
+      "id": "scored_0929",
+      "source": "asterios 99",
+      "upstream_source": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+      "instructions": 110,
+      "previous_length": 112,
+      "saved": 2
+    },
+    {
+      "id": "scored_0963",
+      "source": "asterios 99",
+      "upstream_source": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+      "instructions": 121,
+      "previous_length": 123,
+      "saved": 2
+    },
+    {
+      "id": "scored_0976",
+      "source": "asterios 99",
+      "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+      "instructions": 97,
+      "previous_length": 98,
+      "saved": 1
+    }
+  ],
+  "other_pinned_versions": {
+    "asterios97": {
+      "score": 135803,
+      "archive_sha256": "aea45ad0fde32bf88cf20734e606916bb39d819ea608b6f12238eb887d5beeea",
+      "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/97",
+      "strict_additional_over_v99_within_frozen_comparison": 0
+    },
+    "asterios98": {
+      "score": 135782,
+      "archive_sha256": "be02fb27cde71fec49e7848a1440caced6fad3b8140cffe13758f83f0ebe6560",
+      "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/98",
+      "strict_additional_over_v99_within_frozen_comparison": 0
+    },
+    "good6": {
+      "score": 135787,
+      "archive_sha256": "35587c3febaacdb9baa14b52c0c0ee526c9493d0549c4fbefe9105aa9d2eb3fa",
+      "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/6",
+      "strict_additional_over_v99_within_frozen_comparison": 0
+    },
+    "rudolph53": {
+      "score": 135763,
+      "archive_sha256": "870e361d6894dfde2c1b6614bfcbe4d047ee8ed2e600f44baac9086bf921379b",
+      "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/53",
+      "strict_additional_over_v99_within_frozen_comparison": 0
+    }
+  },
+  "merged_full_submission_sha256": "fc3a18831b87a476b23293d94480988119db88af7be14440c830d77e1de63677",
+  "merged_verified_puzzles": 1000
+}

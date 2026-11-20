@@ -1,0 +1,2836 @@
+{
+ "frozen_files": {
+  "time": "2026-11-20T15:39:02+08:00",
+  "files": {
+   "own.csv": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "assisted.csv": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "origins.csv": "a9e4465f9826909f7aa5049cd77558c1b40b26d276cc63ac261a3d3412d3378c",
+   "pilot.txt": "9271a0e2508877f940692069aa562d0c7fa2145767326e819e56cffa8bc0d1e6",
+   "hold.txt": "7cf417d7f12ec0b24bfe330e48489980e95d7883a25460b09c6341d8ebc33c16",
+   "rest.txt": "a7fb8e3caadfffc0064fb8a1d21d1edba8a06e97628ded00f5bb937a3f0a0480"
+  },
+  "selection": "8 strata of length of independent frozen program, deterministic SHA-256 order per puzzle within each stratum, pilot 3 and confirmation 8 ids per stratum"
+ },
+ "paired_planted_controls": {
+  "cases": 96,
+  "recovered": 96,
+  "above_solo": 96
+ },
+ "runs": {
+  "own-pilot": {
+   "physical_rows": 24,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "9271a0e2508877f940692069aa562d0c7fa2145767326e819e56cffa8bc0d1e6",
+   "seconds": 0.9077572000096552,
+   "by_row": {
+    "scored_0012": {
+     "parent": 193,
+     "best": 193
+    },
+    "scored_0036": {
+     "parent": 238,
+     "best": 238
+    },
+    "scored_0091": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0093": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0118": {
+     "parent": 111,
+     "best": 111
+    },
+    "scored_0135": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0138": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0168": {
+     "parent": 288,
+     "best": 288
+    },
+    "scored_0202": {
+     "parent": 131,
+     "best": 131
+    },
+    "scored_0305": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0388": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0418": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0465": {
+     "parent": 113,
+     "best": 113
+    },
+    "scored_0518": {
+     "parent": 205,
+     "best": 205
+    },
+    "scored_0561": {
+     "parent": 102,
+     "best": 102
+    },
+    "scored_0603": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0663": {
+     "parent": 187,
+     "best": 187
+    },
+    "scored_0670": {
+     "parent": 189,
+     "best": 189
+    },
+    "scored_0671": {
+     "parent": 198,
+     "best": 198
+    },
+    "scored_0703": {
+     "parent": 176,
+     "best": 176
+    },
+    "scored_0708": {
+     "parent": 157,
+     "best": 157
+    },
+    "scored_0774": {
+     "parent": 296,
+     "best": 296
+    },
+    "scored_0809": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0842": {
+     "parent": 25,
+     "best": 25
+    }
+   }
+  },
+  "own-wide-hold": {
+   "physical_rows": 64,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "7cf417d7f12ec0b24bfe330e48489980e95d7883a25460b09c6341d8ebc33c16",
+   "seconds": 5.09189250000054,
+   "by_row": {
+    "scored_0029": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0042": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0045": {
+     "parent": 167,
+     "best": 167
+    },
+    "scored_0053": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0115": {
+     "parent": 210,
+     "best": 210
+    },
+    "scored_0123": {
+     "parent": 225,
+     "best": 225
+    },
+    "scored_0127": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0141": {
+     "parent": 139,
+     "best": 139
+    },
+    "scored_0146": {
+     "parent": 281,
+     "best": 281
+    },
+    "scored_0147": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0149": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0163": {
+     "parent": 273,
+     "best": 273
+    },
+    "scored_0176": {
+     "parent": 103,
+     "best": 103
+    },
+    "scored_0221": {
+     "parent": 37,
+     "best": 37
+    },
+    "scored_0228": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0240": {
+     "parent": 116,
+     "best": 116
+    },
+    "scored_0250": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0267": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0268": {
+     "parent": 201,
+     "best": 201
+    },
+    "scored_0276": {
+     "parent": 78,
+     "best": 78
+    },
+    "scored_0300": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0306": {
+     "parent": 277,
+     "best": 277
+    },
+    "scored_0308": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0330": {
+     "parent": 127,
+     "best": 127
+    },
+    "scored_0338": {
+     "parent": 184,
+     "best": 184
+    },
+    "scored_0343": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0354": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0368": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0414": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0420": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0438": {
+     "parent": 191,
+     "best": 191
+    },
+    "scored_0462": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0470": {
+     "parent": 279,
+     "best": 279
+    },
+    "scored_0480": {
+     "parent": 158,
+     "best": 158
+    },
+    "scored_0495": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0526": {
+     "parent": 222,
+     "best": 222
+    },
+    "scored_0536": {
+     "parent": 262,
+     "best": 262
+    },
+    "scored_0609": {
+     "parent": 162,
+     "best": 162
+    },
+    "scored_0618": {
+     "parent": 112,
+     "best": 112
+    },
+    "scored_0633": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0660": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0667": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0673": {
+     "parent": 175,
+     "best": 175
+    },
+    "scored_0675": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0681": {
+     "parent": 195,
+     "best": 195
+    },
+    "scored_0687": {
+     "parent": 240,
+     "best": 240
+    },
+    "scored_0692": {
+     "parent": 208,
+     "best": 208
+    },
+    "scored_0699": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0704": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0717": {
+     "parent": 131,
+     "best": 131
+    },
+    "scored_0749": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0753": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0764": {
+     "parent": 205,
+     "best": 205
+    },
+    "scored_0799": {
+     "parent": 242,
+     "best": 242
+    },
+    "scored_0802": {
+     "parent": 184,
+     "best": 184
+    },
+    "scored_0822": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0824": {
+     "parent": 145,
+     "best": 145
+    },
+    "scored_0848": {
+     "parent": 266,
+     "best": 266
+    },
+    "scored_0854": {
+     "parent": 174,
+     "best": 174
+    },
+    "scored_0881": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0889": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0948": {
+     "parent": 136,
+     "best": 136
+    },
+    "scored_0972": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0989": {
+     "parent": 86,
+     "best": 86
+    }
+   },
+   "operand_systems_tested": 37319,
+   "buildable_pairs": 882
+  },
+  "own-prefix-pilot": {
+   "physical_rows": 24,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "9271a0e2508877f940692069aa562d0c7fa2145767326e819e56cffa8bc0d1e6",
+   "seconds": 3.007850599999074,
+   "by_row": {
+    "scored_0012": {
+     "parent": 193,
+     "best": 193
+    },
+    "scored_0036": {
+     "parent": 238,
+     "best": 238
+    },
+    "scored_0091": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0093": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0118": {
+     "parent": 111,
+     "best": 111
+    },
+    "scored_0135": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0138": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0168": {
+     "parent": 288,
+     "best": 288
+    },
+    "scored_0202": {
+     "parent": 131,
+     "best": 131
+    },
+    "scored_0305": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0388": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0418": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0465": {
+     "parent": 113,
+     "best": 113
+    },
+    "scored_0518": {
+     "parent": 205,
+     "best": 205
+    },
+    "scored_0561": {
+     "parent": 102,
+     "best": 102
+    },
+    "scored_0603": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0663": {
+     "parent": 187,
+     "best": 187
+    },
+    "scored_0670": {
+     "parent": 189,
+     "best": 189
+    },
+    "scored_0671": {
+     "parent": 198,
+     "best": 198
+    },
+    "scored_0703": {
+     "parent": 176,
+     "best": 176
+    },
+    "scored_0708": {
+     "parent": 157,
+     "best": 157
+    },
+    "scored_0774": {
+     "parent": 296,
+     "best": 296
+    },
+    "scored_0809": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0842": {
+     "parent": 25,
+     "best": 25
+    }
+   },
+   "windows": 38,
+   "with_alternatives": 38
+  },
+  "own-prefix-hold": {
+   "physical_rows": 64,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "7cf417d7f12ec0b24bfe330e48489980e95d7883a25460b09c6341d8ebc33c16",
+   "seconds": 9.718168499995954,
+   "by_row": {
+    "scored_0029": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0042": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0045": {
+     "parent": 167,
+     "best": 167
+    },
+    "scored_0053": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0115": {
+     "parent": 210,
+     "best": 210
+    },
+    "scored_0123": {
+     "parent": 225,
+     "best": 225
+    },
+    "scored_0127": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0141": {
+     "parent": 139,
+     "best": 139
+    },
+    "scored_0146": {
+     "parent": 281,
+     "best": 281
+    },
+    "scored_0147": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0149": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0163": {
+     "parent": 273,
+     "best": 273
+    },
+    "scored_0176": {
+     "parent": 103,
+     "best": 103
+    },
+    "scored_0221": {
+     "parent": 37,
+     "best": 37
+    },
+    "scored_0228": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0240": {
+     "parent": 116,
+     "best": 116
+    },
+    "scored_0250": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0267": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0268": {
+     "parent": 201,
+     "best": 201
+    },
+    "scored_0276": {
+     "parent": 78,
+     "best": 78
+    },
+    "scored_0300": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0306": {
+     "parent": 277,
+     "best": 277
+    },
+    "scored_0308": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0330": {
+     "parent": 127,
+     "best": 127
+    },
+    "scored_0338": {
+     "parent": 184,
+     "best": 184
+    },
+    "scored_0343": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0354": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0368": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0414": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0420": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0438": {
+     "parent": 191,
+     "best": 191
+    },
+    "scored_0462": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0470": {
+     "parent": 279,
+     "best": 279
+    },
+    "scored_0480": {
+     "parent": 158,
+     "best": 158
+    },
+    "scored_0495": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0526": {
+     "parent": 222,
+     "best": 222
+    },
+    "scored_0536": {
+     "parent": 262,
+     "best": 262
+    },
+    "scored_0609": {
+     "parent": 162,
+     "best": 162
+    },
+    "scored_0618": {
+     "parent": 112,
+     "best": 112
+    },
+    "scored_0633": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0660": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0667": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0673": {
+     "parent": 175,
+     "best": 175
+    },
+    "scored_0675": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0681": {
+     "parent": 195,
+     "best": 195
+    },
+    "scored_0687": {
+     "parent": 240,
+     "best": 240
+    },
+    "scored_0692": {
+     "parent": 208,
+     "best": 208
+    },
+    "scored_0699": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0704": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0717": {
+     "parent": 131,
+     "best": 131
+    },
+    "scored_0749": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0753": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0764": {
+     "parent": 205,
+     "best": 205
+    },
+    "scored_0799": {
+     "parent": 242,
+     "best": 242
+    },
+    "scored_0802": {
+     "parent": 184,
+     "best": 184
+    },
+    "scored_0822": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0824": {
+     "parent": 145,
+     "best": 145
+    },
+    "scored_0848": {
+     "parent": 266,
+     "best": 266
+    },
+    "scored_0854": {
+     "parent": 174,
+     "best": 174
+    },
+    "scored_0881": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0889": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0948": {
+     "parent": 136,
+     "best": 136
+    },
+    "scored_0972": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0989": {
+     "parent": 86,
+     "best": 86
+    }
+   },
+   "windows": 92,
+   "with_alternatives": 92
+  },
+  "own-prefix-high": {
+   "physical_rows": 72,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "6a3555ca87e8131a015b762970c38096ecef6d28757da58d199841546838adee",
+   "seconds": 24.155583599989768,
+   "by_row": {
+    "scored_0021": {
+     "parent": 42,
+     "best": 42
+    },
+    "scored_0024": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0025": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0035": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0050": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0059": {
+     "parent": 149,
+     "best": 149
+    },
+    "scored_0065": {
+     "parent": 38,
+     "best": 38
+    },
+    "scored_0079": {
+     "parent": 141,
+     "best": 141
+    },
+    "scored_0095": {
+     "parent": 35,
+     "best": 35
+    },
+    "scored_0113": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0116": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0131": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0151": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0185": {
+     "parent": 152,
+     "best": 152
+    },
+    "scored_0187": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0210": {
+     "parent": 98,
+     "best": 98
+    },
+    "scored_0212": {
+     "parent": 19,
+     "best": 19
+    },
+    "scored_0225": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0256": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0288": {
+     "parent": 126,
+     "best": 126
+    },
+    "scored_0289": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0304": {
+     "parent": 133,
+     "best": 133
+    },
+    "scored_0341": {
+     "parent": 135,
+     "best": 135
+    },
+    "scored_0347": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0356": {
+     "parent": 86,
+     "best": 86
+    },
+    "scored_0376": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0377": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0379": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0387": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0399": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0423": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0430": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0439": {
+     "parent": 123,
+     "best": 123
+    },
+    "scored_0448": {
+     "parent": 214,
+     "best": 214
+    },
+    "scored_0467": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0473": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0474": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0500": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0503": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0517": {
+     "parent": 141,
+     "best": 141
+    },
+    "scored_0532": {
+     "parent": 83,
+     "best": 83
+    },
+    "scored_0560": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0566": {
+     "parent": 22,
+     "best": 22
+    },
+    "scored_0570": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0586": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0623": {
+     "parent": 79,
+     "best": 79
+    },
+    "scored_0637": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0648": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0654": {
+     "parent": 32,
+     "best": 32
+    },
+    "scored_0707": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0711": {
+     "parent": 22,
+     "best": 22
+    },
+    "scored_0713": {
+     "parent": 105,
+     "best": 105
+    },
+    "scored_0720": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0816": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0831": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0855": {
+     "parent": 68,
+     "best": 68
+    },
+    "scored_0861": {
+     "parent": 162,
+     "best": 162
+    },
+    "scored_0866": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0868": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0874": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0880": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0882": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0901": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0913": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0930": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0945": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0947": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0954": {
+     "parent": 80,
+     "best": 80
+    },
+    "scored_0966": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0971": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0996": {
+     "parent": 143,
+     "best": 143
+    },
+    "scored_0997": {
+     "parent": 107,
+     "best": 107
+    }
+   },
+   "windows": 188,
+   "with_alternatives": 188
+  },
+  "own-fringe-high": {
+   "physical_rows": 72,
+   "saved": 0,
+   "frozen_parent": "21bc043ca4929c643fc3c00548e60f24558fea5fa697c20494f12775c964b9d3",
+   "ids": "6a3555ca87e8131a015b762970c38096ecef6d28757da58d199841546838adee",
+   "seconds": 21.511689200007822,
+   "by_row": {
+    "scored_0021": {
+     "parent": 42,
+     "best": 42
+    },
+    "scored_0024": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0025": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0035": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0050": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0059": {
+     "parent": 149,
+     "best": 149
+    },
+    "scored_0065": {
+     "parent": 38,
+     "best": 38
+    },
+    "scored_0079": {
+     "parent": 141,
+     "best": 141
+    },
+    "scored_0095": {
+     "parent": 35,
+     "best": 35
+    },
+    "scored_0113": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0116": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0131": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0151": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0185": {
+     "parent": 152,
+     "best": 152
+    },
+    "scored_0187": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0210": {
+     "parent": 98,
+     "best": 98
+    },
+    "scored_0212": {
+     "parent": 19,
+     "best": 19
+    },
+    "scored_0225": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0256": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0288": {
+     "parent": 126,
+     "best": 126
+    },
+    "scored_0289": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0304": {
+     "parent": 133,
+     "best": 133
+    },
+    "scored_0341": {
+     "parent": 135,
+     "best": 135
+    },
+    "scored_0347": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0356": {
+     "parent": 86,
+     "best": 86
+    },
+    "scored_0376": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0377": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0379": {
+     "parent": 125,
+     "best": 125
+    },
+    "scored_0387": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0399": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0423": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0430": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0439": {
+     "parent": 123,
+     "best": 123
+    },
+    "scored_0448": {
+     "parent": 214,
+     "best": 214
+    },
+    "scored_0467": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0473": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0474": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0500": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0503": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0517": {
+     "parent": 141,
+     "best": 141
+    },
+    "scored_0532": {
+     "parent": 83,
+     "best": 83
+    },
+    "scored_0560": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0566": {
+     "parent": 22,
+     "best": 22
+    },
+    "scored_0570": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0586": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0623": {
+     "parent": 79,
+     "best": 79
+    },
+    "scored_0637": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0648": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0654": {
+     "parent": 32,
+     "best": 32
+    },
+    "scored_0707": {
+     "parent": 91,
+     "best": 91
+    },
+    "scored_0711": {
+     "parent": 22,
+     "best": 22
+    },
+    "scored_0713": {
+     "parent": 105,
+     "best": 105
+    },
+    "scored_0720": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0816": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0831": {
+     "parent": 100,
+     "best": 100
+    },
+    "scored_0855": {
+     "parent": 68,
+     "best": 68
+    },
+    "scored_0861": {
+     "parent": 162,
+     "best": 162
+    },
+    "scored_0866": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0868": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0874": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0880": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0882": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0901": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0913": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0930": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0945": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0947": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0954": {
+     "parent": 80,
+     "best": 80
+    },
+    "scored_0966": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0971": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0996": {
+     "parent": 143,
+     "best": 143
+    },
+    "scored_0997": {
+     "parent": 107,
+     "best": 107
+    }
+   },
+   "windows": 233,
+   "with_alternatives": 233
+  },
+  "assisted-pilot": {
+   "physical_rows": 24,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "9271a0e2508877f940692069aa562d0c7fa2145767326e819e56cffa8bc0d1e6",
+   "seconds": 0.8405723000178114,
+   "by_row": {
+    "scored_0012": {
+     "parent": 181,
+     "best": 181
+    },
+    "scored_0036": {
+     "parent": 233,
+     "best": 233
+    },
+    "scored_0091": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0093": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0118": {
+     "parent": 107,
+     "best": 107
+    },
+    "scored_0135": {
+     "parent": 93,
+     "best": 93
+    },
+    "scored_0138": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0168": {
+     "parent": 266,
+     "best": 266
+    },
+    "scored_0202": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0305": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0388": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0418": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0465": {
+     "parent": 112,
+     "best": 112
+    },
+    "scored_0518": {
+     "parent": 195,
+     "best": 195
+    },
+    "scored_0561": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0603": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0663": {
+     "parent": 182,
+     "best": 182
+    },
+    "scored_0670": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0671": {
+     "parent": 191,
+     "best": 191
+    },
+    "scored_0703": {
+     "parent": 170,
+     "best": 170
+    },
+    "scored_0708": {
+     "parent": 145,
+     "best": 145
+    },
+    "scored_0774": {
+     "parent": 273,
+     "best": 273
+    },
+    "scored_0809": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0842": {
+     "parent": 25,
+     "best": 25
+    }
+   }
+  },
+  "assisted-wide-hold": {
+   "physical_rows": 64,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "7cf417d7f12ec0b24bfe330e48489980e95d7883a25460b09c6341d8ebc33c16",
+   "seconds": 4.829986800003098,
+   "by_row": {
+    "scored_0029": {
+     "parent": 38,
+     "best": 38
+    },
+    "scored_0042": {
+     "parent": 165,
+     "best": 165
+    },
+    "scored_0045": {
+     "parent": 160,
+     "best": 160
+    },
+    "scored_0053": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0115": {
+     "parent": 206,
+     "best": 206
+    },
+    "scored_0123": {
+     "parent": 215,
+     "best": 215
+    },
+    "scored_0127": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0141": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0146": {
+     "parent": 261,
+     "best": 261
+    },
+    "scored_0147": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0149": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0163": {
+     "parent": 247,
+     "best": 247
+    },
+    "scored_0176": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0221": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0228": {
+     "parent": 104,
+     "best": 104
+    },
+    "scored_0240": {
+     "parent": 114,
+     "best": 114
+    },
+    "scored_0250": {
+     "parent": 20,
+     "best": 20
+    },
+    "scored_0267": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0268": {
+     "parent": 201,
+     "best": 201
+    },
+    "scored_0276": {
+     "parent": 72,
+     "best": 72
+    },
+    "scored_0300": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0306": {
+     "parent": 258,
+     "best": 258
+    },
+    "scored_0308": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0330": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0338": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0343": {
+     "parent": 113,
+     "best": 113
+    },
+    "scored_0354": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0368": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0414": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0420": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0438": {
+     "parent": 186,
+     "best": 186
+    },
+    "scored_0462": {
+     "parent": 117,
+     "best": 117
+    },
+    "scored_0470": {
+     "parent": 254,
+     "best": 254
+    },
+    "scored_0480": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0495": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0526": {
+     "parent": 214,
+     "best": 214
+    },
+    "scored_0536": {
+     "parent": 243,
+     "best": 243
+    },
+    "scored_0609": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0618": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0633": {
+     "parent": 166,
+     "best": 166
+    },
+    "scored_0660": {
+     "parent": 172,
+     "best": 172
+    },
+    "scored_0667": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0673": {
+     "parent": 168,
+     "best": 168
+    },
+    "scored_0675": {
+     "parent": 118,
+     "best": 118
+    },
+    "scored_0681": {
+     "parent": 194,
+     "best": 194
+    },
+    "scored_0687": {
+     "parent": 227,
+     "best": 227
+    },
+    "scored_0692": {
+     "parent": 197,
+     "best": 197
+    },
+    "scored_0699": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0704": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0717": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0749": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0753": {
+     "parent": 93,
+     "best": 93
+    },
+    "scored_0764": {
+     "parent": 194,
+     "best": 194
+    },
+    "scored_0799": {
+     "parent": 229,
+     "best": 229
+    },
+    "scored_0802": {
+     "parent": 183,
+     "best": 183
+    },
+    "scored_0822": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0824": {
+     "parent": 139,
+     "best": 139
+    },
+    "scored_0848": {
+     "parent": 247,
+     "best": 247
+    },
+    "scored_0854": {
+     "parent": 160,
+     "best": 160
+    },
+    "scored_0881": {
+     "parent": 86,
+     "best": 86
+    },
+    "scored_0889": {
+     "parent": 107,
+     "best": 107
+    },
+    "scored_0948": {
+     "parent": 132,
+     "best": 132
+    },
+    "scored_0972": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0989": {
+     "parent": 82,
+     "best": 82
+    }
+   },
+   "operand_systems_tested": 37663,
+   "buildable_pairs": 872
+  },
+  "assisted-prefix-pilot": {
+   "physical_rows": 24,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "9271a0e2508877f940692069aa562d0c7fa2145767326e819e56cffa8bc0d1e6",
+   "seconds": 3.2626534000155516,
+   "by_row": {
+    "scored_0012": {
+     "parent": 181,
+     "best": 181
+    },
+    "scored_0036": {
+     "parent": 233,
+     "best": 233
+    },
+    "scored_0091": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0093": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0118": {
+     "parent": 107,
+     "best": 107
+    },
+    "scored_0135": {
+     "parent": 93,
+     "best": 93
+    },
+    "scored_0138": {
+     "parent": 96,
+     "best": 96
+    },
+    "scored_0168": {
+     "parent": 266,
+     "best": 266
+    },
+    "scored_0202": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0305": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0388": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0418": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0465": {
+     "parent": 112,
+     "best": 112
+    },
+    "scored_0518": {
+     "parent": 195,
+     "best": 195
+    },
+    "scored_0561": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0603": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0663": {
+     "parent": 182,
+     "best": 182
+    },
+    "scored_0670": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0671": {
+     "parent": 191,
+     "best": 191
+    },
+    "scored_0703": {
+     "parent": 170,
+     "best": 170
+    },
+    "scored_0708": {
+     "parent": 145,
+     "best": 145
+    },
+    "scored_0774": {
+     "parent": 273,
+     "best": 273
+    },
+    "scored_0809": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0842": {
+     "parent": 25,
+     "best": 25
+    }
+   },
+   "windows": 49,
+   "with_alternatives": 49
+  },
+  "assisted-prefix-hold": {
+   "physical_rows": 64,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "7cf417d7f12ec0b24bfe330e48489980e95d7883a25460b09c6341d8ebc33c16",
+   "seconds": 11.062362500000745,
+   "by_row": {
+    "scored_0029": {
+     "parent": 38,
+     "best": 38
+    },
+    "scored_0042": {
+     "parent": 165,
+     "best": 165
+    },
+    "scored_0045": {
+     "parent": 160,
+     "best": 160
+    },
+    "scored_0053": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0115": {
+     "parent": 206,
+     "best": 206
+    },
+    "scored_0123": {
+     "parent": 215,
+     "best": 215
+    },
+    "scored_0127": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0141": {
+     "parent": 130,
+     "best": 130
+    },
+    "scored_0146": {
+     "parent": 261,
+     "best": 261
+    },
+    "scored_0147": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0149": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0163": {
+     "parent": 247,
+     "best": 247
+    },
+    "scored_0176": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0221": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0228": {
+     "parent": 104,
+     "best": 104
+    },
+    "scored_0240": {
+     "parent": 114,
+     "best": 114
+    },
+    "scored_0250": {
+     "parent": 20,
+     "best": 20
+    },
+    "scored_0267": {
+     "parent": 115,
+     "best": 115
+    },
+    "scored_0268": {
+     "parent": 201,
+     "best": 201
+    },
+    "scored_0276": {
+     "parent": 72,
+     "best": 72
+    },
+    "scored_0300": {
+     "parent": 40,
+     "best": 40
+    },
+    "scored_0306": {
+     "parent": 258,
+     "best": 258
+    },
+    "scored_0308": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0330": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0338": {
+     "parent": 177,
+     "best": 177
+    },
+    "scored_0343": {
+     "parent": 113,
+     "best": 113
+    },
+    "scored_0354": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0368": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0414": {
+     "parent": 106,
+     "best": 106
+    },
+    "scored_0420": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0438": {
+     "parent": 186,
+     "best": 186
+    },
+    "scored_0462": {
+     "parent": 117,
+     "best": 117
+    },
+    "scored_0470": {
+     "parent": 254,
+     "best": 254
+    },
+    "scored_0480": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0495": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0526": {
+     "parent": 214,
+     "best": 214
+    },
+    "scored_0536": {
+     "parent": 243,
+     "best": 243
+    },
+    "scored_0609": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0618": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0633": {
+     "parent": 166,
+     "best": 166
+    },
+    "scored_0660": {
+     "parent": 172,
+     "best": 172
+    },
+    "scored_0667": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0673": {
+     "parent": 168,
+     "best": 168
+    },
+    "scored_0675": {
+     "parent": 118,
+     "best": 118
+    },
+    "scored_0681": {
+     "parent": 194,
+     "best": 194
+    },
+    "scored_0687": {
+     "parent": 227,
+     "best": 227
+    },
+    "scored_0692": {
+     "parent": 197,
+     "best": 197
+    },
+    "scored_0699": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0704": {
+     "parent": 124,
+     "best": 124
+    },
+    "scored_0717": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0749": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0753": {
+     "parent": 93,
+     "best": 93
+    },
+    "scored_0764": {
+     "parent": 194,
+     "best": 194
+    },
+    "scored_0799": {
+     "parent": 229,
+     "best": 229
+    },
+    "scored_0802": {
+     "parent": 183,
+     "best": 183
+    },
+    "scored_0822": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0824": {
+     "parent": 139,
+     "best": 139
+    },
+    "scored_0848": {
+     "parent": 247,
+     "best": 247
+    },
+    "scored_0854": {
+     "parent": 160,
+     "best": 160
+    },
+    "scored_0881": {
+     "parent": 86,
+     "best": 86
+    },
+    "scored_0889": {
+     "parent": 107,
+     "best": 107
+    },
+    "scored_0948": {
+     "parent": 132,
+     "best": 132
+    },
+    "scored_0972": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0989": {
+     "parent": 82,
+     "best": 82
+    }
+   },
+   "windows": 108,
+   "with_alternatives": 108
+  },
+  "assisted-prefix-high": {
+   "physical_rows": 72,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "c1980ceb4c7f9f5492629445c4d748504b1f480493d551bd38958c463ea21724",
+   "seconds": 18.735152299981564,
+   "by_row": {
+    "scored_0007": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0024": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0025": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0032": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0035": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0041": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0044": {
+     "parent": 77,
+     "best": 77
+    },
+    "scored_0050": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0065": {
+     "parent": 37,
+     "best": 37
+    },
+    "scored_0079": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0110": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0113": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0117": {
+     "parent": 190,
+     "best": 190
+    },
+    "scored_0137": {
+     "parent": 54,
+     "best": 54
+    },
+    "scored_0148": {
+     "parent": 174,
+     "best": 174
+    },
+    "scored_0151": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0156": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0157": {
+     "parent": 157,
+     "best": 157
+    },
+    "scored_0196": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0201": {
+     "parent": 154,
+     "best": 154
+    },
+    "scored_0212": {
+     "parent": 19,
+     "best": 19
+    },
+    "scored_0217": {
+     "parent": 232,
+     "best": 232
+    },
+    "scored_0219": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0278": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0288": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0289": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0347": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0356": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0376": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0377": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0378": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0395": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0399": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0402": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0413": {
+     "parent": 156,
+     "best": 156
+    },
+    "scored_0430": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0473": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0500": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0532": {
+     "parent": 78,
+     "best": 78
+    },
+    "scored_0560": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0566": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0570": {
+     "parent": 83,
+     "best": 83
+    },
+    "scored_0601": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0608": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0623": {
+     "parent": 77,
+     "best": 77
+    },
+    "scored_0629": {
+     "parent": 154,
+     "best": 154
+    },
+    "scored_0648": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0654": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0711": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0720": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0723": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0733": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0767": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0800": {
+     "parent": 75,
+     "best": 75
+    },
+    "scored_0831": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0844": {
+     "parent": 252,
+     "best": 252
+    },
+    "scored_0855": {
+     "parent": 64,
+     "best": 64
+    },
+    "scored_0866": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0868": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0874": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0880": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0882": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0892": {
+     "parent": 16,
+     "best": 16
+    },
+    "scored_0901": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0913": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0930": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0945": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0947": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0949": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0971": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0975": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0997": {
+     "parent": 107,
+     "best": 107
+    }
+   },
+   "windows": 175,
+   "with_alternatives": 175
+  },
+  "assisted-fringe-high": {
+   "physical_rows": 72,
+   "saved": 0,
+   "frozen_parent": "3ee2864aced6c249b1cdad76ba7aefb0b9d1cf52756e7435624f52134bc452ae",
+   "ids": "c1980ceb4c7f9f5492629445c4d748504b1f480493d551bd38958c463ea21724",
+   "seconds": 14.799566500005312,
+   "by_row": {
+    "scored_0007": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0024": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0025": {
+     "parent": 120,
+     "best": 120
+    },
+    "scored_0032": {
+     "parent": 101,
+     "best": 101
+    },
+    "scored_0035": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0041": {
+     "parent": 121,
+     "best": 121
+    },
+    "scored_0044": {
+     "parent": 77,
+     "best": 77
+    },
+    "scored_0050": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0065": {
+     "parent": 37,
+     "best": 37
+    },
+    "scored_0079": {
+     "parent": 137,
+     "best": 137
+    },
+    "scored_0110": {
+     "parent": 171,
+     "best": 171
+    },
+    "scored_0113": {
+     "parent": 26,
+     "best": 26
+    },
+    "scored_0117": {
+     "parent": 190,
+     "best": 190
+    },
+    "scored_0137": {
+     "parent": 54,
+     "best": 54
+    },
+    "scored_0148": {
+     "parent": 174,
+     "best": 174
+    },
+    "scored_0151": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0156": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0157": {
+     "parent": 157,
+     "best": 157
+    },
+    "scored_0196": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0201": {
+     "parent": 154,
+     "best": 154
+    },
+    "scored_0212": {
+     "parent": 19,
+     "best": 19
+    },
+    "scored_0217": {
+     "parent": 232,
+     "best": 232
+    },
+    "scored_0219": {
+     "parent": 110,
+     "best": 110
+    },
+    "scored_0278": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0288": {
+     "parent": 119,
+     "best": 119
+    },
+    "scored_0289": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0347": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0356": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0376": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0377": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0378": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0395": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0399": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0402": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0413": {
+     "parent": 156,
+     "best": 156
+    },
+    "scored_0430": {
+     "parent": 88,
+     "best": 88
+    },
+    "scored_0473": {
+     "parent": 24,
+     "best": 24
+    },
+    "scored_0500": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0532": {
+     "parent": 78,
+     "best": 78
+    },
+    "scored_0560": {
+     "parent": 31,
+     "best": 31
+    },
+    "scored_0566": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0570": {
+     "parent": 83,
+     "best": 83
+    },
+    "scored_0601": {
+     "parent": 122,
+     "best": 122
+    },
+    "scored_0608": {
+     "parent": 150,
+     "best": 150
+    },
+    "scored_0623": {
+     "parent": 77,
+     "best": 77
+    },
+    "scored_0629": {
+     "parent": 154,
+     "best": 154
+    },
+    "scored_0648": {
+     "parent": 99,
+     "best": 99
+    },
+    "scored_0654": {
+     "parent": 30,
+     "best": 30
+    },
+    "scored_0711": {
+     "parent": 21,
+     "best": 21
+    },
+    "scored_0720": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0723": {
+     "parent": 97,
+     "best": 97
+    },
+    "scored_0733": {
+     "parent": 95,
+     "best": 95
+    },
+    "scored_0767": {
+     "parent": 108,
+     "best": 108
+    },
+    "scored_0800": {
+     "parent": 75,
+     "best": 75
+    },
+    "scored_0831": {
+     "parent": 92,
+     "best": 92
+    },
+    "scored_0844": {
+     "parent": 252,
+     "best": 252
+    },
+    "scored_0855": {
+     "parent": 64,
+     "best": 64
+    },
+    "scored_0866": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0868": {
+     "parent": 29,
+     "best": 29
+    },
+    "scored_0874": {
+     "parent": 27,
+     "best": 27
+    },
+    "scored_0880": {
+     "parent": 36,
+     "best": 36
+    },
+    "scored_0882": {
+     "parent": 23,
+     "best": 23
+    },
+    "scored_0892": {
+     "parent": 16,
+     "best": 16
+    },
+    "scored_0901": {
+     "parent": 17,
+     "best": 17
+    },
+    "scored_0913": {
+     "parent": 25,
+     "best": 25
+    },
+    "scored_0930": {
+     "parent": 82,
+     "best": 82
+    },
+    "scored_0945": {
+     "parent": 28,
+     "best": 28
+    },
+    "scored_0947": {
+     "parent": 89,
+     "best": 89
+    },
+    "scored_0949": {
+     "parent": 87,
+     "best": 87
+    },
+    "scored_0971": {
+     "parent": 18,
+     "best": 18
+    },
+    "scored_0975": {
+     "parent": 109,
+     "best": 109
+    },
+    "scored_0997": {
+     "parent": 107,
+     "best": 107
+    }
+   },
+   "windows": 233,
+   "with_alternatives": 233
+  }
+ },
+ "v99_postprocess": {
+  "raw_v99_sha256": "010ee9ea11356a3b1a87b052f5ccfb1ca425b537f77b6ba0ca4ad0ed494fb97a",
+  "frozen_135089_sha256": "ded5278afd25a437d0b887bbbc117ef5cb8ebd0dc46a2fbf9397426687e41d3a",
+  "rows": 30,
+  "strict_improvements": {
+   "scored_0072": {
+    "before": 104,
+    "old": 104,
+    "raw": 104,
+    "best": 103,
+    "arm": "v99",
+    "history": {
+     "v99": {
+      "id": "scored_0072",
+      "before": 104,
+      "single": {
+       "group": 103,
+       "exchange": 104,
+       "factor": 104,
+       "paid": 104
+      },
+      "chain": 103,
+      "history": [
+       [
+        "group",
+        104,
+        103
+       ]
+      ],
+      "best": 103
+     },
+     "winner": {
+      "id": "scored_0072",
+      "before": 104,
+      "single": {
+       "group": 104,
+       "exchange": 104,
+       "factor": 104,
+       "paid": 104
+      },
+      "chain": 104,
+      "history": [],
+      "best": 104
+     },
+     "pool0": {
+      "size": 104,
+      "status": "FEASIBLE"
+     },
+     "pool24": {
+      "size": 103,
+      "status": "FEASIBLE"
+     },
+     "paid0": {
+      "size": 104,
+      "status": "FEASIBLE"
+     },
+     "after-pool24": {
+      "id": "scored_0072",
+      "before": 103,
+      "single": {
+       "group": 103,
+       "exchange": 103,
+       "factor": 103,
+       "paid": 103
+      },
+      "chain": 103,
+      "history": [],
+      "best": 103
+     }
+    }
+   },
+   "scored_0929": {
+    "before": 110,
+    "old": 112,
+    "raw": 110,
+    "best": 109,
+    "arm": "pool0",
+    "history": {
+     "v99": {
+      "id": "scored_0929",
+      "before": 110,
+      "single": {
+       "group": 110,
+       "exchange": 110,
+       "factor": 110,
+       "paid": 110
+      },
+      "chain": 110,
+      "history": [],
+      "best": 110
+     },
+     "pool0": {
+      "size": 109,
+      "status": "FEASIBLE"
+     },
+     "pool24": {
+      "size": 110,
+      "status": "FEASIBLE"
+     },
+     "paid0": {
+      "size": 110,
+      "status": "FEASIBLE"
+     },
+     "after-pool0": {
+      "id": "scored_0929",
+      "before": 109,
+      "single": {
+       "group": 109,
+       "exchange": 109,
+       "factor": 109,
+       "paid": 109
+      },
+      "chain": 109,
+      "history": [],
+      "best": 109
+     }
+    }
+   }
+  }
+ },
+ "three_parent": {
+  "source": "independent only",
+  "puzzle": "scored_0134",
+  "before": 29,
+  "after": 28,
+  "verification_sha256": "ec2c1cf6c9a4fb5280c536607bb0144a709418a4e94c7f015a029a02895abc3a"
+ }
+}
