@@ -87,27 +87,28 @@ def options(p,lane,sources):
                 candidates[x]=(ranking,key,{v:foreign[v] for v in foreign if v in ex})
     return live,candidates
 
+def candidate_rows(ps,lane,sources):
+    base=DESIGN['base']
+    ordered=sorted(ps,key=lambda p:stable((DESIGN['salt'],lane,p.id)))
+    for p in ordered:
+        if len(p.targets)<8:continue
+        _,choices=options(p,lane,sources)
+        if len(choices)<2:continue
+        ranked=max(choices,key=lambda x:(choices[x][0],-x))
+        alt=random.Random(stable((DESIGN['salt'],lane,p.id,'random'))).choice(sorted(x for x in choices if x!=ranked))
+        row={'id':p.id,'candidates':len(choices),'base_sha256':stable(sources[base,lane][0][p.id])}
+        for name,x in [('ranked',ranked),('random',alt)]:
+            ranking,key,patch=choices[x]
+            row[name]=dict(value=x,rank=ranking,origin=key,patch=[[v,*recipe] for v,recipe in patch.items()],
+                           donor_sha256=stable(sources[key][0][p.id]),credit=sources[key][1][p.id])
+        yield row
+
 def freeze(ps,sources):
-    selected={};base=DESIGN['base']
-    for lane in ('own','public'):
-        ordered=sorted(ps,key=lambda p:stable((DESIGN['salt'],lane,p.id)))
-        chosen=[]
-        for p in ordered:
-            if len(p.targets)<8:continue
-            _,choices=options(p,lane,sources)
-            if len(choices)<2:continue
-            ranked=max(choices,key=lambda x:(choices[x][0],-x))
-            alt=random.Random(stable((DESIGN['salt'],lane,p.id,'random'))).choice(sorted(x for x in choices if x!=ranked))
-            row={'id':p.id,'candidates':len(choices),'base_sha256':stable(sources[base,lane][0][p.id])}
-            for name,x in [('ranked',ranked),('random',alt)]:
-                ranking,key,patch=choices[x]
-                row[name]=dict(value=x,rank=ranking,origin=key,patch=[[v,*recipe] for v,recipe in patch.items()],
-                               donor_sha256=stable(sources[key][0][p.id]),credit=sources[key][1][p.id])
-            chosen.append(row)
-            if len(chosen)==DESIGN['development']+DESIGN['holdout']:break
-        if len(chosen)!=DESIGN['development']+DESIGN['holdout']:raise ValueError('Too few eligible puzzles')
-        selected[lane]=chosen
-    return selected
+    from itertools import islice
+    n=DESIGN['development']+DESIGN['holdout']
+    result={lane:list(islice(candidate_rows(ps,lane,sources),n)) for lane in ('own','public')}
+    if any(len(rows)!=n for rows in result.values()):raise ValueError('Too few eligible puzzles')
+    return result
 
 def evaluate(task):
     p,lane,row,parent,donors,exe=task
