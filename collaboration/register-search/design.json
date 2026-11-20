@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "2e04c7ab5fab2286d509e81074ef50979b708f40",
+  "rounds": 96,
+  "seed_offset": 617239,
+  "own_sha256": "58b48b2f9a52cd4850fc1dad73681ceda207496d3a6a84498864c8c676a1726b",
+  "assisted_sha256": "f0fd262cf042a891acddccee749ab2b983fe43f8923e83c44fa9a446cf4d0ea1",
+  "native_sha256": "5a1064c8c47f12c72a18772a646af3cf1cc6c1f350a81e2c5c97f69ab0e53ef5",
+  "ids": [
+    "scored_0005",
+    "scored_0121",
+    "scored_0137",
+    "scored_0292",
+    "scored_0350",
+    "scored_0541",
+    "scored_0584",
+    "scored_0672",
+    "scored_0773",
+    "scored_0877"
+  ]
+}
