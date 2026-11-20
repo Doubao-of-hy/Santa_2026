@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日第 506 题的公开改进
+
+Asterios v120 汇总程序独立重放为 134,322 条。第 506 题由 117 条缩至 114 条，原始行署名 Asterios Panoras 重新运行 Atakan Aldemir 的优化器。合入已公布的 269 题搜索后，当前独立候选 **140,745** 条，公开辅助候选 **134,311** 条。21:52 的官方榜首为 128,330 条，相差 5,981 条。[固定版本、逐题作者及榜单](collaboration/evidence/asterios120-134311.json)
+
 ## 近长独立父本的扩展结果
 
 首轮 16 道独立题后，预登记的另外 269 道中已完成 269 道，46 道刷新，合计节省 60 条。独立候选 **140,745** 条，公开辅助候选 **134,314** 条。两份均用两个解释器重放 1,000 题。[全部输入与筛选条件](collaboration/goodpjw-incremental/extension-design.json) · [逐批程序与署名](collaboration/goodpjw-incremental/extension)

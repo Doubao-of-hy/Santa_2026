@@ -1,0 +1,156 @@
+{
+ "registered_source": {
+  "checked_utc": "2026-11-20T13:50:27.373425+00:00",
+  "catalog_utc": "20261120-134904",
+  "catalog_sha256": "a8ba215295ce5f532f8bd6c7c1fb93f03521e30406d0ac605bd8a832def2675a",
+  "version": 120,
+  "version_url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/120",
+  "license": "Apache 2.0",
+  "version_published_utc": "2026-11-20T13:38:24.85Z",
+  "archive_sha256": "a42ca92bf329059164d859c4724c39b24c744584ad40c692dd8b4e42c3dde307",
+  "bytes": 815559,
+  "immutable_storage": "https://storage.googleapis.com:443/kaggle-data-sets/13468494/22501674/bundle/archive.zip",
+  "raw": "best_programs.csv",
+  "raw_sha256": "afe52599de87e748ef57e9afeb1b475053222b7c31698a495b9494fa3ad674fd",
+  "archive_members": {
+   "best_programs.csv": [
+    2231478,
+    "afe52599de87e748ef57e9afeb1b475053222b7c31698a495b9494fa3ad674fd"
+   ],
+   "elf_tools/dag4.py": [
+    7598,
+    "6217088eef4fe0016b894e4cb881b559235c728e902fd738830935e4731b66b5"
+   ],
+   "elf_tools/dag5.py": [
+    2679,
+    "423454922d7ec28e401a86b22a8ed8bb487f29a650e1862fdf3b463b7edf7766"
+   ],
+   "elf_tools/dagpass.py": [
+    5471,
+    "b963016ee67d8bb594e1d1202f8510a0eb56aa00c9708abfeb024aee1b8159a8"
+   ],
+   "elf_tools/deep4.py": [
+    4088,
+    "c7c07ce8f54e23978fb8e85017da1dfc418cf3b6cbb527ad07e3f7a380ab5c6b"
+   ],
+   "elf_tools/elf_pair.cpp": [
+    16870,
+    "b2f53607e851066674364d145e1516a9c32b8196cb980fbab07f4f7719f5578a"
+   ],
+   "elf_tools/elf_suffix_ext.cpp": [
+    10476,
+    "8b9caeae7642aca95fe2f557ee8bc4b6b9960a115a4bccb3351456ea975f5d9c"
+   ],
+   "elf_tools/headroom.py": [
+    3768,
+    "b28bf1a6813cef6fe545ab8b9d8b0af4a6c74af5cf908900cdacdeeef5f15309"
+   ],
+   "elf_tools/jointcut.py": [
+    3363,
+    "9ec1dee6ab640b6a7471420ae2aacc210d55ac63f8d127f2dd4de4de47f59e2f"
+   ],
+   "elf_tools/resynth.py": [
+    10880,
+    "673d90b899ff4390e615aecc10259c7fed53890afc9e22916e2e321e7a3f744e"
+   ],
+   "elf_tools/structure.py": [
+    1884,
+    "838600c298e9c55e3280ed5f356403de457cac1765d3bca76a5eff2f26bb3747"
+   ],
+   "elf_tools/suffix.py": [
+    3046,
+    "ed9d64f6d4bd9029cdd4b3b72b79e43a445c674aab77aad5afdc1e6a91ccd9a9"
+   ],
+   "elf_tools/verify.py": [
+    2150,
+    "2fdd756eb842fef4d0ad86a5f2795c2d58a03d4253abc2a7753ec55c571b8127"
+   ],
+   "experiments.csv": [
+    5361,
+    "063f32ac99e32f7612e287579e44735d9f59e41d2b216c75e8bce6aa6a2dcaa7"
+   ],
+   "headroom_independent_build.csv": [
+    9317,
+    "292c1f677b1e4c65ffae22b88f82a2b27b7d9c3e5cc789f827ac609cd20801d7"
+   ],
+   "history.csv": [
+    20742,
+    "a1cae5772dec79d45ef314bfec83ea03ef8d5ec929951f1671e2d0aa34a8ef34"
+   ],
+   "practice_puzzles.csv": [
+    87861,
+    "a87e4e0ad263f31af1a9e51459117212b03404339c5940be3aa6afd1596ff6d9"
+   ],
+   "practice_structure_costs.csv": [
+    150578,
+    "1204f20157d65d2cd618e401e6f54abfb51ecd1e0994b1ce8df26f42456b42ec"
+   ],
+   "public_lineage.csv": [
+    24493,
+    "f7873c2db79088a43148551220da8f03e3e42a0b9526590770eeabb11ad006a0"
+   ],
+   "puzzles.csv": [
+    416612,
+    "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428"
+   ]
+  },
+  "history_last": {
+   "version": "v118",
+   "date_utc": "2026-11-20",
+   "total": "134322",
+   "delta": "-115",
+   "change": "newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer",
+   "credit": "E-Max AI, Ertuğrul Özer, Hanif Noer Rofiq, Mizero Lucky Gall, Pablo Diego Pereira"
+  },
+  "source_rows": 1000,
+  "source_instructions": 134322,
+  "source_normalized_sha256": "88eadc42568307cb742d3fd084f0a1a8b7feffd0347ff2813d6c449df9697177",
+  "frozen_commit": "33c80597bb750d657df3d22e1f633e27302bcb79",
+  "base_sha256": "91882c56cb7baf29f5778921e5f9b016feee7322782dade7bbddf9c0ccd04631",
+  "base_instructions": 134321,
+  "credited_strict_winners": {
+   "scored_0506": {
+    "before": 117,
+    "after": 114,
+    "release_credit": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set"
+   }
+  },
+  "combined": 134318,
+  "combined_sha256": "369b9e9ce2dde3959a8fd1ad74003d675c045fd24bdc5e2fdf561940887b7e25",
+  "delta_sha256": "0c173b3354d26d11735f43a690b1666948dd83b752cc80a354ef3e3aee46ac01",
+  "row_credits_sha256": "5a65cfb70af84979d98acfc227000dc309cc64e735ef8e1921c5c5a82a464c1c",
+  "independent_interpreters": [
+   "elf.score",
+   "checkpoint.independent_score"
+  ],
+  "replayed_rows": 1000
+ },
+ "previous_commit": "2887d73",
+ "previous_steps": 134314,
+ "adopted": {
+  "scored_0506": {
+   "old": 117,
+   "new": 114
+  }
+ },
+ "row_credit": {
+  "id": "scored_0506",
+  "source": "Asterios v120",
+  "upstream_source": "Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+  "instructions": "114"
+ },
+ "full_replay_rows": 1000,
+ "public_total": 134311,
+ "public_sha256": "9247824f021c49ceb3336fea27a6b238542d0a953aafb075a3848035c7d7d115",
+ "pure_total": 140745,
+ "pure_sha256": "5944252c3b2f2fb8caa197ea36c74dfa4d430d0856144f1a406c558dc30931ba",
+ "board": {
+  "utc": "2026-11-20T13:52:59.258926+00:00",
+  "ranked_rows": 1800,
+  "strictly_better": 131,
+  "tied": 0,
+  "first": 128330,
+  "gap": 5981,
+  "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard"
+ }
+}

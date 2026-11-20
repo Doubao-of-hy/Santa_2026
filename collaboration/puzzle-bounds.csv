@@ -504,7 +504,7 @@ scored_0502,38,35,38,conditioned-bounds.json,173,157,157,119,0
 scored_0503,37,35,37,conditioned-bounds.json,88,82,82,45,0
 scored_0504,41,37,41,conditioned-bounds.json,199,186,186,145,0
 scored_0505,37,35,37,domain-bounds.csv,121,112,112,75,0
-scored_0506,41,38,41,conditioned-bounds.json,127,117,117,76,0
+scored_0506,41,38,41,conditioned-bounds.json,127,114,114,73,0
 scored_0507,39,35,39,conditioned-bounds.json,176,165,165,126,0
 scored_0508,43,40,43,conditioned-bounds.json,214,201,201,158,0
 scored_0509,41,38,41,conditioned-bounds.json,123,122,122,81,0
