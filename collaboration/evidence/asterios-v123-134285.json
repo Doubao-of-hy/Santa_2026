@@ -1,0 +1,85 @@
+{
+  "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/123",
+  "version": 123,
+  "license": "Apache 2.0",
+  "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+  "dataset_version_id": 22504151,
+  "archive": "ae06be8dc7a7a19f4fd768c18f97514d2a63e8e7e38b06d1a87b51587f323be2",
+  "archive_bytes": 815815,
+  "raw_sha256": "0041c0f07898790dcaede84917714d786e3b996e04e5cedb732ecbcb518888aa",
+  "normalized_sha256": "fd4be6320ef843e1c8b2a3838dedbd70d5b20aa329b22b25233269767441ac1a",
+  "combined_sha256": "6d3420a7eb7bebdca5cbf2d1fd7b675e2c5aec1eb1c86ef47fa35766f7dd4b76",
+  "baseline_score": 134298,
+  "baseline_sha": "0853c5032610e6c1bbd4f90d727c19a45182cbf4fd8b82576295c38dda262856",
+  "frozen_commit": "1cb729d2e553cc517d2951ac01ef506f58a69366",
+  "winners": {
+    "scored_0189": 1,
+    "scored_0286": 2,
+    "scored_0383": 1,
+    "scored_0519": 1,
+    "scored_0707": 5,
+    "scored_0716": 1,
+    "scored_0767": 2
+  },
+  "history_head": {
+    "version": "v121",
+    "date_utc": "2026-11-20",
+    "total": "134298",
+    "delta": "-9",
+    "change": "newest public programs merged per puzzle + 5 more instructions from re-running Atakan Aldemir's optimizer",
+    "credit": "E-Max AI, Roman Rozen"
+  },
+  "publisher_api": {
+    "url": "https://api.kaggle.com/v1/datasets.DatasetApiService/ListDatasets",
+    "time": "2026-11-20T14:36:00.604857+00:00",
+    "license": "Apache 2.0"
+  },
+  "utc": "2026-11-20T14:36:33.736186+00:00",
+  "score": 134298,
+  "accepted_total": 134285,
+  "rows": [
+    {
+      "id": "scored_0189",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+      "instructions": "116"
+    },
+    {
+      "id": "scored_0286",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+      "instructions": "115"
+    },
+    {
+      "id": "scored_0383",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 E-Max AI, Santa 2026 | Public Frontier | Score 134,311",
+      "instructions": "130"
+    },
+    {
+      "id": "scored_0519",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+      "instructions": "87"
+    },
+    {
+      "id": "scored_0707",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+      "instructions": "83"
+    },
+    {
+      "id": "scored_0716",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 E-Max AI, Santa 2026 | Public Frontier | Score 134,301",
+      "instructions": "116"
+    },
+    {
+      "id": "scored_0767",
+      "source": "asterios v123",
+      "upstream_source": "asterios v123 Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",
+      "instructions": "102"
+    }
+  ],
+  "full_replay_puzzles_per_interpreter": 1000
+}

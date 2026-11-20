@@ -187,7 +187,7 @@ scored_0185,work/gpu/lineage-trusted.csv,"Roman Rozen, Santa 2026 | IceFire Stro
 scored_0186,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"Hanif Noer Rofiq, Kaggle dataset release 24 (Apache-2.0), with contributors and Wang-derived optimizer identified in Hanif-v24-NOTICE.md.",108
 scored_0187,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",93
 scored_0188,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",96
-scored_0189,local from official inputs,Generated from official inputs,117
+scored_0189,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,311",116
 scored_0190,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",126
 scored_0191,local from official inputs,Generated from official inputs,104
 scored_0192,Asterios v113,"E-Max AI, Santa 2026 | Public Frontier | Score 134,582",115
@@ -284,7 +284,7 @@ scored_0282,work/heritage/global-diversity/short-holdout-wins.csv,"Rishabh Bafna
 scored_0283,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",212
 scored_0284,Asterios v113,"Hanif Noer Rofiq, Santa 2026 Elf Calculator - Verified Portfolio",117
 scored_0285,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",210
-scored_0286,Asterios v113,"E-Max AI, Santa 2026 Crossover Stage 134618",117
+scored_0286,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,311",115
 scored_0287,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",185
 scored_0288,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",119
 scored_0289,local from official inputs,Generated from official inputs,18
@@ -381,7 +381,7 @@ scored_0379,Asterios v99,"goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 
 scored_0380,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",158
 scored_0381,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",201
 scored_0382,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",143
-scored_0383,local from official inputs,Generated from official inputs,131
+scored_0383,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,311",130
 scored_0384,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",145
 scored_0385,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",115
 scored_0386,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",189
@@ -517,7 +517,7 @@ scored_0515,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithm
 scored_0516,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",159
 scored_0517,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",133
 scored_0518,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",195
-scored_0519,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",88
+scored_0519,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,301",87
 scored_0520,work/virtual/bank-135324/assisted-neutral-full.csv,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",172
 scored_0521,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",113
 scored_0522,Asterios v113,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",86
@@ -705,7 +705,7 @@ scored_0703,Asterios v99,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [1
 scored_0704,Asterios v99,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",124
 scored_0705,Asterios v119,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",108
 scored_0706,work/gpu/lineage-trusted.csv,"Pratham Jain, Santa 2026 | Exact Portfolio Frontier [138084]",181
-scored_0707,work/gpu/frontier-trusted.csv,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",88
+scored_0707,Asterios v123,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",83
 scored_0708,Asterios v99,"prvsiyan, Santa is not happy",145
 scored_0709,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",103
 scored_0710,work/gpu/lineage-trusted.csv,"alex chilton, Rudolph the Red-Nosed Register Allocator",117
@@ -714,7 +714,7 @@ scored_0712,Asterios v99,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/
 scored_0713,work/creative/resume-135077/four-source-134385-to-134325/shorter.csv,"goodpjw2008, Kaggle dataset release 10 (Apache-2.0), our_programs.csv. Dataset includes public frontier, local solver, Wang Jakie strategies and E-Max AI (RoyalAceCat) seeded crossover; see GoodPJW-v10-NOTICE.md and GoodPJW-v10-public-sources.json. No row-specific author is supplied.",99
 scored_0714,local from official inputs,Generated from official inputs,143
 scored_0715,Asterios v113,"wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",120
-scored_0716,local from official inputs,Generated from official inputs,117
+scored_0716,Asterios v123,"E-Max AI, Santa 2026 | Public Frontier | Score 134,301",116
 scored_0717,Asterios v99,"Mudit Chaturvedi, Verified Portfolio 138875",122
 scored_0718,local from official inputs,Generated from official inputs,115
 scored_0719,Asterios v113,"守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",246
@@ -765,7 +765,7 @@ scored_0763,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",92
 scored_0764,work/gpu/offset-trusted.csv,"Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",194
 scored_0765,work/heritage/scale-pub-wins.csv,"goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",183
 scored_0766,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",206
-scored_0767,Asterios v119,"E-Max AI, Santa 2026 | Public Frontier | Score 134,439",104
+scored_0767,Asterios v123,"Asterios Panoras, Atakan Aldemir's multiplier-frontier optimizer re-run on the merged public set",102
 scored_0768,Asterios v99,"Atakan Aldemir, Santa 2026 | Joint Recipes for Large Puzzles",93
 scored_0769,Asterios v99,"Ertuğrul Özer, Santa 2026 | Starter Notebook!",97
 scored_0770,local from official inputs,Generated from official inputs,112
