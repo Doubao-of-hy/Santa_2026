@@ -263,6 +263,38 @@ diamond/conditioned 回放认证已吸收本层早期
 排除所有 ≤20 条的程序，故最小值 ≥21；与上面 21 条构造吻合，**scored_0399 的精确最小值 = 21**。
 该结论与协作会话（`collaboration/puzzle-bounds.csv`）已认证的紧界 21 独立互证。
 
+## 已证精确最小值（合并双方认证，共 20 题）
+
+下界取双方认证的最大值、上界取双方已验证构造的最小值；二者相等即精确最小值。
+除 0149 外，构造均来自本仓库 `improve/submission.csv`（`elf.score` 逐条回放验证）。
+
+| 题号 | 精确最小值 | 构造来源 | 下界来源 |
+|---|---:|---|---|
+| scored_0061 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0126 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0149 | 16 | 协作会话提交 | helper-wave4（协作） |
+| scored_0289 | 18 | improve/submission.csv | helper-wave4（协作） |
+| scored_0301 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0348 | 3 | improve/submission.csv | 解析前缀界 |
+| scored_0365 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0399 | 21 | improve/submission.csv（见上表） | 本层 h9 全 UNSAT + 协作互证 |
+| scored_0485 | 2 | improve/submission.csv | 解析前缀界 |
+| scored_0490 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0537 | 2 | improve/submission.csv | 解析前缀界 |
+| scored_0597 | 3 | improve/submission.csv | 解析前缀界 |
+| scored_0600 | 3 | improve/submission.csv | 解析前缀界 |
+| scored_0676 | 6 | improve/submission.csv | 解析前缀界 |
+| scored_0721 | 4 | improve/submission.csv | 解析前缀界 |
+| scored_0798 | 2 | improve/submission.csv | 解析前缀界 |
+| scored_0883 | 7 | improve/submission.csv | 解析前缀界 |
+| scored_0887 | 3 | improve/submission.csv | 解析前缀界 |
+| scored_0892 | 16 | improve/submission.csv | 原 proofs/ h7 全 UNSAT |
+| scored_0931 | 2 | improve/submission.csv | 解析前缀界 |
+
+其余 980 题的上下界缺口见 `bounds.csv` 与协作层 `puzzle-bounds.csv`；
+廉价闭合候选（预算 ≤11、根选项 ≤40、值域 ≤50M）仅剩 0388 h10、0971 h11、
+0409 h11 及协作层保留的 0882/0901/0212 网格，均属昂贵深搜。
+
 ## 复核
 
 ```bash
