@@ -1,0 +1,972 @@
+{
+  "experiment": "Parallel tempering of arithmetic dependency graphs",
+  "registered": "2026-11-20T21:32:16+08:00",
+  "commit": "472b715858b74910ca9b1eafcbea4d64183fa09d",
+  "repository": "Hansen0223/Santa_2026",
+  "parent_file": "public-assisted/submission.csv",
+  "parent_sha256": "85f46d2d7a67afb91ec59c9b2ace8b974d7334ed8677250170aae36805561035",
+  "parent_total": 134385,
+  "attribution_file": "public-assisted/origins.csv",
+  "attribution_sha256": "41290e7678e8b398158ade0fdcdf6907178beb9169a4d30752d6211338a6b056",
+  "bounds_sha256": "74d77517c5dc3a14a115ec0503d1a204c1c828df0ae33379e8532a58d669dca7",
+  "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "stratification": "Exclude already tight rows, sort remaining rows by public length then id, split into 8 equal-count bins, rank within each bin by sha256(salt+/+id), first 4 development then next 4 holdout.",
+  "salt": "santa-public-tempering-134385-v1",
+  "eligible": 980,
+  "strata": [
+    {
+      "bin": 1,
+      "eligible": 122,
+      "range": [
+        17,
+        75
+      ],
+      "development": [
+        "scored_0957",
+        "scored_0773",
+        "scored_0130",
+        "scored_0548"
+      ],
+      "holdout": [
+        "scored_0388",
+        "scored_0614",
+        "scored_0113",
+        "scored_0151"
+      ]
+    },
+    {
+      "bin": 2,
+      "eligible": 123,
+      "range": [
+        75,
+        101
+      ],
+      "development": [
+        "scored_0136",
+        "scored_0943",
+        "scored_0392",
+        "scored_0657"
+      ],
+      "holdout": [
+        "scored_0339",
+        "scored_0253",
+        "scored_0260",
+        "scored_0135"
+      ]
+    },
+    {
+      "bin": 3,
+      "eligible": 122,
+      "range": [
+        101,
+        113
+      ],
+      "development": [
+        "scored_0505",
+        "scored_0486",
+        "scored_0128",
+        "scored_0942"
+      ],
+      "holdout": [
+        "scored_0177",
+        "scored_0109",
+        "scored_0011",
+        "scored_0219"
+      ]
+    },
+    {
+      "bin": 4,
+      "eligible": 123,
+      "range": [
+        113,
+        122
+      ],
+      "development": [
+        "scored_0814",
+        "scored_0192",
+        "scored_0710",
+        "scored_0164"
+      ],
+      "holdout": [
+        "scored_0018",
+        "scored_0603",
+        "scored_0715",
+        "scored_0642"
+      ]
+    },
+    {
+      "bin": 5,
+      "eligible": 122,
+      "range": [
+        122,
+        156
+      ],
+      "development": [
+        "scored_0382",
+        "scored_0105",
+        "scored_0948",
+        "scored_0488"
+      ],
+      "holdout": [
+        "scored_0290",
+        "scored_0484",
+        "scored_0895",
+        "scored_0353"
+      ]
+    },
+    {
+      "bin": 6,
+      "eligible": 123,
+      "range": [
+        156,
+        182
+      ],
+      "development": [
+        "scored_0239",
+        "scored_0953",
+        "scored_0605",
+        "scored_0979"
+      ],
+      "holdout": [
+        "scored_0706",
+        "scored_0839",
+        "scored_0935",
+        "scored_0986"
+      ]
+    },
+    {
+      "bin": 7,
+      "eligible": 122,
+      "range": [
+        182,
+        216
+      ],
+      "development": [
+        "scored_0398",
+        "scored_0802",
+        "scored_0663",
+        "scored_0504"
+      ],
+      "holdout": [
+        "scored_0813",
+        "scored_0712",
+        "scored_0133",
+        "scored_0765"
+      ]
+    },
+    {
+      "bin": 8,
+      "eligible": 123,
+      "range": [
+        216,
+        277
+      ],
+      "development": [
+        "scored_0051",
+        "scored_0799",
+        "scored_0941",
+        "scored_0444"
+      ],
+      "holdout": [
+        "scored_0610",
+        "scored_0405",
+        "scored_0370",
+        "scored_0848"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "scored_0011",
+      "size": 106,
+      "lower": 37,
+      "row_program_sha256": "e5830fb9115280f8502d41f7e6436910e4663bb5d03123c345e89e88ded7558b",
+      "credit": {
+        "id": "scored_0011",
+        "source": "Asterios v99",
+        "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+        "instructions": "106"
+      }
+    },
+    {
+      "id": "scored_0018",
+      "size": 119,
+      "lower": 40,
+      "row_program_sha256": "adec1fec641f62957fef2d3c0a0861c91e8ca65ee7f58952261efb374897c50b",
+      "credit": {
+        "id": "scored_0018",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "119"
+      }
+    },
+    {
+      "id": "scored_0051",
+      "size": 277,
+      "lower": 44,
+      "row_program_sha256": "372fd2943cb4178c7186a6f452b4cca4ec483e46471e69ec37038ce6125ff140",
+      "credit": {
+        "id": "scored_0051",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "277"
+      }
+    },
+    {
+      "id": "scored_0105",
+      "size": 152,
+      "lower": 40,
+      "row_program_sha256": "febbff456e15801b2691d1fa0b9bfe03b2ada18a04d78796963e1107bc8d3010",
+      "credit": {
+        "id": "scored_0105",
+        "source": "Asterios v99",
+        "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+        "instructions": "152"
+      }
+    },
+    {
+      "id": "scored_0109",
+      "size": 113,
+      "lower": 40,
+      "row_program_sha256": "03505ec0305da44e390f60a53fbe9c9d1d1276a6d58f84ade30370cb6f0053f8",
+      "credit": {
+        "id": "scored_0109",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "113"
+      }
+    },
+    {
+      "id": "scored_0113",
+      "size": 26,
+      "lower": 21,
+      "row_program_sha256": "49dd87c2c31459fcff9378c508fccf2a8b23bdaa2cc6ccf1dafb63fe8d15933b",
+      "credit": {
+        "id": "scored_0113",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "26"
+      }
+    },
+    {
+      "id": "scored_0128",
+      "size": 102,
+      "lower": 40,
+      "row_program_sha256": "2609edc820baaaa912690c5a1be442bb1da41517ea12b79cd7c37245dbf56001",
+      "credit": {
+        "id": "scored_0128",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "102"
+      }
+    },
+    {
+      "id": "scored_0130",
+      "size": 23,
+      "lower": 14,
+      "row_program_sha256": "199f681d591823794a50324e27f8fab3764390b4c67bfc69173862ffc02ec436",
+      "credit": {
+        "id": "scored_0130",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "23"
+      }
+    },
+    {
+      "id": "scored_0133",
+      "size": 211,
+      "lower": 42,
+      "row_program_sha256": "d6acf4b34f83564f058ff512b3cd4e80d1da10f3cf4874bebc6ef3fb61ded4a3",
+      "credit": {
+        "id": "scored_0133",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "211"
+      }
+    },
+    {
+      "id": "scored_0135",
+      "size": 92,
+      "lower": 39,
+      "row_program_sha256": "47399beaa8844e62d36a9e1ff4b84a3b3dd84afcf02c679e15d15fda8f1ca763",
+      "credit": {
+        "id": "scored_0135",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "92"
+      }
+    },
+    {
+      "id": "scored_0136",
+      "size": 97,
+      "lower": 37,
+      "row_program_sha256": "d538ea9f6112d4ec019a129da350bdf297a04fe546fbe5f26f2bbc23e25f76b6",
+      "credit": {
+        "id": "scored_0136",
+        "source": "Asterios v99",
+        "upstream_source": "Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+        "instructions": "97"
+      }
+    },
+    {
+      "id": "scored_0151",
+      "size": 27,
+      "lower": 18,
+      "row_program_sha256": "2871d7283d66fe38c837b4e5a46b465ec0e174283385d46ab8daf0b8fcd3771d",
+      "credit": {
+        "id": "scored_0151",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "27"
+      }
+    },
+    {
+      "id": "scored_0164",
+      "size": 120,
+      "lower": 40,
+      "row_program_sha256": "7fa8d4032743c10e4c3958ec02b0e6e5a7316407b0cfbf004261c8bedd0c9aae",
+      "credit": {
+        "id": "scored_0164",
+        "source": "Asterios v99",
+        "upstream_source": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,121",
+        "instructions": "120"
+      }
+    },
+    {
+      "id": "scored_0177",
+      "size": 106,
+      "lower": 41,
+      "row_program_sha256": "d15a1f730ebc1c52c8e53783f966e0b5cf0fcdd5fc1c4ac32f855f42d284d621",
+      "credit": {
+        "id": "scored_0177",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "106"
+      }
+    },
+    {
+      "id": "scored_0192",
+      "size": 115,
+      "lower": 42,
+      "row_program_sha256": "01667befdc0160bdad900ea2dcb6d49390dc0a7bda40fdfd581892d310e4f443",
+      "credit": {
+        "id": "scored_0192",
+        "source": "Asterios v113",
+        "upstream_source": "E-Max AI, Santa 2026 | Public Frontier | Score 134,582",
+        "instructions": "115"
+      }
+    },
+    {
+      "id": "scored_0219",
+      "size": 109,
+      "lower": 41,
+      "row_program_sha256": "ecca627123e1476d2361be867357a9311e1445f359e146a4174289144a3e4f0b",
+      "credit": {
+        "id": "scored_0219",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "109"
+      }
+    },
+    {
+      "id": "scored_0239",
+      "size": 170,
+      "lower": 42,
+      "row_program_sha256": "0a8cf733ef643af2e808989373c701a00b0de60efa27cc93de0779c09bca5fbd",
+      "credit": {
+        "id": "scored_0239",
+        "source": "Asterios v99",
+        "upstream_source": "prvsiyan, Santa is not happy",
+        "instructions": "170"
+      }
+    },
+    {
+      "id": "scored_0253",
+      "size": 78,
+      "lower": 25,
+      "row_program_sha256": "d72fd9f774a74b9abd88a9ee880bea2c9fa25b0b26eea1d9505ce3727c1cd5ac",
+      "credit": {
+        "id": "scored_0253",
+        "source": "Asterios v99",
+        "upstream_source": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+        "instructions": "78"
+      }
+    },
+    {
+      "id": "scored_0260",
+      "size": 87,
+      "lower": 41,
+      "row_program_sha256": "df20f6bd1f211437b6ab3fd4e5b82e4c064697ffe8f554399eeffacffd5d0a30",
+      "credit": {
+        "id": "scored_0260",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "87"
+      }
+    },
+    {
+      "id": "scored_0290",
+      "size": 148,
+      "lower": 39,
+      "row_program_sha256": "0c94fe312b4e04114a0daaf90d7e64fc60b7d057da3a6268aad8393886aaa942",
+      "credit": {
+        "id": "scored_0290",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "148"
+      }
+    },
+    {
+      "id": "scored_0339",
+      "size": 92,
+      "lower": 41,
+      "row_program_sha256": "0ab15e17bf3eb6bcb81b5b2f41da39ff19c5a71b368a94fe69d37afbbfc587b3",
+      "credit": {
+        "id": "scored_0339",
+        "source": "Asterios v99",
+        "upstream_source": "E-Max AI, Santa 2026 Public Frontier 136078",
+        "instructions": "92"
+      }
+    },
+    {
+      "id": "scored_0353",
+      "size": 145,
+      "lower": 39,
+      "row_program_sha256": "0afa30dddc25290c99cbd7db873123d5398e14dbc2d261efc50b2426de9bc2db",
+      "credit": {
+        "id": "scored_0353",
+        "source": "work/virtual/portfolio-135289/assisted-wide-all.csv",
+        "upstream_source": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",
+        "instructions": "145"
+      }
+    },
+    {
+      "id": "scored_0370",
+      "size": 260,
+      "lower": 41,
+      "row_program_sha256": "1cd53dc8628da2b567890fe2e7053c3b93ab630998125034a5756a637719a13f",
+      "credit": {
+        "id": "scored_0370",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "260"
+      }
+    },
+    {
+      "id": "scored_0382",
+      "size": 143,
+      "lower": 38,
+      "row_program_sha256": "4b87f8e907d3cafdd1349c2a6973edfc639b1fc4ebe2c600f442f1715c7a8691",
+      "credit": {
+        "id": "scored_0382",
+        "source": "Asterios v99",
+        "upstream_source": "Mudit Chaturvedi, Verified Portfolio 138875",
+        "instructions": "143"
+      }
+    },
+    {
+      "id": "scored_0388",
+      "size": 18,
+      "lower": 15,
+      "row_program_sha256": "3b8a3d815a4c65a6dfe0d5056ba06e68b1385ac05b149d8173645bafbbe6a270",
+      "credit": {
+        "id": "scored_0388",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "18"
+      }
+    },
+    {
+      "id": "scored_0392",
+      "size": 99,
+      "lower": 38,
+      "row_program_sha256": "95536ddd8ed25f46c339a1d803798b32e190772aa893bb633719aba1ee50bb38",
+      "credit": {
+        "id": "scored_0392",
+        "source": "work/creative/resume-135077/accepted-134478/shorter.csv",
+        "upstream_source": "wang Jakie, Kaggle 371736767, Apache-2.0 | Asterios v113 — E-Max AI, Santa 2026 Crossover Stage 134618 | Asterios v99 — Ertuğrul Özer, Santa 2026 | Starter Notebook! | previous project 135077 — Ertuğrul Özer, Santa 2026 | Starter Notebook!",
+        "instructions": "99"
+      }
+    },
+    {
+      "id": "scored_0398",
+      "size": 204,
+      "lower": 38,
+      "row_program_sha256": "aab11d07e087bda1103fb26e3366a98b33fd6f7bdc35ab26f89b0f99924592bb",
+      "credit": {
+        "id": "scored_0398",
+        "source": "Asterios v99",
+        "upstream_source": "Rishabh Bafna, Optimal Verified Programs dataset",
+        "instructions": "204"
+      }
+    },
+    {
+      "id": "scored_0405",
+      "size": 269,
+      "lower": 44,
+      "row_program_sha256": "1dce67c8b6a121cd42da304437be55456723543b0e637e7ab05b83a7501a8114",
+      "credit": {
+        "id": "scored_0405",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "269"
+      }
+    },
+    {
+      "id": "scored_0444",
+      "size": 237,
+      "lower": 37,
+      "row_program_sha256": "0494ba7b33245af1a4837ccb4ad978efa8588c9184dd6b9502e4bb5ffc3ed125",
+      "credit": {
+        "id": "scored_0444",
+        "source": "work/creative/pressure/rollback-recovery.csv",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "237"
+      }
+    },
+    {
+      "id": "scored_0484",
+      "size": 133,
+      "lower": 41,
+      "row_program_sha256": "d886adbd467f7b01bfc69c507d6939a28ff93009ed830126c32de7a0e56bec8c",
+      "credit": {
+        "id": "scored_0484",
+        "source": "Asterios v99",
+        "upstream_source": "suka, Verified Portfolio Programs dataset",
+        "instructions": "133"
+      }
+    },
+    {
+      "id": "scored_0486",
+      "size": 107,
+      "lower": 38,
+      "row_program_sha256": "56f68e6d580ea7a349f71ee5b0bc629e6b6c64062eaab3618f81f3bc68d47689",
+      "credit": {
+        "id": "scored_0486",
+        "source": "Asterios v99",
+        "upstream_source": "suka, Verified Portfolio Programs dataset",
+        "instructions": "107"
+      }
+    },
+    {
+      "id": "scored_0488",
+      "size": 142,
+      "lower": 44,
+      "row_program_sha256": "0dc8e778154f32ebbc95fda4e3abcd3d22868792e9cc3c595205358644f72c56",
+      "credit": {
+        "id": "scored_0488",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "142"
+      }
+    },
+    {
+      "id": "scored_0504",
+      "size": 186,
+      "lower": 41,
+      "row_program_sha256": "5cec7eaa9ae66fae38d2d950620ecc25ace5a326c4ae39154ae448c9e74ca080",
+      "credit": {
+        "id": "scored_0504",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "186"
+      }
+    },
+    {
+      "id": "scored_0505",
+      "size": 112,
+      "lower": 37,
+      "row_program_sha256": "a7d783941d77466d8ab11a5160be6838454f6207899c3db3c71f63de9fb9ab3c",
+      "credit": {
+        "id": "scored_0505",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "112"
+      }
+    },
+    {
+      "id": "scored_0548",
+      "size": 35,
+      "lower": 16,
+      "row_program_sha256": "904d50b9ea950aeb103f192a4d231f053ee2d127b613044e54e727c928269cad",
+      "credit": {
+        "id": "scored_0548",
+        "source": "Asterios v99",
+        "upstream_source": "Ángel Jacinto Sánchez Ruiz, Public Merge",
+        "instructions": "35"
+      }
+    },
+    {
+      "id": "scored_0603",
+      "size": 120,
+      "lower": 41,
+      "row_program_sha256": "1fb0f7bda1807417fcbfd3558300731f931c6b4acd9d951aceb96f78f4a1cb93",
+      "credit": {
+        "id": "scored_0603",
+        "source": "Asterios v99",
+        "upstream_source": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137844]",
+        "instructions": "120"
+      }
+    },
+    {
+      "id": "scored_0605",
+      "size": 163,
+      "lower": 42,
+      "row_program_sha256": "2c58e6615b499f03c420a5675b86e3a3513e7d908d263cd7739c4c274a7f3e9b",
+      "credit": {
+        "id": "scored_0605",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "163"
+      }
+    },
+    {
+      "id": "scored_0610",
+      "size": 265,
+      "lower": 43,
+      "row_program_sha256": "40bdebe4fa01889b2ae3e51f0339f3e090fc24dce73aac1b40b0a493e7b58b3a",
+      "credit": {
+        "id": "scored_0610",
+        "source": "work/creative/ladder/portfolio-atlas.csv",
+        "upstream_source": "asterios-v80: Ertuğrul Özer, Santa 2026 | Starter Notebook! | Local: Official-input local generation | Prior credited GitHub snapshot: Hanif v15 and its listed authors",
+        "instructions": "265"
+      }
+    },
+    {
+      "id": "scored_0614",
+      "size": 20,
+      "lower": 16,
+      "row_program_sha256": "7910d5503726832415046f24b4a5a42afb1909a83082cdebcdf66ce72656ce95",
+      "credit": {
+        "id": "scored_0614",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "20"
+      }
+    },
+    {
+      "id": "scored_0642",
+      "size": 120,
+      "lower": 41,
+      "row_program_sha256": "69f9efbe024ddbca7c1cb2cc3226d747097019e932cbee8064571e33473b1b73",
+      "credit": {
+        "id": "scored_0642",
+        "source": "Asterios v99",
+        "upstream_source": "Roman Rozen, Santa 2026 | IceFire Strong Start",
+        "instructions": "120"
+      }
+    },
+    {
+      "id": "scored_0657",
+      "size": 97,
+      "lower": 40,
+      "row_program_sha256": "27fc765cdcc297cd9ae93c06eb64f100832e0953e75b2b717d557af404fc3dff",
+      "credit": {
+        "id": "scored_0657",
+        "source": "Asterios v99",
+        "upstream_source": "E-Max AI, Elf Calculator | Residual Cut Search",
+        "instructions": "97"
+      }
+    },
+    {
+      "id": "scored_0663",
+      "size": 182,
+      "lower": 39,
+      "row_program_sha256": "4efc49b698a3d018c0a447944e3f19c1f3b645b449ccc307af6eef8c1c00de86",
+      "credit": {
+        "id": "scored_0663",
+        "source": "Asterios v99",
+        "upstream_source": "Mudit Chaturvedi, Verified Portfolio 138875",
+        "instructions": "182"
+      }
+    },
+    {
+      "id": "scored_0706",
+      "size": 181,
+      "lower": 40,
+      "row_program_sha256": "bedcef8901407dcc157737778dfa8df73468dd73d834b1043c434a27b7f23abd",
+      "credit": {
+        "id": "scored_0706",
+        "source": "work/gpu/lineage-trusted.csv",
+        "upstream_source": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [138084]",
+        "instructions": "181"
+      }
+    },
+    {
+      "id": "scored_0710",
+      "size": 117,
+      "lower": 39,
+      "row_program_sha256": "9a6ef394bd53cc3126ceae5ea477089b714fe68d1eb427887e4982ed5b78d7fb",
+      "credit": {
+        "id": "scored_0710",
+        "source": "work/gpu/lineage-trusted.csv",
+        "upstream_source": "alex chilton, Rudolph the Red-Nosed Register Allocator",
+        "instructions": "117"
+      }
+    },
+    {
+      "id": "scored_0712",
+      "size": 187,
+      "lower": 40,
+      "row_program_sha256": "a07911478c410e3f50beb3772ca1c56dcf7cd87c3f434aaabdf0bb307f919503",
+      "credit": {
+        "id": "scored_0712",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "187"
+      }
+    },
+    {
+      "id": "scored_0715",
+      "size": 120,
+      "lower": 41,
+      "row_program_sha256": "b4477123466f0535e63d87a2cbd0241fc9b2192c7ec7cfe0a2c37263b7acdf3f",
+      "credit": {
+        "id": "scored_0715",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "120"
+      }
+    },
+    {
+      "id": "scored_0765",
+      "size": 183,
+      "lower": 44,
+      "row_program_sha256": "067b0c42adde94821071ea5895ee2b3a90f54d313069f4aa24e7aea03aae5836",
+      "credit": {
+        "id": "scored_0765",
+        "source": "work/heritage/scale-pub-wins.csv",
+        "upstream_source": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+        "instructions": "183"
+      }
+    },
+    {
+      "id": "scored_0773",
+      "size": 42,
+      "lower": 14,
+      "row_program_sha256": "83a629c19ed0ec94c16b475523be790dff5443130231f4c98945df8affbf88d6",
+      "credit": {
+        "id": "scored_0773",
+        "source": "work/virtual/registers-135078/assisted-wins.csv",
+        "upstream_source": "Ertugrul Ozer, 138,867 SOTA Verified Portfolio",
+        "instructions": "42"
+      }
+    },
+    {
+      "id": "scored_0799",
+      "size": 229,
+      "lower": 43,
+      "row_program_sha256": "2adb3749c5f2714b3da966b4e38b0f3ba55e8ef61d4fdd9ef3c5c8e8132dd8c5",
+      "credit": {
+        "id": "scored_0799",
+        "source": "Asterios v99",
+        "upstream_source": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137844]",
+        "instructions": "229"
+      }
+    },
+    {
+      "id": "scored_0802",
+      "size": 183,
+      "lower": 38,
+      "row_program_sha256": "cddb5842e5a1b9ce18ea75c76dffdbff1cdca98ec3481deb9bc9a59b659cb290",
+      "credit": {
+        "id": "scored_0802",
+        "source": "Asterios v99",
+        "upstream_source": "suka, Verified Portfolio Programs dataset",
+        "instructions": "183"
+      }
+    },
+    {
+      "id": "scored_0813",
+      "size": 215,
+      "lower": 42,
+      "row_program_sha256": "1ef422c1a3257c0097ec9d102a9f28030f281880d80c67cb798b602ff2683c56",
+      "credit": {
+        "id": "scored_0813",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "215"
+      }
+    },
+    {
+      "id": "scored_0814",
+      "size": 120,
+      "lower": 39,
+      "row_program_sha256": "d788fca2537e836f758f0962c5cba28f1f4d1f4ad2914f728f2da857e7a66a95",
+      "credit": {
+        "id": "scored_0814",
+        "source": "local from official inputs",
+        "upstream_source": "Generated from official inputs",
+        "instructions": "120"
+      }
+    },
+    {
+      "id": "scored_0839",
+      "size": 171,
+      "lower": 41,
+      "row_program_sha256": "400dc5484556194cf0c3ddd165c11652d7e5b1034daa243b82d2f9117a8c00f2",
+      "credit": {
+        "id": "scored_0839",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "171"
+      }
+    },
+    {
+      "id": "scored_0848",
+      "size": 245,
+      "lower": 40,
+      "row_program_sha256": "76a2c7a3a6ea0677548c70dfc4817ba411170e3af2264950904c1be90817a4a1",
+      "credit": {
+        "id": "scored_0848",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "245"
+      }
+    },
+    {
+      "id": "scored_0895",
+      "size": 122,
+      "lower": 40,
+      "row_program_sha256": "d3c276b1228bc791af6a6d724105d3dab48af1d0fee10e335e17825e39715a8b",
+      "credit": {
+        "id": "scored_0895",
+        "source": "Asterios v99",
+        "upstream_source": "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240",
+        "instructions": "122"
+      }
+    },
+    {
+      "id": "scored_0935",
+      "size": 164,
+      "lower": 43,
+      "row_program_sha256": "66050667bad5482f5e55e49c7ee69f7d6fe0a1b47e647a70ad150d42147da48c",
+      "credit": {
+        "id": "scored_0935",
+        "source": "Asterios v99",
+        "upstream_source": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [137946]",
+        "instructions": "164"
+      }
+    },
+    {
+      "id": "scored_0941",
+      "size": 233,
+      "lower": 44,
+      "row_program_sha256": "919bc7c6f10a44b3f5f3402ca6ad39da2190920efc6f85c66e7902b791a45f56",
+      "credit": {
+        "id": "scored_0941",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "233"
+      }
+    },
+    {
+      "id": "scored_0942",
+      "size": 112,
+      "lower": 40,
+      "row_program_sha256": "9d672f7f81dbf2a018f8dd2b18fd06d39b52318dd99358640b0ba988321884dc",
+      "credit": {
+        "id": "scored_0942",
+        "source": "Asterios v113",
+        "upstream_source": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+        "instructions": "112"
+      }
+    },
+    {
+      "id": "scored_0943",
+      "size": 90,
+      "lower": 37,
+      "row_program_sha256": "90ef4fb97a8189dc2c78e637b833ffddc8bf1720d1f8573527ad4e65cbd5f9ed",
+      "credit": {
+        "id": "scored_0943",
+        "source": "Asterios v99",
+        "upstream_source": "suka, Verified Portfolio Programs dataset",
+        "instructions": "90"
+      }
+    },
+    {
+      "id": "scored_0948",
+      "size": 132,
+      "lower": 42,
+      "row_program_sha256": "ec85d1078dbde28414f0a2b513da9cc47e3106459f4edb233cc74603d35bb9d4",
+      "credit": {
+        "id": "scored_0948",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "132"
+      }
+    },
+    {
+      "id": "scored_0953",
+      "size": 179,
+      "lower": 42,
+      "row_program_sha256": "f99696931a3629110d891c65fb5e495aab6437e24551af70b716dbd6dd0c6672",
+      "credit": {
+        "id": "scored_0953",
+        "source": "Asterios v99",
+        "upstream_source": "Nilanjan_Saha123, Best-of-Public Elf Optimizer (graph/MILP/window/suffix passes)",
+        "instructions": "179"
+      }
+    },
+    {
+      "id": "scored_0957",
+      "size": 28,
+      "lower": 15,
+      "row_program_sha256": "93673d7e7aa3fc42fa49bc89f67fc0c36b80208288fa18b333bdc021537a8f78",
+      "credit": {
+        "id": "scored_0957",
+        "source": "Asterios v113",
+        "upstream_source": "守银摄金难铜, Santa 2026 134753 Verified Arithmetic Programs",
+        "instructions": "28"
+      }
+    },
+    {
+      "id": "scored_0979",
+      "size": 175,
+      "lower": 38,
+      "row_program_sha256": "8aac43df2e288d68390c4cfb725f36f59cb327f6605313014d5357a13fe5ba5f",
+      "credit": {
+        "id": "scored_0979",
+        "source": "Asterios v99",
+        "upstream_source": "Bikram Basnet, Arithmetic Graph Rewrites",
+        "instructions": "175"
+      }
+    },
+    {
+      "id": "scored_0986",
+      "size": 170,
+      "lower": 41,
+      "row_program_sha256": "86a0fca37d423abf66baf770af8b48982bf0069900e224658828aa1c05287ed5",
+      "credit": {
+        "id": "scored_0986",
+        "source": "work/virtual/bank-135324/assisted-neutral-full.csv",
+        "upstream_source": "konbu17 dataset (suffix re-solve)",
+        "instructions": "170"
+      }
+    }
+  ],
+  "methods": [
+    "published incremental",
+    "four chains without exchange",
+    "four chains with alternating adjacent replica exchanges"
+  ],
+  "rounds_per_arm": 240,
+  "levels": [
+    0.25,
+    0.65,
+    1.4,
+    2.8
+  ],
+  "cap_above_input": [
+    2,
+    4,
+    6,
+    9
+  ],
+  "rounds_per_replica": 60,
+  "swap_every": 3,
+  "stagnation_adjustment": "Four stagnant proposals increase perturbation width, with 3 width tiers. After 15 stagnant proposals reset to own best.",
+  "seeds": "310117 + 4099 * integer puzzle suffix; individual chains initialized from independent deterministic streams; swaps use a separate stream.",
+  "primary": "Sum of strict physical instruction savings for exchange versus no-exchange on 32 prespecified holdout rows; also compare against unmodified Wang incremental, and retain each actual per-puzzle winner.",
+  "verification": "All parent and candidate tapes are replayed in two independent register interpreters; record timings, swaps, full physical gains, source and executable hashes. Same 240 transition rounds per method; elapsed time measured separately. No new external parent programs."
+}
