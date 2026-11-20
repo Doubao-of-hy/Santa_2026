@@ -1,0 +1,37 @@
+{
+  "parent": "d8af49a",
+  "sources": [
+    {
+      "ref": "royalacecat/santa-2026-retained-replay-inputs-134288",
+      "currentVersionNumber": 1,
+      "lastUpdated": "2026-11-20T14:55:31.910Z",
+      "title": "Santa 2026 Retained Replay Inputs 134288",
+      "licenseName": "Other (specified in description)",
+      "totalBytes": 1054886
+    },
+    {
+      "ref": "royalacecat/santa-2026-retained-replay-inputs-134290",
+      "currentVersionNumber": 1,
+      "lastUpdated": "2026-11-20T14:43:50.800Z",
+      "title": "Santa 2026 Retained Replay Inputs 134290",
+      "licenseName": "Other (specified in description)",
+      "totalBytes": 1055359
+    },
+    {
+      "ref": "royalacecat/santa-2026-retained-replay-inputs-134297",
+      "currentVersionNumber": 1,
+      "lastUpdated": "2026-11-20T14:33:16.093Z",
+      "title": "Santa 2026 Retained Replay Inputs 134297",
+      "licenseName": "Other (specified in description)",
+      "totalBytes": 1055589
+    },
+    {
+      "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+      "currentVersionNumber": 11,
+      "lastUpdated": "2026-11-20T14:46:10.240Z",
+      "title": "Santa 2026 DAG-LNS programs",
+      "licenseName": "Apache 2.0",
+      "totalBytes": 1087652
+    }
+  ]
+}
