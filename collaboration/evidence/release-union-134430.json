@@ -1,0 +1,74 @@
+{
+ "utc": "2026-11-20T12:28:54.862980+00:00",
+ "verified": 134430,
+ "sha256": "1102710ce5786dfb01393e55d82d21451637385b646b1a24036c84c5cec3ae08",
+ "rows": 21,
+ "base": 134456,
+ "baseline_sha256": "3a2561cd6c79e073c7ad4320a8132c9e21f71bf5a68704057c63ffcb3b496488",
+ "source_hashes": {
+  "Asterios v115": "0d9b93a29041fa8f1eca7c64379847706ca587ca17a890bb1a4ecd1615f60f74",
+  "Hanif v23": "48f7dbc58893dc54d0d601adde202cddd8fd356bfaa6be90ed3486d1a5e7d260",
+  "Rudolph v65": "472b8d61be2e078581ad0eb15f7f0ef637ce461475e26c9f0f476c2b98e1de33",
+  "Wang local search": "1dc1d4e0f42e5a5c64bc2b67a1ca07b968a64ab97accee9e2b4a2764f2fc8fdd"
+ },
+ "accepted_credit_counts": {
+  "Asterios v115": 8,
+  "Hanif v23": 8,
+  "Rudolph v65": 0,
+  "Wang local search": 5
+ },
+ "steps_by_source_in_sequence": {
+  "Asterios v115": {
+   "scored_0016": 1,
+   "scored_0070": 1,
+   "scored_0361": 1,
+   "scored_0463": 1,
+   "scored_0679": 1,
+   "scored_0841": 1,
+   "scored_0896": 1,
+   "scored_0996": 1
+  },
+  "Hanif v23": {
+   "scored_0041": 1,
+   "scored_0204": 1,
+   "scored_0247": 2,
+   "scored_0476": 1,
+   "scored_0623": 2,
+   "scored_0668": 1,
+   "scored_0725": 1,
+   "scored_0929": 1
+  },
+  "Rudolph v65": {},
+  "Wang local search": {
+   "scored_0152": 2,
+   "scored_0427": 1,
+   "scored_0641": 1,
+   "scored_0683": 1,
+   "scored_0807": 3
+  }
+ },
+ "check": "Official Kaggle author listing, versioned immutable archive, double independent replay",
+ "added_rows": {
+  "scored_0016": 1,
+  "scored_0070": 1,
+  "scored_0361": 1,
+  "scored_0463": 1,
+  "scored_0679": 1,
+  "scored_0841": 1,
+  "scored_0896": 1,
+  "scored_0996": 1,
+  "scored_0041": 1,
+  "scored_0204": 1,
+  "scored_0247": 2,
+  "scored_0476": 1,
+  "scored_0623": 2,
+  "scored_0668": 1,
+  "scored_0725": 1,
+  "scored_0929": 1,
+  "scored_0152": 2,
+  "scored_0427": 1,
+  "scored_0641": 1,
+  "scored_0683": 1,
+  "scored_0807": 3
+ }
+}

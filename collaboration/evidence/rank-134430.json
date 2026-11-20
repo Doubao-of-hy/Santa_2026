@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-20T12:29:27.702240+00:00",
+  "source": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+  "teams": 1782,
+  "candidate": 134430,
+  "better": 119,
+  "tied_before_insertion": 0,
+  "hypothetical_rank": 120,
+  "leader": 128330,
+  "official_submission": false,
+  "raw_leaderboard_sha256": "e7a44dbf8e7bb38243f229888ef898bb0dc872acf841d746a4868aa8381778c5"
+}

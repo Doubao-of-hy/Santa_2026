@@ -1,5 +1,11 @@
 # Santa 2026 求解进展
 
+## 11 月 20 日公开版本更新
+
+公开辅助候选为 **134,430** 条，比上一版的 134,456 条再省 26 条，独立候选为 **141,026** 条。21 个改进的题中，8 题采用 Asterios 第 115 版，8 题采用 Hanif 第 23 版，其余 5 题来自本地退火。Rudolph 第 65 版中更短的行已由其他来源覆盖。两套解释器均已重放全部 1,000 题。[合并回执](collaboration/evidence/release-union-134430.json) · [逐题署名](collaboration/evidence/release-union-134430-origins.csv) · [Hanif 原始声明](public-assisted/Hanif-v23-NOTICE.md)
+
+北京时间 20:29 的官方榜单有 1,782 支已获排名的队伍，其中 119 队优于 134,430 条，0 队同分。按该快照插入约第 120，比榜首 128,330 条多 6,100 条。此为本地结果的对照，尚未提交 Kaggle。[快照及排名口径](collaboration/evidence/rank-134430.json)
+
 ## 11 月 20 日第二轮整表退火
 
 纯独立候选从 141,240 降到 **141,026**，154 道题共省 214 条。将独立解和有逐题授权来源的公开搜索结果合并后，公开辅助候选从 134,487 降到 **134,456**。两套解释器均已重放两份完整候选。20:18 的榜首为 128,330，相差 6,126 条。[复跑和归属](collaboration/annealing/README.md) · [两条路线逐题结果](collaboration/puzzle-bounds.csv)

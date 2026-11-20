@@ -1,0 +1,14 @@
+# 多份算式之间能否共用中间值
+
+按公开辅助父程序的长度将 1,000 题分为八层，每层确定 4 道开发题、8 道留出题。独立与公开辅助各自比较同一批 96 道题。两种搜索在开发、留出和两种来源上均节省 0 条，已停止扩展。[固定题号和输入哈希](design.json) · [各组计数](controls.json)
+
+第一种搜索从目标反推各选项都需要的数值，每组选项最多展开 800 个节点。在 64 道留出题上，独立线上 287 组选项穷尽 165 组，公开辅助线上 117 组穷尽 71 组。第二种搜索移除一或两个中间值的计算，再用多个父本中的现成数值重建。每题最多尝试 32 种移除方式。独立和辅助留出组各检查 1,817 和 1,816 种，没有找到更短的局部重建。结论仅适用于这些输入、候选算式和搜索预算。
+
+运行 `python -B test_small.py` 比较 128 个小算式库的穷举结果并复核一个 3 条缩到 2 条的实例。复验正式题时，从本目录运行以下命令，可在末尾加 `--id scored_XXXX` 仅复验分组中的一道题。
+
+```sh
+python -B benchmark.py --puzzles ../../data/puzzles.csv --lane own --mode union --part pilot
+python -B benchmark.py --puzzles ../../data/puzzles.csv --lane assisted --mode rooted --part holdout
+```
+
+[冻结的父程序和逐行作者](parents.json.gz) 仅包含这 96 题。独立输入由官方初值及目标生成；公开试验包含仓库历史候选及 Asterios 版本，每个输入保留上游署名。公开来源沿用原许可证。[各原始版本和来源](../../public-assisted/NOTICE.md) · [逐题计算记录](rows.json.gz)

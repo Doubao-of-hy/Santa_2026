@@ -1,0 +1,155 @@
+{
+  "official": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+  "baseline_commit": "248894967985e4e6a68ec188d8387b9f43056f9b",
+  "sources": {
+    "work/virtual/resume-135077/own.csv": {
+      "sha256": "d778476281dad9c8d4fa5cc2afe43517ad5430ee5ab0a5685e4522794fce8f1d",
+      "rows": 1000
+    },
+    "work/creative/market/independent-frozen.csv": {
+      "sha256": "0faff71232db0c77100c7ca8243978034786dacbb2b09137c322fe6551c6b9ec",
+      "rows": 1000
+    },
+    "work/gen/rudolph-complete.csv": {
+      "sha256": "91453abf036867d16293df3467b1e5211df7432153dca3c6a70e9bbe8147fb1b",
+      "rows": 1000
+    },
+    "work/gen/konbu-complete.csv": {
+      "sha256": "327ea6588825f8658e8e82e712c4f5b383c913b8f68873e6ea6f3a125d118ea6",
+      "rows": 1000
+    },
+    "work/gen/atlas-scored-raw.csv": {
+      "sha256": "ef99f33687e3582b658d2e98bd3af94c0badbceca0529b0c7e8d7f4c3101e6a7",
+      "rows": 1000
+    },
+    "work/virtual/resume-135077/assisted113.csv": {
+      "sha256": "619f0eb84d61542990f062aaddf4078fce26f9a6a0c8fba680738de0200d31c4",
+      "rows": 1000
+    },
+    "work/virtual/resume-135077/assisted-before.csv": {
+      "sha256": "23c79ccfb1b2d23f39315e67d937f78115f924c03972256c46d559b99769d9af",
+      "rows": 1000
+    },
+    "work/creative/asterios-v99/programs.csv": {
+      "sha256": "010ee9ea11356a3b1a87b052f5ccfb1ca425b537f77b6ba0ca4ad0ed494fb97a",
+      "rows": 1000
+    }
+  },
+  "lanes": {
+    "own": [
+      "work/virtual/resume-135077/own.csv",
+      "work/creative/market/independent-frozen.csv",
+      "work/gen/rudolph-complete.csv",
+      "work/gen/konbu-complete.csv",
+      "work/gen/atlas-scored-raw.csv"
+    ],
+    "assisted": [
+      "work/virtual/resume-135077/assisted113.csv",
+      "work/virtual/resume-135077/assisted-before.csv",
+      "work/virtual/resume-135077/own.csv",
+      "work/creative/asterios-v99/programs.csv"
+    ]
+  },
+  "pilot": [
+    "scored_0086",
+    "scored_0107",
+    "scored_0113",
+    "scored_0142",
+    "scored_0167",
+    "scored_0173",
+    "scored_0201",
+    "scored_0244",
+    "scored_0308",
+    "scored_0334",
+    "scored_0367",
+    "scored_0428",
+    "scored_0449",
+    "scored_0562",
+    "scored_0581",
+    "scored_0658",
+    "scored_0662",
+    "scored_0673",
+    "scored_0674",
+    "scored_0747",
+    "scored_0756",
+    "scored_0812",
+    "scored_0822",
+    "scored_0843",
+    "scored_0876",
+    "scored_0879",
+    "scored_0890",
+    "scored_0931",
+    "scored_0942",
+    "scored_0954",
+    "scored_0972",
+    "scored_0988"
+  ],
+  "holdout": [
+    "scored_0018",
+    "scored_0033",
+    "scored_0043",
+    "scored_0061",
+    "scored_0064",
+    "scored_0111",
+    "scored_0116",
+    "scored_0121",
+    "scored_0125",
+    "scored_0132",
+    "scored_0154",
+    "scored_0156",
+    "scored_0157",
+    "scored_0208",
+    "scored_0218",
+    "scored_0231",
+    "scored_0236",
+    "scored_0271",
+    "scored_0275",
+    "scored_0327",
+    "scored_0336",
+    "scored_0340",
+    "scored_0341",
+    "scored_0344",
+    "scored_0389",
+    "scored_0395",
+    "scored_0398",
+    "scored_0400",
+    "scored_0411",
+    "scored_0418",
+    "scored_0432",
+    "scored_0468",
+    "scored_0478",
+    "scored_0489",
+    "scored_0490",
+    "scored_0508",
+    "scored_0531",
+    "scored_0532",
+    "scored_0534",
+    "scored_0564",
+    "scored_0623",
+    "scored_0663",
+    "scored_0667",
+    "scored_0671",
+    "scored_0679",
+    "scored_0686",
+    "scored_0709",
+    "scored_0746",
+    "scored_0785",
+    "scored_0798",
+    "scored_0840",
+    "scored_0844",
+    "scored_0852",
+    "scored_0866",
+    "scored_0883",
+    "scored_0924",
+    "scored_0934",
+    "scored_0936",
+    "scored_0939",
+    "scored_0940",
+    "scored_0945",
+    "scored_0956",
+    "scored_0964",
+    "scored_0970"
+  ],
+  "budget": 800,
+  "rule": "Eight strata from ascending v113-assisted instructions; per stratum first four IDs under deterministic hash for development and next eight for holdout."
+}

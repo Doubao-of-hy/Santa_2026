@@ -1,0 +1,28 @@
+{
+  "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+  "version": 115,
+  "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/115",
+  "license": "Apache 2.0",
+  "archive": "b3adef0c7644193b58b77d24e0e7f4d2c3231991d519583dca2b7fbc928c21df",
+  "archive_bytes": 816077,
+  "score": 134494,
+  "complete_rows": 1000,
+  "raw": "best_programs.csv",
+  "raw_sha256": "12d2237fcae0f3222f6b1fddfb2e515781867568bcaef71ac4a94e16ef4331fc",
+  "normalized_sha256": "0d9b93a29041fa8f1eca7c64379847706ca587ca17a890bb1a4ecd1615f60f74",
+  "winners": {
+    "scored_0016": 1,
+    "scored_0070": 1,
+    "scored_0361": 1,
+    "scored_0463": 1,
+    "scored_0679": 1,
+    "scored_0841": 1,
+    "scored_0896": 1,
+    "scored_0996": 1
+  },
+  "metadata_version": 115,
+  "dataset_version_id": 22497718,
+  "version_evidence": "Versioned download and immutable storage object matched the exact published catalog archive byte count; independently reproduced the 1,000-row score.",
+  "utc": "2026-11-20T12:27:47.877544+00:00",
+  "version_notes": null
+}

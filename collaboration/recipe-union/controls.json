@@ -1,0 +1,74 @@
+{
+  "union/own/pilot": {
+    "puzzles": 32,
+    "saved": 0,
+    "nodes": 69760,
+    "complete": 74,
+    "arms": 142,
+    "windows": 0,
+    "rebuilt": 0
+  },
+  "rooted/own/pilot": {
+    "puzzles": 32,
+    "saved": 0,
+    "nodes": 0,
+    "complete": 0,
+    "arms": 0,
+    "windows": 915,
+    "rebuilt": 0
+  },
+  "union/own/holdout": {
+    "puzzles": 64,
+    "saved": 0,
+    "nodes": 133932,
+    "complete": 165,
+    "arms": 287,
+    "windows": 0,
+    "rebuilt": 0
+  },
+  "rooted/own/holdout": {
+    "puzzles": 64,
+    "saved": 0,
+    "nodes": 0,
+    "complete": 0,
+    "arms": 0,
+    "windows": 1817,
+    "rebuilt": 0
+  },
+  "union/assisted/pilot": {
+    "puzzles": 32,
+    "saved": 0,
+    "nodes": 30063,
+    "complete": 37,
+    "arms": 62,
+    "windows": 0,
+    "rebuilt": 0
+  },
+  "rooted/assisted/pilot": {
+    "puzzles": 32,
+    "saved": 0,
+    "nodes": 0,
+    "complete": 0,
+    "arms": 0,
+    "windows": 906,
+    "rebuilt": 0
+  },
+  "union/assisted/holdout": {
+    "puzzles": 64,
+    "saved": 0,
+    "nodes": 55422,
+    "complete": 71,
+    "arms": 117,
+    "windows": 0,
+    "rebuilt": 0
+  },
+  "rooted/assisted/holdout": {
+    "puzzles": 64,
+    "saved": 0,
+    "nodes": 0,
+    "complete": 0,
+    "arms": 0,
+    "windows": 1816,
+    "rebuilt": 0
+  }
+}

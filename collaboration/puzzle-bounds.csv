@@ -14,7 +14,7 @@ scored_0012,39,36,39,conditioned-bounds.json,193,180,180,141,0
 scored_0013,43,37,43,conditioned-bounds.json,185,176,176,133,0
 scored_0014,14,12,14,helper-wave9.json,25,25,25,11,0
 scored_0015,43,37,43,conditioned-bounds.json,228,218,218,175,0
-scored_0016,39,36,39,conditioned-bounds.json,128,128,128,89,0
+scored_0016,39,36,39,conditioned-bounds.json,128,127,127,88,0
 scored_0017,38,36,38,domain-bounds.csv,110,109,109,71,0
 scored_0018,40,37,40,domain-bounds.csv,131,119,119,79,0
 scored_0019,13,12,13,helper-wave13.json,23,22,22,9,0
@@ -39,7 +39,7 @@ scored_0037,40,37,40,domain-bounds.csv,208,194,194,154,0
 scored_0038,38,35,38,conditioned-bounds.json,154,145,145,107,0
 scored_0039,40,37,40,conditioned-bounds.json,121,111,111,71,0
 scored_0040,41,38,41,domain-bounds.csv,189,170,170,129,0
-scored_0041,40,37,40,conditioned-bounds.json,119,119,119,79,0
+scored_0041,40,37,40,conditioned-bounds.json,119,118,118,78,0
 scored_0042,38,35,38,conditioned-bounds.json,171,165,165,127,0
 scored_0043,41,36,41,conditioned-bounds.json,231,210,210,169,0
 scored_0044,38,37,38,domain-bounds.csv,81,75,75,37,0
@@ -68,7 +68,7 @@ scored_0066,19,17,19,helper-wave13.json,41,37,37,18,0
 scored_0067,41,37,41,conditioned-bounds.json,280,257,257,216,0
 scored_0068,40,37,40,conditioned-bounds.json,119,116,116,76,0
 scored_0069,43,40,43,conditioned-bounds.json,295,273,273,230,0
-scored_0070,39,36,39,conditioned-bounds.json,122,121,121,82,0
+scored_0070,39,36,39,conditioned-bounds.json,122,120,120,81,0
 scored_0071,41,38,41,domain-bounds.csv,119,113,113,72,0
 scored_0072,38,35,38,conditioned-bounds.json,102,102,102,64,0
 scored_0073,40,38,40,domain-bounds.csv,132,124,124,84,0
@@ -150,7 +150,7 @@ scored_0148,39,36,39,conditioned-bounds.json,174,173,173,134,0
 scored_0149,16,14,16,helper-wave4-merged.json,17,16,16,0,1
 scored_0150,39,36,39,domain-bounds.csv,173,165,165,126,0
 scored_0151,18,15,18,helper-wave9.json,27,27,27,9,0
-scored_0152,42,39,42,conditioned-bounds.json,119,117,117,75,0
+scored_0152,42,39,42,conditioned-bounds.json,119,115,115,73,0
 scored_0153,38,35,38,conditioned-bounds.json,95,95,95,57,0
 scored_0154,42,37,42,conditioned-bounds.json,173,163,163,121,0
 scored_0155,43,38,43,conditioned-bounds.json,235,223,223,180,0
@@ -202,7 +202,7 @@ scored_0200,37,35,37,domain-bounds.csv,100,100,100,63,0
 scored_0201,40,37,40,domain-bounds.csv,154,153,153,113,0
 scored_0202,42,39,42,conditioned-bounds.json,130,118,118,76,0
 scored_0203,39,36,39,domain-bounds.csv,229,215,215,176,0
-scored_0204,40,37,40,conditioned-bounds.json,209,201,201,161,0
+scored_0204,40,37,40,conditioned-bounds.json,209,200,200,160,0
 scored_0205,42,38,42,conditioned-bounds.json,138,130,130,88,0
 scored_0206,42,38,42,conditioned-bounds.json,164,157,157,115,0
 scored_0207,42,38,42,conditioned-bounds.json,234,222,222,180,0
@@ -245,7 +245,7 @@ scored_0243,39,37,39,conditioned-bounds.json,107,105,105,66,0
 scored_0244,42,38,42,domain-bounds.csv,196,189,189,147,0
 scored_0245,42,40,42,domain-bounds.csv,112,111,111,69,0
 scored_0246,37,35,37,domain-bounds.csv,115,114,114,77,0
-scored_0247,38,35,38,conditioned-bounds.json,113,112,112,74,0
+scored_0247,38,35,38,conditioned-bounds.json,113,110,110,72,0
 scored_0248,41,38,41,domain-bounds.csv,187,173,173,132,0
 scored_0249,40,37,40,domain-bounds.csv,276,256,256,216,0
 scored_0250,14,12,14,helper-wave9.json,20,20,20,6,0
@@ -359,7 +359,7 @@ scored_0357,43,40,43,conditioned-bounds.json,240,230,230,187,0
 scored_0358,39,36,39,conditioned-bounds.json,119,119,119,80,0
 scored_0359,42,40,42,domain-bounds.csv,118,110,110,68,0
 scored_0360,43,40,43,domain-bounds.csv,136,127,127,84,0
-scored_0361,42,39,42,conditioned-bounds.json,130,130,130,88,0
+scored_0361,42,39,42,conditioned-bounds.json,130,129,129,87,0
 scored_0362,37,35,37,domain-bounds.csv,113,112,112,75,0
 scored_0363,41,37,41,conditioned-bounds.json,170,162,162,121,0
 scored_0364,42,40,42,conditioned-bounds.json,119,118,118,76,0
@@ -425,7 +425,7 @@ scored_0423,37,35,37,conditioned-bounds.json,100,93,93,56,0
 scored_0424,42,38,42,conditioned-bounds.json,217,207,207,165,0
 scored_0425,13,12,13,helper-wave13.json,23,23,23,10,0
 scored_0426,38,35,38,domain-bounds.csv,147,140,140,102,0
-scored_0427,42,40,42,domain-bounds.csv,120,120,120,78,0
+scored_0427,42,40,42,domain-bounds.csv,120,119,119,77,0
 scored_0428,41,38,41,conditioned-bounds.json,208,205,205,164,0
 scored_0429,42,40,42,conditioned-bounds.json,122,112,112,70,0
 scored_0430,39,36,39,conditioned-bounds.json,91,88,88,49,0
@@ -461,7 +461,7 @@ scored_0459,38,36,38,conditioned-bounds.json,88,81,81,43,0
 scored_0460,38,35,38,conditioned-bounds.json,171,164,164,126,0
 scored_0461,18,16,18,helper-wave13.json,30,28,28,10,0
 scored_0462,39,36,39,conditioned-bounds.json,124,117,117,78,0
-scored_0463,42,38,42,conditioned-bounds.json,108,106,106,64,0
+scored_0463,42,38,42,conditioned-bounds.json,108,105,105,63,0
 scored_0464,37,36,37,domain-bounds.csv,81,78,78,41,0
 scored_0465,38,35,38,conditioned-bounds.json,112,111,111,73,0
 scored_0466,40,36,40,domain-bounds.csv,196,185,185,145,0
@@ -474,7 +474,7 @@ scored_0472,18,16,18,helper-wave9.json,21,21,21,3,0
 scored_0473,17,15,17,helper-wave7.json,24,24,24,7,0
 scored_0474,37,35,37,conditioned-bounds.json,88,85,85,48,0
 scored_0475,42,38,42,conditioned-bounds.json,199,195,195,153,0
-scored_0476,42,40,42,domain-bounds.csv,209,208,208,166,0
+scored_0476,42,40,42,domain-bounds.csv,209,207,207,165,0
 scored_0477,39,36,39,conditioned-bounds.json,132,130,130,91,0
 scored_0478,19,17,19,domain-bounds.csv,81,80,80,61,0
 scored_0479,42,40,42,domain-bounds.csv,125,114,114,72,0
@@ -621,7 +621,7 @@ scored_0619,38,35,38,conditioned-bounds.json,118,118,118,80,0
 scored_0620,18,17,18,helper-wave13.json,34,32,32,14,0
 scored_0621,43,40,43,domain-bounds.csv,179,171,171,128,0
 scored_0622,40,37,40,conditioned-bounds.json,172,165,165,125,0
-scored_0623,37,36,37,domain-bounds.csv,79,77,77,40,0
+scored_0623,37,36,37,domain-bounds.csv,79,75,75,38,0
 scored_0624,39,36,39,conditioned-bounds.json,121,108,108,69,0
 scored_0625,38,35,38,conditioned-bounds.json,99,97,97,59,0
 scored_0626,38,35,38,domain-bounds.csv,174,167,167,129,0
@@ -639,7 +639,7 @@ scored_0637,19,15,19,helper-wave9.json,29,28,28,9,0
 scored_0638,42,38,42,conditioned-bounds.json,283,270,270,228,0
 scored_0639,41,37,41,conditioned-bounds.json,106,106,106,65,0
 scored_0640,38,35,38,conditioned-bounds.json,225,208,208,170,0
-scored_0641,40,38,40,conditioned-bounds.json,124,117,117,77,0
+scored_0641,40,38,40,conditioned-bounds.json,124,116,116,76,0
 scored_0642,41,38,41,conditioned-bounds.json,129,120,120,79,0
 scored_0643,43,40,43,conditioned-bounds.json,127,126,126,83,0
 scored_0644,39,36,39,domain-bounds.csv,152,141,141,102,0
@@ -666,7 +666,7 @@ scored_0664,39,36,39,domain-bounds.csv,217,205,205,166,0
 scored_0665,38,36,38,domain-bounds.csv,95,92,92,54,0
 scored_0666,40,37,40,conditioned-bounds.json,156,147,147,107,0
 scored_0667,41,38,41,conditioned-bounds.json,120,120,120,79,0
-scored_0668,39,35,39,conditioned-bounds.json,105,102,102,63,0
+scored_0668,39,35,39,conditioned-bounds.json,105,101,101,62,0
 scored_0669,42,40,42,domain-bounds.csv,110,108,108,66,0
 scored_0670,38,35,38,conditioned-bounds.json,189,177,177,139,0
 scored_0671,40,36,40,conditioned-bounds.json,198,191,191,151,0
@@ -677,11 +677,11 @@ scored_0675,40,37,40,conditioned-bounds.json,125,117,117,77,0
 scored_0676,6,6,6,domain-bounds.csv,6,6,6,0,1
 scored_0677,42,38,42,conditioned-bounds.json,237,223,223,181,0
 scored_0678,37,35,37,domain-bounds.csv,167,161,161,124,0
-scored_0679,39,36,39,conditioned-bounds.json,127,116,116,77,0
+scored_0679,39,36,39,conditioned-bounds.json,127,115,115,76,0
 scored_0680,38,35,38,conditioned-bounds.json,212,193,193,155,0
 scored_0681,38,35,38,conditioned-bounds.json,195,193,193,155,0
 scored_0682,41,38,41,domain-bounds.csv,281,261,261,220,0
-scored_0683,41,37,41,conditioned-bounds.json,124,119,119,78,0
+scored_0683,41,37,41,conditioned-bounds.json,124,118,118,77,0
 scored_0684,39,37,39,domain-bounds.csv,99,96,96,57,0
 scored_0685,41,38,41,domain-bounds.csv,181,174,174,133,0
 scored_0686,38,36,38,conditioned-bounds.json,103,92,92,54,0
@@ -723,7 +723,7 @@ scored_0721,4,4,4,domain-bounds.csv,4,4,4,0,1
 scored_0722,42,40,42,conditioned-bounds.json,116,116,116,74,0
 scored_0723,41,38,41,conditioned-bounds.json,100,96,96,55,0
 scored_0724,38,35,38,conditioned-bounds.json,171,162,162,124,0
-scored_0725,40,37,40,conditioned-bounds.json,215,215,215,175,0
+scored_0725,40,37,40,conditioned-bounds.json,215,214,214,174,0
 scored_0726,39,36,39,conditioned-bounds.json,158,147,147,108,0
 scored_0727,37,35,37,conditioned-bounds.json,79,77,77,40,0
 scored_0728,41,36,41,conditioned-bounds.json,274,255,255,214,0
@@ -805,7 +805,7 @@ scored_0803,39,36,39,conditioned-bounds.json,141,131,131,92,0
 scored_0804,42,39,42,conditioned-bounds.json,116,115,115,73,0
 scored_0805,38,35,38,domain-bounds.csv,116,113,113,75,0
 scored_0806,38,35,38,conditioned-bounds.json,95,92,92,54,0
-scored_0807,38,35,38,conditioned-bounds.json,135,129,129,91,0
+scored_0807,38,35,38,conditioned-bounds.json,135,126,126,88,0
 scored_0808,39,35,39,conditioned-bounds.json,261,248,248,209,0
 scored_0809,42,38,42,conditioned-bounds.json,120,118,118,76,0
 scored_0810,20,21,21,proofs_ext,30,29,29,8,0
@@ -839,7 +839,7 @@ scored_0837,42,40,42,domain-bounds.csv,238,225,225,183,0
 scored_0838,39,35,39,conditioned-bounds.json,143,140,140,101,0
 scored_0839,41,37,41,conditioned-bounds.json,182,171,171,130,0
 scored_0840,43,40,43,conditioned-bounds.json,236,225,225,182,0
-scored_0841,40,37,40,conditioned-bounds.json,119,116,116,76,0
+scored_0841,40,37,40,conditioned-bounds.json,119,115,115,75,0
 scored_0842,21,16,21,helper-wave5.json,25,25,25,4,0
 scored_0843,38,35,38,conditioned-bounds.json,147,145,145,107,0
 scored_0844,40,36,40,conditioned-bounds.json,270,252,252,212,0
@@ -894,7 +894,7 @@ scored_0892,16,16,16,domain-bounds.csv,16,16,16,0,1
 scored_0893,41,38,41,conditioned-bounds.json,132,128,128,87,0
 scored_0894,42,40,42,domain-bounds.csv,117,112,112,70,0
 scored_0895,40,36,40,conditioned-bounds.json,129,122,122,82,0
-scored_0896,41,38,41,conditioned-bounds.json,136,133,133,92,0
+scored_0896,41,38,41,conditioned-bounds.json,136,132,132,91,0
 scored_0897,18,19,19,proofs_ext,35,35,35,16,0
 scored_0898,25,23,25,domain-bounds.csv,83,80,80,55,0
 scored_0899,42,39,42,conditioned-bounds.json,228,223,223,181,0
@@ -927,7 +927,7 @@ scored_0925,40,36,40,conditioned-bounds.json,119,119,119,79,0
 scored_0926,14,13,14,helper-wave13.json,20,20,20,6,0
 scored_0927,41,38,41,conditioned-bounds.json,124,120,120,79,0
 scored_0928,16,14,16,helper-wave13.json,32,31,31,15,0
-scored_0929,42,39,42,conditioned-bounds.json,116,109,109,67,0
+scored_0929,42,39,42,conditioned-bounds.json,116,108,108,66,0
 scored_0930,40,38,40,conditioned-bounds.json,88,81,81,41,0
 scored_0931,2,2,2,domain-bounds.csv,2,2,2,0,1
 scored_0932,42,38,42,domain-bounds.csv,232,226,226,184,0
@@ -994,7 +994,7 @@ scored_0992,41,37,41,conditioned-bounds.json,273,260,260,219,0
 scored_0993,41,37,41,conditioned-bounds.json,222,217,217,176,0
 scored_0994,42,39,42,conditioned-bounds.json,122,121,121,79,0
 scored_0995,42,40,42,conditioned-bounds.json,145,144,144,102,0
-scored_0996,40,37,40,conditioned-bounds.json,140,125,125,85,0
+scored_0996,40,37,40,conditioned-bounds.json,140,124,124,84,0
 scored_0997,40,37,40,conditioned-bounds.json,106,106,106,66,0
 scored_0998,43,40,43,conditioned-bounds.json,218,204,204,161,0
 scored_0999,39,36,39,conditioned-bounds.json,109,105,105,66,0

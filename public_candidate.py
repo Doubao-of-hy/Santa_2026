@@ -135,6 +135,7 @@ def main():
         +"Local changes include selecting shorter complete programs and resynthesizing arithmetic. "
         +"The contributed Hanif v15 program lineage is recorded in Hanif-v15-NOTICE.md. "
         +"The local solver source credits are under ../generative/NOTICE.md.\n"
+        +("Hanif v23 contributed additional programs. [Original notice](Hanif-v23-NOTICE.md) and [license](Hanif-v23-LICENSE.txt).\n" if (dest/"Hanif-v23-NOTICE.md").exists() else "")
         +portfolio_note,encoding="utf8")
     with (dest/"origins.csv").open("w",encoding="utf8",newline="") as f:
         out=csv.writer(f);out.writerow(("id","source","upstream_source","instructions"))

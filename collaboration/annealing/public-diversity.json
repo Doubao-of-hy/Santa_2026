@@ -1,0 +1,15 @@
+{
+ "utc": "2026-11-20T12:23:24.612487+00:00",
+ "frozen": 134487,
+ "frozen_sha": "b65af3bacb6c0d69c9b4e1946b080d530e19e090284a34963110a1983bfda9b8",
+ "verified": 134464,
+ "sha256": "7254147d79164615d7d41976315699ebda31076ddf4849a6b657d780486e8c93",
+ "wins": 17,
+ "saved": 23,
+ "new_native_rows": [
+  "scored_0152",
+  "scored_0732"
+ ],
+ "current": 134456,
+ "current_union": 134454
+}
