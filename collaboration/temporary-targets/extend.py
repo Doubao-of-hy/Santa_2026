@@ -34,7 +34,7 @@ def validate(records,selection,ps,baseline,out,puzzles):
             lengths[arm]=n;saved[arm]+=len(baseline[i])-n
         win=min(ARMS,key=lengths.get)
         if lengths[win]<len(baseline[i]):
-            gains[i]=pack['arms'][win]['program']
+            gains[i]=tuple(tuple(op) for op in pack['arms'][win]['program'])
             steps+=len(baseline[i])-lengths[win]
         if min(lengths['ranked'],lengths['random'])<min(lengths['ordinary'],lengths['graft_only']):protected.append(i)
     with tempfile.TemporaryDirectory(dir=out) as tmp:

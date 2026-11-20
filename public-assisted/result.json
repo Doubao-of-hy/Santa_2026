@@ -1,7 +1,7 @@
 {
   "instructions": 134178,
   "puzzles": 1000,
-  "sha256": "67d3b7ffa445c64b4ebb4a5baeeb84736ac44c991420fa84c768b4c28122c2e6",
+  "sha256": "ef9c2bf7a340d7313ab0c53e84f6c225e036cd3a79e582b43ad08be7a7164bba",
   "source": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/125",
   "source_version": 125,
   "source_version_evidence": "The SDK catalog identifies version 125, Apache 2.0, and the exact compressed size. The fixed-version download provides the immutable archive. The publisher version note gives 134,189, confirmed by two full replays. The internal history uses an earlier label.",
@@ -74,10 +74,10 @@
   "row_origins": {
     "work/heritage/scale-hard.csv": 1,
     "work/virtual/siblings-135106/assisted-recovered-early.csv": 1,
-    "Asterios v113": 257,
-    "Asterios v99": 366,
+    "Asterios v113": 256,
+    "Asterios v99": 365,
     "work/creative/resume-135077/accepted-134478/shorter.csv": 6,
-    "local from official inputs": 147,
+    "local from official inputs": 149,
     "work/creative/resume-135077/four-source-134385-to-134325/shorter.csv": 32,
     "work/virtual/carry-135348/release-target.csv": 1,
     "work/creative/frontier-134285/good11/wins.csv": 67,
