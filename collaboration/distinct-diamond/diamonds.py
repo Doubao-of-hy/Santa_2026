@@ -1,13 +1,11 @@
 """Test for four distinct helper values linked by five different target outputs."""
 from functools import lru_cache
-from itertools import combinations, permutations
-from pathlib import Path
-import sys
+from itertools import combinations
 
 def find_diamond(labels, forbidden, limit, identity_limit=128):
     from cliques import transforms, apply, compose, fixed_points
     labels = sorted(set(labels))
-    if len(labels) < 5 or limit - len(forbidden) < 4:
+    if len(labels) < 5 or limit - sum(1 <= x <= limit for x in forbidden) < 4:
         return "ABSENT", None
     @lru_cache(maxsize=384)
     def neighbors(a):
