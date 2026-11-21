@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 10:11
+
+E-Max AI 发布的搜索条件在 2 道题上从已确认来源的程序重新得到改进，两套解释器均回放为 **133,808 条**。独立候选为 **140,371 条**。另一项对 88 道题组合已有算式的试验没有得到更短程序。[逐题复现与来源](public-assisted/releases/emax-133806-reruns.json) · [88 道题的尝试记录](collaboration/evidence/graph-selection-88.json.gz)
+
 ## 北京时间 11 月 21 日 10:03
 
 公开辅助候选降到 **133,810 条**，独立候选降到 **140,384 条**，均已回放全部 1,000 题。公开辅助候选的第 185、358、988 题各省 1 条。另已合并第 2 个 PR，复现旧父本的两道改进并保留主分支更短的程序。[三道改进和原作者](public-assisted/releases/20261121-three-programs.json) · [独立搜索进度](collaboration/borrowed-starts/results/summary.json) · [PR 实验](collaboration/anneal-current-parent/)

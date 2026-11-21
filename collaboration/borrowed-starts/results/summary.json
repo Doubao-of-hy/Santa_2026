@@ -94,6 +94,29 @@
       ],
       "score": 140438
     },
+    "own-expand-04": {
+      "eligible": 840,
+      "tested": 48,
+      "improved": 12,
+      "savings": {
+        "ordinary": 4,
+        "incumbent": 6,
+        "fresh": 7
+      },
+      "saved": 13,
+      "beats_ordinary": [
+        "scored_0976",
+        "scored_0741",
+        "scored_0274",
+        "scored_0228",
+        "scored_0872",
+        "scored_0418",
+        "scored_0160",
+        "scored_0595",
+        "scored_0589"
+      ],
+      "score": 140434
+    },
     "own-holdout": {
       "eligible": 840,
       "tested": 24,
@@ -137,11 +160,11 @@
     }
   },
   "coverage": {
-    "own": 228,
+    "own": 276,
     "public": 36
   },
   "total_savings": {
-    "own": 45,
+    "own": 58,
     "public": 0
   }
 }

@@ -1,0 +1,603 @@
+{
+  "base": "46cd45c23100ad18355f7491113be52100ce2992",
+  "source": "https://www.kaggle.com/datasets/royalacecat/santa-2026-replay-133806-lean/versions/1",
+  "archive_sha256": "ddbe5b471ba0b5301255cf3a5dd35c546357eb5fa7456b367edb0a5350cb400e",
+  "input_manifest_sha256": "4fc6ae6caa263d22ba56f1ca28f5bf73cd181a1eef71bcac73ae5f35c2abb199",
+  "source_sha256": {
+    "anneal_diverse": "b60c8feead2a2754888ca0b6f58f271c00e9f7a0fc2192534f7f0720a83e479d",
+    "anneal_diverse16": "2c5523bc9762304051b39b0c15471ee4d87d15be45d0057dcfaa6b1f454aa71b",
+    "incremental_diverse": "13876df874176ae9434ea4f9f0ad7a0e2b06bdc3d1874df8dc49bcda8716952f",
+    "incremental_diverse16": "a34e0d0ee6ea90efb6d2ca360bd70cb0f336a92022b2d5c64166b9528b0a3369"
+  },
+  "scores": {
+    "scored_0274": {
+      "before": 134,
+      "after": 133,
+      "reproduction": {
+        "id": "scored_0274",
+        "before": 134,
+        "score": 133,
+        "mode": "anneal_diverse",
+        "seed": 494009,
+        "rounds": 3500,
+        "recipe": "all_matched",
+        "inputs": [
+          {
+            "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+            "origin": [
+              "Asterios v152",
+              "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+            ]
+          },
+          {
+            "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+            "origin": [
+              "138be6d/public-assisted/submission.csv",
+              "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+            ]
+          },
+          {
+            "hash": "8d07ab0a0f631755b79954173de41bdf974c1712c307d03f19a992a2027976b4",
+            "origin": [
+              "Asterios v150",
+              "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+            ]
+          }
+        ],
+        "sha256": "7c23fcac3c2bed70e5d4a791fa34ccd2399a8d0525a342cb45cf5f0a0c290f99"
+      }
+    },
+    "scored_0996": {
+      "before": 122,
+      "after": 121,
+      "reproduction": {
+        "id": "scored_0996",
+        "before": 122,
+        "score": 121,
+        "mode": "anneal_diverse",
+        "seed": 494731,
+        "rounds": 3500,
+        "recipe": "matched",
+        "inputs": [
+          {
+            "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+            "origin": [
+              "Asterios v152",
+              "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+            ]
+          },
+          {
+            "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+            "origin": [
+              "2488949/public-assisted/submission.csv",
+              "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+            ]
+          },
+          {
+            "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+            "origin": [
+              "62378d6/public-assisted/submission.csv",
+              "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+            ]
+          },
+          {
+            "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+            "origin": [
+              "Rudolph v97",
+              ""
+            ]
+          }
+        ],
+        "sha256": "60cd770283066213e8773643cb39641135c0f1e61b50b9be6c86ec06499adc87"
+      }
+    }
+  },
+  "trials": [
+    {
+      "id": "scored_0071",
+      "before": 113,
+      "score": 113,
+      "mode": "incremental_diverse",
+      "seed": 493806,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "1541dd7992c8b925a8d1908c00b498455935c93fd4e1376b5d47256814591a7e",
+          "origin": [
+            "Asterios v152",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        },
+        {
+          "hash": "474b14e185705e287d60d98c5ef94f10cc9295b08564d710f6ffa85f24e1e6f3",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [138084]"
+          ]
+        }
+      ],
+      "sha256": "1541dd7992c8b925a8d1908c00b498455935c93fd4e1376b5d47256814591a7e"
+    },
+    {
+      "id": "scored_0071",
+      "before": 113,
+      "score": 113,
+      "mode": "incremental_diverse16",
+      "seed": 493806,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "1541dd7992c8b925a8d1908c00b498455935c93fd4e1376b5d47256814591a7e",
+          "origin": [
+            "Asterios v152",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        },
+        {
+          "hash": "474b14e185705e287d60d98c5ef94f10cc9295b08564d710f6ffa85f24e1e6f3",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [138084]"
+          ]
+        }
+      ],
+      "sha256": "1541dd7992c8b925a8d1908c00b498455935c93fd4e1376b5d47256814591a7e"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "all_matched",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "8d07ab0a0f631755b79954173de41bdf974c1712c307d03f19a992a2027976b4",
+          "origin": [
+            "Asterios v150",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        }
+      ],
+      "sha256": "7c23fcac3c2bed70e5d4a791fa34ccd2399a8d0525a342cb45cf5f0a0c290f99"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        }
+      ],
+      "sha256": "bcbfeceb0eb747cdafa54fe74ad20e62fca7627f4c1f0859ef1e720348aea524"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "shortest",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "9c52845e44f6bbc909b4b24cb8d3ac081228c93b9c86abc358d6df045f40f05e",
+          "origin": [
+            "46cd45c/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+          "origin": [
+            "138be6d/submission.csv",
+            "Generated from official inputs"
+          ]
+        }
+      ],
+      "sha256": "45a2e0c8116abe8fb5aca116bc4b35c9c2228a864647c37ca4c412e1046c5579"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "varied",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "9c52845e44f6bbc909b4b24cb8d3ac081228c93b9c86abc358d6df045f40f05e",
+          "origin": [
+            "46cd45c/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+          "origin": [
+            "138be6d/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "dc4894133edc04e71fee95c91c46560adcd84dc2f7aa36a014b9325c3c6a2486",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP"
+          ]
+        }
+      ],
+      "sha256": "ef14c150fac83ff02d4ad8404b61b324b3dc26f6493e0e3ca46105548353a40e"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse16",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "all_matched",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "8d07ab0a0f631755b79954173de41bdf974c1712c307d03f19a992a2027976b4",
+          "origin": [
+            "Asterios v150",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        }
+      ],
+      "sha256": "d23d532c121f5fdb571a3f5c9be5112033d73722797b284ae1c1bd9d66eb6ee2"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse16",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        }
+      ],
+      "sha256": "2107ac15b50a957e9a0bb5f0bfc6ab20c4fc569b0497226a407d61ea5e519748"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 133,
+      "mode": "anneal_diverse16",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "shortest",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "9c52845e44f6bbc909b4b24cb8d3ac081228c93b9c86abc358d6df045f40f05e",
+          "origin": [
+            "46cd45c/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+          "origin": [
+            "138be6d/submission.csv",
+            "Generated from official inputs"
+          ]
+        }
+      ],
+      "sha256": "db952d2167a6b2f5dd975056181700b9af18ca2c450d4cca2cf3723c5235c225"
+    },
+    {
+      "id": "scored_0274",
+      "before": 134,
+      "score": 134,
+      "mode": "anneal_diverse16",
+      "seed": 494009,
+      "rounds": 3500,
+      "recipe": "varied",
+      "inputs": [
+        {
+          "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+          "origin": [
+            "Asterios v152",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+          ]
+        },
+        {
+          "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+          "origin": [
+            "138be6d/public-assisted/submission.csv",
+            "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+          ]
+        },
+        {
+          "hash": "9c52845e44f6bbc909b4b24cb8d3ac081228c93b9c86abc358d6df045f40f05e",
+          "origin": [
+            "46cd45c/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "4a387dd28e8512c38cb76645c049e232348a3de5fa5820c8605a3425ce641d92",
+          "origin": [
+            "138be6d/submission.csv",
+            "Generated from official inputs"
+          ]
+        },
+        {
+          "hash": "dc4894133edc04e71fee95c91c46560adcd84dc2f7aa36a014b9325c3c6a2486",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP"
+          ]
+        }
+      ],
+      "sha256": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1"
+    },
+    {
+      "id": "scored_0996",
+      "before": 122,
+      "score": 121,
+      "mode": "anneal_diverse",
+      "seed": 494731,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+          "origin": [
+            "Asterios v152",
+            "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+          ]
+        },
+        {
+          "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        },
+        {
+          "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+          ]
+        },
+        {
+          "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+          "origin": [
+            "Rudolph v97",
+            ""
+          ]
+        }
+      ],
+      "sha256": "60cd770283066213e8773643cb39641135c0f1e61b50b9be6c86ec06499adc87"
+    },
+    {
+      "id": "scored_0996",
+      "before": 122,
+      "score": 122,
+      "mode": "anneal_diverse",
+      "seed": 494731,
+      "rounds": 3500,
+      "recipe": "shortest",
+      "inputs": [
+        {
+          "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+          "origin": [
+            "Asterios v152",
+            "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+          ]
+        },
+        {
+          "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+          "origin": [
+            "Rudolph v97",
+            ""
+          ]
+        },
+        {
+          "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+          ]
+        },
+        {
+          "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        }
+      ],
+      "sha256": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb"
+    },
+    {
+      "id": "scored_0996",
+      "before": 122,
+      "score": 122,
+      "mode": "anneal_diverse16",
+      "seed": 494731,
+      "rounds": 3500,
+      "recipe": "matched",
+      "inputs": [
+        {
+          "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+          "origin": [
+            "Asterios v152",
+            "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+          ]
+        },
+        {
+          "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        },
+        {
+          "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+          ]
+        },
+        {
+          "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+          "origin": [
+            "Rudolph v97",
+            ""
+          ]
+        }
+      ],
+      "sha256": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb"
+    },
+    {
+      "id": "scored_0996",
+      "before": 122,
+      "score": 122,
+      "mode": "anneal_diverse16",
+      "seed": 494731,
+      "rounds": 3500,
+      "recipe": "shortest",
+      "inputs": [
+        {
+          "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+          "origin": [
+            "Asterios v152",
+            "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+          ]
+        },
+        {
+          "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+          "origin": [
+            "Rudolph v97",
+            ""
+          ]
+        },
+        {
+          "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+          "origin": [
+            "62378d6/public-assisted/submission.csv",
+            "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+          ]
+        },
+        {
+          "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+          "origin": [
+            "2488949/public-assisted/submission.csv",
+            "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+          ]
+        }
+      ],
+      "sha256": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb"
+    }
+  ],
+  "sha256": "797ff382e1fbb88564a019c5425a8f2337c169bf91e1216f92e67804a8b91cc8",
+  "verified_score": 133808
+}

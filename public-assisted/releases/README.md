@@ -5,3 +5,5 @@
 Asterios Panoras 在 “a Gift per Run” 的公开笔记本中给出第 295 题完整的 122 条程序，比前一版少 1 条。已从 CHANGE 单元读取，并核对精确程序集 133,813 中的第 295 题，两份逐条相同。[原作者、输入署名及程序指纹](asterios-gift-0295.json)
 
 第 185 和第 358 题采用 Asterios 第 152 版中署名 Pratham Jain 的程序。第 988 题用 Wang Jakie 与 E-Max AI 的方法从三个已知来源重新生成 115 条的程序。三题各省 1 条。[逐题来源及复现参数](20261121-three-programs.json)
+
+按 E-Max AI 公布的题号、种子和轮数，从已核实来源的程序重新搜索，2 道共省 2 条。[逐题参数、程序来源与校验结果](emax-133806-reruns.json)
