@@ -14,7 +14,7 @@ import sys
 
 
 def capacities(p, allowed, edge_limit=None):
-    from domain_bounds import operands, unary_capacity
+    from solvers.proofs.domain_bounds import operands, unary_capacity
     from lower_bounds import values, double_witnesses
     base = allowed | set(p.targets)
     unsupported = set()
@@ -70,7 +70,7 @@ def capacities(p, allowed, edge_limit=None):
 def work(entry):
     repo, p, prior = entry
     sys.path.insert(0, str(repo))
-    from domain_bounds import domains
+    from solvers.proofs.domain_bounds import domains
     from lower_bounds import certificate
     required, _, minimum_helpers, _ = certificate(p)
     checks = []

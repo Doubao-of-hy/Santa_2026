@@ -7,7 +7,7 @@ import json
 from reorder import HERE,ROOT,rejected,peak
 from elf import check,read_puzzles,read_submission,write_submission
 from graph import active_graph,_allocate
-from crossover_lns import load_solver
+from solvers.graphs.crossover_lns import load_solver
 
 def rewrites(p,seq):
     values=list(seq);seeds=set(p.seeds);times={v:i for i,v in enumerate(values)}|{v:-1 for v in seeds}

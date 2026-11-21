@@ -2,7 +2,7 @@ import hashlib,json,random,subprocess,time,sys
 from pathlib import Path
 from elf import check
 from graph import active_graph,first_recipes,compile_graph
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_schedule import schedule_like
 def normalized(recipe):
     op, a, b = recipe
     return (op, min(a,b), max(a,b)) if op in "+*" else recipe

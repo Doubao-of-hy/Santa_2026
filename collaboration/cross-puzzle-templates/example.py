@@ -3,7 +3,7 @@ import argparse,hashlib,json
 from dataclasses import replace
 from pathlib import Path
 from evaluate import instantiate_lifted,decode,read_puzzles,compile_graph,check,first_recipes,active_graph,read_submission
-from gpu_join import cut_many
+from solvers.gpu.gpu_join import cut_many
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('puzzles',type=Path);ap.add_argument('library',type=Path)

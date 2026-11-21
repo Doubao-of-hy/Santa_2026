@@ -10,8 +10,8 @@ sys.path[:0]=[str(ROOT),str(HERE.parent)]
 from selector import compile_selection
 from elf import check,read_puzzles,read_submission,sha256,write_submission
 from graph import active_graph,compile_graph,first_recipes
-from gpu_join import cut_many
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_join import cut_many
+from solvers.gpu.gpu_schedule import schedule_like
 
 PILOT=['0567','0730','0768','0801','0755','0305']
 HOLD=['0988','0976','0874','0568','0027','0127']

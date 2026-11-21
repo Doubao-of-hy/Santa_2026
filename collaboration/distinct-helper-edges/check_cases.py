@@ -15,7 +15,7 @@ from sorted_quads import audit
 def check_one(entry):
     repo, p, row, independent = entry
     sys.path.insert(0, str(repo))
-    from domain_bounds import domains, missing_capacity
+    from solvers.proofs.domain_bounds import domains, missing_capacity
     from lower_bounds import certificate
     required, _, helper_low, _ = certificate(p)
     maximum = max(row["eligible"])

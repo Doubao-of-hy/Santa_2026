@@ -40,11 +40,11 @@ Pipeline to reproduce the best candidate:
 python -B improve/fetch_public.py                 # download public donors (once)
 python -B improve/merge_public.py                 # -> improve/merged/submission.csv (137,275)
 python -B improve/algebra_pass.py                 # -> improve/algebra/submission.csv (137,254)
-python -B mix.py data/puzzles.csv improve/mix/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/algebra/submission.csv --joins --trials 4 --passes 6 --jobs 4
-python -B mix.py data/puzzles.csv improve/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/mix/submission.csv --joins --trials 6 --passes 10 --jobs 4
+python -B -m solvers.graphs.mix data/puzzles.csv improve/mix/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/algebra/submission.csv --joins --trials 4 --passes 6 --jobs 4
+python -B -m solvers.graphs.mix data/puzzles.csv improve/submission.csv submission.csv public-assisted/submission.csv improve/merged/submission.csv improve/mix/submission.csv --joins --trials 6 --passes 10 --jobs 4
 # C++ stage (requires work/toolchain g++; see run_cpp_search.ps1):
-python -B virtual_search.py data/puzzles.csv improve/submission.csv improve/cpp/vsearch.csv --exe work/virtual/improve_planner.exe --leaves 120 --width 8 --scan 2 --joins 15949 --style 4 --tail 8 --jobs 8
-python -B matrix_construct.py work/virtual/confident-models.jsonl improve/cpp/matrix.csv --incumbent improve/submission.csv --exe work/virtual/improve_planner.exe --variants 6 --workers 8 --anchored
+python -B -m solvers.graphs.virtual_search data/puzzles.csv improve/submission.csv improve/cpp/vsearch.csv --exe work/virtual/improve_planner.exe --leaves 120 --width 8 --scan 2 --joins 15949 --style 4 --tail 8 --jobs 8
+python -B -m solvers.matrix.matrix_construct work/virtual/confident-models.jsonl improve/cpp/matrix.csv --incumbent improve/submission.csv --exe work/virtual/improve_planner.exe --variants 6 --workers 8 --anchored
 python -B improve/merge_cpp.py                    # per-puzzle best of all sources
 python -B elf.py data/puzzles.csv improve/submission.csv
 ```

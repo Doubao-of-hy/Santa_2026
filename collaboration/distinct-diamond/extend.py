@@ -17,7 +17,7 @@ def screen(task):
     git,p,previous,upper=task
     root_paths(git)
     from verify import capacity,choose_targets
-    from domain_bounds import domains
+    from solvers.proofs.domain_bounds import domains
     from lower_bounds import certificate
     m,_,minimum,_=certificate(p)
     best=previous

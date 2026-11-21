@@ -13,7 +13,7 @@ import time
 
 from run_source import ROOT
 from parallel_solve import arithmetic,compile_best
-from crossover_lns import load_solver
+from solvers.graphs.crossover_lns import load_solver
 from elf import check,read_puzzles,read_submission,sha256,write_submission
 from graph import active_graph,first_recipes
 

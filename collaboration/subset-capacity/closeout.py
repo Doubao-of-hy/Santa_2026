@@ -1,7 +1,7 @@
 """Complete the single remaining four-deletion case and check for a second increment on winners."""
 import hashlib,itertools,json
 from search import HERE,OFFICIAL,Capacity,domains,read_puzzles,maximum_deleted,supported
-from domain_bounds import close
+from solvers.proofs.domain_bounds import close
 
 def main():
     setup=json.loads((HERE/'closeout-design.json').read_bytes())

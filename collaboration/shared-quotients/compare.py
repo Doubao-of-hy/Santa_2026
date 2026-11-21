@@ -8,8 +8,8 @@ ROOT=next(p for p in D.parents if (p/'elf.py').exists())
 sys.path.insert(0,str(ROOT))
 from elf import arithmetic,check,read_puzzles,read_submission,sha256,write_submission
 from graph import active_graph,compile_graph,first_recipes
-from gpu_join import cut_many
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_join import cut_many
+from solvers.gpu.gpu_schedule import schedule_like
 from checkpoint import atomic_text
 
 def native(queries,exe):

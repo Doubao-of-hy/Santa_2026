@@ -9,7 +9,7 @@ from pathlib import Path
 from run_source import ROOT
 from elf import arithmetic,check,read_puzzles,read_submission,sha256,write_submission
 from graph import active_graph,first_recipes
-from gpu_join import cut_many
+from solvers.gpu.gpu_join import cut_many
 from parallel_solve import Helpers,compile_best
 
 

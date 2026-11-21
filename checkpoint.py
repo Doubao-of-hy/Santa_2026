@@ -110,7 +110,7 @@ def certified_bounds(root, data, programs, puzzles):
         additional[wave.relative_to(root).as_posix()] = sha256(wave)
     conditioned = path.parent / 'conditioned-bounds.json'
     if conditioned.exists():
-        from conditioned_certificate import read_index
+        from solvers.proofs.conditioned_certificate import read_index
         strengthened, _ = read_index(conditioned, receipt['puzzles_sha256'])
         for pid, lower in strengthened.items():
             bounds[pid] = max(bounds[pid], lower)

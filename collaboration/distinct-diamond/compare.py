@@ -26,7 +26,7 @@ def toy(k4):
 def work(args):
     k4, subset, repo, p, row, k4_floor = args
     methods(k4,subset,repo)
-    from domain_bounds import domains
+    from solvers.proofs.domain_bounds import domains
     from verify import capacity
     from lower_bounds import certificate
     missing,_,helper_low,_=certificate(p)

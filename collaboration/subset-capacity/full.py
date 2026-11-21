@@ -13,7 +13,7 @@ def one(entry):
     if not hopeful:answer['skip']='seed-injection ceiling';return answer
     available={0:(set(p.seeds),None)}
     if max(hopeful)>0:
-        from domain_bounds import close
+        from solvers.proofs.domain_bounds import close
         last=close(set(p.seeds),set(p.targets),p.limit)
         for k,E in domains(p,max(hopeful),3500):
             available[k]=E,last;last=E

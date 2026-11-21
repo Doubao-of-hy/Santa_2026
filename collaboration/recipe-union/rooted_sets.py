@@ -5,7 +5,7 @@ import random
 from solver import ROOT
 from elf import check
 from graph import active_graph, compile_graph, first_recipes
-from corpus_prefix import arithmetic_edges
+from solvers.graphs.corpus_prefix import arithmetic_edges
 
 
 def rooted_bank(p, parents):

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "work" / "gen"
 sys.path.insert(0, str(ROOT))
 from elf import read_puzzles, read_submission, score, sha256, write_submission
-from reallocate import allocate
+from solvers.registers.reallocate import allocate
 
 
 def main():

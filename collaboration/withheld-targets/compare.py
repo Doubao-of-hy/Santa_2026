@@ -19,10 +19,10 @@ HERE=Path(__file__).resolve().parent
 REPO=HERE.parents[1]
 sys.path.insert(0,str(REPO))
 from checkpoint import independent_score
-from corpus_prefix import arithmetic_edges
+from solvers.graphs.corpus_prefix import arithmetic_edges
 from elf import check, read_puzzles, sha256, write_submission
 from graph import active_graph, compile_graph, first_recipes
-from pooled_joins import inverse
+from solvers.gpu.pooled_joins import inverse
 spec=importlib.util.spec_from_file_location('partition',HERE.parent/'target-partition/compare.py')
 partition=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(partition)

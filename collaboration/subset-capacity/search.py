@@ -19,7 +19,7 @@ ROOT=Path(os.getenv('SANTA_PROJECT',HERE.parents[1]))
 GIT=Path(os.getenv('SANTA_CHECKOUT',HERE.parents[1]))
 OFFICIAL=Path(os.getenv('SANTA_PUZZLES',ROOT/'data/puzzles.csv'))
 sys.path.insert(0,str(ROOT))
-from domain_bounds import domains,operands
+from solvers.proofs.domain_bounds import domains,operands
 from lower_bounds import certificate,double_witnesses,values
 from elf import read_puzzles
 def pop(x):return x.bit_count()

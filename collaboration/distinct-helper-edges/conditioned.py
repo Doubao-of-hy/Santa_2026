@@ -40,8 +40,8 @@ def evidence(labels,forbidden,limit):
 
 
 def check_tree(p,record,prior,capacity_fn=capacities,oracle=evidence):
-    from conditioned_certificate import frontier
-    from domain_bounds import domains
+    from solvers.proofs.conditioned_certificate import frontier
+    from solvers.proofs.domain_bounds import domains
     goal=set(p.targets)
     missing=len(goal-set(p.seeds))
     leaves=[]

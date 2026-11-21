@@ -3,7 +3,7 @@ from collections import defaultdict
 import heapq
 import time
 
-from crossover_lns import load_solver
+from solvers.graphs.crossover_lns import load_solver
 from graph import active_graph,first_recipes
 from parallel_solve import compile_best
 

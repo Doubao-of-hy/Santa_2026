@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from elf import Puzzle, read_puzzles
 from prefix_bounds import lower
-from verify_optimality import query
+from solvers.proofs.verify_optimality import query
 
 
 def breadth_first(p):

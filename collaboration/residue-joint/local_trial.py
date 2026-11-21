@@ -4,7 +4,7 @@ import csv,json,sys
 from instances import HERE,ROOT,case,active_graph,first_recipes,cut_many,read_submission,read_puzzles,sha256
 from synthesis import search,execute
 from elf import Puzzle,check,score,write_submission
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_schedule import schedule_like
 from graph import compile_graph
 from checkpoint import independent_score
 

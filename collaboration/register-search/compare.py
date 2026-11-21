@@ -8,7 +8,7 @@ import sys
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[1]))
-from corpus_prefix import arithmetic_edges
+from solvers.graphs.corpus_prefix import arithmetic_edges
 from elf import check, read_puzzles, read_submission, replay, sha256, write_submission
 from graph import compile_graph, first_recipes
 

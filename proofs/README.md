@@ -44,7 +44,7 @@
 
 ```bash
 g++ -O3 -std=c++17 exact_helpers.cpp -o exact_helpers
-python -B verify_optimality.py data/puzzles.csv public-assisted/submission.csv --binary ./exact_helpers --jobs 8
+python -B -m solvers.proofs.verify_optimality data/puzzles.csv public-assisted/submission.csv --binary ./exact_helpers --jobs 8
 python -B proofs/check_small.py data/puzzles.csv data/practice_puzzles.csv --binary ./exact_helpers
 ```
 

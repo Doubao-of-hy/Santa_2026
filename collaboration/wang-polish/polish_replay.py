@@ -21,8 +21,8 @@ PARENTS = {
 ORDERS = (("group", "exchange", "factor", "paid"), ("paid", "factor", "exchange", "group"))
 SOURCES = {
     "group": ("group_elfopt.cpp", "16f12d4963acfe795f89f9632e941fb1aea9d8d8de55ac958a45b17a02881db2"),
-    "exchange": ("value_exchange.cpp", "dd25da69aec44917500b235368b3e6870534b66bbd5640216af9dc8c6fb24d77"),
-    "factor": ("factor_resynthesis.cpp", "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44"),
+    "exchange": ("solvers/native/value_exchange.cpp", "dd25da69aec44917500b235368b3e6870534b66bbd5640216af9dc8c6fb24d77"),
+    "factor": ("solvers/native/factor_resynthesis.cpp", "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44"),
     "order": ("work/creative/pressure/order_search.cpp", "cdbea39d09c502198737ccb2374dfec2fc669489a3365a934b8330a4d958146a"),
 }
 
@@ -139,10 +139,10 @@ def main():
     sys.path[:0] = [str(repo), str(repo / "work/creative/pressure"), str(repo / "collaboration/release-crossover"),
                     str(repo / "generative/arsen_v15"), str(repo / "generative")]
     from elf import Puzzle, check, read_submission, write_submission
-    from factor_resynthesis import optimize
+    from solvers.arithmetic.factor_resynthesis import optimize
     from paid import paid_alternatives
     from recombine2026 import solve
-    from value_exchange import run_row
+    from solvers.graphs.value_exchange import run_row
 
     independent = importlib.util.spec_from_file_location("polish_independent", repo / "collaboration/polish/replay.py")
     second = importlib.util.module_from_spec(independent)

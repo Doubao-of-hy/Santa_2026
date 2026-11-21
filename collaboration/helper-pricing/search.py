@@ -31,7 +31,7 @@ def inverse_values(v,u,limit):
     if u%v==0: yield u//v,'/',True
 
 def ingredients(p, tape):
-    from corpus_prefix import arithmetic_edges
+    from solvers.graphs.corpus_prefix import arithmetic_edges
     from graph import active_graph, first_recipes
     ordered=first_recipes(p,tape)
     live=active_graph(p,ordered)

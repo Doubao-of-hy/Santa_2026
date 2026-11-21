@@ -10,7 +10,7 @@
 
 ```powershell
 python -B collaboration/window-search/build.py work/conditional
-python -B retained_boundary.py collaboration/window-search/parent-0025.csv collaboration/window-search/ids-0025.txt work/conditional/0025.csv --exe work/conditional/retained-batch.exe --per-window 22 --jobs 1
+python -B -m solvers.registers.retained_boundary collaboration/window-search/parent-0025.csv collaboration/window-search/ids-0025.txt work/conditional/0025.csv --exe work/conditional/retained-batch.exe --per-window 22 --jobs 1
 python -B collaboration/exact-boundary/verify.py data/puzzles.csv --solver work/conditional/sparse-all.exe
 ```
 

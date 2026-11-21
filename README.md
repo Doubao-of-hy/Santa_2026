@@ -6,6 +6,16 @@
 
 每道题从给定的初始值出发，在 48 个寄存器中使用加、减、乘和整除生成全部目标值。程序中的值必须始终为正整数并且不超过题目上限。提交文件包含 `id` 和 `program` 两列，每题最多 4,096 条指令。总分是全部程序的指令数之和，越低越好。合并各项证明的总下界为 37,980 条，当前共有 20 题已证最短，合计 128 条。[逐题证明与运行分工](collaboration/proof-status.md)
 
+## 仓库导航
+
+| 想找什么 | 从哪里开始 |
+| --- | --- |
+| 当前最短候选、独立生成的候选 | [公开辅助提交](public-assisted/submission.csv) · [独立提交](submission.csv) |
+| 接手任务、查看其他开发者已经试过的方案 | [协作实验索引](collaboration/README.md) · [当前分工](collaboration/STATUS.md) |
+| 运行或改进求解器 | [按方法浏览求解器](solvers/README.md) · [统一运行入口](run.py) |
+| 找一道题的已知最短程序和已证下界 | [逐题上下界](collaboration/puzzle-bounds.csv) · [证明进展](collaboration/proof-status.md) |
+| 追溯历史结果或公开代码来源 | [进展记录](PROGRESS.md) · [历史证明](proofs/) · [协作者证明](proofs_ext/) · [公开求解器与署名](generative/NOTICE.md) |
+
 ## 校验与复跑
 
 从比赛数据页取得官方 `santa-2026.zip`，将其中的 `puzzles.csv` 和 `practice_puzzles.csv` 解压到仓库根目录下的 `data/`。前者用于计分，后者用于有标签的练习题实验。仓库中保存求解代码、候选提交和验证记录，官方原始数据由参赛者自行取得。[官方数据页](https://www.kaggle.com/competitions/santa-2026/data)
@@ -28,7 +38,7 @@ python -B elf.py data/puzzles.csv public-assisted/submission.csv
 - 同余搜索允许选择同余类中的多个余数。商变得更容易构造时，即使余数较大，整条算式也能缩短。
 - 因式分解利用精确因子、近邻乘积及多个目标共同的因数。
 - 依赖图重写搜索可复用的和、差与乘积，删除无用计算。每次修改后重新分配寄存器并重放整段程序。
-- 部分题可以从目标值的近似平方和近似乘积恢复一组整数。求解器利用它们的乘法表构造多个目标，同时比较把偏差加在乘法之前或之后的指令数。`matrix_scan.py` 只接收题目数据，`matrix_construct.py` 可基于恢复的整数重新生成完整的算式。设计算式时仍须支付构造这些整数的成本。
+- 部分题可以从目标值的近似平方和近似乘积恢复一组整数。求解器利用它们的乘法表构造多个目标，同时比较把偏差加在乘法之前或之后的指令数。[结构识别](solvers/matrix/matrix_scan.py)只接收题目数据，[算式构造器](solvers/matrix/matrix_construct.py)可基于恢复的整数重新生成完整的算式。设计算式时仍须支付构造这些整数的成本。
 - 独立整数解释器检查 CSV 编码、题目 ID、寄存器索引、无余数除法、值域和目标覆盖。输入寄存器先读取，随后写回目标寄存器。已经生成的目标值被覆盖后仍计为已完成。
 
 早期逐题证明给出的下界为 **36,731 条**。仓库保留其他开发者的逐题证明，复核时可合并各来源对同一道题的最强结论。[本轮证明与复核命令](collaboration/proof-status.md) · [早期逐题上下界](proofs/bounds.csv) · [其他开发者的证明](proofs_ext)
@@ -43,15 +53,15 @@ python -B elf.py data/puzzles.csv public-assisted/submission.csv
 
 [已对照的方案与收益](collaboration/methods.md) · [用第 334 题重跑因数分解](collaboration/factor/README.md) · [组合改写的真实案例](collaboration/polish/)
 
-`virtual.cpp` 借用 Tony Li 和 konbu17 的整数索引、初始算式与依赖图表示。新搜索器逐轮选择目标，用刚得到的中间值更新可用算式。它比较多个目标对同一中间值的需求，估计目标顺序对后续计算的影响，并把整张图重新编译到 48 个寄存器。以下是一个独立实验示例。在仓库根目录的 PowerShell 中运行，先将本机 MinGW-w64 的 `g++` 加入 PATH。输出是一份新候选。
+[共享中间值搜索](solvers/native/virtual.cpp)借用 Tony Li 和 konbu17 的整数索引、初始算式与依赖图表示。新搜索器逐轮选择目标，用刚得到的中间值更新可用算式。它比较多个目标对同一中间值的需求，估计目标顺序对后续计算的影响，并把整张图重新编译到 48 个寄存器。以下是一个独立实验示例。在仓库根目录的 PowerShell 中运行，先将本机 MinGW-w64 的 `g++` 加入 PATH。输出是一份新候选。
 
 ```powershell
 New-Item -ItemType Directory -Force work\virtual | Out-Null
 $env:PYTHONDONTWRITEBYTECODE='1'
 $env:TEMP=(Resolve-Path work\virtual).Path
 $env:TMP=$env:TEMP
-g++ -O3 -march=x86-64 -static -std=c++17 virtual.cpp -o work\virtual\rerun.exe
-python -B virtual_search.py data/puzzles.csv submission.csv work/virtual/rerun.csv --exe work/virtual/rerun.exe --fresh --leaves 86 --width 6 --scan 1 --joins 13 --jobs 4
+g++ -O3 -march=x86-64 -static -std=c++17 solvers/native/virtual.cpp -o work\virtual\rerun.exe
+python -B -m solvers.graphs.virtual_search data/puzzles.csv submission.csv work/virtual/rerun.csv --exe work/virtual/rerun.exe --fresh --leaves 86 --width 6 --scan 1 --joins 13 --jobs 4
 python -B elf.py data/puzzles.csv work/virtual/rerun.csv
 ```
 

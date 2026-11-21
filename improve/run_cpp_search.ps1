@@ -18,17 +18,17 @@ if (-not (Test-Path $gpp)) { throw "g++ not found. Extract a WinLibs portable zi
 Write-Host "Using g++: $gpp"
 
 # Compile the proven planner (single translation unit; includes konbu.cpp).
-& $gpp -O3 -march=x86-64 -static -std=c++17 virtual.cpp -o work\virtual\improve_planner.exe
+& $gpp -O3 -march=x86-64 -static -std=c++17 solvers/native/virtual.cpp -o work\virtual\improve_planner.exe
 if ($LASTEXITCODE -ne 0) { throw "compile failed" }
 
 # Extended virtual-register search warm-started from the best incumbent.
 # jobs 2: four concurrent dictionaries exhaust memory and crash the planner.
-python -B virtual_search.py data/puzzles.csv improve/submission.csv improve/cpp/vsearch.csv `
+python -B -m solvers.graphs.virtual_search data/puzzles.csv improve/submission.csv improve/cpp/vsearch.csv `
     --exe work/virtual/improve_planner.exe --leaves 120 --width 8 --scan 2 --joins 15949 --style 4 --tail 8 --jobs 2 --checkpoint 50
 python -B elf.py data/puzzles.csv improve/cpp/vsearch.csv
 
 # Matrix/hub reconstruction on confident models, anchored to the search output.
-python -B matrix_construct.py work/virtual/confident-models.jsonl improve/cpp/matrix.csv `
+python -B -m solvers.matrix.matrix_construct work/virtual/confident-models.jsonl improve/cpp/matrix.csv `
     --incumbent improve/cpp/vsearch.csv --exe work/virtual/improve_planner.exe --variants 8 --workers 2 --anchored
 python -B elf.py data/puzzles.csv improve/cpp/matrix.csv
 Write-Host "Done. Candidates in improve/cpp/. Merge per-puzzle best before submitting."

@@ -4,7 +4,7 @@ import random
 from solver import search
 from elf import Puzzle, check, replay
 from graph import compile_graph
-from corpus_prefix import arithmetic_edges
+from solvers.graphs.corpus_prefix import arithmetic_edges
 
 
 def shortest(p,parents):

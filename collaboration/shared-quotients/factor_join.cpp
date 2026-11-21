@@ -1,7 +1,7 @@
 #define main quotient_main
 #include "quotient.cpp"
 #undef main
-#include "integer_factors.hpp"
+#include "../../solvers/native/integer_factors.hpp"
 #include <map>
 #include <cmath>
 static unordered_map<I,vector<pair<I,I>>> divisor_cache;

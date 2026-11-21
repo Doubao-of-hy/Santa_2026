@@ -13,7 +13,7 @@ from run_source import ROOT
 from elf import check,read_puzzles,read_submission,sha256
 from graph import active_graph,first_recipes
 from shrink_select import run_one
-from smooth_search import apply_patches
+from solvers.construction.smooth_search import apply_patches
 
 
 def normalize(terms):

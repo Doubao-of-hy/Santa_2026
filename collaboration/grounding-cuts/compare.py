@@ -9,7 +9,7 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 def encoded(x):return json.dumps(x,ensure_ascii=False,separators=(',',':')).encode()
 def graph_bank(p,tapes):
     from graph import active_graph,first_recipes
-    from corpus_prefix import arithmetic_edges
+    from solvers.graphs.corpus_prefix import arithmetic_edges
     target_set=set(p.targets);seeds=set(p.seeds)
     graphs=[active_graph(p,first_recipes(p,t)) for t in tapes]
     values=sorted(seeds.union(*[g.keys() for g in graphs]))

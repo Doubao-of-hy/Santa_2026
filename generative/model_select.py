@@ -13,7 +13,7 @@ from component_select import bank,canonical,solve
 from reachability_select import rooted_solution
 from parallel_solve import arithmetic
 from elf import check,read_puzzles,read_submission,sha256,write_submission
-from model_edges import support
+from solvers.graphs.model_edges import support
 
 
 def enriched(p,programs,models,capacity):
@@ -115,7 +115,7 @@ def main():
     db.execute("CREATE TABLE IF NOT EXISTS runs (id TEXT,hash TEXT,tape TEXT,stats TEXT,PRIMARY KEY(id,hash))")
     here=Path(__file__).resolve()
     code=tuple(sha256(f) for f in (here,here.with_name("component_select.py"),
-                                   here.with_name("reachability_select.py"),here.parents[1]/"model_edges.py"))
+                                   here.with_name("reachability_select.py"),here.parents[1]/"solvers/graphs/model_edges.py"))
     done={};base={};totals=Counter()
     def flush():
         write_submission(args.output,[p for p in puzzles if p.id in done],done)

@@ -59,7 +59,7 @@ def make(args):
 def verify_one(arg):
     repo,p,claim=arg
     sys.path.insert(0,str(repo))
-    from domain_bounds import domains,missing_capacity
+    from solvers.proofs.domain_bounds import domains,missing_capacity
     from lower_bounds import certificate
     missing,_,minimum,_=certificate(p)
     k=claim["k"]

@@ -12,7 +12,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(root))
 import elf
-from algebra_rewrite import repair_algebra
+from solvers.graphs.algebra_rewrite import repair_algebra
 
 puzzles = elf.read_puzzles(root / "data/puzzles.csv")
 inc = elf.read_submission(root / "improve/merged/submission.csv")

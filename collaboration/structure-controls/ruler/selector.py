@@ -1,10 +1,10 @@
 from collections import Counter, defaultdict
 from itertools import combinations_with_replacement
-from corpus_prefix import arithmetic_edges
-from crossover_lns import load_solver
+from solvers.graphs.corpus_prefix import arithmetic_edges
+from solvers.graphs.crossover_lns import load_solver
 from elf import check
 from graph import active_graph,compile_graph
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_schedule import schedule_like
 
 def strong(nodes,edges):
     forward=defaultdict(set);back=defaultdict(set)

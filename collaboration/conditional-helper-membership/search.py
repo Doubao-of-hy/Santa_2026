@@ -11,7 +11,7 @@ import csv,gzip,hashlib,io,json,subprocess,sys
 HERE=Path(__file__).resolve().parent
 REPO=HERE.parents[1]
 sys.path.insert(0,str(REPO))
-from domain_bounds import operands,unary_capacity
+from solvers.proofs.domain_bounds import operands,unary_capacity
 from lower_bounds import values,double_witnesses
 from elf import read_puzzles
 
@@ -111,7 +111,7 @@ def search(model,h,depth=192,limit=1500):
 
 def work(task):
     p,claim,base=task
-    from domain_bounds import domains
+    from solvers.proofs.domain_bounds import domains
     k=claim['k'];allowed=set(p.seeds) if k==0 else dict(domains(p,k,3500))[k]
     assert stamp(allowed)==claim['evidence']['allowed_sha256']
     m=Profile(allowed,set(p.targets),p.limit)

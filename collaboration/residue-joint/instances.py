@@ -8,7 +8,7 @@ ROOT=next(p for p in HERE.parents if (p/"elf.py").is_file() and (p/"graph.py").i
 sys.path[:0]=[str(ROOT),str(ROOT/"work/crossover/deps")]
 from elf import read_puzzles,read_submission,sha256
 from graph import active_graph,first_recipes
-from gpu_join import cut_many
+from solvers.gpu.gpu_join import cut_many
 
 def case(p,program):
     g=active_graph(p,first_recipes(p,program))

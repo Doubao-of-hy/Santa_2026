@@ -11,8 +11,8 @@ sys.path[:0]=[str(ROOT),str(HERE.parent),str(ROOT/'collaboration/official-heads'
 from selector import compile_selection
 from practice_runtime import generate
 from elf import arithmetic,check,read_puzzles,read_submission,sha256,write_submission
-from gpu_join import cut_many
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_join import cut_many
+from solvers.gpu.gpu_schedule import schedule_like
 from graph import active_graph,compile_graph,first_recipes
 
 PILOT=['0636','0799','0012','0080','0704','0199','0068','0961']

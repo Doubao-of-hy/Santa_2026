@@ -3,8 +3,8 @@ from collections import Counter, defaultdict
 from itertools import combinations
 
 from elf import check
-from gpu_join import cut_many
-from gpu_schedule import schedule_like
+from solvers.gpu.gpu_join import cut_many
+from solvers.gpu.gpu_schedule import schedule_like
 from graph import active_graph, compile_graph, first_recipes
 
 
