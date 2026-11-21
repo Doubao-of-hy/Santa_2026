@@ -1,0 +1,71 @@
+{
+  "checked": "2026-11-21T09:28:57+08:00",
+  "puzzle": "scored_0882",
+  "bounds": [
+    22,
+    23
+  ],
+  "grid": {
+    "helpers": 10,
+    "total_branches": 768,
+    "finished": 768,
+    "unknown": 11,
+    "nodes": 10343681212,
+    "status": "INCOMPLETE"
+  },
+  "refined": {
+    "first": 11,
+    "second": 4,
+    "total": 24,
+    "finished": 24,
+    "unsat": 24,
+    "unknown": 0,
+    "nodes": 134090359,
+    "status": "UNSAT"
+  },
+  "resolved_with_refinement": 758,
+  "remaining_returned_unknown": 10,
+  "remaining_cells": [
+    [
+      13,
+      0
+    ],
+    [
+      13,
+      7
+    ],
+    [
+      13,
+      9
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      19,
+      12
+    ]
+  ],
+  "first_grid": "puzzle-0882-diversity/h10-first-grid.json.gz"
+}

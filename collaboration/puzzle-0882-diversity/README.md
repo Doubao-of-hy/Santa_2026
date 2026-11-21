@@ -43,3 +43,13 @@ g++ -O3 -std=c++17 proofs/local/exact_helpers.cpp -o diversity-reference
 g++ -O3 -std=c++17 collaboration/puzzle-0882-diversity/operations.cpp -o diversity-operations
 python -B collaboration/puzzle-0882-diversity/verify.py --puzzles data/puzzles.csv --binary ./diversity-proof --reference-binary ./diversity-reference --operations-binary ./diversity-operations --jobs 4
 ```
+
+## 仍待判定的十个分片
+
+全部 768 个分片中，757 个直接排除，一个细分后排除。本轮继续检查其余十个，每个再分为 24 格。任一 22 条程序可与现有下界相遇，只有剩余各格全部排除才能证明现有 23 条程序最短。[第一轮逐片记录](h10-first-grid.json.gz) · [剩余坐标](../evidence/active-search-20261121.json)
+
+使用 [hot.cpp](../../proofs/local/work/gpu/closest-36729/hot.cpp) 编译搜索程序，然后从仓库根目录运行以下命令。复用同一输出目录可以继续检验尚未完成的格。
+
+```shell
+python -B collaboration/puzzle-0882-diversity/refine_open.py --puzzles data/puzzles.csv --binary ./proof-hot --out work/h10-882 --jobs 4
+```
