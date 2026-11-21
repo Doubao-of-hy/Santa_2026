@@ -6,6 +6,7 @@
 
 | 工作 | 负责方 | 范围与进展 |
 | --- | --- | --- |
+| 共享前缀的暂借初值 | 正在试验 40 道独立与公开成绩接近的题 | 两种借值方法和直接搜索都有同等预算。[分工和题号](borrowed-starts/shared-prefix-design.json) |
 | 可逆地替换一至两个目标 | 两条路线各完成 36 道 | 留出题上未超过直接搜索，结束扩大。[实验](goal-differences/results.json) |
 | 暂借数再从正式初值重建 | 独立扩展题正在运行 | 含初期对照已完成 564 道，累计省 146 条。[逐批结果](borrowed-starts/results/summary.json) |
 | Hiyohane 的 9 道独立改进 | 已复验全部 1,000 题 | 9 道共省 19 条。[来源与逐题差额](evidence/d6e507e-candidate.json) |

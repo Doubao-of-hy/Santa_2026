@@ -1,0 +1,50 @@
+{
+  "base": "99b48016ec3c71d97569e8325e021797f5ac1737",
+  "groups": {
+    "improved": [
+      "scored_0178",
+      "scored_0589",
+      "scored_0274",
+      "scored_0256",
+      "scored_0228",
+      "scored_0966",
+      "scored_0595",
+      "scored_0731",
+      "scored_0668",
+      "scored_0871",
+      "scored_0976",
+      "scored_0862",
+      "scored_0596",
+      "scored_0693",
+      "scored_0769",
+      "scored_0909",
+      "scored_0659",
+      "scored_0767",
+      "scored_0383",
+      "scored_0625"
+    ],
+    "comparison": [
+      "scored_0180",
+      "scored_0723",
+      "scored_0571",
+      "scored_0802",
+      "scored_0371",
+      "scored_0894",
+      "scored_0496",
+      "scored_0944",
+      "scored_0304",
+      "scored_0268",
+      "scored_0592",
+      "scored_0006",
+      "scored_0951",
+      "scored_0972",
+      "scored_0509",
+      "scored_0604",
+      "scored_0788",
+      "scored_0342",
+      "scored_0414",
+      "scored_0317"
+    ]
+  },
+  "rounds": 400
+}

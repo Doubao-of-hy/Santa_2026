@@ -79,13 +79,13 @@ def initial_values(p, graph):
     return old, {v: recipes[v][1] for v in fresh}
 
 
-def trial(job):
+def trial(job, seed_label='borrow-1', rounds=ROUNDS):
     p, tape, arm, old, fresh, exe = job
     graph = active_graph(p, first_recipes(p, tape))
-    seeds = [int(digest(['borrow-1', p.id, j])[:8], 16) for j in (1, 2)]
+    seeds = [int(digest([seed_label, p.id, j])[:8], 16) for j in (1, 2)]
     options = [tape]
     if arm == 'ordinary':
-        first = partition.run_native(p, tape, exe, seeds[0], ROUNDS)
+        first = partition.run_native(p, tape, exe, seeds[0], rounds)
         restored = first
         used = []
     else:
@@ -94,7 +94,7 @@ def trial(job):
         start = compile_graph(aug, graph, recompute=True, schedule_width=3)
         if start is None or len(start) > len(tape):
             start = tape
-        first = partition.run_native(aug, start, exe, seeds[0], ROUNDS)
+        first = partition.run_native(aug, start, exe, seeds[0], rounds)
         body = active_graph(aug, first_recipes(aug, first))
         used = sorted(set(anchors) & (set(p.targets) | {v for edge in body.values() for v in edge[1:]}))
         bank = graph | (fresh if arm == 'fresh' else {})
@@ -106,7 +106,7 @@ def trial(job):
                 restored_options.append(restored_tape)
         restored = min(restored_options, key=len, default=tape)
     options.append(restored)
-    last = partition.run_native(p, restored if len(restored) <= len(tape)+4 else tape, exe, seeds[1], ROUNDS)
+    last = partition.run_native(p, restored if len(restored) <= len(tape)+4 else tape, exe, seeds[1], rounds)
     options.append(last)
     best = min(options, key=len)
     assert check(p, best) == len(best)
