@@ -1,0 +1,40 @@
+{
+  "source_commit": "dd930b4420380a954469c31c9faefed5a859b349",
+  "source_author": "Hiyohane",
+  "method": "Described by contributor as generated from scratch.",
+  "independent_before": 140469,
+  "independent_after": 140447,
+  "published_source_sha256": "3a6d18ed873139f27f8b145d27b5402d7d86cb9981646263eb820a92c2149215",
+  "puzzles": {
+    "scored_0040": {
+      "before": 189,
+      "after": 182,
+      "prior_public": 170
+    },
+    "scored_0366": {
+      "before": 132,
+      "after": 125,
+      "prior_public": 114
+    },
+    "scored_0441": {
+      "before": 193,
+      "after": 191,
+      "prior_public": 177
+    },
+    "scored_0488": {
+      "before": 159,
+      "after": 158,
+      "prior_public": 142
+    },
+    "scored_0493": {
+      "before": 254,
+      "after": 251,
+      "prior_public": 228
+    },
+    "scored_0584": {
+      "before": 48,
+      "after": 46,
+      "prior_public": 42
+    }
+  }
+}
