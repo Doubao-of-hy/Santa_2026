@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from audit_cache import ensure_audit
 from elf import read_puzzles, read_submission, score
 from prefix_bounds import available, lower
 from tiny import encode
@@ -148,6 +149,8 @@ def main():
     ap.add_argument("--shards", type=int, default=0, help="0 = one per root helper option")
     ap.add_argument("--node-limit", type=int, default=2_000_000_000)
     ap.add_argument("--jobs", type=int, default=16)
+    ap.add_argument("--refresh-audit", action="store_true",
+                    help="rerun the pair-coverage audit even when audit.d has an OK")
     ap.add_argument("--puzzles", type=Path, default=ROOT / "data/puzzles.csv")
     ap.add_argument("--submission", type=Path, default=ROOT / "improve/submission.csv")
     args = ap.parse_args()
@@ -163,15 +166,7 @@ def main():
     p = next(q for q in puzzles if q.id == args.puzzle_id)
     missing = len(set(p.targets) - set(p.seeds))
 
-    audit = subprocess.run(
-        [str(args.binary), "--audit-pairs"],
-        input=native_input(p, 0, 0),
-        text=True,
-        capture_output=True,
-        check=True,
-    )
-    if audit.stdout.strip() != "OK":
-        raise ValueError("Pair coverage audit failed")
+    ensure_audit(args.binary, p, refresh=args.refresh_audit)
 
     shards = args.shards or max(1, len(available(p.seeds, set(p.targets), p.limit)))
     start = time.time()

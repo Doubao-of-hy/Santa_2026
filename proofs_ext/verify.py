@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from audit_cache import ensure_audit
 from elf import read_puzzles, read_submission, score
 from prefix_bounds import lower
 from tiny import encode
@@ -107,15 +108,7 @@ def main():
     with ThreadPoolExecutor(args.jobs) as pool:
         for row in decisions:
             p = by_id[row["id"]]
-            audit = subprocess.run(
-                [str(binary), "--audit-pairs"],
-                input=native_input(p, 0, 0),
-                text=True,
-                capture_output=True,
-                check=True,
-            )
-            if audit.stdout.strip() != "OK":
-                raise ValueError("Pair coverage audit failed")
+            ensure_audit(binary, p)
             shards = len(row["shard_nodes"])
             jobs = [
                 pool.submit(query, binary, p, row["helpers"], row["max_nodes_per_shard"], i, shards)
