@@ -1,0 +1,3 @@
+id,incumbent,improved,saved,config,program_sha256
+scored_0310,111,109,2,"anneal, 35 rounds, seed offset 737049 + puzzle index (same rows at 200 rounds)",9996632aa43e620e419d432fb5d6ff117dec0876a96874a95e51cc179697571c
+scored_0512,124,123,1,"anneal, 35 rounds, seed offset 737049 + puzzle index (same rows at 200 rounds)",51e01e6abd22295d3504eb4afdf9e2b308b5222c9b8b39548653faefe2618f4d
