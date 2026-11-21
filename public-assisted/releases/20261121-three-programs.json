@@ -1,0 +1,131 @@
+{
+  "parent": "e1f7ea40e9a01f62c2dfb843d05907401ea06703",
+  "asterios": {
+    "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/152",
+    "archive_sha256": "dc8bd41484d4321a156ae7a3d3a22a5f2fe65ac364d6543d6ec9326738b2680a"
+  },
+  "asterios_csv": "144f5dc6019edc866897d34af840c907fe20d4cfc6ca9cd1e6d8d7a85d2ac52f",
+  "asterios_total": 133813,
+  "solver": {
+    "credit": "Wang Jakie and E-Max AI",
+    "release": "https://www.kaggle.com/datasets/royalacecat/santa-2026-replay-133825-lean/versions/1",
+    "source_sha256": {
+      "anneal_diverse16": "2c5523bc9762304051b39b0c15471ee4d87d15be45d0057dcfaa6b1f454aa71b",
+      "incremental_diverse16": "a34e0d0ee6ea90efb6d2ca360bd70cb0f336a92022b2d5c64166b9528b0a3369"
+    },
+    "rounds": 1200,
+    "seed_design": {
+      "scored_0185": {
+        "before": 141,
+        "parents": [
+          {
+            "origin": "e1f7ea40e9a01f62c2dfb843d05907401ea06703 public",
+            "credit": "Roman Rozen, Santa 2026 | IceFire Strong Start",
+            "hash": "9fb05c2db9a012b8aa565f59969187057755cd0f11af8c8b86465ddee9ff4d4b",
+            "length": 141
+          },
+          {
+            "origin": "e1f7ea40e9a01f62c2dfb843d05907401ea06703 independent",
+            "credit": "work/virtual/withheld-134079/block-08-own.csv",
+            "hash": "866a82aa9ed421980f0ff64784000ceb32eee980ae9dd28329672bc9f93acc65",
+            "length": 146
+          },
+          {
+            "origin": "Asterios 151",
+            "credit": "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP",
+            "hash": "b243caaeba9a5552b860a43ede7274e13706713eee27673a1916fdbcc1f27050",
+            "length": 141
+          }
+        ]
+      },
+      "scored_0358": {
+        "before": 119,
+        "parents": [
+          {
+            "origin": "e1f7ea40e9a01f62c2dfb843d05907401ea06703 public",
+            "credit": "Generated from official inputs",
+            "hash": "9e34cc78436e29e738d967318817d27c4932663c7c7f5ec7ed27e6f10d79046b",
+            "length": 119
+          },
+          {
+            "origin": "Asterios 151",
+            "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [138033]",
+            "hash": "9ea2cb084467e5d7d8f9b2e65cf4180d551b61ebfac9347914f387ab49b40287",
+            "length": 119
+          }
+        ]
+      },
+      "scored_0988": {
+        "before": 116,
+        "parents": [
+          {
+            "origin": "e1f7ea40e9a01f62c2dfb843d05907401ea06703 public",
+            "credit": "Generated from official inputs",
+            "hash": "3b796aeedc3a9be420854688f164bd7db3ab57923861dbc320bd41c19b092dca",
+            "length": 116
+          },
+          {
+            "origin": "Asterios 151",
+            "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 134,582",
+            "hash": "aef92ae76e6a22db4d67af63a6b595c1815ed4814393a4836178d85230f25e8a",
+            "length": 116
+          },
+          {
+            "origin": "2488949 public",
+            "credit": "Generated from official inputs",
+            "hash": "c17244c20cf4e85a68342f87c49366036c0e877727efe5b8766ab79557c7c26b",
+            "length": 117
+          }
+        ]
+      }
+    },
+    "trials": 48
+  },
+  "rows": {
+    "scored_0185": {
+      "before": 141,
+      "after": 140,
+      "source": "asterios",
+      "credit": "Asterios Panoras v152; Pratham Jain, Santa 2026 | Exact Portfolio Frontier [133813]"
+    },
+    "scored_0358": {
+      "before": 119,
+      "after": 118,
+      "source": "asterios",
+      "credit": "Asterios Panoras v152; Pratham Jain, Santa 2026 | Exact Portfolio Frontier [133813]"
+    },
+    "scored_0988": {
+      "before": 116,
+      "after": 115,
+      "source": "local",
+      "trial": {
+        "id": "scored_0988",
+        "mode": "incremental_diverse16",
+        "seed": 32488329,
+        "sources": [
+          "e1f7ea40e9a01f62c2dfb843d05907401ea06703 public",
+          "Asterios 151",
+          "2488949 public"
+        ],
+        "score": 115,
+        "hash": "02a704e55bab3cef388c3ebcb82090df4d24d3e6a8a7f70e1a37f86b6133a023"
+      },
+      "credit": "Local rerun of Wang Jakie / E-Max AI with e1f7ea40e9a01f62c2dfb843d05907401ea06703 public (Generated from official inputs), Asterios 151 (E-Max AI, Santa 2026 | Public Frontier | Score 134,582), 2488949 public (Generated from official inputs); score hints from Pratham Jain."
+    }
+  },
+  "score": 133810,
+  "local_reruns": {
+    "scored_0185": {
+      "score": 140,
+      "hash": "507747dc978035905c6a0fbfd0752df8f910171a3e401c1e4d7de8d99cc95831"
+    },
+    "scored_0358": {
+      "score": 118,
+      "hash": "c24a06ffcbdcafeff69a68a5622943fa7aa873b6101ef740162931434085d325"
+    },
+    "scored_0988": {
+      "score": 115,
+      "hash": "02a704e55bab3cef388c3ebcb82090df4d24d3e6a8a7f70e1a37f86b6133a023"
+    }
+  }
+}

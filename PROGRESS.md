@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 10:03
+
+公开辅助候选降到 **133,810 条**，独立候选降到 **140,384 条**，均已回放全部 1,000 题。公开辅助候选的第 185、358、988 题各省 1 条。另已合并第 2 个 PR，复现旧父本的两道改进并保留主分支更短的程序。[三道改进和原作者](public-assisted/releases/20261121-three-programs.json) · [独立搜索进度](collaboration/borrowed-starts/results/summary.json) · [PR 实验](collaboration/anneal-current-parent/)
+
 ## 北京时间 11 月 21 日 09:50
 
 接入 Asterios 公开的第 295 题 122 条程序后，公开辅助候选为 **133,813 条**。Hiyohane 的九道独立程序省 19 条，暂借中间值的留出和第一批扩展试验合计省 17 条，合并的独立候选为 **140,411 条**。全部 1,000 题已重放。[第 295 题的来源](public-assisted/releases/asterios-gift-0295.json) · [九道协作改进](collaboration/evidence/d6e507e-candidate.json) · [独立实验](collaboration/borrowed-starts/README.md)
