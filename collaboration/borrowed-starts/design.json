@@ -1,0 +1,20 @@
+{
+  "base": "8bde969fd6ae4ddc3bf1cbd2065f6cc15c9dce6e",
+  "phases": {
+    "development": 12,
+    "holdout": 24,
+    "extension_block": 48
+  },
+  "rounds": [
+    240,
+    240
+  ],
+  "arms": [
+    "ordinary",
+    "incumbent",
+    "fresh"
+  ],
+  "eligibility": "6 to 45 targets, 45 to 275 parent steps. Rank by SHA256 of JSON ['borrow-1',lane,id]. Independent and public lanes are selected separately. Each phase uses disjoint rows.",
+  "method": "Provide up to four intermediate numbers as extra initial registers. Use incumbent high-reuse helpers, or new one-step results from cheap numbers ranked by reachable costly values. Then restore every used helper's full dependency chain, compile for the official initial registers, and repeat the normal search. Compare with two normal passes at the same per-puzzle seeds.",
+  "decision": "Test both development and holdout. Expand a lane if at least one holdout puzzle beats the ordinary control. Compare on successive disjoint blocks, keep all verified improvements."
+}

@@ -144,6 +144,7 @@ def main():
         +("GoodPJW dataset release 12 credits Wang Jakie, E-Max AI and its public input contributors. Puzzle 942 uses E-Max AI's diverse graph-pool search. [GoodPJW upstream notice](GoodPJW-v12-NOTICE.md), [public sources](GoodPJW-v12-public-sources.json), and [pinned releases and row improvements](../collaboration/frontier-134285/public-134079/audit.json).\n" if (dest/"GoodPJW-v12-NOTICE.md").exists() else "")
         +("The seven E-Max AI diverse-search programs were regenerated from the author's credited public banks. Six further programs exactly match the Bikram Basnet, Roman Rozen and Alex Chilton releases. [Pinned releases and individual credits](New-frontier-134065.json).\n" if (dest/"New-frontier-134065.json").exists() else "")
         +("Asterios Panoras release 150 and goodpjw2008 release 20 contribute shorter programs. Original authors are credited by puzzle in [origins.csv](origins.csv). [Five pinned releases and individual improvements](Releases-20261121.json), [GoodPJW upstream notice](GoodPJW-v20-NOTICE.md), and [public source list](GoodPJW-v20-public-sources.json).\n" if (dest/"Releases-20261121.json").exists() else "")
+        +("Later public-release updates and upstream acknowledgments are listed in [the release log](releases/README.md).\n" if (dest/"releases/README.md").is_file() else "")
         +portfolio_note,encoding="utf8")
     with (dest/"origins.csv").open("w",encoding="utf8",newline="") as f:
         out=csv.writer(f);out.writerow(("id","source","upstream_source","instructions"))

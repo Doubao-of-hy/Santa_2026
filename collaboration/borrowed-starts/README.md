@@ -1,0 +1,9 @@
+# 暂借中间值，再从正式初值重建
+
+同一道题分别从三种起点搜索。第一种直接改进原程序；第二种暂时把原程序中多处使用的数放进初始寄存器；第三种借用原程序未使用、但可能帮助生成多个旧值的数。搜索结束后，必须从官方初值重新构造用到的每个借值，并在真实寄存器上重放所有目标。三组使用相同种子和轮数，独立与公开辅助程序分别比较。[固定范围、预算与扩展条件](design.json)
+
+按 [构建脚本](../reactive-tabu/build.py) 编译 original 引擎后，在仓库根目录运行以下命令。将 `own` 换为 `public` 可复跑公开辅助组，将 `development` 换为 `holdout` 可复跑留出题。
+
+```shell
+python -B collaboration/borrowed-starts/compare.py --phase development --lane own --puzzles data/puzzles.csv --exe work/bin/original --out work/borrowed --jobs 4
+```

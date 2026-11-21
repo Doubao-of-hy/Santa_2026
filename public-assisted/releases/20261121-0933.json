@@ -1,0 +1,108 @@
+{
+  "base_commit": "8bde969fd6ae4ddc3bf1cbd2065f6cc15c9dce6e",
+  "old": 133825,
+  "new": 133814,
+  "sources": {
+    "asterios151/best_programs.csv": {
+      "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/151",
+      "version": 151,
+      "archive_sha256": "e82f3dca0522aae13f1e0b73311fba8443d4a6f8738b3287e09d7f5d09e1af6f",
+      "source_file": "best_programs.csv",
+      "file_sha256": "eee4e373f805aa270a6b437d04994b212a6ec125b723bfcff3f1d53e1a0fd9d2",
+      "license": "Apache 2.0",
+      "verified_score": 133825
+    },
+    "good21/our_programs.csv": {
+      "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/21",
+      "version": 21,
+      "archive_sha256": "45d126de5c9b9717fba92c840f242a3b30998668f190d333776d39ecb2bd3ee1",
+      "source_file": "our_programs.csv",
+      "file_sha256": "97ccdec97a85c100753a79667a77d2f70fb0aad202e41fbe94071ff7786dd640",
+      "license": "Apache 2.0",
+      "verified_score": 133816
+    },
+    "good21/public_frontier.csv": {
+      "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/21",
+      "version": 21,
+      "archive_sha256": "45d126de5c9b9717fba92c840f242a3b30998668f190d333776d39ecb2bd3ee1",
+      "source_file": "public_frontier.csv",
+      "file_sha256": "03189290ce4222c23cec60f7653a3c5b29dae062b79767756772c8e88118ad18",
+      "license": "Apache 2.0",
+      "verified_score": 133818
+    },
+    "rudy97/rudolph_programs.csv": {
+      "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/97",
+      "version": 97,
+      "archive_sha256": "305fc202e24d2f01a6d875b24424d4dc5f699a5e37ac28ce2b3da4eafbd84f03",
+      "source_file": "rudolph_programs.csv",
+      "file_sha256": "11d763c679636f9a25a8e8d4de251b0173b28dd2ee2429b1cb1d9b56fc02d18a",
+      "license": "CC0: Public Domain",
+      "verified_score": 133818
+    },
+    "exact30/submission_133990.csv": {
+      "url": "https://www.kaggle.com/datasets/kindasomethin/santa-2026-exact-portfolio-checkpoints/versions/30",
+      "version": 30,
+      "archive_sha256": "6b7213f3b93b0ae944de5989d2b2ab8cf92e30e0929828cb0a29554c7b21f4cb",
+      "source_file": "submission_133990.csv",
+      "file_sha256": "e3689781635919ce48f419c229d1bfe767203d156f46e88e8b6dfeb480095581",
+      "license": "Other (specified in description)",
+      "verified_score": 133990
+    }
+  },
+  "rows": {
+    "scored_0156": {
+      "old": 115,
+      "new": 114,
+      "source": "asterios151/best_programs.csv",
+      "credit": "Asterios Panoras, dataset v151 credit: E-Max AI, Santa 2026 | Public Frontier | Score 133,825"
+    },
+    "scored_0171": {
+      "old": 127,
+      "new": 126,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    },
+    "scored_0172": {
+      "old": 160,
+      "new": 159,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    },
+    "scored_0264": {
+      "old": 214,
+      "new": 213,
+      "source": "asterios151/best_programs.csv",
+      "credit": "Asterios Panoras, dataset v151 credit: E-Max AI, Santa 2026 | Public Frontier | Score 133,825"
+    },
+    "scored_0364": {
+      "old": 118,
+      "new": 117,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    },
+    "scored_0383": {
+      "old": 130,
+      "new": 128,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    },
+    "scored_0435": {
+      "old": 118,
+      "new": 116,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    },
+    "scored_0731": {
+      "old": 122,
+      "new": 121,
+      "source": "asterios151/best_programs.csv",
+      "credit": "Asterios Panoras, dataset v151 credit: E-Max AI, Santa 2026 | Public Frontier | Score 133,825"
+    },
+    "scored_0760": {
+      "old": 113,
+      "new": 112,
+      "source": "good21/our_programs.csv",
+      "credit": "goodpjw2008, release 21, including Wang Jakie, E-Max AI and the public sources in the release ladder."
+    }
+  }
+}
