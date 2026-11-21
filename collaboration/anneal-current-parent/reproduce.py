@@ -51,15 +51,44 @@ def main() -> int:
                         choices=("anneal", "incremental", "anneal_diverse"))
     parser.add_argument("--seed-offset", type=int, default=737049)
     parser.add_argument("--jobs", type=int, default=2)
+    parser.add_argument("--select", choices=("full", "tight"), default="full",
+                        help="tight = 28+ targets and value_limit/max(target) < 1.5, "
+                             "in the order of the official file (the subset the 400-round "
+                             "run used)")
     parser.add_argument("--wins", type=Path,
                         default=Path(__file__).with_name("wins.csv"))
     args = parser.parse_args()
 
+    puzzles_path = args.puzzles
+    base_path = args.base
     with tempfile.TemporaryDirectory() as tmp:
+        if args.select == "tight":
+            rows, keep = [], set()
+            for puzzle in elf.read_puzzles(args.puzzles):
+                if len(puzzle.targets) >= 28 and puzzle.limit / max(puzzle.targets) < 1.5:
+                    keep.add(puzzle.id)
+            reader = csv.DictReader(args.puzzles.open(encoding="utf-8-sig"))
+            header = reader.fieldnames
+            puzzles_path = Path(tmp) / "tight_puzzles.csv"
+            with puzzles_path.open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.DictWriter(handle, fieldnames=header)
+                writer.writeheader()
+                for row in reader:
+                    if row["id"] in keep:
+                        writer.writerows([row])
+            loaded = elf.read_submission(args.base)
+            base_path = Path(tmp) / "tight_base.csv"
+            with base_path.open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.writer(handle, quoting=csv.QUOTE_ALL)
+                writer.writerow(["id", "program"])
+                for identifier in sorted(keep):
+                    program = json.dumps([list(row) for row in loaded[identifier]],
+                                         separators=(",", ":"))
+                    writer.writerow([identifier, program])
         out = Path(tmp) / "out.csv"
         subprocess.run(
             [sys.executable, "-B", str(ROOT / "generative/wang/replay_search.py"),
-             str(args.puzzles), str(args.base), str(out),
+             str(puzzles_path), str(base_path), str(out),
              "--binary-dir", str(args.binary_dir), "--rounds", str(args.rounds),
              "--mode", args.mode, "--seed-offset", str(args.seed_offset),
              "--jobs", str(args.jobs)],
