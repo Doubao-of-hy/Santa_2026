@@ -135,6 +135,68 @@
       ],
       "score": 140439
     },
+    "own-expand-06": {
+      "eligible": 840,
+      "tested": 48,
+      "improved": 8,
+      "savings": {
+        "ordinary": 4,
+        "incumbent": 4,
+        "fresh": 5
+      },
+      "saved": 10,
+      "beats_ordinary": [
+        "scored_0435",
+        "scored_0323",
+        "scored_0731",
+        "scored_0423",
+        "scored_0379"
+      ],
+      "score": 140437
+    },
+    "own-expand-07": {
+      "eligible": 840,
+      "tested": 48,
+      "improved": 6,
+      "savings": {
+        "ordinary": 1,
+        "incumbent": 4,
+        "fresh": 3
+      },
+      "saved": 6,
+      "beats_ordinary": [
+        "scored_0753",
+        "scored_0860",
+        "scored_0644",
+        "scored_0693",
+        "scored_0191"
+      ],
+      "score": 140441
+    },
+    "own-expand-08": {
+      "eligible": 840,
+      "tested": 48,
+      "improved": 10,
+      "savings": {
+        "ordinary": 1,
+        "incumbent": 11,
+        "fresh": 15
+      },
+      "saved": 20,
+      "beats_ordinary": [
+        "scored_0421",
+        "scored_0807",
+        "scored_0909",
+        "scored_0695",
+        "scored_0178",
+        "scored_0966",
+        "scored_0684",
+        "scored_0360",
+        "scored_0674",
+        "scored_0823"
+      ],
+      "score": 140427
+    },
     "own-holdout": {
       "eligible": 840,
       "tested": 24,
@@ -178,11 +240,11 @@
     }
   },
   "coverage": {
-    "own": 324,
+    "own": 468,
     "public": 36
   },
   "total_savings": {
-    "own": 66,
+    "own": 102,
     "public": 0
   }
 }

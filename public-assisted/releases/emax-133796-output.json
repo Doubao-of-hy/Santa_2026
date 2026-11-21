@@ -1,0 +1,272 @@
+{
+  "authored_by": [
+    "E-Max AI",
+    "Wang Jakie"
+  ],
+  "public_output": {
+    "ref": "royalacecat/santa-2026-public-frontier-score-133-796",
+    "session": 372018765,
+    "source": "https://www.kaggle.com/code/royalacecat/santa-2026-public-frontier-score-133-796?scriptVersionId=372018765",
+    "score": 133796,
+    "sha256": "5a8eae1a7389ed633c9e2d14ac5cef0e60b3cb90dccca7be314d166d512fd8e2",
+    "notebook_sha256": "14b44a2a66f9d86e1925571c9b7fda5c507a398863b26e1957c0815230df41ac",
+    "data_sources": [
+      {
+        "sourceType": "competition",
+        "sourceId": 177055
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22530687
+      },
+      {
+        "sourceType": "datasetVersion",
+        "sourceId": 22516613
+      }
+    ],
+    "files": [
+      "search_bin/anneal_diverse",
+      "search_bin/incremental_diverse",
+      "submission.csv"
+    ]
+  },
+  "bundle_url": "https://www.kaggle.com/datasets/royalacecat/santa-2026-replay-133796-lean/versions/1",
+  "bundle_sha256": "c2ec38e793aba7a8d56375b2d2108ad64411d789b006f11656f010a7d107c55c",
+  "bundle_manifest_sha256": "d8db8a73f4b6c229c6d015e8cfadc41385d534a279601cf3ee079f4c0fb145ef",
+  "source_sha256": {
+    "anneal_diverse": "b60c8feead2a2754888ca0b6f58f271c00e9f7a0fc2192534f7f0720a83e479d",
+    "anneal_diverse16": "2c5523bc9762304051b39b0c15471ee4d87d15be45d0057dcfaa6b1f454aa71b",
+    "incremental_diverse": "13876df874176ae9434ea4f9f0ad7a0e2b06bdc3d1874df8dc49bcda8716952f",
+    "incremental_diverse16": "a34e0d0ee6ea90efb6d2ca360bd70cb0f336a92022b2d5c64166b9528b0a3369"
+  },
+  "verified_rows": {
+    "scored_0316": {
+      "before": 111,
+      "after": 110,
+      "mode": "anneal_diverse",
+      "rounds": 2200,
+      "seed": 494061,
+      "inputs": [
+        {
+          "hash": "a1b9f25ba46302ae6851a8a209f8558da2cc189f385623fbf930b5fb7ef9f142",
+          "origin": [
+            "rudy98",
+            "Alex Chilton, release 98"
+          ]
+        },
+        {
+          "hash": "800709c58365f33ec7f2a9c2f0aee6df2f2fbd7da50b18ad132849552660cf23",
+          "origin": [
+            "source-sargis",
+            "Sargis Khachatryan, session 371941223; E-Max AI upstream"
+          ]
+        }
+      ],
+      "outputs_match": true,
+      "program_sha256": "996e3f121a0d1786e507210e09263e23521a123b85fe63c99f5b7282e6cba66b"
+    },
+    "scored_0364": {
+      "before": 117,
+      "after": 116,
+      "mode": "anneal_diverse",
+      "rounds": 3000,
+      "seed": 494115,
+      "inputs": [
+        {
+          "hash": "3281b454c13bb7e459c531607850ce738cd765186fef7d29d7336c7c33475548",
+          "origin": [
+            "rudy98",
+            "Alex Chilton, release 98"
+          ]
+        },
+        {
+          "hash": "60c52ba8b2580b6127e20ae219616ced2724d3dd63baf77c29f8371cfd29cd8b",
+          "origin": [
+            "E-Max AI public search archive 5",
+            "Roman_1115_public"
+          ]
+        },
+        {
+          "hash": "194ff413e06249c7edd11acc9d88618794b006e6c204ab4b2dc53362b914037a",
+          "origin": [
+            "source-prvsiyan",
+            "prvsiyan, session 371998292 and credited input authors"
+          ]
+        },
+        {
+          "hash": "3162ff953eb19d172a76cee9cc59713a5741b6b07470c9f442de2064411fa2da",
+          "origin": [
+            "E-Max AI public search archive 5",
+            "pratham"
+          ]
+        },
+        {
+          "hash": "907e7264542f87f2b7e842ccdd14d39e0beae3f11139a831e5ebddb24c8c4948",
+          "origin": [
+            "source-sargis",
+            "Sargis Khachatryan, session 371941223; E-Max AI upstream"
+          ]
+        }
+      ],
+      "outputs_match": true,
+      "program_sha256": "8e8477248ea0279f75fdbf760f85821e387ff704d9599b68c4fc07aa7f61a5f9"
+    },
+    "scored_0383": {
+      "before": 128,
+      "after": 126,
+      "mode": "anneal_diverse",
+      "rounds": 3000,
+      "seed": 494127,
+      "inputs": [
+        {
+          "hash": "eed8c8e6c380bacdc0dcca895b751eff509a4215c8b896dd35e5d709803bba14",
+          "origin": [
+            "rudy98",
+            "Alex Chilton, release 98"
+          ]
+        },
+        {
+          "hash": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+          "origin": [
+            "E-Max AI public search archive 2",
+            "Additional_public_1_1612"
+          ]
+        },
+        {
+          "hash": "a2164e6139c4dc0bdfaf4a6cb139dec0b180aadba7cc09dd5078afe288ba3c6e",
+          "origin": [
+            "E-Max AI public search archive 2",
+            "Our_v38_public"
+          ]
+        },
+        {
+          "hash": "90bdd9bbbf7abe21798a6c2de51098cae8dec0fce084ad6f04bf9d5ca0770052",
+          "origin": [
+            "source-sargis",
+            "Sargis Khachatryan, session 371941223; E-Max AI upstream"
+          ]
+        },
+        {
+          "hash": "f6c0cf7e40511387a6bdc994f05ddf7166a7e69dd0e80019962184c9cf767e1f",
+          "origin": [
+            "source-prvsiyan",
+            "prvsiyan, session 371998292 and credited input authors"
+          ]
+        }
+      ],
+      "outputs_match": true,
+      "program_sha256": "991a162f7b0db348047f542d69972a0140fcfbc02072def8dbabce865e5660f6"
+    },
+    "scored_0704": {
+      "before": 123,
+      "after": 122,
+      "mode": "incremental_diverse",
+      "rounds": 3000,
+      "seed": 494442,
+      "inputs": [
+        {
+          "hash": "8dcf9a5e4d76a0d443b5becd6998e64efadb92063774bccfe40f30055b086c59",
+          "origin": [
+            "good22",
+            "GoodPJW v22 and credited inputs"
+          ]
+        },
+        {
+          "hash": "f423cc41862a2fd75e7683ffba8e091dcd59d0457726e10a797142552a61ab08",
+          "origin": [
+            "E-Max AI public search archive 1",
+            "10_prvsiyan"
+          ]
+        },
+        {
+          "hash": "e4f18cb4c3d7ab6703a89feea80ef0051159ba623b6b27b4d2c8917e8f1a4f4d",
+          "origin": [
+            "E-Max AI public search archive 1",
+            "Prior_public_union"
+          ]
+        },
+        {
+          "hash": "811a92b8139c483a811cb1c5c745f2ccca5b8cbc80050b26f9b3a83b3fd02b7f",
+          "origin": [
+            "rudy98",
+            "Alex Chilton, release 98"
+          ]
+        }
+      ],
+      "outputs_match": true,
+      "program_sha256": "fd16097ea6142d6afa6dcb76d62102c54859c15c0fd31cd59015a9ffcd9a290e"
+    },
+    "scored_0961": {
+      "before": 105,
+      "after": 104,
+      "mode": "anneal_diverse",
+      "rounds": 3000,
+      "seed": 494712,
+      "inputs": [
+        {
+          "hash": "52183902c88ca1a5788c4562697f17d44563c7c5fe585c93c55dcb1127ef69af",
+          "origin": [
+            "good22",
+            "GoodPJW v22 and credited inputs"
+          ]
+        },
+        {
+          "hash": "86b060d5cc6753e6126efdc77e0edf6bbfa1dfc128c985ddaa139bb4bf417a05",
+          "origin": [
+            "E-Max AI public search archive 4",
+            "pratham"
+          ]
+        },
+        {
+          "hash": "8827c9ec6d0d3af818f57db2081794b58f6f62e3a5abd2cccf8c20c0721154d4",
+          "origin": [
+            "E-Max AI public search archive 4",
+            "GoodPJW_1713_public"
+          ]
+        },
+        {
+          "hash": "73090153512490917f085fb0b0e84f66c986f30aec6a81fac71485585aca1db1",
+          "origin": [
+            "E-Max AI public search archive 4",
+            "short"
+          ]
+        },
+        {
+          "hash": "14e852b0901bbc34a6e17ff890886f8f20fb394b66765464bc5e33244bebb6e5",
+          "origin": [
+            "E-Max AI public search archive 4",
+            "Prior_public_union"
+          ]
+        }
+      ],
+      "outputs_match": true,
+      "program_sha256": "72c7a0351cc53cafa63eb4bf3e7b6f1c2ad4fe5a433adb06ce3d98227542ec3a"
+    }
+  },
+  "additional_verified_notebooks": {
+    "source-sargis": "https://www.kaggle.com/code/avazaku/elf-calc-signed-regions-and-register-scheduling?scriptVersionId=371941223",
+    "source-prvsiyan": "https://www.kaggle.com/code/prvsiyan/santa-is-not-happy?scriptVersionId=371998292"
+  },
+  "official_output_score": 133796,
+  "local_score": 133790,
+  "local_advantages": {
+    "scored_0178": [
+      111,
+      110
+    ],
+    "scored_0371": [
+      113,
+      112
+    ],
+    "scored_0909": [
+      117,
+      114
+    ],
+    "scored_0987": [
+      110,
+      109
+    ]
+  },
+  "shorter_official_rows": {},
+  "local_sha256": "308621bfd4e60dcf553b8b3c7a6b4dde3a1f4312da9a57eddd95bdf0398943c6"
+}
