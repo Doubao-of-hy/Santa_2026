@@ -1,0 +1,1122 @@
+{
+  "base": "62e194b3541cad7e28cd58e4fa3551e9455dd806",
+  "before": 134063,
+  "combined": 133828,
+  "sources": {
+    "Asterios v150": {
+      "source": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/150",
+      "archive_sha256": "a00c361a8168279679d15a1494b113fe08f357e0554deb89b8544f04d0583693",
+      "files": {
+        "best_programs.csv": "362cec0bb6acd73a1183b2eb2cf1c8c0f3d32ae5d0e2c8a878ab4c92844541e4",
+        "history.csv": "5adee40822c05e861972e93bbb5ca4ce854bd552e968a2e7736a8631f91b8755"
+      },
+      "metadata": {
+        "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+        "currentVersionNumber": 150,
+        "lastUpdated": "2026-11-21T01:03:47.527Z",
+        "title": "Santa 2026 Elf Calculator: Programs + Experiments",
+        "licenseName": "Apache 2.0",
+        "totalBytes": 817607
+      },
+      "score": 133832
+    },
+    "GoodPJW v20": {
+      "source": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/20",
+      "archive_sha256": "746321acbc95592ec63ac6399c7b71e3941d48b942be6f4ac57fe83de6a099b7",
+      "files": {
+        "history.csv": "db3d6f33861eafed702e63e38bc4a430542892c881621315ef0e924540a98dc1",
+        "ladder.json": "7f801c5c0877a951ace3e513911c38fbab950f780266fac6fbcc437f47f77654",
+        "our_programs.csv": "4fd46c7b91d82f95f17488db7e6a1d35ad3bdb30c5c9fe9f82f3b880f531e4b4",
+        "public_frontier.csv": "44361545c4c45290eec346a8abcc5ab5ad41027847fdaebcc9ec4a28c0a490a5",
+        "wangjakie_strategies/NOTICE.md": "84956ff605a07d25f4b9f663d143cd30d7acd4d95aa5f6e6c0405b6c7c535e4d"
+      },
+      "metadata": {
+        "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+        "currentVersionNumber": 20,
+        "lastUpdated": "2026-11-21T01:03:25.203Z",
+        "title": "Santa 2026 DAG-LNS programs",
+        "licenseName": "Apache 2.0",
+        "totalBytes": 1089585
+      },
+      "score": 133829
+    },
+    "Rudolph v96": {
+      "source": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/96",
+      "archive_sha256": "0f139a99fa63a5f0a7aa98f8b42d5e83b282661d7cbd6b569340de836f041e14",
+      "files": {
+        "rudolph_programs.csv": "0464d88255234ad23cf79ca9687ae65770a7f8228f1e204619a8cd58c72e197c"
+      },
+      "metadata": {
+        "ref": "alexchilton/santa-2026-rudolph-programs",
+        "currentVersionNumber": 96,
+        "lastUpdated": "2026-11-21T01:00:54.467Z",
+        "title": "Santa 2026 Rudolph programs",
+        "licenseName": "CC0: Public Domain",
+        "totalBytes": 508324
+      },
+      "score": 133829
+    },
+    "Ozer v350": {
+      "source": "https://www.kaggle.com/datasets/ozertuu/santa-2026-verified-programs/versions/350",
+      "archive_sha256": "0d4d7b1fb701f5fd8c3a9e9a58490d6fd136a496a72b8a96f3817f50f97ebd8e",
+      "files": {
+        "best_programs.csv": "88a6738837cc1d277098a61bb23087cfa5b96d5a24c1201d0176d444c8107088"
+      },
+      "metadata": {
+        "ref": "ozertuu/santa-2026-verified-programs",
+        "currentVersionNumber": 350,
+        "lastUpdated": "2026-11-21T00:44:52.193Z",
+        "title": "Santa 2026 Verified Programs",
+        "licenseName": "Unknown",
+        "totalBytes": 509096
+      },
+      "score": 133836
+    },
+    "Hanif v25": {
+      "source": "https://www.kaggle.com/datasets/hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs/versions/25",
+      "archive_sha256": "93a8570d64c32636c8319cff64c4e9b5ecdda1f002d2cbf2ec9c00198f3532b7",
+      "files": {
+        "LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "NOTICE.md": "5f5cd2dcc29d0d82e228042f8e57df55a30e4630cbf05e8a66e1a366483a4b88",
+        "submission.csv": "57a8a0848bd89f52f814b8edf409018e4e459db83157cacb4ec6a5f2324719af"
+      },
+      "metadata": {
+        "ref": "hanifnoerrofiq/santa-2026-elf-calculator-peephole-programs",
+        "currentVersionNumber": 25,
+        "lastUpdated": "2026-11-20T22:39:08.073Z",
+        "title": "Santa 2026 Elf Calculator Peephole Programs",
+        "licenseName": "Apache 2.0",
+        "totalBytes": 520174
+      },
+      "score": 133884
+    }
+  },
+  "gains": {
+    "scored_0014": {
+      "before": 25,
+      "after": 24,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,841"
+    },
+    "scored_0016": {
+      "before": 125,
+      "after": 124,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0028": {
+      "before": 119,
+      "after": 118,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,846"
+    },
+    "scored_0029": {
+      "before": 38,
+      "after": 35,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0030": {
+      "before": 191,
+      "after": 188,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0035": {
+      "before": 107,
+      "after": 106,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0038": {
+      "before": 145,
+      "after": 144,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0041": {
+      "before": 117,
+      "after": 115,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,970"
+    },
+    "scored_0056": {
+      "before": 25,
+      "after": 24,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0073": {
+      "before": 124,
+      "after": 123,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0077": {
+      "before": 106,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,926"
+    },
+    "scored_0082": {
+      "before": 95,
+      "after": 92,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,908"
+    },
+    "scored_0085": {
+      "before": 90,
+      "after": 89,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,846"
+    },
+    "scored_0089": {
+      "before": 120,
+      "after": 119,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0102": {
+      "before": 116,
+      "after": 115,
+      "release": "Asterios v150",
+      "credit": "Mizero Lucky Gall, Elf Calculator | Best-of-Public Merge + Polish"
+    },
+    "scored_0111": {
+      "before": 209,
+      "after": 208,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0131": {
+      "before": 95,
+      "after": 93,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0136": {
+      "before": 97,
+      "after": 96,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0142": {
+      "before": 121,
+      "after": 120,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0143": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0151": {
+      "before": 27,
+      "after": 26,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0156": {
+      "before": 117,
+      "after": 115,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,857"
+    },
+    "scored_0162": {
+      "before": 137,
+      "after": 135,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,908"
+    },
+    "scored_0169": {
+      "before": 101,
+      "after": 99,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,920"
+    },
+    "scored_0172": {
+      "before": 164,
+      "after": 160,
+      "release": "Asterios v150",
+      "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+    },
+    "scored_0181": {
+      "before": 30,
+      "after": 29,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,889"
+    },
+    "scored_0187": {
+      "before": 93,
+      "after": 92,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0191": {
+      "before": 104,
+      "after": 103,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,936"
+    },
+    "scored_0192": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0195": {
+      "before": 125,
+      "after": 124,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0197": {
+      "before": 113,
+      "after": 112,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,889"
+    },
+    "scored_0200": {
+      "before": 99,
+      "after": 98,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,903"
+    },
+    "scored_0210": {
+      "before": 89,
+      "after": 88,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,986"
+    },
+    "scored_0221": {
+      "before": 36,
+      "after": 35,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,939"
+    },
+    "scored_0223": {
+      "before": 201,
+      "after": 200,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0227": {
+      "before": 113,
+      "after": 112,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,928"
+    },
+    "scored_0228": {
+      "before": 102,
+      "after": 101,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,889"
+    },
+    "scored_0235": {
+      "before": 200,
+      "after": 199,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0238": {
+      "before": 144,
+      "after": 143,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0240": {
+      "before": 111,
+      "after": 110,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0260": {
+      "before": 87,
+      "after": 86,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0263": {
+      "before": 222,
+      "after": 221,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0269": {
+      "before": 271,
+      "after": 270,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0270": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0271": {
+      "before": 38,
+      "after": 37,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0273": {
+      "before": 180,
+      "after": 179,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0274": {
+      "before": 137,
+      "after": 134,
+      "release": "GoodPJW v20",
+      "credit": "GoodPJW v20"
+    },
+    "scored_0277": {
+      "before": 111,
+      "after": 108,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0280": {
+      "before": 111,
+      "after": 110,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0282": {
+      "before": 44,
+      "after": 43,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0284": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0286": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0298": {
+      "before": 97,
+      "after": 95,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0302": {
+      "before": 118,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,967"
+    },
+    "scored_0309": {
+      "before": 112,
+      "after": 111,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0310": {
+      "before": 111,
+      "after": 107,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0325": {
+      "before": 102,
+      "after": 101,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0337": {
+      "before": 118,
+      "after": 117,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0339": {
+      "before": 92,
+      "after": 91,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0341": {
+      "before": 132,
+      "after": 130,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0361": {
+      "before": 129,
+      "after": 127,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,986"
+    },
+    "scored_0366": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,898"
+    },
+    "scored_0378": {
+      "before": 86,
+      "after": 85,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0386": {
+      "before": 189,
+      "after": 187,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0394": {
+      "before": 116,
+      "after": 115,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,903"
+    },
+    "scored_0402": {
+      "before": 92,
+      "after": 90,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0411": {
+      "before": 175,
+      "after": 174,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0416": {
+      "before": 127,
+      "after": 124,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,908"
+    },
+    "scored_0421": {
+      "before": 112,
+      "after": 111,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,995"
+    },
+    "scored_0427": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0431": {
+      "before": 83,
+      "after": 82,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,857"
+    },
+    "scored_0434": {
+      "before": 107,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,898"
+    },
+    "scored_0436": {
+      "before": 107,
+      "after": 106,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,908"
+    },
+    "scored_0437": {
+      "before": 126,
+      "after": 123,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0439": {
+      "before": 118,
+      "after": 117,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0451": {
+      "before": 114,
+      "after": 113,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0465": {
+      "before": 111,
+      "after": 110,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0467": {
+      "before": 95,
+      "after": 94,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0469": {
+      "before": 85,
+      "after": 84,
+      "release": "Asterios v150",
+      "credit": "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+    },
+    "scored_0474": {
+      "before": 85,
+      "after": 84,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,928"
+    },
+    "scored_0477": {
+      "before": 130,
+      "after": 128,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0483": {
+      "before": 166,
+      "after": 165,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0487": {
+      "before": 26,
+      "after": 25,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0498": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "Mizero Lucky Gall, Elf Calculator | Best-of-Public Merge + Polish"
+    },
+    "scored_0503": {
+      "before": 82,
+      "after": 81,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0506": {
+      "before": 114,
+      "after": 113,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,970"
+    },
+    "scored_0510": {
+      "before": 88,
+      "after": 87,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,967"
+    },
+    "scored_0512": {
+      "before": 124,
+      "after": 122,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0523": {
+      "before": 106,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,836"
+    },
+    "scored_0532": {
+      "before": 77,
+      "after": 76,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,898"
+    },
+    "scored_0534": {
+      "before": 108,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,889"
+    },
+    "scored_0541": {
+      "before": 54,
+      "after": 53,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0547": {
+      "before": 110,
+      "after": 109,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0550": {
+      "before": 89,
+      "after": 88,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0555": {
+      "before": 108,
+      "after": 106,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,958"
+    },
+    "scored_0556": {
+      "before": 27,
+      "after": 25,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,841"
+    },
+    "scored_0562": {
+      "before": 86,
+      "after": 85,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0568": {
+      "before": 105,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0574": {
+      "before": 103,
+      "after": 102,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,978"
+    },
+    "scored_0575": {
+      "before": 104,
+      "after": 103,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,970"
+    },
+    "scored_0578": {
+      "before": 99,
+      "after": 97,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,846"
+    },
+    "scored_0584": {
+      "before": 45,
+      "after": 42,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0595": {
+      "before": 95,
+      "after": 94,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,978"
+    },
+    "scored_0598": {
+      "before": 82,
+      "after": 81,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,846"
+    },
+    "scored_0599": {
+      "before": 121,
+      "after": 119,
+      "release": "Asterios v150",
+      "credit": "Mizero Lucky Gall, Elf Calculator | Best-of-Public Merge + Polish"
+    },
+    "scored_0603": {
+      "before": 120,
+      "after": 117,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,970"
+    },
+    "scored_0604": {
+      "before": 106,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0618": {
+      "before": 108,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0620": {
+      "before": 32,
+      "after": 31,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0631": {
+      "before": 108,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,936"
+    },
+    "scored_0635": {
+      "before": 35,
+      "after": 34,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0639": {
+      "before": 103,
+      "after": 101,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,908"
+    },
+    "scored_0646": {
+      "before": 123,
+      "after": 122,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,978"
+    },
+    "scored_0647": {
+      "before": 208,
+      "after": 207,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0648": {
+      "before": 96,
+      "after": 95,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0649": {
+      "before": 118,
+      "after": 117,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0653": {
+      "before": 132,
+      "after": 131,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0659": {
+      "before": 84,
+      "after": 82,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,903"
+    },
+    "scored_0667": {
+      "before": 120,
+      "after": 119,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0695": {
+      "before": 103,
+      "after": 101,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,978"
+    },
+    "scored_0696": {
+      "before": 78,
+      "after": 77,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0697": {
+      "before": 99,
+      "after": 96,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0699": {
+      "before": 118,
+      "after": 117,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0715": {
+      "before": 120,
+      "after": 118,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,995"
+    },
+    "scored_0716": {
+      "before": 116,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,832"
+    },
+    "scored_0718": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,986"
+    },
+    "scored_0730": {
+      "before": 106,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0731": {
+      "before": 123,
+      "after": 122,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0741": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0743": {
+      "before": 103,
+      "after": 102,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    },
+    "scored_0752": {
+      "before": 95,
+      "after": 94,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,924"
+    },
+    "scored_0756": {
+      "before": 153,
+      "after": 152,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0757": {
+      "before": 132,
+      "after": 131,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,924"
+    },
+    "scored_0769": {
+      "before": 97,
+      "after": 96,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0772": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,939"
+    },
+    "scored_0787": {
+      "before": 102,
+      "after": 101,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0791": {
+      "before": 135,
+      "after": 134,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0795": {
+      "before": 183,
+      "after": 182,
+      "release": "Asterios v150",
+      "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [134051]"
+    },
+    "scored_0803": {
+      "before": 131,
+      "after": 129,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,832"
+    },
+    "scored_0804": {
+      "before": 115,
+      "after": 113,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0806": {
+      "before": 92,
+      "after": 91,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0807": {
+      "before": 117,
+      "after": 116,
+      "release": "Asterios v150",
+      "credit": "alex chilton, Rudolph the Red-Nosed Register Allocator"
+    },
+    "scored_0809": {
+      "before": 116,
+      "after": 115,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,898"
+    },
+    "scored_0816": {
+      "before": 104,
+      "after": 103,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,933"
+    },
+    "scored_0820": {
+      "before": 213,
+      "after": 212,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0823": {
+      "before": 126,
+      "after": 124,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,898"
+    },
+    "scored_0832": {
+      "before": 178,
+      "after": 177,
+      "release": "Asterios v150",
+      "credit": "prvsiyan, Santa is not happy"
+    },
+    "scored_0841": {
+      "before": 115,
+      "after": 114,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,928"
+    },
+    "scored_0849": {
+      "before": 191,
+      "after": 190,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0850": {
+      "before": 175,
+      "after": 174,
+      "release": "GoodPJW v20",
+      "credit": "GoodPJW v20"
+    },
+    "scored_0854": {
+      "before": 160,
+      "after": 159,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0862": {
+      "before": 107,
+      "after": 106,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,967"
+    },
+    "scored_0863": {
+      "before": 31,
+      "after": 30,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0866": {
+      "before": 27,
+      "after": 26,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0871": {
+      "before": 111,
+      "after": 110,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0879": {
+      "before": 105,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,936"
+    },
+    "scored_0884": {
+      "before": 106,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,914"
+    },
+    "scored_0890": {
+      "before": 91,
+      "after": 90,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,995"
+    },
+    "scored_0908": {
+      "before": 30,
+      "after": 29,
+      "release": "Asterios v150",
+      "credit": "public merge"
+    },
+    "scored_0919": {
+      "before": 120,
+      "after": 119,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+    },
+    "scored_0923": {
+      "before": 137,
+      "after": 136,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,978"
+    },
+    "scored_0940": {
+      "before": 128,
+      "after": 127,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0944": {
+      "before": 211,
+      "after": 210,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0955": {
+      "before": 81,
+      "after": 80,
+      "release": "Asterios v150",
+      "credit": "Ángel Jacinto Sánchez Ruiz, Public Merge"
+    },
+    "scored_0960": {
+      "before": 124,
+      "after": 123,
+      "release": "GoodPJW v20",
+      "credit": "GoodPJW v20"
+    },
+    "scored_0961": {
+      "before": 108,
+      "after": 105,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,986"
+    },
+    "scored_0972": {
+      "before": 122,
+      "after": 120,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,986"
+    },
+    "scored_0973": {
+      "before": 104,
+      "after": 103,
+      "release": "Asterios v150",
+      "credit": "Mizero Lucky Gall, Elf Calculator | Best-of-Public Merge + Polish"
+    },
+    "scored_0975": {
+      "before": 106,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,047"
+    },
+    "scored_0978": {
+      "before": 105,
+      "after": 104,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,933"
+    },
+    "scored_0994": {
+      "before": 120,
+      "after": 119,
+      "release": "Asterios v150",
+      "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,860"
+    }
+  }
+}

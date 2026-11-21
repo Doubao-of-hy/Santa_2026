@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-20T16:02:19.296166+00:00",
+  "checked_at": "2026-11-21T01:11:00.403395+00:00",
   "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
   "request": {
     "competitionId": 177055
   },
-  "teams": 1850,
+  "teams": 1974,
   "top": [
     {
       "rank": 1,
@@ -18,44 +18,44 @@
     },
     {
       "rank": 3,
-      "displayScore": "129851",
-      "teamId": 17384935
+      "displayScore": "129204",
+      "teamId": 17395013
     },
     {
       "rank": 4,
+      "displayScore": "129677",
+      "teamId": 17384935
+    },
+    {
+      "rank": 5,
       "displayScore": "129989",
       "teamId": 17390199
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "displayScore": "129996",
+      "teamId": 17386955
+    },
+    {
+      "rank": 7,
       "displayScore": "130050",
       "teamId": 17385840
     },
     {
-      "rank": 6,
-      "displayScore": "130297",
-      "teamId": 17395013
-    },
-    {
-      "rank": 7,
-      "displayScore": "130396",
-      "teamId": 17387205
-    },
-    {
       "rank": 8,
-      "displayScore": "130399",
-      "teamId": 17384585
+      "displayScore": "130167",
+      "teamId": 17405703
     },
     {
       "rank": 9,
-      "displayScore": "130672",
+      "displayScore": "130351",
       "teamId": 17385271
     },
     {
       "rank": 10,
-      "displayScore": "130818",
-      "teamId": 17384923
+      "displayScore": "130396",
+      "teamId": 17387205
     }
   ],
-  "full_response_file_sha256": "b985345c83596cdc172ad3344c0f9998089d545c9fbd0986d960c47a2957be61"
+  "full_response_file_sha256": "f30ecb657e11a16e3853523ccdf061b32fe5a2fbf043fc459951c9d36ed635ce"
 }
