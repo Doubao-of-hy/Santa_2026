@@ -9,10 +9,20 @@ from merge_arithmetic_bounds import FIELDS, projection, sha
 from merge_conditioned_bounds import committed, parse
 
 HERE = Path(__file__).resolve().parent
-BASE = '8b7e582859b0d73471ee8a8540706020ee7796c8'
-PARENT = 'evidence/combined-membership.json'
-EXTERNAL = 'evidence/8d4b4df-replayed.json'
-RESULT = 'evidence/combined-membership-8d4b4df.json'
+BATCHES = {
+    '8d4b4df': (
+        '8b7e582859b0d73471ee8a8540706020ee7796c8',
+        'evidence/combined-membership.json',
+        'evidence/8d4b4df-replayed.json',
+        'evidence/combined-membership-8d4b4df.json',
+    ),
+    '62e194b': (
+        '8a031bccb43aebab5cd5889c0c61b02f4224d539',
+        'evidence/combined-membership-8d4b4df.json',
+        'evidence/62e194b-replayed.json',
+        'evidence/combined-62e194b.json',
+    ),
+}
 
 
 def verified_bounds(replay, prior):
@@ -43,11 +53,12 @@ def verified_bounds(replay, prior):
     return previous, changed
 
 
-def build():
-    prior = json.loads((HERE/PARENT).read_bytes())
-    replay = json.loads((HERE/EXTERNAL).read_bytes())
+def build(batch='62e194b'):
+    base, parent, external, _ = BATCHES[batch]
+    prior = json.loads((HERE/parent).read_bytes())
+    replay = json.loads((HERE/external).read_bytes())
     assert replay['official_sha256'] == prior['official_sha256']
-    raw = committed(BASE, 'collaboration/puzzle-bounds.csv')
+    raw = committed(base, 'collaboration/puzzle-bounds.csv')
     rows = parse(raw)
     assert projection(rows) == prior['lower_projection_sha256']
     previous, changed = verified_bounds(replay, prior)
@@ -65,13 +76,13 @@ def build():
             row.update(certified_lower=str(bound), winning_lower_source='proofs_ext')
             strict[i] = bound - old
     deps = dict(prior['dependencies'])
-    for path in (PARENT, EXTERNAL):
+    for path in (parent, external):
         deps[path] = sha((HERE/path).read_bytes())
     total = sum(int(row['certified_lower']) for row in rows)
     assert total == prior['certified_lower'] + sum(strict.values())
     receipt = dict(upstream=replay['upstream'], official_sha256=prior['official_sha256'],
                    external_bounds_sha256=replay['external_bounds_sha256'], local_manifest_sha256=prior['local_manifest_sha256'],
-                   base_commit=BASE, base_table_sha256=sha(raw), previous_certified_lower=prior['certified_lower'],
+                   base_commit=base, base_table_sha256=sha(raw), previous_certified_lower=prior['certified_lower'],
                    parent_lower_projection_sha256=prior['lower_projection_sha256'],
                    certified_lower=total, external_claims=len(changed), gains=strict,
                    lower_projection_sha256=projection(rows), dependencies=deps)
@@ -80,9 +91,11 @@ def build():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--batch', choices=BATCHES, default='62e194b')
     parser.add_argument('--write', action='store_true')
     args = parser.parse_args()
-    proved, receipt = build()
+    proved, receipt = build(args.batch)
+    result = HERE/BATCHES[args.batch][3]
     table = HERE/'puzzle-bounds.csv'
     live = parse(table.read_bytes())
     assert [r['id'] for r in live] == [r['id'] for r in proved]
@@ -98,10 +111,12 @@ def main():
         writer.writeheader()
         writer.writerows(live)
         table.write_bytes(buf.getvalue().encode())
-        (HERE/RESULT).write_bytes((json.dumps(receipt, indent=2)+'\n').encode())
+        result.write_bytes((json.dumps(receipt, indent=2)+'\n').encode())
     else:
+        if args.batch == '8d4b4df' and projection(live) != receipt['lower_projection_sha256']:
+            live = parse(committed(BATCHES['62e194b'][0], 'collaboration/puzzle-bounds.csv'))
         assert projection(live) == receipt['lower_projection_sha256']
-        assert json.loads((HERE/RESULT).read_bytes()) == receipt
+        assert json.loads(result.read_bytes()) == receipt
     print(receipt['certified_lower'], receipt['external_claims'], receipt['gains'])
 
 

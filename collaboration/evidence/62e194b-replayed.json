@@ -1,0 +1,229 @@
+{
+ "upstream": "62e194b3541cad7e28cd58e4fa3551e9455dd806",
+ "official_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+ "external_bounds_sha256": "5ac2fbc645d9cd55a29b3dbcaa4bb89d2901d39e40bbc8de727dab32de0e494f",
+ "binary_sha256": "9cbe1be0c6c4d14fa9993e5926cfa91070e5978f9a7a262ec458b7ff825a6f17",
+ "rows": {
+  "scored_0272": 16
+ },
+ "shards": 24,
+ "nodes": 584217010,
+ "decisions": [
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 0,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 22101069,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 1,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 18433258,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 2,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 29728413,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 3,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 31229187,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 4,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 29882097,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 5,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 31453487,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 6,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 28419629,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 7,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 42391124,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 8,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 29581225,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 9,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 28690156,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 10,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 25282749,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 11,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 21149738,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 12,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 24964241,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 13,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 21823756,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 14,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 20626042,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 15,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 33650478,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 16,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 22168986,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 17,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 27095069,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 18,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 19098986,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 19,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 16358443,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 20,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 15011809,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 21,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 19708541,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 22,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 11810906,
+   "terminal_candidates": 0
+  },
+  {
+   "id": "scored_0272",
+   "budget": 8,
+   "shard": 23,
+   "shards": 24,
+   "status": "UNSAT",
+   "nodes": 13557621,
+   "terminal_candidates": 0
+  }
+ ]
+}
