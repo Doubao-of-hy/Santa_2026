@@ -7,3 +7,5 @@ Asterios Panoras 在 “a Gift per Run” 的公开笔记本中给出第 295 题
 第 185 和第 358 题采用 Asterios 第 152 版中署名 Pratham Jain 的程序。第 988 题用 Wang Jakie 与 E-Max AI 的方法从三个已知来源重新生成 115 条的程序。三题各省 1 条。[逐题来源及复现参数](20261121-three-programs.json)
 
 按 E-Max AI 公布的题号、种子和轮数，从已核实来源的程序重新搜索，2 道共省 2 条。[逐题参数、程序来源与校验结果](emax-133806-reruns.json)
+
+Asterios Panoras 第 153 版及其笔记本第 55 版、GoodPJW 第 22 版和在已知来源上重跑 E-Max AI 的搜索，共缩短 10 道题，候选达到 133,798 条。Alex Chilton 的 Rudolph 第 98 版也完成了全表核对。[各版本、题号、署名和搜索参数](20261121-1012.json)

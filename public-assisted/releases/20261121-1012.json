@@ -1,0 +1,502 @@
+{
+  "base": "7fa1fb5cf8f3677764f9e0862896c6bd571adc3c",
+  "verified_score": 133798,
+  "old": 133808,
+  "changes": {
+    "scored_0071": {
+      "before": 113,
+      "after": 112,
+      "credit": "asterios153/best_programs.csv E-Max AI, Santa 2026 | Public Frontier | Score 133,806"
+    },
+    "scored_0180": {
+      "before": 84,
+      "after": 83,
+      "credit": "good22/our_programs.csv GoodPJW, Wang Jakie, E-Max AI and public sources in the release ladder"
+    },
+    "scored_0240": {
+      "before": 110,
+      "after": 109,
+      "credit": "good22/our_programs.csv GoodPJW, Wang Jakie, E-Max AI and public sources in the release ladder"
+    },
+    "scored_0279": {
+      "before": 256,
+      "after": 255,
+      "credit": "Asterios Panoras, a Gift per Run, version 55; incoming program credited to Mudit Chaturvedi, Verified Portfolio 138875"
+    },
+    "scored_0383": {
+      "before": 128,
+      "after": 127,
+      "credit": "Local replay of Wang Jakie / E-Max AI 133796 v1. Parent programs: Asterios v152 goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,816; 7fa1fb5/submission.csv Generated from official inputs; Asterios v151 E-Max AI, Santa 2026 | Public Frontier | Score 134,311; 8bde969/submission.csv Generated from official inputs"
+    },
+    "scored_0574": {
+      "before": 102,
+      "after": 101,
+      "credit": "asterios153/best_programs.csv public merge"
+    },
+    "scored_0704": {
+      "before": 123,
+      "after": 122,
+      "credit": "Local replay of Wang Jakie / E-Max AI 133796 v1. Parent programs: Asterios v152 goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203; 2488949/public-assisted/submission.csv goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240; Rudolph v97 "
+    },
+    "scored_0919": {
+      "before": 119,
+      "after": 118,
+      "credit": "asterios153/best_programs.csv E-Max AI, Santa 2026 | Public Frontier | Score 133,806"
+    },
+    "scored_0933": {
+      "before": 114,
+      "after": 113,
+      "credit": "asterios153/best_programs.csv E-Max AI, Santa 2026 | Public Frontier | Score 133,806"
+    },
+    "scored_0988": {
+      "before": 115,
+      "after": 114,
+      "credit": "asterios153/best_programs.csv Pratham Jain, Santa 2026 | Exact Portfolio Frontier [133813]"
+    }
+  },
+  "public_releases": {
+    "base": 133808,
+    "prior_sha256": "797ff382e1fbb88564a019c5425a8f2337c169bf91e1216f92e67804a8b91cc8",
+    "score": 133801,
+    "rows": {
+      "scored_0071": {
+        "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,806",
+        "source": "asterios153/best_programs.csv",
+        "before": 113,
+        "after": 112,
+        "program_sha256": "51977f1147ced8543ec1e4daabc3d6570e77ccaf717c623381699a30209df700"
+      },
+      "scored_0574": {
+        "credit": "public merge",
+        "source": "asterios153/best_programs.csv",
+        "before": 102,
+        "after": 101,
+        "program_sha256": "c032072d904ebbf3c895c716adc6ffb97340f5c73609b99e3a39e363890e1c33"
+      },
+      "scored_0919": {
+        "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,806",
+        "source": "asterios153/best_programs.csv",
+        "before": 119,
+        "after": 118,
+        "program_sha256": "a6f6be8a803d73645a8dfd9a95a9fef9f629c4881918d991470b732e3f3f85bc"
+      },
+      "scored_0933": {
+        "credit": "E-Max AI, Santa 2026 | Public Frontier | Score 133,806",
+        "source": "asterios153/best_programs.csv",
+        "before": 114,
+        "after": 113,
+        "program_sha256": "d869cdcacee7a950ede9aeb1c5907fc3fed488a1a528f90ca489a3b87d6c5b03"
+      },
+      "scored_0988": {
+        "credit": "Pratham Jain, Santa 2026 | Exact Portfolio Frontier [133813]",
+        "source": "asterios153/best_programs.csv",
+        "before": 115,
+        "after": 114,
+        "program_sha256": "e70b75b8e31e8ba12dc5a93a6707f31e2d66db45c14f931592ad0ad618f386ff"
+      },
+      "scored_0180": {
+        "credit": "GoodPJW, Wang Jakie, E-Max AI and public sources in the release ladder",
+        "source": "good22/our_programs.csv",
+        "before": 84,
+        "after": 83,
+        "program_sha256": "7c15824c0b5a629fba532d1485920864d9b3e779a7308b380f5c3b55b76bded3"
+      },
+      "scored_0240": {
+        "credit": "GoodPJW, Wang Jakie, E-Max AI and public sources in the release ladder",
+        "source": "good22/our_programs.csv",
+        "before": 110,
+        "after": 109,
+        "program_sha256": "119592522584ed9f63faf71f80f662adf63af98d3763f36dcd5d52657a82d16c"
+      }
+    },
+    "sources": {
+      "asterios153/best_programs.csv": {
+        "catalog": {
+          "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+          "currentVersionNumber": 153,
+          "lastUpdated": "2026-11-21T02:02:31.387Z",
+          "title": "Santa 2026 Elf Calculator: Programs + Experiments",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 817527
+        },
+        "version": 153,
+        "archive_sha256": "ce105cb86712740b8b21e24cb44cc700952d00d403eef70992376b531b0bb012",
+        "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/153",
+        "name": "best_programs.csv",
+        "sha256": "64f8f571152ac78960f1ce7ee2fd596b9f038ce1f3f4fc6be31c7f8b3a1803fd",
+        "score": 133805
+      },
+      "good22/our_programs.csv": {
+        "catalog": {
+          "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+          "currentVersionNumber": 22,
+          "lastUpdated": "2026-11-21T01:58:42.913Z",
+          "title": "Santa 2026 DAG-LNS programs",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 1089510
+        },
+        "version": 22,
+        "storage_version_id": 22530430,
+        "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/22",
+        "name": "our_programs.csv",
+        "sha256": "9c2dd34fe120729d2098fbf0e3c74251b0e2a623a80b8b84650807803e16cacd",
+        "score": 133804
+      },
+      "good22/public_frontier.csv": {
+        "catalog": {
+          "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+          "currentVersionNumber": 22,
+          "lastUpdated": "2026-11-21T01:58:42.913Z",
+          "title": "Santa 2026 DAG-LNS programs",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 1089510
+        },
+        "version": 22,
+        "storage_version_id": 22530430,
+        "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/22",
+        "name": "public_frontier.csv",
+        "sha256": "8f3cf228f032745d0c53a5d4f1a111f58b26714cd0fa23b1c455f0cd3abf3395",
+        "score": 133806
+      },
+      "rudy98/rudolph_programs.csv": {
+        "catalog": {
+          "ref": "alexchilton/santa-2026-rudolph-programs",
+          "currentVersionNumber": 98,
+          "lastUpdated": "2026-11-21T02:00:51.327Z",
+          "title": "Santa 2026 Rudolph programs",
+          "licenseName": "CC0: Public Domain",
+          "totalBytes": 508359
+        },
+        "version": 98,
+        "archive_sha256": "c6ae68e07c7af793fc87ebdae5b006d057f2b152376f6a4b713819fb52e2b8bc",
+        "url": "https://www.kaggle.com/datasets/alexchilton/santa-2026-rudolph-programs/versions/98",
+        "name": "rudolph_programs.csv",
+        "sha256": "c92755788a4e050874d96e2f95ce86558a70a74691c525d347fb3f63773f082c",
+        "score": 133806
+      }
+    }
+  },
+  "goodpjw_ladder": [
+    [
+      "santa-2026-public-frontier-score-133-806",
+      133806
+    ],
+    [
+      "santa-2026-verified-best-of-merge",
+      133811
+    ],
+    [
+      "santa-2026-exact-portfolio-frontier-133813",
+      133813
+    ],
+    [
+      "rudolph-the-red-nosed-register-allocator",
+      133818
+    ],
+    [
+      "santa-is-not-happy",
+      133835
+    ],
+    [
+      "santa-2026-starter-notebook",
+      133836
+    ],
+    [
+      "public-merge",
+      133874
+    ],
+    [
+      "santa-2026-elf-calculator-verified-portfolio",
+      133884
+    ],
+    [
+      "elf-calculator-best-of-public-merge-polish",
+      133920
+    ],
+    [
+      "elf-calc-signed-regions-and-register-scheduling",
+      133924
+    ],
+    [
+      "arithmetic-dag-synthesis-and-register-allocation",
+      133978
+    ],
+    [
+      "santa-2026-deterministic-atlas-solver",
+      133997
+    ],
+    [
+      "santa-2026-built-from-scratch-synthesizer",
+      153517
+    ],
+    [
+      "santa-2026-explorer",
+      1276696
+    ]
+  ],
+  "asterios_notebook": {
+    "id": "scored_0279",
+    "before": 256,
+    "after": 255,
+    "credit": "Asterios Panoras, a Gift per Run, version 55; incoming program credited to Mudit Chaturvedi, Verified Portfolio 138875",
+    "version": 55,
+    "url": "https://www.kaggle.com/code/asteriospanoras/santa-2026-best-public-score-a-gift-per-run",
+    "source_sha256": "71336d163ff267bdd2f25aabe5f4891eca47f224622809376cd1b8b1cd061db5",
+    "program_sha256": "1c2b1d6485654588358e745d08cad5308d87399f440b22d64898847a27c40c81",
+    "parent_csv_sha256": "64f8f571152ac78960f1ce7ee2fd596b9f038ce1f3f4fc6be31c7f8b3a1803fd"
+  },
+  "emax_796": {
+    "url": "https://www.kaggle.com/datasets/royalacecat/santa-2026-replay-133796-lean/versions/1",
+    "archive": "c2ec38e793aba7a8d56375b2d2108ad64411d789b006f11656f010a7d107c55c",
+    "source_hashes": {
+      "anneal_diverse": "b60c8feead2a2754888ca0b6f58f271c00e9f7a0fc2192534f7f0720a83e479d",
+      "anneal_diverse16": "2c5523bc9762304051b39b0c15471ee4d87d15be45d0057dcfaa6b1f454aa71b",
+      "incremental_diverse": "13876df874176ae9434ea4f9f0ad7a0e2b06bdc3d1874df8dc49bcda8716952f",
+      "incremental_diverse16": "a34e0d0ee6ea90efb6d2ca360bd70cb0f336a92022b2d5c64166b9528b0a3369"
+    },
+    "trials": 22,
+    "rows": {
+      "scored_0383": {
+        "id": "scored_0383",
+        "before": 128,
+        "score": 127,
+        "mode": "anneal_diverse16",
+        "seed": 494127,
+        "rounds": 3000,
+        "recipe": "shortest",
+        "inputs": [
+          {
+            "hash": "eed8c8e6c380bacdc0dcca895b751eff509a4215c8b896dd35e5d709803bba14",
+            "origin": [
+              "Asterios v152",
+              "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,816"
+            ]
+          },
+          {
+            "hash": "fb1a207041b9d1286b5fb5bebc207e28019c7bf2509285aab0335193018f4c62",
+            "origin": [
+              "7fa1fb5/submission.csv",
+              "Generated from official inputs"
+            ]
+          },
+          {
+            "hash": "f6c0cf7e40511387a6bdc994f05ddf7166a7e69dd0e80019962184c9cf767e1f",
+            "origin": [
+              "Asterios v151",
+              "E-Max AI, Santa 2026 | Public Frontier | Score 134,311"
+            ]
+          },
+          {
+            "hash": "092326b4f0390aaf74ba311c163af4419070a7c6fbb51d4fbf170b08ae8e19e9",
+            "origin": [
+              "8bde969/submission.csv",
+              "Generated from official inputs"
+            ]
+          }
+        ],
+        "sha256": "c8082321b614feff38a91ae3ed49a723ef540ef34316fe19e1e09cb2fd1dbb0b"
+      },
+      "scored_0704": {
+        "id": "scored_0704",
+        "before": 123,
+        "score": 122,
+        "mode": "incremental_diverse",
+        "seed": 494442,
+        "rounds": 3000,
+        "recipe": "matched",
+        "inputs": [
+          {
+            "hash": "8dcf9a5e4d76a0d443b5becd6998e64efadb92063774bccfe40f30055b086c59",
+            "origin": [
+              "Asterios v152",
+              "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+            ]
+          },
+          {
+            "hash": "e4f18cb4c3d7ab6703a89feea80ef0051159ba623b6b27b4d2c8917e8f1a4f4d",
+            "origin": [
+              "2488949/public-assisted/submission.csv",
+              "goodpjw2008, Santa 2026 | DAG LNS + Depth-5 Search | LB 136,240"
+            ]
+          },
+          {
+            "hash": "811a92b8139c483a811cb1c5c745f2ccca5b8cbc80050b26f9b3a83b3fd02b7f",
+            "origin": [
+              "Rudolph v97",
+              ""
+            ]
+          }
+        ],
+        "sha256": "0d29f1f98e45726c6ffa2f47b8364f570b7585697e6c238ba1b5227c9a08fe75"
+      }
+    }
+  },
+  "emax_806": {
+    "url": "https://www.kaggle.com/datasets/royalacecat/santa-2026-replay-133806-lean/versions/1",
+    "trials": 28,
+    "rows": {
+      "scored_0274": {
+        "before": 134,
+        "after": 133,
+        "reproduction": {
+          "id": "scored_0274",
+          "before": 134,
+          "score": 133,
+          "mode": "anneal_diverse",
+          "seed": 494009,
+          "rounds": 3500,
+          "recipe": "all_matched",
+          "inputs": [
+            {
+              "hash": "f21eb45ad6040004b16cdf8081568428e54a60104ac79984afb99837047d2de1",
+              "origin": [
+                "Asterios v152",
+                "E-Max AI, Santa 2026 | Public Frontier | Score 133,833"
+              ]
+            },
+            {
+              "hash": "78da545e06b10d5b7dcf95bf78dff70015ef0123d6a99ee3488d9f46fd0d5133",
+              "origin": [
+                "138be6d/public-assisted/submission.csv",
+                "goodpjw2008, Santa 2026 DAG-LNS Programs v11, our_programs.csv; Wang Jakie search, seeded crossover credited to E-Max AI, and public contributors in the released ladder. Published tape differs from the supplied public frontier."
+              ]
+            },
+            {
+              "hash": "8d07ab0a0f631755b79954173de41bdf974c1712c307d03f19a992a2027976b4",
+              "origin": [
+                "Asterios v150",
+                "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+              ]
+            }
+          ],
+          "sha256": "7c23fcac3c2bed70e5d4a791fa34ccd2399a8d0525a342cb45cf5f0a0c290f99"
+        }
+      },
+      "scored_0919": {
+        "before": 119,
+        "after": 118,
+        "reproduction": {
+          "id": "scored_0919",
+          "before": 119,
+          "score": 118,
+          "mode": "anneal_diverse",
+          "seed": 494657,
+          "rounds": 3000,
+          "recipe": "matched",
+          "inputs": [
+            {
+              "hash": "0179223c39f3eb6b06040d1d0f08f89d798f7a4495a8c5e438caa0b03bbb0d42",
+              "origin": [
+                "Asterios v152",
+                "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 133,945"
+              ]
+            },
+            {
+              "hash": "0d254bcb735545736f7606e98d94623257b42437b27d2776ef3fd1f1ef1ad75c",
+              "origin": [
+                "62378d6/public-assisted/submission.csv",
+                "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP"
+              ]
+            },
+            {
+              "hash": "8cc65d882f5f006aec3e73efc5bec0e9925f238ed3df70fa4638b7716b1fa664",
+              "origin": [
+                "46cd45c/submission.csv",
+                "Generated from official inputs"
+              ]
+            },
+            {
+              "hash": "1ea6114ce972143f9cc645c5a7b0dc7d93e06e195adc9efccf384213d5341a6b",
+              "origin": [
+                "Rudolph v97",
+                ""
+              ]
+            }
+          ],
+          "sha256": "a6f6be8a803d73645a8dfd9a95a9fef9f629c4881918d991470b732e3f3f85bc"
+        }
+      },
+      "scored_0933": {
+        "before": 114,
+        "after": 113,
+        "reproduction": {
+          "id": "scored_0933",
+          "before": 114,
+          "score": 113,
+          "mode": "incremental_diverse",
+          "seed": 494668,
+          "rounds": 3500,
+          "recipe": "matched",
+          "inputs": [
+            {
+              "hash": "d9e4f06d28096bc4ee9873dc36b931e0d3ccc57e4314253f07ebc0b9891e7b8b",
+              "origin": [
+                "Asterios v152",
+                "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+              ]
+            },
+            {
+              "hash": "91efc7d35a7238c062a589e059d92c5ff67fed1121c7296893c0c75d9518cff6",
+              "origin": [
+                "2488949/public-assisted/submission.csv",
+                "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+              ]
+            },
+            {
+              "hash": "ea83b14b11bd4e88a60a5ae1744c0c901a714501f43ea951b7e52be76e0b2399",
+              "origin": [
+                "472b715/public-assisted/submission.csv",
+                "wang Jakie, Santa 2026 | Arithmetic Recipe Pool and MILP"
+              ]
+            }
+          ],
+          "sha256": "d869cdcacee7a950ede9aeb1c5907fc3fed488a1a528f90ca489a3b87d6c5b03"
+        }
+      },
+      "scored_0996": {
+        "before": 122,
+        "after": 121,
+        "reproduction": {
+          "id": "scored_0996",
+          "before": 122,
+          "score": 121,
+          "mode": "anneal_diverse",
+          "seed": 494731,
+          "rounds": 3500,
+          "recipe": "matched",
+          "inputs": [
+            {
+              "hash": "2fecb1077fda949944110f20e6b75b4be71019020621d65cfe9d70e23a11dacb",
+              "origin": [
+                "Asterios v152",
+                "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+              ]
+            },
+            {
+              "hash": "d2127cf37f6a136625df98645b7424f907089a0e267062c3d5b6bd18dc8a3a8e",
+              "origin": [
+                "2488949/public-assisted/submission.csv",
+                "Ertuğrul Özer, Santa 2026 | Starter Notebook!"
+              ]
+            },
+            {
+              "hash": "6bda09c0456db5ef39896fabcb192afaa21e938d9b132105692ca73fe5fa4a99",
+              "origin": [
+                "62378d6/public-assisted/submission.csv",
+                "E-Max AI, Santa 2026 | Public Frontier | Score 134,496"
+              ]
+            },
+            {
+              "hash": "64298451fef51413dd2dc75f498ba4926ee5d6a81a239e9bb5f2b191bbbd8c63",
+              "origin": [
+                "Rudolph v97",
+                ""
+              ]
+            }
+          ],
+          "sha256": "60cd770283066213e8773643cb39641135c0f1e61b50b9be6c86ec06499adc87"
+        }
+      }
+    }
+  }
+}
