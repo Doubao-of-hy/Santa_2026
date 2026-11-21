@@ -1,5 +1,9 @@
 # Santa 2026 求解进展
 
+## 北京时间 11 月 21 日 10:41
+
+公开辅助候选 **133,788 条**，独立候选 **140,282 条**。第 76、458 题各省 1 条。学习排序、可逆目标替换及三种接口重建都完成了与现有方法的比较，均未带来额外节省。[两道改进](public-assisted/releases/20261121-1035.json) · [学习排序](collaboration/helper-pricing/learned-results.json.gz) · [目标替换](collaboration/goal-differences/) · [接口重建](collaboration/atakan-frontier/goodpjw23-interfaces.json.gz)
+
 ## 北京时间 11 月 21 日 10:30
 
 公开辅助候选为 **133,790 条**，独立候选为 **140,327 条**，均已逐题回放。E-Max AI 的五个新程序与作者逐条吻合，再合入独立程序后，比其 133,796 条的文件少 6 条。54 道题上的两种子图组合均未缩短整题，结束这项实验。[五道复现题与额外改进](public-assisted/releases/emax-133796-output.json) · [54 道对照题](collaboration/recipe-union/cone-assignment-results.json.gz)

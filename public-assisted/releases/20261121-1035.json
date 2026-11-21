@@ -1,0 +1,137 @@
+{
+  "public_releases": {
+    "base": 133790,
+    "prior_sha256": "308621bfd4e60dcf553b8b3c7a6b4dde3a1f4312da9a57eddd95bdf0398943c6",
+    "score": 133789,
+    "rows": {
+      "scored_0458": {
+        "credit": "GoodPJW, Wang Jakie, E-Max AI and public sources in the release ladder",
+        "source": "good23/our_programs.csv",
+        "before": 149,
+        "after": 148,
+        "program_sha256": "a7c57229b32a232e7f610b96c08b9e85be4688188bf0919bc6d72adf88d8fb1b"
+      }
+    },
+    "sources": {
+      "asterios154/best_programs.csv": {
+        "catalog": {
+          "ref": "asteriospanoras/santa-2026-elf-programs-and-experiments",
+          "currentVersionNumber": 154,
+          "lastUpdated": "2026-11-21T02:17:01.667Z",
+          "title": "Santa 2026 Elf Calculator: Programs + Experiments",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 817528
+        },
+        "version": 154,
+        "archive_sha256": "8b7d245c0ffbd420f93e9fd718caeab163a2e7c626accadbb24c5e314c5ff821",
+        "url": "https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/154",
+        "name": "best_programs.csv",
+        "sha256": "65b2c06471d60f3c8ffe0d31bfd303388155054bb8d885e1947282f02ba18764",
+        "score": 133803
+      },
+      "good23/our_programs.csv": {
+        "catalog": {
+          "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+          "currentVersionNumber": 23,
+          "lastUpdated": "2026-11-21T02:26:32.940Z",
+          "title": "Santa 2026 DAG-LNS programs",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 1207028
+        },
+        "version": 23,
+        "archive_sha256": "a5aad9d76d8c376f3d62c2d0916a003357adb085ae898f868f249d1c25e232d9",
+        "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/23",
+        "name": "our_programs.csv",
+        "sha256": "43f1269214624c552e66d0b4630698526cd76d886876dfe6e6f8c26bc582feeb",
+        "score": 133794
+      },
+      "good23/public_frontier.csv": {
+        "catalog": {
+          "ref": "goodpjw2008/santa-2026-dag-lns-programs",
+          "currentVersionNumber": 23,
+          "lastUpdated": "2026-11-21T02:26:32.940Z",
+          "title": "Santa 2026 DAG-LNS programs",
+          "licenseName": "Apache 2.0",
+          "totalBytes": 1207028
+        },
+        "version": 23,
+        "archive_sha256": "a5aad9d76d8c376f3d62c2d0916a003357adb085ae898f868f249d1c25e232d9",
+        "url": "https://www.kaggle.com/datasets/goodpjw2008/santa-2026-dag-lns-programs/versions/23",
+        "name": "public_frontier.csv",
+        "sha256": "4affc0207d8cec40a19119146cc9019295e8b8fc5c4766aff0fc77c1e81e5a7f",
+        "score": 133796
+      }
+    }
+  },
+  "gift": {
+    "version": 58,
+    "source": "https://www.kaggle.com/code/asteriospanoras/santa-2026-best-public-score-a-gift-per-run",
+    "notebook_sha256": "2437f591dc176607e6202b30b671054b9ff69c1ab2f3b8f332485755baa583af",
+    "rows": {
+      "scored_0076": {
+        "before": 144,
+        "after": 143,
+        "parent_credit": "goodpjw2008, Santa 2026 | LNS + CP-SAT Recombine | LB 134,203"
+      }
+    }
+  },
+  "goodpjw_parent_list": [
+    [
+      "santa-2026-public-frontier-score-133-796",
+      133796
+    ],
+    [
+      "santa-2026-fast-validator-eda-sota-baseline",
+      133802
+    ],
+    [
+      "santa-2026-verified-best-of-merge",
+      133803
+    ],
+    [
+      "rudolph-the-red-nosed-register-allocator",
+      133806
+    ],
+    [
+      "santa-2026-exact-portfolio-frontier-133813",
+      133813
+    ],
+    [
+      "santa-is-not-happy",
+      133835
+    ],
+    [
+      "santa-2026-starter-notebook",
+      133836
+    ],
+    [
+      "public-merge",
+      133874
+    ],
+    [
+      "santa-2026-elf-calculator-verified-portfolio",
+      133884
+    ],
+    [
+      "elf-calculator-best-of-public-merge-polish",
+      133920
+    ],
+    [
+      "elf-calc-signed-regions-and-register-scheduling",
+      133924
+    ],
+    [
+      "arithmetic-dag-synthesis-and-register-allocation",
+      133978
+    ],
+    [
+      "santa-2026-built-from-scratch-synthesizer",
+      153517
+    ],
+    [
+      "santa-2026-explorer",
+      1276696
+    ]
+  ],
+  "goodpjw_wang_notice_sha256": "84956ff605a07d25f4b9f663d143cd30d7acd4d95aa5f6e6c0405b6c7c535e4d"
+}

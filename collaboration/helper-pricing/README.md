@@ -16,3 +16,5 @@
 ```text
 python -B collaboration/helper-pricing/search.py --repo . --puzzles data/puzzles.csv --out work/pricing --group development
 ```
+
+从 290 道历史独立改进题学习哪些新整数常出现于较短的程序；另用 90 道题评估，其中 81 道能枚举出这样的整数。按结构排序能在前 12 个候选命中 67 道，学习排序命中 61 道。在另一组 56 道题上，两种排序都未缩短独立和公开辅助程序，本轮结束。[训练及求解程序](learned.py) · [题号、模型与逐题结果](learned-results.json.gz)

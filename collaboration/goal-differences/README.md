@@ -7,3 +7,5 @@
 第一轮对临时题搜解，随后把遗漏目标的恢复运算计入完整程序，第二轮对原题搜解。以两套解释器回放全部 1,000 题的总长度记录效果。留出组若有至少两题严格优于直接搜索，则继续评估该路线。
 
 在仓库根目录，用 `python -B collaboration/goal-differences/compare.py --puzzles data/puzzles.csv --exe /path/to/anneal --out /path/to/results --lane own --phase development` 运行开发组。将 `--phase` 改为 `holdout` 可运行留出组，将 `--lane` 改为 `public` 可测试公开辅助解。`--replay-only` 可复验已有的压缩记录，省去重新搜索。
+
+两条路线各 36 道题均已完成。独立开发组有 1 道缩短 1 条，三种方法都找到同样的节省。两组留出题均未缩短，停止扩大。[各组结果](results.json)

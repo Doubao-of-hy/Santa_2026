@@ -1,0 +1,58 @@
+{
+  "own-development": {
+    "phase": "development",
+    "lane": "own",
+    "tested": 12,
+    "improved": 1,
+    "arms": [
+      1,
+      1,
+      1
+    ],
+    "saved": 1,
+    "beats_ordinary": [],
+    "score": 140370
+  },
+  "own-holdout": {
+    "phase": "holdout",
+    "lane": "own",
+    "tested": 24,
+    "improved": 0,
+    "arms": [
+      0,
+      0,
+      0
+    ],
+    "saved": 0,
+    "beats_ordinary": [],
+    "score": 140371
+  },
+  "public-development": {
+    "phase": "development",
+    "lane": "public",
+    "tested": 12,
+    "improved": 0,
+    "arms": [
+      0,
+      0,
+      0
+    ],
+    "saved": 0,
+    "beats_ordinary": [],
+    "score": 133808
+  },
+  "public-holdout": {
+    "phase": "holdout",
+    "lane": "public",
+    "tested": 24,
+    "improved": 0,
+    "arms": [
+      0,
+      0,
+      0
+    ],
+    "saved": 0,
+    "beats_ordinary": [],
+    "score": 133808
+  }
+}

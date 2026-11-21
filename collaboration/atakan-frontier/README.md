@@ -42,3 +42,5 @@ python verify.py
 To repeat the source diagnosis, run lineage.py with --previous and --next pointing to the v119 and v120 best_programs.csv exports. Its five profiles and input-row hashes are frozen in lineage-design.json.
 
 The two shorter.csv files and matching origins files are the portable output. verification.json records the full table totals and hashes; details.json.gz contains each of the 432 scoring trials and solver counters. The published package contains no Kaggle input data, binaries, full submission or third-party source copies.
+
+GoodPJW v23 contains Atakan Aldemir’s interface closure, joint-interface and relay searches. Each received the same 900 ms per case on 54 independent and 54 assisted cases. None shortened a program. [Source, settings and per-case outputs](goodpjw23-interfaces.json.gz)

@@ -11,3 +11,5 @@ Asterios Panoras 在 “a Gift per Run” 的公开笔记本中给出第 295 题
 Asterios Panoras 第 153 版及其笔记本第 55 版、GoodPJW 第 22 版和在已知来源上重跑 E-Max AI 的搜索，共缩短 10 道题，候选达到 133,798 条。Alex Chilton 的 Rudolph 第 98 版也完成了全表核对。[各版本、题号、署名和搜索参数](20261121-1012.json)
 
 E-Max AI 发布的五组计算都已在固定输入上重新生成。两份解释器核对后，五份程序逐条吻合，本轮合并独立改进后，仓库还在 4 道题上合计少 6 条。[运行版本、输入来源与逐题校验](emax-133796-output.json)
+
+GoodPJW 第 23 版缩短了第 458 题。Asterios 的公开笔记本第 58 版缩短了第 76 题，其父本署名 GoodPJW。[版本、原作者和逐题差额](20261121-1035.json) · [GoodPJW 使用的 Wang Jakie 原始声明](../GoodPJW-v20-NOTICE.md)
