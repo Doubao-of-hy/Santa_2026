@@ -1,0 +1,63 @@
+{
+  "source_commit": "d6e507ee36f795b8d38d6e41c3f304316b61b856",
+  "source_author": "Hiyohane",
+  "method": "Described by contributor as generated from scratch.",
+  "baseline": "f338b45e472c858dfa3c69bba9f653c14973a92a",
+  "submitted_total": 140428,
+  "rows": {
+    "scored_0045": {
+      "old": 167,
+      "new": 166,
+      "local_before": 167,
+      "public_before": 160
+    },
+    "scored_0076": {
+      "old": 151,
+      "new": 147,
+      "local_before": 151,
+      "public_before": 144
+    },
+    "scored_0089": {
+      "old": 134,
+      "new": 132,
+      "local_before": 134,
+      "public_before": 119
+    },
+    "scored_0141": {
+      "old": 138,
+      "new": 137,
+      "local_before": 138,
+      "public_before": 129
+    },
+    "scored_0316": {
+      "old": 123,
+      "new": 121,
+      "local_before": 123,
+      "public_before": 111
+    },
+    "scored_0407": {
+      "old": 169,
+      "new": 167,
+      "local_before": 169,
+      "public_before": 155
+    },
+    "scored_0483": {
+      "old": 180,
+      "new": 176,
+      "local_before": 180,
+      "public_before": 165
+    },
+    "scored_0504": {
+      "old": 199,
+      "new": 197,
+      "local_before": 199,
+      "public_before": 186
+    },
+    "scored_0850": {
+      "old": 187,
+      "new": 186,
+      "local_before": 187,
+      "public_before": 174
+    }
+  }
+}
